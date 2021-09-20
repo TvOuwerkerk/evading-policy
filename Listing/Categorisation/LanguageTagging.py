@@ -46,7 +46,7 @@ with open('BigQuery-McAfee-Cat.csv', 'r') as read_obj, open('BigQuery-McAfee-Cat
             with open('Lan-tagging_errors.csv', 'a') as errors:
                 errors.write(row[0] + " Retrieval timeout\n")
             continue
-        text = driver.find_element_by_xpath('/html/body').text
+        text = driver.execute_script("return (!!document.body && document.body.innerText)")
         if text == '':
             time.sleep(2)
             text = driver.find_element_by_xpath('/html/body').text
