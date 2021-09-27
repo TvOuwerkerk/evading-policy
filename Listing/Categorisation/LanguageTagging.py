@@ -13,7 +13,6 @@ import random
 driver_path = GeckoDriverManager().install()
 options = webdriver.FirefoxOptions()
 options.headless = True
-driver = webdriver.Firefox(executable_path=driver_path, firefox_options=options)
 
 
 def get_lan_code(text):
@@ -28,10 +27,12 @@ def get_lan_code(text):
         return 'Unknown'
 
 
-def get_text(site, driver):
+def get_text(site):
+    driver = webdriver.Firefox(executable_path=driver_path, firefox_options=options)
     try:
         driver.get(site)
     except TimeoutException:
+        driver.quit()
         return -1, [site] + [' Retrieval timeout\n']
     # TODO: wait here
     text = driver.execute_script('return (!!document.body && document.body.innerText)')
@@ -39,14 +40,16 @@ def get_text(site, driver):
         time.sleep(2)
         text = driver.execute_script('return (!!document.body && document.body.innerText)') # TODO: define method for this
     else:
+        driver.quit()
         return 0, text
     if text == '':
+        driver.quit()
         return -1, [site] + [' Empty text\n']
 
 
 def tag_row(row):
     try:
-        return_code, value = get_text(row[0], driver)
+        return_code, value = get_text(row[0])
     except Exception as exc:  # Catch problems like CAPTCHA or broken websites TODO: proper exception handling
         print(str(exc) + ' exception encountered in getting')
         print(row[0])
@@ -81,7 +84,7 @@ if __name__ == '__main__':
         inp = random.sample(inp_list, 100)
         inp.append(None)
         with Pool(nr_runners) as pool:
-            output = pool.map(tag_row, inp)  # TODO: clean up/close drivers when closing runners.
+            output = pool.map(tag_row, inp)
 
         for line in output:  # TODO: have output runner using shared queue (Note: threads may be more suitable)
             if line is None:
@@ -94,4 +97,3 @@ if __name__ == '__main__':
                 continue
             else:
                 print('Invalid code found in output')
-    driver.close()
