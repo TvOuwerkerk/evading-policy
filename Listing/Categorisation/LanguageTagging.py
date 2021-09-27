@@ -34,7 +34,7 @@ def get_text(site):
     except TimeoutException:
         driver.quit()
         return -1, [site] + [' Retrieval timeout\n']
-    # TODO: wait here
+    time.sleep(5)
     text = driver.execute_script('return (!!document.body && document.body.innerText)')
     if text == '':
         time.sleep(2)
