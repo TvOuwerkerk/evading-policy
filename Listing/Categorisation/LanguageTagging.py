@@ -33,11 +33,11 @@ def get_text(site, driver):
         driver.get(site)
     except TimeoutException:
         return -1, [site] + [' Retrieval timeout\n']
-
+    # TODO: wait here
     text = driver.execute_script('return (!!document.body && document.body.innerText)')
     if text == '':
         time.sleep(2)
-        text = driver.find_element_by_xpath('/html/body').text
+        text = driver.execute_script('return (!!document.body && document.body.innerText)') # TODO: define method for this
     else:
         return 0, text
     if text == '':
@@ -45,9 +45,6 @@ def get_text(site, driver):
 
 
 def tag_row(row):
-    if row is None:
-        driver.close()
-        return
     try:
         return_code, value = get_text(row[0], driver)
     except Exception as exc:  # Catch problems like CAPTCHA or broken websites TODO: proper exception handling
