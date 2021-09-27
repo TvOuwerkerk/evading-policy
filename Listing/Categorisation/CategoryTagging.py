@@ -3,7 +3,7 @@ import tld
 domains = {}
 catdomains = set()
 categories = {}
-with open('BigQuery-Top170k-NL-clean.csv', 'r') as inp:
+with open('..\\CRUX-Top170K-NL-clean.csv', 'r') as inp:
     for line in inp:
         domains[tld.get_fld(line.split('\n')[0])] = line
 
@@ -15,17 +15,12 @@ with open('Tranco-202106-site_categories.csv', 'r') as cat:
         categories[url] = tags
         catdomains.add(url)
 
-with open('BigQuery-McAfee-Cat.csv', 'w') as out:
-    with open('BigQuery-McAfee-SpecialData.csv', 'w') as sens:
-        intersect = set(domains.keys()).intersection(catdomains)
-        for fld in intersect:
-            s = categories[fld][0]
-            for x in categories[fld][1:]:
-                s += ',' + x
-            if any([x in categories[fld] for x in
-                    [' Auctions/Classifieds', ' Fashion/Beauty,', ' Gambling', ' Online Shopping']]):
-                out.write(domains[fld].split('\n')[0] + ',' + s + '\n')
-            if any([x in categories[fld] for x in
-                    [' Drugs', ' Health,', ' Nudity', ' Pharmacy', ' Politics/Opinion',
-                     ' Pornography', ' Religion/Ideology', ' Sexual Materials']]):
-                sens.write(domains[fld].split('\n')[0] + ',' + s + '\n')
+with open('CRUX-McAfee-Cat.csv', 'w') as out:
+    intersect = set(domains.keys()).intersection(catdomains)
+    for fld in intersect:
+        s = categories[fld][0]
+        for x in categories[fld][1:]:
+            s += ',' + x
+        if any([x in categories[fld] for x in
+                [' Auctions/Classifieds', ' Fashion/Beauty,', ' Gambling', ' Online Shopping']]):
+            out.write(domains[fld].split('\n')[0] + ',' + s + '\n')

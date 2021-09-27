@@ -73,7 +73,7 @@ def tag_row(row):
 
 if __name__ == '__main__':
     nr_runners = 1
-    with open('BigQuery-McAfee-Cat.csv', 'r', newline='') as read_obj, open('BigQuery-McAfee-Cat_Lan.csv', 'w',
+    with open('CRUX-McAfee-Cat.csv', 'r', newline='') as read_obj, open('CRUX-McAfee-Cat_Lan.csv', 'w',
             newline='') as tagged, open('Tagging-errors.csv', 'w', newline='') as errors:
         inp_list = [x for x in list(reader(read_obj)) if x is not None]
         csv_output_writer = writer(tagged)
