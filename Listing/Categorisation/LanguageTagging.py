@@ -26,6 +26,8 @@ def get_lan_code(text):
     except UnknownLanguage:
         return 'Unknown'
 
+def get_inner_text(driver):
+    return driver.execute_script('return (!!document.body && document.body.innerText)')
 
 def get_text(site):
     driver = webdriver.Firefox(executable_path=driver_path, firefox_options=options)
@@ -35,10 +37,10 @@ def get_text(site):
         driver.quit()
         return -1, [site] + [' Retrieval timeout\n']
     time.sleep(5)
-    text = driver.execute_script('return (!!document.body && document.body.innerText)')
+    text = get_inner_text(driver)
     if text == '':
-        time.sleep(2)
-        text = driver.execute_script('return (!!document.body && document.body.innerText)') # TODO: define method for this
+        time.sleep(5)
+        text = get_inner_text(driver)
     else:
         driver.quit()
         return 0, text
