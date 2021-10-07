@@ -1,6 +1,8 @@
 import time
 import random
 import logging
+import regex
+
 from csv import reader
 from csv import writer
 from multiprocessing import Pool, Lock
@@ -9,6 +11,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from webdriver_manager.firefox import GeckoDriverManager
 
+import pycld2
 from polyglot.detect import Detector
 from polyglot.detect.base import UnknownLanguage
 
@@ -20,10 +23,18 @@ timestamp = time.strftime('%d-%b-%Y_%H%M', time.localtime())
 logname = 'LanguageTagging_' + timestamp + '.log'
 logging.basicConfig(filename=logname, level=logging.INFO)
 
+RE_BAD_CHARS = regex.compile(r"\p{Cc}|\p{Cs}")
+
+# Sanitation code provided by:
+# https://github.com/mikemccand/chromium-compact-language-detector/issues/22#issuecomment-707999784
+def remove_bad_chars(text):
+    return RE_BAD_CHARS.sub("", text)
+
 
 def get_lan_code(text):
     if text == '':
         return 'Empty'
+
     detector = Detector(text)
     if detector.language.confidence >= 0.9 and detector.reliable:
         return detector.language.code
@@ -60,7 +71,7 @@ def tag_row(row):
         return
     except Exception as exc:  # Catch problems like CAPTCHA or broken websites
         # TODO: Catch specific exceptions that can occur during retrieval.
-        logging.exception('- Retrieving - ' + row[0] + '\n' + str(exc))
+        logging.exception('- Retrieving - ' + row[0])
         driver.quit()
         return
     if return_code is None:
@@ -68,21 +79,24 @@ def tag_row(row):
 
     try:
         lan_code = get_lan_code(value)
-    except UnknownLanguage as unknown:
+    except pycld2.error:
+        logging.warning(' - Retrieving: Unicode error, retrying - ' + row[0])
+        lan_code = get_lan_code(remove_bad_chars(value))
+    except UnknownLanguage:
         lan_code = 'Unknown'
-    except Exception as exc:  # Catch unexpected problems in detecting languages
+    except Exception:  # Catch unexpected problems in detecting languages
         # TODO: Catch specific exceptions that can occur during tagging.
-        logging.exception('- Tagging - ' + row[0] + '\n' + str(exc))
+        logging.exception('- Tagging - ' + row[0])
         driver.quit()
         return
     if lan_code == 'Empty':
-        logging.warning('Tagging: Empty text - ')
+        logging.error('Tagging: Empty text - ' + row[0])
         return
     if lan_code in ['Unknown', 'un', '']:
-        logging.warning('Tagging: Unknown language - ')
+        logging.error('Tagging: Unknown language - ' + row[0])
         return
     if lan_code == 'Unreliable':
-        logging.warning('Tagging: Low confidence - ')
+        logging.error('Tagging: Low confidence - ' + row[0])
         return
 
     row = [row[0]] + [lan_code] + row[1:]
@@ -93,11 +107,15 @@ def tag_row(row):
 
 
 if __name__ == '__main__':
+    logging.info('Current time: ' + time.strftime('%d-%b-%Y_%H%M', time.localtime()))
     nr_runners = 8
-    with open('CRUX-McAfee-Cat.csv', 'r', newline='') as read_obj, \
-            open('Tagging-errors.csv', 'w', newline='') as errors:
+    sample_size = 0
+    with open('CRUX-McAfee-Cat.csv', 'r', newline='') as read_obj:
         inp_list = [x for x in list(reader(read_obj)) if x is not None]
-        csv_error_writer = writer(errors)
-        inp = random.sample(inp_list, 200)
+        if sample_size <= 0:
+            to_tag = inp_list
+        else:
+            to_tag = random.sample(inp_list, sample_size)
         with Pool(nr_runners) as pool:
-            pool.map(tag_row, inp)
+            pool.map(tag_row, to_tag)
+    logging.info('Current time: ' + time.strftime('%d-%b-%Y_%H%M', time.localtime()))
