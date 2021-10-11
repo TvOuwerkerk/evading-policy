@@ -25,6 +25,7 @@ logging.basicConfig(filename=logname, level=logging.INFO)
 
 RE_BAD_CHARS = regex.compile(r"\p{Cc}|\p{Cs}")
 
+
 # Sanitation code provided by:
 # https://github.com/mikemccand/chromium-compact-language-detector/issues/22#issuecomment-707999784
 def remove_bad_chars(text):
@@ -48,7 +49,8 @@ def get_inner_text(driver):
 def get_text(site, driver):
     logging.info(' - Retrieving - ' + site)
     driver.get(site)
-    # TODO:  log actual site being retrieved after any possible redirections
+    if driver.current_url != site:
+        logging.info(' - Retrieving: Redirect detected - {0} TO {1}'.format(site, driver.current_url))
     time.sleep(5)
     text = get_inner_text(driver)
     if text == '':
