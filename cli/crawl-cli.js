@@ -122,7 +122,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
     const dataCallback = (url, data) => {
         successes++;
         updateProgress(url.toString());
-
+        // TODO: If data['screenshots'] exists, save it as a file instead of writing to JSON
         const outputFile = createOutputPath(url);
         fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
     };
