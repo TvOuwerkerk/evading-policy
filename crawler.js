@@ -27,6 +27,10 @@ const MOBILE_VIEWPORT = {
 // for debugging: will launch in window mode instead of headless, open devtools and don't close windows after process finishes
 const VISUAL_DEBUG = false;
 
+// Paths used to include an extension during running.
+const BASE_PATH = process.cwd();
+const EXTENSION_PATH = `${BASE_PATH}/../Consent-O-Matic/Extension`;
+
 /**
  * @param {function(...any):void} log
  * @param {string} proxyHost
@@ -40,9 +44,15 @@ function openBrowser(log, proxyHost, executablePath) {
         args: [
             // enable FLoC
             '--enable-blink-features=InterestCohortAPI',
-            '--enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"'
+            '--enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"',
+            // Add extension(s)
+            `--disable-extensions-except=${EXTENSION_PATH}`,
+            `--load-extension=${EXTENSION_PATH}`,
+            '--no-sandbox',
         ]
     };
+    // set headless to false because Chromium does not like headless extensions.
+    args.headless = false;
     if (VISUAL_DEBUG) {
         args.headless = false;
         args.devtools = true;
@@ -51,7 +61,7 @@ function openBrowser(log, proxyHost, executablePath) {
         let url;
         try {
             url = new URL(proxyHost);
-        } catch(e) {
+        } catch (e) {
             log('Invalid proxy URL');
         }
 
@@ -281,7 +291,8 @@ function isThirdPartyRequest(documentUrl, requestUrl) {
  * @returns {Promise<CollectResult>}
  */
 module.exports = async (url, options) => {
-    const log = options.log || (() => {});
+    const log = options.log || (() => {
+    });
     const browser = options.browserContext ? null : await openBrowser(log, options.proxyHost, options.executablePath);
     // Create a new incognito browser context.
     const context = options.browserContext || await browser.createIncognitoBrowserContext();
@@ -297,7 +308,7 @@ module.exports = async (url, options) => {
             emulateMobile: options.emulateMobile,
             runInEveryFrame: options.runInEveryFrame
         }), MAX_TOTAL_TIME);
-    } catch(e) {
+    } catch (e) {
         log(chalk.red('Crawl failed'), e.message, chalk.gray(e.stack));
         throw e;
     } finally {
@@ -319,4 +330,4 @@ module.exports = async (url, options) => {
  * @property {number} testStarted time when the crawl started (unix timestamp)
  * @property {number} testFinished time when the crawl finished (unix timestamp)
  * @property {any} data object containing output from all collectors
-*/
+ */
