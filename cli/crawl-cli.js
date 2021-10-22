@@ -10,6 +10,7 @@ const {getCollectorIds, createCollector} = require('../helpers/collectorsList');
 const {metadataFileExists, createMetadataFile} = require('./metadataFile');
 // eslint-disable-next-line no-unused-vars
 const BaseCollector = require('../collectors/BaseCollector');
+const ScreenshotCollector = require('../collectors/ScreenshotCollector');
 
 program
     .option('-o, --output <path>', '(required) output folder')
@@ -117,13 +118,22 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
 
     /**
      * @param {URL} url
-     * @param {object} data
+     * @param {import('../crawler').CollectResult} data
      */
     const dataCallback = (url, data) => {
         successes++;
         updateProgress(url.toString());
-        // TODO: If data['screenshots'] exists, save it as a file instead of writing to JSON
         const outputFile = createOutputPath(url);
+        const outputFileImg = `${outputFile.slice(0,outputFile.length-5)}.png`;
+        //TODO: unsure whether this ^^^ is the best way to construct filename
+
+        let screenshotID = new ScreenshotCollector().id();
+        if (screenshotID in data.data) {
+            let decodedImg = Buffer.from(data.data[screenshotID],'base64');
+            fs.writeFileSync(outputFileImg, decodedImg);
+            data.data[screenshotID] = `Screenshot saved to ${outputFileImg}`;
+        }
+
         fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
     };
 

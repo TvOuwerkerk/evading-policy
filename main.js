@@ -6,6 +6,7 @@ const APICallCollector = require('./collectors/APICallCollector');
 const CookieCollector = require('./collectors/CookieCollector');
 const TargetCollector = require('./collectors/TargetCollector');
 const TraceCollector = require('./collectors/TraceCollector');
+const ScreenshotCollector = require('./collectors/ScreenshotCollector');
 //TODO: add screenshotCollector
 
 // reexport main pieces of code so that they can be easily imported when this project is used as a dependency
@@ -18,5 +19,6 @@ module.exports = {
     APICallCollector,
     CookieCollector,
     TargetCollector,
-    TraceCollector
+    TraceCollector,
+    ScreenshotCollector
 };

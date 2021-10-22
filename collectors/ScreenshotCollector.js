@@ -1,6 +1,5 @@
 const BaseCollector = require('./BaseCollector');
 
-// eslint-disable-next-line no-unused-vars
 class ScreenshotCollector extends BaseCollector {
 
     id() {
@@ -8,13 +7,25 @@ class ScreenshotCollector extends BaseCollector {
     }
 
     /**
-     * Called after the crawl to retrieve the data. Can be async, can throw errors.
-     *
-     * @param {{finalUrl: string, urlFilter?: function(string):boolean}} options
-     * @returns {Promise<Object>|Object}
+     * @param {{cdpClient: import('puppeteer').CDPSession, url: string, type: import('./TargetCollector').TargetType}} targetInfo
      */
-    getData(options) {
-        //TODO: take screenshot and return
-        return super.getData(options);
+    addTarget({cdpClient, type}) {
+        if (type === 'page') {
+            this._cdpClient = cdpClient;
+        }
+    }
+
+    /**
+     * @returns {Promise<Screenshot>}
+     */
+    async getData() {
+        const result = await this._cdpClient.send('Page.captureScreenshot');
+        return result.data;
     }
 }
+
+module.exports = ScreenshotCollector;
+
+/**
+ * @typedef {string} Screenshot as Base64-encoded image data
+ */
