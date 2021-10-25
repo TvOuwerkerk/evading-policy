@@ -27,10 +27,6 @@ const MOBILE_VIEWPORT = {
 // for debugging: will launch in window mode instead of headless, open devtools and don't close windows after process finishes
 const VISUAL_DEBUG = false;
 
-// Paths used to include an extension during running.
-const BASE_PATH = process.cwd();
-const EXTENSION_PATH = `${BASE_PATH}/../Consent-O-Matic/Extension`;
-
 /**
  * @param {function(...any):void} log
  * @param {string} proxyHost
@@ -44,15 +40,10 @@ function openBrowser(log, proxyHost, executablePath) {
         args: [
             // enable FLoC
             '--enable-blink-features=InterestCohortAPI',
-            '--enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"',
-            // Add extension(s)
-            `--disable-extensions-except=${EXTENSION_PATH}`,
-            `--load-extension=${EXTENSION_PATH}`,
-            '--no-sandbox',
+            '--enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"'
         ]
     };
-    // set headless to false because Chromium does not like headless extensions.
-    args.headless = false;
+
     if (VISUAL_DEBUG) {
         args.headless = false;
         args.devtools = true;
