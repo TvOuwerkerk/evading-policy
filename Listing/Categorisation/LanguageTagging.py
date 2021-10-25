@@ -33,6 +33,9 @@ def remove_bad_chars(text):
 
 
 def get_lan_code(text):
+    """Run language detection on the given text.
+    returns a string of the language code associated with the detected language
+    """
     if text == '':
         return 'Empty'
 
@@ -43,10 +46,12 @@ def get_lan_code(text):
 
 
 def get_inner_text(driver):
+    """Run some JavaScript in order to get the text of a webpage."""
     return driver.execute_script('return (!!document.body && document.body.innerText)')
 
 
 def get_text(site, driver):
+    """Retrieve the text off of a given website."""
     logging.info(' - Retrieving - ' + site)
     driver.get(site)
     if driver.current_url != site:
@@ -64,6 +69,9 @@ def get_text(site, driver):
 
 
 def tag_row(row):
+    """Given a row from the .csv containing the websites that need to be tagged,
+    add a language tag to it and write the result to the output file.
+    """
     driver = webdriver.Firefox(executable_path=driver_path, firefox_options=options)
     try:
         return_code, value = get_text(row[0], driver)
@@ -71,9 +79,9 @@ def tag_row(row):
     except TimeoutException:
         logging.exception(' - Retrieving: Timeout - ' + row[0])
         return
-    except Exception as exc:  # Catch problems like CAPTCHA or broken websites
-        # TODO: Catch specific exceptions that can occur during retrieval.
+    except Exception:  # Catch problems like CAPTCHA or broken websites.
         logging.exception('- Retrieving - ' + row[0])
+        # logging.exception already logs the exception's information, so no further handling is necessary.
         driver.quit()
         return
     if return_code is None:
@@ -86,9 +94,9 @@ def tag_row(row):
         lan_code = get_lan_code(remove_bad_chars(value))
     except UnknownLanguage:
         lan_code = 'Unknown'
-    except Exception:  # Catch unexpected problems in detecting languages
-        # TODO: Catch specific exceptions that can occur during tagging.
+    except Exception:  # Catch unexpected problems in detecting languages like unknown characters.
         logging.exception('- Tagging - ' + row[0])
+        # logging.exception already logs the exception's information, so no further handling is necessary.
         driver.quit()
         return
     if lan_code == 'Empty':
