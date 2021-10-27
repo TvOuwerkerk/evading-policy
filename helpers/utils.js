@@ -1,14 +1,19 @@
 // eslint-disable-next-line no-unused-vars
 const puppeteer = require('puppeteer');
-const sleep = require("sleep-promise");
 
-const MAX_WAIT_TIME_FOR_CMP_DETECTION = 3;
-const SLEEP_TIME_FOR_CMP_DETECTION = 3;
-const POST_CMP_DETECTION_WAIT_TIME = 3;
+const MAX_WAIT_TIME_FOR_CMP_DETECTION = 6000;
+const SLEEP_TIME_FOR_CMP_DETECTION = 300;
+const POST_CMP_DETECTION_WAIT_TIME = 2500;
+
+/**
+ * @param {number} time
+ */
+function sleep(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+}
 
 //First, make ready eventListener: foundCMPEvent
 //Create new ConsentEngine object that will trigger foundCMPEvent event.
-
 /**
  * @param {puppeteer.Page} page
  * @param {(arg0: string) => void} log
