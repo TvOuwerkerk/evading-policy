@@ -4,6 +4,8 @@ const chalk = require('chalk').default;
 const {createTimer} = require('./helpers/timer');
 const wait = require('./helpers/wait');
 const tldts = require('tldts');
+const fs = require('fs');
+const pageUtils = require('./helpers/utils');
 
 const MAX_LOAD_TIME = 30000;//ms
 const MAX_TOTAL_TIME = MAX_LOAD_TIME * 2;//ms
@@ -25,7 +27,12 @@ const MOBILE_VIEWPORT = {
 };
 
 // for debugging: will launch in window mode instead of headless, open devtools and don't close windows after process finishes
-const VISUAL_DEBUG = false;
+const VISUAL_DEBUG = true;
+
+// values needed to work with Consent-O-Matic source code
+const cmpDetectorSource = fs.readFileSync('./helpers/cmpDetect.js', 'utf8');
+const ENABLE_CMP_EXTENSION = true;
+const CMP_ACTION ='NO_ACTION';  //Values can be 'NO_ACTION', 'ACCEPT_ALL', 'REJECT_ALL'
 
 /**
  * @param {function(...any):void} log
@@ -190,6 +197,10 @@ async function getSiteData(context, url, {
     }
 
     page.setViewport(emulateMobile ? MOBILE_VIEWPORT : DEFAULT_VIEWPORT);
+    //After page load, inject CMP detector
+    if(ENABLE_CMP_EXTENSION) {
+        await page.evaluateOnNewDocument(cmpDetectorSource);
+    }
 
     // if any prompts open on page load, they'll make the page hang unless closed
     page.on('dialog', dialog => dialog.dismiss());
@@ -221,6 +232,16 @@ async function getSiteData(context, url, {
     await page.waitForTimeout(EXECUTION_WAIT_TIME);
 
     const finalUrl = page.url();
+
+    //Fire CMP detector
+    if(ENABLE_CMP_EXTENSION) {
+        try {
+            await pageUtils.findCMP(page, log, CMP_ACTION);
+        } catch (error) {
+            log('Error while detecting CMP', error.message);
+        }
+    }
+
     /**
      * @type {Object<string, Object>}
      */
