@@ -1236,7 +1236,7 @@ class Tools {
 
 Tools.base = null;
 
-cmpConfigData = {
+const cmpConfigData = {
     "Autodesk": {
         "detectors": [
             {
@@ -11072,3 +11072,9 @@ cmpConfigData = {
         ]
     }
 }
+
+module.exports = {
+    cmpConfigData,
+    GDPRConfig,
+    ConsentEngine
+};
