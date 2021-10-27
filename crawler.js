@@ -27,12 +27,12 @@ const MOBILE_VIEWPORT = {
 };
 
 // for debugging: will launch in window mode instead of headless, open devtools and don't close windows after process finishes
-const VISUAL_DEBUG = true;
+const VISUAL_DEBUG = false;
 
 // values needed to work with Consent-O-Matic source code
 const cmpDetectorSource = fs.readFileSync('./helpers/cmpDetect.js', 'utf8');
 const ENABLE_CMP_EXTENSION = true;
-const CMP_ACTION ='NO_ACTION';  //Values can be 'NO_ACTION', 'ACCEPT_ALL', 'REJECT_ALL'
+const CMP_ACTION ='REJECT_ALL';  //Values can be 'NO_ACTION', 'ACCEPT_ALL', 'REJECT_ALL'
 
 /**
  * @param {function(...any):void} log

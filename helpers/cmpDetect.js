@@ -1,17 +1,28 @@
 class Action {
     static createAction(config, cmp) {
-        switch(config.type) {
-            case "click": return new ClickAction(config, cmp);
-            case "list": return new ListAction(config, cmp);
-            case "consent": return new ConsentAction(config, cmp);
-            case "ifcss": return new IfCssAction(config, cmp);
-            case "waitcss": return new WaitCssAction(config, cmp);
-            case "foreach": return new ForEachAction(config, cmp);
-            case "hide": return new HideAction(config, cmp);
-            case "slide": return new SlideAction(config, cmp);
-            case "close": return new CloseAction(config, cmp);
-            case "wait": return new WaitAction(config, cmp);
-            default: throw "Unknown action type: "+config.type;
+        switch (config.type) {
+            case "click":
+                return new ClickAction(config, cmp);
+            case "list":
+                return new ListAction(config, cmp);
+            case "consent":
+                return new ConsentAction(config, cmp);
+            case "ifcss":
+                return new IfCssAction(config, cmp);
+            case "waitcss":
+                return new WaitCssAction(config, cmp);
+            case "foreach":
+                return new ForEachAction(config, cmp);
+            case "hide":
+                return new HideAction(config, cmp);
+            case "slide":
+                return new SlideAction(config, cmp);
+            case "close":
+                return new CloseAction(config, cmp);
+            case "wait":
+                return new WaitAction(config, cmp);
+            default:
+                throw "Unknown action type: " + config.type;
         }
     }
 
@@ -20,7 +31,7 @@ class Action {
     }
 
     get timeout() {
-        if(this.config.timeout != null) {
+        if (this.config.timeout != null) {
             return this.config.timeout;
         } else {
             if (ConsentEngine.debugValues.clickDelay) {
@@ -36,8 +47,10 @@ class Action {
     }
 
     async waitTimeout(timeout) {
-        return new Promise((resolve)=>{
-            setTimeout(()=>{resolve();}, timeout);
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                resolve();
+            }, timeout);
         });
     }
 }
@@ -47,13 +60,13 @@ class ListAction extends Action {
         super(config);
 
         this.actions = [];
-        config.actions.forEach((actionConfig)=>{
+        config.actions.forEach((actionConfig) => {
             this.actions.push(Action.createAction(actionConfig, cmp));
         });
     }
 
     async execute(param) {
-        for(let action of this.actions) {
+        for (let action of this.actions) {
             await action.execute(param);
         }
     }
@@ -76,8 +89,10 @@ class WaitAction extends Action {
 
     async execute(param) {
         let self = this;
-        await new Promise((resolve, reject)=>{
-            setTimeout(()=>{ resolve() }, self.config.waitTime);
+        await new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve()
+            }, self.config.waitTime);
         });
     }
 }
@@ -91,8 +106,8 @@ class ClickAction extends Action {
     async execute(param) {
         let result = Tools.find(this.config);
 
-        if(result.target != null) {
-            if(ConsentEngine.debugValues.clickDelay) {
+        if (result.target != null) {
+            if (ConsentEngine.debugValues.clickDelay) {
                 result.target.scrollIntoView({
                     behavior: "smooth",
                     block: "center",
@@ -100,15 +115,15 @@ class ClickAction extends Action {
                 });
             }
 
-            if(ConsentEngine.debugValues.debugClicks) {
-                console.log("Clicking: [openInTab: "+this.config.openInTab+"]", result.target);
+            if (ConsentEngine.debugValues.debugClicks) {
+                console.log("Clicking: [openInTab: " + this.config.openInTab + "]", result.target);
             }
 
-            if(ConsentEngine.debugValues.clickDelay) {
+            if (ConsentEngine.debugValues.clickDelay) {
                 result.target.focus({preventScroll: true});
             }
 
-            if(this.config.openInTab) {
+            if (this.config.openInTab) {
                 //Handle osx behaving differently?
                 result.target.dispatchEvent(new MouseEvent("click", {ctrlKey: true, shiftKey: true}));
             } else {
@@ -128,16 +143,16 @@ class ConsentAction extends Action {
 
         this.consents = [];
 
-        this.config.consents.forEach((consentConfig)=>{
+        this.config.consents.forEach((consentConfig) => {
             self.consents.push(new Consent(consentConfig, cmp));
         });
     }
 
     async execute(consentTypes) {
-        for(let consent of this.consents) {
+        for (let consent of this.consents) {
             let shouldBeEnabled = false;
 
-            if(consentTypes.hasOwnProperty(consent.type)) {
+            if (consentTypes.hasOwnProperty(consent.type)) {
                 shouldBeEnabled = consentTypes[consent.type];
             }
 
@@ -150,11 +165,11 @@ class IfCssAction extends Action {
     constructor(config, cmp) {
         super(config);
 
-        if(config.trueAction != null) {
+        if (config.trueAction != null) {
             this.trueAction = Action.createAction(config.trueAction, cmp);
         }
 
-        if(config.falseAction != null) {
+        if (config.falseAction != null) {
             this.falseAction = Action.createAction(config.falseAction, cmp);
         }
     }
@@ -162,12 +177,12 @@ class IfCssAction extends Action {
     async execute(param) {
         let result = Tools.find(this.config);
 
-        if(result.target != null) {
-            if(this.trueAction != null) {
+        if (result.target != null) {
+            if (this.trueAction != null) {
                 await this.trueAction.execute(param);
             }
         } else {
-            if(this.falseAction != null) {
+            if (this.falseAction != null) {
                 await this.falseAction.execute(param);
             }
         }
@@ -184,52 +199,52 @@ class WaitCssAction extends Action {
 
         let negated = false;
 
-        if(self.config.negated) {
+        if (self.config.negated) {
             negated = self.config.negated;
         }
 
-        if(ConsentEngine.debugValues.debugClicks) {
-            console.time("Waiting ["+negated+"]:"+this.config.target.selector);
+        if (ConsentEngine.debugValues.debugClicks) {
+            console.time("Waiting [" + negated + "]:" + this.config.target.selector);
         }
 
-        await new Promise((resolve)=>{
+        await new Promise((resolve) => {
             let numRetries = 10;
             let waitTime = 250;
 
-            if(self.config.retries) {
+            if (self.config.retries) {
                 numRetries = self.config.retries;
             }
 
-            if(self.config.waitTime) {
+            if (self.config.waitTime) {
                 waitTime = self.config.waitTime;
             }
 
             function checkCss() {
                 let result = Tools.find(self.config);
 
-                if(negated) {
-                    if(result.target != null) {
-                        if(numRetries > 0) {
+                if (negated) {
+                    if (result.target != null) {
+                        if (numRetries > 0) {
                             numRetries--;
                             setTimeout(checkCss, waitTime);
                         } else {
-                            console.timeEnd("Waiting ["+negated+"]:"+self.config.target.selector);
+                            console.timeEnd("Waiting [" + negated + "]:" + self.config.target.selector);
                             resolve();
                         }
                     } else {
-                        console.timeEnd("Waiting ["+negated+"]:"+self.config.target.selector);
+                        console.timeEnd("Waiting [" + negated + "]:" + self.config.target.selector);
                         resolve();
                     }
                 } else {
-                    if(result.target != null) {
-                        console.timeEnd("Waiting ["+negated+"]:"+self.config.target.selector);
+                    if (result.target != null) {
+                        console.timeEnd("Waiting [" + negated + "]:" + self.config.target.selector);
                         resolve();
                     } else {
-                        if(numRetries > 0) {
+                        if (numRetries > 0) {
                             numRetries--;
                             setTimeout(checkCss, waitTime);
                         } else {
-                            console.timeEnd("Waiting ["+negated+"]:"+self.config.target.selector);
+                            console.timeEnd("Waiting [" + negated + "]:" + self.config.target.selector);
                             resolve();
                         }
                     }
@@ -253,8 +268,8 @@ class ForEachAction extends Action {
 
         let oldBase = Tools.base;
 
-        for(let result of results) {
-            if(result.target != null) {
+        for (let result of results) {
+            if (result.target != null) {
 
                 Tools.setBase(result.target);
 
@@ -276,7 +291,7 @@ class HideAction extends Action {
         let self = this;
         let result = Tools.find(this.config);
 
-        if(result.target != null) {
+        if (result.target != null) {
             this.cmp.hiddenTargets.push(result.target);
             result.target.classList.add("ConsentOMatic-CMP-Hider");
         }
@@ -293,17 +308,17 @@ class SlideAction extends Action {
 
         let dragResult = Tools.find(this.config.dragTarget);
 
-        if(result.target != null) {
+        if (result.target != null) {
             let targetBounds = result.target.getBoundingClientRect();
             let dragTargetBounds = dragResult.target.getBoundingClientRect();
 
             let yDiff = dragTargetBounds.top - targetBounds.top;
             let xDiff = dragTargetBounds.left - targetBounds.left;
 
-            if(this.config.axis.toLowerCase() === "y") {
+            if (this.config.axis.toLowerCase() === "y") {
                 xDiff = 0;
             }
-            if(this.config.axis.toLowerCase() === "x") {
+            if (this.config.axis.toLowerCase() === "x") {
                 yDiff = 0;
             }
 
@@ -338,10 +353,10 @@ class SlideAction extends Action {
                 true,
                 window,
                 0,
-                screenX+xDiff,
-                screenY+yDiff,
-                clientX+xDiff,
-                clientY+yDiff,
+                screenX + xDiff,
+                screenY + yDiff,
+                clientX + xDiff,
+                clientY + yDiff,
                 false,
                 false,
                 false,
@@ -357,10 +372,10 @@ class SlideAction extends Action {
                 true,
                 window,
                 0,
-                screenX+xDiff,
-                screenY+yDiff,
-                clientX+xDiff,
-                clientY+yDiff,
+                screenX + xDiff,
+                screenY + yDiff,
+                clientX + xDiff,
+                clientY + yDiff,
                 false,
                 false,
                 false,
@@ -385,13 +400,13 @@ class CMP {
         this.name = name;
 
         this.detectors = [];
-        config.detectors.forEach((detectorConfig)=>{
+        config.detectors.forEach((detectorConfig) => {
             self.detectors.push(new Detector(detectorConfig));
         });
 
         this.methods = new Map();
-        config.methods.forEach((methodConfig)=>{
-            if(methodConfig.action != null) {
+        config.methods.forEach((methodConfig) => {
+            if (methodConfig.action != null) {
                 let action = Action.createAction(methodConfig.action, this);
                 self.methods.set(methodConfig.name, action);
             }
@@ -401,17 +416,17 @@ class CMP {
     }
 
     unHideAll() {
-        this.hiddenTargets.forEach((target)=>{
+        this.hiddenTargets.forEach((target) => {
             target.classList.remove("ConsentOMatic-CMP-Hider");
         });
     }
 
     detect() {
-        let detector = this.detectors.find((detector)=>{
+        let detector = this.detectors.find((detector) => {
             return detector.detect();
         });
 
-        if(detector != null && ConsentEngine.debugValues.debugLog) {
+        if (detector != null && ConsentEngine.debugValues.debugLog) {
             console.log("Triggered detector: ", detector);
         }
 
@@ -419,7 +434,7 @@ class CMP {
     }
 
     isShowing() {
-        let detector = this.detectors.find((detector)=>{
+        let detector = this.detectors.find((detector) => {
             return detector.detect();
         });
 
@@ -429,15 +444,15 @@ class CMP {
     async runMethod(name, param = null) {
         let action = this.methods.get(name);
 
-        if(action != null) {
-            if(ConsentEngine.debugValues.debugLog) {
+        if (action != null) {
+            if (ConsentEngine.debugValues.debugLog) {
                 console.log("Triggering method: ", name);
             }
             await action.execute(param);
         } else {
             //Make no method behave as if an action was called, IE. push os back on the task stack
-            await new Promise((resolve)=>{
-                setTimeout(()=>{
+            await new Promise((resolve) => {
+                setTimeout(() => {
                     resolve();
                 }, 0);
             });
@@ -450,19 +465,19 @@ class Consent {
         this.config = config;
         this.cmp = cmp;
 
-        if(this.config.toggleAction != null) {
+        if (this.config.toggleAction != null) {
             this.toggleAction = Action.createAction(this.config.toggleAction, cmp);
         }
 
-        if(this.config.matcher != null) {
+        if (this.config.matcher != null) {
             this.enabledMatcher = Matcher.createMatcher(this.config.matcher);
         }
 
-        if(this.config.falseAction != null) {
+        if (this.config.falseAction != null) {
             this.falseAction = Action.createAction(this.config.falseAction, cmp);
         }
 
-        if(this.config.trueAction != null) {
+        if (this.config.trueAction != null) {
             this.trueAction = Action.createAction(this.config.trueAction, cmp);
         }
     }
@@ -476,14 +491,14 @@ class Consent {
     }
 
     async setEnabled(enabled) {
-        if(this.enabledMatcher != null && this.toggleAction != null) {
-            if(this.isEnabled() && !enabled) {
+        if (this.enabledMatcher != null && this.toggleAction != null) {
+            if (this.isEnabled() && !enabled) {
                 await this.toggle();
-            } else if(!this.isEnabled() && enabled) {
+            } else if (!this.isEnabled() && enabled) {
                 await this.toggle();
             }
         } else {
-            if(enabled) {
+            if (enabled) {
                 await this.trueAction.execute();
             } else {
                 await this.falseAction.execute();
@@ -491,7 +506,7 @@ class Consent {
         }
 
         if (ConsentEngine.debugValues.paintMatchers) {
-            if(this.enabledMatcher != null) {
+            if (this.enabledMatcher != null) {
                 //Debug if state is correct
                 await this.enabledMatcher.debug(enabled);
             }
@@ -538,7 +553,7 @@ class ConsentEngine {
 
         let cmps = this.findCMP();
 
-        cmps = cmps.filter((cmp)=>{
+        cmps = cmps.filter((cmp) => {
             return !self.triedCMPs.has(cmp.name);
         });
 
@@ -551,7 +566,7 @@ class ConsentEngine {
 
             let cmp = cmps[0];
 
-            if(ConsentEngine.debugValues.debugLog) {
+            if (ConsentEngine.debugValues.debugLog) {
                 console.log("CMP Detected: ", cmp.name);
             }
 
@@ -559,12 +574,13 @@ class ConsentEngine {
 
             //Check if popup shows, then do consent stuff
             let numberOfTries = 10;
+
             async function checkIsShowing() {
                 if (cmp.isShowing()) {
                     setTimeout(async () => {
                         try {
-                            if(!ConsentEngine.debugValues.skipActions) {
-                                self.showProgressDialog("Autofilling "+cmp.name+", please wait...");
+                            if (!ConsentEngine.debugValues.skipActions) {
+                                self.showProgressDialog("Autofilling " + cmp.name + ", please wait...");
 
                                 if (!ConsentEngine.debugValues.skipHideMethod) {
                                     await cmp.runMethod("HIDE_CMP");
@@ -581,10 +597,10 @@ class ConsentEngine {
                             self.handledCallback({
                                 cmpName: cmp.name
                             });
-                        } catch(e) {
+                        } catch (e) {
                             console.log("Error during consent handling:", e);
                         }
-                        if(!ConsentEngine.debugValues.skipActions){
+                        if (!ConsentEngine.debugValues.skipActions) {
                             cmp.unHideAll();
                             self.hideProgressDialog();
                         }
@@ -594,7 +610,7 @@ class ConsentEngine {
                         numberOfTries--;
                         setTimeout(checkIsShowing, 250);
                     } else {
-                        if(ConsentEngine.debugValues.debugLog) {
+                        if (ConsentEngine.debugValues.debugLog) {
                             console.log("Not showing...", cmp.name);
                         }
                         self.startObserver();
@@ -608,7 +624,7 @@ class ConsentEngine {
     }
 
     showProgressDialog(text) {
-        if(ConsentEngine.debugValues.debugLog) {
+        if (ConsentEngine.debugValues.debugLog) {
             console.log("Showing progress...");
         }
         this.modal = document.createElement("div");
@@ -623,22 +639,22 @@ class ConsentEngine {
         this.dialog.appendChild(contents);
         document.body.appendChild(this.dialog);
         document.body.appendChild(this.modal);
-        setTimeout(()=>{
+        setTimeout(() => {
             this.dialog.classList.add("ConsentOMatic-Progress-Started");
         }, 0);
     }
 
     hideProgressDialog() {
         let self = this;
-        if(ConsentEngine.debugValues.debugLog) {
+        if (ConsentEngine.debugValues.debugLog) {
             console.log("Hiding progress...");
         }
         this.dialog.classList.add("ConsentOMatic-Progress-Complete");
-        setTimeout(()=>{
+        setTimeout(() => {
             self.modal.remove();
             self.dialog.remove();
             self.dialog = null;
-        },1000);
+        }, 1000);
     }
 
     setupObserver() {
@@ -688,20 +704,20 @@ class Detector {
 
 class GDPRConfig {
     static getLogEntries() {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             chrome.storage.local.get({
                 logEntries: []
-            }, (result)=>{
+            }, (result) => {
                 resolve(result.logEntries);
             });
         });
     }
 
     static setLogEntries(logEntries) {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             chrome.storage.local.set({
                 logEntries: logEntries
-            }, ()=>{
+            }, () => {
                 resolve();
             });
         });
@@ -791,7 +807,7 @@ class GDPRConfig {
     }
 
     static isActive(url) {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             chrome.storage.sync.get({
                 disabledPages: {}
             }, ({disabledPages: disabledPages}) => {
@@ -801,18 +817,18 @@ class GDPRConfig {
     }
 
     static setPageActive(url, active) {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             chrome.storage.sync.get({
                 disabledPages: {}
             }, ({disabledPages: disabledPages}) => {
-                if(active) {
+                if (active) {
                     delete disabledPages[url];
                 } else {
                     disabledPages[url] = true;
                 }
                 chrome.storage.sync.set({
                     disabledPages: disabledPages
-                }, ()=>{
+                }, () => {
                     resolve();
                 });
             });
@@ -910,7 +926,7 @@ class GDPRConfig {
     }
 
     static setConsentValues(consentValues) {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             consentValues = Object.assign({}, GDPRConfig.defaultValues, consentValues);
 
             chrome.storage.sync.set({
@@ -922,7 +938,7 @@ class GDPRConfig {
     }
 
     static setDebugFlags(newDebugFlags) {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             newDebugFlags = Object.assign({}, GDPRConfig.defaultDebugFlags, newDebugFlags);
 
             chrome.storage.sync.set({
@@ -934,10 +950,10 @@ class GDPRConfig {
     }
 
     static clearRuleCache() {
-        return new Promise((resolve, reject)=>{
+        return new Promise((resolve, reject) => {
             chrome.storage.local.set({
                 cachedEntries: {}
-            }, ()=>{
+            }, () => {
                 resolve();
             });
         });
@@ -968,12 +984,16 @@ GDPRConfig.defaultDebugFlags = {
     "skipHideMethod": false,
     "debugLog": false
 }
+
 class Matcher {
     static createMatcher(config) {
-        switch(config.type) {
-            case "css": return new CssMatcher(config);
-            case "checkbox": return new CheckboxMatcher(config);
-            default: throw "Unknown matcher type: "+config.type;
+        switch (config.type) {
+            case "css":
+                return new CssMatcher(config);
+            case "checkbox":
+                return new CheckboxMatcher(config);
+            default:
+                throw "Unknown matcher type: " + config.type;
         }
     }
 
@@ -990,8 +1010,8 @@ class Matcher {
 
         let blinker = result.parent || result.target;
 
-        if(blinker != null) {
-            if(blinker.matches("input")) {
+        if (blinker != null) {
+            if (blinker.matches("input")) {
                 blinker = blinker.parentNode;
             }
 
@@ -1006,7 +1026,7 @@ class Matcher {
                 });
             }
 
-            if(correct) {
+            if (correct) {
                 blinker.style.border = "2px solid lime";
                 blinker.style.backgroundColor = "lime";
             } else {
@@ -1014,9 +1034,9 @@ class Matcher {
                 blinker.style.backgroundColor = "pink";
             }
 
-            await new Promise((resolve, reject)=>{
+            await new Promise((resolve, reject) => {
                 if (ConsentEngine.debugValues.clickDelay) {
-                    setTimeout(()=>{
+                    setTimeout(() => {
                         resolve();
                     }, 10);
                 } else {
@@ -1112,7 +1132,7 @@ class Tools {
 
         if (options.displayFilter != null) {
             possibleTargets = possibleTargets.filter((possibleTarget) => {
-                if(options.displayFilter) {
+                if (options.displayFilter) {
                     //We should be displayed
                     return possibleTarget.offsetHeight !== 0;
                 } else {
@@ -1124,7 +1144,7 @@ class Tools {
 
         if (options.iframeFilter != null) {
             possibleTargets = possibleTargets.filter((possibleTarget) => {
-                if(options.iframeFilter) {
+                if (options.iframeFilter) {
                     //We should be inside an iframe
                     return window.location !== window.parent.location;
                 } else {
@@ -1134,7 +1154,7 @@ class Tools {
             });
         }
 
-        if(options.childFilter != null) {
+        if (options.childFilter != null) {
             possibleTargets = possibleTargets.filter((possibleTarget) => {
                 let oldBase = Tools.base;
                 Tools.setBase(possibleTarget);
@@ -1148,7 +1168,7 @@ class Tools {
             return possibleTargets;
         } else {
             if (possibleTargets.length > 1) {
-                if(ConsentEngine.debugValues.debugLog) {
+                if (ConsentEngine.debugValues.debugLog) {
                     console.warn("Multiple possible targets: ", possibleTargets, options, parent);
                 }
             }
@@ -5265,37 +5285,238 @@ const cmpConfigData = {
             }
         ]
     },
-    "onetrust": {
+    "onetrust-stackoverflow": {
         "detectors": [
             {
                 "presentMatcher": {
+                    "type": "css",
                     "target": {
-                        "selector": "#onetrust-banner-sdk"
-                    },
-                    "type": "css"
+                        "selector": ".js-consent-banner"
+                    }
                 },
                 "showingMatcher": {
+                    "type": "css",
                     "target": {
-                        "selector": "#onetrust-banner-sdk"
-                    },
-                    "type": "css"
+                        "selector": ".js-consent-banner",
+                        "displayFilter": true
+                    }
                 }
             }
         ],
         "methods": [
             {
                 "action": {
-                    "target": {
-                        "selector": "#onetrust-pc-btn-handler, .ot-sdk-show-settings"
-                    },
-                    "type": "click"
+                    "type": "list",
+                    "actions": [
+                        {
+                            "type": "click",
+                            "target": {
+                                "selector": ".js-consent-banner .js-cookie-settings"
+                            }
+                        },
+                        {
+                            "type": "waitcss",
+                            "target": {
+                                "selector": "#onetrust-banner-sdk .js-consent-save"
+                            },
+                            "retries": "10",
+                            "waitTime": "250"
+                        },
+                        {
+                            "type": "hide",
+                            "target": {
+                                "selector": "#onetrust-banner-sdk"
+                            }
+                        }
+                    ]
                 },
                 "name": "OPEN_OPTIONS"
             },
             {
                 "action": {
+                    "type": "consent",
+                    "consents": [
+                        {
+                            "matcher": {
+                                "type": "checkbox",
+                                "target": {
+                                    "selector": "input"
+                                },
+                                "parent": {
+                                    "childFilter": {
+                                        "target": {
+                                            "selector": ".grid--cell",
+                                            "textFilter": "Performance Cookies"
+                                        }
+                                    },
+                                    "selector": "#onetrust-banner-sdk .s-modal--body .grid.ai-center"
+                                }
+                            },
+                            "toggleAction": {
+                                "type": "click",
+                                "target": {
+                                    "selector": "input"
+                                },
+                                "parent": {
+                                    "childFilter": {
+                                        "target": {
+                                            "selector": ".grid--cell",
+                                            "textFilter": "Performance Cookies"
+                                        }
+                                    },
+                                    "selector": "#onetrust-banner-sdk .s-modal--body .grid.ai-center"
+                                }
+                            },
+                            "type": "B"
+                        },
+                        {
+                            "matcher": {
+                                "type": "checkbox",
+                                "target": {
+                                    "selector": "input"
+                                },
+                                "parent": {
+                                    "childFilter": {
+                                        "target": {
+                                            "selector": ".grid--cell",
+                                            "textFilter": "Targeting Cookies"
+                                        }
+                                    },
+                                    "selector": "#onetrust-banner-sdk .s-modal--body .grid.ai-center"
+                                }
+                            },
+                            "toggleAction": {
+                                "type": "click",
+                                "target": {
+                                    "selector": "input"
+                                },
+                                "parent": {
+                                    "childFilter": {
+                                        "target": {
+                                            "selector": ".grid--cell",
+                                            "textFilter": "Targeting Cookies"
+                                        }
+                                    },
+                                    "selector": "#onetrust-banner-sdk .s-modal--body .grid.ai-center"
+                                }
+                            },
+                            "type": "F"
+                        },
+                        {
+                            "matcher": {
+                                "type": "checkbox",
+                                "target": {
+                                    "selector": "input"
+                                },
+                                "parent": {
+                                    "childFilter": {
+                                        "target": {
+                                            "selector": ".grid--cell",
+                                            "textFilter": "Functional Cookies"
+                                        }
+                                    },
+                                    "selector": "#onetrust-banner-sdk .s-modal--body .grid.ai-center"
+                                }
+                            },
+                            "toggleAction": {
+                                "type": "click",
+                                "target": {
+                                    "selector": "input"
+                                },
+                                "parent": {
+                                    "childFilter": {
+                                        "target": {
+                                            "selector": ".grid--cell",
+                                            "textFilter": "Functional Cookies"
+                                        }
+                                    },
+                                    "selector": "#onetrust-banner-sdk .s-modal--body .grid.ai-center"
+                                }
+                            },
+                            "type": "A"
+                        }
+                    ]
+                },
+                "name": "DO_CONSENT"
+            },
+            {
+                "action": {
+                    "type": "list",
                     "actions": [
                         {
+                            "type": "wait",
+                            "waitTime": "250"
+                        },
+                        {
+                            "type": "click",
+                            "target": {
+                                "selector": "#onetrust-banner-sdk .js-consent-save"
+                            }
+                        }
+                    ]
+                },
+                "name": "SAVE_CONSENT"
+            },
+            {
+                "action": {
+                    "type": "list",
+                    "actions": [
+                        {
+                            "type": "hide",
+                            "target": {
+                                "selector": "#onetrust-banner-sdk"
+                            }
+                        },
+                        {
+                            "type": "hide",
+                            "target": {
+                                "selector": ".js-consent-banner"
+                            }
+                        }
+                    ]
+                },
+                "name": "HIDE_CMP"
+            }
+        ]
+    },
+    "onetrust": {
+        "detectors": [
+            {
+                "presentMatcher": {
+                    "type": "css",
+                    "target": {
+                        "selector": "#onetrust-banner-sdk",
+                        "displayFilter": true
+                    }
+                },
+                "showingMatcher": {
+                    "type": "css",
+                    "target": {
+                        "selector": "#onetrust-banner-sdk",
+                        "displayFilter": true
+                    }
+                }
+            }
+        ],
+        "methods": [
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": "#onetrust-pc-btn-handler, .ot-sdk-show-settings"
+                    }
+                },
+                "name": "OPEN_OPTIONS"
+            },
+            {
+                "action": {
+                    "type": "list",
+                    "actions": [
+                        {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "childFilter": {
                                     "target": {
@@ -5304,31 +5525,17 @@ const cmpConfigData = {
                                     }
                                 },
                                 "selector": ".category-item"
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "childFilter": {
-                                                "target": {
-                                                    "selector": ".category-header",
-                                                    "textFilter": "Performance Cookies"
-                                                }
-                                            },
-                                            "selector": ".category-item"
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "childFilter": {
                                                 "target": {
@@ -5337,273 +5544,287 @@ const cmpConfigData = {
                                                 }
                                             },
                                             "selector": ".category-item"
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "childFilter": {
+                                                "target": {
+                                                    "selector": ".category-header",
+                                                    "textFilter": "Performance Cookies"
+                                                }
+                                            },
+                                            "selector": ".category-item"
+                                        }
                                     },
                                     "type": "B"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": [
                                     "Functional Cookies",
                                     "Funktionelle cookies"
                                 ]
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": [
-                                                "Functional Cookies",
-                                                "Funktionelle cookies"
-                                            ]
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": [
                                                 "Functional Cookies",
                                                 "Funktionelle cookies"
                                             ]
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": [
+                                                "Functional Cookies",
+                                                "Funktionelle cookies"
+                                            ]
+                                        }
                                     },
                                     "type": "A"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": [
                                     "Targeting Cookies",
                                     "Målrettede cookies"
                                 ]
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": [
-                                                "Targeting Cookies",
-                                                "Målrettede cookies"
-                                            ]
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": [
                                                 "Targeting Cookies",
                                                 "Målrettede cookies"
                                             ]
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": [
+                                                "Targeting Cookies",
+                                                "Målrettede cookies"
+                                            ]
+                                        }
                                     },
                                     "type": "F"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": "Advertising Cookies"
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": "Advertising Cookies"
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": "Advertising Cookies"
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": "Advertising Cookies"
+                                        }
                                     },
                                     "type": "F"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": "Social Media"
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": "Social Media"
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": "Social Media"
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": "Social Media"
+                                        }
                                     },
                                     "type": "B"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
-                            "parent": {
-                                "selector": ".category-item",
-                                "textFilter": "Marketing Cookies"
-                            },
+                            "type": "click",
                             "target": {
                                 "selector": ".category-menu-switch-handler"
                             },
-                            "type": "click"
+                            "parent": {
+                                "selector": ".category-item",
+                                "textFilter": "Marketing Cookies"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": "Marketing Cookies"
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": "Marketing Cookies"
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": "Marketing Cookies"
+                                        }
                                     },
                                     "type": "E"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": [
                                     "Measurement",
                                     "Statistiske cookies"
                                 ]
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": [
-                                                "Measurement",
-                                                "Statistiske cookies"
-                                            ]
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": [
                                                 "Measurement",
                                                 "Statistiske cookies"
                                             ]
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": [
+                                                "Measurement",
+                                                "Statistiske cookies"
+                                            ]
+                                        }
                                     },
                                     "type": "B"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": [
@@ -5611,30 +5832,17 @@ const cmpConfigData = {
                                     "Ad selection, delivery, reporting",
                                     "Reklamecookies"
                                 ]
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": [
-                                                "Ad selection, delivery and reporting",
-                                                "Ad selection, delivery, reporting",
-                                                "Reklamecookies"
-                                            ]
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": [
@@ -5642,103 +5850,116 @@ const cmpConfigData = {
                                                 "Ad selection, delivery, reporting",
                                                 "Reklamecookies"
                                             ]
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": [
+                                                "Ad selection, delivery and reporting",
+                                                "Ad selection, delivery, reporting",
+                                                "Reklamecookies"
+                                            ]
+                                        }
                                     },
                                     "type": "F"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
-                            "parent": {
-                                "selector": ".category-item",
-                                "textFilter": "Information storage and access"
-                            },
+                            "type": "click",
                             "target": {
                                 "selector": ".category-menu-switch-handler"
                             },
-                            "type": "click"
+                            "parent": {
+                                "selector": ".category-item",
+                                "textFilter": "Information storage and access"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": "Information storage and access"
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": "Information storage and access"
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": "Information storage and access"
+                                        }
                                     },
                                     "type": "D"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "selector": ".category-item",
                                 "textFilter": [
                                     "Content selection, delivery, reporting",
                                     "Content selection, delivery and reporting"
                                 ]
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "selector": ".category-item",
-                                            "textFilter": [
-                                                "Content selection, delivery, reporting",
-                                                "Content selection, delivery and reporting"
-                                            ]
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "selector": ".category-item",
                                             "textFilter": [
                                                 "Content selection, delivery, reporting",
                                                 "Content selection, delivery and reporting"
                                             ]
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "selector": ".category-item",
+                                            "textFilter": [
+                                                "Content selection, delivery, reporting",
+                                                "Content selection, delivery and reporting"
+                                            ]
+                                        }
                                     },
                                     "type": "E"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         },
                         {
+                            "type": "click",
+                            "target": {
+                                "selector": ".category-menu-switch-handler"
+                            },
                             "parent": {
                                 "childFilter": {
                                     "target": {
@@ -5747,31 +5968,17 @@ const cmpConfigData = {
                                     }
                                 },
                                 "selector": ".category-item"
-                            },
-                            "target": {
-                                "selector": ".category-menu-switch-handler"
-                            },
-                            "type": "click"
+                            }
                         },
                         {
+                            "type": "consent",
                             "consents": [
                                 {
                                     "matcher": {
-                                        "parent": {
-                                            "childFilter": {
-                                                "target": {
-                                                    "selector": ".category-header",
-                                                    "textFilter": "Personalisation"
-                                                }
-                                            },
-                                            "selector": ".category-item"
-                                        },
+                                        "type": "checkbox",
                                         "target": {
                                             "selector": "input.category-switch-handler"
                                         },
-                                        "type": "checkbox"
-                                    },
-                                    "toggleAction": {
                                         "parent": {
                                             "childFilter": {
                                                 "target": {
@@ -5780,42 +5987,51 @@ const cmpConfigData = {
                                                 }
                                             },
                                             "selector": ".category-item"
-                                        },
+                                        }
+                                    },
+                                    "toggleAction": {
+                                        "type": "click",
                                         "target": {
                                             "selector": "label"
                                         },
-                                        "type": "click"
+                                        "parent": {
+                                            "childFilter": {
+                                                "target": {
+                                                    "selector": ".category-header",
+                                                    "textFilter": "Personalisation"
+                                                }
+                                            },
+                                            "selector": ".category-item"
+                                        }
                                     },
                                     "type": "E"
                                 }
-                            ],
-                            "type": "consent"
+                            ]
                         }
-                    ],
-                    "type": "list"
+                    ]
                 },
                 "name": "DO_CONSENT"
             },
             {
                 "action": {
+                    "type": "click",
                     "target": {
                         "selector": ".save-preference-btn-handler"
-                    },
-                    "type": "click"
+                    }
                 },
                 "name": "SAVE_CONSENT"
             },
             {
                 "action": {
+                    "type": "list",
                     "actions": [
                         {
+                            "type": "hide",
                             "target": {
                                 "selector": "#onetrust-consent-sdk"
-                            },
-                            "type": "hide"
+                            }
                         }
-                    ],
-                    "type": "list"
+                    ]
                 },
                 "name": "HIDE_CMP"
             }
@@ -11072,9 +11288,3 @@ const cmpConfigData = {
         ]
     }
 }
-
-module.exports = {
-    cmpConfigData,
-    GDPRConfig,
-    ConsentEngine
-};
