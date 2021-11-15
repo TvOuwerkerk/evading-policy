@@ -27,6 +27,7 @@ program
     .option('-r, --region-code <region>', 'optional 2 letter region code. Used for metadata only.')
     .option('-a, --disable-anti-bot', 'disable anti bot detection protections injected to every frame')
     .option('--chromium-version <version_number>', 'use custom version of chromium')
+    .option('-s, --scrape-links', 'collect and save links found on visited pages')
     .parse(process.argv);
 
 /**
@@ -43,8 +44,9 @@ program
  * @param {string} regionCode
  * @param {boolean} antiBotDetection
  * @param {string} chromiumVersion
+ * @param {boolean} scrapeLinks
  */
-async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion) {
+async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion,scrapeLinks) {
     const logFile = logPath ? fs.createWriteStream(logPath, {flags: 'w'}) : null;
 
     /**
@@ -124,14 +126,27 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
         successes++;
         updateProgress(url.toString());
         const outputFile = createOutputPath(url);
+        const outputURL = outputFile.replace(outputPath.slice(2,outputFile.length),'').substring(1);
+
         const outputFileImg = `${outputFile.slice(0,outputFile.length-5)}.png`;
-        //TODO: unsure whether this ^^^ is the best way to construct filename
+
+        //TODO: I'd prefer to have these in a 'links' folder, but program breaks here if using a non-existent subfolder
+        const outputFileLinks = `${outputPath}\\links.${outputURL}`;
 
         let screenshotID = new ScreenshotCollector().id();
         if (screenshotID in data.data) {
             let decodedImg = Buffer.from(data.data[screenshotID],'base64');
             fs.writeFileSync(outputFileImg, decodedImg);
             data.data[screenshotID] = `Screenshot saved to ${outputFileImg}`;
+        }
+
+        if(scrapeLinks) {
+            const links = data.data.links;
+            data.data.links = `Internal links were collected and saved to ${outputFileLinks}`;
+            fs.writeFileSync(outputFileLinks,JSON.stringify(links, null, 2));
+
+        } else{
+            data.data.links = 'No internal links were collected';
         }
 
         fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
@@ -168,7 +183,8 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
             emulateMobile,
             proxyHost,
             antiBotDetection,
-            chromiumVersion
+            chromiumVersion,
+            scrapeLinks
         });
         log(chalk.green('\n✅ Finished successfully.'));
     } catch(e) {
@@ -191,6 +207,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
         emulateMobile,
         proxyHost,
         regionCode,
+        scrapeLinks,
         dataCollectors: dataCollectors.map(c => c.id()),
         successes,
         failures,
@@ -203,6 +220,7 @@ const verbose = Boolean(program.verbose);
 const forceOverwrite = Boolean(program.forceOverwrite);
 const filterOutFirstParty = Boolean(program.only3p);
 const emulateMobile = Boolean(program.mobile);
+const scrapeLinks = Boolean(program.scrapeLinks);
 /**
  * @type {BaseCollector[]}
  */
@@ -253,5 +271,5 @@ if (!urls || !program.output) {
         fs.mkdirSync(program.output);
     }
 
-    run(urls, program.output, verbose, program.logFile, program.crawlers || null, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, program.proxyConfig, program.regionCode, !program.disableAntiBot, program.chromiumVersion);
+    run(urls, program.output, verbose, program.logFile, program.crawlers || null, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, program.proxyConfig, program.regionCode, !program.disableAntiBot, program.chromiumVersion, scrapeLinks);
 }

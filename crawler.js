@@ -6,6 +6,7 @@ const wait = require('./helpers/wait');
 const tldts = require('tldts');
 const fs = require('fs');
 const pageUtils = require('./helpers/utils');
+const tld = require('tld-extract');
 
 const MAX_LOAD_TIME = 30000;//ms
 const MAX_TOTAL_TIME = MAX_LOAD_TIME * 2;//ms
@@ -31,7 +32,7 @@ const VISUAL_DEBUG = false;
 
 // values needed to work with Consent-O-Matic source code
 const cmpDetectorSource = fs.readFileSync('./helpers/cmpDetect.js', 'utf8');
-const ENABLE_CMP_EXTENSION = true;
+const ENABLE_CMP_EXTENSION = false;
 const CMP_ACTION ='REJECT_ALL';  //Values can be 'NO_ACTION', 'ACCEPT_ALL', 'REJECT_ALL'
 
 /**
@@ -77,7 +78,7 @@ function openBrowser(log, proxyHost, executablePath) {
 /**
  * @param {puppeteer.BrowserContext} context
  * @param {URL} url
- * @param {{collectors: import('./collectors/BaseCollector')[], log: function(...any):void, urlFilter: function(string, string):boolean, emulateMobile: boolean, emulateUserAgent: boolean, runInEveryFrame: function():void}} data
+ * @param {{collectors: import('./collectors/BaseCollector')[], log: function(...any):void, urlFilter: function(string, string):boolean, emulateMobile: boolean, emulateUserAgent: boolean, runInEveryFrame: function():void, scrapeLinks: boolean}} data
  *
  * @returns {Promise<CollectResult>}
  */
@@ -87,7 +88,8 @@ async function getSiteData(context, url, {
     urlFilter,
     emulateUserAgent,
     emulateMobile,
-    runInEveryFrame
+    runInEveryFrame,
+    scrapeLinks
 }) {
     const testStarted = Date.now();
 
@@ -242,10 +244,25 @@ async function getSiteData(context, url, {
         }
     }
 
+    const internalLinks = [];
+    if(scrapeLinks) {
+        const elementHandles = await page.$$('a');
+        const propertyJsHandles = await Promise.all(elementHandles.map(handle => handle.getProperty('href')));
+        const links = await Promise.all(propertyJsHandles.map(handle => handle.jsonValue()));
+
+
+        for (const i in links) {
+            if (links[i].startsWith('http') && (tld(links[i]).domain === tld(finalUrl).domain)) {
+                internalLinks.push(links[i]);
+            }
+        }
+    }
+
     /**
      * @type {Object<string, Object>}
      */
     const data = {};
+    data.links = internalLinks;
 
     for (let collector of collectors) {
         const getDataTimer = createTimer();
@@ -282,7 +299,7 @@ async function getSiteData(context, url, {
         timeout,
         testStarted,
         testFinished: Date.now(),
-        data
+        data,
     };
 }
 
@@ -299,7 +316,7 @@ function isThirdPartyRequest(documentUrl, requestUrl) {
 
 /**
  * @param {URL} url
- * @param {{collectors?: import('./collectors/BaseCollector')[], log?: function(...any):void, filterOutFirstParty?: boolean, emulateMobile?: boolean, emulateUserAgent?: boolean, proxyHost?: string, browserContext?: puppeteer.BrowserContext, runInEveryFrame?: function():void, executablePath?: string}} options
+ * @param {{collectors?: import('./collectors/BaseCollector')[], log?: function(...any):void, filterOutFirstParty?: boolean, emulateMobile?: boolean, emulateUserAgent?: boolean, proxyHost?: string, browserContext?: puppeteer.BrowserContext, runInEveryFrame?: function():void, executablePath?: string, scrapeLinks?: boolean}} options
  * @returns {Promise<CollectResult>}
  */
 module.exports = async (url, options) => {
@@ -318,7 +335,8 @@ module.exports = async (url, options) => {
             urlFilter: options.filterOutFirstParty === true ? isThirdPartyRequest.bind(null) : null,
             emulateUserAgent: options.emulateUserAgent !== false, // true by default
             emulateMobile: options.emulateMobile,
-            runInEveryFrame: options.runInEveryFrame
+            runInEveryFrame: options.runInEveryFrame,
+            scrapeLinks: options.scrapeLinks
         }), MAX_TOTAL_TIME);
     } catch (e) {
         log(chalk.red('Crawl failed'), e.message, chalk.gray(e.stack));

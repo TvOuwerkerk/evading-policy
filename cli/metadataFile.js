@@ -6,7 +6,7 @@ const METADATA_FILE_NAME = 'metadata.json';
 
 /**
  * @param {string} outputPath
- * @returns {boolean} 
+ * @returns {boolean}
  */
 function metadataFileExists(outputPath) {
     const filePath = path.join(outputPath, METADATA_FILE_NAME);
@@ -16,9 +16,9 @@ function metadataFileExists(outputPath) {
 
 /**
  * @param {string} outputPath
- * @param {{startTime: Date, endTime: Date, urls: number, successes: number, failures: number, skipped: number, numberOfCrawlers: number, filterOutFirstParty: boolean, emulateMobile: boolean, proxyHost: string, regionCode: string, dataCollectors: string[], fatalError: Error}} data
+ * @param {{startTime: Date, endTime: Date, urls: number, successes: number, failures: number, skipped: number, numberOfCrawlers: number, filterOutFirstParty: boolean, emulateMobile: boolean, proxyHost: string, regionCode: string, scrapeLinks: boolean, dataCollectors: string[], fatalError: Error}} data
  */
-function createMetadataFile(outputPath, {startTime, endTime, urls, successes, failures, skipped, numberOfCrawlers, filterOutFirstParty, dataCollectors, fatalError, emulateMobile, proxyHost, regionCode}) {
+function createMetadataFile(outputPath, {startTime, endTime, urls, successes, failures, skipped, numberOfCrawlers, filterOutFirstParty, dataCollectors, fatalError, emulateMobile, proxyHost, regionCode, scrapeLinks}) {
     const filePath = path.join(outputPath, METADATA_FILE_NAME);
 
     fs.writeFileSync(filePath, JSON.stringify({
@@ -37,7 +37,8 @@ function createMetadataFile(outputPath, {startTime, endTime, urls, successes, fa
             filterOutFirstParty: filterOutFirstParty || undefined,
             proxyHost: proxyHost || undefined,
             regionCode: regionCode || undefined,
-            emulateMobile: emulateMobile || undefined
+            emulateMobile: emulateMobile || undefined,
+            scrapeLinks: scrapeLinks || undefined
         },
         environment: {
             projectVersion: package.version,
