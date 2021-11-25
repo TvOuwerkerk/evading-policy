@@ -41,6 +41,7 @@ async function findCMP(page, log=null, cmpAction = 'NO_ACTION') {
                 X: true
             };
         }
+        console.log("Action: ", cmpAction);
         let engine = new ConsentEngine(config, consentTypes, debugValues, async stats => {
             await window.foundCMPEvent(JSON.stringify(stats));
         });

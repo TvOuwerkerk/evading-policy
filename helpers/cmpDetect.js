@@ -1054,7 +1054,6 @@ class CssMatcher extends Matcher {
 
     matches() {
         let result = Tools.find(this.config);
-
         return result.target != null;
     }
 }
@@ -1078,7 +1077,6 @@ class Tools {
 
     static findElement(options, parent = null, multiple = false) {
         let possibleTargets = null;
-
         if (parent != null) {
             possibleTargets = Array.from(parent.querySelectorAll(options.selector));
         } else {
@@ -1460,6 +1458,58 @@ const cmpConfigData = {
                     },
                     "type": "click"
                 },
+                "name": "SAVE_CONSENT"
+            }
+        ]
+    },
+    "Bol": {
+        "detectors": [
+            {
+                "presentMatcher": {
+                    "type": "css",
+                    "target": {
+                        "selector": ".modal__window.js_modal_window"
+                    }
+                },
+                "showingMatcher": {
+                    "type": "css",
+                    "target": {
+                        "selector": ".modal__window.js_modal_window"
+                    }
+                }
+            }
+        ],
+            "methods": [
+            {
+                "name": "HIDE_CMP"
+            },
+            {
+                "name": "OPEN_OPTIONS"
+            },
+            {
+                "action": {
+                    "type": "consent",
+                    "consents": [
+                        {
+                            "trueAction": {
+                                "type": "click",
+                                "target": {
+                                    "selector": ".js-confirm-button"
+                                }
+                            },
+                            "falseAction": {
+                                "type": "click",
+                                "target": {
+                                    "selector": ".js-decline-button"
+                                }
+                            },
+                            "type": "F"
+                        }
+                    ]
+                },
+                "name": "DO_CONSENT"
+            },
+            {
                 "name": "SAVE_CONSENT"
             }
         ]
@@ -5479,12 +5529,18 @@ const cmpConfigData = {
             }
         ]
     },
-    "onetrust": {
+    "onetrust1": {
         "detectors": [
             {
                 "presentMatcher": {
                     "type": "css",
                     "target": {
+                        "childFilter": {
+                            "target": {
+                                "selector": "#onetrust-reject-all-handler",
+                                "displayFilter": true
+                            }
+                        },
                         "selector": "#onetrust-banner-sdk",
                         "displayFilter": true
                     }
@@ -6007,6 +6063,140 @@ const cmpConfigData = {
                                     "type": "E"
                                 }
                             ]
+                        }
+                    ]
+                },
+                "name": "DO_CONSENT"
+            },
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": ".save-preference-btn-handler"
+                    }
+                },
+                "name": "SAVE_CONSENT"
+            },
+            {
+                "action": {
+                    "type": "list",
+                    "actions": [
+                        {
+                            "type": "hide",
+                            "target": {
+                                "selector": "#onetrust-consent-sdk"
+                            }
+                        }
+                    ]
+                },
+                "name": "HIDE_CMP"
+            }
+        ]
+    },
+    "onetrust2": {
+        "detectors": [
+            {
+                "presentMatcher": {
+                    "type": "css",
+                    "target": {
+                        "selector": "#onetrust-banner-sdk",
+                        "displayFilter": true
+                    }
+                },
+                "showingMatcher": {
+                    "type": "css",
+                    "target": {
+                        "selector": "#onetrust-banner-sdk",
+                        "displayFilter": true
+                    }
+                }
+            }
+        ],
+        "methods": [
+            {
+                "action": {
+                    "type": "click",
+                    "target": {
+                        "selector": "#onetrust-pc-btn-handler, .ot-sdk-show-settings"
+                    }
+                },
+                "name": "OPEN_OPTIONS"
+            },
+            {
+                "action": {
+                    "type": "list",
+                    "actions": [
+                        {
+                            "type": "foreach",
+                            "target": {
+                                "selector": ".ot-accordion-layout.ot-cat-item"
+                            },
+                            "parent": {
+                                "selector": ".ot-sdk-row.ot-cat-grp"
+                            },
+                            "action": {
+                                "type": "list",
+                                "actions": [
+                                    {
+                                        "type": "click",
+                                        "target": {
+                                            "selector": ".button"
+                                        }
+                                    },
+                                    {
+                                        "type": "consent",
+                                        "consents": [
+                                            {
+                                                "trueAction": {
+                                                    "type": "foreach",
+                                                    "target": {
+                                                        "selector": ".ot-subgrp-cntr"
+                                                    },
+                                                    "action": {
+                                                        "type": "click",
+                                                        "target": {
+                                                            "selector": ".button.ot-remove-objection-handler"
+                                                        }
+                                                    }
+                                                },
+                                                "falseAction": {
+                                                    "type": "foreach",
+                                                    "target": {
+                                                        "selector": ".ot-subgrp-cntr"
+                                                    },
+                                                    "action": {
+                                                        "type": "click",
+                                                        "target": {
+                                                            "selector": ".ot-obj-leg-btn-handler.ot-inactive-leg-btn.ot-leg-int-enabled"
+                                                        }
+                                                    }
+                                                },
+                                                "type": "F"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "consent",
+                                        "consents": [
+                                            {
+                                                "matcher": {
+                                                    "type": "checkbox",
+                                                    "target": {
+                                                        "selector": ".checkbox"
+                                                    }
+                                                },
+                                                "toggleAction": {
+                                                    "type": "click",
+                                                    "target": {
+                                                        "selector": ".label.ot-switch"
+                                                    }
+                                                },
+                                                "type": "F"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
