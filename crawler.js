@@ -32,7 +32,7 @@ const VISUAL_DEBUG = false;
 
 // values needed to work with Consent-O-Matic source code
 const cmpDetectorSource = fs.readFileSync('./helpers/cmpDetect.js', 'utf8');
-const ENABLE_CMP_EXTENSION = false;
+const ENABLE_CMP_EXTENSION = true;
 const CMP_ACTION ='REJECT_ALL';  //Values can be 'NO_ACTION', 'ACCEPT_ALL', 'REJECT_ALL'
 
 /**
@@ -244,16 +244,25 @@ async function getSiteData(context, url, {
         }
     }
 
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    await sleep(5000);
+
     const internalLinks = [];
+    const filteredLinks = [];
     if(scrapeLinks) {
         const elementHandles = await page.$$('a');
         const propertyJsHandles = await Promise.all(elementHandles.map(handle => handle.getProperty('href')));
         const links = await Promise.all(propertyJsHandles.map(handle => handle.jsonValue()));
 
-
+        //TODO: consider relative URLS
         for (const i in links) {
             if (links[i].startsWith('http') && (tld(links[i]).domain === tld(finalUrl).domain)) {
                 internalLinks.push(links[i]);
+            } else {
+                filteredLinks.push(links[i]);
             }
         }
     }
@@ -262,7 +271,7 @@ async function getSiteData(context, url, {
      * @type {Object<string, Object>}
      */
     const data = {};
-    data.links = internalLinks;
+    data.links = {'Internal links:': internalLinks, 'Filtered links:': filteredLinks};
 
     for (let collector of collectors) {
         const getDataTimer = createTimer();

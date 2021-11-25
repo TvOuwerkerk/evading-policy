@@ -67,10 +67,19 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
      * @type {function(...any):string}
      * @param {URL} url
      */
-    const createOutputPath = (url => {
+    const createOutputFileName = (url => {
         let hash = crypto.createHash('sha1').update(url.toString()).digest('hex');
         hash = hash.substring(0, 4); // truncate to length 4
-        return path.join(outputPath, `${url.hostname}_${hash}.json`);
+        return `${url.hostname}_${hash}.json`;
+    });
+
+    /**
+     * @type {function(...any):string}
+     * @param {URL} url
+     */
+    const createOutputPath = (url => {
+        let outputFileName = createOutputFileName(url);
+        return path.join(outputPath, outputFileName);
     });
 
     const urls = inputUrls.filter(urlString => {
@@ -126,12 +135,11 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
         successes++;
         updateProgress(url.toString());
         const outputFile = createOutputPath(url);
-        const outputURL = outputFile.replace(outputPath.slice(2,outputFile.length),'').substring(1);
-
+        const outputFileName = createOutputFileName(url);
         const outputFileImg = `${outputFile.slice(0,outputFile.length-5)}.png`;
 
-        //TODO: I'd prefer to have these in a 'links' folder, but program breaks here if using a non-existent subfolder
-        const outputFileLinks = `${outputPath}\\links.${outputURL}`;
+        //TODO: Would prefer to have these in a 'links' folder, but program breaks if using a non-existent subfolder here
+        const outputFileLinks = `${outputPath}\\links.${outputFileName}`;
 
         let screenshotID = new ScreenshotCollector().id();
         if (screenshotID in data.data) {
