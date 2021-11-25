@@ -7,7 +7,7 @@ const URL = require('url').URL;
 const crypto = require('crypto');
 const {Buffer} = require('buffer');
 
-const DEFAULT_SAVE_HEADERS = ['etag', 'set-cookie', 'cache-control', 'expires', 'pragma', 'p3p', 'timing-allow-origin', 'access-control-allow-origin'];
+const DEFAULT_SAVE_HEADERS = ['etag', 'set-cookie', 'cache-control', 'expires', 'pragma', 'p3p', 'timing-allow-origin', 'access-control-allow-origin', 'referrer-policy'];
 
 class RequestCollector extends BaseCollector {
 
@@ -29,7 +29,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {import('./BaseCollector').CollectorInitOptions} options 
+     * @param {import('./BaseCollector').CollectorInitOptions} options
      */
     init({
         log,
@@ -46,7 +46,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {{cdpClient: import('puppeteer').CDPSession, url: string, type: import('./TargetCollector').TargetType}} targetInfo 
+     * @param {{cdpClient: import('puppeteer').CDPSession, url: string, type: import('./TargetCollector').TargetType}} targetInfo
      */
     async addTarget({cdpClient}) {
         await cdpClient.send('Runtime.enable');
@@ -65,7 +65,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {RequestId} id 
+     * @param {RequestId} id
      */
     findLastRequestWithId(id) {
         let i = this._requests.length;
@@ -80,7 +80,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {RequestId} id 
+     * @param {RequestId} id
      * @param {import('puppeteer').CDPSession} cdp
      */
     async getResponseBodyHash(id, cdp) {
@@ -99,7 +99,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {{initiator: import('../helpers/initiators').RequestInitiator, request: CDPRequest, requestId: RequestId, timestamp: Timestamp, frameId?: FrameId, type?: ResourceType, redirectResponse?: CDPResponse}} data 
+     * @param {{initiator: import('../helpers/initiators').RequestInitiator, request: CDPRequest, requestId: RequestId, timestamp: Timestamp, frameId?: FrameId, type?: ResourceType, redirectResponse?: CDPResponse}} data
      * @param {import('puppeteer').CDPSession} cdp
      */
     handleRequest(data, cdp) {
@@ -181,7 +181,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {{requestId: RequestId, url: string, initiator: import('../helpers/initiators').RequestInitiator}} request 
+     * @param {{requestId: RequestId, url: string, initiator: import('../helpers/initiators').RequestInitiator}} request
      */
     handleWebSocket(request) {
         this._requests.push({
@@ -193,7 +193,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {{requestId: RequestId, type: ResourceType, frameId?: FrameId, response: CDPResponse}} data 
+     * @param {{requestId: RequestId, type: ResourceType, frameId?: FrameId, response: CDPResponse}} data
      */
     handleResponse(data) {
         const {
@@ -226,7 +226,7 @@ class RequestCollector extends BaseCollector {
 
     /**
      * Network.responseReceivedExtraInfo
-     * @param {{requestId: RequestId, headers: Object<string, string>}} data 
+     * @param {{requestId: RequestId, headers: Object<string, string>}} data
      */
     handleResponseExtraInfo(data) {
         const {
@@ -251,7 +251,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {{errorText: string, requestId: RequestId, timestamp: Timestamp, type: ResourceType}} data 
+     * @param {{errorText: string, requestId: RequestId, timestamp: Timestamp, type: ResourceType}} data
      * @param {import('puppeteer').CDPSession} cdp
      */
     async handleFailedRequest(data, cdp) {
@@ -276,7 +276,7 @@ class RequestCollector extends BaseCollector {
     }
 
     /**
-     * @param {{requestId: RequestId, encodedDataLength?: number, timestamp: Timestamp}} data 
+     * @param {{requestId: RequestId, encodedDataLength?: number, timestamp: Timestamp}} data
      * @param {import('puppeteer').CDPSession} cdp
      */
     async handleFinishedRequest(data, cdp) {
