@@ -67,7 +67,7 @@ def get_prod_likelihoods(urllist: [str]) -> dict:
 
 files = glob.glob('sampleData\\links.*.json')
 for file in files:
-    domain = file.split('_')[0][6:]
+    domain = file.split('\\')[-1].split('_')[0][6:]
     admin_file = f'sampleData\\admin.{domain}.json'
 
     with open(file, 'r') as inp, open(admin_file, 'r+') as admin:
@@ -75,7 +75,7 @@ for file in files:
         prob_dict = get_prod_likelihoods(url_list)
 
         administration = json.load(admin)
-        todo = set(administration['todo'])
+        tocrawl = set(administration['tocrawl'])
         visited = set(administration['visited'])
 
         for x in prob_dict.items():
@@ -83,9 +83,9 @@ for file in files:
                 continue
             if x[0] in visited:
                 continue
-            todo.add(x[0])
+            tocrawl.add(x[0])
 
-        administration['todo'] = list(todo)
+        administration['tocrawl'] = list(tocrawl)
         admin.seek(0)
         json.dump(administration, admin, indent=4)
         admin.truncate()
