@@ -28,6 +28,7 @@ program
     .option('-a, --disable-anti-bot', 'disable anti bot detection protections injected to every frame')
     .option('--chromium-version <version_number>', 'use custom version of chromium')
     .option('-s, --scrape-links', 'collect and save links found on visited pages')
+    .option('-j, --input-json <path>', 'path to admin json file')
     .parse(process.argv);
 
 /**
@@ -256,6 +257,9 @@ if (program.url) {
     urls = [program.url];
 } else if(program.inputList) {
     urls = fs.readFileSync(program.inputList).toString().split('\n').map(u => u.trim());
+} else if(program.inputJson) {
+    urls = ['https://www.example.com'];
+    //TODO: load todo list from admin json file
 }
 
 if (!urls || !program.output) {
