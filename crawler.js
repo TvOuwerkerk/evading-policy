@@ -271,7 +271,7 @@ async function getSiteData(context, url, {
      * @type {Object<string, Object>}
      */
     const data = {};
-    data.links = {'Internal links:': internalLinks, 'Filtered links:': filteredLinks};
+    data.links = {'internal': internalLinks, 'filtered': filteredLinks};
 
     for (let collector of collectors) {
         const getDataTimer = createTimer();
