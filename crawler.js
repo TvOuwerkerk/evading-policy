@@ -244,11 +244,7 @@ async function getSiteData(context, url, {
         }
     }
 
-    function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
-    await sleep(5000);
+    await pageUtils.sleep(5000);
 
     const internalLinks = [];
     const filteredLinks = [];
