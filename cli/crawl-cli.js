@@ -108,6 +108,14 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
         return true;
     });
 
+    const truncateURL = (/** @type {string} */ url = '') => {
+        const TRUNCATE_LENGTH = 57;
+        if (url.length > TRUNCATE_LENGTH) {
+            return `${url.substring(0,TRUNCATE_LENGTH)}...`;
+        }
+        return url;
+    };
+
     // show progress bar only if we are not printing all logs to screen (verbose)
     const progressBar = (verbose || urls.length === 0) ? null : new ProgressBar('[:bar] :percent ETA :etas fail :fail% :site', {
         complete: chalk.green('='),
@@ -134,7 +142,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
      */
     const dataCallback = (url, data) => {
         successes++;
-        updateProgress(url.toString());
+        updateProgress(truncateURL(url.toString()));
         const outputFile = createOutputPath(url);
         const outputFileName = createOutputFileName(url);
         const outputFileImg = `${outputFile.slice(0,outputFile.length-5)}.png`;
@@ -165,7 +173,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
      */
     const failureCallback = url => {
         failures++;
-        updateProgress(url);
+        updateProgress(truncateURL(url));
     };
 
     const startTime = new Date();
@@ -258,8 +266,8 @@ if (program.url) {
 } else if(program.inputList) {
     urls = fs.readFileSync(program.inputList).toString().split('\n').map(u => u.trim());
 } else if(program.inputJson) {
-    urls = ['https://www.example.com'];
-    //TODO: load todo list from admin json file
+    let data = fs.readFileSync(program.inputJson);
+    urls = JSON.parse(data.toString()).tocrawl;
 }
 
 if (!urls || !program.output) {
