@@ -65,29 +65,31 @@ def get_prod_likelihoods(urllist: [str]) -> dict:
     return dict(zip(urllist, proba[:, 1]))
 
 
-files = glob.glob('sampleData\\links.*.json')
-for file in files:
-    domain = file.split('\\')[-1].split('_')[0][6:]
-    admin_file = f'sampleData\\admin.{domain}.json'
+dataDirectories = glob.glob('data.*')
+files = []
+for directory in dataDirectories:
+    files = glob.glob(f'{directory}\\links.*.json')
+    for file in files:
+        admin_file = glob.glob(f'{directory}\\admin.*')[0]
 
-    with open(file, 'r') as inp, open(admin_file, 'r+') as admin:
-        url_list = list(set(json.load(inp)['internal']))
-        prob_dict = get_prod_likelihoods(url_list)
+        with open(file, 'r') as inp, open(admin_file, 'r+') as admin:
+            url_list = list(set(json.load(inp)['internal']))
+            prob_dict = get_prod_likelihoods(url_list)
 
-        administration = json.load(admin)
-        tocrawl = set(administration['tocrawl'])
-        visited = set(administration['visited'])
+            administration = json.load(admin)
+            tocrawl = set(administration['tocrawl'])
+            visited = set(administration['visited'])
 
-        for x in prob_dict.items():
-            if x[1] < ACCEPTABLE_PROBABILITY:
-                continue
-            if x[0] in visited:
-                continue
-            tocrawl.add(x[0])
+            for x in prob_dict.items():
+                if x[1] < ACCEPTABLE_PROBABILITY:
+                    continue
+                if x[0] in visited:
+                    continue
+                tocrawl.add(x[0])
 
-        administration['tocrawl'] = list(tocrawl)
-        admin.seek(0)
-        json.dump(administration, admin, indent=4)
-        admin.truncate()
+            administration['tocrawl'] = list(tocrawl)
+            admin.seek(0)
+            json.dump(administration, admin, indent=4)
+            admin.truncate()
 
 
