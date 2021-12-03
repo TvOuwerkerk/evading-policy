@@ -4,6 +4,7 @@ import pickle
 import glob
 import urllib.parse as parse
 import re
+import os
 
 ACCEPTABLE_PROBABILITY = 0.5
 
@@ -65,7 +66,7 @@ def get_prod_likelihoods(urllist: [str]) -> dict:
     return dict(zip(urllist, proba[:, 1]))
 
 
-dataDirectories = glob.glob('data.*')
+dataDirectories = [x for x in os.listdir() if x.startswith('data.')]
 files = []
 for directory in dataDirectories:
     files = glob.glob(f'{directory}\\links.*.json')
@@ -74,6 +75,8 @@ for directory in dataDirectories:
 
         with open(file, 'r') as inp, open(admin_file, 'r+') as admin:
             url_list = list(set(json.load(inp)['internal']))
+            if not url_list:
+                continue
             prob_dict = get_prod_likelihoods(url_list)
 
             administration = json.load(admin)
@@ -91,5 +94,3 @@ for directory in dataDirectories:
             admin.seek(0)
             json.dump(administration, admin, indent=4)
             admin.truncate()
-
-
