@@ -11,6 +11,7 @@ const {metadataFileExists, createMetadataFile} = require('./metadataFile');
 // eslint-disable-next-line no-unused-vars
 const BaseCollector = require('../collectors/BaseCollector');
 const ScreenshotCollector = require('../collectors/ScreenshotCollector');
+const tld = require('tld-extract');
 
 program
     .option('-o, --output <path>', '(required) output folder')
@@ -33,7 +34,7 @@ program
 
 /**
  * @param {string[]} inputUrls
- * @param {string} outputPath
+ * @param {string} outputDir
  * @param {boolean} verbose
  * @param {string} logPath
  * @param {number} numberOfCrawlers
@@ -47,7 +48,7 @@ program
  * @param {string} chromiumVersion
  * @param {boolean} scrapeLinks
  */
-async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion,scrapeLinks) {
+async function run(inputUrls, outputDir, verbose, logPath, numberOfCrawlers, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion,scrapeLinks) {
     const logFile = logPath ? fs.createWriteStream(logPath, {flags: 'w'}) : null;
 
     /**
@@ -65,24 +66,25 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
     };
 
     /**
+     * For a given URL, create the base for the file names where its data should be stored.
+     * Note that a file extension needs to be added after getting the return value of this method.
      * @type {function(...any):string}
      * @param {URL} url
      */
     const createOutputFileName = (url => {
         let hash = crypto.createHash('sha1').update(url.toString()).digest('hex');
         hash = hash.substring(0, 4); // truncate to length 4
-        return `${url.hostname}_${hash}.json`;
+        return `${url.hostname}_${hash}`;
     });
 
     /**
+     * For a given URL, return the full path to the directory where its data should be stored
      * @type {function(...any):string}
      * @param {URL} url
      */
-    const createOutputPath = (url => {
-        let outputFileName = createOutputFileName(url);
-        return path.join(outputPath, outputFileName);
-    });
+    const createOutputPath = (url => (program.inputJson ? path.join(outputDir,`data.${tld(url).domain}`) : outputDir));
 
+    //Filter out invalid URLS and ones for which an output file already exists (if forceOverwrite is false)
     const urls = inputUrls.filter(urlString => {
         /**
          * @type {URL}
@@ -98,7 +100,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
 
         if (forceOverwrite !== true) {
             // filter out entries for which result file already exists
-            const outputFile = createOutputPath(url);
+            const outputFile = path.join(createOutputPath(url),`${createOutputFileName(url)}.json`);
             if (fs.existsSync(outputFile)) {
                 log(chalk.yellow(`Skipping "${urlString}" because output file already exists.`));
                 return false;
@@ -108,7 +110,8 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
         return true;
     });
 
-    const truncateURL = (/** @type {string} */ url = '') => {
+    // Truncate a given string. Useful for printing long urls in progressbar
+    const truncateURL = (url = '') => {
         const TRUNCATE_LENGTH = 57;
         if (url.length > TRUNCATE_LENGTH) {
             return `${url.substring(0,TRUNCATE_LENGTH)}...`;
@@ -126,8 +129,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
 
     let failures = 0;
     let successes = 0;
-    // eslint-disable-next-line arrow-parens
-    const updateProgress = (/** @type {string} */site = '') => {
+    const updateProgress = (site = '') => {
         if(progressBar) {
             progressBar.tick({
                 site,
@@ -137,17 +139,30 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
     };
 
     /**
+     * For a given URL and path to output directory of this URL, add the url to 'visited'
+     * @param {URL} url
+     * @param {string} outputPath
+     */
+    const tagURLVisited = (url, outputPath = '',) => {
+        const urlDomain = tld(url).domain;
+        const adminPath = path.join(`${outputPath}`,`admin.${urlDomain}.json`);
+        let adminData = JSON.parse(fs.readFileSync(adminPath).toString());
+        adminData.visited.push(url);
+        fs.writeFileSync(adminPath, JSON.stringify(adminData, null, 2));
+    };
+
+
+    /**
      * @param {URL} url
      * @param {import('../crawler').CollectResult} data
      */
     const dataCallback = (url, data) => {
         successes++;
         updateProgress(truncateURL(url.toString()));
-        const outputFile = createOutputPath(url);
-        const outputFileName = createOutputFileName(url);
-        const outputFileImg = `${outputFile.slice(0,outputFile.length-5)}.png`;
-
-        const outputFileLinks = `${outputPath}\\links.${outputFileName}`;
+        const outputPath = createOutputPath(url); //Path to directory where output will be stored for this url
+        const outputFileName = createOutputFileName(url); //Base name for files where data is stored for this url
+        const outputFileImg = path.join(outputPath,`${outputFileName}.png`); //Full path to file where img data is stored for this url
+        const outputFileLinks = path.join(outputPath,`links.${outputFileName}.json`); //Full path to file where links data is stored for this url
 
         let screenshotID = new ScreenshotCollector().id();
         if (screenshotID in data.data) {
@@ -165,7 +180,13 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
             data.data.links = 'No internal links were collected';
         }
 
-        fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
+        if(program.inputJson) {
+            //Remove crawled url from 'tocrawl' in admin file. Add to 'visited'.
+            tagURLVisited(url, outputPath);
+        }
+
+        //Write crawled data to outputfile for this url
+        fs.writeFileSync(path.join(outputPath,`${outputFileName}.json`), JSON.stringify(data, null, 2));
     };
 
     /**
@@ -174,6 +195,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
     const failureCallback = url => {
         failures++;
         updateProgress(truncateURL(url));
+        tagURLVisited(new URL(url), createOutputPath(url));
     };
 
     const startTime = new Date();
@@ -214,7 +236,7 @@ async function run(inputUrls, outputPath, verbose, logPath, numberOfCrawlers, da
     log(chalk.cyan(`Sucessful crawls: ${successes}/${urls.length} (${(successes / urls.length * 100).toFixed(2)}%)`));
     log(chalk.cyan(`Failed crawls: ${failures}/${urls.length} (${(failures / urls.length * 100).toFixed(2)}%)`));
 
-    createMetadataFile(outputPath, {
+    createMetadataFile(outputDir, {
         startTime,
         endTime,
         fatalError,
@@ -241,7 +263,15 @@ const scrapeLinks = Boolean(program.scrapeLinks);
  * @type {BaseCollector[]}
  */
 let dataCollectors = null;
+/**
+ * @type {string[]}
+ */
 let urls = null;
+
+const crawlDir = `${program.inputJson}-crawl`;
+if (!fs.existsSync(crawlDir)) {
+    fs.mkdirSync(crawlDir);
+}
 
 if (typeof program.dataCollectors === 'string') {
     const dataCollectorsIds = program.dataCollectors.split(',').map(n => n.trim()).filter(n => n.length > 0);
@@ -266,11 +296,50 @@ if (program.url) {
 } else if(program.inputList) {
     urls = fs.readFileSync(program.inputList).toString().split('\n').map(u => u.trim());
 } else if(program.inputJson) {
-    let data = fs.readFileSync(program.inputJson);
-    urls = JSON.parse(data.toString()).tocrawl;
+    urls = [];
+    // Read list of domains that need to be crawled
+    //TODO: trim input string before splitting?
+    let data = Array.from(fs.readFileSync(program.inputJson).toString().trim().split('\n').map(u => u.trim()));
+    data.forEach(domain => {
+        let strippedDomain = '';
+        try {
+            strippedDomain = tld(domain).domain;
+        } catch (e) {
+            console.log('Data: ', data);
+            console.log('Type: ', typeof data);
+            console.log('Item: ', domain);
+            console.log('Type: ', typeof domain);
+        }
+
+        // For each domain that needs to be crawled, make a path for the associated admin json file
+        const dataPath = path.join(`${crawlDir}`,`data.${strippedDomain}`);
+        const adminPath = path.join(dataPath,`admin.${strippedDomain}.json`);
+        let adminData = '';
+
+        // If the admin file exists, get the 'tocrawl' list of urls that need to be visited. Else create one
+        if (fs.existsSync(adminPath)) {
+            adminData = fs.readFileSync(adminPath).toString();
+        } else {
+            adminData = `{"tocrawl":["${domain}"], "visited":{}, "product":{}}`;
+            fs.mkdir(dataPath, {recursive: true}, err => {
+                if(err) {
+                    console.log(`Error creating data.dir: ${err.message}`);
+                }
+            });
+            fs.writeFileSync(adminPath, JSON.stringify(adminData));
+        }
+        let adminDataDict = JSON.parse(adminData);
+        // Add 'tocrawl' list of urls from admin file to the list of urls that get sent to the crawlerConductor
+        urls.push(...adminDataDict.tocrawl);
+
+        // Empty out admin file's 'tocrawl' list. Crawled URLs will be added to 'visited' list later
+        adminDataDict.tocrawl = [];
+        fs.writeFileSync(adminPath, JSON.stringify(adminDataDict));
+    });
 }
 
-if (!urls || !program.output) {
+// If admin.json input, saving files needs to be strictly structured, thus ignore program.output in that case
+if (!urls || (!program.output && !program.inputJson)) {
     program.help();
 } else {
     urls = urls.map(url => {
@@ -280,8 +349,11 @@ if (!urls || !program.output) {
         return `http://${url}`;
     });
 
-    if (fs.existsSync(program.output)) {
-        if (metadataFileExists(program.output) && !forceOverwrite) {
+    const outputFile = program.inputJson ? crawlDir : program.output;
+    const logFile = program.inputJson ? path.join(crawlDir,`${program.inputJson.split(path.sep).slice(-1)[0]}.log`) : program.logFile;
+
+    if (fs.existsSync(outputFile)) {
+        if (metadataFileExists(outputFile) && !forceOverwrite) {
             // eslint-disable-next-line no-console
             console.log(chalk.red('Output folder already exists and contains metadata file.'), 'Use -f to overwrite.');
             process.exit(1);
@@ -290,5 +362,5 @@ if (!urls || !program.output) {
         fs.mkdirSync(program.output);
     }
 
-    run(urls, program.output, verbose, program.logFile, program.crawlers || null, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, program.proxyConfig, program.regionCode, !program.disableAntiBot, program.chromiumVersion, scrapeLinks);
+    run(urls, outputFile, verbose, logFile, program.crawlers || null, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, program.proxyConfig, program.regionCode, !program.disableAntiBot, program.chromiumVersion, scrapeLinks);
 }
