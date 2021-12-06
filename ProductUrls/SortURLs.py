@@ -71,26 +71,25 @@ files = []
 for directory in dataDirectories:
     files = glob.glob(f'{directory}\\links.*.json')
     for file in files:
+        url_list = list(set(json.load(inp)['internal']))
+        if not url_list:
+            continue
+        prob_dict = get_prod_likelihoods(url_list)
+
         admin_file = glob.glob(f'{directory}\\admin.*')[0]
-
         with open(file, 'r') as inp, open(admin_file, 'r+') as admin:
-            url_list = list(set(json.load(inp)['internal']))
-            if not url_list:
-                continue
-            prob_dict = get_prod_likelihoods(url_list)
-
-            administration = json.load(admin)
-            tocrawl = set(administration['tocrawl'])
-            visited = set(administration['visited'])
+            administration: dict = json.load(admin)
+            tocrawl: dict[str, int] = administration['tocrawl']
+            visited: dict[str, int] = administration['visited']
 
             for x in prob_dict.items():
                 if x[1] < ACCEPTABLE_PROBABILITY:
                     continue
-                if x[0] in visited:
+                if x[0] in visited.keys():
                     continue
-                tocrawl.add(x[0])
+                tocrawl.update(x)
 
-            administration['tocrawl'] = list(tocrawl)
+            administration['tocrawl'] = tocrawl
             admin.seek(0)
             json.dump(administration, admin, indent=4)
             admin.truncate()
