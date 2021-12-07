@@ -251,7 +251,9 @@ async function getSiteData(context, url, {
     if(scrapeLinks) {
         const elementHandles = await page.$$('a');
         const propertyJsHandles = await Promise.all(elementHandles.map(handle => handle.getProperty('href')));
-        const links = await Promise.all(propertyJsHandles.map(handle => handle.jsonValue()));
+        /** @type {Promise<string>[]} */
+        const propertyJsHandlesValues = propertyJsHandles.map(handle => handle.jsonValue());
+        const links = await Promise.all(propertyJsHandlesValues);
 
         //TODO: consider relative URLS
         for (const i in links) {
