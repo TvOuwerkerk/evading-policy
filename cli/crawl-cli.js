@@ -298,7 +298,6 @@ if (program.url) {
 } else if(program.inputJson) {
     urls = [];
     // Read list of domains that need to be crawled
-    //TODO: trim input string before splitting?
     let data = Array.from(fs.readFileSync(program.inputJson).toString().trim().split('\n').map(u => u.trim()));
     data.forEach(domain => {
         let strippedDomain = '';
