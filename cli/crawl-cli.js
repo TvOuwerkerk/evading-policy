@@ -33,7 +33,7 @@ program
     .parse(process.argv);
 
 /**
- * @param {string[]} inputUrls
+ * @param {Record<string,number>} inputUrlsDict
  * @param {string} outputDir
  * @param {boolean} verbose
  * @param {string} logPath
@@ -48,8 +48,9 @@ program
  * @param {string} chromiumVersion
  * @param {boolean} scrapeLinks
  */
-async function run(inputUrls, outputDir, verbose, logPath, numberOfCrawlers, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion,scrapeLinks) {
+async function run(inputUrlsDict, outputDir, verbose, logPath, numberOfCrawlers, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, proxyHost, regionCode, antiBotDetection, chromiumVersion,scrapeLinks) {
     const logFile = logPath ? fs.createWriteStream(logPath, {flags: 'w'}) : null;
+    let inputUrls = Object.keys(inputUrlsDict);
 
     /**
      * @type {function(...any):void}
@@ -146,8 +147,14 @@ async function run(inputUrls, outputDir, verbose, logPath, numberOfCrawlers, dat
     const tagURLVisited = (url, outputPath = '',) => {
         const urlDomain = tld(url).domain;
         const adminPath = path.join(`${outputPath}`,`admin.${urlDomain}.json`);
+        /** @type {{tocrawl : Record<string,number>, visited : Record<string,number>, product : Record<string,number>}} */
         let adminData = JSON.parse(fs.readFileSync(adminPath).toString());
-        adminData.visited.push(url);
+
+        if (url.toString() in inputUrlsDict) {
+            adminData.visited[url.toString()] = inputUrlsDict[url.toString()];
+        } else {
+            log(`Error: failed to add url to 'visited' list: ${url.toString()}`);
+        }
         fs.writeFileSync(adminPath, JSON.stringify(adminData, null, 2));
     };
 
@@ -267,6 +274,10 @@ let dataCollectors = null;
  * @type {string[]}
  */
 let urls = null;
+/**
+ * @type {Record<string,number>}
+ */
+let urlProbabilities = {};
 
 const crawlDir = `${program.inputJson}-crawl`;
 if (!fs.existsSync(crawlDir)) {
@@ -300,39 +311,36 @@ if (program.url) {
     // Read list of domains that need to be crawled
     let data = Array.from(fs.readFileSync(program.inputJson).toString().trim().split('\n').map(u => u.trim()));
     data.forEach(domain => {
-        let strippedDomain = '';
-        try {
-            strippedDomain = tld(domain).domain;
-        } catch (e) {
-            console.log('Data: ', data);
-            console.log('Type: ', typeof data);
-            console.log('Item: ', domain);
-            console.log('Type: ', typeof domain);
-        }
+        let strippedDomain =  tld(domain).domain;
 
         // For each domain that needs to be crawled, make a path for the associated admin json file
         const dataPath = path.join(`${crawlDir}`,`data.${strippedDomain}`);
         const adminPath = path.join(dataPath,`admin.${strippedDomain}.json`);
         let adminData = '';
 
-        // If the admin file exists, get the 'tocrawl' list of urls that need to be visited. Else create one
+        // If the admin file exists, get the 'tocrawl' dict with urls that need to be visited. Else create one
         if (fs.existsSync(adminPath)) {
             adminData = fs.readFileSync(adminPath).toString();
         } else {
-            adminData = `{"tocrawl":["${domain}"], "visited":{}, "product":{}}`;
+            adminData = `{"tocrawl":{"${domain}" : -1}, "visited":{}, "product":{}}`;
             fs.mkdir(dataPath, {recursive: true}, err => {
                 if(err) {
-                    console.log(`Error creating data.dir: ${err.message}`);
+                    console.log(`Error creating data.${domain}: ${err.message}`);
                 }
             });
             fs.writeFileSync(adminPath, JSON.stringify(adminData));
         }
+
         let adminDataDict = JSON.parse(adminData);
         // Add 'tocrawl' list of urls from admin file to the list of urls that get sent to the crawlerConductor
-        urls.push(...adminDataDict.tocrawl);
+        urls.push(...Object.keys(adminDataDict.tocrawl));
 
-        // Empty out admin file's 'tocrawl' list. Crawled URLs will be added to 'visited' list later
-        adminDataDict.tocrawl = [];
+        // Create URL object from each key in tocrawl and call toString to normalise URL strings
+        let fixedDataDict = Object.fromEntries(Object.entries(adminDataDict.tocrawl).map(([k,v]) => [new URL(k).toString(),v]));
+        Object.assign(urlProbabilities, fixedDataDict);
+
+        // Empty out admin file's 'tocrawl' list. Crawled URLs will be added to 'visited' list later in DataCallback
+        adminDataDict.tocrawl = {};
         fs.writeFileSync(adminPath, JSON.stringify(adminDataDict));
     });
 }
@@ -361,5 +369,5 @@ if (!urls || (!program.output && !program.inputJson)) {
         fs.mkdirSync(program.output);
     }
 
-    run(urls, outputFile, verbose, logFile, program.crawlers || null, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, program.proxyConfig, program.regionCode, !program.disableAntiBot, program.chromiumVersion, scrapeLinks);
+    run(urlProbabilities, outputFile, verbose, logFile, program.crawlers || null, dataCollectors, forceOverwrite, filterOutFirstParty, emulateMobile, program.proxyConfig, program.regionCode, !program.disableAntiBot, program.chromiumVersion, scrapeLinks);
 }
