@@ -62,8 +62,8 @@ for directory in dataDirectories:
     for file in files:
         with open(file) as data_file:
             data: dict = json.load(data_file)
-            if data['initialUrl'] != data['finalUrl']:
-                print(f'{file}: Crawl was redirected')
+            # if data['initialUrl'] != data['finalUrl']:
+            #   print(f'{file}: Crawl was redirected')
 
             requests = list(data['data']['requests'])
             crawled_url = data['initialUrl']
@@ -72,7 +72,11 @@ for directory in dataDirectories:
                 request_url = request['url']
 
                 # If the current request is to a 1st party domain, skip it
-                if crawled_domain == parse.urlsplit(request_url).netloc:
+                split_request_url = parse.urlsplit(request_url)
+                if crawled_domain == split_request_url.netloc:
+                    continue
+                # urllib has trouble dealing with 'blob:' urls, so we check for that case here
+                if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == crawled_domain:
                     continue
 
                 # Check if (parts of) the crawled url appear in the request url
