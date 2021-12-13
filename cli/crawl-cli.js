@@ -304,8 +304,11 @@ if (typeof program.dataCollectors === 'string') {
 
 if (program.url) {
     urls = [program.url];
+    urlProbabilities[program.url] = -1;
 } else if(program.inputList) {
     urls = fs.readFileSync(program.inputList).toString().split('\n').map(u => u.trim());
+    // eslint-disable-next-line no-return-assign
+    urls.forEach(u => urlProbabilities[u] = -1);
 } else if(program.inputJson) {
     urls = [];
     // Read list of domains that need to be crawled
