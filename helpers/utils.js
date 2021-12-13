@@ -61,5 +61,6 @@ async function findCMP(page, log=null, cmpAction = 'NO_ACTION') {
 }
 
 module.exports = {
-    findCMP
+    findCMP,
+    sleep
 };

@@ -82,6 +82,7 @@ module.exports = async options => {
         async.retry(MAX_NUMBER_OF_RETRIES, task, err => {
             if (err) {
                 log(chalk.red(`Max number of retries (${MAX_NUMBER_OF_RETRIES}) exceeded for "${urlString}".`));
+                log(chalk.red(`Error ${err.message} caused retry failure`));
                 failureCallback(urlString, err);
             } else {
                 log(chalk.cyan(`Processing "${urlString}" took ${timer.getElapsedTime()}s.`));
