@@ -3,6 +3,7 @@ import os
 import glob
 import urllib.parse as parse
 import hashlib
+import base64
 
 DATA_PATH = '.\\slice'
 
@@ -26,9 +27,7 @@ def check_url_in_url(source: str, target: str):
     if path == '/':
         path_present = False
 
-    schemeless_split = parse.urlsplit(source)
-    schemeless_split.scheme = ''
-    schemeless_source = parse.urlunsplit(schemeless_split)
+    schemeless_source = parse.urlunsplit(parse.urlsplit(source)._replace(scheme=''))
 
     encodings = []
     search_dict = {}
@@ -40,10 +39,10 @@ def check_url_in_url(source: str, target: str):
     encodings.append(encode_search_dict(to_search_dict, parse.quote, 'percent'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
+    encodings.append(encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
 
     for dictionary in encodings:
         search_dict.update(dictionary)
-    # TODO: base64 encoding
 
     for x in search_dict.keys():
         if x.startswith('path') and not path_present:
