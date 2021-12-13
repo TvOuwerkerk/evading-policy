@@ -16,22 +16,31 @@ def check_url_in_url(source: str, target: str):
     """
 
     path = parse.urlsplit(source).path
+    path_present = True
     if path == '/':
-        path = '////'
+        path_present = False
 
-    # TODO: strip scheme as well
+    schemeless_split = parse.urlsplit(source)
+    schemeless_split.scheme = ''
+    schemeless_source = parse.urlunsplit(schemeless_split)
 
     search_dict = {"source": source,
                    "path": path,
+                   "schemeless": schemeless_source,
                    "source percent": parse.quote(source),
                    "path percent": parse.quote(path),
+                   "schemeless percent": parse.quote(schemeless_source),
                    "source md5": hashlib.md5(source.encode('utf-8')),
                    "path md5": hashlib.md5(path.encode('utf-8')),
+                   "schemeless md5": hashlib.md5(schemeless_source.encode('utf-8')),
                    "source sha1": hashlib.sha1(source.encode('utf-8')),
-                   "path sha1": hashlib.sha1(path.encode('utf-8'))}
+                   "path sha1": hashlib.sha1(path.encode('utf-8')),
+                   "schemeless sha1": hashlib.sha1(schemeless_source.encode('utf-8'))}
     # TODO: base64 encoding
 
     for x in search_dict.keys():
+        if x.startswith('path') and not path_present:
+            continue
         if str(search_dict[x]) in target:
             return x
     return ""
