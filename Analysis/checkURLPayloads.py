@@ -7,6 +7,12 @@ import hashlib
 DATA_PATH = '.\\slice'
 
 
+def encode_search_dict(to_search: dict, encoding, encoding_name: str):
+    keys = map(lambda a: f'{a}-{encoding_name}', to_search.keys())
+    values = map(encoding, to_search.values())
+    return dict(zip(keys, values))
+
+
 def check_url_in_url(source: str, target: str):
     """
     Searches a target URL for occurences of (parts of) the source URL in several encodings.
@@ -24,18 +30,19 @@ def check_url_in_url(source: str, target: str):
     schemeless_split.scheme = ''
     schemeless_source = parse.urlunsplit(schemeless_split)
 
-    search_dict = {"source": source,
-                   "path": path,
-                   "schemeless": schemeless_source,
-                   "source percent": parse.quote(source),
-                   "path percent": parse.quote(path),
-                   "schemeless percent": parse.quote(schemeless_source),
-                   "source md5": hashlib.md5(source.encode('utf-8')),
-                   "path md5": hashlib.md5(path.encode('utf-8')),
-                   "schemeless md5": hashlib.md5(schemeless_source.encode('utf-8')),
-                   "source sha1": hashlib.sha1(source.encode('utf-8')),
-                   "path sha1": hashlib.sha1(path.encode('utf-8')),
-                   "schemeless sha1": hashlib.sha1(schemeless_source.encode('utf-8'))}
+    encodings = []
+    search_dict = {}
+    to_search_dict = {"source": source,
+                      "path": path,
+                      "schemeless": schemeless_source}
+    search_dict.update(to_search_dict)
+    encodings.append(to_search_dict)
+    encodings.append(encode_search_dict(to_search_dict, parse.quote, 'percent'))
+    encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
+    encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
+
+    for dictionary in encodings:
+        search_dict.update(dictionary)
     # TODO: base64 encoding
 
     for x in search_dict.keys():
