@@ -5,7 +5,7 @@ import urllib.parse as parse
 import hashlib
 import base64
 
-DATA_PATH = '.\\slice'
+DATA_PATH = '.\\sampledata'
 
 
 def encode_search_dict(to_search: dict, encoding, encoding_name: str):
@@ -52,22 +52,28 @@ def check_url_in_url(source: str, target: str):
     return ""
 
 
+# Find all directories which have data saved to them
 dataDirectories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
-dataDirectories.append(DATA_PATH)
 files = []
 for directory in dataDirectories:
+    # Create object to save results into
+    results = []
     # Find all .json files that are not a links. or admin. file
-    files = [x for x in glob.glob(f'{directory}\\*.json') if not (x.startswith(f'{directory}\\links')
-             or x.startswith(f'{directory}\\admin') or x.startswith(f'{directory}\\metadata'))]
+    directory_path = f'{DATA_PATH}\\{directory}'
+    files = [x for x in glob.glob(f'{directory_path}\\*.json') if not (x.startswith(f'{directory_path}\\links')
+             or x.startswith(f'{directory_path}\\admin') or x.startswith(f'{directory_path}\\metadata'))]
     for file in files:
         with open(file) as data_file:
+            # Load the data gathered from a page visit
             data: dict = json.load(data_file)
-            # if data['initialUrl'] != data['finalUrl']:
-            #   print(f'{file}: Crawl was redirected')
 
+            # Get the requests gathered and url visited
             requests = list(data['data']['requests'])
             crawled_url = data['initialUrl']
             crawled_domain = parse.urlsplit(crawled_url).netloc
+
+            # Prepare the dict that needs to be added to the results list
+            file_results = {'crawled-url': crawled_url, 'request-results': []}
             for request in requests:
                 request_url = request['url']
 
@@ -75,11 +81,31 @@ for directory in dataDirectories:
                 split_request_url = parse.urlsplit(request_url)
                 if crawled_domain == split_request_url.netloc:
                     continue
-                # urllib has trouble dealing with 'blob:' urls, so we check for that case here
+                # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
                 if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == crawled_domain:
                     continue
 
                 # Check if (parts of) the crawled url appear in the request url
                 check = check_url_in_url(crawled_url, request_url)
                 if check != "":
-                    print(f'{file}: Found {check} in {request_url}')
+                    try:
+                        encoding = check.split(' ')[1]
+                    except IndexError:
+                        encoding = 'none'
+                    request_result = {'request-url': request_url,
+                                      'part-found': check.split(' ')[0],
+                                      'encoding': encoding}
+                    file_results['request-results'].append(request_result)
+
+    admin_file_path = glob.glob(f'{directory_path}\\admin.*.json')[0]
+    with open(admin_file_path, 'r+') as admin:
+        admin_data = json.load(admin)
+        type(admin_data)
+        try:
+            admin_data['results'].append(file_results)
+        except KeyError:
+            admin_data['results'] = []
+            admin_data['results'].append(file_results)
+        admin.seek(0)
+        json.dump(admin_data, admin, indent=4)
+        admin.truncate()
