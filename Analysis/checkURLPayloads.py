@@ -36,7 +36,7 @@ def check_url_in_url(source: str, target: str):
                       "schemeless": schemeless_source}
     search_dict.update(to_search_dict)
     encodings.append(to_search_dict)
-    encodings.append(encode_search_dict(to_search_dict, parse.quote, 'percent'))
+    encodings.append(encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
