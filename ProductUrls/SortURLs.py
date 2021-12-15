@@ -6,7 +6,10 @@ import urllib.parse as parse
 import re
 import os
 
+DATA_FOLDER = '.\\sampledata'
+
 ACCEPTABLE_PROBABILITY = 0.5
+NR_DESIRED_LINKS = 100
 
 
 def get_url_path(url: str):
@@ -47,7 +50,7 @@ def get_url_features(url: str):
     contains_category = 1 if any(tag in url for tag in ['category', 'categorie', 'collection', 'collectie']) else 0
     longest_num = get_longest_num_len(url)
     return path_len, num_dot, num_hyphen, num_slash, num_hash, num_param, \
-        contains_product, contains_category, longest_num
+           contains_product, contains_category, longest_num
 
 
 def get_prod_likelihoods(urllist: [str]) -> dict:
@@ -66,30 +69,36 @@ def get_prod_likelihoods(urllist: [str]) -> dict:
     return dict(zip(urllist, proba[:, 1]))
 
 
-dataDirectories = [x for x in os.listdir() if x.startswith('data.')]
+dataDirectories = [x for x in os.listdir(DATA_FOLDER) if x.startswith('data.')]
 files = []
+# For every links-file in every data-directory, get the list of scraped urls and get probabilities
 for directory in dataDirectories:
-    files = glob.glob(f'{directory}\\links.*.json')
+    directory_path = f'{DATA_FOLDER}\\{directory}'
+    prob_dicts = []
+    files = glob.glob(f'{directory_path}\\links.*.json')
     for file in files:
-        url_list = list(set(json.load(inp)['internal']))
-        if not url_list:
-            continue
-        prob_dict = get_prod_likelihoods(url_list)
+        with open(file, 'r') as inp:
+            url_list = list(set(json.load(inp)['internal']))
+            if not url_list:
+                continue
+            prob_dicts.append(get_prod_likelihoods(url_list))
 
-        admin_file = glob.glob(f'{directory}\\admin.*')[0]
-        with open(file, 'r') as inp, open(admin_file, 'r+') as admin:
-            administration: dict = json.load(admin)
-            tocrawl: dict[str, int] = administration['tocrawl']
-            visited: dict[str, int] = administration['visited']
+    # After tagging all gathered links in a specific data-directory, save the results to the admin-file
+    admin_file = glob.glob(f'{directory_path}\\admin.*')[0]
+    with open(admin_file, 'r+') as admin:
+        administration: dict = json.load(admin)
+        to_crawl: dict[str, int] = administration['tocrawl']
+        visited: dict[str, int] = administration['visited']
 
-            for x in prob_dict.items():
-                if x[1] < ACCEPTABLE_PROBABILITY:
+        for dictionary in prob_dicts:
+            for k in dictionary:
+                if k in visited.keys():
                     continue
-                if x[0] in visited.keys():
-                    continue
-                tocrawl.update(x)
+                to_crawl.update({k: dictionary[k]})
+        to_crawl_sorted = sorted(list(to_crawl.items()), key=lambda x: x[1])
+        to_crawl = dict(to_crawl_sorted[-NR_DESIRED_LINKS:])
 
-            administration['tocrawl'] = tocrawl
-            admin.seek(0)
-            json.dump(administration, admin, indent=4)
-            admin.truncate()
+        administration['tocrawl'] = to_crawl
+        admin.seek(0)
+        json.dump(administration, admin, indent=4)
+        admin.truncate()
