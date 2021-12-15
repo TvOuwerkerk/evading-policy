@@ -59,6 +59,37 @@ def check_url_in_url(source: str, target: str):
     return ""
 
 
+def check_url_leakage(leaked_url, target_url):
+    """
+    Check whether (part of) a given URL is leaked in the target URL
+    :param leaked_url: URL which is potentially (partially) leaked
+    :param target_url: URL in which (part of) leaked_url could be found
+    :return: None if no leakage is found. Dict containing target url, part found and encoding used if leakage is found
+    """
+    crawled_domain = parse.urlsplit(target_url).netloc
+
+    # If the current request is to a 1st party domain, skip it
+    split_request_url = parse.urlsplit(leaked_url)
+    if crawled_domain == split_request_url.netloc:
+        return None
+    # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
+    if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == crawled_domain:
+        return None
+
+    # Check if (parts of) the crawled url appear in the request url
+    check = check_url_in_url(target_url, leaked_url)
+    if check != "":
+        try:
+            encoding = check.split(' ')[1]
+        except IndexError:
+            encoding = 'none'
+        request_result = {'request-url': target_url,
+                          'part-found': check.split(' ')[0],
+                          'encoding': encoding}
+        return request_result
+    return None
+
+
 def save_data_to_admin(file_data, admin_directory):
     """
     Saves given data to the admin-file found in the given directory
@@ -97,31 +128,13 @@ for directory in data_directories:
             # Get the requests gathered and url visited
             requests = list(data['data']['requests'])
             crawled_url = data['initialUrl']
-            crawled_domain = parse.urlsplit(crawled_url).netloc
 
-            # Prepare the dict that needs to be added to the results list
+            # Create file_results object, containing all results that need to be saved to the admin-file later
             file_results = {'crawled-url': crawled_url, 'request-results': []}
             for request in requests:
                 request_url = request['url']
-
-                # If the current request is to a 1st party domain, skip it
-                split_request_url = parse.urlsplit(request_url)
-                if crawled_domain == split_request_url.netloc:
-                    continue
-                # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
-                if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == crawled_domain:
-                    continue
-
-                # Check if (parts of) the crawled url appear in the request url
-                check = check_url_in_url(crawled_url, request_url)
-                if check != "":
-                    try:
-                        encoding = check.split(' ')[1]
-                    except IndexError:
-                        encoding = 'none'
-                    request_result = {'request-url': request_url,
-                                      'part-found': check.split(' ')[0],
-                                      'encoding': encoding}
-                    file_results['request-results'].append(request_result)
+                result = check_url_leakage(crawled_url, request_url)
+                if result is not None:
+                    file_results['request-results'].append(result)
 
         save_data_to_admin(file_results, directory_path)
