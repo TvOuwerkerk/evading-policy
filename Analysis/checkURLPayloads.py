@@ -8,7 +8,14 @@ import base64
 DATA_PATH = '.\\sampledata'
 
 
-def encode_search_dict(to_search: dict, encoding, encoding_name: str):
+def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
+    """
+    Encodes values and changes keys accordingly for a given dict
+    :param to_search: dict containing keyed strings that need to be searched for
+    :param encoding: function that encodes a given str
+    :param encoding_name: encoding name that is added to keys of to_search dict
+    :return: dict containing changed keys and encoded values
+    """
     keys = map(lambda a: f'{a}-{encoding_name}', to_search.keys())
     values = map(encoding, to_search.values())
     return dict(zip(keys, values))
@@ -52,15 +59,21 @@ def check_url_in_url(source: str, target: str):
     return ""
 
 
-def save_data_to_admin(directory, data):
-    admin_file_path = glob.glob(f'{directory}\\admin.*.json')[0]
+def save_data_to_admin(file_data, admin_directory):
+    """
+    Saves given data to the admin-file found in the given directory
+    :param admin_directory: directory in which admin-file is located
+    :param file_data: data that needs to be added to results object in admin-file
+    :return: None
+    """
+    admin_file_path = glob.glob(f'{admin_directory}\\admin.*.json')[0]
     with open(admin_file_path, 'r+') as admin:
         admin_data = json.load(admin)
         try:
-            admin_data['results'].append(data)
+            admin_data['results'].append(file_data)
         except KeyError:
             admin_data['results'] = []
-            admin_data['results'].append(data)
+            admin_data['results'].append(file_data)
         admin.seek(0)
         json.dump(admin_data, admin, indent=4)
         admin.truncate()
@@ -111,4 +124,4 @@ for directory in data_directories:
                                       'encoding': encoding}
                     file_results['request-results'].append(request_result)
 
-        save_data_to_admin(directory_path, file_results)
+        save_data_to_admin(file_results, directory_path)
