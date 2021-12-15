@@ -21,10 +21,11 @@ def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
     return dict(zip(keys, values))
 
 
-def check_url_in_url(source: str, target: str):
+def check_url_in_url(source: str, alternate_source: str, target: str):
     """
-    Searches a target URL for occurences of (parts of) the source URL in several encodings.
+    Searches a target URL for occurrences of (parts of) the source URL in several encodings.
     :param source: URL that needs to be searched for
+    :param alternate_source: Alternate version of URL that needs to be searched for
     :param target: URL that needs to be searched through
     :return: True if (a part of) the source URL is found, False otherwise
     """
@@ -38,9 +39,10 @@ def check_url_in_url(source: str, target: str):
 
     encodings = []
     search_dict = {}
-    to_search_dict = {"source": source,
-                      "path": path,
-                      "schemeless": schemeless_source}
+    to_search_dict = {'source': source,
+                      'alternate': alternate_source,
+                      'path': path,
+                      'schemeless': schemeless_source}
     search_dict.update(to_search_dict)
     encodings.append(to_search_dict)
     encodings.append(encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
@@ -56,29 +58,31 @@ def check_url_in_url(source: str, target: str):
             continue
         if str(search_dict[x]) in target:
             return x
-    return ""
+    return ''
 
 
-def check_url_leakage(leaked_url, target_url):
+def check_url_leakage(leaked_url, alternate_leaked_url, target_url):
     """
     Check whether (part of) a given URL is leaked in the target URL
     :param leaked_url: URL which is potentially (partially) leaked
+    :param alternate_leaked_url: Alternate URL which is potentially (partially) leaked
     :param target_url: URL in which (part of) leaked_url could be found
     :return: None if no leakage is found. Dict containing target url, part found and encoding used if leakage is found
     """
-    crawled_domain = parse.urlsplit(target_url).netloc
+    crawled_domain = parse.urlsplit(leaked_url).netloc
+    redirected_domain = parse.urlsplit(alternate_leaked_url).netloc
 
     # If the current request is to a 1st party domain, skip it
-    split_request_url = parse.urlsplit(leaked_url)
-    if crawled_domain == split_request_url.netloc:
+    split_request_url = parse.urlsplit(target_url)
+    if crawled_domain == split_request_url.netloc or redirected_domain == split_request_url.netloc:
         return None
     # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
     if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == crawled_domain:
         return None
 
     # Check if (parts of) the crawled url appear in the request url
-    check = check_url_in_url(leaked_url, target_url)
-    if check != "":
+    check = check_url_in_url(leaked_url, alternate_leaked_url, target_url)
+    if check != '':
         try:
             encoding = check.split(' ')[1]
         except IndexError:
@@ -128,9 +132,15 @@ for directory in data_directories:
             # Get the requests gathered and url visited
             requests = list(data['data']['requests'])
             crawled_url = data['initialUrl']
+            redirected_url = data['finalUrl']
 
             # Create file_results object, containing all results that need to be saved to the admin-file later
-            file_results = {'crawled-url': crawled_url, 'referrer-policy': '', 'request-leakage': []}
+            file_results = {'crawled-url': crawled_url}
+            if crawled_url != redirected_url:
+                file_results['redirected-url'] = redirected_url
+            file_results['referrer-policy'] = ''
+            file_results['request-leakage'] = []
+            
             for request in requests:
                 request_url = request['url']
 
@@ -139,7 +149,7 @@ for directory in data_directories:
                         referrer_policy = request['responseHeaders']['referrer-policy']
                         file_results['referrer-policy'] = referrer_policy
 
-                result = check_url_leakage(crawled_url, request_url)
+                result = check_url_leakage(crawled_url, redirected_url, request_url)
                 if result is not None:
                     file_results['request-leakage'].append(result)
 
