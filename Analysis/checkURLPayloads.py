@@ -52,13 +52,27 @@ def check_url_in_url(source: str, target: str):
     return ""
 
 
+def save_data_to_admin(directory, data):
+    admin_file_path = glob.glob(f'{directory}\\admin.*.json')[0]
+    with open(admin_file_path, 'r+') as admin:
+        admin_data = json.load(admin)
+        try:
+            admin_data['results'].append(data)
+        except KeyError:
+            admin_data['results'] = []
+            admin_data['results'].append(data)
+        admin.seek(0)
+        json.dump(admin_data, admin, indent=4)
+        admin.truncate()
+
+
 # Find all directories which have data saved to them
-dataDirectories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
+data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
 files = []
-for directory in dataDirectories:
+for directory in data_directories:
     # Create object to save results into
     results = []
-    # Find all .json files that are not a links. or admin. file
+    # Find all .json files that contain crawled data
     directory_path = f'{DATA_PATH}\\{directory}'
     files = [x for x in glob.glob(f'{directory_path}\\*.json') if not (x.startswith(f'{directory_path}\\links')
              or x.startswith(f'{directory_path}\\admin') or x.startswith(f'{directory_path}\\metadata'))]
@@ -97,15 +111,4 @@ for directory in dataDirectories:
                                       'encoding': encoding}
                     file_results['request-results'].append(request_result)
 
-    admin_file_path = glob.glob(f'{directory_path}\\admin.*.json')[0]
-    with open(admin_file_path, 'r+') as admin:
-        admin_data = json.load(admin)
-        type(admin_data)
-        try:
-            admin_data['results'].append(file_results)
-        except KeyError:
-            admin_data['results'] = []
-            admin_data['results'].append(file_results)
-        admin.seek(0)
-        json.dump(admin_data, admin, indent=4)
-        admin.truncate()
+        save_data_to_admin(directory_path, file_results)
