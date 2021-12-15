@@ -130,9 +130,15 @@ for directory in data_directories:
             crawled_url = data['initialUrl']
 
             # Create file_results object, containing all results that need to be saved to the admin-file later
-            file_results = {'crawled-url': crawled_url, 'request-leakage': []}
+            file_results = {'crawled-url': crawled_url, 'referrer-policy': '', 'request-leakage': []}
             for request in requests:
                 request_url = request['url']
+
+                if request_url == crawled_url:
+                    if 'responseHeaders' in request and 'referrer-policy' in request['responseHeaders']:
+                        referrer_policy = request['responseHeaders']['referrer-policy']
+                        file_results['referrer-policy'] = referrer_policy
+
                 result = check_url_leakage(crawled_url, request_url)
                 if result is not None:
                     file_results['request-leakage'].append(result)
