@@ -5,7 +5,7 @@ import urllib.parse as parse
 import hashlib
 import base64
 
-DATA_PATH = '.\\sampledata'
+DATA_PATH = '.\\sampledata2'
 
 
 def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
@@ -135,12 +135,14 @@ for directory in data_directories:
             redirected_url = data['finalUrl']
 
             # Create file_results object, containing all results that need to be saved to the admin-file later
-            file_results = {'crawled-url': crawled_url}
+            file_results = {'crawled-url': crawled_url,
+                            'redirected-url': '',
+                            'referrer-policy': '',
+                            'request-leakage': []}
+
             if crawled_url != redirected_url:
                 file_results['redirected-url'] = redirected_url
-            file_results['referrer-policy'] = ''
-            file_results['request-leakage'] = []
-            
+
             for request in requests:
                 request_url = request['url']
 
@@ -153,4 +155,5 @@ for directory in data_directories:
                 if result is not None:
                     file_results['request-leakage'].append(result)
 
+        file_results = {k: v for k, v in file_results.items() if v}
         save_data_to_admin(file_results, directory_path)
