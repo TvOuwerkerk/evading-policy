@@ -5,6 +5,8 @@ import glob
 import urllib.parse as parse
 import re
 import os
+import warnings
+warnings.filterwarnings('ignore', '.*SGDClassifier.*')
 
 DATA_FOLDER = '.\\sampledata'
 
