@@ -84,11 +84,11 @@ def check_url_leakage(leaked_url, alternate_leaked_url, target_url):
     check = check_url_in_url(leaked_url, alternate_leaked_url, target_url)
     if check != '':
         try:
-            encoding = check.split(' ')[1]
+            encoding = check.split('-')[1]
         except IndexError:
             encoding = 'none'
         request_result = {'request-url': target_url,
-                          'part-found': check.split(' ')[0],
+                          'part-found': check.split('-')[0],
                           'encoding': encoding}
         return request_result
     return None
