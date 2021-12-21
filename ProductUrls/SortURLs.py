@@ -8,7 +8,7 @@ import os
 import warnings
 warnings.filterwarnings('ignore', '.*SGDClassifier.*')
 
-DATA_FOLDER = os.path.join('.', 'sampledata')
+DATA_FOLDER = os.path.join('sampledata2')
 MODEL_PATH = os.path.join('models', 'log-reg-mod.pkl')
 
 ACCEPTABLE_PROBABILITY = 0.5
@@ -72,6 +72,21 @@ def get_prod_likelihoods(urllist: [str]) -> dict:
     return dict(zip(urllist, proba[:, 1]))
 
 
+def write_log(text: str):
+    log_location = DATA_FOLDER
+    log_path = glob.glob(os.path.join(log_location, '*.log'))[0]
+    with open(log_path, 'a') as log:
+        log.write(text)
+
+
+def rename_log():
+    log_location = DATA_FOLDER
+    log_file_paths = glob.glob(os.path.join(log_location, '*.log'))
+    log_path = [x for x in log_file_paths if not os.path.split(x)[1].startswith('(')][0]
+    log_name = os.path.split(log_path)[1]
+    os.rename(log_path, os.path.join(log_location, f'({len(log_file_paths)}){log_name}'))
+
+
 dataDirectories = [x for x in os.listdir(DATA_FOLDER) if x.startswith('data.')]
 files = []
 # For every links-file in every data-directory, get the list of scraped urls and get probabilities
@@ -100,8 +115,11 @@ for directory in dataDirectories:
                 to_crawl.update({k: dictionary[k]})
         to_crawl_sorted = sorted(list(to_crawl.items()), key=lambda x: x[1])
         to_crawl = dict(to_crawl_sorted[-NR_DESIRED_LINKS:])
+        if len(to_crawl_sorted) < 10:
+            write_log(f'{os.path.split(admin_file)[1]} contains less than 10 links\n')
 
         administration['tocrawl'] = to_crawl
         admin.seek(0)
         json.dump(administration, admin, indent=4)
         admin.truncate()
+rename_log()
