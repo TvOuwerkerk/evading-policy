@@ -8,7 +8,8 @@ import os
 import warnings
 warnings.filterwarnings('ignore', '.*SGDClassifier.*')
 
-DATA_FOLDER = '.\\sampledata'
+DATA_FOLDER = os.path.join('.', 'sampledata')
+MODEL_PATH = os.path.join('models', 'log-reg-mod.pkl')
 
 ACCEPTABLE_PROBABILITY = 0.5
 NR_DESIRED_LINKS = 100
@@ -65,8 +66,8 @@ def get_prod_likelihoods(urllist: [str]) -> dict:
     for url in urllist:
         feature_list.append(get_url_features(url))
     feature_array = np.asarray(feature_list)
-
-    clf = pickle.load(open('.\\models\\log-reg-mod.pkl', 'rb'))
+    model_path = MODEL_PATH
+    clf = pickle.load(open(model_path, 'rb'))
     proba = clf.predict_proba(feature_array)
     return dict(zip(urllist, proba[:, 1]))
 
@@ -75,9 +76,9 @@ dataDirectories = [x for x in os.listdir(DATA_FOLDER) if x.startswith('data.')]
 files = []
 # For every links-file in every data-directory, get the list of scraped urls and get probabilities
 for directory in dataDirectories:
-    directory_path = f'{DATA_FOLDER}\\{directory}'
+    directory_path = os.path.join(DATA_FOLDER, directory)
     prob_dicts = []
-    files = glob.glob(f'{directory_path}\\links.*.json')
+    files = glob.glob(os.path.join(directory_path, 'links.*.json'))
     for file in files:
         with open(file, 'r') as inp:
             url_list = list(set(json.load(inp)['internal']))
@@ -86,7 +87,7 @@ for directory in dataDirectories:
             prob_dicts.append(get_prod_likelihoods(url_list))
 
     # After tagging all gathered links in a specific data-directory, save the results to the admin-file
-    admin_file = glob.glob(f'{directory_path}\\admin.*')[0]
+    admin_file = glob.glob(os.path.join(directory_path, 'admin.*'))[0]
     with open(admin_file, 'r+') as admin:
         administration: dict = json.load(admin)
         to_crawl: dict[str, int] = administration['tocrawl']

@@ -3,13 +3,12 @@ import os
 import glob
 
 
-DATA_PATH = '.\\sampledata2'
+DATA_PATH = os.path.join('sampledata3')
 
 data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
-files = []
 for directory in data_directories:
-    admin_directory = f'{DATA_PATH}\\{directory}'
-    admin_file_path = glob.glob(f'{admin_directory}\\admin.*.json')[0]
+    admin_directory = os.path.join(DATA_PATH, directory)
+    admin_file_path = os.path.join(admin_directory, 'admin.*.json')[0]
     with open(admin_file_path, 'r+') as admin:
         admin_data = json.load(admin)
         try:
