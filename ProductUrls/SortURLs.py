@@ -8,11 +8,11 @@ import os
 import warnings
 warnings.filterwarnings('ignore', '.*SGDClassifier.*')
 
-DATA_FOLDER = os.path.join('sampledata2')
+DATA_FOLDER = os.path.join('Prototype-crawl')
 MODEL_PATH = os.path.join('models', 'log-reg-mod.pkl')
 
 ACCEPTABLE_PROBABILITY = 0.5
-NR_DESIRED_LINKS = 100
+NR_DESIRED_LINKS = 10
 
 
 def get_url_path(url: str):
@@ -82,9 +82,9 @@ def write_log(text: str):
 def rename_log():
     log_location = DATA_FOLDER
     log_file_paths = glob.glob(os.path.join(log_location, '*.log'))
-    log_path = [x for x in log_file_paths if not os.path.split(x)[1].startswith('(')][0]
+    log_path = [x for x in log_file_paths if not os.path.split(x)[1].startswith('_')][0]
     log_name = os.path.split(log_path)[1]
-    os.rename(log_path, os.path.join(log_location, f'({len(log_file_paths)}){log_name}'))
+    os.rename(log_path, os.path.join(log_location, f'_{len(log_file_paths)}_{log_name}'))
 
 
 dataDirectories = [x for x in os.listdir(DATA_FOLDER) if x.startswith('data.')]
