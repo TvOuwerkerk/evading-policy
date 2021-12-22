@@ -26,24 +26,30 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
     """
     Searches a target URL for occurrences of (parts of) the source URL in several encodings.
     :param source: URL that needs to be searched for
-    :param alternate_source: Alternate version of URL that needs to be searched for
+    :param alternate_source: Alternate version of URL that needs to be searched for (in case of redirect)
     :param target: URL that needs to be searched through
-    :return: True if (a part of) the source URL is found, False otherwise
+    :return: True if (a part of) the source or alternate URL is found, False otherwise
     """
-
-    path = parse.urlsplit(source).path
-    path_present = True
-    if path == '/':
-        path_present = False
-
-    schemeless_source = parse.urlunsplit(parse.urlsplit(source)._replace(scheme=''))
+    inp = {'source': source, 'alternate': alternate_source}
+    path, path_present, schemeless, fragmentless = ({},) * 4
+    for x in ['source', 'alternate']:
+        path[x] = parse.urlsplit(inp[x]).path
+        path_present[x] = False
+        if path[x] == '/':
+            path_present[x] = False
+        schemeless[x] = parse.urlunsplit(parse.urlsplit(x)._replace(scheme=''))
+        fragmentless[x] = parse.urlunsplit(parse.urlsplit(x)._replace(fragment='', scheme=''))
 
     encodings = []
     search_dict = {}
     to_search_dict = {'source': source,
-                      'alternate': alternate_source,
-                      'path': path,
-                      'schemeless': schemeless_source}
+                      'redirected': alternate_source,
+                      'source_path': path['source'],
+                      'redirected_path': path['alternate'],
+                      'source_schemeless': schemeless['source'],
+                      'redirected_schemeless': schemeless['alternate'],
+                      'source_fragmentless': fragmentless['source'],
+                      'redirected_fragmentless': fragmentless['alternate']}
     search_dict.update(to_search_dict)
     encodings.append(to_search_dict)
     encodings.append(encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
@@ -55,7 +61,9 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
         search_dict.update(dictionary)
 
     for x in search_dict.keys():
-        if x.startswith('path') and not path_present:
+        if x.startswith('source-path') and not path_present['source']:
+            continue
+        if x.startswith('redirected-path') and not path_present['alternate']:
             continue
         if str(search_dict[x]) in target:
             return x
@@ -115,6 +123,12 @@ def save_data_to_admin(file_data, admin_directory):
         admin.truncate()
 
 
+def file_is_crawled_data(filename: str):
+    return not (filename.startswith(os.path.join(directory_path, 'links'))
+                or filename.startswith(os.path.join(directory_path, 'admin'))
+                or filename.startswith(os.path.join(directory_path, 'metadata')))
+
+
 # Find all directories which have data saved to them
 data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
 files = []
@@ -124,8 +138,7 @@ for directory in directories_progress:
     results = []
     # Find all .json files that contain crawled data
     directory_path = os.path.join(DATA_PATH, directory)
-    files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if not (x.startswith(os.path.join(directory_path, 'links'))
-             or x.startswith(os.path.join(directory_path, 'admin')) or x.startswith(os.path.join(directory_path, 'metadata')))]
+    files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if file_is_crawled_data(x)]
     for file in files:
         with open(file, encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
@@ -140,6 +153,7 @@ for directory in directories_progress:
             file_results = {'crawled-url': crawled_url,
                             'redirected-url': '',
                             'referrer-policy': '',
+                            'referrer-policy-set': False,
                             'request-leakage': []}
 
             if crawled_url != redirected_url:
@@ -152,10 +166,14 @@ for directory in directories_progress:
                     if 'responseHeaders' in request and 'referrer-policy' in request['responseHeaders']:
                         referrer_policy = request['responseHeaders']['referrer-policy']
                         file_results['referrer-policy'] = referrer_policy
+                        file_results['referrer-policy-set']: True
+                    else:
+                        file_results['referrer-policy'] = request['referrerPolicy']
 
                 result = check_url_leakage(crawled_url, redirected_url, request_url)
                 if result is not None:
                     file_results['request-leakage'].append(result)
 
+        # Remove items for which values have not been set
         file_results = {k: v for k, v in file_results.items() if v}
         save_data_to_admin(file_results, directory_path)
