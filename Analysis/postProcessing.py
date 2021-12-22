@@ -37,8 +37,8 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
         path_present[x] = False
         if path[x] == '/':
             path_present[x] = False
-        schemeless[x] = parse.urlunsplit(parse.urlsplit(x)._replace(scheme=''))
-        fragmentless[x] = parse.urlunsplit(parse.urlsplit(x)._replace(fragment='', scheme=''))
+        schemeless[x] = strip_scheme(x)
+        fragmentless[x] = strip_scheme_and_fragment(x)
 
     encodings = []
     search_dict = {}
@@ -55,7 +55,8 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
     encodings.append(encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
-    encodings.append(encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
+    encodings.append(
+        encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
 
     for dictionary in encodings:
         search_dict.update(dictionary)
@@ -129,10 +130,54 @@ def file_is_crawled_data(filename: str):
                 or filename.startswith(os.path.join(directory_path, 'metadata')))
 
 
+def find_cmp_occurrences_in_logs():
+    log_files = glob.glob(os.path.join(DATA_PATH, '*.log'))
+    cmp_occurrences = {}
+    for log_file in log_files:
+        with open(log_file, 'r', encoding='utf-8') as log_inp:
+            lines = log_inp.readlines()
+            for line in lines:
+                # Line structure: "[...] CMP detected on https://www.example.com/: {"cmpName":"exampleCMP"}"
+                if 'CMP detected on' in line:
+                    found_url = line.split('CMP detected on ')[1].split(' ')[0][:-1]
+                    found_cmp = line.split('{')[-1].split(':"')[1].split('"}')[0]
+                    cmp_occurrences[parse.urlunsplit(parse.urlsplit(found_url))] = found_cmp
+    return cmp_occurrences
+
+
+def get_request_info(request_data, file_results):
+    request_url = request_data['url']
+
+    if request_url == crawled_url or request_url == strip_fragment(crawled_url):
+        if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
+            referrer_policy = request_data['responseHeaders']['referrer-policy']
+            file_results['referrer-policy'] = referrer_policy
+            file_results['referrer-policy-set']: True
+        else:
+            file_results['referrer-policy'] = request_data['referrerPolicy']
+
+    result = check_url_leakage(crawled_url, redirected_url, request_url)
+    if result is not None:
+        file_results['request-leakage'].append(result)
+
+
+def strip_fragment(url: str):
+    return parse.urlunsplit(parse.urlsplit(url)._replace(fragment=''))
+
+
+def strip_scheme(url: str):
+    return parse.urlunsplit(parse.urlsplit(url)._replace(scheme=''))
+
+
+def strip_scheme_and_fragment(url: str):
+    return strip_scheme(strip_fragment(url))
+
+
 # Find all directories which have data saved to them
 data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
 files = []
 directories_progress = tqdm(data_directories)
+cmp_lookup = find_cmp_occurrences_in_logs()
 for directory in directories_progress:
     # Create object to save results into
     results = []
@@ -140,7 +185,7 @@ for directory in directories_progress:
     directory_path = os.path.join(DATA_PATH, directory)
     files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if file_is_crawled_data(x)]
     for file in files:
-        with open(file, encoding='utf-8') as data_file:
+        with open(file, 'r', encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
             data: dict = json.load(data_file)
 
@@ -149,31 +194,23 @@ for directory in directories_progress:
             crawled_url = data['initialUrl']
             redirected_url = data['finalUrl']
 
-            # Create file_results object, containing all results that need to be saved to the admin-file later
-            file_results = {'crawled-url': crawled_url,
-                            'redirected-url': '',
-                            'referrer-policy': '',
-                            'referrer-policy-set': False,
-                            'request-leakage': []}
+            # Create file_output object, containing all results that need to be saved to the admin-file later
+            file_output = {'crawled-url': crawled_url,
+                           'redirected-url': '',
+                           'referrer-policy': '',
+                           'referrer-policy-set': False,
+                           'CMP-encountered': '',
+                           'request-leakage': []}
 
             if crawled_url != redirected_url:
-                file_results['redirected-url'] = redirected_url
+                file_output['redirected-url'] = redirected_url
+
+            if crawled_url in cmp_lookup:
+                file_output['CMP-encountered'] = cmp_lookup[crawled_url]
 
             for request in requests:
-                request_url = request['url']
+                get_request_info(request, file_output)
 
-                if request_url == crawled_url:
-                    if 'responseHeaders' in request and 'referrer-policy' in request['responseHeaders']:
-                        referrer_policy = request['responseHeaders']['referrer-policy']
-                        file_results['referrer-policy'] = referrer_policy
-                        file_results['referrer-policy-set']: True
-                    else:
-                        file_results['referrer-policy'] = request['referrerPolicy']
-
-                result = check_url_leakage(crawled_url, redirected_url, request_url)
-                if result is not None:
-                    file_results['request-leakage'].append(result)
-
-        # Remove items for which values have not been set
-        file_results = {k: v for k, v in file_results.items() if v}
-        save_data_to_admin(file_results, directory_path)
+            # Remove items for which values have not been set
+            file_output = {k: v for k, v in file_output.items() if v}
+            save_data_to_admin(file_output, directory_path)
