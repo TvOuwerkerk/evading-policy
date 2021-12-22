@@ -4,8 +4,9 @@ import glob
 import urllib.parse as parse
 import hashlib
 import base64
+from tqdm import tqdm
 
-DATA_PATH = '.\\sampledata2'
+DATA_PATH = os.path.join('Corpus-Head-crawl')
 
 
 def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
@@ -101,8 +102,8 @@ def save_data_to_admin(file_data, admin_directory):
     :param file_data: data that needs to be added to results object in admin-file
     :return: None
     """
-    admin_file_path = glob.glob(f'{admin_directory}\\admin.*.json')[0]
-    with open(admin_file_path, 'r+') as admin:
+    admin_file_path = glob.glob(os.path.join(admin_directory, 'admin.*.json'))[0]
+    with open(admin_file_path, 'r+', encoding='utf-8') as admin:
         admin_data = json.load(admin)
         try:
             admin_data['results'].append(file_data)
@@ -117,15 +118,16 @@ def save_data_to_admin(file_data, admin_directory):
 # Find all directories which have data saved to them
 data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
 files = []
-for directory in data_directories:
+directories_progress = tqdm(data_directories)
+for directory in directories_progress:
     # Create object to save results into
     results = []
     # Find all .json files that contain crawled data
-    directory_path = f'{DATA_PATH}\\{directory}'
-    files = [x for x in glob.glob(f'{directory_path}\\*.json') if not (x.startswith(f'{directory_path}\\links')
-             or x.startswith(f'{directory_path}\\admin') or x.startswith(f'{directory_path}\\metadata'))]
+    directory_path = os.path.join(DATA_PATH, directory)
+    files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if not (x.startswith(os.path.join(directory_path, 'links'))
+             or x.startswith(os.path.join(directory_path, 'admin')) or x.startswith(os.path.join(directory_path, 'metadata')))]
     for file in files:
-        with open(file) as data_file:
+        with open(file, encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
             data: dict = json.load(data_file)
 
