@@ -13,8 +13,8 @@ SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
 # TODO: consider leakage from non-front page URLs as more interesting printable result
 data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
 for directory in data_directories:
-    admin_directory = f'{DATA_PATH}\\{directory}'
-    admin_file_path = glob.glob(f'{admin_directory}\\admin.*.json')[0]
+    admin_directory = os.path.join(DATA_PATH, directory)
+    admin_file_path = glob.glob(os.path.join(admin_directory, 'admin.*.json'))[0]
     with open(admin_file_path, 'r') as admin:
         admin_data = json.load(admin)
         # Get results of all pages on this domain
@@ -55,7 +55,7 @@ for directory in data_directories:
                     current_leakage.add(domain)
                 # If we encountered any leakage on this specific page, print accordingly
                 if current_leakage:
-                    print(f'{crawled_domain} circumvents policy \"{referrer_policy}" and leaks to:')
+                    print(f'{crawled_domain} circumvents policy \"{referrer_policy}\" and leaks to:')
                     for leak in current_leakage:
                         if not leak.startswith('www'):
                             leak = f'www.{leak}'
