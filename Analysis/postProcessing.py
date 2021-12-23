@@ -173,25 +173,59 @@ def find_cmp_occurrences_in_logs():
     return cmp_occurrences
 
 
-def get_request_info(request_data, file_results, request_source, alt_request_source):
-    request_url = request_data['url']
+def get_request_info(request_data: dict, file_results: dict, request_source: str, alt_request_source: str):
+    """
+    Takes a request as dictionary and adds inferred data to the file_results dictionary.
+    Sets 'referrer-policy' and 'referrer-policy-set' fields if this request is made to (alt_)request_source
+    Adds request to 'request-leakage' list if this request leaked info on the (alt_)request_source
+    Adds request to 'unsafe-outbound' list of request was made to third party using an unsafe referrer-policy
+    Prints a message if the request's referrer-policy differs from its response's referrer-policy
+    :param request_data: dictionary containing the data of the request
+    :param file_results: dictionary to which data about the request must be saved
+    :param request_source: url from which the request was made
+    :param alt_request_source: alternate (possibly redirected) url from which the request was made
+    :return:
+    """
+    request_url = request_data['url'].strip('/')
+    request_source = request_source.strip('/')
+    alt_request_source = alt_request_source.strip('/')
+
+    request_ref_policy = request_data['referrerPolicy']
+    try:
+        response_ref_policy = request_data['responseHeaders']['referrer-policy']
+    except KeyError:
+        response_ref_policy = ''
 
     # If we hold the main request to the crawled url, set check if page-wide policy is set
-    if request_url == request_source or request_url == strip_fragment(request_source):
-        if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
-            referrer_policy = request_data['responseHeaders']['referrer-policy']
-            file_results['referrer-policy'] = referrer_policy
+    if request_url == request_source or request_url == strip_fragment(request_source)\
+            or request_url == alt_request_source or request_url == strip_fragment(alt_request_source):
+        if response_ref_policy:
+            file_results['referrer-policy'] = response_ref_policy
             file_results['referrer-policy-set'] = True
         else:
-            file_results['referrer-policy'] = request_data['referrerPolicy']
+            file_results['referrer-policy'] = request_ref_policy
+    # If we do not hold the main request, we can assume the referrer-policy has been set, if this page does so
+    else:
+        if response_ref_policy:
+            if request_ref_policy in UNSAFE_POLICIES and response_ref_policy in SAFE_POLICIES:
+                downgrade_result = {'request-url': request_url,
+                                    'request-policy': request_ref_policy,
+                                    'response-policy': response_ref_policy}
+                file_results['downgrade-policy'].append(downgrade_result)
 
-    leakage_result = check_url_leakage(request_source, alt_request_source, request_url)
+    leakage_result = check_url_leakage(request_source, alt_request_source, request_data['url'])
     if leakage_result is not None:
         file_results['request-leakage'].append(leakage_result)
 
     unsafe_result = check_unsafe_policy(request_source, alt_request_source, request_data)
     if unsafe_result is not None:
         file_results['unsafe-outbound'].append(unsafe_result)
+
+    policy_used = response_ref_policy if response_ref_policy else request_ref_policy
+    try:
+        file_results['policies-used'][policy_used] += 1
+    except KeyError:
+        file_results['policies-used'][policy_used] = 1
 
     return file_results
 
@@ -226,17 +260,18 @@ for directory in directories_progress:
 
             # Get the requests gathered and url visited
             requests = list(data['data']['requests'])
-            crawled_url = data['initialUrl']
+            crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
             redirected_url = data['finalUrl']
-
             # Create file_output object, containing all results that need to be saved to the admin-file later
             file_output = {'crawled-url': crawled_url,
                            'redirected-url': '',
                            'referrer-policy': '',
                            'referrer-policy-set': False,
+                           'policies-used': {},
                            'CMP-encountered': '',
                            'request-leakage': [],
-                           'unsafe-outbound': []}
+                           'unsafe-outbound': [],
+                           'downgrade-policy': []}
 
             if parse.urlsplit(crawled_url).netloc != parse.urlsplit(redirected_url).netloc:
                 continue
@@ -248,6 +283,8 @@ for directory in directories_progress:
                 file_output['CMP-encountered'] = cmp_lookup[crawled_url]
 
             for request in requests:
+                if request['type'] == 'WebSocket':
+                    continue
                 file_output = get_request_info(request, file_output, crawled_url, redirected_url)
 
             # Remove items for which values have not been set
