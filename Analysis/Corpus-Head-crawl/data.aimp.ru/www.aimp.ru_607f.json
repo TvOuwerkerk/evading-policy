@@ -1,0 +1,678 @@
+{
+  "initialUrl": "https://www.aimp.ru/forum/index.php",
+  "finalUrl": "https://www.aimp.ru/forum/index.php",
+  "timeout": false,
+  "testStarted": 1640125935890,
+  "testFinished": 1640125951624,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.aimp.ru/links.www.aimp.ru_607f.json",
+    "requests": [
+      {
+        "url": "https://www.aimp.ru/forum/index.php",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 7819,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "PHPSESSID=b6eac57fb5006e8bac181843d7ad6cc3; path=/"
+        },
+        "responseBodyHash": "dcfacc78ca879c014c264c5459d4f63d69107ec55c8582ba9d92cc75691022f8",
+        "initiators": [],
+        "time": 0.38967499998398125
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/css/index.css?rc3",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 53717,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"61654520-d0e5\""
+        },
+        "responseBodyHash": "31db8ae366654893714dec742ab5a493c0af2bac2acfdedaf5b08062399cb3ab",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.1819580000010319
+      },
+      {
+        "url": "https://www.aimp.ru/v2/theme/scripts/lightbox.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 404,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.14824599999701604
+      },
+      {
+        "url": "https://www.aimp.ru/v2/theme/scripts/lightbox.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 404,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.1819289999839384
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/default/css/webkit.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 520,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d0429-11b\""
+        },
+        "responseBodyHash": "2833798c220a5bd48ae9565f77e3c078cd917c434bf8997ca8981fff19dc1180",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.14499500000965782
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/default/scripts/script.js?rc3",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 48323,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d0669-bbc5\""
+        },
+        "responseBodyHash": "2bab092657aceb2b6a17675569174d5bcc87c43fca0d0efb23b4203af6c3945b",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.29807700001401827
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/scripts/theme.js?rc3",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 3940,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d040f-e68\""
+        },
+        "responseBodyHash": "0a73a6383375c850afc72c94d04c8b8dafe65f456407e424515656870d2660dd",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.2021590000076685
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/default/scripts/sha1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 5704,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d044c-154b\""
+        },
+        "responseBodyHash": "9d730e49718696077087b318c7cb20d0e97164ffacf3bd5d5f99c6763eaa39c6",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.1940619999950286
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/off.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 2650,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d03fd-96b\""
+        },
+        "responseBodyHash": "059e76fb3dff050b056aeaed2bde067634f192cbf9cfbd816bb5821fe1880cc4",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.27091700001619756
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/new_none.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 1165,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d03fd-39f\""
+        },
+        "responseBodyHash": "453160b003a5705804a0a72ffe7e23092ab1d8f2383eabbbe1397da5c741af81",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.34029600000940263
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/new_redirect.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 1285,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d03fd-416\""
+        },
+        "responseBodyHash": "4f7834365df3279818e3f183efdbf6442066680dece9139445bfa19c8add5f06",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.358831999998074
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/collapse.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 594,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d03fc-164\""
+        },
+        "responseBodyHash": "89624cb45f4c31f4348d22a0488196b8d9a28fb121360e5a9dffe415fc2179b6",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.3581910000066273
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/icons/info.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 414,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d0408-b1\""
+        },
+        "responseBodyHash": "cd91db2e57f008efd5b12caa869772f8cafbb604a49a6ee23ec4086da8749fc8",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.3687340000178665
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/icons/online.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 533,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d0408-127\""
+        },
+        "responseBodyHash": "ee7426fca709770e8926cc600abd3cd95dfe0e4cdd77288c3c2b53e302212d0f",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.37280599999940023
+      },
+      {
+        "url": "https://mc.yandex.ru/metrika/watch.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 48627,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"61b9e8e2-bcc3\"",
+          "expires": "Tue, 21 Dec 2021 23:32:16 GMT"
+        },
+        "responseBodyHash": "74d5cdf365fe38c8f74a3ded0de91174c15ea9174705364e22e4c9bd93aa33a9",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.33939800001098774
+      },
+      {
+        "url": "https://top-fwz1.mail.ru/js/code.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 10917,
+        "remoteIPAddress": "217.69.133.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600\nprivate",
+          "etag": "W/\"60f08002-64db\"",
+          "expires": "Tue, 21 Dec 2021 23:32:16 GMT",
+          "p3p": "CP=\"NOI DSP COR NID CUR PSA OUR NOR\"",
+          "set-cookie": "FTID=2TzK6k1PFTI7:1640125936:0:::; path=/; expires=Thu, 22-Dec-22 22:32:16 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "536cd983c5ac840349770984405fe9eb9e67b9d7e35e0c45673a653b003173b6",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.18812800000887364
+      },
+      {
+        "url": "https://www.aimp.ru/forum/counter.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 1404,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {},
+        "responseBodyHash": "75c66bb6dabeeaa8e4d282ac82d7e396ed40309b142f14e799207fdf7113ed10",
+        "initiators": [
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.07016000000294298
+      },
+      {
+        "url": "https://www.aimp.ru/forum/Themes/AIMP/images/expand.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/index.php",
+        "status": 200,
+        "size": 605,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d03fc-16f\""
+        },
+        "responseBodyHash": "3c4a55f29cec6462d9d9a9696e36ecba605814c79e8459cc782f643cad01f8f6",
+        "initiators": [
+          "https://www.aimp.ru/forum/Themes/default/scripts/script.js?rc3",
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.06248999998206273
+      },
+      {
+        "url": "https://www.aimp.ru/images/VK.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/counter.html",
+        "status": 200,
+        "size": 491,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d54a8-fe\""
+        },
+        "responseBodyHash": "2614e0d575ae097f768376002c1d837a361cc076c89c5e864f12bb3bfe534096",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.060409000026993454
+      },
+      {
+        "url": "https://www.aimp.ru/images/facebook.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/counter.html",
+        "status": 200,
+        "size": 975,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"5fbeb33a-2e1\""
+        },
+        "responseBodyHash": "3c1f55b7935f32cfd7b73a307d66eba4a9a5b5563cd07fb5d31b26391a55fbbf",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.06490099997608922
+      },
+      {
+        "url": "https://www.aimp.ru/images/twitter.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/counter.html",
+        "status": 200,
+        "size": 456,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d54c3-db\""
+        },
+        "responseBodyHash": "44e4fd1acaf3a3f5c57a3f9cb132d11ed59e97143173d849ed9a23b023c0a00d",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.06429500001831912
+      },
+      {
+        "url": "https://www.aimp.ru/images/telegram.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/forum/counter.html",
+        "status": 200,
+        "size": 688,
+        "remoteIPAddress": "89.108.125.90",
+        "responseHeaders": {
+          "etag": "\"601d5524-1c2\""
+        },
+        "responseBodyHash": "246e8cb35fa1590aac9ee09cb7a771472b8ee3ded013cbda448da4b18041969e",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.05040900001768023
+      },
+      {
+        "url": "https://top-fwz1.mail.ru/counter?id=988583;t=295;l=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 302,
+        "remoteIPAddress": "217.69.133.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-cache, no-store, max-age=0",
+          "p3p": "CP=\"NOI DSP COR NID CUR PSA OUR NOR\"",
+          "pragma": "no-cache",
+          "set-cookie": "FTID=2TzK6k1PFTI7:1640125937:988583:::; path=/; expires=Thu, 22-Dec-22 22:32:17 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://top-fwz1.mail.ru/counter2?id=988583;t=295;l=1",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.0822150000021793
+      },
+      {
+        "url": "https://ping-admin.ru/i/uptime/a271dbfae397ec43efb1f6c39101bcd523168_103.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 1989,
+        "remoteIPAddress": "212.83.174.157",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "\"61c24f16-66b\"",
+          "expires": "Tue, 21 Dec 2021 23:32:16 GMT"
+        },
+        "responseBodyHash": "903dd07431cb6e0dbda6a9531ecd446d5c0df196f478d1a9a54059428004add2",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.04319299999042414
+      },
+      {
+        "url": "https://www.yandex.ru/cycounter?www.aimp.ru",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 1913,
+        "remoteIPAddress": "5.255.255.60",
+        "responseHeaders": {
+          "expires": "Thu, 16 Dec 2021 08:48:04 GMT",
+          "set-cookie": "is_gdpr=1; Path=/; Domain=.yandex.ru; Expires=Thu, 21 Dec 2023 22:32:17 GMT; SameSite=None; Secure\nis_gdpr_b=COXsVhD5VxgB; Path=/; Domain=.yandex.ru; Expires=Thu, 21 Dec 2023 22:32:17 GMT; SameSite=None; Secure\n_yasc=tiRO3nedrFSqnO4w317nBR9hZ2vr+wFHskHAjwBIBXf2j/lU; domain=.yandex.ru; path=/; expires=Thu, 20-Jan-2022 22:32:17 GMT; secure\ni=koxNAcntu0GlN3bxfcm6d9Ozngbz9GYHCuDdq3rIFskYtVJUf4CQZl6r3+68hSXOVmyX0YR6rgIV+NKUG156VRkik0o=; Expires=Thu, 21-Dec-2023 22:32:17 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "4dceccc30dd5c429b26546fa107b5ad3471b48645d56a8bb031c5a85f2237434",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.22741200000746176
+      },
+      {
+        "url": "https://informer.yandex.ru/informer/34143930/3_1_FFFFFFFF_EFEFEFFF_0_pageviews",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 1602,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Tue, 21-Dec-2021 22:32:17 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d70bdfb5befcbde8169b71f9a81d3d3b9615162efcc999d88db0f553a2484c28",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.1741549999860581
+      },
+      {
+        "url": "https://counter.yadro.ru/hit?t41.5;rhttps%3A//www.aimp.ru/forum/index.php;s800*600*24;uhttps%3A//www.aimp.ru/forum/counter.html;h;0.7252721751839084",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 302,
+        "remoteIPAddress": "88.212.201.210",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "Mon, 21 Dec 2020 21:00:00 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"UNI\"",
+          "pragma": "no-cache",
+          "set-cookie": "FTID=1XmbNn3_2fuE1XmbNn000QiR; path=/; expires=Wed, 21 Dec 2022 21:00:00 GMT; HttpOnly; Secure; SameSite=None; domain=.yadro.ru"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://counter.yadro.ru/hit?q;t41.5;rhttps%3A//www.aimp.ru/forum/index.php;s800*600*24;uhttps%3A//www.aimp.ru/forum/counter.html;h;0.7252721751839084",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.24810100000468083
+      },
+      {
+        "url": "https://top-fwz1.mail.ru/counter?js=13;id=988583;u=https%3A//www.aimp.ru/forum/index.php;st=1640125936883;title=AIMP%20Forum%20-%20Index;s=800*600;vp=1440*812;touch=0;hds=1;frame=0;flash=;sid=652e2c7a615ffc0d;ver=60.3.0;tz=0%2FUTC;ni=10//4g/0/0/;lvid=1640125937012%3A1640125937040%3A1%3A04dbb3396918e1d9ad93294f5f18c985;visible=true;_=0.7456196150643488",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 1002,
+        "remoteIPAddress": "217.69.133.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aimp.ru",
+          "cache-control": "private, no-cache, no-store, max-age=0",
+          "p3p": "CP=\"NOI DSP COR NID CUR PSA OUR NOR\"",
+          "pragma": "no-cache",
+          "set-cookie": "VID=3_A1GR0tO-o700000Y14H4I7:::0-0-0-6dcaeb1:CAASEHjcYu0f5wiUXGCm53yxJf8aYJgZCcL-hPcz3MLwOJFCZlu2PEFgY686BJq_P9clum6Waj1XLJlm77CQBOo5QBp3UKQt22XkwYMjsfTjgIopYO0UX8g0xq30gk06XyPwNTUKw4xlGmTIEl3KTOPhJdhvnQ; path=/; expires=Thu, 22-Dec-22 22:32:17 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure\nFTID=0; path=/; expires=Thu, 01-Jan-70 00:00:01 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure",
+          "timing-allow-origin": "https://www.aimp.ru"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://top-fwz1.mail.ru/js/code.js"
+        ],
+        "time": 0.06158100001630373
+      },
+      {
+        "url": "https://top-fwz1.mail.ru/counter2?id=988583;t=295;l=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 2355,
+        "remoteIPAddress": "217.69.133.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-cache, no-store, max-age=0",
+          "p3p": "CP=\"NOI DSP COR NID CUR PSA OUR NOR\"",
+          "pragma": "no-cache",
+          "set-cookie": "VID=3_A1GS0vO-2700000Y14H4I7:::0-0-0-6dcaeb1:CAASEHRGHQru2R4Bbufn8xvSFHwaYDEeRqgI9dwKhkWp-8FTAilwnsORM5VTdnCr1s0WoQIO1ZDi9JxdSOVT4L6Rh7Kyo7fxXmdDOyrIiBFu-3rGRupLXDuhZ8XXcQH4Jy21kHhBWw6FOStRDJLlBLIxCTyaDQ; path=/; expires=Thu, 22-Dec-22 22:32:17 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure\nFTID=0; path=/; expires=Thu, 01-Jan-70 00:00:01 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "90f5670d132721aec240aa81d91569383e25252946cf08f80282f887e6933f09",
+        "redirectedFrom": "https://top-fwz1.mail.ru/counter?id=988583;t=295;l=1",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.059951000002911314
+      },
+      {
+        "url": "https://mc.yandex.ru/watch/34143930?wmode=7&page-url=https%3A%2F%2Fwww.aimp.ru%2Fforum%2Findex.php&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A23bzrp1wl04csam1en%3Afp%3A759%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A1218668604877%3Ahid%3A1016697353%3Az%3A0%3Ai%3A20211221223217%3Aet%3A1640125937%3Ac%3A1%3Arn%3A114823340%3Arqn%3A1%3Au%3A1640125937983973377%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640125936069%3Ads%3A2%2C147%2C235%2C2%2C1%2C0%2C%2C418%2C0%2C%2C%2C%2C814%3Adsn%3A3%2C147%2C235%2C2%2C1%2C0%2C%2C424%2C0%2C%2C%2C%2C814%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640125937%3At%3AAIMP%20Forum%20-%20Index&t=gdpr(14)aw(1)ti(2)",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 302,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aimp.ru",
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Tue, 21-Dec-2021 22:32:17 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "yandexuid=4909595631640125937; Expires=Wed, 21-Dec-2022 22:32:17 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\nyuidss=4909595631640125937; Expires=Wed, 21-Dec-2022 22:32:17 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\nyabs-sid=2320061851640125937; Path=/; SameSite=None; Secure\ni=3fpkkckiUcLgQOfjBqi5Shu2iJF04cZWcgTuIXPBxyvlScD/s3n0JpQYNDUOy3v7bpmd74AK0NZIcJ3dns7ZumeMPbY=; Expires=Fri, 19-Dec-2031 22:32:13 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None\nymex=1671661937.yrts.1640125937#1671661937.yrtsi.1640125937; Expires=Wed, 21-Dec-2022 22:32:17 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://mc.yandex.ru/watch/34143930/1?wmode=7&page-url=https%3A%2F%2Fwww.aimp.ru%2Fforum%2Findex.php&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A23bzrp1wl04csam1en%3Afp%3A759%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A1218668604877%3Ahid%3A1016697353%3Az%3A0%3Ai%3A20211221223217%3Aet%3A1640125937%3Ac%3A1%3Arn%3A114823340%3Arqn%3A1%3Au%3A1640125937983973377%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640125936069%3Ads%3A2%2C147%2C235%2C2%2C1%2C0%2C%2C418%2C0%2C%2C%2C%2C814%3Adsn%3A3%2C147%2C235%2C2%2C1%2C0%2C%2C424%2C0%2C%2C%2C%2C814%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640125937%3At%3AAIMP%20Forum%20-%20Index&t=gdpr%2814%29aw%281%29ti%282%29",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/watch.js",
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.07098799999221228
+      },
+      {
+        "url": "https://counter.yadro.ru/hit?q;t41.5;rhttps%3A//www.aimp.ru/forum/index.php;s800*600*24;uhttps%3A//www.aimp.ru/forum/counter.html;h;0.7252721751839084",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 598,
+        "remoteIPAddress": "88.212.201.210",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Mon, 21 Dec 2020 21:00:00 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"UNI\"",
+          "pragma": "no-cache",
+          "set-cookie": "VID=30w34l14xCOE1XmbNn000QnQ; path=/; expires=Wed, 21 Dec 2022 21:00:00 GMT; HttpOnly; Secure; SameSite=None; domain=.yadro.ru"
+        },
+        "responseBodyHash": "74921cc6b5fc2ba6d1c3856cf90346f405774690fe7435ddd9a338026b23040e",
+        "redirectedFrom": "https://counter.yadro.ru/hit?t41.5;rhttps%3A//www.aimp.ru/forum/index.php;s800*600*24;uhttps%3A//www.aimp.ru/forum/counter.html;h;0.7252721751839084",
+        "initiators": [
+          "https://www.aimp.ru/forum/counter.html"
+        ],
+        "time": 0.07285999998566695
+      },
+      {
+        "url": "https://mc.yandex.ru/metrika/advert.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 136,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"61b9e8e2-2b\"",
+          "expires": "Tue, 21 Dec 2021 23:32:17 GMT"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/watch.js",
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.07428500000969507
+      },
+      {
+        "url": "https://mc.yandex.ru/watch/34143930/1?wmode=7&page-url=https%3A%2F%2Fwww.aimp.ru%2Fforum%2Findex.php&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A23bzrp1wl04csam1en%3Afp%3A759%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A1218668604877%3Ahid%3A1016697353%3Az%3A0%3Ai%3A20211221223217%3Aet%3A1640125937%3Ac%3A1%3Arn%3A114823340%3Arqn%3A1%3Au%3A1640125937983973377%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640125936069%3Ads%3A2%2C147%2C235%2C2%2C1%2C0%2C%2C418%2C0%2C%2C%2C%2C814%3Adsn%3A3%2C147%2C235%2C2%2C1%2C0%2C%2C424%2C0%2C%2C%2C%2C814%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640125937%3At%3AAIMP%20Forum%20-%20Index&t=gdpr%2814%29aw%281%29ti%282%29",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aimp.ru",
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Tue, 21-Dec-2021 22:32:17 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "22cc040a5ae4906c1e4ce6ecae242c279455f188e780971add64d9a72da47a83",
+        "redirectedFrom": "https://mc.yandex.ru/watch/34143930?wmode=7&page-url=https%3A%2F%2Fwww.aimp.ru%2Fforum%2Findex.php&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A23bzrp1wl04csam1en%3Afp%3A759%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A1218668604877%3Ahid%3A1016697353%3Az%3A0%3Ai%3A20211221223217%3Aet%3A1640125937%3Ac%3A1%3Arn%3A114823340%3Arqn%3A1%3Au%3A1640125937983973377%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640125936069%3Ads%3A2%2C147%2C235%2C2%2C1%2C0%2C%2C418%2C0%2C%2C%2C%2C814%3Adsn%3A3%2C147%2C235%2C2%2C1%2C0%2C%2C424%2C0%2C%2C%2C%2C814%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640125937%3At%3AAIMP%20Forum%20-%20Index&t=gdpr(14)aw(1)ti(2)",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/watch.js",
+          "https://www.aimp.ru/forum/index.php"
+        ],
+        "time": 0.06950800001504831
+      },
+      {
+        "url": "https://top-fwz1.mail.ru/tracker?js=13;id=988583;u=https%3A//www.aimp.ru/forum/index.php;st=1640125936883;s=800*600;vp=1440*812;touch=0;hds=1;frame=0;flash=;sid=652e2c7a615ffc0d;ver=60.3.0;tz=0%2FUTC;nt=0/0/1640125936069/////1/4/6/6/153/66/153/388/390/396/814/814/814/1236/1236/;ni=10//4g/0/0/;lvid=1640125937012%3A1640125937307%3A2%3A04dbb3396918e1d9ad93294f5f18c985;visible=true;_=0.055661569051857596;e=RT/load;et=1640125937306",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aimp.ru/",
+        "status": 200,
+        "size": 915,
+        "remoteIPAddress": "217.69.133.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aimp.ru",
+          "cache-control": "private, no-cache, no-store, max-age=0",
+          "p3p": "CP=\"NOI DSP COR NID CUR PSA OUR NOR\"",
+          "pragma": "no-cache",
+          "set-cookie": "VID=3_A1GS0vO-2700000Y14H4I7:::0-0-0-6dcaeb1:CAASEB8qVmGZGePkSvozvKUKteYaYKQlr8uPojY9OMyqPCVD__R2DY-E8Do2FulIfPHCeOG2CwQ89_ScZ2NgpDFAjLmzi1Ovnvgi3dN0gwERLkleY58GeOvx_VrSpRHvWF3FmipWCt6Aoe8WHC209O337Q5W9Q; path=/; expires=Thu, 22-Dec-22 22:32:17 GMT; domain=.mail.ru; HttpOnly; SameSite=None; Secure",
+          "timing-allow-origin": "https://www.aimp.ru"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://top-fwz1.mail.ru/js/code.js"
+        ],
+        "time": 0.0638840000028722
+      }
+    ]
+  }
+}

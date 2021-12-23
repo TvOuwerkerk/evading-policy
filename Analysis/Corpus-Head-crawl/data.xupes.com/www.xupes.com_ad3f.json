@@ -1,0 +1,3035 @@
+{
+  "initialUrl": "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000",
+  "finalUrl": "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000",
+  "timeout": false,
+  "testStarted": 1640108388602,
+  "testFinished": 1640108409016,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.xupes.com/links.www.xupes.com_ad3f.json",
+    "requests": [
+      {
+        "url": "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 59072,
+        "remoteIPAddress": "104.26.9.140",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "CULTURE_SETTINGS_X2=en%2Cen; expires=Wed, 21 Dec 2022 17:39:48 GMT; path=/\nSession=CfDJ8KeUKCMdtoJBmupP4E9nKmOXzNodcAmsR2KQ5XXIjWe7g9RHp1vzBAxi0svTggq1M63%2FT5Yu3MyTWjomJgi%2BlCbdJzEF%2FG2qCnk6jil%2BmKD9IxU8D7qhg4%2F7cSGxg4BFOQ0q%2FC9gw0Hk2E7IqycoAwiP0iiyEXiT8uujK9F5T8vl; path=/; samesite=lax; httponly"
+        },
+        "responseBodyHash": "e4db2d8c44ccbb37bc66b6bc5c1f80441f5bf39bd97909293af20d3f44685987",
+        "initiators": [],
+        "time": 3.1209779999917373
+      },
+      {
+        "url": "https://app.termly.io/embed.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 17312,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"61aa779e-ae6c\"",
+          "expires": "Tue, 21 Dec 2021 21:39:51 GMT",
+          "referrer-policy": "no-referrer"
+        },
+        "responseBodyHash": "a951a2047478f542073e428f86ecd9c17da177cdcf1fc340f1fe74963c7d4c57",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.03892999999516178
+      },
+      {
+        "url": "https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CString.prototype.includes",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 564,
+        "remoteIPAddress": "151.101.193.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=604800, stale-while-revalidate=604800, stale-if-error=604800",
+          "referrer-policy": "origin-when-cross-origin",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dd1b5e04d54c4420fe3e8e6abe2875fc7f13a3cd6384b6c2afc1a35e302dd846",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.02420200000051409
+      },
+      {
+        "url": "https://www.xupes.com/js/gtm-helper.js?v=xPXKIPDyY8bjn7uqBaTrp62BcKCiFKAhnG-2fjM2LrE",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000",
+        "status": 200,
+        "size": 1323,
+        "remoteIPAddress": "104.26.9.140",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31104000",
+          "etag": "W/\"1d7360f11194271\""
+        },
+        "responseBodyHash": "12e2cdecf1a571ae59665c47629418411f91ef281ea44afad16059b9564f8276",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.034445999990566634
+      },
+      {
+        "url": "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000",
+        "status": 200,
+        "size": 41723,
+        "remoteIPAddress": "104.26.9.140",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31104000",
+          "etag": "W/\"1d7e105c1069001\""
+        },
+        "responseBodyHash": "2b82c2986b06dd2cb814996be60aa402a5d99f49bb4625b2b5d0f8252c25da98",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.04253600000811275
+      },
+      {
+        "url": "https://use.typekit.com/tcj3zxu.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 7210,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4f887bb149ece64d312bee85af558571474fdc80b1dacf70ac2ba7af513dd0d1",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.05733700000564568
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-29992252-1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 36734,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 17:39:52 GMT"
+        },
+        "responseBodyHash": "4b2d520f4caa03d1f8a3ae5f1a96c2a0da0f2c27d3bebf7bdc187f0eeb07e91e",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.23483000000123866
+      },
+      {
+        "url": "https://d81mfvml8p5ml.cloudfront.net/e369obih.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 5045,
+        "remoteIPAddress": "52.222.137.223",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "W/\"849e71e87b29df90d93d080945924f11\""
+        },
+        "responseBodyHash": "82c00054176ff95428df30f4f802eb6cde8e887572e848780d02fc84b08ab1a7",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.20370600000023842
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/nav/watches.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11728,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8ea953f6dd026da924a20269c819e181\""
+        },
+        "responseBodyHash": "fde6380daf26e696c00d24e9f1b31fb619f6d5ed8ec00504aba8128caae74c14",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.19716999999945983
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/nav/jewellery.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 12160,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"254bdde4bfce36053cc441410ec14da1\""
+        },
+        "responseBodyHash": "f61bfa6ef614d08b88b72a7ce5f67d63454e757f98bb7643c98b1d1e977da88c",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.1973300000099698
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/nav/handbags.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11502,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"a6a68f427e0ba80f0636efb8f40651f1\""
+        },
+        "responseBodyHash": "2a9bb262b48f9fdd99f7044a3348220fcac5d694352c4f9d2b73097d2fbbe2dd",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.22841300000436604
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41271/SingleImages/Thumb/Datejust-26-Stainless-Steel-Ladies-79174NR.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9159,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"2131f0b9e1cc78a58c003e116382df72\""
+        },
+        "responseBodyHash": "7dc51dc4a5267d2feb74240a21359246d33e8561510a690a90f45b8e8b844337",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.17551599998841994
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/33646/SingleImages/Thumb/Pocket-Watch-Platinum-Gents.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 12583,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1853d565f2067d93966c413176d4db51\""
+        },
+        "responseBodyHash": "c8ff3867f661d0d5f97f991a70e3230267f1321870e4f8b17717a381ee60baf3",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2808270000095945
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41343/SingleImages/Thumb/Datejust-36-White-Gold-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10644,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1d3398f542ea7117df88571ed6ef6d9d\""
+        },
+        "responseBodyHash": "f8051e6a527b83cfd8f008dd56a60d4a06b95f2cce26aa825b8cedd833704ca2",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.25091600000450853
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44395/SingleImages/Thumb/Constellation-Yellow-Gold-Stainless-Steel-Ladies-12320246005002.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8235,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8f1e0a7a17e4798f6ca18f9b3cfde2f3\""
+        },
+        "responseBodyHash": "0e30b44b536f6ae75ae2f2c92720b4364f23e740c8fb45231edeaad674a40003",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2552140000043437
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38692/SingleImages/Thumb/Vintage-Stainless-Steel-Gents-23M.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9354,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"0589ba4ab49866ba6288323fadbea447\""
+        },
+        "responseBodyHash": "47a43779dca6759b0529350dcc9e8792f35d98c5e0641b088afa0fd3aee1d1d8",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.28599400000530295
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40890/SingleImages/Thumb/Datejust-36-White-Gold-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10587,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"c045bd07fb0dd66c9bddeb9c07f7fa87\""
+        },
+        "responseBodyHash": "9a884e417f0a635986df5831c77ec4c650d8b0ba6c350352fa5eeca38b79bffe",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.29556300000695046
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38704/SingleImages/Thumb/Vintage-Stainless-Steel-Gents-4503A.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11376,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f8fc5a3912231324b66e6d4812bb39af\""
+        },
+        "responseBodyHash": "efffd1aa7291d928784ff1df5cfb57b5413b19ce62001afd8c451b385f8c9fbd",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.28673500000149943
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38695/SingleImages/Thumb/Longines-Pocket-Watch-Stainless-Steel-Unisex-1970N.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 12757,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f736b88b3c23bb5d6837d52bb4642579\""
+        },
+        "responseBodyHash": "08e8023c872c7b1fdbf4a68691069ed866a3615331a4b4bf2f22aa2b0afb4556",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2596390000107931
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43400/SingleImages/Thumb/Vintage-Yellow-Gold-Gents-809.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11275,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"2d06922db0027b4af15e9e598cfd72c1\""
+        },
+        "responseBodyHash": "3c28d7cbd2e87344d6e2ad93d155637e51e24514fa4a5597e04d8655d263d2be",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2548420000093756
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44064/SingleImages/Thumb/Santos-Yellow-Gold-Stainless-Steel-Ladies-2423.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9997,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f6e5543a1163d184e39124d6016e90d2\""
+        },
+        "responseBodyHash": "7cb81cafd9b638143dee8d2f065165121307af8dd0aed0a111609dcfe810ea09",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.29334499999822583
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44398/SingleImages/Thumb/Chronomat-Chronograph-Stainless-Steel-Gents-A13335.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16529,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8e4d6d35bd2183e7e330186178ff98fa\""
+        },
+        "responseBodyHash": "96f203f74dfa800d0f9382172381cbcaa713b7e63d8518c60982e35b827888be",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2831539999897359
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43394/SingleImages/Thumb/Chronomat-Stainless-Steel-Gents-44.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16187,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"9f3fc835e5e52d4c81ab8a912c041fad\""
+        },
+        "responseBodyHash": "60345ec3df0afb4903f1a33aeaa2dcfdbf137e8fe4e042d4c0da87700ccccc1a",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2602339999866672
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/18602/SingleImages/Thumb/Vintage-Turler-Pocket-Watch-18K-Yellow-Gold-Gents.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10649,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8e0fabdefd8daa588f3911dbe8924cc6\""
+        },
+        "responseBodyHash": "ad3a7ca4a216bc30106df26a496b66e751e87d26adb633f326538ad730d72e8c",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.27719799999613315
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44186/SingleImages/Thumb/Pasha-Stainless-Steel-Gents-2790.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 15786,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"c20670e2ee7d8e855d8438ede62e60c3\""
+        },
+        "responseBodyHash": "15bff51a8ad6fae63647dcacc327a0bd6c078639d20f38f7a5701cb7ccd80f27",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2550630000041565
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38707/SingleImages/Thumb/Vintage-Cal-30T2-SC-Stainless-Steel-Gents-21792.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11048,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"beea4c14f6c8380572d1932147e691f9\""
+        },
+        "responseBodyHash": "3daa1ac108ba4f58b58509c21457f6e0cac1e8fe03b9f31557389346f390f42a",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.294873999999254
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38155/SingleImages/Thumb/De-Ville-DArgent-Silver-Ladies.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9363,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"79c85d26d8933063a7ab4537a60a84f1\""
+        },
+        "responseBodyHash": "d663c9658b34f9b05b18dc7d0ea779407e93f5136dd7ab50e0b4d62808b6bed4",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.261119000002509
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41053/SingleImages/Thumb/Datejust-36-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10790,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8bd5ee2f18464c7ee1b157c57c3a0fcb\""
+        },
+        "responseBodyHash": "e8170132213aa34c1f71689b6b99243fe83e3cb60299337a5c65dc6a17f903e5",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2671820000105072
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44422/SingleImages/Thumb/Tank-Solo-Stainless-Steel-Ladies-3170.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11382,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"91d296ab7d02de4a86cf188bc84bc1d3\""
+        },
+        "responseBodyHash": "a233e40ded9493173983a946eb374e6ce672cd722f3b4d4f750470a991a20f3b",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2623149999999441
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43960/SingleImages/Thumb/Speedmaster-Stainless-Steel-Gents-35075100.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16442,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8ccbdc3b5667069a7ea98b13dca89567\""
+        },
+        "responseBodyHash": "69673b6d1e3cfda78632e2541b0497b82fe10860ac291fbfd92c9c3f3af8861c",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3869870000053197
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40494/SingleImages/Thumb/Seamaster-Stainless-Steel-Gents-21030422006001.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16391,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"65a4873451d90ee7ab44ab1f399db685\""
+        },
+        "responseBodyHash": "caf9503c13eb8e7421344152272c4cdbe480bfccd87517074a8e67b9038a72e0",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3903120000031777
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38186/SingleImages/Thumb/Memovox-Gold-Plated-Gents-34290.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10374,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f6f7db4ada2964820ac6871009d4fa79\""
+        },
+        "responseBodyHash": "a2d81e54126a290a5891d06030c01c0f4ac8e3e80cfce37336d7a0007d82b43c",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3914109999896027
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38705/SingleImages/Thumb/Pocket-Watch-Stainless-Steel-Unisex-4672.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 12493,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f9cea25cc7fcce05b35b7a7599359847\""
+        },
+        "responseBodyHash": "3e580c3bbee61f3a9515e2854310b0ceb98a100c4b7f30a1111c2da2d2aee44d",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2850929999985965
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44011/SingleImages/Thumb/Pontos-Stainless-Steel-Gents-PT6318.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 12586,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e753fc669169ca0e8c00371d3be647e0\""
+        },
+        "responseBodyHash": "7a348e914e708c786eace854d86e56c358091d0699ad7966c7cff5c8b44aa611",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.29495400001178496
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38775/SingleImages/Thumb/Santos-100-Large-Stainless-Steel-Gents-W20073X8-or-2856.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14690,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"d63709e21d8312126d824dace93e8dbb\""
+        },
+        "responseBodyHash": "c871e46a6049e5dcc8418ede01146560094e207a413237e328b3d837391e86b9",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.33744600000500213
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38710/SingleImages/Thumb/Vintage-Stainless-Steel-Gents-P478.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8706,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"c87bb6a6bd1baca0a2b96bfe77c65642\""
+        },
+        "responseBodyHash": "8ce8974c5f98f8feb6b4f6f68a92d2e4bd013b4c977db1049a6609f8972370e8",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3006480000040028
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44389/SingleImages/Thumb/De-Ville-Yellow-Gold-Gents.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8966,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"b55d192666e7a7eb4314145d713e8d16\""
+        },
+        "responseBodyHash": "525cdf1305c2b24038e817528ad35693bcd4dc7ede19a91673664210112b56d2",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2993060000007972
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38696/SingleImages/Thumb/Vintage-Yellow-Gold-Gents-ETA-2824-3adj.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8800,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"0715acb161f29bcfb4b1a194675b9e06\""
+        },
+        "responseBodyHash": "a704cdc9524cdc4058ebb2a818213ed4c6ada9acd0446c095eec89d91e45d7d5",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3762549999955809
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44278/SingleImages/Thumb/Navitimer-Stainless-Steel-Gents-A45330101C1X1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 17184,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"2b6a099c7af22be5e56b2b373f5c5ebb\""
+        },
+        "responseBodyHash": "46507bacb34b4fa6a09dbfcc53d3aa5f8b8e32e2cb470a8450c0ae81c236608e",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.617593000002671
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41707/SingleImages/Thumb/Vintage-White-Gold-Ladies-9562A6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8140,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1002196b81df008d05e9c424257d88d1\""
+        },
+        "responseBodyHash": "0b7a9cb699f06f44cfd169a519e1347810da625cbdb7922f7dc916103eb461b9",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3203240000002552
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/42255/SingleImages/Thumb/Gefica-Stainless-Steel-Gents-GGM-3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 13524,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"d57fafcc2e1157c20bf59cadff988256\""
+        },
+        "responseBodyHash": "46db936073df97331c88d17b650b1cd6a22fabff495416cc44b6b8c457dde112",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3008319999935338
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/42352/SingleImages/Thumb/Datejust-Wideboy-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11415,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"7da3b05172e006a32ca80f286f412da0\""
+        },
+        "responseBodyHash": "1b3952082e1874e96e421678f008918600f2f2a5dc32dfc26ca9094e8f14f09d",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.32336900000518654
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40859/SingleImages/Thumb/Datejust-36-White-Gold-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10084,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"5e219c605053aa227251b87d2d5c809d\""
+        },
+        "responseBodyHash": "eaed59b80cd8c7ed48a5c3a2ed682838e945720efd87f9ccb3cc96c88ed00462",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2852920000004815
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43799/SingleImages/Thumb/Panthre-Yellow-Gold-Stainless-Steel-Ladies-1120.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8935,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"56cf34dba3dd4db95fde7664ab2e54cd\""
+        },
+        "responseBodyHash": "c84a051d8f1db9ca5b2953096bcdf2a7d518ecba6009762dadc6c7d3c706beb5",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.27915099999518134
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38694/SingleImages/Thumb/Vintage-Yellow-Gold-Gents-P4504C.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9378,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"21b247125d749513d34563f5c9362219\""
+        },
+        "responseBodyHash": "e7c7a92cc11677c0df5c1cad81bfdc3e0ea4f6e65a6cbb935723b3630e5ddd4c",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3107600000075763
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40879/SingleImages/Thumb/Oysterdate-Stainless-Steel-Unisex-6694.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9763,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"a713ea5be2496d5c8a772be080fd0e50\""
+        },
+        "responseBodyHash": "24769e929c9d30063b305742a999e4367461bcca29fc6407d0b91c576d525ab3",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.28591100001358427
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44276/SingleImages/Thumb/Superocean-Stainless-Steel-Gents-A1732016.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 18503,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"75530b5d7f7ea872255645702e648d42\""
+        },
+        "responseBodyHash": "e1915d83a777fdd2ac8150c80d022c03e4e4f0eb60b8ad26ea51ebfdcde506fc",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2904920000000857
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/36331/SingleImages/Thumb/Vintage-Ultra-Thin-Stainless-Steel-Gents-20002.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9196,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"414db1f75d3d8629a01d1d4decabf0b8\""
+        },
+        "responseBodyHash": "3e8bd75fbca116c352782fcb2589c5d3ee35cee8236c76401e4c28626e9bec54",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.38331999999354593
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44403/SingleImages/Thumb/Carrera-Calibre-7-Yellow-Gold-Gents-WAR2140.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 13848,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"6048e905d151ac247c87f50721d35d26\""
+        },
+        "responseBodyHash": "a059cce0c35f7e5b3e824fcc2645e37859a1bdd38a92239d5adc9b076372303b",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3093150000058813
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38713/SingleImages/Thumb/Vintage-Stainless-Steel-Gents-428.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11444,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"6cbf4e8356c71c83d0ed35fe4737b6ed\""
+        },
+        "responseBodyHash": "d2c7a33da7a8a9cdd5841b5e6fd6b8c1a8178291e4012076832a6314813b558d",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.311744999999064
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38699/SingleImages/Thumb/Girard-Perregaux-DH-Mimo-Stainless-Steel-Gents-AS-1130.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10352,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"5601e32f5c69d44eb29118982dd8378e\""
+        },
+        "responseBodyHash": "1788ece3106cef25049e2d214b1af2b44b7f62123f5cf8bbb0d5c1882f0255fe",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.384753999998793
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41060/SingleImages/Thumb/Datejust-31-Stainless-Steel-Ladies-78240.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10534,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"26f497f279ccb6de666e2c78e27daa41\""
+        },
+        "responseBodyHash": "efd2637648c7e7c895f3c2b3218e9b09b2dec04fad0599c6e2f3034901c49645",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.28657500000554137
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41269/SingleImages/Thumb/Panthre-Yellow-Gold-Stainless-Steel-Ladies-1120.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 8246,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"d183ca7ad058b4d94f2a352f4f4bb0a8\""
+        },
+        "responseBodyHash": "447998ec5a59c578aac27c690447ac7be7b6e0ccd54c2d5f490647984752405d",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.291135999999824
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40863/SingleImages/Thumb/Datejust-36-White-Gold-Stainless-Steel-Gents-16220.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10294,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"5c9d5fad9b1b3cb9e45e99414546f9cf\""
+        },
+        "responseBodyHash": "ebc97e2da7b20fd4d3a2bde6b5f618e9e061c6024820c6788555f6e4c4bea5f0",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.29209599999012426
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40762/SingleImages/Thumb/Bulgari-B-Zero-Yellow-Gold-Ladies-BB-30-GL.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10330,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"ff8bccfdfcf2ebb2046f9bd6d2e1294a\""
+        },
+        "responseBodyHash": "ac64e880b4e4659bde5b07198817f6c51fab4471bd1ab695b5a9e0f26f3e58a0",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.39047199999913573
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44390/SingleImages/Thumb/Colt-Stainless-Steel-Gents-A74388.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16811,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e70ad66eb545c765aa9d370d61ca4995\""
+        },
+        "responseBodyHash": "5ce0499be502592abe51fadf226c08a8780014abb460c09eb7e620efd72b2561",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.29892599998856895
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38697/SingleImages/Thumb/Pocket-Watch-NOS-Stainless-Steel-Unisex.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14759,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"c1ed16eea882611b086d039711dfe842\""
+        },
+        "responseBodyHash": "8133e92a3f843e5dc7f9b6e078cda2bee522dd5c757fdc9c3a5d345fd01b2be6",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3701969999965513
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40914/SingleImages/Thumb/Datejust-36-White-Gold-Stainless-Steel-Gents-1603.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11528,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"89da9cd5a2f0ba0336665b627c272bbc\""
+        },
+        "responseBodyHash": "710208b40cfe1d82f603d546bd2cbad56a7863393b4a77d78262b61e5047c7e4",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.29271500000322703
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/36330/SingleImages/Thumb/Vintage-C8541B-5-Adjust-Stainless-Steel-Gents-8541B.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9116,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"7fbf217bb7c813fe185a854f65163afb\""
+        },
+        "responseBodyHash": "a93697db03ac4ae21a6664ff1ceac5146c6aa499ea2532ce280d78978c4f7d06",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3691240000043763
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-cartier.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 2790,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"0d749a22e36f324cfadce2dad9d488a0\""
+        },
+        "responseBodyHash": "e3ca5213749ce25a7b756fdcfdb91dbed211bf5f6ca0cfb3af6018c8d473fd72",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.314658999996027
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-cinoa.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 10889,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"898782927d5551a761bc0b7bf3b8cee2\""
+        },
+        "responseBodyHash": "de40b8e2e14f8312f83f154e6a5d5f814d36a89767b01a16760f4f09cce4cb1f",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3152669999981299
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-lapada.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 5497,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"ff0cc875c5dc5645d4cec23a7fa9c7ba\""
+        },
+        "responseBodyHash": "63ced519830d2d8fed10459476a1e97f82cfba378274de122c06dea5e3d1f209",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.298452000002726
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-omega.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 2570,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"86787e629b1278e127e62175a1ba3016\""
+        },
+        "responseBodyHash": "6cef928dbccd1b09eced7ea6b5775a3d3c1d4db46042e5adc8233c1fabab82cd",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.2987449999927776
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-longines.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 7388,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"0ddc1e3405f1f431d2a546de0db8bb08\""
+        },
+        "responseBodyHash": "0442d813bc0a6014b25a3adb10fbe5124f9dd9ac58ed548220513e539bc93506",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.30127599999832455
+      },
+      {
+        "url": "https://assets.xupes.com/js/bundle.min.js?v=10",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 436306,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"09e309b4f834f9caf57896026d732b17\""
+        },
+        "responseBodyHash": "2b4b50c7a7eeb599c78547034cfdc0bf479f8667fddfb1025eff0933925b534e",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.203892999998061
+      },
+      {
+        "url": "https://assets.xupes.com/js/build/client.bundle.js?v=10",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 4982366,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"ed971b5f16f2ecb5f1776a420426eee4\""
+        },
+        "responseBodyHash": "d61317c84a5c9aeac56671ea491cfdd1c3f728bcfbc17d056b249ebd2ba128e5",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.5032520000095246
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 13535,
+        "remoteIPAddress": "151.101.37.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"9ffa-r2n8lM7FiSLwIrr298DmfvA33qo\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dcb6a3f755577b18d39452e02fcfafbc8ab6ee569775198521c3b69a2ba5804b",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.11648299999069422
+      },
+      {
+        "url": "https://rum-static.pingdom.net/pa-5a9950074c40770007000362.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 3026,
+        "remoteIPAddress": "172.67.5.216",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"609a8e40-1852\"",
+          "expires": "Tue, 21 Dec 2021 17:44:52 GMT"
+        },
+        "responseBodyHash": "3306acf53d1afb01fddc3bd31227af59e3a03a705b6fb88f416f5609e7f9c88a",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3172259999992093
+      },
+      {
+        "url": "https://app.termly.io/299.embed.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 49067,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"61aa779e-25d36\"",
+          "expires": "Tue, 21 Dec 2021 21:39:52 GMT",
+          "referrer-policy": "no-referrer"
+        },
+        "responseBodyHash": "d9a4bc5176d53aa57bc980306ac08640473587fa0b5aeef287de956cc4fb3e32",
+        "initiators": [
+          "https://app.termly.io/embed.min.js"
+        ],
+        "time": 0.15092499999445863
+      },
+      {
+        "url": "https://app.termly.io/722.embed.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 33074,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"61aa779e-23411\"",
+          "expires": "Tue, 21 Dec 2021 21:39:52 GMT",
+          "referrer-policy": "no-referrer"
+        },
+        "responseBodyHash": "a91693227bb0ecdac6a874cd4c925d01b4ba42d14f0b40aaddb7e9d469dda6a4",
+        "initiators": [
+          "https://app.termly.io/embed.min.js"
+        ],
+        "time": 0.14379300001019146
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TT77TN",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 60000,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 17:39:52 GMT"
+        },
+        "responseBodyHash": "7edd2260e5a46f0dc8fc3a39fdd373d8b657fd13e806102278131c37b8a09ee5",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.1539539999939734
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 27042,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.13255300000309944
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/user-303030.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1185,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"9bf9942b692828a485c3a79726415fdf\""
+        },
+        "responseBodyHash": "72e7ca817a78f14b212e93286bc0642a40ceb52818b20e846946bc491f0a0cdc",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.14476800001284573
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/location-303030.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1245,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"7f485d926804e46ee1979b64c5283199\""
+        },
+        "responseBodyHash": "f0fd8eee7a6e8a8d6119717eaef3016e7879ad7cf505d78208176f57e3ccf107",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.11431299999821931
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/flags/gbp.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 862,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"497e7cd177bb13ad2b86d31103f0426a\""
+        },
+        "responseBodyHash": "22c844451631b54a3ba54e31ec2c27384a0557fd0f62153d86ecd6253f3cfb2b",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.1440020000009099
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/flags/flag_netherlands.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 542,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"9ab9b1b51836c0f9be8ca8a1a3fc6588\""
+        },
+        "responseBodyHash": "398936a3ce23ff445338bb6c7bf5bdfbbdfa076de75212c3a15583fb7052cdf1",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.14351799999712966
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/trustpilot-desktop.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 6773,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"d6c3b62864f1b36501372ece878120ca\""
+        },
+        "responseBodyHash": "022bd171298fef3468f53354c9164007bd9762baefb6d6d89d5c2b8162194de2",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.11460499999520835
+      },
+      {
+        "url": "https://use.typekit.com/af/63c896/00000000000000007735e609/30/l?subset_id=2&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16798,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e7ff55a2dbd9793a0025734c0419ed962aadab55\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ff83736616f516519ff05e017ddd83654c7cad6f6e1f0203f9ad5fc96ae4f414",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.1347529999911785
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/close-303030.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1301,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"fa7ba832d2751a139657372cee1d567e\""
+        },
+        "responseBodyHash": "8cf744ea5c26851d49778330bb46df866c53f0a23cca4d35ee99680a9253d506",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09816499998851214
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/search-303030.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1249,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"bc1128f671141c891202ff2c2166718e\""
+        },
+        "responseBodyHash": "2c7ba4d4098a0e72188a2cc38386116844175152a210a25d682b0e3cacdc1f83",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09774199999810662
+      },
+      {
+        "url": "https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CString.prototype.includes",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 80,
+        "remoteIPAddress": "151.101.193.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=604800, stale-while-revalidate=604800, stale-if-error=604800",
+          "referrer-policy": "origin-when-cross-origin",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dd1b5e04d54c4420fe3e8e6abe2875fc7f13a3cd6384b6c2afc1a35e302dd846",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.05859699999564327
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/bag-303030.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1352,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"b57888de292677975e79f4ef9f230aa6\""
+        },
+        "responseBodyHash": "5952e92225c5b8a5493e46e603fff0a8fca264db1d0b68b45501d5ae00551068",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.11045599999488331
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-pre-owned-3.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9088,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"705f86a2c182c84cd689d83bd18bb753\""
+        },
+        "responseBodyHash": "b7efbb0e0d0842a33a65759561c4aeb9f5026184a07ff0f7454fcefbeade27cf",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.11701100000937004
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/rare-curated.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 13385,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"39991ee1cac04bd622883318624137d2\""
+        },
+        "responseBodyHash": "34739c10cdb12dc9b97b74082ac0ed62913d10dfd9c6051abd09763d4ec9a5e9",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.10395900000003166
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Content/1/ContentLarge.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 187911,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"dd0745fdca7ed2eba0aa9dca539cfc51\""
+        },
+        "responseBodyHash": "a639d58ed4cd2807e0ac1d95664f16af9b483c1d0b78f21f312a75e8b726c1de",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.1271219999907771
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/close-333.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1137,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"fa493c514dcbf431cb5cfdc2247ae44f\""
+        },
+        "responseBodyHash": "669b5b836494680a770fb6f85ffff09a129798319c8e1c5d3e5ac3f6f3c642fc",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.10766500000318047
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/select-000.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 590,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"ef00b7f312eda544e33f12a35e7517fc\""
+        },
+        "responseBodyHash": "af303ce0c770c5788e4793f91ab90b95afa463e4524a6ccfa3065274cbd55041",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.134143999996013
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/close-000.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1144,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"136b632b075fb092ee2ee4201e4f1b9e\""
+        },
+        "responseBodyHash": "85478f81c0b8fbb159c5fa5d5d2e9dc6d79dc49c7e21834968d8cbf023609be9",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.10624700000334997
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/x3.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14955,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"4737fe47ae6288ada9e36bf3806bb383\""
+        },
+        "responseBodyHash": "117465dae7d70fe4c262e40332e259b28351f2e33a431250a813526d6ed0e8ae",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.10107499999867287
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/x4.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14952,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"7122f360713e0dd50c2f7858601623ae\""
+        },
+        "responseBodyHash": "0a556ba84627bab9a1fd9724a4748ce0611644d059420751fa4aff7015e0d6af",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09334400000807364
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/upload.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 726,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"a7a7d168b045031c4426ea3817a468be\""
+        },
+        "responseBodyHash": "e8fcd12bab0609ac41420398bbbd22b8ae801a788ef0e09aad7b40d24248b7b0",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.10276100000191946
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/logo-4-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 5656,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"30456d55f3c383d50f75bd6939d7350b\""
+        },
+        "responseBodyHash": "9e5d16b6eae9189f482f0d99abc55cdcc15ffe536f7c5d94503749823129df1e",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.08939300000201911
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/select-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 604,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"75f1acb236f04c78ff9856c489395e8f\""
+        },
+        "responseBodyHash": "019da03bd30f0b312bc08b1e524b1d9b47ed41fdb55d51b7a403e52fed6d463a",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.08908399999199901
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/social/instagram-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1348,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e884c88ac2052bcae6cb25759f3ce650\""
+        },
+        "responseBodyHash": "60cfd665d10b0bdadea095a9d57f3e7766fb4f39c71cedb109f27d30f62a877f",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09202899999218062
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/social/twitter-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1410,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"db0ca0d981e9ee052417be53a3e2777c\""
+        },
+        "responseBodyHash": "45320b13f5a62724e95d686b54bba634ccaa179ab47f9416aa8661b5bde42051",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09171400000923313
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/social/facebook-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1067,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"913e2bb6f65f4705a18749e598d0eaf1\""
+        },
+        "responseBodyHash": "d34c01fab8160c94119ce076edbdb7b1a6480010bc1bc64c1da6cea6f25300e7",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.08098799998697359
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/social/pinterest-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1548,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"edab40d9eff1a3e91dab585fe8b5efbd\""
+        },
+        "responseBodyHash": "5d2898e24630b0ee6e53f23a89254c20e352c805289bb44e49cb190a6570fd62",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.08161500000278465
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/social/youtube-fff.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 3272,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"615ac983fd721d4ba0515e1127c68c36\""
+        },
+        "responseBodyHash": "c097d6f0443a912583ccdc01612b7ab312ad2923c3218b44ea5cb05ae0ed5aa8",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09065199999895412
+      },
+      {
+        "url": "https://assets.xupes.com/Images/img/icons/eye.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1972,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"01aa61bafe3bebf7f44cb1151d8b69d6\""
+        },
+        "responseBodyHash": "0bba90b37014dd7b6dc12487d94b3a9fe4a86bfd78829b55a634ea01890e09d0",
+        "initiators": [
+          "https://www.xupes.com/css/site.min.css?v=Y5rHpUvHW6pc7sPTyi-srZW_5lTkitlEBOUcyNJdcn8"
+        ],
+        "time": 0.09373900000355206
+      },
+      {
+        "url": "https://use.typekit.com/af/3aed42/00000000000000007735bbdf/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 27544,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4319764af707260538d1ba86f2ce62754447871f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eafbc730d60a5e28082dfb400e4936c5e795364af19cf0415c71d98c459ecd5d",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3068429999984801
+      },
+      {
+        "url": "https://use.typekit.com/af/ecc4b2/00000000000000007735e603/30/l?subset_id=2&fvd=n7&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 17066,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"d6bfc4d27afeb61a1128d9c149ee5ed369aa27c3\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c733e47a69fefcc040d7343f66a21e27ccc22b88e90e92981b0b3e11a5b15c8f",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.3076159999909578
+      },
+      {
+        "url": "https://use.typekit.com/af/6a1893/00000000000000007735e60d/30/l?subset_id=2&fvd=n6&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16979,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"f7ba7c34d63f92790ab459c7b134839b4c87ad09\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d0a788882a997548e33df72eaec6fe7e3d339b8a9f080cec5d9c86b90cecc8a3",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.30052200000500306
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41271/MultiImages/Thumb/009_Datejust-26-Stainless-Steel-Ladies-79174NR.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 19107,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"eae162857ad82ff207db644855d13b85\""
+        },
+        "responseBodyHash": "7ae4105d91a6593667a77a4e89d92c6b403f8a906f66a8ee07366e96a3191c8c",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.006097000004956499
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/33646/MultiImages/Thumb/007_Pocket-Watch-Platinum-Gents.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 20377,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"867bca87d0b40b95a46653606d210053\""
+        },
+        "responseBodyHash": "4c6016beb3893419e5ce0249f93a43c44aa46e31da72f2348a6f0500ba525370",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.0056459999905200675
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41343/MultiImages/Thumb/013_Datejust-36-White-Gold-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 19228,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f78490b098e29207bc4c2d1f7477c139\""
+        },
+        "responseBodyHash": "3e294cba336a098553c890551f66d156104051d229a34df6e2bd36adf769173c",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.005791999996290542
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44395/MultiImages/Thumb/011_Constellation-Yellow-Gold-Stainless-Steel-Ladies-12320246005002.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 18079,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"d8a79f4eafbaf059d9eab676251cbc44\""
+        },
+        "responseBodyHash": "a4b676d9402a90d56ab84d9881b405f5b5761cd7719cd218aac330c3c61e8b51",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.023988000000827014
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38692/MultiImages/Thumb/010_Vintage-Stainless-Steel-Gents-23M.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 25500,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f830ddd0c1afd4388c831c0248398094\""
+        },
+        "responseBodyHash": "75ade7e71d45e537d356f3fdaae6a09f5fd688b7d33ef4d466eb2680adeb115f",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.015773999999510124
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40890/MultiImages/Thumb/009_Datejust-36-White-Gold-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 22632,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"dcd1c6a769097618a20c9e2f4125c410\""
+        },
+        "responseBodyHash": "647b8fae341bb2f497e02ec89b0ac9be6e932e5c332cde5f713db06289d3cfb8",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.007166999988839962
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38704/MultiImages/Thumb/012_Vintage-Stainless-Steel-Gents-4503A.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16133,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"c02e8ba0adcd3d8de834bfd671c67873\""
+        },
+        "responseBodyHash": "c127dc081d7fa84b86739d5102afbcfd7c8f8acd0467f4a26ef56b42794f4545",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.010701999999582767
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38695/MultiImages/Thumb/013_Longines-Pocket-Watch-Stainless-Steel-Unisex-1970N.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16437,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"adc3f5fd5db2234b7a85b35dc7b5605f\""
+        },
+        "responseBodyHash": "2b07823176090682d7b47727022dd31cd6b6d4587c1afe96b0b5f8e6ca35c332",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.009331000008387491
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43400/MultiImages/Thumb/009_Vintage-Yellow-Gold-Gents-809.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 24694,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"f1b68b11a8bf5bb583bad568fb9c3beb\""
+        },
+        "responseBodyHash": "8bcabebb6f8f026eedc8a0f203f1ba49bfae2a4e6283a7abebe19095c5642a78",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.013787999996566214
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44064/MultiImages/Thumb/009_Santos-Yellow-Gold-Stainless-Steel-Ladies-2423.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 11111,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e26e716e99b3528466ba6efb3ed11252\""
+        },
+        "responseBodyHash": "ebe33959e7435845d3992f9b80c3199a77688dd8349053e5206ad165a993ec5c",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.017840000000433065
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44398/MultiImages/Thumb/009_Chronomat-Chronograph-Stainless-Steel-Gents-A13335.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16987,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"44d1b2761350a365548cb701bffb2a8e\""
+        },
+        "responseBodyHash": "fb44aca2969ee79df380387db539c88436f5ef4de25d60ee85483c082c7c3386",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.017581000007339753
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43394/MultiImages/Thumb/011_Chronomat-Stainless-Steel-Gents-44.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 22437,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"5b335db1b47291ae4ff562dc50a26859\""
+        },
+        "responseBodyHash": "d1039a02f48bd6fe56289f8c9658be1e16bc874681398042d235e638991b5371",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.02704200000152923
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/18602/MultiImages/Thumb/006_Vintage-Turler-Pocket-Watch-18K-Yellow-Gold-Gents.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14130,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"ad9c791134aa121fc50c6940565eb882\""
+        },
+        "responseBodyHash": "11155376e89926fa99a9067be82f3f73b5226d9a09e28c86df22587c203a735e",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03019000000494998
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44186/MultiImages/Thumb/009_Pasha-Stainless-Steel-Gents-2790.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 27255,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"70787fe1866954a04342b72a06933fdb\""
+        },
+        "responseBodyHash": "e05538b4d5cdf0c3079cfbf16070c54ffeb114516330d6d706cb9762792312c7",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.029030999998212792
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38707/MultiImages/Thumb/009_Vintage-Cal-30T2-SC-Stainless-Steel-Gents-21792.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 28660,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"b55556d5d4d81127e7e984800b538345\""
+        },
+        "responseBodyHash": "5abcedff8c952cd9635c82d950865beac0523bc4f3743ad1c197c6abf6596369",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.032061000005342066
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38155/MultiImages/Thumb/010_De-Ville-DArgent-Silver-Ladies.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16536,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"2731c4c92e6e2a081b28d12179f020ad\""
+        },
+        "responseBodyHash": "bc0c2f6292dfdfc454cf75de3103857d7185c69c034883cd3fa6d61857481687",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03500699999858625
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41053/MultiImages/Thumb/009_Datejust-36-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 23155,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"451c11c3f3042f1a374949c79eb25921\""
+        },
+        "responseBodyHash": "6dbcfad8cb4e569be721d9a5b4a97efd0814caa58b4a0300947e4a8fa68e57b2",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03751399999600835
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44422/MultiImages/Thumb/009_Tank-Solo-Stainless-Steel-Ladies-3170.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 9638,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"de509b4821046edbc3ef52aa0c6175a5\""
+        },
+        "responseBodyHash": "79074c0dc1f932d29e4c346824de98f1ca555a7e8d649fc6cd42bc51a21bb614",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.030866000000969507
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43960/MultiImages/Thumb/010_Speedmaster-Stainless-Steel-Gents-35075100.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 30531,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1ceab429d2c46bbb3c86f56bf8e1097c\""
+        },
+        "responseBodyHash": "d9468e8a5d4dc97ce15dd368c2a8f1b724bc288512e2576981df1b2124092db8",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.038855999999213964
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40494/MultiImages/Thumb/012_Seamaster-Stainless-Steel-Gents-21030422006001.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 17743,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1c6e04f3ad27a644b323b9b0fe4a1eb7\""
+        },
+        "responseBodyHash": "17a08270f80e4b8b2015bfe77710dd32ecb961dd2bccbd9571512a66c1519ead",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.1666759999934584
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38186/MultiImages/Thumb/010_Memovox-Gold-Plated-Gents-34290.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14416,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"5cf5aa6d30bc957d202e85cf70fdb2c9\""
+        },
+        "responseBodyHash": "12e02cfeee6064746631195d3863ae55151a5ee3a80b1603d1c51bf4983918f6",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03306299999530893
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38705/MultiImages/Thumb/011_Pocket-Watch-Stainless-Steel-Unisex-4672.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 18058,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"10d388c47e5692e3515f759404c2e8d2\""
+        },
+        "responseBodyHash": "30765cf7ebb056d6e91f3baaa068915d6b66299862395c5f9ede0f9547d1d794",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.04260499999509193
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44011/MultiImages/Thumb/010_Pontos-Stainless-Steel-Gents-PT6318.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 23597,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"be82b89ab027f253fb3a2fa9daa549ea\""
+        },
+        "responseBodyHash": "331d2e0d7e49ebbf5d946b3ab0c63103800aa2eee37fb8f092e125f11ddd6623",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.045903999998699874
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38775/MultiImages/Thumb/010_Santos-100-Large-Stainless-Steel-Gents-W20073X8-or-2856.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 22258,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"8de0d844018cbdfbd50aea49437d036a\""
+        },
+        "responseBodyHash": "07833249463d15e054d02bfd52cbf7a4022ba77ebee02658db9793592576e0c9",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03448499999649357
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38710/MultiImages/Thumb/010_Vintage-Stainless-Steel-Gents-P478.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 16907,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"474dcd4d36020442f49a267ee8a84345\""
+        },
+        "responseBodyHash": "a69ae9f79eaa0bfc3a93732290a206b99c187dd11714425cb47b8a76eef80fa4",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.036283999987063
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44389/MultiImages/Thumb/009_De-Ville-Yellow-Gold-Gents.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 15691,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"bba09a49b7dd14ce66e924b5811170c9\""
+        },
+        "responseBodyHash": "6213cc0662c8b323d7897569edfad78b1e1dd6d12279f04e8fc2b04355d6a928",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03677199999219738
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38696/MultiImages/Thumb/011_Vintage-Yellow-Gold-Gents-ETA-2824-3adj.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 17391,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"09df5ba3d1a3f839fb823019d5169952\""
+        },
+        "responseBodyHash": "b00aaa80540bc85b43146ccb46f66871f8cd0ddb40985c08ae81a3ae26998d62",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.050350000004982576
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44278/MultiImages/Thumb/010_Navitimer-Stainless-Steel-Gents-A45330101C1X1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 25547,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"40710357c1f7f2dac9d2f07db984ae27\""
+        },
+        "responseBodyHash": "91ff0998821a809fa564a4770ef992344176e2a1690b0bae67b721e582352552",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03648599999723956
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41707/MultiImages/Thumb/010_Vintage-White-Gold-Ladies-9562A6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 27472,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"727386352031d1e42e37617054867f56\""
+        },
+        "responseBodyHash": "0a2c2ba73ade3b57fd28e18627ae0c7559d5d0e3ab9e7c41ea0630d55022610d",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.04653599999437574
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/42255/MultiImages/Thumb/009_Gefica-Stainless-Steel-Gents-GGM-3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 24573,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"ec958255be1780408464eb5bd96004ba\""
+        },
+        "responseBodyHash": "b412a301c05ca8a89544f6cc342ae5fbead3ad63cd06d54665662daee6b3c7a1",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.059735999995609745
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/42352/MultiImages/Thumb/009_Datejust-Wideboy-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 21722,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"84beda7289800c0b63b457a369877cf0\""
+        },
+        "responseBodyHash": "fbe46486227c21d66293decdcec2ea6b896b5aa53d47971797712c29057e2bc5",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03878500001155771
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40859/MultiImages/Thumb/009_Datejust-36-White-Gold-Stainless-Steel-Gents-1601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 22679,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"491cde1e6d493879163ee4aee242f427\""
+        },
+        "responseBodyHash": "d5f3b3d97e5d0cc0af0260a247b522d124b16dc0168f486af8401b6ad916bea2",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.04471000000194181
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/43799/MultiImages/Thumb/009_Panthre-Yellow-Gold-Stainless-Steel-Ladies-1120.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 27746,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"9f0b4b70fdc53b969109db11584119cd\""
+        },
+        "responseBodyHash": "042b9733f8d5d48995e7d965ea35ced5a690b6a17ecdbbbe9d59671361814d22",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.034236999999848194
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38694/MultiImages/Thumb/012_Vintage-Yellow-Gold-Gents-P4504C.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 15394,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"72dfe66854113f75e427ac033bef17b9\""
+        },
+        "responseBodyHash": "469a729fcdd1eff29e32c16439046ebe91ff2dee4d3c253abadc93b663602d48",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.18222599998989608
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40879/MultiImages/Thumb/009_Oysterdate-Stainless-Steel-Unisex-6694.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 18619,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e2bc79f12ddc947d9fb979299dfd4aa3\""
+        },
+        "responseBodyHash": "00d4f6097125b7d5472de5f9154d70238ff47c695ab95066bfef9e7fa95a4e4c",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.036221000002115034
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44276/MultiImages/Thumb/010_Superocean-Stainless-Steel-Gents-A1732016.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 27802,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e6d6fee7b9c9ea7565c97de0b103af1f\""
+        },
+        "responseBodyHash": "818deaeeaac7a9041a84fd04a8c278af385af38fa1c2290395c6fd82ca9a05b2",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03700199999730103
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/36331/MultiImages/Thumb/009_Vintage-Ultra-Thin-Stainless-Steel-Gents-20002.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 14891,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"7c61c5ad3b9dd05338c0e91b3094eb1f\""
+        },
+        "responseBodyHash": "6edaae558f18e3ccf9044a93101865c29ce71a077a2ed213cc4abe3a89caeea5",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.15378800001053605
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44403/MultiImages/Thumb/009_Carrera-Calibre-7-Yellow-Gold-Gents-WAR2140.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 15549,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"bb2f3492c0ddb1bd19b1944843feee69\""
+        },
+        "responseBodyHash": "bb821638b4b625bf48011cddd6175983ff74a0dab783a8a2f6cc44d31a8a9e89",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.034691000008024275
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38713/MultiImages/Thumb/009_Vintage-Stainless-Steel-Gents-428.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 21248,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1087561d4baa3c12cb71d6cc49a7ae5a\""
+        },
+        "responseBodyHash": "73e0933cb7b82eff1acb0a9fe1bed8b87f46a4307fb6d61855d1b81e2dd47d33",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.16214500000933185
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38699/MultiImages/Thumb/009_Girard-Perregaux-DH-Mimo-Stainless-Steel-Gents-AS-1130.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 22825,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"e4a10984c8014b93d7a2b0bf703f36c1\""
+        },
+        "responseBodyHash": "2450df11e7af7ebf869c4eaac83436fded0c0a2dcf795ad3378887b2cd2b2a14",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.15611700000590645
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41060/MultiImages/Thumb/009_Datejust-31-Stainless-Steel-Ladies-78240.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 22961,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"b49d7e65fa709100f80c9431f3efc147\""
+        },
+        "responseBodyHash": "20b5e1f0a9a4805a4bbff549b838c41f5a2991d983fb24cb6e9f5299e6af9984",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03594600000360515
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/41269/MultiImages/Thumb/010_Panthre-Yellow-Gold-Stainless-Steel-Ladies-1120.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 17097,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"7ccd30ca00e13c34dc05716ba2cff048\""
+        },
+        "responseBodyHash": "977d39a0aa658ce5e5a8fd97f27b36001275535927f42d8870b875418827e1c1",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.04060199999366887
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40863/MultiImages/Thumb/009_Datejust-36-White-Gold-Stainless-Steel-Gents-16220.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 24613,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"baaef9dd46b8e24cfdc1ccaef2b58ccd\""
+        },
+        "responseBodyHash": "c11ca1ea1a32b5ac3ba465b34c3d90f52e52e68eb58797310dc2addc4119d1e4",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.037452000004122965
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40762/MultiImages/Thumb/008_Bulgari-B-Zero-Yellow-Gold-Ladies-BB-30-GL.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 19687,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"83434ff752f76d7081e35b0ce5e5dc28\""
+        },
+        "responseBodyHash": "2ff4c9f1146f139a3bada097525b5f998076adc5a0724b0f228882ccf5086d17",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.24049000001105014
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/44390/MultiImages/Thumb/010_Colt-Stainless-Steel-Gents-A74388.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 18233,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"d4860e73619152830ac3a4c4391e67a4\""
+        },
+        "responseBodyHash": "014b2eebe9b37e505e2fb9ab559b497fa283059b0cb56eec332e11dce9fdf7ac",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.034582000007503666
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/38697/MultiImages/Thumb/012_Pocket-Watch-NOS-Stainless-Steel-Unisex.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 15701,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"758aead6ca3f02b37e98c0a67722b5d8\""
+        },
+        "responseBodyHash": "7546abcb872812c76437a0272ee1f609d671a8faae34a304b1dc8a12ba291f34",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.15772000000288244
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/40914/MultiImages/Thumb/009_Datejust-36-White-Gold-Stainless-Steel-Gents-1603.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 19940,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"75219c95d757641da452031d623c9144\""
+        },
+        "responseBodyHash": "9361cacf198e559746c463813583871a7d99805087f33e0777c2bbc1840dd714",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03741099999751896
+      },
+      {
+        "url": "https://assets.xupes.com/Images/Product/36330/MultiImages/Thumb/009_Vintage-C8541B-5-Adjust-Stainless-Steel-Gents-8541B.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 15461,
+        "remoteIPAddress": "52.222.139.52",
+        "responseHeaders": {
+          "etag": "\"1f68dc9b441ba191070e2ef6093e71b8\""
+        },
+        "responseBodyHash": "4353f23f3fcda68c99b60165a8f7a042200c586fde9980012d7f816776cfede7",
+        "initiators": [
+          "https://assets.xupes.com/js/build/client.bundle.js?v=10"
+        ],
+        "time": 0.03994800000509713
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-6635502&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 36016,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 17:39:53 GMT"
+        },
+        "responseBodyHash": "bc9f9dc1a86f2bc3c4e223e76f2caf6092b397badcf403db02fb4d8937123e74",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-29992252-1",
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.01981800000066869
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-986493096&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 39633,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 17:39:53 GMT"
+        },
+        "responseBodyHash": "d5b2ae3d5fbfc602e25a6c177d2afa8a288f12e2997cc6b311027edd9539f3fa",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-29992252-1",
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.024831999995512888
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-9100676&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 36015,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 17:39:53 GMT"
+        },
+        "responseBodyHash": "73fe4ae5656cba0ddf94d7a85cd2e1892adb3531ff6f1683ce6bb5327d73a83e",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-29992252-1",
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.0250650000089081
+      },
+      {
+        "url": "https://use.typekit.com/af/98998b/000000000000000077359fa7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 30853,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1d884516d60fedabb3d8486b12e81e1b7a91d134\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a35f6e870ec5a20881f90774247998c4b852a590b98817c0236926b018c77dcd",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.49181900000257883
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f"
+        ],
+        "time": 0.18868400000792462
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/ip?random-uuid=577022c4-0bc9-c4ee-e4c1-d12c9065026e",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/ip?random-uuid=577022c4-0bc9-c4ee-e4c1-d12c9065026e"
+        ],
+        "time": 0.22593000000051688
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 1474,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"dfb862928ec72e0f553b06b054fc4df8\"",
+          "expires": "Tue, 21 Dec 2021 21:39:53 GMT"
+        },
+        "responseBodyHash": "dfb862928ec72e0f553b06b054fc4df8550c7beccbd39a53a06cb83f47b2cfc3",
+        "initiators": [
+          "https://app.termly.io/722.embed.min.js",
+          "https://app.termly.io/embed.min.js"
+        ],
+        "time": 0.42192100000102073
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/ip?random-uuid=577022c4-0bc9-c4ee-e4c1-d12c9065026e",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 785,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"1056f45e700c4ea746b985d58132be52\"",
+          "expires": "Tue, 21 Dec 2021 21:39:53 GMT"
+        },
+        "responseBodyHash": "1056f45e700c4ea746b985d58132be5209662ab2ba5749fabd27bbf012949c41",
+        "initiators": [
+          "https://app.termly.io/722.embed.min.js",
+          "https://app.termly.io/embed.min.js"
+        ],
+        "time": 0.42088000000512693
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/384499202149219?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 88892,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "28ccf67f1c0b276f6fd47adbc1444760bcb0994f1ea03dc35e99a294d64c7ebd",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.010234000001219101
+      },
+      {
+        "url": "https://p.typekit.net/p.gif?s=1&k=tcj3zxu&ht=tk&h=www.xupes.com&f=139.173.175.18498.39436&a=82973518&js=1.20.0&app=typekit&e=js&_=1640108393818",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 214,
+        "remoteIPAddress": "23.0.250.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"5f4eed7f-23\""
+        },
+        "responseBodyHash": "566b739e9df5cb4c1ce82485ddedc40350d34248c461513d1c962fa05b93e159",
+        "initiators": [
+          "https://www.xupes.com/watches/products.html?MinPrice=1000&MaxPrice=5000"
+        ],
+        "time": 0.01483600000210572
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/statistics",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/statistics"
+        ],
+        "time": 0.1708809999981895
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/statistics",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 201,
+        "size": 657,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"43974ed74066b207c30ffd0fed514676\""
+        },
+        "responseBodyHash": "43974ed74066b207c30ffd0fed5146762e6c60745ac977004bc14507c7c42b50",
+        "initiators": [
+          "https://app.termly.io/722.embed.min.js",
+          "https://app.termly.io/embed.min.js"
+        ],
+        "time": 0.38477899999998044
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/documents/7611ad22-2583-4aeb-b0c5-e609382b990c/cookies",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.xupes.com/",
+        "status": 200,
+        "size": 935,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"e5affb9be9206aff468640e95193d6f6\"",
+          "expires": "Tue, 21 Dec 2021 21:39:54 GMT"
+        },
+        "responseBodyHash": "e5affb9be9206aff468640e95193d6f6b71f37f81ade49b9567a911acadda449",
+        "initiators": [
+          "https://app.termly.io/722.embed.min.js",
+          "https://app.termly.io/embed.min.js"
+        ],
+        "time": 0.1869109999970533
+      },
+      {
+        "url": "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/documents/7611ad22-2583-4aeb-b0c5-e609382b990c/cookies",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.19.255.88",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://app.termly.io/api/v1/snippets/websites/95987038-63e8-4f98-a952-133577390b7f/documents/7611ad22-2583-4aeb-b0c5-e609382b990c/cookies"
+        ],
+        "time": 0.16231299999344628
+      }
+    ]
+  }
+}

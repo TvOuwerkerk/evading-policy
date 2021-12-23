@@ -1,0 +1,2966 @@
+{
+  "initialUrl": "https://hmv.com/",
+  "finalUrl": "https://www.hmv.com/",
+  "timeout": false,
+  "testStarted": 1640013074842,
+  "testFinished": 1640013092311,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.hmv.com/links.hmv.com_505f.json",
+    "requests": [
+      {
+        "url": "https://hmv.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "34.235.230.253",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.hmv.com/",
+        "initiators": [],
+        "time": 0.2924190000012459
+      },
+      {
+        "url": "https://www.hmv.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 14608,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7",
+          "expires": "Mon, 20 Dec 2021 15:11:20 GMT"
+        },
+        "responseBodyHash": "8dd797f7f61b58dff3276b3cfe2feb79eaab7e7fdda36375431affa8da876f30",
+        "redirectedFrom": "https://hmv.com/",
+        "initiators": [],
+        "time": 0.15484799999831012
+      },
+      {
+        "url": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 39216,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"80258dd9286fd71:0\""
+        },
+        "responseBodyHash": "7aafd64193c4c52f5d5a1e46b4286de0d0209c1bd7f5363b3d508df5004e576f",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.04115100000126404
+      },
+      {
+        "url": "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 42736,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Tue, 20 Dec 2022 15:11:12 GMT"
+        },
+        "responseBodyHash": "8e36a92b48ce8c4a823f7703ae2b1d91a96baf49a3c5c20fa0441df4c20bb3ec",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.10507300000244868
+      },
+      {
+        "url": "https://www.hmv.com/bundles/head?v=mcLWBOu5u19n-UW8vl8qtFeRTCausWHxT-z50tpdwsU1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 8671,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Tue, 20 Dec 2022 15:11:12 GMT"
+        },
+        "responseBodyHash": "fb061882b5c68565fd49aa4462d84429b14c7d2b63a27cedd2f8f5fc24f52d2a",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.07619900000281632
+      },
+      {
+        "url": "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 62006,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Tue, 20 Dec 2022 15:11:12 GMT"
+        },
+        "responseBodyHash": "63d51ec3ae987e5cad9838ef78847727fe7f5ed5933f353615431b97c894679b",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.1181090000027325
+      },
+      {
+        "url": "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 5835,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Tue, 20 Dec 2022 15:11:12 GMT"
+        },
+        "responseBodyHash": "018c1d66be8b9864a067819e865793ec6b74f6923184b4cdcf63662c072c336a",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.07013000000006286
+      },
+      {
+        "url": "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 29338,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Tue, 20 Dec 2022 15:11:12 GMT"
+        },
+        "responseBodyHash": "ee3ed204fe674b35a3c722558dd8f4ee3c1112763163a0a8b8a269b954841c1c",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.10413699999844539
+      },
+      {
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=65338&u=https%3A%2F%2Fwww.hmv.com%2F&r=0.3505595153395116",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 1442,
+        "remoteIPAddress": "34.96.102.137",
+        "responseHeaders": {
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d854a12ce90ab68cab94d0e455c7342f8918e0ffdf5819a9689b7c2d04a82ea1",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.03630400000110967
+      },
+      {
+        "url": "https://recommender.scarabresearch.com/js/1614DC2D409D78D2/scarab-v2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 24828,
+        "remoteIPAddress": "35.158.251.78",
+        "responseHeaders": {
+          "cache-control": "max-age=3600,public",
+          "etag": "\"8cbb148c07a443490bac5704504f24a4--gzip\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a830fa7c73bbcda8a4c5fc36690aa51da2e365a6b48917eebe63ee2423d507b9",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.0843540000023495
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W9Q3NN",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 48274,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:11:15 GMT"
+        },
+        "responseBodyHash": "0032dfd5a161ccd7597fe38c33309612fdce325b1308aa8efb28108916ad8cbd",
+        "initiators": [
+          "https://www.hmv.com/"
+        ],
+        "time": 0.031295000000682194
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/global/hmv-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 3195,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"8426d8d9286fd71:0\""
+        },
+        "responseBodyHash": "bc9db3079d40a0aec7afeb1bf43727692fff0d8df1dbd0f3c70375389128c17c",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.022614000001340173
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/sprite.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 6790,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"72de4d9286fd71:0\""
+        },
+        "responseBodyHash": "dc56fda14b71f51fdf75300ff9975c954d5581c0ff4ad385b3cf87ea8c754842",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.019422000001213746
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/global/tag-separator.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"43e9dcd9286fd71:0\""
+        },
+        "responseBodyHash": "e17a6e444cb33afd074cfabe1953523847c20de414a11f8f63d3e39110957f2a",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.020676000000094064
+      },
+      {
+        "url": "https://www.hmv.com/_client/fonts/ss-gizmo.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 61876,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"dac4d5d9286fd71:0\""
+        },
+        "responseBodyHash": "aea1a80210524019282311c9fc3fe08d131beade66744e64c8474842d7c51b9b",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.11443299999882584
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 26643,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 18 Dec 2022 14:51:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "52e46ad22f618ab0bda5c3299b439a644babb1c732dfcda30606992767e51420",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.02776599999924656
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 27352,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 12:14:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b1bf0b8151b48cd635c86b24acbb1d62237682bd95fec2aa40e1f8cb49d63a12",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.029893000002630288
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 27649,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 19 Dec 2022 09:16:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "921545a9aefd15ee26e667672d0504924910df501e6bbe5b77b9d964d43df8be",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.02478799999880721
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 26712,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 08:07:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "249ed0cce8d8110aeee9889020ffa217b3e13a78ff21cbe2ed9367bb618f51db",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.026555000000371365
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 26231,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 17:40:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f9904772c07d06e3284edf89d98ec6d312f36c7daee8e1ec34136440214c86bf",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.030671000000438653
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 26516,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 12:30:34 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "93f5489b2e846fabb7268c433500f145231cdd4cf3e44e6b2a79788d419642e8",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.03093299999818555
+      },
+      {
+        "url": "https://www.hmv.com/_client/fonts/ss-gizmo.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"dac4d5d9286fd71:0\""
+        },
+        "responseBodyHash": "aea1a80210524019282311c9fc3fe08d131beade66744e64c8474842d7c51b9b",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.017861000000266358
+      },
+      {
+        "url": "https://www.hmv.com/_client/fonts/ss-social-regular.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 10391,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"dac4d5d9286fd71:0\""
+        },
+        "responseBodyHash": "c1469a752e1a17d95308eb2c8cc6a17209aec27e5d8714910a59ea2522df04d7",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.03788699999859091
+      },
+      {
+        "url": "https://www.hmv.com/_client/fonts/icomoon.woff",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 1831,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"dac4d5d9286fd71:0\""
+        },
+        "responseBodyHash": "e9b6ab75d13ba39b89f5a697ba9b4415745c7992679b4a4f1811fa5bd71c4100",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/"
+        ],
+        "time": 0.034497000000556
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"
+        ],
+        "time": 0.018293000000994653
+      },
+      {
+        "url": "https://a.hmv.com/YouTubeVideos/uk/1?callback=jQuery110205661206369589573_1640013075667&_=1640013075668",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 8814,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private"
+        },
+        "responseBodyHash": "02d949905afb80cbbac1008720ede3848e581a066d85ab6b98f9ee736a8be904",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1"
+        ],
+        "time": 0.11214599999948405
+      },
+      {
+        "url": "https://m.hmv.com/carousel/67/678d9ba7-6a57-4845-9490-ae040096d25a/b15b19f7529e328fd692b7adc9de661e/carousel.jpg?slimmage=True&width=1400&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 144591,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"fbd13f7a81f5d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "a41fc738b1738c210d9c174a547df44b5db2c26e771de943bdd691eaefdaf7f9",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.16845099999773083
+      },
+      {
+        "url": "https://m.hmv.com/carousel/f0/f08dafd8-431c-4974-994b-ae0400a25c12/beb04c3f5c50828ebcf510f031156792/carousel.jpg?slimmage=True&width=1400&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 62719,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"3d2ab687f5d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "feade23307913a8c6b2fb9ef89f68d6a857563c1d32211d551f326a8d4e0b0a9",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.1362600000029488
+      },
+      {
+        "url": "https://m.hmv.com/carousel/2b/2b708a73-831d-4df1-b7ed-ae010122d18d/10db37e311d8b59774414bfdf63fced1/carousel.jpg?slimmage=True&width=1400&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 99255,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"be12bc686df3d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "393b2ee380a764f3cca0e516d8f53d6d3f920f79cf816d4f44ca894d8ef61309",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.18205700000180514
+      },
+      {
+        "url": "https://m.hmv.com/carousel/26/266b88da-a45e-4f4d-a52f-adf9016db4e4/5de1324a28534d69d7fa993ad1af89f1/carousel.jpg?slimmage=True&width=1400&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 89075,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"25992a46acedd71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "fe12c04f146216d26e5f75f02d37719ddc877b0c7c3b1573b047f0d77dd1f126",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.1666609999992943
+      },
+      {
+        "url": "https://m.hmv.com/carousel/fa/faf78a89-c99b-481a-bd88-adf900e0982e/013ce9ecfc21fae6271076448eb4e3ca/carousel.jpg?slimmage=True&width=1400&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 70847,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"fa1c9d432edd71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "b5a7b2876a6e5bd680dfad5a9ecb470d4e9776db6baca706f4f83f0a0da9bc5e",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.1700039999996079
+      },
+      {
+        "url": "https://dev.visualwebsiteoptimizer.com/v.gif?cd=0&a=65338&d=hmv.com&u=D42E48FE553F6EEFB46C2FB53DA60C587&h=67718e9d0d4a62840ac9241d6bb43993&t=false&r=0.027725778683051816",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 214,
+        "remoteIPAddress": "34.96.102.137",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-cache=Set-Cookie, proxy-revalidate",
+          "expires": "Mon, 10 Jan 2005 00:00:01 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://dev.visualwebsiteoptimizer.com/j.php?a=65338&u=https%3A%2F%2Fwww.hmv.com%2F&r=0.3505595153395116"
+        ],
+        "time": 0.10533100000247941
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 12:14:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b1bf0b8151b48cd635c86b24acbb1d62237682bd95fec2aa40e1f8cb49d63a12",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.003820999998424668
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 19 Dec 2022 09:16:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "921545a9aefd15ee26e667672d0504924910df501e6bbe5b77b9d964d43df8be",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.001339999998890562
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 08:07:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "249ed0cce8d8110aeee9889020ffa217b3e13a78ff21cbe2ed9367bb618f51db",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.001600999999936903
+      },
+      {
+        "url": "https://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 12:30:34 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "93f5489b2e846fabb7268c433500f145231cdd4cf3e44e6b2a79788d419642e8",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.0015179999973042868
+      },
+      {
+        "url": "https://static.hotjar.com/c/hotjar-170254.js?sv=5",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2381,
+        "remoteIPAddress": "52.222.139.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/d3f025dfc3414a80c98e59a0147aaed5"
+        },
+        "responseBodyHash": "bddc411ce163bc8961515b0ec9061a951f6471fc3eaf37718d783b1d0fd518b0",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-W9Q3NN"
+        ],
+        "time": 0.035657000000355765
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 27032,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-W9Q3NN"
+        ],
+        "time": 0.017211000002134824
+      },
+      {
+        "url": "https://d3c3cq33003psk.cloudfront.net/opentag-34730-wedgwood.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 403,
+        "remoteIPAddress": "65.9.84.139",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-W9Q3NN"
+        ],
+        "time": 0.292487999999139
+      },
+      {
+        "url": "https://www.hmv.com/_client/fonts/ss-social-regular.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"dac4d5d9286fd71:0\""
+        },
+        "responseBodyHash": "c1469a752e1a17d95308eb2c8cc6a17209aec27e5d8714910a59ea2522df04d7",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.0018909999998868443
+      },
+      {
+        "url": "https://m.hmv.com/editorial/cd/cd258ebd-fa56-4664-9b70-ae0400eb2334/a8666392c2753903050b56d08f0c02b6/listing.jpeg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 6524,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"3fbd5586acf5d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "ec423736452b235fbe363a416749f2c5f9a60e9cf65b42a63c4a1a169fdd4c7a",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.026160000001254957
+      },
+      {
+        "url": "https://m.hmv.com/editorial/22/222443c6-0a83-4167-b9f6-ae04009f853e/beb04c3f5c50828ebcf510f031156792/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4431,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"1a1a9fdb85f5d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "06f5c47e66c6242f7b075e2dbdc9f713daa23e22b0a1943d4048a6444dc902d8",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.025057999999262393
+      },
+      {
+        "url": "https://m.hmv.com/editorial/3c/3c0eecd7-f46e-4ea1-a4dd-ae0000a38444/8da24f99bde7b7a06c09d52e1e05b05b/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 7918,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"7f7eaccf89f2d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "97f474b71b526aafe0e51f0945182ecfd3e6a1274a74fe43116ab22192436c4e",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.023470000000088476
+      },
+      {
+        "url": "https://m.hmv.com/editorial/f3/f3145fad-53c5-4f9c-917b-adfe00ed535d/05cd29b7b6133566b54d5a84a4e802d9/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 6148,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"323578ef7f0d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "fde863072314f956e145eeab15c73f8bcd5005c3c568b223d7aa4e78a905de43",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.022725000002537854
+      },
+      {
+        "url": "https://m.hmv.com/editorial/3e/3ee88113-e41b-4fed-a71e-adfd00f9bc77/b9259ddcac1ea5914bc9bb0ee2b52301/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 5989,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"75e8876135f0d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "a6c07baed5df5c563f0deed977ed13e1ae1057727ca145c0dc752042631b3d17",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.02079299999968498
+      },
+      {
+        "url": "https://m.hmv.com/editorial/a8/a8a6c78f-694b-4829-ae76-adf601114b7a/7e56033c3f47d50d0b68dfc34c71d505/listing.jpg?slimmage=True&width=400&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 11527,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"881e1365b0edd71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "bcc0351252c103230945aece8092d4b1dde271941662884a5bc264c5afe1ab77",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.029424000000290107
+      },
+      {
+        "url": "https://m.hmv.com/editorial/7a/7a79a7f2-b01b-4295-bb15-adb300fe6c6b/be5b78a8eeaf64336e9842e2aecfde1a/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 7303,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"346b1661bb6d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "5c1b87aa4aee7f076ea62b1d8b56b7bd6dcd840c60b4a21ed731c331f65bab6a",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.02768600000126753
+      },
+      {
+        "url": "https://m.hmv.com/editorial/d5/d5a9d0a7-9c2e-47ed-b3fe-adef00b90480/451324be5ad67a5d48c51efa972b490c/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3907,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"4ae7c19af8e5d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "8f8f99b241f597a759288ed4d0e3ccab441064feef4dad3784d5087376294a05",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.025538999998389045
+      },
+      {
+        "url": "https://m.hmv.com/editorial/78/78ac00fa-3d57-4a82-a2fc-adf60105221f/66c24804a6ad6e825b857b13fcfc2c9f/listing.jpg?slimmage=True&width=200&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4557,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "\"b9808ee74debd71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "257652468e6e0adee46521b9aecb04db3d29ac71f3099ed8f82a91f51a4fba0f",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1"
+        ],
+        "time": 0.026178000000072643
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 1528,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:11:16 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=nl for more info.\"",
+          "set-cookie": "YSC=wxYfpn4uy5U; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none\nVISITOR_INFO1_LIVE=iVkpu8EbjTM; Domain=.youtube.com; Expires=Sat, 18-Jun-2022 15:11:16 GMT; Path=/; Secure; HttpOnly; SameSite=none\nCONSENT=PENDING+093; expires=Wed, 20-Dec-2023 15:11:16 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "8002dace9aa6d2f5a60968e10897ec4b45e698b2851a22320a6cb5f7df42c67c",
+        "initiators": [
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1"
+        ],
+        "time": 0.03547400000024936
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/global/fluid-ratio-16x9.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 581,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"8426d8d9286fd71:0\""
+        },
+        "responseBodyHash": "0e79760f2802ec4a001626d9e9e8021d3624afdcc4e4fc03ffe1039f92990a45",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1"
+        ],
+        "time": 0.022317999999359017
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-7975044-1&cid=495954817.1640013077&jid=1236879585&gjid=1294825039&_gid=281042403.1640013077&_u=IGBAiEABBAAAAE~&z=62846990",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 440,
+        "remoteIPAddress": "108.177.119.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hmv.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.025966999997763196
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=595459420&t=pageview&_s=1&dl=https%3A%2F%2Fwww.hmv.com%2F&ul=en-us&de=UTF-8&dt=HMV%20%7C%20Music%2C%20Films%2C%20%26%20Games%20%7C%20hmv.com&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=IGBAiEABB~&jid=1236879585&gjid=1294825039&cid=495954817.1640013077&tid=UA-7975044-1&_gid=281042403.1640013077&z=1586576020",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.007861000001867069
+      },
+      {
+        "url": "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 61481,
+        "remoteIPAddress": "13.227.219.28",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7a85a2a595def8796a50e919e49cda7a\""
+        },
+        "responseBodyHash": "2a76024584e2692938f4dd0feb5b77e96a0bdc93d8661f8c855a7546125552f7",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-170254.js?sv=5"
+        ],
+        "time": 0.020779999998921994
+      },
+      {
+        "url": "https://m.hmv.com/editorial/cd/cd258ebd-fa56-4664-9b70-ae0400eb2334/a8666392c2753903050b56d08f0c02b6/listing.jpeg?slimmage=True&width=243&quality=60&c=v536872089",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 8660,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "public",
+          "etag": "W/\"1855d486acf5d71:0\"",
+          "expires": "Tue, 21 Dec 2021 15:12:13 GMT"
+        },
+        "responseBodyHash": "6cba702b91fd91ea1b194e1fab8b8304a6fd14ff7b84db40e7e201e652b5925a",
+        "initiators": [
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/libraries?v=Ei8sjSsFF22LtoYZ0ELcqQZqsR_4MyxVBHD9qLxeM5c1"
+        ],
+        "time": 0.022364000000379747
+      },
+      {
+        "url": "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 1485,
+        "remoteIPAddress": "13.227.219.93",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"6215abf691a11c2f451680e635d30daa\""
+        },
+        "responseBodyHash": "d39c7ff4103007338040282460b2eb0e5adadd9fb80f986fb4c8a3d41785a6ca",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-170254.js?sv=5"
+        ],
+        "time": 0.016100000000733417
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-7975044-1&cid=495954817.1640013077&jid=1236879585&_u=IGBAiEABBAAAAE~&z=1613153885",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03289299999960349
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-7975044-1&cid=495954817.1640013077&jid=1236879585&_u=IGBAiEABBAAAAE~&z=1613153885",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03968700000041281
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/883769685056549?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 88914,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "3a5bb9483f7611663fd98caaff679f577004a13bf6cb2afd28be4aa4d0f765fe",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.1614019999979064
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 49439,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 11:36:13 GMT"
+        },
+        "responseBodyHash": "5071f1b82cf34198f13d9c727f4705d7a4daa61723adacfcd7123abcb4b3c4c7",
+        "initiators": [
+          "https://www.youtube.com/iframe_api"
+        ],
+        "time": 0.01623200000176439
+      },
+      {
+        "url": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 24755,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+          "pragma": "no-cache",
+          "set-cookie": "CONSENT=PENDING+022; expires=Wed, 20-Dec-2023 15:11:16 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "16f050ca0472eabb84e4a5ff57235e601096a2791aae3235c3573e303ba8f3e0",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"
+        ],
+        "time": 0.09857499999998254
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=883769685056549&ev=PageView&dl=https%3A%2F%2Fwww.hmv.com%2F&rl=&if=false&ts=1640013076980&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640013076977.1791107568&it=1640013076789&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:11:17 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/883769685056549?v=2.9.48&r=stable"
+        ],
+        "time": 0.017608000001928303
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/www-player-webp.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 47399,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:20:44 GMT"
+        },
+        "responseBodyHash": "93a8cc54b517a35c22648e5a2b1694dac62247ad174386f1791d1c4d0c6edd8c",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.03490500000043539
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 74854,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:21:44 GMT"
+        },
+        "responseBodyHash": "b0496ff7b5e02ba5dcf004405c2b4eba9e66d7a89002346aa17ea3c1b4311806",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.03784700000323937
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 540628,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:20:44 GMT"
+        },
+        "responseBodyHash": "0e17b80ec3de9a00b45b8cfae183748d9471cff370da0bd629096c95ecc1047d",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.08508399999846006
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/fetch-polyfill.vflset/fetch-polyfill.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 2855,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:21:44 GMT"
+        },
+        "responseBodyHash": "de6c4ffa2bd9fd283610e28d0db2ec48607aab39d213a51aef248673a0a7e980",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.03023599999869475
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 11383,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "526007135db0306094b7b2cc2924c76c5914b3b3aaeb52131a3ddf23ebffac2a",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.042593999998643994
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.youtube.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "75942f0742f92a3831c16dd6b24449576addb691a7ff9f4312ab8294360fd326",
+        "redirectedTo": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.04150600000139093
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 587,
+        "remoteIPAddress": "142.250.179.198",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:24:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.010991000002832152
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 146,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.youtube.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "75942f0742f92a3831c16dd6b24449576addb691a7ff9f4312ab8294360fd326",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/id",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.012471999998524552
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/remote.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 29797,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:20:44 GMT"
+        },
+        "responseBodyHash": "86dd1e4149946676b870e866853dad314c38521107425f5d3eba739324282a9f",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.004627999998774612
+      },
+      {
+        "url": "https://www.google.com/js/th/Cl7PG6JefISdvQ5f5DHlM2PydHOtKzDBOwJ_tmyY6lw.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 13421,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 12:56:43 GMT"
+        },
+        "responseBodyHash": "0a5ecf1ba25e7c849dbd0e5fe431e53363f27473ad2b30c13b027fb66c98ea5c",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.00989099999787868
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/embed.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 7633,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:27:18 GMT"
+        },
+        "responseBodyHash": "e0323655507edaac165470e31c9affac1b3053c26ff2585b10cfae99b19e9ac6",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.0038270000004558824
+      },
+      {
+        "url": "https://yt3.ggpht.com/ytc/AKedOLQEe39icaYAuDcBTZB4da77Vkqe1SpWF2zDfg9Y=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 2929,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, no-transform",
+          "etag": "\"v71\"",
+          "expires": "Tue, 09 Nov 2021 17:01:38 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d1d907ee3b2653f7d527f42f629a7e6184f919a00554ba6446c8eb0213fc43db",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.015513000002101762
+      },
+      {
+        "url": "https://i.ytimg.com/vi_webp/iJBqXSXXj34/maxresdefault.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 47234,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1637256108\"",
+          "expires": "Mon, 20 Dec 2021 16:05:27 GMT"
+        },
+        "responseBodyHash": "304511e0e86a27c01641b17136e94b6b68c350a1ac5a8c79f69714e920857aff",
+        "initiators": [
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.016415000001870794
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=883769685056549&ev=Microdata&dl=https%3A%2F%2Fwww.hmv.com%2F&rl=&if=false&ts=1640013077597&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22HMV%20%7C%20Music%2C%20Films%2C%20%26%20Games%20%7C%20hmv.com%22%2C%22meta%3Adescription%22%3A%22Home%20of%20entertainment.%20hmv.com%20is%20the%20place%20to%20read%20exclusive%20interviews%2C%20features%20and%20reviews%20on%20the%20latest%20albums%2C%20films%2C%20TV%20shows%20and%20games.%20%22%7D&cd[OpenGraph]=%7B%22og%3Asite_name%22%3A%22hmv.com%20%7C%20home%20of%20entertainment%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fwww.hmv.com%22%2C%22og%3Aimage%22%3A%22%2F%2Fwww.hmv.com%2Fnippersq.png%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Organization%22%2C%22name%22%3A%22hmv%22%2C%22url%22%3A%22http%3A%2F%2Fwww.hmv.com%2F%22%2C%22logo%22%3A%22http%3A%2F%2Fwww.hmv.com%2F_client%2Fimages%2Fglobal%2Fhmv-logo.svg%22%2C%22sameAs%22%3A%5B%22https%3A%2F%2Fwww.facebook.com%2Fhmv%22%2C%22https%3A%2F%2Fwww.instagram.com%2Fhmvinstagram%2F%22%2C%22https%3A%2F%2Fwww.youtube.com%2Fuser%2FHmV%2F%20%22%2C%22https%3A%2F%2Ftwitter.com%2Fhmvtweets%22%2C%22https%3A%2F%2Fplus.google.com%2Fu%2F0%2F%2Bhmvuk%22%5D%7D%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640013076977.1791107568&it=1640013076789&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:11:17 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/883769685056549?v=2.9.48&r=stable"
+        ],
+        "time": 0.007679000002099201
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/global/page-up.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 1036,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"43e9dcd9286fd71:0\""
+        },
+        "responseBodyHash": "512bc760dc7097d84af04e8c437bf491fbdf50bf6f635b09b61f0c9e2725338d",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.05536800000118092
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/global/page-down.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 1037,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"43e9dcd9286fd71:0\""
+        },
+        "responseBodyHash": "c5033b96469cfcc26bc265f1d6d8685ed4bb43ba43ed6cf085c37d6427112d2a",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.021375000000261934
+      },
+      {
+        "url": "https://i.ytimg.com/vi/iJBqXSXXj34/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2751,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1637256108\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7013d9342c90007c624e85022a31bcf7436b9b0f47ae9b68a58e31fa516160dd",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09390500000154134
+      },
+      {
+        "url": "https://i.ytimg.com/vi/YVz-EgUFdPM/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3011,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1637662472\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1839894b9b03f997a24e4dfa28130295a55960695e242b4964f7a67b714dc758",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09480400000029476
+      },
+      {
+        "url": "https://i.ytimg.com/vi/9zEjx7jdk64/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3683,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1632385640\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cb3184c1776bb18e2d440373fa76d2cb997dab2497d4b49f66f89c6870b4f86f",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09339800000088871
+      },
+      {
+        "url": "https://i.ytimg.com/vi/lRT2ZTRR1ps/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 1615,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1630605074\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "322ab6db1c7693389e3edd208705d32b4a431789ac82848126f4507400ef1f5b",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09315200000128243
+      },
+      {
+        "url": "https://i.ytimg.com/vi/1QxyP5KncRA/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3987,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "77b04915226d051a7658b57db52bf0a657061ebc9ef3c29b682daa48c4473dbe",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09163400000034017
+      },
+      {
+        "url": "https://i.ytimg.com/vi/9tY6JzYOugY/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3177,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1629273763\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9d4e50546e6f7361c63d5bf66fa5a81242dd8e0ac0a1abf6cba491cc3d672188",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09260400000130176
+      },
+      {
+        "url": "https://i.ytimg.com/vi/I396nCtWfjs/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 1917,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "93c3cbd6bdfccbab9ee40cca3342f2d1e3bc4f47691c6b7937dbec577ceb1a17",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09268900000097346
+      },
+      {
+        "url": "https://i.ytimg.com/vi/oMkRHfig3tc/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3307,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1626346949\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "82fb2cb6d975ae830550bf25e1c9104bba2815d9a0ac13808e98aa05e627397e",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.0937019999983022
+      },
+      {
+        "url": "https://i.ytimg.com/vi/GsbG5IpsFtQ/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3372,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1623679657\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6c302daf9ac30ac8e0db016e9466688533fa082c4b0c95ac3c9113950162f349",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09236299999975017
+      },
+      {
+        "url": "https://i.ytimg.com/vi/JLnG-EmmNQw/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2714,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1620914910\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "07c371788447bd634d5bf5c5e2273b8a831304c2c656c476f18867865d7681d6",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09297199999855366
+      },
+      {
+        "url": "https://i.ytimg.com/vi/xrbrSl3ut98/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2987,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1620893395\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "42bd095b972540a6292706f833b9c2642adb3d6d3013f0e71ff0656a31cc33b3",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09288699999888195
+      },
+      {
+        "url": "https://i.ytimg.com/vi/TNqjWunGv1E/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2553,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 15:43:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "79857942b4160a9d88a86982d1022155bf9c8d32cab2f5b89e179fca7f9e7596",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09274099999674945
+      },
+      {
+        "url": "https://i.ytimg.com/vi/aOFaTdEC2js/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2852,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1618502809\"",
+          "expires": "Mon, 20 Dec 2021 17:11:17 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c075439b84c3de92926c0da1cd4f289f571153ae6ad94d277d34fcecd197455f",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.12024399999791058
+      },
+      {
+        "url": "https://i.ytimg.com/vi/ITSb8NXTkSs/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2059,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1617896407\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "be1f370d40e12401a5d52f281bd56604c9cc32b960daec332203300a46f3a4c4",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.0918630000014673
+      },
+      {
+        "url": "https://i.ytimg.com/vi/jynTGtHBeew/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2695,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "893b2fc64c62d390d344938feaa7de1d7baf593e15c45b8d12dc0c9370b34c80",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09192100000291248
+      },
+      {
+        "url": "https://i.ytimg.com/vi/46smB7uzJq0/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3057,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1617207715\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ac50c521930c9f67e496fcd2a173f7cc32efb7b7c9497674bebbd7eb8beaa32c",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09094900000127382
+      },
+      {
+        "url": "https://i.ytimg.com/vi/XJjCa4WZOc0/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2911,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1616694507\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8243a67692d7f4e2802bfff302bedec5afc5c4e3428dff0b543ab1c455fb282e",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.0919949999988603
+      },
+      {
+        "url": "https://i.ytimg.com/vi/0npQQmvwgLA/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4103,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1615481584\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f9c1c20888b9ea0413644a741e61f4c982fd6a730f6bbb88ba9f2532419084ad",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.09094199999890407
+      },
+      {
+        "url": "https://i.ytimg.com/vi/mNAATvqL054/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2205,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1614708965\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a649e99040eee21113bfdde40400dc69e6852d81e1ba515cb53daec2def9ca2c",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.08991600000081235
+      },
+      {
+        "url": "https://i.ytimg.com/vi/-42lboU0i74/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4377,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1614364737\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b4a092ddef468d2b1e2c2ae1c74d339447fc04e17fd12c3df470e89ed58e04c8",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11123800000132178
+      },
+      {
+        "url": "https://i.ytimg.com/vi/quvyTxqnBTU/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3477,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1614337414\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "948ec70f60549f58d7e174b3f97b42f09855cd1688db0648a7c92d5e7d1cca8a",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11140700000032666
+      },
+      {
+        "url": "https://i.ytimg.com/vi/9GEh6tgFA1s/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4113,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1613989425\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f986259fc1d9adffa6e2447d97d4728036833ad5e2ffd0b3320d5a3dd57908d0",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.08940699999948265
+      },
+      {
+        "url": "https://i.ytimg.com/vi/zm10uzJzVT8/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3517,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "21313db80def92acfea5fafe05b5523ba8d23d83cc3d98cca63d2f8ee2316884",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11053899999751593
+      },
+      {
+        "url": "https://i.ytimg.com/vi/nqpJK9jfHus/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2480,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1613661285\"",
+          "expires": "Mon, 20 Dec 2021 17:10:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7292be7d86934046ae327955069b2ea273d6debbddd38294d4b50be419a42d1a",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11036800000147196
+      },
+      {
+        "url": "https://i.ytimg.com/vi/4fm6mKLfEGQ/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3205,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3727d62702cf81aa21e9a4768164bb8e4e13e5fd0d840796437dbdf9f0c1db12",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11035499999707099
+      },
+      {
+        "url": "https://i.ytimg.com/vi/rZvEX4t5bgg/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2911,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 17:10:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f1c1b99500c58da47897f52d323c010afe4d192536ea94f1d1bc72da46d453d5",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11086199999772361
+      },
+      {
+        "url": "https://i.ytimg.com/vi/XscSgVRS0UY/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4092,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1583411433\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8a36476382e8c130526b20539d95907ffe13a2ad749496831a43fbab293fdd3e",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.10977700000148616
+      },
+      {
+        "url": "https://i.ytimg.com/vi/lS4d6mz_INY/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3686,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1581504559\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4650a66af48f058184e90d47bc16fd6aaef2259ff00040f86c1e9c4c7c08b1b8",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11005999999906635
+      },
+      {
+        "url": "https://i.ytimg.com/vi/xCNUbmIaSPg/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3616,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1582104550\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0ef4b0806dc09cb77374e56e47608f2fa2167c676bbef9a9fc18e50f3fac7ea2",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.11074700000244775
+      },
+      {
+        "url": "https://i.ytimg.com/vi/Kkd-DeoOcuI/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4808,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1583330434\"",
+          "expires": "Mon, 20 Dec 2021 15:43:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0348b710c36f0a96442dd5fefceeacf5c8b3c98bebb1f3724742e129c5296782",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.12874600000213832
+      },
+      {
+        "url": "https://i.ytimg.com/vi/gCgjR5RJoUM/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2115,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cc3a4d7515c161dbde9d765e2db5e4d0552c0e936344ebdd0243e849f4193106",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.12854299999889918
+      },
+      {
+        "url": "https://i.ytimg.com/vi/aGwyim2T5k4/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3545,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1580741876\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "03ea965e6aafa50ac5808a1c674206f088642f942287d443b817fe565d120c1d",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.12840099999812082
+      },
+      {
+        "url": "https://i.ytimg.com/vi/sCKOemL5k0w/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3317,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"0\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f6840b064e2c3f7a7c7113208bfdced60f4060d857bc82237c0f79e3e9616f21",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1284430000014254
+      },
+      {
+        "url": "https://i.ytimg.com/vi/8zBpya8tu1E/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2297,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1580390785\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c87b524e5896d54b84ee19853b5d8a4bac8270000f3e04609b983a37fcb74857",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.12743400000181282
+      },
+      {
+        "url": "https://i.ytimg.com/vi/th-aQ8GMb3w/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4663,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1575539518\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b67b6d181b57b3f87f5574ab4f547bec6d60dcc7ee4041589e3c029848d5a964",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13801099999909638
+      },
+      {
+        "url": "https://i.ytimg.com/vi/k-JhCxigT_Q/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2375,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1575392138\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "801f87c42b03761a40cd5bba3b359ce801c16da0ccf1605a2d7c6ee20ad6f7be",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.12700399999812362
+      },
+      {
+        "url": "https://i.ytimg.com/vi/6E2ygFQ4YHM/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4917,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1574259703\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0d27d71679136f098ac691c7652fbfb89e4b5c748488d4dde987868c31332f53",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1370999999999185
+      },
+      {
+        "url": "https://i.ytimg.com/vi/joWCchG46Y4/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3562,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1574242440\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "09a705e52bd2800df51574cefc8255d687f3931d6d7792a654ae8d7bbe566226",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1368910000019241
+      },
+      {
+        "url": "https://i.ytimg.com/vi/AeaMoKiJXt0/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3333,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1571737698\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7d7646d9fd8c3b07150c9014db04959f0c0e3abe6c8cb408bfbcfc0b7d4fc7ee",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.136860999999044
+      },
+      {
+        "url": "https://i.ytimg.com/vi/PSZB3P5iNsM/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4694,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1571042479\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "60f586a0c2344719f558dfc719a5037ecb26737a45ae5adc1acb6074eedad374",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1359889999985171
+      },
+      {
+        "url": "https://i.ytimg.com/vi/sjNEMmtS6dg/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 5148,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1564150161\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "824acfd4aef49fec3e268d221e83a2ded32fafff481d733be31a7f6c1736bf5e",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1357160000006843
+      },
+      {
+        "url": "https://i.ytimg.com/vi/I_LqHXG7CpA/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4708,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1569317323\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4bf566b7771b76dd43ec9192055d90381fb893028f858d98261d8dd42d665c4c",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1353530000014871
+      },
+      {
+        "url": "https://i.ytimg.com/vi/pcJvueUEmTs/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2090,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1567594443\"",
+          "expires": "Mon, 20 Dec 2021 17:10:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "62dd32800d4506170fcbad266a468213b1210946f2c8a1177396936638b210fa",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.1418599999997241
+      },
+      {
+        "url": "https://i.ytimg.com/vi/DzdsXht-sEw/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3725,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1564040006\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4360a711081f54e06801cd920c852a616baea244b39bf9b1acbc9f5af51cabd8",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.14103699999759556
+      },
+      {
+        "url": "https://i.ytimg.com/vi/vwoWCV_83IM/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3708,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1566556832\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f30c10e575be836b98d56eecb375f5d038cc241595bf7b428f39664267e07b50",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13370999999824562
+      },
+      {
+        "url": "https://i.ytimg.com/vi/zAjJ7Ws-4Wk/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3477,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1563286129\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a34a0ff48776bbcb4fdf5845e65c77661cd7dc48de35ef5b597deeb344e67215",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13967300000149407
+      },
+      {
+        "url": "https://i.ytimg.com/vi/UxScxr72TUE/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 4159,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1561974716\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c22a397a3629b115ac24144bc490c43383d5b2897b3bfb5998ad9c8b5193746f",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13878900000054273
+      },
+      {
+        "url": "https://i.ytimg.com/vi/sCZAhLqUBo0/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2698,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1560503862\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bd095220981a9ce54ff1390623e7a357dd5cb0266e02af9291b94039b2ba3317",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13802399999985937
+      },
+      {
+        "url": "https://i.ytimg.com/vi/Wy_MCiSZSXo/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 2308,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1560435667\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ce847df7ba5aee878c09001c150465f2a630a0c9ffca5d2b7cbf24093e0333c6",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13875700000062352
+      },
+      {
+        "url": "https://i.ytimg.com/vi/Ca5bj0_Nd_s/default.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/",
+        "status": 200,
+        "size": 3163,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1559302642\"",
+          "expires": "Mon, 20 Dec 2021 16:58:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f0b65b50072bcc8ee17be5bb9c30f2c6f186408fe9b1d55b7e5d3eed18c90a5d",
+        "initiators": [
+          "https://www.hmv.com/bundles/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1",
+          "https://www.hmv.com/bundles/application?v=3VR4HgwSkaLS6b7slgKHo49HlJy4CNFErfCOtwyHlaI1",
+          "https://www.hmv.com/bundles/code?v=eSa66maY_5i2bRxp6XmV-3ZHgnHDGyHn0ItnZcl5wMo1",
+          "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.13843000000269967
+      },
+      {
+        "url": "https://www.hmv.com/_client/images/global/page-up-disabled.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177",
+        "status": 200,
+        "size": 1036,
+        "remoteIPAddress": "52.50.101.139",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"43e9dcd9286fd71:0\""
+        },
+        "responseBodyHash": "ff5b57b2a1697b4b3eb42c84d034e35ffff029cd9cb7517ffc21629a5c0c8ffc",
+        "initiators": [
+          "https://www.hmv.com/_client/build/main.css?v=2.0.0.1177"
+        ],
+        "time": 0.09279899999819463
+      },
+      {
+        "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 2627,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Mon, 20 Dec 2021 15:11:17 GMT"
+        },
+        "responseBodyHash": "ee147e859ad0f09aa50367974e38ab53e7c7054c4a51d400a7f45b0eb251454f",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/remote.js"
+        ],
+        "time": 0.017586000001756474
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?OdHsZg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 204,
+        "size": 9,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1"
+        ],
+        "time": 0.006842999999207677
+      },
+      {
+        "url": "https://www.gstatic.com/eureka/clank/93/cast_sender.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 15372,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 03:57:59 GMT"
+        },
+        "responseBodyHash": "66b3a50b1f61027459efda3192f4265a316f43a8d770a7135c956bea688fe4d8",
+        "initiators": [
+          "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+        ],
+        "time": 0.01114400000005844
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/iJBqXSXXj34?rel=0&theme=light&showInfo=0&modestbranding=1&controls=1&hd=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.hmv.com&widgetid=1",
+        "status": 200,
+        "size": 54,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Mon, 20 Dec 2021 15:11:19 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+          "set-cookie": "CONSENT=PENDING+002; expires=Wed, 20-Dec-2023 15:11:19 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "d7d5e54ad1e33d7ab49c664323ced79cb9723ff15e9764cd0edc3e15208e8336",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.018246999999973923
+      }
+    ]
+  }
+}

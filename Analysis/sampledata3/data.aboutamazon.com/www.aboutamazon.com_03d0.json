@@ -1,0 +1,2309 @@
+{
+  "initialUrl": "https://www.aboutamazon.com/",
+  "finalUrl": "https://www.aboutamazon.com/",
+  "timeout": false,
+  "testStarted": 1639670903782,
+  "testFinished": 1639670923749,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.aboutamazon.com\\links.www.aboutamazon.com_03d0.json",
+    "requests": [
+      {
+        "url": "https://www.aboutamazon.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 44905,
+        "remoteIPAddress": "52.222.138.35",
+        "responseHeaders": {
+          "cache-control": "max-age=120"
+        },
+        "responseBodyHash": "b4336cf5c8f965294a76cdbe8013cc56b0158a506eb72c76bc834d2890770d78",
+        "initiators": [],
+        "time": 0.25939000002108514
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 63280,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1d60a8f54c387eb923439d230c7b289c\""
+        },
+        "responseBodyHash": "838df85cf882e521cbedb7713a1beace8db153ab1de329b0f18e5b23b8d744e6",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.22030000004451722
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/vendor/flickity.pkgd.min.5bcb12399e4e397c843e407b7a6f3f21.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 14022,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"66a7ddde569b78e3979dde6992336c8f\""
+        },
+        "responseBodyHash": "dcc6aaeccd530bcb0e91ef01e2046485f1ad113a865aafb17a740eee4da61e32",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.18381000007502735
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/vendor/flickity-fade.1980c842a6a55d2885705c46918a4212.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 2270,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"8b6891239cc6bf855d0a3edd6a5a2aa9\""
+        },
+        "responseBodyHash": "6be6b853ddf3644676921051d1e1474d39127185b2dcbbe6d509787e0cb6ff17",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.2479509999975562
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.0f6d5b55eecf2a679be7d8d1e2dc6560.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 98525,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c443a527a1e0debf6a5f1245dbe868bb\""
+        },
+        "responseBodyHash": "6dd1fb55345ea04a65c50141fc6419f945628f23a648975edd55134f67f07905",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.24865299998782575
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 1527,
+        "remoteIPAddress": "142.250.179.142",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:08:24 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=nl for more info.\"",
+          "set-cookie": "YSC=QErW7EkWeT8; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none\nVISITOR_INFO1_LIVE=R_5QEKs-o5Y; Domain=.youtube.com; Expires=Tue, 14-Jun-2022 16:08:24 GMT; Path=/; Secure; HttpOnly; SameSite=none\nCONSENT=PENDING+284; expires=Sat, 16-Dec-2023 16:08:24 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "8c75b09883c06220382402135dc92cf0ef3a2681ac264c613d749a56d90a17be",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.12417800002731383
+      },
+      {
+        "url": "https://www.knotch-cdn.com/unit/latest/knotch.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 38030,
+        "remoteIPAddress": "13.227.219.73",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "W/\"b2de0e71bdd8adffcde57765b915882a\""
+        },
+        "responseBodyHash": "77f223c2e54ef5c59d84f41a22f6aba61255453b43688d81b7178d1a03ae1a2a",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.1600099999923259
+      },
+      {
+        "url": "https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/00/92/0260aab44ee8a2faeafde18ee1da/amazon-logo-inverse.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 4060,
+        "remoteIPAddress": "52.217.77.28",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c15b26a79c9f7f4acd2858fbd9901488\""
+        },
+        "responseBodyHash": "59b5cea4ef98dc6c1f3db89adce6e230da12411e7693ec9f03f1c7e61bd1c932",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.7531609999714419
+      },
+      {
+        "url": "https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/a9/af/27a4ef844ac38129d0fa460675fb/amazon-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 4060,
+        "remoteIPAddress": "52.217.77.28",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"9287eb2c8c1a9178a56413e447733353\""
+        },
+        "responseBodyHash": "4bd06c46b1ceaf967723a550cb79dc3f58482ce25af5d6207b3b36ccc6f3360b",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.8370909999357536
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/a7fb1fb/2147483647/strip/true/crop/2000x1126+0+152/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F49%2Fe3%2Fbe13ec724a359e33755eb61c125f%2Fshutterstock-519502300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 52271,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "f222deb35818911097f2141691c22ce2",
+          "expires": "Thu, 15 Dec 2022 19:17:17 GMT"
+        },
+        "responseBodyHash": "1a1de0f0d9b01695cd579424c6cea8c82602afe96f2e0f84ec977a83b7585066",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4013999999733642
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/7d29274/2147483647/strip/true/crop/1800x1013+0+333/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F95%2F38%2F93b9b81141c4866628e587adc1e8%2Fdelivery-image-3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 172724,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "48f56874e83c60bbe768a244327fd87b",
+          "expires": "Sun, 13 Nov 2022 16:19:53 GMT"
+        },
+        "responseBodyHash": "b15c893f5397cf7a66dd82ff26452d4007b992823e3ee276f30489c85a383ea5",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.42271499999333173
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/cd12f48/2147483647/strip/true/crop/1919x1080+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fcc%2F6c%2Fe32031334a538eae08776d1fdb56%2Fhero-1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 100416,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "ac511f5a77a0fd7799972bec49444d7a",
+          "expires": "Thu, 15 Dec 2022 13:59:03 GMT"
+        },
+        "responseBodyHash": "bab6a1e9151aa8f62d2ffb6222b01c5b5ae21d6966e76c2c850f11180f85b4aa",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.44128200004342943
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/14b9e07/2147483647/strip/true/crop/1507x848+135+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F27%2Fa4%2Fc6d86ffa4c48b0ad7d5d031c745a%2Frikke-and-truls-balcony.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 70770,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "08bee7c95eb93f8256a8ac55ba0d44e1",
+          "expires": "Wed, 14 Dec 2022 14:03:35 GMT"
+        },
+        "responseBodyHash": "f36cc999531873bf1be19575a5276f2da7d06c9101fd9cc837284452ded2b761",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.45016900007613003
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/3abd8b8/2147483647/strip/true/crop/480x270+0+45/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFFk9U9mI3Do%2Fhqdefault.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 53050,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "expires": "Wed, 14 Dec 2022 13:03:48 GMT"
+        },
+        "responseBodyHash": "15b6c274a609c60d6976b595b059c0fca3b3536ab1193562e16f6f41cffd1a3f",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.454515999997966
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/c594c4a/2147483647/strip/true/crop/1920x1081+0+181/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F8d%2F4f%2F62946d6e415c8993e3df1785c7fe%2Fclimate-pledge.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 285506,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "5b32487af0b32e061dc2910d32e4cc83",
+          "expires": "Wed, 14 Dec 2022 12:25:29 GMT"
+        },
+        "responseBodyHash": "aa59075c9f47afe7e18ac14075e7ee4701cb442749ab04e4049a17038559d0e5",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4810709999874234
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/74ec6f8/2147483647/strip/true/crop/1600x901+0+83/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F3a%2Fc5%2F5322253240d68356ee725b8b169e%2Ffree-holiday-movies-shows-and-books-amazon-prime.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 213464,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "9797156234dfe6c4e158640802e4c7e4",
+          "expires": "Tue, 13 Dec 2022 14:04:19 GMT"
+        },
+        "responseBodyHash": "60f067d440f2f51c089dda2a43255417ec8ab1f9a45a854845a050877cbd63be",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4811860000481829
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/a93b466/2147483647/strip/true/crop/1407x1407+227+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F07%2F7c%2F2f0c9961459bbae8b696467c5743%2Fcyw-6083.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 64057,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "8842ca117d01d70c84fcffa1453f308d",
+          "expires": "Tue, 13 Dec 2022 14:04:19 GMT"
+        },
+        "responseBodyHash": "c2cbbede813e930eef569fbfd66e6196eba32bf4364a58bc7215bc637da554ff",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.48274200002197176
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/2415cc0/2147483647/strip/true/crop/1280x1280+320+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F39%2Fe2%2F89d6752c40199d9ed9585e3ffe80%2Fimg-3529.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 75592,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "6d55c958eca396acc8cc3c9a45a8a206",
+          "expires": "Sat, 10 Dec 2022 00:28:53 GMT"
+        },
+        "responseBodyHash": "58454bf51bc76befef367fbf6fb7bf2ef0d361a33d6137435e50001c261dd1ed",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4947389999870211
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/bb39c5e/2147483647/strip/true/crop/1320x1320+330+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fb7%2Fbf%2Fb61c173549f9af82e20df3ef8346%2Flarge-038-az-0a8a4907.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 64867,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "eae35230474b1defbfe677a628e32462",
+          "expires": "Wed, 14 Dec 2022 13:03:48 GMT"
+        },
+        "responseBodyHash": "2f84b14a260d6c45c52379f9694237208a252d5bc3663840da47a6193d9dfbcc",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4921899999026209
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/25eeb83/2147483647/strip/true/crop/1126x1126+437+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F98%2F39%2Fe7ca5d5e477bac7a49fb49110220%2Fpredictions-hero-01.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 36041,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "78b4b0374d1ce365f083815bc49da93d",
+          "expires": "Thu, 08 Dec 2022 12:57:12 GMT"
+        },
+        "responseBodyHash": "86493b54401e3b493518fda367ac3354001e407ee2b1ef4d3596e0888618154d",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4983000000938773
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/04073bd/2147483647/strip/true/crop/957x957+372+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F6c%2F8d%2F2a5eb6214ec29242e4e2920c3782%2Famazon-cyber-monday-and-black-friday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 65182,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "1de32ba851d2303daf2a3cafa6da9c13",
+          "expires": "Sat, 10 Dec 2022 00:28:53 GMT"
+        },
+        "responseBodyHash": "495f0a07a863fd228522903f592f20e0764c237db0d77a178679b702143a9e75",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.49822999991010875
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/72962b2/2147483647/strip/true/crop/1067x1067+267+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F8b%2F30%2Faac4f3f04b3f8780e7bf0f16ebb3%2Famazon-explore-and-tony-hawk-virtual-experience.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 37914,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "e66e93ffda2346392c79bf1cc53d619e",
+          "expires": "Fri, 16 Dec 2022 14:26:59 GMT"
+        },
+        "responseBodyHash": "f51cb235b1b212e4b7dab1b8b7d126001e59eee9ae94a259a6c76f811e2130c9",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.498187999939546
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/dcbabd0/2147483647/strip/true/crop/2000x1126+0+281/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F07%2F7c%2F2f0c9961459bbae8b696467c5743%2Fcyw-6083.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 173717,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "9bf4a780652eafa0f36dedccc96c9fb0",
+          "expires": "Tue, 29 Nov 2022 16:03:09 GMT"
+        },
+        "responseBodyHash": "ea350f1cb918d7492098e60b61214114141b9a1c8d167353e2ab47b1a4512b62",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4975689999992028
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/892091a/2147483647/strip/true/crop/1920x1081+0+100/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F39%2Fe2%2F89d6752c40199d9ed9585e3ffe80%2Fimg-3529.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 165228,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "fa4d52c7e10b4c6b82310a41e0e3fb8a",
+          "expires": "Thu, 01 Dec 2022 08:03:59 GMT"
+        },
+        "responseBodyHash": "099bbe60d30327becee8f3b7194a19d4c47d56c13a541fa4b3f6e8f71ccf80b7",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5203510000137612
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/4f28e58/2147483647/strip/true/crop/1980x1115+0+103/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fb7%2Fbf%2Fb61c173549f9af82e20df3ef8346%2Flarge-038-az-0a8a4907.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 122890,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "647fdd939bc05c3f468e2d2de1ef9c52",
+          "expires": "Thu, 08 Dec 2022 12:57:12 GMT"
+        },
+        "responseBodyHash": "ca314dc6700b0a001e5feed1e4fe4bbdc5288d3e8fae22946b290297756cb560",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5202969999518245
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/6e85f6a/2147483647/strip/true/crop/2000x1126+0+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F98%2F39%2Fe7ca5d5e477bac7a49fb49110220%2Fpredictions-hero-01.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 70764,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "cc4aa5016f989944649057c2204b209c",
+          "expires": "Sat, 03 Dec 2022 01:17:20 GMT"
+        },
+        "responseBodyHash": "7717e8b9faf239e465b5a8255d6895e41f473e16d5d5b2c2d238a1375e7ab2ef",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5202549999812618
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/fa4dba7/2147483647/strip/true/crop/1700x957+0+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F6c%2F8d%2F2a5eb6214ec29242e4e2920c3782%2Famazon-cyber-monday-and-black-friday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 122202,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "c4597a042e0732e2ce93ae98f7e7cc3a",
+          "expires": "Wed, 30 Nov 2022 16:11:12 GMT"
+        },
+        "responseBodyHash": "b1d7f8202157ce79e1304a0838ac932da819c2760531064a4e59a447ce9116fc",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5202160000335425
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/98862b3/2147483647/strip/true/crop/1600x901+0+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F8b%2F30%2Faac4f3f04b3f8780e7bf0f16ebb3%2Famazon-explore-and-tony-hawk-virtual-experience.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 62389,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "739b0ad7887dd442e3bef1075c8655db",
+          "expires": "Tue, 13 Dec 2022 14:03:52 GMT"
+        },
+        "responseBodyHash": "1e422dabc9a17eaac657ffcb72464405490ca167609594a05b0c727eb1f98174",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5201619999716058
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/a3af543/2147483647/strip/true/crop/1080x1080+420+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fd8%2F5e%2F9e1b21c54f6982f933c8b67603cb%2Fenchanting-tour-of-rialto.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 57512,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "505123678ba1895045e4a48a04628150",
+          "expires": "Thu, 20 Oct 2022 18:45:11 GMT"
+        },
+        "responseBodyHash": "4585e13633285768edfeb4f970458c8516fac00a3fb26cae2a1063327785b1c2",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5198340000351891
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/b10a44d/2147483647/strip/true/crop/1332x1332+334+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F32%2F4d%2Fa499de26441281d9aea32787e6a2%2F1et08003.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 61118,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "61b93b10273cbd37f6703f5055683b59",
+          "expires": "Sat, 10 Dec 2022 00:28:57 GMT"
+        },
+        "responseBodyHash": "9410c952f73715ddf549025b507b0019b1bae19f331dc8eb1ef3adb3be4746bd",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5196510000387207
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/d5cb627/2147483647/strip/true/crop/720x720+263+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F17%2F23%2F629fd54a42d7aa12ed3be42b5b77%2Fdeandrea-hero-3-color.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 47230,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "22d4b5055c5902fcc5b736ec38249880",
+          "expires": "Sat, 10 Dec 2022 00:28:57 GMT"
+        },
+        "responseBodyHash": "4a224988ff1cf5156d4c3fcb8ee8543d7dd951130da04e35ef36f885dff0c9b2",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5194670000346377
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/573f904/2147483647/strip/true/crop/502x502+1350+165/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F64%2Fce%2F22997c784c24b0cada76d806b740%2Fafe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 53434,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "4fad6a4d37b3abf1d36c24a0e95aea61",
+          "expires": "Tue, 13 Sep 2022 05:35:25 GMT"
+        },
+        "responseBodyHash": "e097d7bf22ff578d29d23d9c653f8b791a20e82f5e12da2feb86cb168b7db9e0",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5192840000381693
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/00aba08/2147483647/strip/true/crop/720x720+360+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F1b%2F96%2F630bd9eb4cce9147a8a964310862%2Faws-pr001-15year.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 19509,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "73ff12b495b8a90ddcfc91a3ee20fbe0",
+          "expires": "Sat, 10 Dec 2022 00:28:57 GMT"
+        },
+        "responseBodyHash": "ee9352b2841ae06599a600fad5b82eba77ac9dbb893ce9cac5c4884a33d9c0da",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5164789999835193
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/f4b3852/2147483647/strip/true/crop/1080x1080+839+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F22%2Fca%2F29c66cd54244a2ccec2370b96f5a%2F004334-1920x1080-axios-2021-06-29-v12.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 56291,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "12ee2744a77983f4a7815ae6134a194d",
+          "expires": "Fri, 25 Nov 2022 04:46:09 GMT"
+        },
+        "responseBodyHash": "19d9d3602a9ddd2fc7d1dc05acfe83451436fd19c48d72347d89f4a1728c97dc",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5606530000222847
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/1a25340/2147483647/strip/true/crop/1919x1080+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fd8%2F5e%2F9e1b21c54f6982f933c8b67603cb%2Fenchanting-tour-of-rialto.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 152419,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "2e008cdd12b2e280699df84c723ce2df",
+          "expires": "Sun, 16 Oct 2022 04:33:35 GMT"
+        },
+        "responseBodyHash": "fa3e04a903e2f55b7948154b6d11d26da53844e2d4fbef2659b68500c7ccd661",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5571929999860004
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/635703f/2147483647/strip/true/crop/2000x1126+0+103/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F32%2F4d%2Fa499de26441281d9aea32787e6a2%2F1et08003.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 112353,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "b64e59caad42a8fdfead74d45182a5d0",
+          "expires": "Thu, 08 Dec 2022 14:18:12 GMT"
+        },
+        "responseBodyHash": "1f1897bd401ac03e4f027c2d1af4677103996bc381c3c542a0cc207d6a95a7b5",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5570400001015514
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/62db5ab/2147483647/strip/true/crop/1279x720+0+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F17%2F23%2F629fd54a42d7aa12ed3be42b5b77%2Fdeandrea-hero-3-color.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 90494,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "5c2f1c35a827a989de5e7772f657b435",
+          "expires": "Sun, 11 Dec 2022 22:33:19 GMT"
+        },
+        "responseBodyHash": "50f65c3f192c3031b3358ef7d2ac54cfc3092cea9bc6e694f1eef5f8ef71baca",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5570380000863224
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/725f3b8/2147483647/strip/true/crop/2000x1126+0+104/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F64%2Fce%2F22997c784c24b0cada76d806b740%2Fafe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 94475,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "614ebac2f9a59b5c9a29bccc35332f1f",
+          "expires": "Sat, 27 Aug 2022 13:08:17 GMT"
+        },
+        "responseBodyHash": "7d051c1a6b414650859a34c3bf0551009ed540ac9deebc424d8fef161db417ad",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5567710000323132
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/1025cc3/2147483647/strip/true/crop/1279x720+161+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F1b%2F96%2F630bd9eb4cce9147a8a964310862%2Faws-pr001-15year.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 44006,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "d44799a4f8c14470236fc102c4224395",
+          "expires": "Sun, 16 Oct 2022 04:33:35 GMT"
+        },
+        "responseBodyHash": "57c12190c41c4a8bc1b4a2b4cbf3d65719e920be2ce4af9717556b5275911d55",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5567659999942407
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/2e2d6bd/2147483647/strip/true/crop/1919x1080+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F22%2Fca%2F29c66cd54244a2ccec2370b96f5a%2F004334-1920x1080-axios-2021-06-29-v12.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 110667,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "f32d526cb470bfc22b2506ce54498a7d",
+          "expires": "Thu, 01 Dec 2022 22:38:29 GMT"
+        },
+        "responseBodyHash": "582bc739326d3e381d13ab88e7211fa2dee3de0ee956e5f57e66209ca9ccf63d",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5566409999737516
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/8e14655/2147483647/strip/true/crop/1125x1125+438+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F8b%2Fa7%2F36b66d824536a17e6c4e4ba587d5%2F09072021-tiana-thumbnailone-16x9-yt.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 53634,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "ff993ea70eb48abce6e246daabe4acb8",
+          "expires": "Fri, 09 Dec 2022 07:26:56 GMT"
+        },
+        "responseBodyHash": "042bec8b4d65e528c78979d7fb6cb167f2755ff6e7cacef94160410109a41370",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5563010000623763
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/29e0d10/2147483647/strip/true/crop/583x583+244+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fbf%2F5c%2F7da82f3d47f984b23da03f30c71b%2Fimage10.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 46764,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "195a2ac5ccbfae202a3aea29a97dfc14",
+          "expires": "Fri, 09 Dec 2022 07:26:56 GMT"
+        },
+        "responseBodyHash": "03ac8fd8876b255ea7dd380f533ea309bb0acbdc57c5002cac8e907896235707",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5560609999811277
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/04e6321/2147483647/strip/true/crop/743x743+329+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F81%2Fe0%2Fa8bf4cf645eea23f6316fa130e5b%2F4e09672c-4e64-45ef-a046-518a8d4e5406.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 51318,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "3051782d4079a9c9ea697e16b38693c6",
+          "expires": "Sat, 10 Dec 2022 00:28:59 GMT"
+        },
+        "responseBodyHash": "672dd2a32cf7547f89f3a83901cb33ffc2657ce416ce27d7f5bc5c9dcee019a1",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5383140000049025
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/c5d901d/2147483647/strip/true/crop/1125x1125+438+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fc8%2F09%2F7ad3839b41489f678c553e1e546d%2Famazon-air-hub-kentucky-cool-jobs.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 78273,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "d830a01b37f41d7857c4408a52d8bda9",
+          "expires": "Sat, 10 Dec 2022 00:28:59 GMT"
+        },
+        "responseBodyHash": "b8a891bd8688873c460294d7beed9f2ced47d93a8eb55991b14b8bac2b21faad",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5555030000396073
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/6bdf9fa/2147483647/strip/true/crop/1333x1333+334+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fd3%2F3e%2F44454de2491d9865b73f149eb53d%2Fandy-2000x1333.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 67441,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "b9e7289e3ec5b039cc7cb3dc811eabb6",
+          "expires": "Fri, 02 Dec 2022 21:46:35 GMT"
+        },
+        "responseBodyHash": "875851dc0725fef258150557425fb1587371edaf87cc499defd712dbcb4b3e36",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5551020000129938
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/b3c323e/2147483647/strip/true/crop/747x747+145+0/resize/605x605!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F09%2F14%2Fd7c1c1054f0fa6c287d58868e59e%2Ftim-3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 64705,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "5b5eb3a47e2ad86ba7c1b80ed7e4be47",
+          "expires": "Fri, 09 Dec 2022 19:03:06 GMT"
+        },
+        "responseBodyHash": "9d79fd8faf2f4ac3f39c8d55ea5d9a8430f40c711d4880c412c6c11ca1df4a28",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.554734000004828
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/e450ba9/2147483647/strip/true/crop/1999x1125+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F8b%2Fa7%2F36b66d824536a17e6c4e4ba587d5%2F09072021-tiana-thumbnailone-16x9-yt.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 108046,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "2b81430d0e2d6f128e5ebac9aa8fb51f",
+          "expires": "Fri, 02 Dec 2022 21:46:35 GMT"
+        },
+        "responseBodyHash": "b1feca4e53968eefbf98635098f05309e57e17720d8035b36c6cb3f65b23fc24",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5563720000209287
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/1562927/2147483647/strip/true/crop/1036x583+18+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fbf%2F5c%2F7da82f3d47f984b23da03f30c71b%2Fimage10.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 75328,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "cafaaae9f059b1478cd3a3d05733e13b",
+          "expires": "Tue, 30 Aug 2022 20:24:43 GMT"
+        },
+        "responseBodyHash": "5830da4088ef726c5958268b1a24224d61ac9ec7257046ae1f00030b9006e08c",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5675470000132918
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/c796dcf/2147483647/strip/true/crop/1320x743+40+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F81%2Fe0%2Fa8bf4cf645eea23f6316fa130e5b%2F4e09672c-4e64-45ef-a046-518a8d4e5406.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 114593,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "03fa39eb5929e672ac868058b4a20601",
+          "expires": "Thu, 18 Aug 2022 15:48:27 GMT"
+        },
+        "responseBodyHash": "451cecaf25e8f2afcfbfb119c1dabc473caed230b63abece9ac2af07e624dbc3",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5675300000002608
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/f508df5/2147483647/strip/true/crop/1999x1125+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fc8%2F09%2F7ad3839b41489f678c553e1e546d%2Famazon-air-hub-kentucky-cool-jobs.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 162098,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "d2445eea37ac4cc1477489968c0cb845",
+          "expires": "Mon, 05 Dec 2022 12:33:19 GMT"
+        },
+        "responseBodyHash": "1bfc914ee247901a51faca409078442529ca5868f69476c565a0fc7d683d9241",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5674600000493228
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/97a6f2b/2147483647/strip/true/crop/1999x1125+0+33/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fd3%2F3e%2F44454de2491d9865b73f149eb53d%2Fandy-2000x1333.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 121325,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "ef4c910c096733bf49c2e53f1c3e1679",
+          "expires": "Fri, 02 Dec 2022 21:46:35 GMT"
+        },
+        "responseBodyHash": "45ae58d4bce5a9fc1c625297e59f908363d2a9e0b65a7fe6b61829a8b4101a6d",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.5625239999499172
+      },
+      {
+        "url": "https://assets.aboutamazon.com/dims4/default/b3252de/2147483647/strip/true/crop/1036x583+0+82/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F09%2F14%2Fd7c1c1054f0fa6c287d58868e59e%2Ftim-3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 150956,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "d9eb7dd84d763c85b0efce5e627796eb",
+          "expires": "Sun, 16 Oct 2022 04:33:35 GMT"
+        },
+        "responseBodyHash": "cce9a71cd26b4c045b5d87ab82639f49171a457be0b4e8c1b289ef13e2b9ea19",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.565078999963589
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 968,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:08:24 GMT"
+        },
+        "responseBodyHash": "e2476c1b39457c00a77799c17873baa76a727d90a8fba59201ca34c50cfb9d7d",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.4565240000374615
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/_resource/analytics/bsp-analytics.min.3d492319d8b084de04ab3a208c32f0b5.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 3380,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c066757a8992615b576ac565d39d182d\""
+        },
+        "responseBodyHash": "e4d188579bddcd83fc8d1383f60e6a50c5cc3428e4f6c32b493a8cce04bc9c87",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.2572989999316633
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/sdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 2517,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=1200,stale-while-revalidate=3600",
+          "etag": "\"8b655a4b7654af1a7f9bed2128e62861\"",
+          "expires": "Thu, 16 Dec 2021 16:24:30 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8fee370de47b676f00579a49fff624f268c95cebc66acab46a858d3d4b8a1fc5",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.13610300002619624
+      },
+      {
+        "url": "https://www.youtube.com/s/player/f3c4e04d/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 49722,
+        "remoteIPAddress": "142.250.179.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 15:44:59 GMT"
+        },
+        "responseBodyHash": "66066d66f152b017efa6b4e203570b0eae4acbb00988304be13c9fbc7129766f",
+        "initiators": [
+          "https://www.youtube.com/iframe_api"
+        ],
+        "time": 0.11698100005742162
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/fonts/AmazonEmber_W_Rg.f7f705ba8ac3de02c6ec19c450069287.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 65873,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aboutamazon.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6131b65846e2949ee9794638a0963fec\""
+        },
+        "responseBodyHash": "236df71909b48773dafcbfd706667f2146431f0bf33652987df21e2c97b1af95",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.5187690000748262
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/media/flags.9957819080fa4655dd197b8779d164d3.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 5373,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"7f3b6c7acb444704f83e549da1cc0e51\""
+        },
+        "responseBodyHash": "88e9ba6a08998ddd84062c1636de13d8c19e78303eec3b99f6f2ffe000720105",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.11572000000160187
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/media/play-icon.aede6a5586ea856f0352dfb5fc06a715.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 820,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"515029cf90b080c5192fad149c312637\""
+        },
+        "responseBodyHash": "52524b365b6ec53336911afb2c532d2086838d0887b46cf36de1435def53c223",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.11046300001908094
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/fonts/AmazonEmber_W_Bd.34aec18371e52517c08d6c19a2426762.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 65959,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aboutamazon.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"68658972cef5823aaa45770ad15df48e\""
+        },
+        "responseBodyHash": "1a0ed24c0790c3e02104d39d79c7dc9ae801dc76ece0814a8717d898e59aaaa7",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.5226259999908507
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/fonts/AmazonEmberSerif_W_Rg.bf323dcfc5c43307df3479a8a709743f.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 42213,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aboutamazon.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6d0b0b1a4f0b99be7bf898d92d66cf44\""
+        },
+        "responseBodyHash": "f7bef31036e3ba288eec094be2ca6c5f5ea25b131dc59a4aa91aedd9f420568f",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.4972689999267459
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/fonts/AmazonEmber_W_Md.580f32ceca9c189c475436620ffec341.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 43957,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aboutamazon.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1595168a18b723023bffbf501136349e\""
+        },
+        "responseBodyHash": "8974d1d0b85e0176e6408b6c872e24462ed2fd961ce7ec2e4be273534d94eefc",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.4470829999772832
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/fonts/AmazonEmber_W_Lt.022e79936cabd74d3ec34ffaa36007cc.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 28442,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aboutamazon.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"0f85a003b4d8afbfedd8118278061c34\""
+        },
+        "responseBodyHash": "e98609837e15bd19d2b1d168e490b96070492e1178cfcb603d557d22ac9048e4",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 0.49506599991582334
+      },
+      {
+        "url": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/fonts/UDShinGoNT-Regular.8d9f9bcaf836e14aa366945a0b03b524.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css",
+        "status": 200,
+        "size": 1032486,
+        "remoteIPAddress": "13.227.219.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aboutamazon.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"ae66e471f5fd02371530b22391611ca2\""
+        },
+        "responseBodyHash": "2f8271307457fa6e7c117895f7f02e05d21b5cccc84d220b50e5bfc478192853",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.fcd5ab15b310d5dc191e32665d13871a.gz.css"
+        ],
+        "time": 1.0550570000195876
+      },
+      {
+        "url": "https://d1z2jf7jlzjs58.cloudfront.net/p.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 1491,
+        "remoteIPAddress": "13.227.220.222",
+        "responseHeaders": {
+          "cache-control": "max-age=86400\npublic",
+          "etag": "\"5eb31be4-3a2\"",
+          "expires": "Fri, 17 Dec 2021 08:31:06 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "62f586be8571b23584eb4a60a45a3157ff7c8388b1b1e3b4e8890e243b3e47de",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.09680399997159839
+      },
+      {
+        "url": "https://www.aboutamazon.com/_track",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 204,
+        "size": 201,
+        "remoteIPAddress": "52.222.138.35",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/_resource/analytics/bsp-analytics.min.3d492319d8b084de04ab3a208c32f0b5.gz.js"
+        ],
+        "time": 0.25895299995318055
+      },
+      {
+        "url": "https://units.knotch.it/url-map/518afb38-d89b-4aa0-9b73-31ad26d491a6.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://units.knotch.it/url-map/518afb38-d89b-4aa0-9b73-31ad26d491a6.json"
+        ],
+        "time": 0.16557900002226233
+      },
+      {
+        "url": "https://units.knotch.it/reporter/ver-fac59b9/index.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 6039,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "W/\"a517599139def44f8e6c13999dbf62e1\""
+        },
+        "responseBodyHash": "53862e0c3c6ef724c494f14972d4555ea46fe9dfac9ff6e1493c9440e5df945f",
+        "initiators": [
+          "https://www.knotch-cdn.com/unit/latest/knotch.min.js"
+        ],
+        "time": 0.16090699995402247
+      },
+      {
+        "url": "https://units.knotch.it/url-map/518afb38-d89b-4aa0-9b73-31ad26d491a6.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 75621,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"65edd587452504661ac42bf6305200cf\""
+        },
+        "responseBodyHash": "317b8b0833de99311dbf2f74367927d02db54d4ff80f5bfea01ed442d4acdba5",
+        "initiators": [
+          "https://www.knotch-cdn.com/unit/latest/knotch.min.js"
+        ],
+        "time": 0.30275100003927946
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/sdk.js?hash=7ae31c4cbd15a544dcd5858ec1d08e2a",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 82878,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,stale-while-revalidate=3600,immutable",
+          "etag": "\"ba496e746ef99fba4f85356700796433\"",
+          "expires": "Fri, 16 Dec 2022 13:33:50 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9dcf5df717954be51241864c65ab09488ddb4a7e973d5d396bc6a49425e79aaa",
+        "initiators": [
+          "https://connect.facebook.net/en_US/sdk.js"
+        ],
+        "time": 0.07409000000916421
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 138247,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js"
+        ],
+        "time": 0.1296289999736473
+      },
+      {
+        "url": "https://cdn.parsely.com/keys/aboutamazon.com/p.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 26035,
+        "remoteIPAddress": "13.227.217.72",
+        "responseHeaders": {
+          "cache-control": "max-age=86400\npublic",
+          "etag": "W/\"6019c413-11f8c\"",
+          "expires": "Fri, 17 Dec 2021 05:48:56 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "afca01a5b28620b559169bb496a79c70e6c0654eaea6fa2ef345dbe77103579b",
+        "initiators": [
+          "https://d1z2jf7jlzjs58.cloudfront.net/p.js"
+        ],
+        "time": 0.07412800006568432
+      },
+      {
+        "url": "https://www.knotch-cdn.com/crawl-config/518afb38-d89b-4aa0-9b73-31ad26d491a6.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 644,
+        "remoteIPAddress": "13.227.219.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"ba880cdf7998e6299e5bcc15525dfaa9\""
+        },
+        "responseBodyHash": "448e6e134308f2693a27ca96ac28906687b9a8ef05cef6aa2f75c6268e86a69b",
+        "initiators": [
+          "https://www.knotch-cdn.com/unit/latest/knotch.min.js"
+        ],
+        "time": 0.07358800002839416
+      },
+      {
+        "url": "https://www.knotch-cdn.com/crawl-config/518afb38-d89b-4aa0-9b73-31ad26d491a6.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.knotch-cdn.com/crawl-config/518afb38-d89b-4aa0-9b73-31ad26d491a6.json"
+        ],
+        "time": 0.04589599999599159
+      },
+      {
+        "url": "https://www.knotch-cdn.com/crawl-config/518afb38-d89b-4aa0-9b73-31ad26d491a6.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.73",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"ba880cdf7998e6299e5bcc15525dfaa9\""
+        },
+        "responseBodyHash": "448e6e134308f2693a27ca96ac28906687b9a8ef05cef6aa2f75c6268e86a69b",
+        "initiators": [
+          "https://www.knotch-cdn.com/unit/latest/knotch.min.js"
+        ],
+        "time": 0.0014509999891743064
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6owvo6im1f5u",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 21437,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5d797ca85ce9062bfc4ccde104a8ecd417316951bd0dde1b2a8ac6859a949069",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.04554900003131479
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 21284,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "56658069fd068906b54f005a1a20a3dac57111e456c09e9d5b4bebbc74118000",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.044058999978005886
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=ipanydz9w3zg",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 21257,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8f002b2014de6f7357e45493be8e0f00d9a1d08bb0b3e36af0458dd7915e1856",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.04749400005675852
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=n2pbhuqicx72",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 21236,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "cdf82706c189e28a5e3a47ca3be3e4f5cbdc25669f62b6614ff6c98b7ad81670",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.04080499999690801
+      },
+      {
+        "url": "https://api.parsely.com/v2/profile?uuid=pid%3Db214bffffdbdec1ba1de6fcdc021bd83&url=https%3A%2F%2Fwww.aboutamazon.com%2F&apikey=aboutamazon.com",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 347,
+        "remoteIPAddress": "3.219.73.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "4fe609d1da061cff79e693ff27750f9ba97e74b3b6037fb2b709fcf370656a0c",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/styleguide/All.min.0f6d5b55eecf2a679be7d8d1e2dc6560.gz.js",
+          "https://cdn.parsely.com/keys/aboutamazon.com/p.js"
+        ],
+        "time": 0.32406200002878904
+      },
+      {
+        "url": "https://p1.parsely.com/plogger/?rand=1639670906023&plid=39629301&idsite=aboutamazon.com&url=https%3A%2F%2Fwww.aboutamazon.com%2F&urlref=&screen=800x600%7C800x600%7C24&data=%7B%7D&sid=1&surl=https%3A%2F%2Fwww.aboutamazon.com%2F&sref=&sts=1639670905996&slts=0&title=About+Amazon&date=Thu+Dec+16+2021+17%3A08%3A26+GMT%2B0100+(Central+European+Standard+Time)&action=pageview&pvid=94749352&u=pid%3Db214bffffdbdec1ba1de6fcdc021bd83",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 259,
+        "remoteIPAddress": "54.144.144.142",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://cdn.parsely.com/keys/aboutamazon.com/p.js"
+        ],
+        "time": 0.4157960000447929
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 24794,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6owvo6im1f5u"
+        ],
+        "time": 0.042671000002883375
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6owvo6im1f5u"
+        ],
+        "time": 0.004699000041000545
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx"
+        ],
+        "time": 0.03881800000090152
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx"
+        ],
+        "time": 0.009126999997533858
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=ipanydz9w3zg"
+        ],
+        "time": 0.036180000053718686
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=ipanydz9w3zg"
+        ],
+        "time": 0.011326999985612929
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=n2pbhuqicx72"
+        ],
+        "time": 0.033832999994046986
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=n2pbhuqicx72"
+        ],
+        "time": 0.010034999926574528
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "status": 200,
+        "size": 2394,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Thu, 23 Dec 2021 04:24:17 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css"
+        ],
+        "time": 0.009038000018335879
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 10865,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "526007135db0306094b7b2cc2924c76c5914b3b3aaeb52131a3ddf23ebffac2a",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx"
+        ],
+        "time": 0.3321960000321269
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 11423,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:12:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a8d05d99aa04ae149c2bc1a38c8f8a4f4699ddee4dd578aa8bbb9872111db544",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx"
+        ],
+        "time": 0.3310509999282658
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6owvo6im1f5u",
+        "status": 200,
+        "size": 204,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:08:27 GMT"
+        },
+        "responseBodyHash": "6bfc7f035838df33c0b927be3bc8d8a59d6f055658945c9a17eee1c0d09fb972",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.018935999949462712
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:08:27 GMT"
+        },
+        "responseBodyHash": "6bfc7f035838df33c0b927be3bc8d8a59d6f055658945c9a17eee1c0d09fb972",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=6cwcuiq2rknx"
+        ],
+        "time": 0.004550999961793423
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=ipanydz9w3zg",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:08:27 GMT"
+        },
+        "responseBodyHash": "6bfc7f035838df33c0b927be3bc8d8a59d6f055658945c9a17eee1c0d09fb972",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.0015620000194758177
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7&co=aHR0cHM6Ly93d3cuYWJvdXRhbWF6b24uY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=n2pbhuqicx72",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:08:27 GMT"
+        },
+        "responseBodyHash": "6bfc7f035838df33c0b927be3bc8d8a59d6f055658945c9a17eee1c0d09fb972",
+        "initiators": [
+          "https://www.aboutamazon.com/"
+        ],
+        "time": 0.0014410000294446945
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP"
+        ],
+        "time": 0.009606000036001205
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP"
+        ],
+        "time": 0.00872499996330589
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP"
+        ],
+        "time": 0.007247000001370907
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 1352,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "398a6ba52f57c9db96d0ecaa1683bb30e877462a9a8e103bde30d5d5b7f2c3c0",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.050365000031888485
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 1354,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "03ada5e45cdcd34bd418e7d9c3f91837105193f435039a8d42a531dcc3f24236",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.06763199996203184
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 1353,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "3c372bc0691636994213e9b4bbb6b73a1208b969a6ec156a5b6dd6120e61f948",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.10772199998609722
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 200,
+        "size": 1349,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "597e88f0ced27410e6d23fe4f623ff31031280ee016e3f61fe8580f997c43777",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.14243500004522502
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP"
+        ],
+        "time": 0.008177999989129603
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.0002589999930933118
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.0005619999719783664
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.00025699997786432505
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.00020599993877112865
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.00028000003658235073
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.00023600005079060793
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:07:36 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.00024199998006224632
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:06:33 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7"
+        ],
+        "time": 0.00021299999207258224
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/reload?k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "status": 200,
+        "size": 21698,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:08:28 GMT",
+          "set-cookie": "_GRECAPTCHA=09ABBMTcPezTZ6jNXp56xQIbtDW4JRNeYpaR5Z1cmxLuFquScWSR-bLte0hDTS7z18dCwRk7U-t_bmuXtMq1inyy0;Path=/recaptcha;Expires=Tue, 14-Jun-2022 16:08:28 GMT;Secure;HttpOnly;Priority=HIGH;SameSite=none"
+        },
+        "responseBodyHash": "e4e47e518180d61f1bfb066c7ad9a0502738809eae74c7b39ecf06e7854b8bb7",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.05530699994415045
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/reload?k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "status": 200,
+        "size": 21696,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:08:28 GMT",
+          "set-cookie": "_GRECAPTCHA=09ABBMTcO1x5naqU784p7iBBwckrKNRT_Wh0BoGJMet1qENQL-I6InEUFtcUjBztvVZj7L0ZfxgT9fPLR-mMN0sHQ;Path=/recaptcha;Expires=Tue, 14-Jun-2022 16:08:28 GMT;Secure;HttpOnly;Priority=HIGH;SameSite=none"
+        },
+        "responseBodyHash": "ff4d398f18dacff24cf8ba6e18b62215726d2613ddb31262eecd7bef9b519630",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.04974599997512996
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/reload?k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "status": 200,
+        "size": 21599,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:08:28 GMT",
+          "set-cookie": "_GRECAPTCHA=09ABBMTcP0oiJZvRURG9hBdSWsFThHrWy1R6J5sIun1r9u8fAoGySbO27Hr9XDoPF1SPRkaOI5qE1EmVhkucCgkDw;Path=/recaptcha;Expires=Tue, 14-Jun-2022 16:08:28 GMT;Secure;HttpOnly;Priority=HIGH;SameSite=none"
+        },
+        "responseBodyHash": "992845dcf981b69a43fae9a5ef732352104d9bc8aa0ff0dd1813bd7872d125aa",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.09357099991757423
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/reload?k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6Lfs7rEUAAAAAAcksv0rLLriloNqHhbnQNoqEIa7",
+        "status": 200,
+        "size": 21705,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:08:29 GMT",
+          "set-cookie": "_GRECAPTCHA=09ABBMTcPt4hFdROxNv9KJu8zY6iPBS8d-wWtNMw1D8oc54FnBUfiNVH6h6yMnrB3wr9g6All0DtIJJQ9lPlHNmA0;Path=/recaptcha;Expires=Tue, 14-Jun-2022 16:08:29 GMT;Secure;HttpOnly;Priority=HIGH;SameSite=none"
+        },
+        "responseBodyHash": "3ab36e38ff60bf8d74f6ed25169ef82c2b3ac44a75a436a2814e22ada2735aa6",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.05776900006458163
+      },
+      {
+        "url": "https://www.aboutamazon.com/_track",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aboutamazon.com/",
+        "status": 204,
+        "size": 200,
+        "remoteIPAddress": "52.222.138.35",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.aboutamazon.com/resource/00000174-78b5-d0f5-a376-7ab552ae0000/_resource/analytics/bsp-analytics.min.3d492319d8b084de04ab3a208c32f0b5.gz.js"
+        ],
+        "time": 0.25600899988785386
+      }
+    ]
+  }
+}

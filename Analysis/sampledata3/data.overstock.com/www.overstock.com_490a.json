@@ -1,0 +1,2900 @@
+{
+  "initialUrl": "https://www.overstock.com/",
+  "finalUrl": "https://www.overstock.com/",
+  "timeout": false,
+  "testStarted": 1639670825715,
+  "testFinished": 1639670846166,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.overstock.com\\links.www.overstock.com_490a.json",
+    "requests": [
+      {
+        "url": "https://www.overstock.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 151297,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-transform, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:07:06 GMT",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "pragma": "no-cache",
+          "set-cookie": "mxclastvisit=20211216; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:06 GMT; Path=/; HttpOnly\nostk_aggr_year=country^NL|e4xwelcomemat^true|currency^EUR|language^en|mxcuserseed^4828304471576024400; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:06 GMT; Path=/; HttpOnly\nse_list=se_list^0|181|55|9|; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:06 GMT; Path=/; HttpOnly\nostk_aggr_year2=ocode^36fad9f0-5e8a-11ec-9db7-55b76c564ecd; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:06 GMT; Path=/; HttpOnly\nostk_aggr_session=octs^1639670826257|sessstrt^1639670826251|billingcountry^US|gcr^false|cart.item-count^0|mxcshopmore^http%3A%2F%2Fwww.overstock.com%2F|postal^00000; Domain=.overstock.com; Path=/\nostk_campaign=\"\"; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:06 GMT; Path=/; HttpOnly\nmxcsurftype=7; Domain=.overstock.com; Path=/; HttpOnly\nmxcgotoast=\"\"; Domain=.overstock.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly\nAKA_A2=A; expires=Thu, 16-Dec-2021 17:07:06 GMT; path=/; domain=overstock.com; secure; HttpOnly\nbm_mi=F453BBC5AA1C002DAAF641168E795EB0~OG0BGnECGe3AusisV+mIJsLeQ+BhkVlsAHecqkQR1mNAqRAmIAebs889xR41/+EAhQxfzrQmXIkR7xwK0dBQ4/XvwNDJCXO9h2H3BqZhz7YRw8VjCKeYrBTpQK3NhzvSc6cSP/AeVNFo8j77rO/dNenNUwjJ4coa1aiYYsc7OhjdYUghyXru1CVfRyDW9WvR4AvSK0+PyxkAf02ji6rQHe/Wdo+T/YURuzjG87fRVXs=; Domain=.overstock.com; Path=/; Max-Age=0; HttpOnly\n_abck=E94C8FA5562B6645FEAE0851A24C81F7~-1~YAAQbKQFF7Nn17N9AQAA2Ub/wweA0GggHFw4UZcQRaMYHBWTPk4iZM5803TaJt77iUyFoFOOZJhT/BkTbB/jo+5hkUBZFQtytrfYYSl/m52U6LcKCi92/GS3qPCreqmeINk4vcjh73VmXRxIyYuYhQivLzNxAaj3Yr7SQ2o7GsPfxSMfEM2UiME3fvBN61pHOTPGK6JSYsFx1HD0EgI+hfPkUNiPwRj1jd2JWHOllekdo5jwxa6kkvqCsSJKvdQJ+OaEVYbo2o43EKo+NxJ3GLhjlj+kY5evVWhB5DvLPXEbJZ33v69Hlcr+FdsNBFeVSHhXtsOwGNqTmu8mRvoWdHLgrLFSh0xaTHhIOkyJxbX4PqHh2Sc8M1MDYoiHE3I=~-1~-1~-1; Domain=.overstock.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:06 GMT; Max-Age=31536000; Secure\nak_bmsc=C561D63F124B7E61AE100AE5D6BC0FF1~000000000000000000000000000000~YAAQbKQFF7Rn17N9AQAA2Ub/ww5VdbLl3ogji+v32WFwni/SoG70jpjRlT3D3GdoecyowhfSJyBA9W99/vfle+7gk+R+zfJRN74qt6KIcBJ9ldxjKpNEfvmfaQQsFTWqtJFyxeStlmCF+LZE6sWvkGd3mXu7HDfNfopCZJMpsWwVExXIAG/iKRuw4PoQbgwZLMjAIpL4sIPdf8zHFMkFrDGtFEAUXj9yicPRIlnWQXgCoNGXgMX81MF1+i48T8bGtU+FNEpMWFaGyH9COvJGND/HRfr1Aqrv2KWce4Diqbu/zVfxgB95viRqQJ7z5hMrJH4b6tj2XYMLfR4ei9UGjqt5iWslrBWXr18uLx5Tv66PCz8IvJjMWr+onCp2bfvinYp39zutHx4OgtSm6qg=; Domain=.overstock.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:06 GMT; Max-Age=7200; HttpOnly\nbm_sz=262CE6ABCDC074239CF6A5D22595A78F~YAAQbKQFF7Vn17N9AQAA2Ub/ww4e2frkOa2XQmhtNv6oAc3aMfEuX3AQxLrYy7oUr8VK0DomP9eadifikX82WAjz6KHhYZS1kf0THfWrQiOAiY31G6GZ/WXRnYa7useHfQkie0JuXoTzGx3K3UzMJNkM+4UfVvIp1MSv4Xeqowhr5vM1tyNSxA+SAzN2w9k90MMXybhxzOClgtMBqq+B/WY8uRPcHJm5JEONUy9Y/q35M1BB8ZOtoWteqmrbtZrPNIFwZCs+hUMV2Y9LG0RwcWt535ihLwnJkTdgIX9bYCUr3zkTJUc=~4403509~3752761; Domain=.overstock.com; Path=/; Expires=Thu, 16 Dec 2021 20:07:06 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": "aad039fff710ebc6144e53b31ce617d976c9216296c1b68dd322b6c6f08e6870",
+        "initiators": [],
+        "time": 0.7282739999936894
+      },
+      {
+        "url": "https://unpkg.com/web-vitals",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "104.16.123.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=600, max-age=60"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://unpkg.com/web-vitals@2.1.2",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.15103299997281283
+      },
+      {
+        "url": "https://www.overstock.com/akam/11/1306aa68",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 11261,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"eabf4abda33aa485cc8ead3135f55e11cf482727cf021a166a780ca977953204\"",
+          "expires": "Thu, 16 Dec 2021 16:07:07 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=C561D63F124B7E61AE100AE5D6BC0FF1~000000000000000000000000000000~YAAQbKQFF/xn17N9AQAAVkn/ww51z3LFeLIgcfF7NMWm9r1SPfCPeF2O/+E3JMwehbpgLgfcf0Kolrcvs8ZlLnX8Jrk8J6SVEtG+PEtl7MBOYgH+8O2UK5ucT6yUAo3lK3MpoC9LLG67/21UeLoT9eRINR7DNB/0ACDot/Des+MvDcday+ZTnZVNQ/S5FAgm5AMob12/uw9vodJSmJapMCY0q6QQNggoGYlxrEhoPC6RJNYcw7Vx8nW4y7e8KPX3UdWYuRskNbugKBcEWlmqaKB4x5rVDk+igPp86xd3VkAimj4BiNjFHOgubvPOBWZtT2NJHOJVYnFLjSWc0PZfsDy+QKgCR3w2rWZxNIYWLWYDPoupxokQtaKbHDTp67IlPs3QtRIBvhJEj3C/4+Jaj8ujeBreY5Juub51ypMZvTbq/pAyhVE63Go4wiG9ONs3bPcAxwDn6uCZU0Qewl9bnd5SiqYFaZYKi2CI7eWEA29WOg==; Domain=.overstock.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:06 GMT; Max-Age=7199; HttpOnly"
+        },
+        "responseBodyHash": "a9acd639397bc5718c6055c1767c3d02bddeaf53bcc08be7107b90f7aeea52b5",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.5907860000152141
+      },
+      {
+        "url": "https://ds-aksb-a.akamaihd.net/aksb.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 5216,
+        "remoteIPAddress": "95.100.97.32",
+        "responseHeaders": {
+          "cache-control": "max-age=43200",
+          "etag": "\"15de19f42b35806faf815298644157e0:1535653526\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7f06def529e0076b37f65c60085a6b1c65f1bbab0b1f87c72c188018b5094966",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.08626300003379583
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/intFlag_NL.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 1339,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"RimUso//icvwuEpqrb9L83MAuCOhr++sbeMTFe3FtLI\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "963788850cf6456705053aac16ed4838dc485fcf88a1d7bfcd7e81ae853f7c37",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.07785000000149012
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/05142018DealsSales_OUTLINED.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 23058,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"e1ab5d21fba2e0927aa6341d3ecf7ce0\"",
+          "expires": "Thu, 02 Sep 2021 11:23:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "46a31b166227113c7959e8ab512445ba7e753a7e215a087ce2757e4b690a1f21",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.06540099997073412
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/overstock-desktop-header.5fa24b03822443d730391cbe7cb92347361dcbfe1d99d8d274b2c9594a5e29bf.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 107277,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"625fc69768e7ea9e3403281fe9a4d306-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5fa24b03822443d730391cbe7cb92347361dcbfe1d99d8d274b2c9594a5e29bf",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.08016299991868436
+      },
+      {
+        "url": "https://unpkg.com/web-vitals@2.1.2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "104.16.123.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://unpkg.com/web-vitals@2.1.2/dist/web-vitals.umd.js",
+        "redirectedFrom": "https://unpkg.com/web-vitals",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.044682999956421554
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/css/936c8ab73c61c542.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 626,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"e2af8a4cd07d7e07a00030c7bdc830f7-df\""
+        },
+        "responseBodyHash": "8286f63680e1350bc32a1ef326866dc6ca3a7bb9d4348566aecd19739d9aa89f",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.0025870000245049596
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/css/95e12c555746de52.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 8310,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"318456906d3aa930f000549202ba5dfa-df\""
+        },
+        "responseBodyHash": "1f4c31694f2dae8091d17505b3f34ff874701358f5d333e370fd5c57d8bac670",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.00502099993173033
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/webpack-ab81d2b43b32ad9c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 2032,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"78cee7156cede23aaa812f385306e0c1-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "592228dd454dcdcddcbe1e4d839860f1b2dd926a307038490a191e5c77755207",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.041068000020459294
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 43041,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"ebfa7545bbc0cb03aa824de5bb5defe6-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "846ebae4909cae3822f281adf6a0e47b459f90e7984381fcc91e42432df4791d",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.05014900001697242
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/main-886949fadc2c686c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 27020,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"2a3e38ca31f45295f7ba647e9758d75f-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "73e9f3a1a9f5aed9c1254e1e90499b89b8eeff880e020c9911395900010b71a8",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.02929299999959767
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/pages/_app-74c03eb9f131dc27.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 856,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"4114c96ac67bb37f668f625e5c55f524-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4a1c5d7a8b8a61f302e53ac60cd04870220629727f8d97e0e55a21312342c49b",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.028046999941579998
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 14194,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"7f9c338b3a3e2b8fcf69c70c2d07c59c-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "62eb58c798e3ca84098a1ee557c6246cf43dcc99ee04493e78208a1274a5d808",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.029427999979816377
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/pages/main-ca252b5847767b82.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 27977,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"68946a6829af2d2e19d58f96adf97e38-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0e6845281b4c80313f1272f7bd05ff2e2a20ca4c32ff7753f387729b6206e1cd",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.033463999978266656
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/yoqkWxApDwLjfVep6oafP/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 773,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=604800, public",
+          "etag": "\"2b6af09b79f9db12b6f7747a5c07c804-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8f1709131c1ca475fa200fd378201cc1a84f5698456ac651f569b9cd22c96fdd",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.03043799998704344
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/yoqkWxApDwLjfVep6oafP/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 347,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=604800, public",
+          "etag": "\"b6652df95db52feb4daf4eca35380933-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.030676999944262207
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/homepage/_next/static/yoqkWxApDwLjfVep6oafP/_middlewareManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 559,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=604800, public",
+          "etag": "\"7c3f7e060745668041278118c0bb3d6d-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "de5341313a4dc5d982ca50ae4a491e84bc5e80b0f439d87f05fc3973c1b7e59a",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.0309269999852404
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021-HP-A1-INTL-1400x550_INTL-min.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 59974,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"rtOJKxGGZREE0QUtzBrSb8Mx/h+N8Ne6piIHf4crTCI\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e9e67a985c027c8e4cf543c4c70ca6c283043851a87bad30a76133376a887836",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.034202000009827316
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021-HP-A1-INTL-1400x550_INTL.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 14751,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"4d01bfdbd6097ea1a5e5acadce6cc0cc\"",
+          "expires": "Tue, 14 Dec 2021 05:03:08 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9262df355a1de48f92cc0799b7212d36dcbc28b5445d08d35cb68c433cee7a4c",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.039967000018805265
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/20200227_rating-star-empty.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 726,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"38a727a685535993a4821935fe1b99fd\"",
+          "expires": "Wed, 29 Sep 2021 12:01:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0ee912c41ca99da7831cd3a16a136cb52ebbcc53a0230cf7f31ef8bc69445894",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.03404200007207692
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/20200227_rating-star-full.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 655,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"9f670f647686a5b31708072f8da32306\"",
+          "expires": "Thu, 04 Nov 2021 11:48:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a2d616cc94aba130e9942115ce3699092838af822f138709939eceeed67d0f98",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.03428899997379631
+      },
+      {
+        "url": "https://unpkg.com/web-vitals@2.1.2/dist/web-vitals.umd.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 1988,
+        "remoteIPAddress": "104.16.123.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"11ec-Af9pZ9JTRvMjTOZyqJZeqd0k1CM\""
+        },
+        "responseBodyHash": "2bf988171c1dfaca42ca163d70cf950ff080414b37c7ff592272f759f1b224f9",
+        "redirectedFrom": "https://unpkg.com/web-vitals@2.1.2",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.029286000062711537
+      },
+      {
+        "url": "https://www.overstock.com/oNjzWgpmZLhyp/SGhOJXJy3rO/nDM/3hb9bkJpt5/WxUOJSAB/bnANF2Y-/YkIB",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 20382,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"d1dbb955755ca44a0b872a64f97c471a45b14e941f69d082c19f792576ae34fb\"",
+          "expires": "Tue, 04 Jan 2022 02:05:12 GMT",
+          "set-cookie": "_abck=E94C8FA5562B6645FEAE0851A24C81F7~-1~YAAQbKQFF+Vn17N9AQAAwkj/wweNgA4FxOrXO3FptGLEqKXGFQWLP/m65M23k9MwGsE1EQAFY2b8S2WonbkAmj8byzuJ7Vke+RDsOaP0p+2NjUFVyrr/K4o5GeZ43N37FIgq0TFVGJW+YGchNlFHJp7EwFzMgBqxjbhp2+uYXTPPv9R2Kacc9ztcjrWO8lxX3OOjHtKSEWPWCcCBMJ2y1/DEIK2csWhVWSbnWO3Ew1oS1ptnMfQ0meibGdZVvzxMih6ueOyK6VsKIzWx/FEI+d2PnVZ41z3jBnYqe+qXhtUenmg5fVz9BKTMpuflZrU4EtiXBu1DJQUdEOBWDbIPHjZFWTnFW2woua/HSOXd4GrkdJPKqItBiiq3hmHXLKdqJh6cJvOCoimXBCJrAw==~-1~-1~-1; Domain=.overstock.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:07 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "7923c5df4689d8e2b03d4b24349057eb7415f9d70b6cd91975fd19814b402821",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.03050200000870973
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 108434,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"f77d388b2134d4229c4a03b42475de16-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.02126099995803088
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/overstock.8.1.10.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 82911,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"56222-5c730ff970c00-df\""
+        },
+        "responseBodyHash": "53e808c04b14c0a72209624f187f787daa001a1ca8e4e55c73ffba755e8407ab",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.012900000088848174
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/os-async.5.0.9.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 3881,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"4b00-5c0565bd59e00-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4a355a3c4b7f19f0df0a27efd5bd0c607f980d9fb5175e4d344a91816afba840",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.0192219999153167
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/ostk-user-tracking-all.4.0.24.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 8575,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"81cb-5cffa9352bd00-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "268ea8db9fa94b2560c5f3976289cf2d4564f870c49be3919a563cf062e48f83",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.019619999919086695
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/onecall-tracking-client.1.3.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 1772,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"104a-5d11544e61100-df\""
+        },
+        "responseBodyHash": "e87a657c4e813dabc3194e9f07c7ea4278ff47df3c73fee7ca87f5d473391476",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.010092000011354685
+      },
+      {
+        "url": "https://www.overstock.com/dlp?cci=PW6LNQTH5TNIDICIRIAECAZL7Y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 930,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache",
+          "expires": "Thu, 16 Dec 2021 16:07:07 GMT",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "pragma": "no-cache",
+          "set-cookie": "ostk_aggr_year=country^NL|currency^EUR|language^en|mxcuserseed^4828304471576024400; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:07 GMT; Path=/; HttpOnly\nostk_aggr_year2=ocode^36fad9f0-5e8a-11ec-9db7-55b76c564ecd; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:07 GMT; Path=/; HttpOnly\nostk_aggr_session=octs^1639670826257|sessstrt^1639670826251|billingcountry^US|gcr^false|cart.item-count^0|mxcshopmore^http%3a%2f%2fwww.overstock.com%2f|dlp^p|postal^00000; Domain=.overstock.com; Path=/\nostk_campaign=\"\"; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:07 GMT; Path=/; HttpOnly\nmxcsurftype=7; Domain=.overstock.com; Path=/; HttpOnly\nmxcgotoast=\"\"; Domain=.overstock.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "18b840761a71b1804bbb28f98918bbb85234bd714b2db1a89284ddef23b94b39",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.2072700000135228
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/overstock-page-trigger.1.8.8.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 54578,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"28395-5d2bc836a0000-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d4824f29486f4a661c9729e94646e2abf9cebaa5fe1aec1bd2d2aad927964c41",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.023416999960318208
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/VisitorAPI.97d46d9fca545d7ecc9fc81e71a3c3168ee2dafeb86e051168772d2e8a2fdc67.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 22032,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"5828bc58662df552eac51592d9a4bbe1-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "97d46d9fca545d7ecc9fc81e71a3c3168ee2dafeb86e051168772d2e8a2fdc67",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.024809000082314014
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/s_code_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 293,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=604800, public",
+          "etag": "\"7d-5c5d693267e80-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "377a17ce98eb244995f7d3d09b1194b15aa9f1f4db5f5323b9f9187d3d06b39e",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.01850799995008856
+      },
+      {
+        "url": "https://www.overstock.com/oNjzWgpmZLhyp/SGhOJXJy3rO/nDM/3hb9bkJpt5/WxUOJSAB/bnANF2Y-/YkIB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 201,
+        "size": 695,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "set-cookie": "_abck=E94C8FA5562B6645FEAE0851A24C81F7~-1~YAAQbKQFFyNo17N9AQAA/Ur/wwduIxTWaKekCbk8MeXIxM6iFfEEDa20JXSjh/rLb1zAZo9VFb8xm5YlV3E2X24gZPUsofATfaB5abr5Hd5bbdXq63CgcKkJIAlKZdgM1Gqsae4eh8IRCNSrBKXWwZ1oLk3DIakp/P/AjJNbKh+xN1PlVuCHsVBDqjKAf2I1buJO2bvEiX5x+d73T2Z7fGmQtxdj+7fD2si2Nh+V1SS+L/hSYzFqm/mY9q1GDHWrdF+8pR4CdXVX/jJKdIZxz4Ej+a/xbquB+73HYUPVe4wi1xZcFvSQ4Do3nS+oO5yLwpI4sfzHJzvJRvfae8wVRdo/1/6NtHNplPJl42ZZiTsWHmE4MhTfquYhyrvp1GoZp2t6YN66yLKYamjoew==~-1~-1~-1; Domain=.overstock.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:07 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.overstock.com/oNjzWgpmZLhyp/SGhOJXJy3rO/nDM/3hb9bkJpt5/WxUOJSAB/bnANF2Y-/YkIB"
+        ],
+        "time": 0.4611199999926612
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/os-templates.6.0.41.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 16534,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"312a9-5c8ae9ccb7f00-df\""
+        },
+        "responseBodyHash": "da61397d84b1844c8958dab0add4c2e5df8fd1081608b053c2b573276afe318d",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/overstock.8.1.10.min.js"
+        ],
+        "time": 0.003147000097669661
+      },
+      {
+        "url": "https://g.3gl.net/jp/713/v3.3.2/M",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 10888,
+        "remoteIPAddress": "68.232.35.38",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Thu, 16 Dec 2021 17:03:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c4a3c2a2cfa363db0594cd04e52c650fdf6935c50e0db5180a2e1a23954e226e",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.04213700001128018
+      },
+      {
+        "url": "https://api.overstock.com/offers/me",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.overstock.com/offers/me"
+        ],
+        "time": 0.23532199999317527
+      },
+      {
+        "url": "https://api.overstock.com/sitetestbroker/external/sitetests/characteristics/variants/4828304471576024400?characteristicNames=SW_HRT_BT",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.overstock.com/sitetestbroker/external/sitetests/characteristics/variants/4828304471576024400?characteristicNames=SW_HRT_BT"
+        ],
+        "time": 0.17844599997624755
+      },
+      {
+        "url": "https://www.overstock.com/dlp?cci=PW6LNQTH5TNIDICIRIAECAZL7Y&a=1&x=800&y=600&_=1639670827251",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 931,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache",
+          "expires": "Thu, 16 Dec 2021 16:07:07 GMT",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "pragma": "no-cache",
+          "set-cookie": "ostk_aggr_year=country^NL|currency^EUR|language^en|mxcuserseed^4828304471576024400; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:07 GMT; Path=/; HttpOnly\nostk_aggr_year2=ocode^36fad9f0-5e8a-11ec-9db7-55b76c564ecd; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:07 GMT; Path=/; HttpOnly\nostk_aggr_session=octs^1639670826257|sessstrt^1639670826251|billingcountry^US|gcr^false|cart.item-count^0|mxcshopmore^http%3a%2f%2fwww.overstock.com%2f|dlp^k|postal^00000; Domain=.overstock.com; Path=/\nostk_campaign=\"\"; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:07 GMT; Path=/; HttpOnly\nmxcgotoast=\"\"; Domain=.overstock.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly\nmxcsurftype=7; Domain=.overstock.com; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "98a2216bc0a34728f42492e5e8f59a8ed3709d0c433f551bb75f143df1cbf6bd",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/overstock.8.1.10.min.js"
+        ],
+        "time": 0.1586210000095889
+      },
+      {
+        "url": "https://api.overstock.com/offers/me",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 1044,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "85a982dc54b82edb63c61c0dd710320e7e84b324522be6b2fdf6280129cafa2f",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/overstock.8.1.10.min.js"
+        ],
+        "time": 0.43969100003596395
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/overstock-gdpr-banner-mobile.1.0.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 7415,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"4970-5c68eb2625e00-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e4789aeb9a5c661e8f3d73491fd6b7a083c38b74b8937e20a91ace2016a64c4b",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/overstock-page-trigger.1.8.8.min.js"
+        ],
+        "time": 0.011949999956414104
+      },
+      {
+        "url": "https://api.overstock.com/sitetestbroker/external/sitetests/characteristics/variants/4828304471576024400?characteristicNames=SW_HRT_BT",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 246,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "f1dc056e426d879995dd9bbb032bb59a73905bcd9b228c3507477ee055167d05",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/overstock-page-trigger.1.8.8.min.js"
+        ],
+        "time": 0.42767799994908273
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/js/intl-country-select-lightbox.1.0.14.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 32825,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"18363-5b975a7f95200-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8de9963911e660b0731e4a0ffd0df829467a349dc90f525c9750ff7c6be5326a",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/overstock-page-trigger.1.8.8.min.js"
+        ],
+        "time": 0.015398000017739832
+      },
+      {
+        "url": "https://www.overstock.com/akam/11/pixel_1306aa68",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 638,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "set-cookie": "ak_bmsc=C561D63F124B7E61AE100AE5D6BC0FF1~000000000000000000000000000000~YAAQbKQFF2po17N9AQAAlU3/ww7MfFx4K/WhOSacRHUqOnNo8LUwjwDWMpTOBw47CxVdHV9zxHLKGNOh9rBE+S9Q6wzZh+I5vZ/h1GH4nK2zcveo1IwVD+JybMG1tLVTJoiK/Z5ye1KElQRTGZVjxg4QqLLIqfDgk2QDCIElKqXR2wqq9GWuEPck7xT5uJ/5zF+lI/R1YwuZ5DiBmLoU682rwb+Y0irnTKqZRwi73emusGdVzymVSiXVS1bhb8ee2FeHZRFnPgYllFKwmxv/C177WAo3bGfmwQNzh74+I5mVtN9aignHoHIeimPFlf4pFlNrVHUrElYePzPyf5O9hNmSKxQfR+qJckR+Ghu0yZ+S1+LvnuR8rz2oMbGr+igg0YNRU3xB1KY2Hp5ByNfkpEFB5rJYwtuHm+21VBage16H59Sk1VZ5jr1y31WJ1LtNQTwvweTUTXhfYD5IVyxmKOYX29H7aWQh2Rmzb1RhhWI+sF0n0hnJOcHyR5krdA==; Domain=.overstock.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:06 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.overstock.com/akam/11/1306aa68"
+        ],
+        "time": 0.030365000013262033
+      },
+      {
+        "url": "https://www.overstock.com/oNjzWgpmZLhyp/SGhOJXJy3rO/nDM/3hb9bkJpt5/WxUOJSAB/bnANF2Y-/YkIB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 201,
+        "size": 695,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "set-cookie": "_abck=E94C8FA5562B6645FEAE0851A24C81F7~-1~YAAQbKQFF4Ro17N9AQAA1E7/wwcAVUTj0a6imxYYRDC0/LGWlDt/EQxNFk5kYRVsgWFc1j/O2Ql4127QGSJV7v7mvTcVJ7HGCK9pr5yNiNwyr2Dy7KwYps3K6l3HQKpu33mYcTDDQ9/8YH4OPCAlLUNiWZSdP+a+XTIRlfDhfzHt20o98wjj9u3RhZY+PJ5EH8TYGi88NmOqfhX6ZK/Ow9zpEpznB0XMQ3pFM1OrC7gS5ZwzsVKg9hLaRFOpmFRcNsWBvyiJaW5Juewha947ue/t3+r3dQI41bypLBJf4evwskHo5VY0PgOSsVklXuNcPRW7VPPyBfOTXHsKjr87+13yXVyiTW4OlLShAKJVXsHZ+PHpsvMwHoriWmLt5RAdsdUfD4AtLbkYoHP2IQ==~-1~-1~-1; Domain=.overstock.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:08 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.overstock.com/oNjzWgpmZLhyp/SGhOJXJy3rO/nDM/3hb9bkJpt5/WxUOJSAB/bnANF2Y-/YkIB"
+        ],
+        "time": 0.16168799996376038
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_off_WhiteBackground.jpg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 702,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"whBgOX6QQ5OtOlPSQDlmu3M/7J7R6sUuDPUOJxd13SA\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "281657c2fafe4d07158622d8ab7342258a81f8247b85f635530ac8c07e7fe519",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.009211000055074692
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_HB_CMS_1.svg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 7983,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"fa7ee411860359e8d1e3d3e951864c6e\"",
+          "expires": "Tue, 14 Dec 2021 05:03:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "94736a76d789dd312479827f79fec97fe0828bf3ba1932e179f5e1cddabbc212",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.010131999966688454
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_HB_CMS_2.svg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 8244,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"e8b21338aa5a7069bf72719de85b182e\"",
+          "expires": "Tue, 14 Dec 2021 05:03:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3c033de38189f76899f186e1cba2d0c4ec9c097472cdc30a4b094ba803231543",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.0100660000462085
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_HB_CMS_3.svg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 8234,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"72200140907a7b22064bc642ef21667c\"",
+          "expires": "Tue, 14 Dec 2021 05:02:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5b797d2f66a489d384f924918cdebb22d4b856407df769587faf30aa6a19fbc2",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.011163000017404556
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_V2_HB_CMS_4.svg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 9857,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"26ed9faecc1d83c9976ccd22af35fb78\"",
+          "expires": "Tue, 14 Dec 2021 05:02:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "04016b327d55bc80519ebbc58b4d673685199b1e98069f78782e0f8463cc7f59",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.012006000033579767
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_HB_CMS_5.svg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 6670,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"28063132eb53f9ad5b661d4a53e7a3ea\"",
+          "expires": "Tue, 14 Dec 2021 05:02:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "64574370fa2a4c34430f4c886120a64ac8d7c1d0ce62cc7d686ec90a3413909f",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.010357000050134957
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/img/mxc/12132021_HB_CMS_6.svg?imwidth=1920",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 5983,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"83cdc3074093ffb9f3fd825f83090ba0\"",
+          "expires": "Tue, 14 Dec 2021 05:03:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0c7b8c8d03918eabf2f5279c471e7ef8e45dab437febce5b1aef72e222d9be30",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/610-fe4a981d4633a41f.js"
+        ],
+        "time": 0.011288000037893653
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/video/homepage/",
+        "method": "GET",
+        "type": "Media",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 301,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "56516685b9504659a6a165608999332a7ce5569eb971b397e68f68fdfa4f962a",
+        "redirectedTo": "https://www.overstock.com/video/homepage/",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.17500899999868125
+      },
+      {
+        "url": "https://www.overstock.com/video/homepage/",
+        "method": "GET",
+        "type": "Media",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 500,
+        "size": 968,
+        "remoteIPAddress": "104.84.233.23",
+        "responseHeaders": {
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT",
+          "set-cookie": "ostk_aggr_year=country^NL|currency^EUR|language^en|mxcuserseed^4828304471576024400; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:09 GMT; Path=/; HttpOnly\nostk_aggr_year2=ocode^36fad9f0-5e8a-11ec-9db7-55b76c564ecd; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:09 GMT; Path=/; HttpOnly\nostk_campaign=\"\"; Domain=.overstock.com; Expires=Fri, 16-Dec-2022 16:07:09 GMT; Path=/; HttpOnly\nmxcsurftype=7; Domain=.overstock.com; Path=/; HttpOnly\nmxcgotoast=\"\"; Domain=.overstock.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly\nbm_sv=FBCF13DF3A3D749C912F91F0DCD3F912~XFWarUhco0kD6rhuyMJYgDwCWANKGMdMjMmPtm2Kby+yPFse/KCaA0oaw3NSNQOlWRo/qVPm8vDbfl1slt8J+EZTMD+JUWLcamC84wamIGwBjE/iSoECD5I1On/n/UOKyk4u6cFPWYpafTQ5DttcA6SO4ZvifMWyn74bhpunwVs=; Domain=.overstock.com; Path=/; Max-Age=7199; HttpOnly"
+        },
+        "responseBodyHash": "56516685b9504659a6a165608999332a7ce5569eb971b397e68f68fdfa4f962a",
+        "redirectedFrom": "https://ak1.ostkcdn.com/video/homepage/",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.48434299998916686
+      },
+      {
+        "url": "https://api.overstock.com/country",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 3155,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "5a4a5ce6f65afef97754eb9f14f8ca7d0f8bb2267418b9c7cca0f7ba341b26e7",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/intl-country-select-lightbox.1.0.14.min.js"
+        ],
+        "time": 0.18900000001303852
+      },
+      {
+        "url": "https://api.overstock.com/country",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 3110,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "5a4a5ce6f65afef97754eb9f14f8ca7d0f8bb2267418b9c7cca0f7ba341b26e7",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/intl-country-select-lightbox.1.0.14.min.js"
+        ],
+        "time": 0.18564200005494058
+      },
+      {
+        "url": "https://api.overstock.com/sitetestbroker/external/sitetests/exposures/4828304471576024400",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.overstock.com/sitetestbroker/external/sitetests/exposures/4828304471576024400"
+        ],
+        "time": 0.1818409999832511
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-spa-1209.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 16247,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"0a1d4ac0ed6107cdf844f28cc3ba3b82\""
+        },
+        "responseBodyHash": "49cd7e514d20a427de78b14e516213d02b2c7ec0cee399584eab79f889c55964",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.03552999999374151
+      },
+      {
+        "url": "https://api.overstock.com/sitetestbroker/external/sitetests/exposures/4828304471576024400",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 225,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "72f4d5ece99cec24acfe3732dcd0f582cd48902f01732cc175ebf03709c79cd4",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/ostk-user-tracking-all.4.0.24.min.js"
+        ],
+        "time": 0.3711390000535175
+      },
+      {
+        "url": "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 34949,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"643f9828dea0f1b902ca9d7ed5838862-df\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122",
+        "initiators": [
+          "https://www.overstock.com/"
+        ],
+        "time": 0.01382200000807643
+      },
+      {
+        "url": "https://r.3gl.net/hawklogserver/r.p",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 273,
+        "remoteIPAddress": "136.144.49.122",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "private",
+          "set-cookie": "ua=13,84,93,16,10,0,0,0; path=/; SameSite=None\ngi=82,2,150,2815,12673,0,0,0,349159,2,6542,1103,39119,978768; path=/; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://g.3gl.net/jp/713/v3.3.2/M",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.056118000065907836
+      },
+      {
+        "url": "https://api.overstock.com/onecall/tracking/events/bulk",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 311,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/ostk-user-tracking-all.4.0.24.min.js"
+        ],
+        "time": 0.197622999898158
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/1/NRJS-37d02a8a01633d0b97d?a=1032852364&sa=1&v=1209.f04e2b9&t=Unnamed%20Transaction&rst=3427&ck=1&ref=https://www.overstock.com/&be=685&fe=3367&dc=1810&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1639670825934,%22n%22:0,%22f%22:1,%22dn%22:8,%22dne%22:29,%22c%22:29,%22s%22:38,%22ce%22:89,%22rq%22:89,%22rp%22:649,%22rpe%22:729,%22dl%22:657,%22di%22:1369,%22ds%22:1810,%22de%22:2071,%22dc%22:3366,%22l%22:3367,%22le%22:3395%7D,%22navigation%22:%7B%7D%7D&fp=846&fcp=846&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "JSESSIONID=1fe54a388f5e5e2b; Path=/; Domain=.nr-data.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "dac715f087720dd7ff7067f5d2ec1988851fa93140ae8a9cbfaa15659dd7fd82",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://js-agent.newrelic.com/nr-spa-1209.min.js"
+        ],
+        "time": 0.17504200001712888
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 26816,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.04321499995421618
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 830,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.15426499990280718
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 10961,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=2EF6574DB52164AB0BC94642B4A5651C; domain=.bing.com; expires=Tue, 10-Jan-2023 16:07:09 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.07863699994049966
+      },
+      {
+        "url": "https://gum.criteo.com/sync?a=1&c=11&r=2&j=utag_handle_criteo_userid",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "178.250.0.157",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "uid=4aa381d8-59c7-4ed7-830e-2f0063b53006; expires=Tue, 10 Jan 2023 16:07:09 GMT; domain=.criteo.com; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://gum.criteo.com/sync?s=1&a=1&c=11&r=2&j=utag_handle_criteo_userid",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.08052099996712059
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.129.js?utv=ut4.46.202110151650",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 1420,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"204119712f8de2d3f76a1abb23c602ae:1614967159.847187\"",
+          "expires": "Fri, 31 Dec 2021 16:07:09 GMT"
+        },
+        "responseBodyHash": "4882b23d8838e874c7cf044ac32700a33880e016481a170aeaf7898cb987d6e5",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.05143699992913753
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.147.js?utv=ut4.46.202110261603",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 2968,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"ec3846ab99cae4a1f94a773b659cf518:1635264194.253657\"",
+          "expires": "Fri, 31 Dec 2021 16:07:09 GMT"
+        },
+        "responseBodyHash": "7f74bfde556ad402374d9b41eb5428a57a5eab945fec42a17c655009c4205f10",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.05104900000151247
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.65.js?utv=ut4.46.202107302146",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 6497,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"154926a832a51b95ae3f2fef96ea57a1:1627681569.402318\"",
+          "expires": "Fri, 31 Dec 2021 16:07:09 GMT"
+        },
+        "responseBodyHash": "1a5c2981fcfaa45d5816aec63b29cbb4cda8d739684673bf5ffcd6c779957557",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.05066899990197271
+      },
+      {
+        "url": "https://ds-aksb-a.akamaihd.net/2/408314/b?dE=21&cS=21&cE=81&rqS=81&rsS=641&rsE=721&sS=30&dl=649&di=1361&fp=847&dlS=1802&dlE=2063&dc=3358&leS=3359&leE=3387&to=&ol=0&cr=12&mt=&mb=&b=655617&u=https%3A//www.overstock.com/&ua=Mozilla/5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/93.0.4577.63%20Safari/537.36&pl=Win32&us=&gh=23.5.164.108&t=&rid=a78cfc3&r=40913&akM=dsca&akN=ae&vc=14:17&bpcip=9174a400&akTX=1&akTI=a78cfc3&ai=256939&pmgn=ionwwwoverstockcom&pmgi=&pmp=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 204,
+        "size": 269,
+        "remoteIPAddress": "95.100.97.32",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, private",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ds-aksb-a.akamaihd.net/aksb.min.js",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.010381000000052154
+      },
+      {
+        "url": "https://api.overstock.com/sitetestbroker/external/sitetests/characteristics/exposed/4828304471576024400",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 195,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "1c2674e2295c08814fbef8a2c75f0e22c3043c471fb3fc473ef16231cc3d8275",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/js/ostk-user-tracking-all.4.0.24.min.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.37982300005387515
+      },
+      {
+        "url": "https://api.overstock.com/sitetestbroker/external/sitetests/characteristics/exposed/4828304471576024400",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.37.59",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "p3p": "CP=CAO DSP COR CUR CUSi OUR BUS PHY ONL PUR NAV STA",
+          "timing-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.overstock.com/sitetestbroker/external/sitetests/characteristics/exposed/4828304471576024400"
+        ],
+        "time": 0.18110000004526228
+      },
+      {
+        "url": "https://connect.facebook.net/signals/plugins/identity.js?v=2.9.48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 20793,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "ddbc1a158d7d13b63c0fda8fd2ece421016468e9e88914d2b81d3e8929c19df1",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.014460000093095005
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/639653892787185?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 89231,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "898a648ad410eac20faaf37e06e6419781e4d7e714aa2e1bb96441036600eceb",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.020194999990053475
+      },
+      {
+        "url": "https://gum.criteo.com/sync?s=1&a=1&c=11&r=2&j=utag_handle_criteo_userid",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 408,
+        "remoteIPAddress": "178.250.0.157",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "expires": "60"
+        },
+        "responseBodyHash": "160e21ab89151a4a6195f458ed9c60df27ca0f567cee4b7a1d4407e5488cf4cc",
+        "redirectedFrom": "https://gum.criteo.com/sync?a=1&c=11&r=2&j=utag_handle_criteo_userid",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.027616000035777688
+      },
+      {
+        "url": "https://prod.accdab.net/cdn/cs/kqScQcdGSSaI3dBtp4jwEFQjXsQ.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 9061,
+        "remoteIPAddress": "13.227.219.54",
+        "responseHeaders": {
+          "cache-control": "max-age=600, must-revalidate, public, proxy-revalidate, s-maxage=3600",
+          "etag": "W/\"2d0937e23561575439eed5e8c7bb9614\""
+        },
+        "responseBodyHash": "2516921cd1002c695846942ce0d42df5db33c33803198827f5a24de3d1246cac",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.129.js?utv=ut4.46.202110151650",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.06556899996940047
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 36732,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT"
+        },
+        "responseBodyHash": "a70514bce2bfb86d380fa98f01850b541478f08a196212aa56370178212c29d3",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.147.js?utv=ut4.46.202110261603",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.05935200001113117
+      },
+      {
+        "url": "https://collect.tealiumiq.com/overstock/main/2/i.gif",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 757,
+        "remoteIPAddress": "52.212.40.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "no-transform,private,no-cache,no-store,max-age=0,s-maxage=0",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "pragma": "no-cache",
+          "set-cookie": "TAPID=overstock/main>017dc3ff513b0015ced8fe67f29301078001a07000590|; Path=/; Domain=.tealiumiq.com; Expires=Fri, 16-Dec-2022 16:07:09 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.65.js?utv=ut4.46.202107302146",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.09705400001257658
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=overstock/main/202111121845&cb=1639670829551",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 202,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "\"7bc0ee636b3b83484fc3b9348863bd22:1460653071\"",
+          "expires": "Thu, 16 Dec 2021 16:17:09 GMT"
+        },
+        "responseBodyHash": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.65.js?utv=ut4.46.202107302146"
+        ],
+        "time": 0.008840000024065375
+      },
+      {
+        "url": "https://bat.bing.com/p/action/5129621.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 1002,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b2336ca7f68c17084de06a3cf7614abf470f6ff63d239c185e367da5004cb909",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://bat.bing.com/bat.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.34565199993085116
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=5129621&Ver=2&mid=ba41518d-4848-4a8f-a4e6-83f90e865783&sid=38f4bdb05e8a11ec893f254ae2b4e053&vid=38f568305e8a11ec8c4a81f97e04a51f&vids=1&pi=842281895&lg=en-GB&sw=800&sh=600&sc=24&tl=Overstock.com%20%7C%20The%20Best%20Deals%20Online%3A%20Furniture,%20Bedding,%20Jewelry%20%26%20More&p=https%3A%2F%2Fwww.overstock.com%2F&r=&lt=3395&evt=pageLoad&msclkid=N&sv=1&rn=343619",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 204,
+        "size": 95,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.02857399999629706
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=5129621&Ver=2&mid=ba41518d-4848-4a8f-a4e6-83f90e865783&sid=38f4bdb05e8a11ec893f254ae2b4e053&vid=38f568305e8a11ec8c4a81f97e04a51f&vids=0&gc=USD&evt=custom&msclkid=N&rn=71067",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 204,
+        "size": 149,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.02635299996472895
+      },
+      {
+        "url": "https://www.overstock.com/js/service-worker.2.0.2.min.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"c47230ea213079f46938ec51473c447e:1605560428.749728\"",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT",
+          "pragma": "no-cache"
+        },
+        "initiators": []
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=639653892787185&ev=PageView&dl=https%3A%2F%2Fwww.overstock.com%2F&rl=&if=false&ts=1639670829639&cd[content_name]=Home_Page_-_1st_time_Untracked&sw=800&sh=600&ud[external_id]=7c11f8faffaf6f409631acd8d2e29e2df7ff15fd8f748362ba26233224b98cb6&v=2.9.48&r=stable&a=tmtealium&ec=0&o=30&fbp=fb.1.1639670829635.1523992321&it=1639670829489&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=1639670829383&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/639653892787185?v=2.9.48&r=stable"
+        ],
+        "time": 0.032097999937832355
+      },
+      {
+        "url": "https://jssdkcdns.mparticle.com/JS/v2/b8c3dde1c7f21948b890b2606a18c623/config?env=0",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 14894,
+        "remoteIPAddress": "151.101.130.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:02:34 GMT"
+        },
+        "responseBodyHash": "16c04f6c1a920e880c03774c3b368a606f9ef659ff3dabb9b0772daee54ad2b7",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js"
+        ],
+        "time": 0.062440000008791685
+      },
+      {
+        "url": "https://datacloud.tealiumiq.com/vdata/i.gif?tealium_vid=017dc3ff513b0015ced8fe67f29301078001a07000590&tealium_account=overstock&tealium_profile=main&userid=XawaHcHISdlWyuivk6K8eMGw75lU5TJw&tealium_cookie_sync=true",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 838,
+        "remoteIPAddress": "52.212.40.16",
+        "responseHeaders": {
+          "cache-control": "no-transform,private,no-cache,no-store,max-age=0,s-maxage=0",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "pragma": "no-cache",
+          "set-cookie": "TAPID=overstock/main>017dc3ff513b0015ced8fe67f29301078001a07000590|; Path=/; Domain=.tealiumiq.com; Expires=Fri, 16-Dec-2022 16:07:09 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=None\ntcs.userid=eyJvdmVyc3RvY2svbWFpbiI6Ilhhd2FIY0hJU2RsV3l1aXZrNks4ZU1Hdzc1bFU1VEp3fDE2Mzk2NzA4Mjk4NTAifQ==; Path=/; Domain=.tealiumiq.com; Expires=Thu, 16-Jun-2022 16:07:09 GMT; Max-Age=15724800; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://gum.criteo.com/sync?a=1&c=11&r=2&j=utag_handle_criteo_userid"
+        ],
+        "time": 0.04345100000500679
+      },
+      {
+        "url": "https://visitor-service-eu-west-1.tealiumiq.com/overstock/main/017dc3ff513b0015ced8fe67f29301078001a07000590?callback=utag.ut%5B%22writevamain%22%5D&rnd=1639670829730",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 212,
+        "remoteIPAddress": "46.137.65.107",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.65.js?utv=ut4.46.202107302146"
+        ],
+        "time": 0.11303699994459748
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 19099,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.11575200001243502
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Thu, 16 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.147.js?utv=ut4.46.202110261603",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.04738999996334314
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-1606442&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 36074,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT"
+        },
+        "responseBodyHash": "6d97b5e6b44366cbc66e5688fbbc85ab78dd9e12237afb5316d69213152a02a5",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.147.js?utv=ut4.46.202110261603",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.03087100002449006
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-1787227&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 36075,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:07:09 GMT"
+        },
+        "responseBodyHash": "51b9b11ff7f3c240debfcd0bce75ec12fc2b87cf404d24e4a2518e93962b0b31",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.147.js?utv=ut4.46.202110261603",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.03333300002850592
+      },
+      {
+        "url": "https://prod.accdab.net/beacon/bf/bf.html?v=202009_01",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 2692,
+        "remoteIPAddress": "13.227.219.54",
+        "responseHeaders": {
+          "cache-control": "max-age=600, must-revalidate, public, proxy-revalidate, s-maxage=3600"
+        },
+        "responseBodyHash": "f0e5640d66c44d407d5bde1f0e1808297aaff94c64946183ee081b4c77dd65ce",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://prod.accdab.net/cdn/cs/kqScQcdGSSaI3dBtp4jwEFQjXsQ.js"
+        ],
+        "time": 0.36717900005169213
+      },
+      {
+        "url": "https://prod.accdab.net/beacon/et?c=kqScQcdGSSaI3dBtp4jwEFQjXsQ&t=7347c85d9882247683e331609bd291543dd9",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 204,
+        "size": 463,
+        "remoteIPAddress": "13.227.219.54",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod.accdab.net/cdn/cs/kqScQcdGSSaI3dBtp4jwEFQjXsQ.js"
+        ],
+        "time": 0.1486550000263378
+      },
+      {
+        "url": "https://sdk.iad-03.braze.com/api/v3/data/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.37.208",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sdk.iad-03.braze.com/api/v3/data/"
+        ],
+        "time": 0.11969800002407283
+      },
+      {
+        "url": "https://identity.mparticle.com/v1/identify",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://identity.mparticle.com/v1/identify"
+        ],
+        "time": 0.036650999914854765
+      },
+      {
+        "url": "https://sdk.iad-03.braze.com/api/v3/data/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 201,
+        "size": 3930,
+        "remoteIPAddress": "151.101.37.208",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"f91857a002e8219531a437019bec9166\""
+        },
+        "responseBodyHash": "f91857a002e8219531a437019bec9166577c9c1343ed5b73a8077ea4161d1369",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js"
+        ],
+        "time": 0.5941250000614673
+      },
+      {
+        "url": "https://identity.mparticle.com/v1/identify",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 298,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "7b3ad6064061d0619d27b78b22926068d1f3f8d4cf5cb336cbded98534fc02c2",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js"
+        ],
+        "time": 0.1528630000539124
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=655614333&t=pageview&_s=1&dl=https%3A%2F%2Fwww.overstock.com%2F&dp=%2F&ul=en-gb&de=UTF-8&dt=Overstock.com%20%7C%20The%20Best%20Deals%20Online%3A%20Furniture%2C%20Bedding%2C%20Jewelry%20%26%20More&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=4KBAAUABAAAAAC~&jid=1654473772&gjid=846797552&cid=4828304471576024400&tid=UA-22002224-1&_gid=1366767998.1639670830&_r=1&cd8=&cd41=Home%20Page&cd42=Home%20Page&cd43=Home%20Page&cd44=Home%20Page&cd4=&cd29=&cd59=&cd60=4828304471576024400&gtm=2ouc10&did=dYmQxMT&gdid=dYmQxMT&z=1729357800",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 209,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.012581999995745718
+      },
+      {
+        "url": "https://1606442.fls.doubleclick.net/activityi;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://1606442.fls.doubleclick.net/activityi;dc_pre=CK6zhuvZ6PQCFeoA0wod5g8FPQ;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-1606442&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1"
+        ],
+        "time": 0.0568639999255538
+      },
+      {
+        "url": "https://1606442.fls.doubleclick.net/activityi;register_conversion=1;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 16-Dec-2021 16:22:10 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-1606442&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1"
+        ],
+        "time": 0.049143999931402504
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2613895236946&ov=%7B%22page_name%22%3A%22Overstock.com%20%7C%20The%20Best%20Deals%20Online%3A%20Furniture%2C%20Bedding%2C%20Jewelry%20%26%20More%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%7D&cb=1639670830007",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 756,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "cd80ae8e3e2bda63c74d0584cc96aa28d5a54b7a7384ff046ed4082c3d642f6f",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.060056000016629696
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613895236946&ov=%7B%22page_name%22%3A%22Overstock.com%20%7C%20The%20Best%20Deals%20Online%3A%20Furniture%2C%20Bedding%2C%20Jewelry%20%26%20More%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.overstock.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1639670830014",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 86,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.057579000014811754
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22currency%22%3A%22USD%22%2C%22pageName%22%3A%22home%22%7D&tid=2613895236946&pd=%7B%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.overstock.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1639670830015",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZodjRMM0NkbFJncWs3aW1lRU41TW1ZL0hxNC9qcWdYWXF2Qi91ZHh6N29peWVicm1qZG9iRTZWek1MWXlDbm5qalRMVFhsTnk3TDkzRG05K0g2R0xUUHNHL3dpS0YrQXRUZjNMcWpkd1p3MD0mQStCNHYyWVMycUUwUjVva0hIR3ZLUm5PYks0PQ==\"; Expires=Fri, 16 Dec 2022 16:07:10 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.pinterest.com/.well-known/attribution-reporting/trigger-attribution/redirect?trigger-data=0&priority=22",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.29097099998034537
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=initiator&ed=%7B%22pageName%22%3A%22home%22%7D&tid=2613895236946&pd=%7B%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.overstock.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1639670830016",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 341,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZRT0pPbUk2T3NVQ2NTMjV6ZUdTb0VXUnl6MkpPeTN6RklKOEpoZ0ZKQTVlVWZjdm90S1VyTzNuREFwNlJJYXRZM0gzSjYzWTJERVJpSE12ZWYvaEhkeFdQTnBiWHdVRmRqN3I2eHpHWkRLdz0mUHFFVTIyM2thTldCZG41VmVoQnF3L0pXelNVPQ==\"; Expires=Fri, 16 Dec 2022 16:07:10 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.05565500003285706
+      },
+      {
+        "url": "https://1606442.fls.doubleclick.net/activityi;dc_pre=CK6zhuvZ6PQCFeoA0wod5g8FPQ;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "about:blank",
+        "status": 200,
+        "size": 904,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:07:10 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "IDE=AHWqTUlQKB50CGqPD-7Km53pDayqUK1OGQemKWplhQNZZssx3RQOPZ8359VPzH5FVOQ; expires=Tue, 10-Jan-2023 16:07:10 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "60f366ffb4d2e4c328d5accafaeeefe68a74e29e19b6ed037a7958a36debb78a",
+        "redirectedFrom": "https://1606442.fls.doubleclick.net/activityi;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-1606442&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1"
+        ],
+        "time": 0.057327000075019896
+      },
+      {
+        "url": "https://1787227.fls.doubleclick.net/activityi;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=954352509.1639670830;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://1787227.fls.doubleclick.net/activityi;dc_pre=CMXJjevZ6PQCFSwC0wodUeMDFA;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=954352509.1639670830;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-1787227&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1"
+        ],
+        "time": 0.029897999949753284
+      },
+      {
+        "url": "https://1787227.fls.doubleclick.net/activityi;register_conversion=1;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=954352509.1639670830;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-1787227&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1"
+        ],
+        "time": 0.020944999996572733
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/NRJS-37d02a8a01633d0b97d?a=1032852364&sa=1&v=1209.f04e2b9&t=Unnamed%20Transaction&rst=4225&ck=1&ref=https://www.overstock.com/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://js-agent.newrelic.com/nr-spa-1209.min.js",
+          "https://ak1.ostkcdn.com/js/ostk-user-tracking-all.4.0.24.min.js"
+        ],
+        "time": 0.13322600000537932
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-22002224-1&cid=4828304471576024400&jid=1654473772&gjid=846797552&_gid=1366767998.1639670830&_u=4KBAAUAAAAAAAC~&z=43234469",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 444,
+        "remoteIPAddress": "172.217.218.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.04397900006733835
+      },
+      {
+        "url": "https://1787227.fls.doubleclick.net/activityi;dc_pre=CMXJjevZ6PQCFSwC0wodUeMDFA;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=954352509.1639670830;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "about:blank",
+        "status": 200,
+        "size": 420,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:07:10 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5f81c30138769d16dca3c11799f02480eea7b892a7fb656da683c151bf3c9a35",
+        "redirectedFrom": "https://1787227.fls.doubleclick.net/activityi;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=954352509.1639670830;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-1787227&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-22002224-1"
+        ],
+        "time": 0.04269699996802956
+      },
+      {
+        "url": "https://jssdks.mparticle.com/v2/JS/b8c3dde1c7f21948b890b2606a18c623/Events",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 202,
+        "size": 293,
+        "remoteIPAddress": "151.101.194.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8f3ace4734de731ba5a15c52dfb5fb3f1a181d510f149db72e4be8c436bf54c4",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.04380400001537055
+      },
+      {
+        "url": "https://jssdks.mparticle.com/v2/JS/b8c3dde1c7f21948b890b2606a18c623/Events",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 202,
+        "size": 128,
+        "remoteIPAddress": "151.101.194.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8f3ace4734de731ba5a15c52dfb5fb3f1a181d510f149db72e4be8c436bf54c4",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.04141100007109344
+      },
+      {
+        "url": "https://jssdks.mparticle.com/v2/JS/b8c3dde1c7f21948b890b2606a18c623/Events",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 202,
+        "size": 127,
+        "remoteIPAddress": "151.101.194.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8f3ace4734de731ba5a15c52dfb5fb3f1a181d510f149db72e4be8c436bf54c4",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js"
+        ],
+        "time": 0.03917500004172325
+      },
+      {
+        "url": "https://www.pinterest.com/.well-known/attribution-reporting/trigger-attribution/redirect?trigger-data=0&priority=22",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.overstock.com/",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_routing_id=\"5f2fe90f-fc9b-4cd2-bd91-6dff8ab0e95f\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "redirectedFrom": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22currency%22%3A%22USD%22%2C%22pageName%22%3A%22home%22%7D&tid=2613895236946&pd=%7B%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.overstock.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1639670830015",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ]
+      },
+      {
+        "url": "https://collect.tealiumiq.com/overstock/main/2/i.gif",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 939,
+        "remoteIPAddress": "52.212.40.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com",
+          "cache-control": "no-transform,private,no-cache,no-store,max-age=0,s-maxage=0",
+          "expires": "Thu, 16 Dec 2021 16:07:10 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "pragma": "no-cache",
+          "set-cookie": "TAPID=overstock/main>017dc3ff513b0015ced8fe67f29301078001a07000590|; Path=/; Domain=.tealiumiq.com; Expires=Fri, 16-Dec-2022 16:07:10 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=None\ntcs.userid=eyJvdmVyc3RvY2svbWFpbiI6Ilhhd2FIY0hJU2RsV3l1aXZrNks4ZU1Hdzc1bFU1VEp3fDE2Mzk2NzA4Mjk4NTAifQ==; Path=/; Domain=.tealiumiq.com; Expires=Thu, 16-Jun-2022 16:07:10 GMT; Max-Age=15724800; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.65.js?utv=ut4.46.202107302146",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js",
+          "https://ak1.ostkcdn.com/js/overstock-page-trigger.1.8.8.min.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/pages/main-ca252b5847767b82.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js"
+        ],
+        "time": 0.02786899998318404
+      },
+      {
+        "url": "https://e.clarity.ms/s/0.6.30/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 23036,
+        "remoteIPAddress": "20.62.48.180",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "etag": "\"1d7ed4598a2cbb1\""
+        },
+        "responseBodyHash": "c763a7b86f4b8e21741d95bf307b2932555a20d4ad383adc764c99fdbb8e88d8",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://bat.bing.com/p/action/5129621.js"
+        ],
+        "time": 0.3920149999903515
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "52.142.114.2",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=T; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=255E30B0A6316101085421BFA2316F04; domain=.clarity.ms; expires=Tue, 10-Jan-2023 16:07:10 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.bing.com/c.gif?CtsSyncId=7DF95E99B5914CBEA33636030A4A131F&RedC=c.clarity.ms&MXFR=255E30B0A6316101085421BFA2316F04",
+        "initiators": [
+          "https://bat.bing.com/p/action/5129621.js"
+        ],
+        "time": 0.09026099997572601
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 4253,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=df1fece3a5dbb2efd71981f5554075e3; path=/; expires=Fri, 16 Dec 2022 16:07:10 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZNQU83QjZ3RU1FTjIrekYydFR2dnc2cnAydVhaaW5VRlEreU1TdnpSMEliR2Q3LzlSU0V2UHdYeUVqSS9mTWp5TElzZGhxWDU0Sk5zV1FhRlAySjdGZVk0ZFNINE4wQW8vUldycDlHbzJQWmRNWGM0LzFSZStFajdYOUxIWHkrSCY2UjRCZFVESDNRM2NjQWJLU3M4ci9KcnhuYzQ9; path=/; expires=Sun, 11 Dec 2022 16:07:10 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Sun, 11 Dec 2022 16:07:10 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://www.overstock.com/; path=/; expires=Thu, 16 Dec 2021 16:12:10 GMT; domain=.pinterest.com; secure\n_routing_id=\"6e461b93-68ea-4312-963d-5e55f9e65658\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "419c8957c1abf2d5c40778204f9d2103597ec9c23b4fc6003968ebfaca70221c",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.18503799999598414
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 204,
+        "size": 198,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.04979700001422316
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 109,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.01550800004042685
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-22002224-1&cid=4828304471576024400&jid=1654473772&_u=4KBAAUAAAAAAAC~&z=107581549",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.05767899996135384
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-22002224-1&cid=4828304471576024400&jid=1654473772&_u=4KBAAUAAAAAAAC~&z=107581549",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.059382000006735325
+      },
+      {
+        "url": "https://www.pinterest.com/.well-known/attribution-reporting/trigger-attribution?trigger-data=0&priority=22",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.overstock.com/",
+        "size": 0,
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [],
+        "time": 0.00020300003234297037
+      },
+      {
+        "url": "https://visitor-service-eu-west-1.tealiumiq.com/overstock/main/017dc3ff513b0015ced8fe67f29301078001a07000590?callback=utag.ut%5B%22writevamain%22%5D&rnd=1639670830446",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 211,
+        "remoteIPAddress": "46.137.65.107",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/utag.prod.9ce80722121a8294dd1bd23a48e95ae9fb1b944266be2fcbaf85f36fec53f122.js",
+          "https://tags.tiqcdn.com/utag/overstock/main/prod/utag.65.js?utv=ut4.46.202107302146",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js",
+          "https://ak1.ostkcdn.com/js/overstock-page-trigger.1.8.8.min.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/pages/main-ca252b5847767b82.js",
+          "https://ak1.ostkcdn.com/static/homepage/_next/static/chunks/framework-0f8b31729833af61.js"
+        ],
+        "time": 0.030476999934762716
+      },
+      {
+        "url": "https://js.adsrvr.org/up_loader.1.1.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://1606442.fls.doubleclick.net/",
+        "status": 200,
+        "size": 2410,
+        "remoteIPAddress": "13.227.222.181",
+        "responseHeaders": {
+          "etag": "W/\"98d98b3499058b76d58073cf8ede2f10\""
+        },
+        "responseBodyHash": "ee3a7301fe1e0c0f6bf6acff0d7a8d107f5cb3f62a2566740c0416d8e61f00b9",
+        "initiators": [
+          "https://1606442.fls.doubleclick.net/activityi;dc_pre=CK6zhuvZ6PQCFeoA0wod5g8FPQ;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?"
+        ],
+        "time": 0.04397300002165139
+      },
+      {
+        "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CK6zhuvZ6PQCFeoA0wod5g8FPQ;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=*;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://1606442.fls.doubleclick.net/",
+        "status": 200,
+        "size": 494,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://1606442.fls.doubleclick.net/activityi;dc_pre=CK6zhuvZ6PQCFeoA0wod5g8FPQ;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?"
+        ],
+        "time": 0.05406999995466322
+      },
+      {
+        "url": "https://sdk.iad-03.braze.com/api/v3/content_cards/sync",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.37.208",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sdk.iad-03.braze.com/api/v3/content_cards/sync"
+        ],
+        "time": 0.35794000001624227
+      },
+      {
+        "url": "https://sdk.iad-03.braze.com/api/v3/content_cards/sync",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 201,
+        "size": 257,
+        "remoteIPAddress": "151.101.37.208",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"fa7ea294d9dff113b7ca6a8b0eeab36d\""
+        },
+        "responseBodyHash": "fa7ea294d9dff113b7ca6a8b0eeab36ddb20993b83625acfade869ec49c89cff",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js"
+        ],
+        "time": 0.4802640000125393
+      },
+      {
+        "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CMXJjevZ6PQCFSwC0wodUeMDFA;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=*;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://1787227.fls.doubleclick.net/",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://1787227.fls.doubleclick.net/activityi;dc_pre=CMXJjevZ6PQCFSwC0wodUeMDFA;src=1787227;type=homep458;cat=overs427;ord=1;num=4796393341134;gtm=2odc10;auiddc=954352509.1639670830;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?"
+        ],
+        "time": 0.025644000037573278
+      },
+      {
+        "url": "https://c.bing.com/c.gif?CtsSyncId=7DF95E99B5914CBEA33636030A4A131F&RedC=c.clarity.ms&MXFR=255E30B0A6316101085421BFA2316F04",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 302,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SRM_B=2EF6574DB52164AB0BC94642B4A5651C; domain=c.bing.com; expires=Tue, 10-Jan-2023 16:07:10 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.clarity.ms/c.gif?CtsSyncId=7DF95E99B5914CBEA33636030A4A131F&MUID=2EF6574DB52164AB0BC94642B4A5651C",
+        "redirectedFrom": "https://c.clarity.ms/c.gif",
+        "initiators": [
+          "https://bat.bing.com/p/action/5129621.js"
+        ],
+        "time": 0.03526100004091859
+      },
+      {
+        "url": "https://prod.accdab.net/beacon/gt?c=kqScQcdGSSaI3dBtp4jwEFQjXsQ",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://prod.accdab.net/beacon/bf/bf.html?v=202009_01",
+        "status": 200,
+        "size": 452,
+        "remoteIPAddress": "13.227.219.54",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "eae8f0ef707fe073608113706be7e5a05db51fbc964f22e5f922e056fbd15715",
+        "initiators": [
+          "https://prod.accdab.net/beacon/bf/bf.html?v=202009_01",
+          "https://prod.accdab.net/cdn/cs/kqScQcdGSSaI3dBtp4jwEFQjXsQ.js",
+          "https://www.overstock.com/"
+        ],
+        "time": 0.4357949999393895
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?CtsSyncId=7DF95E99B5914CBEA33636030A4A131F&MUID=2EF6574DB52164AB0BC94642B4A5651C",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 369,
+        "remoteIPAddress": "52.142.114.2",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "etag": "\"f95a3e4769d2d71:0\"",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=C; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=2EF6574DB52164AB0BC94642B4A5651C; domain=.clarity.ms; expires=Tue, 10-Jan-2023 16:07:10 GMT; path=/; SameSite=None; Secure; Priority=High;\nANONCHK=0; domain=c.clarity.ms; expires=Thu, 16-Dec-2021 16:17:10 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e",
+        "redirectedFrom": "https://c.bing.com/c.gif?CtsSyncId=7DF95E99B5914CBEA33636030A4A131F&RedC=c.clarity.ms&MXFR=255E30B0A6316101085421BFA2316F04",
+        "initiators": [
+          "https://bat.bing.com/p/action/5129621.js"
+        ],
+        "time": 0.020308000035583973
+      },
+      {
+        "url": "https://insight.adsrvr.org/track/up?adv=ogu53ay&ref=https%3A%2F%2Fwww.overstock.com%2F&upid=o44zs4q&upv=1.1.0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://1606442.fls.doubleclick.net/",
+        "status": 200,
+        "size": 182,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, must-revalidate",
+          "p3p": "CP=\"NOI DSP COR CUR ADMo DEVo PSAo PSDo OUR SAMo BUS UNI NAV\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://js.adsrvr.org/up_loader.1.1.0.js",
+          "https://1606442.fls.doubleclick.net/activityi;dc_pre=CK6zhuvZ6PQCFeoA0wod5g8FPQ;src=1606442;type=pagev0;cat=overs00;ord=1;num=1492883624708;gtm=2odc10;auiddc=954352509.1639670830;u1=Home%20Page%20-%201st%20time%20Untracked;gdid=dYmQxMT;ps=1;~oref=https%3A%2F%2Fwww.overstock.com%2F?"
+        ],
+        "time": 0.09031600004527718
+      },
+      {
+        "url": "https://e.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 204,
+        "size": 72,
+        "remoteIPAddress": "20.62.48.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://e.clarity.ms/s/0.6.30/clarity.js"
+        ],
+        "time": 0.09319899999536574
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/NRJS-37d02a8a01633d0b97d?a=1032852364&sa=1&v=1209.f04e2b9&t=Unnamed%20Transaction&rst=13440&ck=1&ref=https://www.overstock.com/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.overstock.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://js-agent.newrelic.com/nr-spa-1209.min.js"
+        ],
+        "time": 0.12622200010810047
+      },
+      {
+        "url": "https://sdk.iad-03.braze.com/api/v3/data/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.overstock.com/",
+        "status": 201,
+        "size": 182,
+        "remoteIPAddress": "151.101.37.208",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"44136fa355b3678a1146ad16f7e8649e\""
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.overstock.com/",
+          "https://ak1.ostkcdn.com/static/tagsSiteWide.4dee808d5918c8adc95a25324fef208fa100a171b5d6df789818001c1ece99a3.js"
+        ],
+        "time": 0.11329799995291978
+      }
+    ]
+  }
+}

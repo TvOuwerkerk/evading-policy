@@ -1,0 +1,3082 @@
+{
+  "initialUrl": "https://omybag.nl/",
+  "finalUrl": "https://omybag.nl/",
+  "timeout": false,
+  "testStarted": 1640013988780,
+  "testFinished": 1640014005805,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.omybag.nl/links.omybag.nl_6881.json",
+    "requests": [
+      {
+        "url": "https://omybag.nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 43543,
+        "remoteIPAddress": "23.227.38.65",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Tue, 20 Dec 2022 15:26:28 GMT; secure; HttpOnly\n_orig_referrer=; Expires=Mon, 03-Jan-22 15:26:29 GMT; Domain=omybag.nl; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Mon, 03-Jan-22 15:26:29 GMT; Domain=omybag.nl; Path=/; HttpOnly; SameSite=Lax\n_y=e98dcbff-f49d-4d6b-98f9-c2f28423a707; Expires=Tue, 20-Dec-22 15:26:29 GMT; Domain=omybag.nl; Path=/; SameSite=Lax\n_s=7b6e4e1b-100d-488d-a0af-268af7038b75; Expires=Mon, 20-Dec-21 15:56:29 GMT; Domain=omybag.nl; Path=/; SameSite=Lax\n_shopify_y=e98dcbff-f49d-4d6b-98f9-c2f28423a707; Expires=Tue, 20-Dec-22 15:26:29 GMT; Domain=omybag.nl; Path=/; SameSite=Lax\n_shopify_s=7b6e4e1b-100d-488d-a0af-268af7038b75; Expires=Mon, 20-Dec-21 15:56:29 GMT; Domain=omybag.nl; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "a5e5382ea592cb52cea3193b042133496bec2fdc5b1612974e80b1de9f4beddf",
+        "initiators": [],
+        "time": 0.3626750000003085
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 11337,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "37a3178408f6c9fe896767783f3ca840a019404c7bdb6043413afdd5f532fb82",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.01666299999851617
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3533,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.014556999998603715
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/jquery.min.js?v=6093865874309170411",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 30289,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6150a35c0f486c46cadf0e230e2aa159c7c23ecfbb5611b64ee3f25fcbff341f",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.024878000000171596
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/rivets-cart.min.js?v=7114845534825926254",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 10048,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ee812d407e58f038479040afce5264f439d02a12148d6ec952a2a0db2a68c6b2",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.016623000003164634
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/vendor.js?v=8497696825862752204",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1960,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e1be4aee1a00ec0092c3e55d95550f73697a3899bd629b7f350bc57dfd6ba9d0",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.017261000000871718
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/jquery.sticky.js?v=8067175613911540140",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1674,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "480f2147b6639f6cbaaf5c9a3ca554721d9fb8ca406c87378776d862ad8d3d23",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.020806000000447966
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/application.js?v=4270229068923840712",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1826,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "05f6f05140e401a688c5c6e94b6ef342390accf914442ab55b9e952ed2d8b44b",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.021440000000438886
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3561,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.01080300000103307
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 12599,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.011709999998856802
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_config.js?v=600499246101003375",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1271,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "555c5c57fb738114f31571fa211669dd8d571300263c033cc31f15e7cf4a2e00",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.006008000000292668
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_dependency_font-awesome-4-4-0.min.css?v=3658377772475384753",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 5283,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb7910f47e75835a6def4a40ee5a62a216fcc0a8169964d3c89ee3c1f54981d8",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.00550199999997858
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_externals.js?v=18163320936351528016",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 89116,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "731aefba0b926bd98163300565b2f3021c5f93e34d100998616864507e666f85",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.05475999999907799
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_init.js?v=8955103086733821711",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1605,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b0fcf4a2cf8fcb46654d99c27277d659911e99d02d2c4bd45a322c1d3567e413",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.005358999998861691
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_analytics.js?v=2646149630470272805",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 706,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7a16ac247390cb684412f492f183c10f9ad5b919f1e2da95fe7da54d9cea5a49",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.056121000001439825
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_translations.js?v=16032233844084835009",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1236,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9ea2caa7d6993ca704f8a72aa4cc0a2eee14463e3c2f8c0d03926a4bf78c8fb0",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.07022800000049756
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_helpers.js?v=2609014168475342017",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1576,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3f99e1ba8314a4698e24801b052336e38f1584e6d0eca8822d875a6353024a31",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.07119199999942794
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_autocomplete.js?v=15429519974497109255",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2087,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "44a417741b60ff5e88fa04819c86f3f0272df4cc0febfa8be39aa6a2e8706a19",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.07540200000221375
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_facets.js?v=10092834031812212097",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1643,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "21e30b1f88323fc3f4140154205cd469e35751898bfa18bd78cb7d1d6be80cd8",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.07668100000228151
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_sort_orders.js?v=6623712566040538010",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 631,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fee78af52ef7b9cf255b96e489a32161766835ae6e6befb84033d0989bded33",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.0776640000003681
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/algolia_instant_search.js?v=993286208449598054",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3567,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cfaff0aa5e93a152e7ab90b47ad09ff90046b045fc6e1ff06505a6c68d7518a6",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.07495200000266777
+      },
+      {
+        "url": "https://unpkg.com/aos@2.3.1/dist/aos.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2012,
+        "remoteIPAddress": "104.16.122.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"65c5-BVfTdFS2f0LyyxAeV+UHD7EZNXA\""
+        },
+        "responseBodyHash": "1aa8845fd06e475aefe733d4e55b36a92fcd487975049c8172341827ac9cc03e",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.038304000001517124
+      },
+      {
+        "url": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 4556,
+        "remoteIPAddress": "104.16.122.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"379f-cNv9OKDx/DsafZ+tq1h4ZITDTxc\""
+        },
+        "responseBodyHash": "f268612ba59ead1b24353bb77d66783bcc435aff1c22be5f93c40bac3869968e",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.04307499999777065
+      },
+      {
+        "url": "https://static.hotjar.com/c/hotjar-1610569.js?sv=6",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2528,
+        "remoteIPAddress": "65.9.83.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/fcd8b33114362389d87d7117b8cd5c88"
+        },
+        "responseBodyHash": "9931721f8ccefc9888aee7534a762c82d0146ad45ba321fcb7ac28534e9a5110",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.0702369999999064
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 61026,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:26:29 GMT"
+        },
+        "responseBodyHash": "13919e29b66cf3c459446661db0173e8a00a1ad3641abfc1f35cc06d7659ce8a",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.08458299999983865
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 16436,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:30:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f8bab8aa4042ca7b45b599e7d4e496146ebf1b45aabb8ff96ad79393ebd10840",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.02551599999787868
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3166,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.0167040000014822
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/3/assets/Steagal-Li.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "status": 200,
+        "size": 55802,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d192cebe05521e4fc9e58efe6d62ee4f6ca6ab3ff9f9ce108474a7926f518e5",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528"
+        ],
+        "time": 0.07604100000025937
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/3/assets/Steagal-Re.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "status": 200,
+        "size": 55444,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "833d5d932a144a0e749bc3dec28ae0c11816ff390487b072daab253a8c8cb2dd",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528"
+        ],
+        "time": 0.07754599999680067
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/GiftGuideLittleLuxuriesHomePage_752x.jpg?v=1638285667",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 97064,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9223d13d050e644437e70eabc3a9e630d7fa5319a26f3275a85ee9b74faa5885",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.025644999997894047
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/Monogram_376x.jpg?v=1638285792",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 29057,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "42e2401acf897a8d812ae5665a7d15ca63d23f5101ae0dd438088aea0c82ff02",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.024278000000776956
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/GiftWrapping2_376x.jpg?v=1638285886",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 57060,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "76b1d34afe15464e9505d5695d80ddc2bf597bbad6377fcaede289e192901765",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.025984999996580882
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/GiftIdeas_376x.jpg?v=1638285990",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 33964,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fd0d3750222787bef2111b992cc65120730f045259f0977cab1e3a65dcf16e5a",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.028075000001990702
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/GiftCards_376x.jpg?v=1638286102",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 35597,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "76044a414bd3a1fa9cd720a1ed9a31723520eff6ff54bb2e9b245b3600419201",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.031151999999565305
+      },
+      {
+        "url": "https://foursixty.com/media/scripts/fs.embed.v2.5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 26925,
+        "remoteIPAddress": "157.230.5.204",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"61b8c317-1670d\"",
+          "expires": "Tue, 21 Dec 2021 15:26:29 GMT"
+        },
+        "responseBodyHash": "87317a707d8460188343560209d124c377f200ab19bbdc90f7f66e38e9b3c2a7",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.918985000000248
+      },
+      {
+        "url": "https://consent.cookiebot.com/uc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 28398,
+        "remoteIPAddress": "104.110.240.170",
+        "responseHeaders": {
+          "cache-control": "public, max-age=193",
+          "etag": "\"671f451bf1ecd71:0\"",
+          "expires": "Mon, 20 Dec 2021 15:29:42 GMT"
+        },
+        "responseBodyHash": "8d11314258b6411af1595b1034a2c1810ae01a70ab1451bde06832d8c7478a7a",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.06117199999789591
+      },
+      {
+        "url": "https://a.klaviyo.com/media/js/onsite/onsite.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 31270,
+        "remoteIPAddress": "104.18.4.166",
+        "responseHeaders": {
+          "cache-control": "max-age=86400\npublic",
+          "etag": "W/\"61c098e0-176d9\"",
+          "expires": "Tue, 21 Dec 2021 15:26:29 GMT",
+          "set-cookie": "__cf_bm=gqDZXgtwm3iooboRHrVG9SGKEJTEgFJTC36gqqLblSs-1640013989-0-AQtjnxfbp5yKdeMLf4bvdPJoAZS6ZcwCoqX21HqU3rg3qMYgPZD16/ZCQiKMu6dNfn+JRdB0knpVSJMLCm1zL94=; path=/; expires=Mon, 20-Dec-21 15:56:29 GMT; domain=.klaviyo.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "cc6a07524e88b23ff3141a801d7f5e9d1566dd312a8b64dca06cbfdb8fa6f328",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.2530330000008689
+      },
+      {
+        "url": "https://cdn.judge.me/shopify_v2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 82709,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800, public",
+          "etag": "W/\"e6964924949302201512657716c9e480\""
+        },
+        "responseBodyHash": "e77e8d4ed2deced52fcf4e7b8080a68bf92028f4888c99e627feaadace42c772",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.03402500000083819
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/swipe-diagonal.svg?v=1607438578",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "status": 200,
+        "size": 30762,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e94500ae64c65043bb8fd26b9baef328e208b28383f0b7e8b4b687469574842",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528"
+        ],
+        "time": 0.0072399999990011565
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/3/assets/sang.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "status": 200,
+        "size": 51488,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7cf3cc0cce4565729d01ab38b298ea0d5eb640a7db2b65df2777bef4e5cae9e7",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528"
+        ],
+        "time": 0.05875000000014552
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/swipe-horizontal.svg?v=1607524935",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "status": 200,
+        "size": 30686,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e9c8a0a97d3451ba6e350249ef6266fbbc11908ab34e13139492f26c38df13b9",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528"
+        ],
+        "time": 0.007366000001638895
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/3/assets/arrow-right.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528",
+        "status": 200,
+        "size": 979,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "13dd2ddd1f0aa68aabe96d43e44d5ca55a56fbcf53afadaa7feb82e94d0cde17",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/theme-build.css?v=13891478042558044528"
+        ],
+        "time": 0.006461000000854256
+      },
+      {
+        "url": "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 61482,
+        "remoteIPAddress": "13.227.219.71",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7a85a2a595def8796a50e919e49cda7a\""
+        },
+        "responseBodyHash": "2a76024584e2692938f4dd0feb5b77e96a0bdc93d8661f8c855a7546125552f7",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-1610569.js?sv=6"
+        ],
+        "time": 0.029109000002790708
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/FWHomeImage_752x.jpg?v=1636995554",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 47728,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ba726172b5d444674a9de8feccb6c388d890e507dea23e63da426be668290e06",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.00827700000081677
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/Pre-Loved-HomeImage_376x.jpg?v=1636995780",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 29968,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7468386387eacd0aca9c376cc74c803290354b5fa253d6b75edb72ff64451a51",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.008602999998402083
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/v_376x.jpg?v=1635770647",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 52438,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "283ccc8202eee78a843db96e1633fb27539c43793d908eaa64e9315ba5bb996d",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.01199800000176765
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "34.138.230.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js"
+        ],
+        "time": 0.3121259999970789
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 61960,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:26:29 GMT"
+        },
+        "responseBodyHash": "0562bc406bc7576edef19a71830b03e278531d6287254fe730355fcf99315750",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS"
+        ],
+        "time": 0.024706000000151107
+      },
+      {
+        "url": "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 28398,
+        "remoteIPAddress": "104.110.240.170",
+        "responseHeaders": {
+          "cache-control": "public, max-age=193",
+          "etag": "\"671f451bf1ecd71:0\"",
+          "expires": "Mon, 20 Dec 2021 15:29:42 GMT"
+        },
+        "responseBodyHash": "8d11314258b6411af1595b1034a2c1810ae01a70ab1451bde06832d8c7478a7a",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS"
+        ],
+        "time": 0.01822600000014063
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=gtm.init_consent&eid=1&tc=9&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS"
+        ],
+        "time": 0.018723000001045875
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=gtm.init&eid=2&tc=9&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS"
+        ],
+        "time": 0.029538999999203952
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1164,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "cache-control": "max-age=27394059",
+          "etag": "\"b10de1f5f615a79259ac9e34f470ce1d:1615283706.572935\"",
+          "expires": "Wed, 02 Nov 2022 16:54:08 GMT"
+        },
+        "responseBodyHash": "0297ba54fff0a052c5761457790e80dc093b93b152edee473485af46c022ad75",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2"
+        ],
+        "time": 0.012738000001263572
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0D995TMKBB&gtm=2oec10&_p=1849297199&sr=800x600&ul=en-us&cid=580507644.1640013990&_s=1&dl=https%3A%2F%2Fomybag.nl%2F&dt=O%20My%20Bag%20-%20Eco%20%26%20Fair%20Leather%20Bags%20and%20Accessories&sid=1640013989&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 334,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS"
+        ],
+        "time": 0.02130599999873084
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=gtm.js&eid=3&tc=9&tr=1gclidw.1gaawc.1cvt.5gclidw.5gaawc.5cvt&epr=1G.2G&cl=g.167.11&ti=1gclidw.1gaawc.2cvt.1gclidw.1gaawc.2cvt&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS"
+        ],
+        "time": 0.0131230000006326
+      },
+      {
+        "url": "https://consent.cookiebot.com/ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2/cc.js?renew=false&referer=omybag.nl&dnt=false&forceshow=false",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 52444,
+        "remoteIPAddress": "104.110.240.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1200"
+        },
+        "responseBodyHash": "c980adc2cb721bdfe00219f90fc3c1984bfe6648a8328485c95cfb77606540d0",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2"
+        ],
+        "time": 0.07571099999768194
+      },
+      {
+        "url": "https://foursixty.com/media/styles/embed/showcase_v2_5.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 10684,
+        "remoteIPAddress": "157.230.5.204",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"61803e40-99c9\"",
+          "expires": "Tue, 21 Dec 2021 15:26:30 GMT"
+        },
+        "responseBodyHash": "35e1c85eacf2d24be04fc1aa3b23c588b1c2f42f7e266a0649234174833430e6",
+        "initiators": [
+          "https://foursixty.com/media/scripts/fs.embed.v2.5.js"
+        ],
+        "time": 0.26142199999958393
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/maestro_2x_638e87a1-abd1-49f5-b126-97e368884d96.png?v=1611830533",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2606,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c033f980f43a27a8a79e067d668038ccc0d468dbeca531baee7669f7b698617f",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.02041299999837065
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/ideal_2x_412ffbb8-a644-40c3-8abf-f99acf8a8d66.png?v=1611830533",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2149,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d2a219b74d3863f71c11d8adcddce3c2b94bc29e3938fc5cceb89cf37dc0959c",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.0410489999994752
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/visa_2x_1b237613-f124-420e-9ef1-e29557cd294c.png?v=1611830533",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3331,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "03610a65cdadcc8c212b792622e88d4c4e7ad5c0000322707d9ce618ea6ca169",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.04136300000027404
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/paypal_2x_b1a56a82-4b62-411a-b834-9607083d5b8b.png?v=1611830533",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3989,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "591ab89d9cf7b05a4538124c551066af142f940606212b1e46a5808ca4d54050",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.04175000000032014
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/applepay_2x_0a00c7c0-0457-46ce-830b-7d19b0380b14.png?v=1611830533",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3030,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e6aceb06040633f29a80668aba4e2b7544271cab50017fbbb894f6266b65298",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.043750000000727596
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/klarna_2x_a30d904e-d4a8-4009-b9aa-4f54dac0f56e.png?v=1611830533",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2700,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "77d21c6224e96808862deb31c73669732f90eccebf4ca153a2d512e22b2d3384",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.044309000000794185
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/b-corp-logo.svg?v=7629307858017342618",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2791,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0516bec3aaa1fce4e4df97a9471d010bcd6a8b6173d89614e10b57ced54cfc55",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.045927999999548774
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/omb-logo-black.svg?v=11396974523194173653",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 4153,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6946131fafe9c7e02899afde098690f72da1aac5be1423a34abfdffcd0e4d352",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.044817000001785345
+      },
+      {
+        "url": "https://cdn.judge.me/shopify_v2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 11845,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800, public",
+          "etag": "W/\"1bcf7c47dc871dc440179f0b22efa90f\""
+        },
+        "responseBodyHash": "7210b0f1b50a07db65a84df62fd7c6849993a320d8e0c13714e081c5b33b19f0",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.05400499999814201
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1808,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.04505000000062864
+      },
+      {
+        "url": "https://foursixty.com/api/v2/o-my-bag/timeline/?pagination_type=cursor&page_size=12&format=json&page=1&use_stored_image_url=true",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 18724,
+        "remoteIPAddress": "157.230.5.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age = 7200.000"
+        },
+        "responseBodyHash": "72afc07bdbe98777292f8391d3fdda8d8613c794a4bd139f5e030cd98eeece39",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://foursixty.com/media/scripts/fs.embed.v2.5.js"
+        ],
+        "time": 0.841710000000603
+      },
+      {
+        "url": "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1483,
+        "remoteIPAddress": "65.9.83.47",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"6215abf691a11c2f451680e635d30daa\""
+        },
+        "responseBodyHash": "d39c7ff4103007338040282460b2eb0e5adadd9fb80f986fb4c8a3d41785a6ca",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-1610569.js?sv=6"
+        ],
+        "time": 0.016425000001618173
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 26816,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.019428999999945518
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 20030,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.015235999999276828
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11348100000031991
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 17744,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://omybag.nl/",
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.004089999998541316
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "34.138.230.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://omybag.nl/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.10030600000027334
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "34.138.230.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://omybag.nl/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1050920000016049
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "34.138.230.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.10411799999928917
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "34.138.230.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.09964899999977206
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/925421917524296?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 88943,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "5639006760eec74da80ad8663de456848a55ddc783740b1edd46a747fbfebf18",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.02319599999827915
+      },
+      {
+        "url": "https://in.hotjar.com/api/v2/client/sites/1610569/visit-data?sv=6",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 330,
+        "remoteIPAddress": "99.81.27.250",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "76b02ad3175d73ab8a2ad49f261a9efbec46287fde4cbfd613f7b75a020dae28",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+          "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+          "https://static.hotjar.com/c/hotjar-1610569.js?sv=6"
+        ],
+        "time": 0.061816999997972744
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=gtm.dom&eid=4&tc=9&tr=1paused.6paused&ti=1paused.1paused&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c",
+          "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+          "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+          "https://static.hotjar.com/c/hotjar-1610569.js?sv=6"
+        ],
+        "time": 0.01597799999944982
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-24611039-3&cid=580507644.1640013990&jid=1535185458&gjid=907741573&_gid=655114765.1640013991&_u=YCDAgEABBAAAAE~&z=1354361978",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 438,
+        "remoteIPAddress": "142.250.145.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03039100000023609
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1849297199&t=pageview&_s=1&dl=https%3A%2F%2Fomybag.nl%2F&dp=%2F&ul=en-us&de=UTF-8&dt=O%20My%20Bag%20-%20Eco%20%26%20Fair%20Leather%20Bags%20and%20Accessories&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YCDAgEABB~&jid=1535185458&gjid=907741573&cid=580507644.1640013990&tid=UA-24611039-3&_gid=655114765.1640013991&did=BwiEti&z=1930723267",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01962899999853107
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 19101,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.11323000000265893
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-24611039-3&cid=580507644.1640013990&jid=1535185458&_u=YCDAgEABBAAAAE~&z=1281316437",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.03618300000016461
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-24611039-3&cid=580507644.1640013990&jid=1535185458&_u=YCDAgEABBAAAAE~&z=1281316437",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.03810499999963213
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=925421917524296&ev=PageView&dl=https%3A%2F%2Fomybag.nl%2F&rl=&if=false&ts=1640013991224&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=0&o=30&fbp=fb.1.1640013991220.1955851219&it=1640013991088&coo=false&eid=d8739503-FAA3-4645-9F2A-FE9EB7AFD33A&exp=p0&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:26:31 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/925421917524296?v=2.9.48&r=stable"
+        ],
+        "time": 0.013296000000991626
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2613009181558&pd=%7B%22np%22%3A%22shopify%22%7D&cb=1640013991309",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 750,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "bf6ab7885cc175f2d6614a7c19f77d6300a452a10e356e5d5a27e104183a69d9",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.036481999999523396
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613009181558&pd=%7B%22np%22%3A%22shopify%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fomybag.nl%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1640013991314",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 85,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.03883499999938067
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22np%22%3A%22shopify%22%7D&tid=2613009181558&pd=%7B%22np%22%3A%22shopify%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fomybag.nl%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1640013991316",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 340,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZBemtrRWVUU3I0eXFDZWEwL3BHakh6NFVwanl6amF3MFlqcDRIaTFGS0pkZEF0Ukd1dG1NbkVkckNRbnR6RDZnUnQyUTFiaGZuTnMwRnhNeFlaTEZjVHJWdDZ1Sm1jUmNOejVDOUo2dTlHST0mQ3p5bEk4RjcvTUVYa3F0elVESkxkYkJJNXE0PQ==\"; Expires=Tue, 20 Dec 2022 15:26:31 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.031756999997014645
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 198,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.02995300000111456
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 4247,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=c57c10b7496b2fc925d6c7287d3678d0; path=/; expires=Tue, 20 Dec 2022 15:26:31 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZOTGY4SXVLUSt2aytranE5TUVKbnhUSFZFYWNKaHpoYTEzd1JoZ0tIVmx3VHN6SjRxLytjMjcvelJPWkpMTmZ6dFYwYllrbGk1ck80UER3Z1M0OUNDRHFyekhhOWhxWXZPeFJQaFZMMDZBUkJJZjRWbDcxd00rZ2h2TXVpeTZKciY4eVdTaVFrSlErTjh6N3hhYXdkM1d1V1NSWFE9; path=/; expires=Thu, 15 Dec 2022 15:26:31 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Thu, 15 Dec 2022 15:26:31 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://omybag.nl/; path=/; expires=Mon, 20 Dec 2021 15:31:31 GMT; domain=.pinterest.com; secure\n_routing_id=\"f063e49a-d305-4ee1-b8b8-9c5e1b724f2b\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "614e2c6f5cdee05d0f9ad81986fb666a1d7248fe901c7d22ed0daee990b0343e",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.2090859999989334
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1394,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "W/\"7a993bdc64f088402cf487f614d93cff\""
+        },
+        "responseBodyHash": "fb8a97e0e9865d9ebc1d30e6815c8a2fb9c2b59c7c6c20f894a0ed52dc23e5da",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.031336000000010245
+      },
+      {
+        "url": "https://cdn.judge.me/assets/installed.js?shop=omybag-ams.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 389,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "9dde290518ca88ed8e0ba23350560cef9f4081ed78fc718125c4a32dcd92c227",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.002817000000504777
+      },
+      {
+        "url": "https://app.dropahint.us/front/js?account=2373&shop=omybag-ams.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 30966,
+        "remoteIPAddress": "172.67.147.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30",
+          "expires": "Mon, 20 Dec 2021 15:27:01 GMT"
+        },
+        "responseBodyHash": "bc135dc7df0bdbce9abeb359215cebb2b091cd3f2ead572c2e813fdeb87e0304",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.6437239999977464
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/privacy-banner/storefront-banner.js?shop=omybag-ams.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 7980,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ebb6f81cf4af0ef5f8d57405761efca67b7a808502d84bbdfd01dddc5bf0ae5c",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.009616000003006775
+      },
+      {
+        "url": "https://static.affiliatly.com/shopify/v3/shopify.js?affiliatly_code=AF-1014219&shop=omybag-ams.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1833,
+        "remoteIPAddress": "172.66.43.74",
+        "responseHeaders": {
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": "161108f609d2f750b2341763c18335e98f90317f98a5e0e5d12779dbd864091c",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.06513700000141398
+      },
+      {
+        "url": "https://www.km0trk.com/scripts/shopify/click.js?nid=1120&intid=66&shop=omybag-ams.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 18660,
+        "remoteIPAddress": "34.120.250.185",
+        "responseHeaders": {},
+        "responseBodyHash": "a2a70f7212d657ab823b4a6e8236bf7b67ce2d9275cef370d6cce47815442c5e",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.13058799999998882
+      },
+      {
+        "url": "https://cdn.myshopapps.com/iwish/iwishlist_v2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2470,
+        "remoteIPAddress": "52.222.139.28",
+        "responseHeaders": {
+          "cache-control": "max-age=15552000",
+          "etag": "W/\"6366d4d2399dc3334d82a2ab56fda218\""
+        },
+        "responseBodyHash": "9b4200bd873b155c4eb3dcf712dc34f7722872a03abf5fd9dff066a18756b807",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.03293599999960861
+      },
+      {
+        "url": "https://wchat.freshchat.com/js/widget.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 14211,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "max-age=900, must-revalidate"
+        },
+        "responseBodyHash": "67132b7a8d4f22ec1e3e60fb95543c490228134d4bd057e4b20d07f81c13eff4",
+        "initiators": [
+          "https://omybag.nl/"
+        ],
+        "time": 0.35226500000135275
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=1849297199&t=pageview&_s=1&dl=https%3A%2F%2Fomybag.nl%2F&ul=en-us&de=UTF-8&dt=O%20My%20Bag%20-%20Eco%20%26%20Fair%20Leather%20Bags%20and%20Accessories&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=aCDAAEABBAAAAG~&jid=1391121401&gjid=2109686368&cid=580507644.1640013990&tid=UA-24611039-3&_gid=655114765.1640013991&_r=1&gtm=2wgc10NZB3DVS&did=BwiEti&z=1398869220",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c"
+        ],
+        "time": 0.007477999999537133
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=*&eid=5&tc=9&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c"
+        ],
+        "time": 0.01151699999900302
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.009430bd0388ae665660.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 8000,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"c11381afe9fcca1c695323eead4535bb\""
+        },
+        "responseBodyHash": "819fb4bdfb582198a44322be6e6196440c865cd7d5591580cd823ea56b62eee0",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.02858600000035949
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/static.3d1ceb4ad27266b4a02f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 5755,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"bac95b82bc8ff48e1991af0fab6ccaad\""
+        },
+        "responseBodyHash": "cbccd303816dffa7582f05c4bb5da00228c6bc2865feb8822b506a628ec6bb69",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.02882599999793456
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 9732,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19a7fdd374429418b6912c2497585cae\""
+        },
+        "responseBodyHash": "3eac6b6ca0df419caa2b1951fef60f59bd036969221bc6d3d9784c5ba5d9a062",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.003475999998045154
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sentry.3770b81f534eb4a7afe1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 14038,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ed55aff052cb09a4e554b42b64e82183\""
+        },
+        "responseBodyHash": "a5053567e6cb48aeb3cde3c48c745ef891dd0ea20ee643561facd301d24c9085",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.0053120000011404045
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 27004,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"2b542062cf797a3dc8d39a70c908c1f3\""
+        },
+        "responseBodyHash": "734da59b103f4a149a31ee867326053d1452ba189ce9cf275b65da04a3dec622",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.007837000001018168
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 32562,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"e02ab9ba2ac26cda67dfc57e4905e7bd\""
+        },
+        "responseBodyHash": "f3646a6642927b6c41fe63fe146a7ce7e27075ff6b7ad6a056a7f4b7c65975c4",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VmpKbX&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.010081000000354834
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-24611039-3&cid=580507644.1640013990&jid=1391121401&gjid=2109686368&_gid=655114765.1640013991&_u=aCDAAEABBAAAAG~&z=1354018559",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 25,
+        "remoteIPAddress": "142.250.145.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c"
+        ],
+        "time": 0.017457999998441665
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-24611039-3&cid=580507644.1640013990&jid=1391121401&_u=aCDAAEABBAAAAG~&z=1203222741",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c"
+        ],
+        "time": 0.03211799999917275
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-24611039-3&cid=580507644.1640013990&jid=1391121401&_u=aCDAAEABBAAAAG~&z=1203222741",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c"
+        ],
+        "time": 0.02904600000329083
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=925421917524296&ev=Microdata&dl=https%3A%2F%2Fomybag.nl%2F&rl=&if=false&ts=1640013991767&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22O%20My%20Bag%20-%20Eco%20%26%20Fair%20Leather%20Bags%20and%20Accessories%22%2C%22meta%3Adescription%22%3A%22Hand%20crafted%20by%20our%20team%20in%20India%2C%20we%20create%20positive%20change%20for%20people%20and%20the%20planet.%20Discover%20the%20world%20of%20O%20My%20Bag%20and%20shop%20fairly%20made%20leather%20bags%20and%20accessories.%22%7D&cd[OpenGraph]=%7B%22og%3Aimage%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0267%2F2816%2F9654%2Ffiles%2FOMB_NEWlogo-black.png%3Fheight%3D628%26pad_color%3Dfff%26v%3D1613571598%26width%3D1200%22%2C%22og%3Aimage%3Asecure_url%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0267%2F2816%2F9654%2Ffiles%2FOMB_NEWlogo-black.png%3Fheight%3D628%26pad_color%3Dfff%26v%3D1613571598%26width%3D1200%22%2C%22og%3Aimage%3Awidth%22%3A%221200%22%2C%22og%3Aimage%3Aheight%22%3A%22628%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=1&o=30&fbp=fb.1.1640013991220.1955851219&it=1640013991088&coo=false&es=automatic&tm=3&exp=p0&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:26:31 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/925421917524296?v=2.9.48&r=stable"
+        ],
+        "time": 0.008021999998163665
+      },
+      {
+        "url": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=VmpKbX",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1201,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10"
+        },
+        "responseBodyHash": "e56d390606d48ccde29c5cc390b426587e39f3629b02f5f0d4e03d792f7036ac",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js"
+        ],
+        "time": 0.031906999996863306
+      },
+      {
+        "url": "https://static-forms.klaviyo.com/forms/api/v5/VmpKbX/full-forms",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 3559,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=5",
+          "etag": "\"570601049ea2a66500d249025ea346f3\""
+        },
+        "responseBodyHash": "7c25e87a6799b5e23e7e22542f5154de25e5928e6e54d839e2909e7a68ed7ea1",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js"
+        ],
+        "time": 0.020866000002570217
+      },
+      {
+        "url": "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw=",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2716,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "e73fb9bc272f912bc427d692424afbe73d93ce69eca127467ddead5a596b124e",
+        "initiators": [
+          "https://wchat.freshchat.com/js/widget.js",
+          "https://omybag.nl/"
+        ],
+        "time": 0.09405200000037439
+      },
+      {
+        "url": "https://wchat.freshchat.com/css/widget.css?t=1640013991942",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2159,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000,no-cache, no-store, must-revalidate, pre-check=0, post-check=0,public",
+          "expires": "Tue, 20 Dec 2022 15:26:32 GMT"
+        },
+        "responseBodyHash": "38a4932ef69f2de2422f3f141d92fadaa5c6191a44cdf40d2e03cb8d4eda9245",
+        "initiators": [
+          "https://wchat.freshchat.com/js/widget.js",
+          "https://omybag.nl/"
+        ],
+        "time": 0.18389699999897857
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=gtm.load&eid=6&tc=9&tr=1ua.5ua&ti=1ua.1ua&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c"
+        ],
+        "time": 0.009634999998525018
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/Steagal-Re.woff?v=1619773210",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 41466,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a2e9acfbf2601ae0f3475e634d6d4068067b3edf08118ffa57bfb2fb98c9acd2",
+        "initiators": [],
+        "time": 0.21439900000041234
+      },
+      {
+        "url": "https://app.dropahint.us/media/editor-img/gift89.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 1330,
+        "remoteIPAddress": "172.67.147.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"602ba592-57f\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "896b482e2b3a19188bb17e72d1081beccdb5dc7d7d4d020b1a68a55d81340313",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0267/2816/9654/t/13/assets/jquery.min.js?v=6093865874309170411",
+          "https://app.dropahint.us/front/js?account=2373&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.025731999998242827
+      },
+      {
+        "url": "https://app.dropahint.us/res/img/cross22.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 2709,
+        "remoteIPAddress": "172.67.147.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "\"5c512b43-834\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "1fbf42f4dcae15d4fd301e5ec3782859cf1fbe21a173d2f864443c07dc1b5562",
+        "initiators": [
+          "https://app.dropahint.us/front/js?account=2373&shop=omybag-ams.myshopify.com"
+        ],
+        "time": 0.026488999999855878
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/vendor-cb48eae2d25974cb9e453b74e43d0225.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 1740,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"cb48eae2d25974cb9e453b74e43d0225\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "479cfe30323366acc7d37e0e35c7a69198d952e7b998f87ec2b1ee5cf6dbf044",
+        "initiators": [
+          "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw="
+        ],
+        "time": 0.0134619999989809
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-3770faee89ac7255b21e0d18d79c4de4.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 27078,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"3770faee89ac7255b21e0d18d79c4de4\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "f1febd13cea5964b600ab64a7a70c80fb88fbcd01c2cbd1ba3167cd617d7a0dc",
+        "initiators": [
+          "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw="
+        ],
+        "time": 0.019623999996838393
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 391596,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"c9f4cd53b8c0c9e2d9f28bb2260081c0\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "493952f4b059c7a1e2d6f41a0f7f55c93636a5d281f1c32d0618c21317d10501",
+        "initiators": [
+          "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw="
+        ],
+        "time": 0.10785000000032596
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 205255,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"7a8144ca14ee76bd85f97510e6cfd7b0\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "c52fe9d15c67870804c66cf339f81cc8441fb43cd90ab7e6215734a49b158e77",
+        "initiators": [
+          "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw="
+        ],
+        "time": 0.06692800000018906
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "34.138.230.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://omybag.nl/"
+        ],
+        "time": 0.1005059999988589
+      },
+      {
+        "url": "https://rts-static-prod.freshworksapi.com/us/rts-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 25493,
+        "remoteIPAddress": "13.227.219.13",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"596deaf4d67744caa5865bc1dc51a8f4\""
+        },
+        "responseBodyHash": "ee79271766bbba9a34b7449b08dd9c3b75f1b55baf957f242dee6632fa357a25",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js"
+        ],
+        "time": 0.014796999999816762
+      },
+      {
+        "url": "https://wchat.freshchat.com/app/services/app/webchat/4c784af6-0114-4e6f-9116-6e5aedb87d32/config?domain=aHR0cHM6Ly9vbXliYWcubmw",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw=",
+        "status": 200,
+        "size": 2129,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "f1a88b76786a08c3fb23b1247f69c4d5119213af342921670effdf85a9814857",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js"
+        ],
+        "time": 0.10768499999903725
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/translations/en-us-28821ce664b923581d789fe132fdfa67.js",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 4600,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://wchat.freshchat.com",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"28821ce664b923581d789fe132fdfa67\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "4c699c763680db4221468c22d27bd952b645914fbc80c8aee08d528070405048",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js"
+        ],
+        "time": 0.012903999999252846
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/fonts/fs-icons_db9017235f84eecfa2cafef72d487865-1181e40b8546834a9805fdf81df2f865.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-3770faee89ac7255b21e0d18d79c4de4.css",
+        "status": 200,
+        "size": 5521,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://wchat.freshchat.com",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"1181e40b8546834a9805fdf81df2f865\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "6da30cf003c391534cf7f26c5f5590a51e0fe67bd882b814aaf6ce24819097ed",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-3770faee89ac7255b21e0d18d79c4de4.css"
+        ],
+        "time": 0.03242999999929452
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/audio/notif.mp3",
+        "method": "GET",
+        "type": "Media",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 206,
+        "size": 4748,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"a529450a7cfb4a60dea41ef294fa90dd\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "0522ad0149c24834fc8812caa69b5282eef7bd9207735743bef2a72b35ac5e21",
+        "initiators": [],
+        "time": 0.004526000000623753
+      },
+      {
+        "url": "https://wchat.freshchat.com/app/services/app/webchat/4c784af6-0114-4e6f-9116-6e5aedb87d32/user",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw=",
+        "status": 200,
+        "size": 1207,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "02a00e3ef645e0351f654665d42b03388e6a73e0ab4f853c8904faecf322b229",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://wchat.freshchat.com/js/widget.js"
+        ],
+        "time": 0.09552500000063446
+      },
+      {
+        "url": "https://wchat.freshchat.com/app/services/app/webchat/4c784af6-0114-4e6f-9116-6e5aedb87d32/widget_info_v2?locales=en-US,en-US&platform=web",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw=",
+        "status": 200,
+        "size": 3315,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "34a2a6b70acaac7dc6004fe580ef4d2dfe20f22958a47f454f79a0c5e2065f7a",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://wchat.freshchat.com/js/widget.js"
+        ],
+        "time": 0.12546500000098604
+      },
+      {
+        "url": "https://wchat.freshchat.com/app/services/app/webchat/4c784af6-0114-4e6f-9116-6e5aedb87d32/faq/category?platform=web&locales=en-US%2Cen-US&since=&lastLocaleId=",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/widget/?token=4c784af6-0114-4e6f-9116-6e5aedb87d32&referrer=aHR0cHM6Ly9vbXliYWcubmw=",
+        "status": 200,
+        "size": 19567,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "8e41198057cdbbdaedbcb3513c3844a4954cc71def4bafb465993aa306b4e9a2",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://wchat.freshchat.com/js/widget.js"
+        ],
+        "time": 0.10523399999874528
+      },
+      {
+        "url": "https://wchat.freshchat.com/app/services/app/webchat/4c784af6-0114-4e6f-9116-6e5aedb87d32/user/03c7f911-c39b-4a62-beb4-d238efa3c48d/activity",
+        "method": "PUT",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/home",
+        "status": 200,
+        "size": 1106,
+        "remoteIPAddress": "54.152.199.76",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "f1ea07a1e51a389c8de07120ae5c2e432e9dd8f4fbd6f92489f185b0523a3fd4",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://wchat.freshchat.com/js/widget.js"
+        ],
+        "time": 0.09819000000061351
+      },
+      {
+        "url": "https://fc-use1-00-pics-bkt-00.s3.amazonaws.com/f54e936199b6dfdab10dd4fffc79dc2aa92806a415d49414ccd723f9e25146e6/f_marketingpicFull/u_09ef3c904bcdad1d301f8b533297f56b5bc1b841361fec70ba88f493a23a7e37/img_1614261063992.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 29598,
+        "remoteIPAddress": "52.217.72.188",
+        "responseHeaders": {
+          "etag": "\"527f2780a3e8ac630258e5dad4328fd3\""
+        },
+        "responseBodyHash": "52208751b9e53f36c1871834e073b6f78d08e67130a10974e69facf2a2194319",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://wchat.freshchat.com/js/widget.js"
+        ],
+        "time": 0.4501879999988887
+      },
+      {
+        "url": "https://assetscdn-wchat.freshchat.com/static/assets/images/freshdesk_logo-700ca107b848b083e9b0659a98efb160.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.freshchat.com/",
+        "status": 200,
+        "size": 1197,
+        "remoteIPAddress": "52.222.139.7",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"700ca107b848b083e9b0659a98efb160\"",
+          "expires": "Sat, 17 Dec 2022 13:18:03 GMT"
+        },
+        "responseBodyHash": "686dafbfae5cb1ce1d2fa53a057ab5dd17277682ea06d68c9b7e23666adcae4b",
+        "initiators": [
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://wchat.freshchat.com/js/widget.js"
+        ],
+        "time": 0.003962999999203021
+      },
+      {
+        "url": "https://222815097847615.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9vbXliYWcubmw=",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 6892,
+        "remoteIPAddress": "65.9.83.112",
+        "responseHeaders": {
+          "etag": "W/\"4d98f93ebe4eb8cedbbfdb3004920aeb\""
+        },
+        "responseBodyHash": "05a530dd5d40bf5dbef4e3d5ed6976e9aec1baf49a20be30e07b1608918e3bc3",
+        "initiators": [
+          "https://wchat.freshchat.com/js/widget.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-d3b28f58968c2ced829c7f90c0d2da08.js",
+          "https://assetscdn-wchat.freshchat.com/static/assets/vendor-bbac8741b62c02e7d7146c63ecac5f9d.js"
+        ],
+        "time": 0.13507700000263867
+      },
+      {
+        "url": "blob:https://wchat.freshchat.com/e0252b58-6bf3-40ab-a837-db164e7e7425",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "f9ad5dbf44764c275ac6c76067b0a3a388cb1a8a20e4e5d2e71d942f032e0c5b",
+        "initiators": [],
+        "time": 0.11822600000232342
+      },
+      {
+        "url": "https://222815097847615.webpush.freshchat.com/fc_logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://222815097847615.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9vbXliYWcubmw=",
+        "status": 200,
+        "size": 4095,
+        "remoteIPAddress": "65.9.83.112",
+        "responseHeaders": {
+          "etag": "\"e87df9f10dcf497ae292dc234200465c\""
+        },
+        "responseBodyHash": "7900ac96829056f562537c8aaa0942d379f5b1b0b1861ca86f7160f8c9ebbbb0",
+        "initiators": [
+          "https://222815097847615.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9vbXliYWcubmw="
+        ],
+        "time": 0.0038129999993543606
+      },
+      {
+        "url": "https://222815097847615.webpush.freshchat.com/firebase-sw.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://222815097847615.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9vbXliYWcubmw=",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.112",
+        "responseHeaders": {
+          "etag": "W/\"97306f86a264bc64392ebb65c4058494\""
+        },
+        "responseBodyHash": "5b94608558287dc8ea771820108ef94d8b620ebf734810be4f8b40ef34570742",
+        "initiators": [],
+        "time": 0.011620000001130393
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640013997859&referer=https%3A%2F%2Fomybag.nl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2&cbt=leveloptin&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 752,
+        "remoteIPAddress": "104.110.240.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:26:37 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b69f4ba43340ee36c5cf35fad8b795973f87bb68ae9d4fa287b405d96eb0c3fe",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2",
+          "https://consent.cookiebot.com/ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2/cc.js?renew=false&referer=omybag.nl&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.08104900000034831
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640013997881&referer=https%3A%2F%2Fomybag.nl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2&cbt=leveloptin&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 758,
+        "remoteIPAddress": "104.110.240.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:26:37 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a6ce5bca7ebce6ba22a109ae5539ec0056a1e2b7eea2a8993991c34f402404ac",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2",
+          "https://consent.cookiebot.com/ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2/cc.js?renew=false&referer=omybag.nl&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.059857000000192784
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=925421917524296&ev=SubscribedButtonClick&dl=https%3A%2F%2Fomybag.nl%2F&rl=&if=false&ts=1640013997880&cd[buttonFeatures]=%7B%22classList%22%3A%22%22%2C%22destination%22%3A%22https%3A%2F%2Fomybag.nl%2F%23%22%2C%22id%22%3A%22CybotCookiebotDialogBodyLevelButtonAccept%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22OK%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22a%22%2C%22name%22%3A%22%22%7D&cd[buttonText]=OK&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22O%20My%20Bag%20-%20Eco%20%26%20Fair%20Leather%20Bags%20and%20Accessories%22%7D&cd[parameters]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=2&o=30&fbp=fb.1.1640013991220.1955851219&it=1640013991088&coo=false&es=automatic&tm=3&exp=p0&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:26:37 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/925421917524296?v=2.9.48&r=stable",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.004101999998965766
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/consentconfig/ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2/settings.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 289,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://omybag.nl",
+          "cache-control": "max-age=49448",
+          "etag": "\"4049e5080b9d16723ed80ef6959cd420:1635515889.95583\"",
+          "expires": "Tue, 21 Dec 2021 05:10:45 GMT"
+        },
+        "responseBodyHash": "ad70ef306586cc97ff13bc41fa8f47370524b880704737a34ae7ac15604e89c3",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640013997859&referer=https%3A%2F%2Fomybag.nl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2&cbt=leveloptin&hasdata=true"
+        ],
+        "time": 0.007022000001597917
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=*&eid=12&u=AAAAAAIAAAAB&tc=9&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c",
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640013997881&referer=https%3A%2F%2Fomybag.nl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2&cbt=leveloptin&hasdata=true"
+        ],
+        "time": 0.009645000001910375
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NZB3DVS&cv=10&v=3&t=t&pid=1058435542&rv=c10&es=1&e=*&eid=17&u=AAAAAAIAAAAB&tc=9&z=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NZB3DVS",
+          "https://www.googletagmanager.com/gtag/js?id=G-0D995TMKBB&l=dataLayer&cx=c",
+          "https://consent.cookiebot.com/uc.js?cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640013997881&referer=https%3A%2F%2Fomybag.nl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=ea9f46dd-6b65-49ac-a8c2-b7ef338cdbd2&cbt=leveloptin&hasdata=true"
+        ],
+        "time": 0.013727000001381384
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/10.a5540beb560761e98c07.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 6235,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"d81c579d9d0d515f6b4f9cac22f6df66\""
+        },
+        "responseBodyHash": "060aa039254100972be6df136759368ffcd55ae444e3814d20f3a227a7635e2b",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.0038400000012188684
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/styles.491ee6ad1b38c37fd1c3.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 444,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"b552682f08c5bf0d01b38a3ea2acf969\""
+        },
+        "responseBodyHash": "18f6835457e4c0628e659f410b3f3762b0b0b8a4eda929e991bfdcf5a293ae4d",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.004657000001316192
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~Render.f4a2f7cb46558f56344b.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 13328,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"d0d8268e3612519e63d07e7b7ec8e848\""
+        },
+        "responseBodyHash": "73a31a8d1c7bd2fce6e894994762b33618d32dac6c35597a3ce7c4544b81d837",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.0032700000010663643
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/Render.d0a731749328d9815d57.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 19274,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"2b7cda6cfd3c0f2e81976483b0babb42\""
+        },
+        "responseBodyHash": "05f3b22ceaf611bcefeb126cb467df29be3a620e1d04b046a0b693f84d75abf9",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.005472000000736443
+      },
+      {
+        "url": "https://telemetrics.klaviyo.com/v1/metric",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 204,
+        "size": 331,
+        "remoteIPAddress": "65.9.83.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+          "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js"
+        ],
+        "time": 0.2263070000008156
+      },
+      {
+        "url": "https://d3k81ch9hvuctc.cloudfront.net/company/VmpKbX/images/46a3e406-17a1-4329-8f5a-bfad0d22eb9d.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 167467,
+        "remoteIPAddress": "65.9.83.41",
+        "responseHeaders": {
+          "cache-control": "public,max-age=2592000",
+          "etag": "\"6b1c11176052e3470e2d1af49a19e5be\""
+        },
+        "responseBodyHash": "470b8f4693383c86a66a06b66fb9a883198cc511bfd7c74a7c821283d102b9b3",
+        "initiators": [],
+        "time": 0.03634100000272156
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/Steagal-Li.woff?v=1619774664",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 40903,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f36dcdafdf2d227cb035b130c90778bd839a6c28267ee733b0c4c5a88acbf0ee",
+        "initiators": [],
+        "time": 0.03283299999748124
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0267/2816/9654/files/SangBleuKingdomTrial-Regular.woff?v=1619773555",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://omybag.nl/",
+        "status": 200,
+        "size": 16725,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1facfe412e0a5197f9df63a536ec7dc962bea44dd8bd91f3aefaba9623a6b457",
+        "initiators": [],
+        "time": 0.03163299999869196
+      }
+    ]
+  }
+}

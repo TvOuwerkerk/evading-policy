@@ -1,0 +1,390 @@
+{
+  "initialUrl": "https://www.betterworldbooks.com/Services/AddtoWishList.aspx?titleId=41023952",
+  "finalUrl": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+  "timeout": false,
+  "testStarted": 1640135125790,
+  "testFinished": 1640135142185,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.betterworldbooks.com/links.www.betterworldbooks.com_c2b1.json",
+    "requests": [
+      {
+        "url": "https://www.betterworldbooks.com/Services/AddtoWishList.aspx?titleId=41023952",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "ASP.NET_SessionId=oik1pfcsehtc0zm13ripcdzr; path=/; secure; HttpOnly; SameSite=Lax\nBETTERWORLD1=UserID=zkHZhhzGr6+tDzobNCH3oA==&CookieID=e243c5ce-9b63-4114-97e6-61f6a986ba35; expires=Thu, 22-Dec-2022 01:05:23 GMT; path=/; secure; HttpOnly\n__cf_bm=3uFLiecEfkcbYqDju4M5CUTjGhzpoTeYU287bNbwYTo-1640135126-0-AdRQB6syh3+ofTGOgEfC4urqOV4+3eRW87KhPdgpunkm0uREXjHWwUd1d4blD/qmZtK7RBTnVCdUTvOXOsWDxl4=; path=/; expires=Wed, 22-Dec-21 01:35:26 GMT; domain=.betterworldbooks.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.betterworldbooks.com/signin.aspx?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "initiators": [],
+        "time": 0.251393000013195
+      },
+      {
+        "url": "https://www.betterworldbooks.com/signin.aspx?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "redirectedFrom": "https://www.betterworldbooks.com/Services/AddtoWishList.aspx?titleId=41023952",
+        "initiators": [],
+        "time": 0.21010900000692345
+      },
+      {
+        "url": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 503,
+        "size": 10906,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": "b3e41659291ae2d136cea146fcbeb5ed0bbd40d654ddf33568c9ebe42d217888",
+        "redirectedFrom": "https://www.betterworldbooks.com/signin.aspx?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "initiators": [],
+        "time": 0.03140300000086427
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15711bc84900b2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 13543,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate"
+        },
+        "responseBodyHash": "a8e0608c4eb17600aee13e1f7fb568090d1b601704d20dc9ec38d58c9302784a",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.07966300001135096
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=6c15711bc84900b2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 222,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=7200\npublic",
+          "etag": "\"61bc9ba4-2a\"",
+          "expires": "Wed, 22 Dec 2021 03:05:26 GMT"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.008921000000555068
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=6c15711bc84900b2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 222,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=7200\npublic",
+          "etag": "\"61bc9ba4-2a\"",
+          "expires": "Wed, 22 Dec 2021 03:05:26 GMT"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.008283000002847984
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/flow/ov1/0.046478615255288465:1640131532:53456b341333a24691b4b105010ce473f55b87b9b858605ce947dedb40e04c41/6c15711bc84900b2/75e4ec43522d55a",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 71428,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "set-cookie": "cf_chl_seq_75e4ec43522d55a=bad4f1a76590f2a;SameSite=Strict;Secure;HttpOnly"
+        },
+        "responseBodyHash": "dc0881382c482e87c7557956494a926a957141ad2778799763a9118842b4a190",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15711bc84900b2"
+        ],
+        "time": 0.10215099999913946
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/flow/ov1/0.046478615255288465:1640131532:53456b341333a24691b4b105010ce473f55b87b9b858605ce947dedb40e04c41/6c15711bc84900b2/75e4ec43522d55a",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 2331,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "set-cookie": "cf_chl_seq_75e4ec43522d55a=;Expires=Tue, 21 Dec 2021 01:05:28 GMT;SameSite=Strict;Secure;HttpOnly"
+        },
+        "responseBodyHash": "54d7e06c3886950f1d7a78641803df509beaad8562f54d4db272836b3f5a773c",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15711bc84900b2"
+        ],
+        "time": 0.1451060000108555
+      },
+      {
+        "url": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 503,
+        "size": 10659,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": "509f6db3c9e0b2b87932a5aa65cc5138ab5179dffae0ba90e8cdc2450ba1678d",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15711bc84900b2"
+        ],
+        "time": 0.013839999999618158
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15713348ad00b2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 13537,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate"
+        },
+        "responseBodyHash": "a8e0608c4eb17600aee13e1f7fb568090d1b601704d20dc9ec38d58c9302784a",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.028479000000515953
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=6c15713348ad00b2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 222,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=7200\npublic",
+          "etag": "\"61bc9ba4-2a\"",
+          "expires": "Wed, 22 Dec 2021 03:05:30 GMT"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.008114999975077808
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=6c15713348ad00b2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 222,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=7200\npublic",
+          "etag": "\"61bc9ba4-2a\"",
+          "expires": "Wed, 22 Dec 2021 03:05:30 GMT"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.010876000014832243
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/flow/ov1/0.046478615255288465:1640131532:53456b341333a24691b4b105010ce473f55b87b9b858605ce947dedb40e04c41/6c15713348ad00b2/548f7b905057f37",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 61838,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "set-cookie": "cf_chl_seq_548f7b905057f37=56084a5518e2128;SameSite=Strict;Secure;HttpOnly"
+        },
+        "responseBodyHash": "b8c1959b551cc6e26817ee5133ce9d31c9908db4e7f068c0af8b233d61af31e5",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15713348ad00b2"
+        ],
+        "time": 0.1248069999855943
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/flow/ov1/0.046478615255288465:1640131532:53456b341333a24691b4b105010ce473f55b87b9b858605ce947dedb40e04c41/6c15713348ad00b2/548f7b905057f37",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 2131,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "set-cookie": "cf_chl_seq_548f7b905057f37=;Expires=Tue, 21 Dec 2021 01:05:32 GMT;SameSite=Strict;Secure;HttpOnly"
+        },
+        "responseBodyHash": "3905eb25b4c42849d0b30b3425f1df5082f4b30c63b0801947bfbb71b4ab7f94",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15713348ad00b2"
+        ],
+        "time": 0.06718700000783429
+      },
+      {
+        "url": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 503,
+        "size": 10677,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": "c34375ce18e5312057d523a393163ea5b890a94e560a0721373a9759fbb97d78",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15713348ad00b2"
+        ],
+        "time": 0.07384799999999814
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15715d1acc00b2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 15046,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=0, must-revalidate"
+        },
+        "responseBodyHash": "6842ecaa5feca79cfa4bfd1462e99bc611e40e280423667ad364e0018a5fd4ff",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.02660799998557195
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=6c15715d1acc00b2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 222,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=7200\npublic",
+          "etag": "\"61bc9ba4-2a\"",
+          "expires": "Wed, 22 Dec 2021 03:05:36 GMT"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.006259999994654208
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=6c15715d1acc00b2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 222,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "cache-control": "max-age=7200\npublic",
+          "etag": "\"61bc9ba4-2a\"",
+          "expires": "Wed, 22 Dec 2021 03:05:36 GMT"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952"
+        ],
+        "time": 0.009431000013137236
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/flow/ov1/0.20054415812002657:1640131523:5c40ff0e0d1dbb275a56edda13f463eb6574f4b322b8438c605c098e49864971/6c15715d1acc00b2/a57915526de2e06",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 64546,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {
+          "set-cookie": "cf_chl_seq_a57915526de2e06=ed15b58de9a5ebf;SameSite=Strict;Secure;HttpOnly"
+        },
+        "responseBodyHash": "160359ba429e039213b302c49c4c649a0c27e57d649db2ca2a9397a9ea3390fb",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15715d1acc00b2"
+        ],
+        "time": 0.11137999998754822
+      },
+      {
+        "url": "blob:https://www.betterworldbooks.com/f5e9dafc-fb61-430e-95a8-3002fb1c6b82",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "c609febe6499f4d3ca41a5a6266ea0f7f1f5641c8917d26a20261f3c7ae89185",
+        "initiators": [],
+        "time": 0.0031789999920874834
+      },
+      {
+        "url": "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/beacon/ov1/0.20054415812002657:1640131523:5c40ff0e0d1dbb275a56edda13f463eb6574f4b322b8438c605c098e49864971/6c15715d1acc00b2/a57915526de2e06",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.betterworldbooks.com/account/login?ReturnURL=%2fServices%2fAddToWishlist.aspx%3ftitleID%3d41023952",
+        "status": 200,
+        "size": 219,
+        "remoteIPAddress": "104.18.21.213",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.betterworldbooks.com/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=6c15715d1acc00b2"
+        ],
+        "time": 0.02510999998776242
+      }
+    ]
+  }
+}

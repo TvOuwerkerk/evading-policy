@@ -1,0 +1,157 @@
+{
+  "initialUrl": "http://installatron.com/updatefeed.atom?s=77708a87c093b22f6530873e5ff154b1",
+  "finalUrl": "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565",
+  "timeout": false,
+  "testStarted": 1640136798152,
+  "testFinished": 1640136814165,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.installatron.com/links.installatron.com_6d33.json",
+    "requests": [
+      {
+        "url": "http://installatron.com/updatefeed.atom?s=77708a87c093b22f6530873e5ff154b1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "69.162.64.218",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://installatron.com/updatefeed.atom?s=77708a87c093b22f6530873e5ff154b1",
+        "initiators": [],
+        "time": 0.22793699998874217
+      },
+      {
+        "url": "https://installatron.com/updatefeed.atom?s=77708a87c093b22f6530873e5ff154b1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "69.162.64.218",
+        "responseHeaders": {
+          "set-cookie": "lnx_session_id=7d215c3df3a42d0d3eb78dad7fbcd736; path=/; domain=.installatron.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565",
+        "redirectedFrom": "http://installatron.com/updatefeed.atom?s=77708a87c093b22f6530873e5ff154b1",
+        "initiators": [],
+        "time": 0.3657250000105705
+      },
+      {
+        "url": "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 3904,
+        "remoteIPAddress": "69.162.64.218",
+        "responseHeaders": {
+          "set-cookie": "lnx_session_id=ecbc7848373338a2f0501f3ef110f448; path=/; domain=.installatron.com"
+        },
+        "responseBodyHash": "df905e30ffbe129514822f5134274e57320b0ee6c9a685f7497082ee6adfabec",
+        "redirectedFrom": "https://installatron.com/updatefeed.atom?s=77708a87c093b22f6530873e5ff154b1",
+        "initiators": [],
+        "time": 0.19873799997731112
+      },
+      {
+        "url": "https://installatron.com/static/i.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565",
+        "status": 200,
+        "size": 17682,
+        "remoteIPAddress": "69.162.64.218",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"54e6dc0d-90df\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "fc6337a6a10957b88642af7ed0314452fdd7ecca47f85e465188fdd0f69afb39",
+        "initiators": [
+          "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565"
+        ],
+        "time": 0.22793999998248182
+      },
+      {
+        "url": "https://installatron.com/static/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565",
+        "status": 200,
+        "size": 32552,
+        "remoteIPAddress": "69.162.64.218",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"4ea24074-165a4\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "d16d07a0353405fcec95f7efc50a2621bc7425f9a5e8895078396fb0dc460c4f",
+        "initiators": [
+          "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565"
+        ],
+        "time": 0.4550009999948088
+      },
+      {
+        "url": "https://installatron.com/tmpimg/ZDN5bXdsdUFYVks0TQ.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565",
+        "status": 200,
+        "size": 2839,
+        "remoteIPAddress": "69.162.64.218",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"61c2805e-99a\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "4e9e3d9dc15c85742ef6c9857fab7722487a883c17000e3ca2a904f8936f4b42",
+        "initiators": [
+          "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565"
+        ],
+        "time": 0.34192999999504536
+      },
+      {
+        "url": "https://ssl.google-analytics.com/ga.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://installatron.com/",
+        "status": 200,
+        "size": 17565,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 22 Dec 2021 01:37:26 GMT"
+        },
+        "responseBodyHash": "1259ea99bd76596239bfd3102c679eb0a5052578dc526b0452f4d42f8bcdd45f",
+        "initiators": [
+          "https://installatron.com/login?s=7d215c3df3a42d0d3eb78dad7fbcd736&m=450ffa8b9b69a99ec08a5de5f678b565"
+        ],
+        "time": 0.013471999991452321
+      },
+      {
+        "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=1392782880&utmhn=installatron.com&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Settings%20-%20My%20Account&utmhid=1980672122&utmr=-&utmp=%2Flogin%3Fs%3D7d215c3df3a42d0d3eb78dad7fbcd736%26m%3D450ffa8b9b69a99ec08a5de5f678b565&utmht=1640136799699&utmac=UA-392893-1&utmcc=__utma%3D20882144.1002272556.1640136800.1640136800.1640136800.1%3B%2B__utmz%3D20882144.1640136800.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=892100855&utmredir=1&utmu=qBAAAAAAAAAAAAAAAAAAAAAE~",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://installatron.com/",
+        "status": 200,
+        "size": 197,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.008212999993702397
+      }
+    ]
+  }
+}

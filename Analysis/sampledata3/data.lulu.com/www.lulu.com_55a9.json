@@ -1,0 +1,3222 @@
+{
+  "initialUrl": "https://www.lulu.com/products",
+  "finalUrl": "https://www.lulu.com/products",
+  "timeout": false,
+  "testStarted": 1639749748904,
+  "testFinished": 1639749768686,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://www.lulu.com/products",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 984,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "etag": "W/\"index.bb3f75fc27.html\"",
+          "expires": "Sun, 19 Dec 2021 14:02:30 GMT"
+        },
+        "responseBodyHash": "db70fd70026fdfd6cb136346a2b3276a27f3b07ee9b83fa89bab2fa9cde16aa7",
+        "initiators": [],
+        "time": 0.1124149999814108
+      },
+      {
+        "url": "https://use.typekit.net/lnq2xzc.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1589,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "70ceff83f2491ad1befe6d2dbcb50fbcef6e2b8fac9f7c3aaa32cb257cb4de09",
+        "initiators": [
+          "https://www.lulu.com/products"
+        ],
+        "time": 0.07108000002335757
+      },
+      {
+        "url": "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 25772,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/vendor.10f1cbc1102d97db2667.20b2a51cff.css\"",
+          "expires": "Sat, 17 Dec 2022 14:02:30 GMT"
+        },
+        "responseBodyHash": "e217c3e67791547094fac0176fc597b0df95fa41422088022a2aa35d0e1afddd",
+        "initiators": [
+          "https://www.lulu.com/products"
+        ],
+        "time": 0.05429299990646541
+      },
+      {
+        "url": "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 17979,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/main.10f1cbc1102d97db2667.1f26dff3ff.css\"",
+          "expires": "Sat, 17 Dec 2022 14:02:30 GMT"
+        },
+        "responseBodyHash": "d76978e3abcd6abbe75be87379f13855f73afbb68fc72cd60d3abd2f5e32fa9e",
+        "initiators": [
+          "https://www.lulu.com/products"
+        ],
+        "time": 0.16247500001918525
+      },
+      {
+        "url": "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 777756,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/vendor.10f1cbc1102d97db2667.5f19769369.js\"",
+          "expires": "Sat, 17 Dec 2022 14:02:30 GMT"
+        },
+        "responseBodyHash": "bdf09fc35dbd4a1d59efbda0d61a7c2668cba2b3553a522927cf7e766f432cfe",
+        "initiators": [
+          "https://www.lulu.com/products"
+        ],
+        "time": 0.5951900000218302
+      },
+      {
+        "url": "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 36902,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/main.10f1cbc1102d97db2667.bbfa4e1bfe.js\"",
+          "expires": "Sat, 17 Dec 2022 14:02:30 GMT"
+        },
+        "responseBodyHash": "96dce8c204e4f861a6a0d03afb0e5b0528f9f6216e7702e6ea576795ed4c4eca",
+        "initiators": [
+          "https://www.lulu.com/products"
+        ],
+        "time": 0.10280299989972264
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=lnq2xzc&ht=tk&f=2003.2004.2005.2006.2007.2008.2009.2010.2011.2012.9739.9740.9741.9742.9745.9748.22487.22488&a=1118516&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/",
+        "status": 200,
+        "size": 181,
+        "remoteIPAddress": "23.1.124.176",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"61612117-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/lnq2xzc.css"
+        ],
+        "time": 0.47659000009298325
+      },
+      {
+        "url": "https://use.typekit.net/af/a28b50/00000000000000000000e803/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/lnq2xzc.css",
+        "status": 200,
+        "size": 17101,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a6c1fa20004e862da7c922781204c8a0ef8794a4\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7ddd562c4530244f866451cbc16318e917cc0653a21f0916428e80317244e23f",
+        "initiators": [
+          "https://use.typekit.net/lnq2xzc.css"
+        ],
+        "time": 0.17112299997825176
+      },
+      {
+        "url": "https://www.lulu.com/assets/6.10f1cbc1102d97db2667.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 22824,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/6.10f1cbc1102d97db2667.9443745e4e.js\"",
+          "expires": "Sat, 17 Dec 2022 14:02:31 GMT"
+        },
+        "responseBodyHash": "62290b37d139b283eefe7c077023f4444d463253202226b9b782c45c98f20bb2",
+        "initiators": [
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.12300999998115003
+      },
+      {
+        "url": "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI"
+        ],
+        "time": 0.2937640000600368
+      },
+      {
+        "url": "https://www.lulu.com/assets/1.10f1cbc1102d97db2667.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 19470,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/1.10f1cbc1102d97db2667.11cb34257c.js\"",
+          "expires": "Sat, 17 Dec 2022 14:02:31 GMT"
+        },
+        "responseBodyHash": "703f045f635d94424da95682842d2fbc9e10ba3bd2336cc4b862a4b77942b6d8",
+        "initiators": [
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.07978599995840341
+      },
+      {
+        "url": "https://www.lulu.com/assets/3.10f1cbc1102d97db2667.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/products",
+        "status": 200,
+        "size": 23467,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"assets/3.10f1cbc1102d97db2667.deb0351ee2.js\"",
+          "expires": "Sat, 17 Dec 2022 14:02:31 GMT"
+        },
+        "responseBodyHash": "73d4137e1f863c1efa0110626960bbef07facde42272c89f6c12791032d5f755",
+        "initiators": [
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.06581100006587803
+      },
+      {
+        "url": "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1145,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0",
+          "etag": "\"b5c9a56d53f1164de94325d3ccf0c190-gzip\""
+        },
+        "responseBodyHash": "bb44fc892060180985dd04467b9ecb4fc99c0251f8c0f7ba70bd770fc6ca9005",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.6153410000260919
+      },
+      {
+        "url": "https://www.lulu.com/assets/icons.1ae2dbd91678b4436a8fdeac63e0621c.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.css",
+        "status": 200,
+        "size": 15935,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"assets/icons.1ae2dbd91678b4436a8fdeac63e0621c.e443c621b2.woff2\"",
+          "expires": "Sat, 17 Dec 2022 14:02:31 GMT"
+        },
+        "responseBodyHash": "ce2261af70873f3f905ae4794d1765f03330a74f35269ca3d48c57f28d35b128",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.css"
+        ],
+        "time": 0.25653300003614277
+      },
+      {
+        "url": "https://use.typekit.net/af/2837a6/00000000000000003b9ae112/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/lnq2xzc.css",
+        "status": 200,
+        "size": 30017,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"64ce776fbf9322579e00504a8469958f7a6209f7\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a73d6689f2db4172035ef3a8dc247da0515636ad3bd0302a45f92974b71dad20",
+        "initiators": [
+          "https://use.typekit.net/lnq2xzc.css"
+        ],
+        "time": 0.2078879999462515
+      },
+      {
+        "url": "https://api.lulu.com/auth/realms/glasstree/protocol/openid-connect/login-status-iframe.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1535,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, no-transform, no-store",
+          "p3p": "CP=\"This is not a P3P policy!\""
+        },
+        "responseBodyHash": "0d83eb5e302f1210163e27de52f08340d39b1931c1de89e56469d1b032820ba3",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.4916979999979958
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 27264,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"27a177bbb67094a0327a1a5cd00342a0:1638284907.838102\"",
+          "expires": "Fri, 17 Dec 2021 14:07:32 GMT"
+        },
+        "responseBodyHash": "037b5cfe99878e5e590ba260fadebe2a0b9c08883703b3e2e01c8699ea35f6be",
+        "initiators": [
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.5681999999796972
+      },
+      {
+        "url": "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI"
+        ],
+        "time": 0.4332289999583736
+      },
+      {
+        "url": "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI"
+        ],
+        "time": 0.40676500007975847
+      },
+      {
+        "url": "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 2110,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0",
+          "etag": "\"24c471ee06bca8c8d5bd99757c8baf85-gzip\""
+        },
+        "responseBodyHash": "b5345ef5cc88e599aff71f88960a5e34ac5c31f129914bc5ac67b727398814b5",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/3.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.493650000076741
+      },
+      {
+        "url": "https://graphql.contentful.com/content/v1/spaces/9htf9uzhsn4z/?access_token=CNqZJQ5gP7aX5krvxCvf1n3dQRIjkdBhQGFaofF0-yI",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 9471,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0",
+          "etag": "\"1c6acb5243f6c9b707e02defa362a454-gzip\""
+        },
+        "responseBodyHash": "f025f9c8c4d9a893b4e047d8fcbabc48f40af0a3adcacb1967638c177dd9fc85",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/3.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.8188859999645501
+      },
+      {
+        "url": "https://api.lulu.com/auth/realms/glasstree/protocol/openid-connect/login-status-iframe.html/init?client_id=project-wizard&origin=https%3A%2F%2Fwww.lulu.com",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://api.lulu.com/auth/realms/glasstree/protocol/openid-connect/login-status-iframe.html",
+        "status": 204,
+        "size": 33,
+        "remoteIPAddress": "104.18.13.232",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://api.lulu.com/auth/realms/glasstree/protocol/openid-connect/login-status-iframe.html",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.48329100001137704
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.1.js?utv=ut4.46.202109281344",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 2877,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"e7ac08102ed8608ffd83f4a2bec49603:1632836696.995047\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "4434ebc8d654e83b796f6ddc4946f78291520096a1ffdcc80441c0fa0dc99684",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.14650600007735193
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.5.js?utv=ut4.46.202010201523",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 4002,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"f5c516a54e8fb47164c9086f2b6e0809:1588277662.079935\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "bf5964041d858e3d1074f19412bf5259cc7f263123796f75abdcd704f5d99c43",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.1520580000942573
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.6.js?utv=ut4.46.202108161325",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 6367,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"80453ba3137f952b30e55f1cc87f7b06:1629120343.718842\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "986a7a72c0820657b1cd0a9845064bfb42222f9f44fb0ad905405e81266dc967",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.17947600001934916
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.11.js?utv=ut4.46.202111301508",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 4685,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"ed7daf89dd3becac70825be1dbb82ad0:1603475699.470134\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "303fc9a044ff3b154ad60f6156acf066f801f44985ca91c8ea72635e978b7570",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.18971299997065216
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.15.js?utv=ut4.46.202004252251",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1832,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"a03b2605252aca2ebeeb266edea35e46:1587855081.124492\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "bcafcb5fbccbc33eb47fa9176ddcae7131d6ee2bc9c14137458cf333720c05d4",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.18934199993964285
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.8.js?utv=ut4.46.202010201523",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 812,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"49a1f03d00fa9250fe109d11c292c659:1587855081.736663\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "061ea63fe18014aa08476bf032f2207958e9bce273b7e8a86bda9611b16830aa",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.1872880000155419
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 6368,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"9a1e1ab66ae62331c9954927ef29a8d3:1603396487.903904\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "27c62172f44685215559ea2e2e04ed6e3bb06096896b34026e0c0a8cba7dd38f",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.20405100006610155
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.12.js?utv=ut4.46.202104131306",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 2689,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"4c9770b384fe9e6c00f718c39eb420ae:1618319206.94502\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "4d1d4b5badeb49220000bfe40542ad189bbc579cc99a72f045d3b3d0dc390824",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.18746699998155236
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.16.js?utv=ut4.46.202010201523",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1884,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"03c94a3752291498e31415669032882f:1587855082.726635\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "00370c15380901896f141c8d2fedb6759c4d7792eb5b96b7cd33fe24aee05537",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.19244799995794892
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.17.js?utv=ut4.46.202004252251",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 4921,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"297cd66c6eb99dd6ad4be444e450a469:1590155680.594805\"",
+          "expires": "Sat, 01 Jan 2022 14:02:32 GMT"
+        },
+        "responseBodyHash": "670370462943635e8766dc829c49c826d2679c45b944e8854580b8d4bc817402",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.19251000008080155
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3tSSOSmHDmAKXuhUbZD27g/a3af19924d8e4eb75ce6a09514a1f2ea/lulu-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 2801,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"26737f54593faa10d8942579239e6088\""
+        },
+        "responseBodyHash": "dbf39cdb641838fb1cdaa17484b09f9cd6deaccd3363c8ab716ecc9c32e2ba59",
+        "initiators": [],
+        "time": 1.2783210000488907
+      },
+      {
+        "url": "https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/lnq2xzc.css",
+        "status": 200,
+        "size": 17342,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"4577a8003f294766a3a783ec5fba19dc646ecf7c\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e6ede612a43196fc75a782f8314309eb15cd26a835ca7464f0889a115b638a3c",
+        "initiators": [
+          "https://use.typekit.net/lnq2xzc.css"
+        ],
+        "time": 0.2075529999565333
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=lulu/lulu2.0/202111301508&cb=1639749751544",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 202,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "\"7bc0ee636b3b83484fc3b9348863bd22:1460653071\"",
+          "expires": "Fri, 17 Dec 2021 14:12:32 GMT"
+        },
+        "responseBodyHash": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.19126900006085634
+      },
+      {
+        "url": "https://cdn.pendo.io/agent/static/d8ae98cd-b556-4446-7a33-9c645c23d8a9/pendo.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 140449,
+        "remoteIPAddress": "52.222.138.124",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=450",
+          "etag": "\"d9ccf11728cc6eccb0b17aa5fa528881\"",
+          "expires": "Fri, 17 Dec 2021 14:07:11 GMT"
+        },
+        "responseBodyHash": "3b5c61fcfbbceceb9cd01399acd9aa2df9cabfe5169200734f544dc650c104db",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.1.js?utv=ut4.46.202109281344",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 1.267630000016652
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 40063,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Fri, 17 Dec 2021 14:02:32 GMT"
+        },
+        "responseBodyHash": "ff44cddc49376b2f55afba1fc3ce8cf0a5cb686ebf89fa4553b1bb64582590de",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.5.js?utv=ut4.46.202010201523",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.7565239999676123
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 10962,
+        "remoteIPAddress": "204.79.197.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=1600075D422C66652297164D43C667EE; domain=.bing.com; expires=Wed, 11-Jan-2023 14:02:33 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.11.js?utv=ut4.46.202111301508",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.7702930000377819
+      },
+      {
+        "url": "https://js.hs-scripts.com/2577763.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 915,
+        "remoteIPAddress": "104.17.212.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "public, max-age=60",
+          "expires": "Fri, 17 Dec 2021 14:03:33 GMT"
+        },
+        "responseBodyHash": "0110c0a1e927bce8473c54ffe9cfa0ccc000f740e018b18c88a9bdbc044788d7",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.15.js?utv=ut4.46.202004252251",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.6962029999122024
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/scripts/0017/3384.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 2236,
+        "remoteIPAddress": "104.19.148.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "10dd8b41d20269dc8d501715630fcc72035f48b12852fd97de42ce7ae5dccd6c",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.8.js?utv=ut4.46.202010201523",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.7390270000323653
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 27030,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.7254790000151843
+      },
+      {
+        "url": "https://static.ads-twitter.com/uwt.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 5730,
+        "remoteIPAddress": "199.232.148.157",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "\"8dc11b7ca1d5ed9ec3b1ab1beb621c75+gzip+gzip\"",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\""
+        },
+        "responseBodyHash": "4da3e3aa30b5b06390d7e7e3fcfb16d648909eb429d161c2748bd6d79a7ec5fb",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.12.js?utv=ut4.46.202104131306",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.7044839999871328
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 2419,
+        "remoteIPAddress": "104.110.191.148",
+        "responseHeaders": {
+          "cache-control": "max-age=10450"
+        },
+        "responseBodyHash": "fed785a6a8ca96fb67230fec5d85f9c508db49f4075aa0ef284af56cd89813e3",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.16.js?utv=ut4.46.202010201523",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.8805350000038743
+      },
+      {
+        "url": "https://datacloud.tealiumiq.com/lulu/main/2/i.gif",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 749,
+        "remoteIPAddress": "52.49.172.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-transform,private,no-cache,no-store,max-age=0,s-maxage=0",
+          "expires": "Fri, 17 Dec 2021 14:02:32 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "pragma": "no-cache",
+          "set-cookie": "TAPID=lulu/main>017dc8b39204001d883680bba34501078001d07000590|; Path=/; Domain=.tealiumiq.com; Expires=Sat, 17-Dec-2022 14:02:32 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.17.js?utv=ut4.46.202004252251",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.6325850000139326
+      },
+      {
+        "url": "https://datacloud.tealiumiq.com/lulu/main/2/i.gif",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 749,
+        "remoteIPAddress": "52.49.172.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-transform,private,no-cache,no-store,max-age=0,s-maxage=0",
+          "expires": "Fri, 17 Dec 2021 14:02:32 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "pragma": "no-cache",
+          "set-cookie": "TAPID=lulu/main>017dc8b39204001d883680bba34501078001d07000590|; Path=/; Domain=.tealiumiq.com; Expires=Sat, 17-Dec-2022 14:02:32 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.17.js?utv=ut4.46.202004252251",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.6252439999952912
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3x4ffQYKM9bDXCmJCU5NxE/31f78ff861db659aad323feb1fe57450/lulu-product-print-book-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 22290,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"031701bf5f7f3bcf281bb6569f8c3d30\""
+        },
+        "responseBodyHash": "57d9a49625e9809af5ac3742c5ac5776a1f00ee84f4e4972435474f60dce9759",
+        "initiators": [],
+        "time": 0.3250719999196008
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/15uyCEi9BwJO4itZ37tk0D/7abb690963ec1f42a1531fbf403e45c3/lulu-product-photo-book-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 51442,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d2b0aebd00487642c62a9921e40e60aa\""
+        },
+        "responseBodyHash": "4236c3e4392d3cee44816dd7f057c475cd1a76b4d867588a887bcaf237c49245",
+        "initiators": [],
+        "time": 0.824131999979727
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/LY91US0LZccQ5Ivhdmr4X/846453c6fbdcfda390185f2963e1d50b/lulu-product-notebook-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 21353,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"121b9327874b5e1b8800fbd51c53e93e\""
+        },
+        "responseBodyHash": "c364aaf08cbc92be274f63ff4fa3dec0d447ca49dab8715e06a296fdff084016",
+        "initiators": [],
+        "time": 0.9608010000083596
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/4bLYABP5v1WlePmyosEioR/988a7bbce3a575fe80660abccb01b390/lulu-product-calendar-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 30087,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"8be759237dd016c5daa281ec3b00c0d2\""
+        },
+        "responseBodyHash": "a1e659179bd6705444484ba986a74e0cf9a43c53a1deb48076587cef61fa3d21",
+        "initiators": [],
+        "time": 0.9606529999291524
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/1uhMG1yHiKAsgpRn3wDNkk/5c072ca16615ed18351139b605020615/lulu-product-comic-book-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 51805,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"73e1a3be26ef208cfd3cf4ca9112ffa4\""
+        },
+        "responseBodyHash": "899fa635b69fdfa7c097a57d6911d493353556ac158383e65f61b23209fdaed2",
+        "initiators": [],
+        "time": 1.1809059999650344
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/scw2CNy0Hdl2qsvLPDRgz/f5348c2669e20fb34b677eec773781c7/lulu-product-magazine-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 37973,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"a8ad9bb60d4062aa258f160213622093\""
+        },
+        "responseBodyHash": "40cd989ada3a7f3a5d3284f593e92b748e86b0a8d804ef16ca9495e211441f5a",
+        "initiators": [],
+        "time": 1.0733000000473112
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/oKMrzmSphX4RrGRXQLEzw/85b115bd795ca32d6998edea32b3ae61/lulu-product-cookbook-card.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 73956,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4ebf220d7dd3533bc7549cdef1879c65\""
+        },
+        "responseBodyHash": "679fc28aae1f21a66cc6ead1cf84ae0753b5b10a7afd058f25e17a9b75ecf466",
+        "initiators": [],
+        "time": 2.048757000011392
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3vePuva9gUAsr7sqVO3H7x/98a3a8292309e974d4f44f0faa585070/lulu-product-yearbook-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 77687,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"bc0c30539e3ee718a4a1ba5e61d593bd\""
+        },
+        "responseBodyHash": "fcdc79e114cf4b86a6c97a9d6dabad78ffbbe271906b10f6911cedfc6a11a296",
+        "initiators": [],
+        "time": 1.3234869999578223
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/1hq3NNwnCEBq74HoUbkTC3/4c97ded40b728c807fbd35dcb6e5c87a/lulu-product-ebook-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 28355,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d50900498ce709ebbac55c96f73dfc23\""
+        },
+        "responseBodyHash": "2c63bfaf49ef353b2a4ee2a40a659b6800b88861ef7cddc40469ba4cd1c3df12",
+        "initiators": [],
+        "time": 1.350523000000976
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/9Hd4Cqiej2Ae0ibCS0weV/6c252d120c8d7ea945dcf5afe36c9450/lulu-book-trim-sizes-pocket-book.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 19534,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"da93e5551fb72750abfa4ebdac0f0a86\""
+        },
+        "responseBodyHash": "9c362b0568eabe4823627e9589e34b97b6ae65163feb036bbf66a849ab4dd223",
+        "initiators": [],
+        "time": 1.3606240000808612
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/33mgYQPjYZR8XmZGaGvtKa/fe3e0d51cd497dcf7ce02f6af49395e9/lulu-book-trim-sizes-digest.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 20003,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"55d482f5f8c5deb0a572361ae18b9494\""
+        },
+        "responseBodyHash": "2dc919455cd388df85c0ace7d756befd41555dbb590a001dc2aa3ae1176667ca",
+        "initiators": [],
+        "time": 1.5663739999290556
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2lk41vXdiYxhc54RmmUCjW/abbf68ea970334a757a0d60ff3672672/lulu-book-trim-sizes-a5.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 20199,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d0041f1576bfccf6cf8f64467f7cf46c\""
+        },
+        "responseBodyHash": "9b8a788b331cfbd2049131e2b88f0b18bed3f786e279e995feff208e89b5cdb9",
+        "initiators": [],
+        "time": 1.371121000032872
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/5Fu9dMulo33DCq09JE4Svy/b74a4324d1fcfe05e2f306ef89d3376e/lulu-book-trim-sizes-us-trade.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 19625,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"cf1b686ef3505c4ba0bf152bc2ed82de\""
+        },
+        "responseBodyHash": "d0eab1fe1eb834c99255227b1601a40c56390b201d4358de3950cad8966986e8",
+        "initiators": [],
+        "time": 1.4551369999535382
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2MDYWTYMYV3vAEIUE5tdVm/9ced932b894805cbccc27a8c0b1b7492/lulu-book-trim-sizes-royal.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 20127,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7a26fd1a09b2e83dbfa1f98786c1bc8d\""
+        },
+        "responseBodyHash": "7652d1c2bf451c4b1d6e8a748eff827cb233cb12b8f31f696a5dcd7722003e6d",
+        "initiators": [],
+        "time": 1.5366819999180734
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2a6ybEGB89pdxbTSXDMX75/57467d7748910add68430e9cf9c58ce4/lulu-book-trim-sizes-comic-book.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 20018,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"e3e5ab48be922f8c5dd24bd758a83894\""
+        },
+        "responseBodyHash": "4f73b632295445e5cd1e45714c03355e308a2f00cdc1b4a378040558845a8606",
+        "initiators": [],
+        "time": 1.5812480000313371
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/1a3hRlWDFOjx7AYaJNkPr8/a34a0dce8095d6a472605d7bb659625b/lulu-book-trim-sizes-executive.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 21607,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"34924a69d4b6dbab905fdcdc832d09de\""
+        },
+        "responseBodyHash": "9962f02241a4fb2f541dbb1244c0c8224f3bd49afb64bc3a8d3ee475f7cbba77",
+        "initiators": [],
+        "time": 1.5951120000099763
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/5IrqSRwapAwBtPz5rzF84r/95605b6c6e9f5eb7a5b4b89086c67ead/lulu-book-trim-sizes-crown-quarto.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 21621,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"8e55e483e8351c5493b27cade08fad7e\""
+        },
+        "responseBodyHash": "0723bb5c7435ae90590a88d33a3b9e1666bf3def65d29b3466158a043a00e050",
+        "initiators": [],
+        "time": 1.6313719999743626
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3g45w0VNXoVnpFPYtve7og/01b288df2517f25c5730884ec41eacc8/lulu-book-trim-sizes-a4.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 22702,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"959a5e841d879c4404dfa2d0d23f4012\""
+        },
+        "responseBodyHash": "1afd039ef0e71fe8093307018608b5a97aa8b29868c443dd2cc20c5517472f95",
+        "initiators": [],
+        "time": 1.6147889998974279
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/5z1PCTzTnbYoFVFEsV1X6n/54739445114dadce5eb3f4c95d40f6ec/lulu-book-trim-sizes-us-letter.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 22376,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"a420aaa718c571dddb4e718303b955ec\""
+        },
+        "responseBodyHash": "de6d40ebd7986d10da81109dad8a2732fca350777405eda59595b5d0e0e54799",
+        "initiators": [],
+        "time": 1.6625770000973716
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/8zLJPTccKToPMNBoPWhLc/608813157fef60f517176bcee4dcc9a1/lulu-book-trim-sizes-small-square.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 21014,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4746ca033940fa51abf8560bf052d83d\""
+        },
+        "responseBodyHash": "394041a2560eb88bb4198762188df7f2c5d0f09134382dfa2270319eea93af8b",
+        "initiators": [],
+        "time": 1.6412579999305308
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/4aQzsDKCgGBAmyT5cKHRUi/af6c3e62e2df0f95ecba84e07dffe74f/lulu-book-trim-sizes-square.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 21636,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d4fe4be7581282f7588dddc746ff8ac0\""
+        },
+        "responseBodyHash": "9da0c755fe14b73ef7612f585d27605f680a871a432f057ac3936c4ef3bb5269",
+        "initiators": [],
+        "time": 1.6573779999744147
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2b1c9JvySfe3W42RuuPdMU/0850e0db1136efb73503f64f37e5bb14/lulu-book-trim-sizes-small-landscape.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 21580,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"2962e31e5718691044029db74b91d039\""
+        },
+        "responseBodyHash": "6ad725508ae923ecad845b660c4d01157b3ecde61dbcf9e0829a613abf47a9d9",
+        "initiators": [],
+        "time": 1.7193089999491349
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2BKzU0gII8prbD1LctELDq/41676abd402ff02fee4de1a330662a68/lulu-book-trim-sizes-us-letter-landscape.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 23420,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"67eb589df21e08910744c6a4141231a2\""
+        },
+        "responseBodyHash": "f1bd4c635917f4a673746c0689da27a7791b9a925ce7a958d766c3109fa6f830",
+        "initiators": [],
+        "time": 1.6913139999378473
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3BxKIDDlPUXh49AECGli0O/79f1af8e65e36d08b5dfac08280fa411/lulu-book-trim-sizes-a4-landscape.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 8780,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"bc5dcb01a6daa2037da860c8b46402c2\""
+        },
+        "responseBodyHash": "74c91ebc6e38b1510df61906d9f66111b44969b63220f40fe35c7f5cf6aec8a8",
+        "initiators": [],
+        "time": 1.7643519999692217
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/BA0pViL1K3fEiacqfqb23/628820e8cc239d4ea5087fd95420be66/lulu-book-trim-sizes-calendar.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 24792,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"0233b26ad77937607ab383c8cc7317f8\""
+        },
+        "responseBodyHash": "e665cfad2536e44a951e1c1e238ac40e4f51ed68f01e882729a89bf0ba6b2ecb",
+        "initiators": [],
+        "time": 1.7594340000068769
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/7JITjvdtFkAzSOPhtZjTIY/5947e629d3011eee735ffbbac92afbca/lulu-book-bind-types-paperback-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 9870,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4834cb20527d2080295b6afbe87f464e\""
+        },
+        "responseBodyHash": "7a4a9486c17fdccad1580275c801d1f42d9bc25cdcc38693a57f293e9462166a",
+        "initiators": [],
+        "time": 1.737444999977015
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2vfzDsfrUHLp1nzXGN0guz/03238b69fd8985612c80c41edad3a8b5/lulu-book-bind-types-coil-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 23889,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"08ed0dcd87a03958e61172a6827521ed\""
+        },
+        "responseBodyHash": "35a266c42e3743313939605d9a193d65f6e5119a6c58cbe6e2442b0af56a4eaf",
+        "initiators": [],
+        "time": 1.7781559999566525
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/6VMJXcMYS7gBnBAGJ2UE55/59045002195b0944205d10370c6fe10e/lulu-book-bind-types-saddle-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 6454,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d250ba3d60f54ac3b123d1ed39164513\""
+        },
+        "responseBodyHash": "7eea95399054d5fced2bd0ae64ffe56e089bced77e7178af770315cca349b54f",
+        "initiators": [],
+        "time": 1.7651789999799803
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/6ekSO1HGUSsvz7djmceM1V/13d0aba66fcfe03636897d0687408121/lulu-book-bind-types-hardcover-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 12292,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"402cbc0b2cb5b91dcfdc2558280a40ca\""
+        },
+        "responseBodyHash": "c87e29e20d06bcafddadcf11bf6366f2573b88784cff9fd661778b99f6fb6db5",
+        "initiators": [],
+        "time": 1.7829159999964759
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3Tko1vAEsqgKteDV1uwTSV/5202ce9c3916152f14975f05818e097a/lulu-book-bind-types-dustjacket-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 13187,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"e97e6371229c49d439765f893a2c3007\""
+        },
+        "responseBodyHash": "b4f07aff9e4f7925340ba437f466dc65161c43a6865bbb6d7c378c888ab91dd2",
+        "initiators": [],
+        "time": 1.819277000031434
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/1sRdqyPn26mJiFTdvnqrHW/a80294e154c1808aeea20df1b4477ef9/lulu-calendar-bind-types-wire-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 14417,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"613dddb34975e55dc345d72335c76884\""
+        },
+        "responseBodyHash": "494053dd8a9366f71612f28a3829c453f1df1cbd38490d3fee2de016ee5cd21b",
+        "initiators": [],
+        "time": 1.8030809999909252
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3kWnQRuJob8qipFkP4IrjW/d12b6efd39b2eaae07fb26ee6cda6e22/lulu-book-paper-types-60-uncoated-cream-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 6848,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3dedd585f1eb05818bed27e906cbb9c0\""
+        },
+        "responseBodyHash": "30094b261d558d54d1735782bdd5567dc529c3ee0a9d678456651813ac00a894",
+        "initiators": [],
+        "time": 1.8174289999296889
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/4I5gJ3H5joPO5no7RfVHm5/58611dd4bc4b4815a7c7c9095fb189d8/lulu-book-paper-types-60-uncoated-white-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 6846,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"797da857d676f99459875d485ed903f7\""
+        },
+        "responseBodyHash": "f09f9166d24d1d80eacb1d219b4c3f354ef9f8cf19b042b90d11fad3b0f5bc83",
+        "initiators": [],
+        "time": 1.8251279999967664
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/6KyXJzHh0LShRwiukbF1ie/0c74d26d53adf7a6400e8de1183346e7/lulu-book-paper-types-80-coated-white-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 6890,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"82c8a21b7eb48031806ab4a5faf42868\""
+        },
+        "responseBodyHash": "daea379e17f0b6a88592a39ee6620967bfc5020fcbd3d2651944419428de0f6f",
+        "initiators": [],
+        "time": 1.8254410000517964
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/dogWJp9IQLIYgTETYkP9a/ba9ce752cacffde08ad2d99644240ae8/lulu-calendar-paper-types-100-coated-white-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 5978,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"af3d49652b568e154b767ac73ea9d5b4\""
+        },
+        "responseBodyHash": "da6158bc2cfd45024a8c739444ea82bf6d1a25e863aa2bddfcf8cbf064e2b08f",
+        "initiators": [],
+        "time": 1.8268870000028983
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2zUcX5SygB584peCGckPyB/596ffc9166b08ef2c1c9cf5061f0e46b/lulu-book-interior-black-white-standard-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 41630,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d68f514a60f10a3662ee07887a9ee2c4\""
+        },
+        "responseBodyHash": "58e642b4610a379adf1564cfb6deaf50b1572dbe97a92fd9f7dc9dbdfed4db96",
+        "initiators": [],
+        "time": 1.8548810000065714
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3QVOZqqpX789CnZ4tzT1aQ/54f5c72cbb43e6c5480e02c440fea394/lulu-book-interior-black-white-premium-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 33972,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"fbce2fcdb90757436b12cdcf11da0d4e\""
+        },
+        "responseBodyHash": "10b7cdce301021e9709dc0131fa6adef8222811d8b6b6720e0cc12f62cb2d10c",
+        "initiators": [],
+        "time": 2.0208280000369996
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/7mpZLHSgRmdT26LqdRdxfj/cf7851e5d81ae92157bd739dad3a103b/lulu-book-interior-color-standard-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 31003,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7de043ab5a38bb579f9988ac126180a9\""
+        },
+        "responseBodyHash": "1a35fb38084fe408447953d5a99582fc3a61ce1ae7960a32df065182404ed8de",
+        "initiators": [],
+        "time": 2.0207139999838546
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/7CKybd6gADXhzQSiBeGO3b/b1b15bcaa8337fc0f84051559d74c4ec/lulu-book-interior-color-premium-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 67798,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"4f34e79365a11521c8363770c0a9b21e\""
+        },
+        "responseBodyHash": "c00fa5259d7243a322a23c6849d32c1bf6f88d7344dd060d447eb9c6f102fd01",
+        "initiators": [],
+        "time": 2.0198810000438243
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/5Pg9w9f8PC4CKYg4mET2WJ/8ba19f2776e97c36d8b273bcb2e5368a/lulu-cover-finish-glossy-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 14523,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"cb0c5f43d5362872dac610a2869e1cc4\""
+        },
+        "responseBodyHash": "9895d5724c1dde15388172622a2d96c051809cc75491eea351cb31cea01fbf1f",
+        "initiators": [],
+        "time": 1.8284889999777079
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3979a7pxrg81sWKRu1lZPB/3f116b6aa67bfca2ba6544a181ef5486/lulu-cover-finish-matte-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 15053,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"c735b1ffb4af78028cff653bc9ab8286\""
+        },
+        "responseBodyHash": "8de60127ed2c55983bd22ab9b15430aac3c15630bc2a280bc459091969405381",
+        "initiators": [],
+        "time": 2.0192820000229403
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/6JK9FZnrZwIT8wZQAv12r7/725f0f22580d451736212dbdfd162a46/lulu-book-linen-navy-foils-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 10496,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"82f6661f7e89d2404c1d45c8025d6a50\""
+        },
+        "responseBodyHash": "d50b8bb71dd2fbaf4c3429a7715c648b3037dfae72995924780ce9084416612d",
+        "initiators": [],
+        "time": 2.01851500000339
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/1c94be1u8nvK7vVhn1l4FK/8814fe029cb68a61cb57aaba3b50e0bc/lulu-book-linen-black-foils-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 9924,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"28811933677de47854c2324e4ded80de\""
+        },
+        "responseBodyHash": "c667ecf9ba42ae86807b18961615e77db4c81e06bc569eb8b3d3a26006ea267a",
+        "initiators": [],
+        "time": 1.834915000014007
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/40INOq54SASgo0fG9N4sOG/8a8196530bd403e0683f07f90a7dbd80/lulu-book-linen-gray-foils-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 10312,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"442e7b253512095fa87ff0bcb4718c09\""
+        },
+        "responseBodyHash": "1174ba92dfe5955a329edd7eca45cb73b46ac3d75eac1a7690072e910ec89164",
+        "initiators": [],
+        "time": 2.0185349999228492
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/7jvtSvYbjqva1okx3vsWkp/6c3ad6365c1abb9fed1afd1c7d7bfcfa/lulu-book-linen-red-foils-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 12388,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"ef496af0895ba080c969eb58d76955a1\""
+        },
+        "responseBodyHash": "49cae7b1264385e75812a525a8080a544fbdca273ad66b8f29bc8050fc0957c0",
+        "initiators": [],
+        "time": 2.0176710000960156
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/3gHYOIyELEREzCY5AUGgVz/b7c933325669194017a4184376aa47ae/lulu-book-linen-tan-foils-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 10716,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"51fc38412947424b5a111e89c826ec8e\""
+        },
+        "responseBodyHash": "8516d697f1b161510ea618ce567aa42614f82a5ac526251cf413f74b998583f3",
+        "initiators": [],
+        "time": 2.0176590000046417
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/1HWfLzTNPiRYRynNUrTzFj/53db36fc8858a92563b7b065de92f0ee/lulu-book-linen-forest-foils-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 10921,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"2edae937eeb043c7136f1e01c30f26b7\""
+        },
+        "responseBodyHash": "fe7e3aca0f8940390648587725704c8b828842326b743a35dab90762fe673baa",
+        "initiators": [],
+        "time": 2.0176879999926314
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/Gkl7ted7W6wdLDq19KNCn/c976ecc10d43ddaa592e8633d0627b36/lulu-ebook-epub-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 7781,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"0960e4fa3af1ebf65e83aaf24ee9ea46\""
+        },
+        "responseBodyHash": "9be6327fa324c6184ec9a06dc702e75e987812708c0ea501fa4434a206080efe",
+        "initiators": [],
+        "time": 2.0177190001122653
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/68TPHuPkKAZ5we1NCE6BLj/9b008e8449084ff5fd9267c6f5144c34/lulu-ebook-pdf-thumb-16-9.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 8746,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"c0250d4bfcadc1463cc5beeb89f5b55f\""
+        },
+        "responseBodyHash": "6f04365391113593262a8d723477e6b21de9192a00ad959aa3e81f03f4f871c7",
+        "initiators": [],
+        "time": 2.0175569999264553
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/2CiNlLguwQnXFadPino1BJ/0224711ee14cfb89984a679f333d1dd2/lulu-products-hero-banner-m-standard.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 117121,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"c53dfdbd64ad94015c1e14cceb444572\""
+        },
+        "responseBodyHash": "f6dafae45419932cb4fc2c0e74e49436942bb20f88d618b16461d248f62a5821",
+        "initiators": [],
+        "time": 0.690082999994047
+      },
+      {
+        "url": "https://images.ctfassets.net/9htf9uzhsn4z/5jMTh2F5xpyd4DPMpzeI5Y/a046c3a3ad785c5f9cf5cba798488552/lulu-pricing-calculator-content-banner.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 35910,
+        "remoteIPAddress": "52.222.138.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"83981858b7be2e4dfd6e8d99935cbdae\""
+        },
+        "responseBodyHash": "28aab3bfdc8d2d3bf6c48c6beacc2e0f35241c314f7b91c98b1eaf7fc1161e91",
+        "initiators": [],
+        "time": 2.0024149999953806
+      },
+      {
+        "url": "https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/lnq2xzc.css",
+        "status": 200,
+        "size": 16957,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"913296c9ffe9c1f97e163e531cc2022a12d91b5a\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "168cbbc6f5ba3ccea1c6a8b5cea783fd8b5eacbb26d5224e3d4f87aaff5d5508",
+        "initiators": [
+          "https://use.typekit.net/lnq2xzc.css"
+        ],
+        "time": 0.29823299997951835
+      },
+      {
+        "url": "https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/lnq2xzc.css",
+        "status": 200,
+        "size": 17262,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"b5e7c2e377d10b344b022d96a04daef295e61ac1\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a30593538f1547c88a581d70143dcfaf82e117692ecb5d972adc99b0b36d6467",
+        "initiators": [
+          "https://use.typekit.net/lnq2xzc.css"
+        ],
+        "time": 0.308504999964498
+      },
+      {
+        "url": "https://datacloud.tealiumiq.com/lulu/main/2/i.gif",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 748,
+        "remoteIPAddress": "52.49.172.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-transform,private,no-cache,no-store,max-age=0,s-maxage=0",
+          "expires": "Fri, 17 Dec 2021 14:02:32 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "pragma": "no-cache",
+          "set-cookie": "TAPID=lulu/main>017dc8b39204001d883680bba34501078001d07000590|; Path=/; Domain=.tealiumiq.com; Expires=Sat, 17-Dec-2022 14:02:32 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.17.js?utv=ut4.46.202004252251",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/main.10f1cbc1102d97db2667.js",
+          "https://www.lulu.com/assets/3.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.24863599997479469
+      },
+      {
+        "url": "https://js.hs-banner.com/2577763.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 16135,
+        "remoteIPAddress": "104.18.20.191",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://eur-store.lulu.com",
+          "cache-control": "max-age=300\npublic",
+          "etag": "W/\"4bc44eb539dd3ce534a75d3b25301d0c\"",
+          "expires": "Fri, 17 Dec 2021 14:06:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8c21d0b4c0035eef791b71628a626d14b81244beec09ae3def8c331f959f7386",
+        "initiators": [
+          "https://js.hs-scripts.com/2577763.js"
+        ],
+        "time": 1.0935670000035316
+      },
+      {
+        "url": "https://js.hsleadflows.net/leadflows.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 88986,
+        "remoteIPAddress": "104.17.231.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "s-maxage=86400, max-age=0",
+          "etag": "W/\"a20da5f3327ff62c3dfbc71571e4fc6d\""
+        },
+        "responseBodyHash": "bb54934c45f4c74ce2c3d2cc7b8b08b49b5c75d1dc0a64dd5071bf2b452c69ea",
+        "initiators": [
+          "https://js.hs-scripts.com/2577763.js"
+        ],
+        "time": 1.3137349999742582
+      },
+      {
+        "url": "https://js.hs-analytics.net/analytics/1639749600000/2577763.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 20172,
+        "remoteIPAddress": "104.17.71.176",
+        "responseHeaders": {
+          "cache-control": "max-age=300\npublic",
+          "etag": "W/\"8c3517b78f4ea2bc52c677fcc49bcb03\"",
+          "expires": "Fri, 17 Dec 2021 14:06:22 GMT"
+        },
+        "responseBodyHash": "a2331a73f59ccca17ed9617d72630f37fe0f2e397d1ea9fc6095b5df22d37045",
+        "initiators": [
+          "https://js.hs-scripts.com/2577763.js"
+        ],
+        "time": 1.0854220000328496
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?type=javascript&version=2.0.4&p_id=Twitter&p_user_id=0&txn_id=nvjzh&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&event_id=8759b83f-8233-40b6-b791-6de609c7f6c1&tw_document_href=https%3A%2F%2Fwww.lulu.com%2Fproducts&tpx_cb=twttr.conversion.loadPixels",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 674,
+        "remoteIPAddress": "104.244.42.131",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "personalization_id=\"v1_kXjs6hYEov/nPp8KGse4xg==\"; Max-Age=63072000; Expires=Sun, 17 Dec 2023 14:02:33 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "df3e003cc30e9bdd0313100e8ee5d468070b4b34d11ad355f276a356d4b9c7bf",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.8767310000257567
+      },
+      {
+        "url": "https://t.co/i/adsct?type=javascript&version=2.0.4&p_id=Twitter&p_user_id=0&txn_id=nvjzh&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&event_id=8759b83f-8233-40b6-b791-6de609c7f6c1&tw_document_href=https%3A%2F%2Fwww.lulu.com%2Fproducts",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 470,
+        "remoteIPAddress": "104.244.42.5",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://static.ads-twitter.com/uwt.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.920172999962233
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1510298669211642?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 89384,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "bc83224d1f5f620491f27c65b40187bd107c9e6166de98a86e5fa6070e671ffc",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.5283780000172555
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/data-scripts/0017/3384.json?t=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3660,
+        "remoteIPAddress": "104.19.148.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8f02ed1523bf4ab2bdbee6b8174acefbe4739b2deba0c891894941c0828e22e5",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0017/3384.js"
+        ],
+        "time": 0.8112879999680445
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/data-scripts/0017/3384.json?t=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 69,
+        "remoteIPAddress": "104.19.148.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8f02ed1523bf4ab2bdbee6b8174acefbe4739b2deba0c891894941c0828e22e5",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0017/3384.js"
+        ],
+        "time": 1.0791609999723732
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Fri, 17 Dec 2021 14:02:33 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.8993529999861494
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-30214-1&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 36323,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Fri, 17 Dec 2021 14:02:33 GMT"
+        },
+        "responseBodyHash": "a7a60a75934a4eb66306f355ad7a9fa246216200c085779e933ce79c2a0e8f71",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.3984410000266507
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-E4HSQJ4YSL&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 61960,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Fri, 17 Dec 2021 14:02:33 GMT"
+        },
+        "responseBodyHash": "2c11fd28ef06ffdc02174473edac647ba4eeea110c853b226f348026200f8fa5",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.6324160000076517
+      },
+      {
+        "url": "https://bat.bing.com/p/action/5436888.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 204,
+        "size": 94,
+        "remoteIPAddress": "204.79.197.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.11.js?utv=ut4.46.202111301508",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.26723200001288205
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=5436888&Ver=2&mid=c4b970aa-435a-4b67-9557-ddce37bc8607&sid=fa9fcc505f4111ec9fb049dac6c78f29&vid=faa000205f4111ecbe1923e9089e92de&vids=1&pi=842281895&lg=en-GB&sw=800&sh=600&sc=24&tl=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&p=https%3A%2F%2Fwww.lulu.com%2Fproducts&r=&lt=2214&evt=pageLoad&msclkid=N&sv=1&rn=842084",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 204,
+        "size": 151,
+        "remoteIPAddress": "204.79.197.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.11.js?utv=ut4.46.202111301508",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 0.27027600002475083
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=253977&time=1639749752449&url=https%3A%2F%2Fwww.lulu.com%2Fproducts",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 302,
+        "remoteIPAddress": "13.107.42.14",
+        "responseHeaders": {
+          "set-cookie": "UserMatchHistory=AQLjsysJSh1BpQAAAX3Is5yxUMvhlkGYLYcE8ivxFFqiV9dOgVcolJiNGkP1OMbyWsjhxHG-XtWUxA; Max-Age=2592000; Expires=Sun, 16 Jan 2022 14:02:34 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nAnalyticsSyncHistory=AQIPUqcw2BILDAAAAX3Is5yxsPg1Y7Dl7zpPELFpDVUwi6PO-rf1HAHXiX80fxNVfWsL7TFtayBA1KFm0Bvwyg; Max-Age=2592000; Expires=Sun, 16 Jan 2022 14:02:34 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nlang=v=2&lang=en-us; SameSite=None; Path=/; Domain=ads.linkedin.com; Secure\nbcookie=\"v=2&e93d9195-1aa8-4a5e-8149-f2f1939de84d\"; domain=.linkedin.com; Path=/; Secure; Expires=Mon, 18-Dec-2023 01:40:06 GMT; SameSite=None\nlidc=\"b=VGST05:s=V:r=V:a=V:p=V:g=2378:u=1:x=1:i=1639749754:t=1639836154:v=2:sig=AQHlO_8QVSTh0MgrIVEKSKxNvns_I_DB\"; Expires=Sat, 18 Dec 2021 14:02:34 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D253977%26time%3D1639749752449%26url%3Dhttps%253A%252F%252Fwww.lulu.com%252Fproducts%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.9807870000367984
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Fri, 17 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-30214-1&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309"
+        ],
+        "time": 0.9024649999337271
+      },
+      {
+        "url": "https://data.pendo.io/data/ptm.gif/d8ae98cd-b556-4446-7a33-9c645c23d8a9?v=2.117.0_prod&ct=1639749753135&jzb=eJy9kV9vmzAUxb_K5GcE2JDQ5C1TomzVRCclrTpVk2XAMFRjI_8JoVG-e66TDfVle1ufuL6c-_M5vi8nZMeeoyXquGUoQIVWg-Ga2raDLp4niyxdZLMknmcBOrSmtUrTtoIB-n2Trx_onuLnZFW_kti8_QAAK0vlpL1qpBMiQE4LkP-ytjfLKBqGIRROuLBUXdRrVbnSGpiDsjdoefpziS87duxaWdErUY_wrbzV_BvoS2es6sCpZN4pcrLidSt59WmqQAUoTkunNZflCKrH3Rq6__IvmGwcazySS7r9jM5TJrAEh54BzK7etypmvR5nESYRiQkGzoFr0yoJbRJinIUx9WE97QbYs-Lr9ET2dkBfmjXZNBtV1H1h900DnFpDvuvPe35otjER9onlu-M299saLYdHS9PZOZg2KRTz0f-6yeyjNumN_L6eEJz-l-gkuTv_vABQgegA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 280,
+        "remoteIPAddress": "142.250.179.211",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://cdn.pendo.io/agent/static/d8ae98cd-b556-4446-7a33-9c645c23d8a9/pendo.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.1.js?utv=ut4.46.202109281344",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 1.0387659999541938
+      },
+      {
+        "url": "https://data.pendo.io/data/guide.js/d8ae98cd-b556-4446-7a33-9c645c23d8a9?jzb=eJx9j01LBDEMhv-K5Lzs-HGb28qKCLIKKuiphDa7Ftt0aBPHVea_b8bDePPUty9PnjY_8BlblFLvAvTgHm922wf37C5erzb7j8vz9v0GK0Dvi7LMCGtKK9CajH4XGVrfdeM4rpMmXfuSu6GWoF6ajWUSDCgI_fLKHDN-5cjB_Trr0c5AZtvd24jXJiVTdYx5LpUD7SNTOFuSUaYi57VWYn806uVpa238Z4OEfFA8zEpid3sN07KVfckuA5pMNn_VNJ0A8pphLw&v=2.117.0_prod&ct=1639749753146",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 16757,
+        "remoteIPAddress": "142.250.179.211",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8af30e6c67ae70416fe0eab7240e4cd31c956ed59a9aa28943d0a7bc3bbffbce",
+        "initiators": [
+          "https://cdn.pendo.io/agent/static/d8ae98cd-b556-4446-7a33-9c645c23d8a9/pendo.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.1.js?utv=ut4.46.202109281344",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/lulu/lulu2.0/prod/utag.9.js?utv=ut4.46.202010221954"
+        ],
+        "time": 1.144525000010617
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1510298669211642&ev=PageView&dl=https%3A%2F%2Fwww.lulu.com%2Fproducts&rl=&if=false&ts=1639749753173&sw=800&sh=600&v=2.9.48&r=stable&a=tmtealium&ec=0&o=30&fbp=fb.1.1639749753170.2142783790&it=1639749752306&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Fri, 17 Dec 2021 14:02:34 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1510298669211642?v=2.9.48&r=stable"
+        ],
+        "time": 0.8659869999391958
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-E4HSQJ4YSL&gtm=2oec10&_p=1986669428&sr=800x600&ul=en-gb&cid=1873472411.1639749753&_s=1&dl=https%3A%2F%2Fwww.lulu.com%2Fproducts&dt=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&sid=1639749752&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&ep.dimension3=%2Fgb%2Fen&ep.use_amp_client_id=false&up._npa=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 204,
+        "size": 169,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-E4HSQJ4YSL&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309"
+        ],
+        "time": 0.46580199990421534
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 23538,
+        "remoteIPAddress": "104.19.148.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b401d1e804e0a5079603c8f74249ae0e2ec2c797703490f3a0c38079cd989027",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0017/3384.js"
+        ],
+        "time": 0.32263199996668845
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753356&cv=9&fst=1639749753356&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1699,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Fri, 17-Dec-2021 14:17:34 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "14c9fab0df9dc07c3b3ca4871cd32c84e7d3029971da3d41dd89dcacde8cfa06",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.6812909999862313
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753360&cv=9&fst=1639749753360&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1319,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9e92ec0903d424cad10bbb0f2b67a631912e2e642625229dfdd363ee66bf0d85",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.29227600002195686
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753370&cv=9&fst=1639749753370&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1231,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Fri, 17-Dec-2021 14:17:34 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "afec857943be68e408ad2ce4ea11798112f4339bfa1ca24d0ac920e6ab82c1bd",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.684899999992922
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753372&cv=9&fst=1639749753372&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1234,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Fri, 17-Dec-2021 14:17:34 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "64d6652720c900cca24085f43e390b7f28dd4d08801b98942f3e8b71ebdef88a",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.6868709999835119
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753374&cv=9&fst=1639749753374&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1263,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e7196bc6ce3d4b2c0e04a3c42a91ceffcc4e9214acec806c4458df47e687f95c",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.30150900001171976
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753382&cv=9&fst=1639749753382&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1230,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Fri, 17-Dec-2021 14:17:34 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ec29881fa5db10931fc48e96b6787e1ebec38ddd1b0f9c351223965b96e6ea7c",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.6922819999745116
+      },
+      {
+        "url": "https://1072304309.privacysandbox.googleadservices.com/pagead/privacysandbox/conversion/1072304309/?random=1639749753360&cv=9&fst=1639749753360&num=1&fmt=3&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.8113020000746474
+      },
+      {
+        "url": "https://1072304309.privacysandbox.googleadservices.com/pagead/privacysandbox/conversion/1072304309/?random=1639749753374&cv=9&fst=1639749753374&num=1&fmt=3&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.8116419999860227
+      },
+      {
+        "url": "https://js-na1.hs-scripts.com/2577763.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 633,
+        "remoteIPAddress": "104.17.212.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "public, max-age=30"
+        },
+        "responseBodyHash": "a39efd567e4436f62ad9b869841ad4be7dbede8bf3f45b03e917be8baf22f8fe",
+        "initiators": [
+          "https://js.hs-analytics.net/analytics/1639749600000/2577763.js"
+        ],
+        "time": 0.7579420000547543
+      },
+      {
+        "url": "https://track.hubspot.com/__ptq.gif?k=1&sd=800x600&cd=24-bit&cs=UTF-8&ln=en-gb&bfp=1343683594&v=1.1&a=2577763&rcu=https%3A%2F%2Fwww.lulu.com%2Fproducts&pu=https%3A%2F%2Fwww.lulu.com%2Fproducts&t=Make+Your+Book+Online.+Choose+Popular+or+Custom+Formats+%7C+Lulu&cts=1639749753410&vi=d912489a4d51d7693502f0f64b4db43d&nc=true&u=159878818.d912489a4d51d7693502f0f64b4db43d.1639749753402.1639749753402.1639749753402.1&b=159878818.1.1639749753402&cc=15",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 990,
+        "remoteIPAddress": "104.19.155.83",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, no-transform",
+          "p3p": "CP=\"NOI CUR ADM OUR NOR STA NID\"",
+          "set-cookie": "__cf_bm=NqYJaDIjUZ2fltWcnqVOKFILMU1HvizLroAjPOZSKiY-1639749755-0-AQ7OmzEYvMWdosZE7g2SicQgoUlpOyMFw0E8lYT2KOkbXjiQams9Ifm5MuI0AQnt4uw2Maqw6QasVYSgvIcstIA=; path=/; expires=Fri, 17-Dec-21 14:32:35 GMT; domain=.hubspot.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "0a69df186e87eefe39139e5cb6d26c2883c6561771cb4d1cb1abcf661a5b2840",
+        "initiators": [
+          "https://js.hs-analytics.net/analytics/1639749600000/2577763.js"
+        ],
+        "time": 0.9469259999459609
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D253977%26time%3D1639749752449%26url%3Dhttps%253A%252F%252Fwww.lulu.com%252Fproducts%26liSync%3Dtrue",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 302,
+        "remoteIPAddress": "13.107.42.14",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "lang=v=2&lang=en-us; Domain=linkedin.com; Path=/; Secure; SameSite=None\nbscookie=\"v=1&202112171402347f31ba6e-20c1-44ed-84be-0dd33b9282b9AQFVmokVlI5c4GaJbqnJ0OXWzfGY1r8x\"; Domain=.www.linkedin.com; Expires=Mon, 18-Dec-2023 01:40:06 GMT; Path=/; HttpOnly; Secure; SameSite=None\nli_gc=MTswOzE2Mzk3NDk3NTQ7MjswMjE1ggxtp2jDNTQ22KcR5ZrfHnhebXhZRZnSe/UplQI+Jg==; Domain=.linkedin.com; Expires=Wed, 13 Dec 2023 04:38:37 GMT; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=253977&time=1639749752449&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&liSync=true",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=253977&time=1639749752449&url=https%3A%2F%2Fwww.lulu.com%2Fproducts",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.369524999987334
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/sampling-data-scripts/0017/3384.json?t=455486",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 424,
+        "remoteIPAddress": "104.19.148.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7fad909bef2c4e529253331098543bdce88d45e81cdf8ec1a1d73a9d8736d5eb",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.2525779999559745
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1846082324&cv=9&fst=1639749753360&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=epi8YcfGEvjKx_APyeGjiAw&sscte=1&crd=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=; domain=.doubleclick.net; path=/; expires=Fri, 01-Aug-2008 22:45:55 GMT; SameSite=none; Secure\nIDE=AHWqTUk1lisU-F82IRO45Wbq2l7w0yKGDG3EA7LPXjMhtesB9K62Tpb3_4JDy7tR; expires=Wed, 11-Jan-2023 14:02:35 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1846082324&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=3741250982&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753360&cv=9&fst=1639749753360&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.48718699999153614
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1510298669211642&ev=Microdata&dl=https%3A%2F%2Fwww.lulu.com%2Fproducts&rl=&if=false&ts=1639749753696&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu%22%2C%22meta%3Adescription%22%3A%22Create%20a%20hardcover%2C%20paperback%2C%20magazine%20%26%20more.%20See%20book%20sizes%2C%20binding%20types%2C%20%26%20paper%20options%20to%20create%20%26%20print%20your%20book.%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu%22%2C%22og%3Adescription%22%3A%22Create%20a%20hardcover%2C%20paperback%2C%20magazine%20%26%20more.%20See%20book%20sizes%2C%20binding%20types%2C%20%26%20paper%20options%20to%20create%20%26%20print%20your%20book.%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fimages.ctfassets.net%2F9htf9uzhsn4z%2F6rvn7umyrbeaofxiQOwWr1%2F424e35f56a09edd270395b9da83ea6bc%2Flulu-products-og-image.png%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=tmtealium&ec=1&o=30&fbp=fb.1.1639749753170.2142783790&it=1639749752306&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Fri, 17 Dec 2021 14:02:34 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1510298669211642?v=2.9.48&r=stable",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.4581120000220835
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=492970812&cv=9&fst=1639749753374&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=epi8YcTqE7Opx_AP7bm9iA4&sscte=1&crd=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=; domain=.doubleclick.net; path=/; expires=Fri, 01-Aug-2008 22:45:55 GMT; SameSite=none; Secure\nIDE=AHWqTUlCcWlXQKgEdbnJj62kxu4z61b1SV_Q6uInocR9zigy-N_DTd3OwjW3WKzo; expires=Wed, 11-Jan-2023 14:02:35 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-user-list/1072304309/?random=492970812&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=1361524906&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753374&cv=9&fst=1639749753374&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.47431800002232194
+      },
+      {
+        "url": "https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=2577763&utk=d912489a4d51d7693502f0f64b4db43d&__hstc=159878818.d912489a4d51d7693502f0f64b4db43d.1639749753402.1639749753402.1639749753402.1&__hssc=159878818.1.1639749753402&currentUrl=https%3A%2F%2Fwww.lulu.com%2Fproducts",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 1260,
+        "remoteIPAddress": "104.19.154.83",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "set-cookie": "__cf_bm=GzPXUKJeyerFt84OjAzY1Xyu7WVBmEGkITHxfemFalQ-1639749755-0-AeICm6viR8kz8BaRDk+STetQoNjG1boZOYnGm77ashgpjgQEyvvPysnGs3nftTEZV2zrXWYkUymIi0Xh9Fhmb7A=; path=/; expires=Fri, 17-Dec-21 14:32:35 GMT; domain=.hubspot.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "f8811f9045de01be01edfc1a6b0ffe524537ff7e4c2474bdec90e81ffb47bd2b",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://js.hsleadflows.net/leadflows.js"
+        ],
+        "time": 0.5927019999362528
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1986669428&t=pageview&_s=1&dl=https%3A%2F%2Fwww.lulu.com%2Fproducts&ul=en-gb&de=UTF-8&dt=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=4CDACUABBAAAAC~&jid=615068792&gjid=596636157&cid=1873472411.1639749753&tid=UA-30214-1&_gid=1942373065.1639749754&_r=1&cd3=%2Fgb%2Fen&gtm=2ouc10&npa=1&z=751998958",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 69,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.16181099996902049
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1986669428&t=pageview&_s=2&dl=https%3A%2F%2Fwww.lulu.com%2Fproducts&ul=en-gb&de=UTF-8&dt=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=4CDACUABBAAAAC~&jid=&gjid=&cid=1873472411.1639749753&tid=UA-30214-1&_gid=1942373065.1639749754&cd3=%2Fgb%2Fen&gtm=2ouc10&npa=1&z=387305503",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 155,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.15081599995028228
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=253977&time=1639749752449&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&liSync=true",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 136,
+        "remoteIPAddress": "13.107.42.14",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D253977%26time%3D1639749752449%26url%3Dhttps%253A%252F%252Fwww.lulu.com%252Fproducts%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.3499310000333935
+      },
+      {
+        "url": "https://pagestates-tracking.crazyegg.com/healthcheck",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 417,
+        "remoteIPAddress": "52.222.138.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d06f04fccf68d0b228a5923187ce1afd\""
+        },
+        "responseBodyHash": "830e67bda2532cd5880ee86e3b33e69721082f8458bb0df0cd4edbb1577fd375",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.15955799992661923
+      },
+      {
+        "url": "https://assets-tracking.crazyegg.com/healthcheck",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 420,
+        "remoteIPAddress": "13.227.219.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d06f04fccf68d0b228a5923187ce1afd\""
+        },
+        "responseBodyHash": "830e67bda2532cd5880ee86e3b33e69721082f8458bb0df0cd4edbb1577fd375",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.15067100001033396
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-30214-1&cid=1873472411.1639749753&jid=615068792&gjid=596636157&_gid=1942373065.1639749754&npa=1&_u=4CDACUAABAAAAC~&z=1038577781",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 440,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.14731100003700703
+      },
+      {
+        "url": "blob:https://www.lulu.com/a20581a5-fe5a-4e1b-8fbf-b9bf7cd137ba",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "8ff09cd0ee012fe06ed1b67dc914858cde819f21bb479f629994d9e49f3c0049",
+        "initiators": [],
+        "time": 0.003583999932743609
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1639749753356&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=3108745096&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753356&cv=9&fst=1639749753356&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.13781300000846386
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=1639749753356&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=3108745096&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753356&cv=9&fst=1639749753356&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.15341099991928786
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1639749753370&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=73834846&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753370&cv=9&fst=1639749753370&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.1288010000716895
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=1639749753370&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=73834846&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753370&cv=9&fst=1639749753370&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.15026500006206334
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1639749753372&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=3673441966&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753372&cv=9&fst=1639749753372&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.13377000007312745
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=1639749753372&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=3673441966&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753372&cv=9&fst=1639749753372&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.1721730000572279
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1639749753382&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=1324001824&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753382&cv=9&fst=1639749753382&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.1474770000204444
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=1639749753382&cv=9&fst=1639749600000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&is_vtc=1&random=1324001824&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1639749753382&cv=9&fst=1639749753382&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.14567500003613532
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1846082324&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=3741250982&resp=GooglemKTybQhCsO",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=1846082324&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=3741250982&resp=GooglemKTybQhCsO&ipr=y",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=1846082324&cv=9&fst=1639749753360&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=epi8YcfGEvjKx_APyeGjiAw&sscte=1&crd=",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753360&cv=9&fst=1639749753360&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.0612350000301376
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1072304309/?random=492970812&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=1361524906&resp=GooglemKTybQhCsO",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=492970812&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=1361524906&resp=GooglemKTybQhCsO&ipr=y",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072304309/?random=492970812&cv=9&fst=1639749753374&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=epi8YcTqE7Opx_AP7bm9iA4&sscte=1&crd=",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753374&cv=9&fst=1639749753374&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.0609979999717325
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-30214-1&cid=1873472411.1639749753&jid=615068792&npa=1&_u=4CDACUAABAAAAC~&z=1872398051",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.039705000002868474
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-30214-1&cid=1873472411.1639749753&jid=615068792&npa=1&_u=4CDACUAABAAAAC~&z=1872398051",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.04137099999934435
+      },
+      {
+        "url": "https://tracking.crazyegg.com/clock?t=1639749754231",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 135,
+        "remoteIPAddress": "34.255.166.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "21a16fcc2ddc4076cf6394887f4ae44b9e65cc68348c7d3c0903a303523be020",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js"
+        ],
+        "time": 0.10777699993923306
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=1846082324&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=3741250982&resp=GooglemKTybQhCsO&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://www.google.com/pagead/1p-user-list/1072304309/?random=1846082324&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=3741250982&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753360&cv=9&fst=1639749753360&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.01893199991900474
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1072304309/?random=492970812&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=1361524906&resp=GooglemKTybQhCsO&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://www.google.com/pagead/1p-user-list/1072304309/?random=492970812&cv=9&fst=1639749600000&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&crd=&is_vtc=1&random=1361524906&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/1072304309/?random=1639749753374&cv=9&fst=1639749753374&num=1&value=0&label=s119CK2XygMQtaGo_wM&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.lulu.com%2Fproducts&tiba=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&auid=1599860216.1639749752&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.0294280000962317
+      },
+      {
+        "url": "blob:https://www.lulu.com/5b7913ed-754f-408d-98f5-54482a689d46",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "d5df5360850650e6dbe5d1a12372e9bb12bd075bd314a9bcd53a8974a13c4b97",
+        "initiators": [],
+        "time": 0.001145999995060265
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-E4HSQJ4YSL&gtm=2oec10&_p=1986669428&sr=800x600&ul=en-gb&cid=1873472411.1639749753&_s=2&dl=https%3A%2F%2Fwww.lulu.com%2Fproducts&dt=Make%20Your%20Book%20Online.%20Choose%20Popular%20or%20Custom%20Formats%20%7C%20Lulu&sid=1639749752&sct=1&seg=1&en=page_view&_et=12&ep.dimension3=%2Fgb%2Fen&ep.use_amp_client_id=false",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.lulu.com/",
+        "status": 204,
+        "size": 45,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.lulu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-E4HSQJ4YSL&l=dataLayer&cx=c",
+          "https://www.lulu.com/assets/vendor.10f1cbc1102d97db2667.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1072304309"
+        ],
+        "time": 0.10276799998246133
+      }
+    ]
+  }
+}

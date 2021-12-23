@@ -1,0 +1,1385 @@
+{
+  "initialUrl": "https://fwfg.com/orders/customer_info?o=63149",
+  "finalUrl": "https://fwfg.com/orders/customer_info?o=63149",
+  "timeout": false,
+  "testStarted": 1640103652927,
+  "testFinished": 1640103670876,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.fwfg.com/links.fwfg.com_c6f1.json",
+    "requests": [
+      {
+        "url": "https://fwfg.com/orders/customer_info?o=63149",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 28277,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"97f6f03cb4642dcd15df947d086ebb62\"",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "user_utm_source=; path=/; expires=Wed, 21 Dec 2022 16:20:53 GMT\nuser_utm_medium=; path=/; expires=Wed, 21 Dec 2022 16:20:53 GMT\nuser_utm_term=; path=/; expires=Wed, 21 Dec 2022 16:20:53 GMT\nuser_utm_content=; path=/; expires=Wed, 21 Dec 2022 16:20:53 GMT\nuser_utm_campaign=; path=/; expires=Wed, 21 Dec 2022 16:20:53 GMT\nuser_referrer=; path=/; expires=Wed, 21 Dec 2022 16:20:53 GMT\naffiliate=; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\nreferer=; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\ncountry_code=NL; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\nip_address=157.245.65.174; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\nagent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F93.0.4577.63+Safari%2F537.36; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\nstarted_at=2021-12-21+16%3A20%3A53+UTC; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\ninitialized=true; path=/; expires=Fri, 21 Jan 2022 16:20:53 GMT\n_uscreen2_session=M29wOGpiMVQ0OENJQlNoUXdTd0JvaXhiSTRxTzE4RWk1SkRPVmJoTnYzaGhLbHl4KzJINVAwV084OXkrdytsTDFqTS9kZzIzcHVGOTZGRTBkMk9vSVlkUWxjU3ZZYUxqaXpOUXZTOXgzVmVwNExLN2ROS1ozZ1BXVWY4alNYamsrdDlUT0pxS2h2dW90YVVtZ3MvUS9DUisxMlh0MWIrUkFRMzRKYUJhTVY4PS0tc0x1TTVZYW1lR3ZEbmM1WjRCR3pJZz09--71048fe5421c36a4a5631d509e9113af7e1d9742; path=/; HttpOnly"
+        },
+        "responseBodyHash": "97f6f03cb4642dcd15df947d086ebb6264a6596a39b53cfb8726b38d321aa24d",
+        "initiators": [],
+        "time": 0.40881499998795334
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/css/tailwind-f9d652d7.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 428399,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 13:21:50 +0000"
+        },
+        "responseBodyHash": "5723b012729ae73a2efc02fb8f43a0bb5836efde562765db8897162362f0659c",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.05091099999845028
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/css/storefront-cd931260.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 4730,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 13:21:52 +0000"
+        },
+        "responseBodyHash": "a9d2c07adc8f8e747aa91729e10e583024a83c2b36d76c6b765733b6d6ef070c",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.01911399999517016
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/css/storefront_common-fb6724b1.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 711,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 13:21:51 +0000"
+        },
+        "responseBodyHash": "d7cf1807a0aa35f621224f15eff4288b2cd55e8d63f5a9fe74772ab7ec76297e",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.017376000003423542
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 1161,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 21 Dec 2021 16:20:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "64fb41c983dd6a9d36b7aef8c19129b8bb199aa7c353e1d84856a965c4e44d13",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.02453100000275299
+      },
+      {
+        "url": "https://js.stripe.com/v3/",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 72687,
+        "remoteIPAddress": "13.227.219.101",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/\"4bd1f07506d63df5ddd3c9eaf7b7d400\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2f42bb7340fd21481c3d5316650aea407892c5256c299f24e6236680670f4951",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.047969999999622814
+      },
+      {
+        "url": "https://www.paypalobjects.com/api/checkout.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 240353,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"611576ae-16d559\""
+        },
+        "responseBodyHash": "911cedca4de02342bd10e87598103fccdb14b5965a91a4b21a1310082e8f9076",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.33281999999599066
+      },
+      {
+        "url": "https://js.braintreegateway.com/web/3.39.0/js/client.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 12249,
+        "remoteIPAddress": "13.227.219.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"61a65941-997f\"",
+          "expires": "Wed, 22 Dec 2021 14:36:04 GMT"
+        },
+        "responseBodyHash": "0b49e7b48486b30c382a49fc34a7385230a87130314260f19cb1899388bca34e",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.04450400000496302
+      },
+      {
+        "url": "https://js.braintreegateway.com/web/3.39.0/js/paypal-checkout.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 6160,
+        "remoteIPAddress": "13.227.219.76",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"61a65942-4429\"",
+          "expires": "Wed, 22 Dec 2021 15:25:38 GMT"
+        },
+        "responseBodyHash": "9d5530e5afe23979fccbc7a8b40b7b79f0bf8eec52df10a060a1cd7332d40f8a",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.04636999999638647
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 84688,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Tue, 20 Dec 2022 17:58:35 +0000"
+        },
+        "responseBodyHash": "874070a19607fb332920efd862bdfe78d6e2f54e564489a5b2f11df46768c337",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.022265999999945052
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/tailwind-d3ca9f400dd176e1eedc.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 778,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 14 Dec 2022 13:25:36 +0000"
+        },
+        "responseBodyHash": "414f989d7b4f78f7d4b66b3d25e0efec9391c87f3934a884e63e260bab374b65",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.019843000001856126
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 192378,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 13:21:51 +0000"
+        },
+        "responseBodyHash": "9a008c4f398cbdb8662603d648159802ca688a47d2090a68b17f335854ced066",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.31038100000296254
+      },
+      {
+        "url": "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront_common-df61fde66e4a91c28458.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 1644,
+        "remoteIPAddress": "151.101.37.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 13:21:50 +0000"
+        },
+        "responseBodyHash": "c49c3431a45e641e666a6a45195275049172767a91647e0c985647bef1800c1a",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.01744900000630878
+      },
+      {
+        "url": "https://r.wdfl.co/rw.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 4984,
+        "remoteIPAddress": "65.9.83.40",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"e8b61bf375ce8f166586918771824328\""
+        },
+        "responseBodyHash": "d5b4c0bc1f7b9d754ef651f84769a5087c1e2972a184845691d1df82580cbe47",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.3857189999980619
+      },
+      {
+        "url": "https://use.fontawesome.com/releases/v5.2.0/css/all.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 11040,
+        "remoteIPAddress": "172.67.214.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "W/\"20a9ce516eaea76da29a23adc43e8998\""
+        },
+        "responseBodyHash": "8891a160f8a2afb81de5259f9f68e5af3782348ea2927ad9e969bc88c7d39984",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.06040699999721255
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 21 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.026822000014362857
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MV8QKPP",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 30132,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 16:20:53 GMT"
+        },
+        "responseBodyHash": "5e92ec52deb220e93903b43c9ec64f76616290d2bf1c19a8fee5f4a0396f6a07",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.034137000009650365
+      },
+      {
+        "url": "https://www.paypal.com/tagmanager/pptm.js?id=fwfg.com&source=checkoutjs&t=xo&v=4.0.331",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 5823,
+        "remoteIPAddress": "151.101.193.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"34bc-uLIb5I9qHkLqfOGcDKsECnNWpNg\"",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "c3b538729b8739716966b9890fc51e3998fb7cf8252fed999cf1eae63b36e981",
+        "initiators": [
+          "https://www.paypalobjects.com/api/checkout.js"
+        ],
+        "time": 0.01934400000027381
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 26433,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.0142070000001695
+      },
+      {
+        "url": "https://static.hotjar.com/c/hotjar-2737503.js?sv=6",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 2534,
+        "remoteIPAddress": "52.222.139.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/30426ededf1d030fcb238c30641ce461"
+        },
+        "responseBodyHash": "f54ba27c1d74f08ef40c7dbb9023dc80973d87381e68ae4a2deb0b816e2a6b52",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.0611639999988256
+      },
+      {
+        "url": "https://js.stripe.com/v3/m-outer-f7902241893e7a497417843cb15dc858.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 960,
+        "remoteIPAddress": "13.227.219.101",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "\"f7902241893e7a497417843cb15dc858\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1969520bd7b0ea7b84b1cbdda4a8ae93c321abe6eaeff82b5fa496680bf88a0f",
+        "initiators": [
+          "https://js.stripe.com/v3/"
+        ],
+        "time": 0.006294999999227002
+      },
+      {
+        "url": "https://fwfg.com/packs/js/0-bca922ae7d9c220ddf8a.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 14382,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 14:11:54 +0000"
+        },
+        "responseBodyHash": "5698eca596e61f6781d79a2993d11cb9679af8ed3ad78548249a232534b25124",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js"
+        ],
+        "time": 0.10040100000333041
+      },
+      {
+        "url": "https://fwfg.com/packs/js/64-1f6e3d4787e0f857dd75.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 36941,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 16:01:09 +0000"
+        },
+        "responseBodyHash": "0a229aadc7adc1413c68874c50799a76deedee9bb164b3925f3a58e4fa493df4",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js"
+        ],
+        "time": 0.3532240000058664
+      },
+      {
+        "url": "https://fwfg.com/packs/css/483-da96d7e2.chunk.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 11746,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 14:11:54 +0000"
+        },
+        "responseBodyHash": "a5cd8fd0254bf02aab4137ee4d7443ed8c6f2f2a2fc6aaeb49974ede379afb4a",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js"
+        ],
+        "time": 0.19883900000422727
+      },
+      {
+        "url": "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 66135,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 14:11:54 +0000"
+        },
+        "responseBodyHash": "7e612f722a90717af48912501243f044b0a30d4c14aec8e9ac0366d740483e3a",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js"
+        ],
+        "time": 0.43076799999107607
+      },
+      {
+        "url": "https://fwfg.com/api/sessions",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 1427,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"87ef52c8bccbc0ea51de4816e8e02a60\"",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "affiliate=; path=/; expires=Fri, 21 Jan 2022 16:20:54 GMT\n_uscreen2_session=bkZkcGFUbHBMbFd2Q1I5bS94VDFjc0U2NkNpUFBiQjZnd3cxM1FCZjNMNnJMUXljb0pzU2Jzd3FLUmtSdC8yWEcwOFJmTW1QT3RnUjJXUEpkcG16RUpwdDZOdzYyNUw1R2sxcGRQNmRxZ1N5R3VDMXpreU1BdlVnbmhmR0FjSm0zaWZLaEF0QWg1OE5WejN2MFNxNzZ0d2RHUTJXOHhSS01CZHRTempIaXhzPS0tTUhEWXFtTzRqL2dVeityUTNTamoxdz09--f4d4354d21b77b3899971c54944748c036c84f0b; path=/; HttpOnly"
+        },
+        "responseBodyHash": "87ef52c8bccbc0ea51de4816e8e02a6050bb68d2ed2a4dbe3e920e5aaee12c03",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js"
+        ],
+        "time": 0.2693040000012843
+      },
+      {
+        "url": "https://js.stripe.com/v3/fingerprinted/js/m-outer-639174098ea8fe7fede6fa654790e8ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://js.stripe.com/v3/m-outer-f7902241893e7a497417843cb15dc858.html",
+        "status": 200,
+        "size": 1227,
+        "remoteIPAddress": "13.227.219.101",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/\"5213886b88cd72e6d0aebc89868e5d13\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6b5402ff8932ed835d39a31b75c6bc737a80f6ddcd6269a1fa53556485ca3ad8",
+        "initiators": [
+          "https://js.stripe.com/v3/m-outer-f7902241893e7a497417843cb15dc858.html"
+        ],
+        "time": 0.004904000001261011
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=358249663&t=pageview&_s=1&dl=https%3A%2F%2Ffwfg.com%2Forders%2Fcustomer_info%3Fo%3D63149&ul=en-us&de=UTF-8&dt=Find%20What%20Feels%20Good&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=IEBAAEABAAAAAC~&jid=1512234507&gjid=1330495744&cid=245944820.1640103655&tid=UA-53363618-1&_gid=1146338004.1640103655&_r=1&_slc=1&z=1760667727",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 204,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://fwfg.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "aec60bc104db041b1512185839f18f52986df7e569e5445f740dd60f763fbca8",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.009964000011677854
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/muse.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 16650,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"611e7e5f-da2c\""
+        },
+        "responseBodyHash": "129737dfffcc16554dffd7d6dd3a57b6831c96a75d8acec4ea31709555115a53",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=fwfg.com&source=checkoutjs&t=xo&v=4.0.331"
+        ],
+        "time": 0.007466999988537282
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Athird-party%3Aanalytics-xo%3A%3AMJU7M7WK9FUKU-1&page=muse%3Athird-party%3Aanalytics-xo%3A%3AMJU7M7WK9FUKU-1%3A%3A%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=962c3acf-a0b2-4ad2-9459-d19c284f8227&fltp=analytics&mrid=MJU7M7WK9FUKU&code=CHECKOUT_BUTTON&partner_name=CHECKOUT_BUTTON&flag_consume=yes&pt=Find%20What%20Feels%20Good&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640103654770&g=0&completeurl=https%3A%2F%2Ffwfg.com%2Forders%2Fcustomer_info%3Fo%3D63149",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 764,
+        "remoteIPAddress": "151.101.193.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 21 Dec 2021 16:20:54 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734798054%26vteXpYrS%3D1640105454%26vr%3Dddcbb5d617d0aa59b441d1a5ffffffff%26vt%3Dddcbb5d617d0aa59b441d1a5fffffffe; Expires=Sat, 21 Dec 2024 16:20:54 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dddcbb5d617d0aa59b441d1a5ffffffff%26vt%3Dddcbb5d617d0aa59b441d1a5fffffffe; Expires=Sat, 21 Dec 2024 16:20:54 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=fwfg.com&source=checkoutjs&t=xo&v=4.0.331"
+        ],
+        "time": 0.17207099999359343
+      },
+      {
+        "url": "https://script.hotjar.com/modules.6d5409da698bc5e020b1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 61786,
+        "remoteIPAddress": "13.227.219.28",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"a250696209ae851dce97a4101057f333\""
+        },
+        "responseBodyHash": "9c4e5748b76ca33caac131e0225d2e86ccbf6e156ad007145f6a9c4d34cecbf9",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-2737503.js?sv=6"
+        ],
+        "time": 0.028795999998692423
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/316432390228920?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 88962,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "aa0246e76dd1597392dd8bbff04f648d88a88deba671af72d46a8c759ec94552",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.22528099999180995
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-53363618-1&cid=245944820.1640103655&jid=1512234507&gjid=1330495744&_gid=1146338004.1640103655&_u=IEBAAEAAAAAAAC~&z=2100773072",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 434,
+        "remoteIPAddress": "108.177.119.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://fwfg.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03184799999871757
+      },
+      {
+        "url": "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 1485,
+        "remoteIPAddress": "13.227.219.93",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"6215abf691a11c2f451680e635d30daa\""
+        },
+        "responseBodyHash": "d39c7ff4103007338040282460b2eb0e5adadd9fb80f986fb4c8a3d41785a6ca",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-2737503.js?sv=6",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.016105999995488673
+      },
+      {
+        "url": "https://m.stripe.network/inner.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://js.stripe.com/",
+        "status": 200,
+        "size": 1354,
+        "remoteIPAddress": "151.101.36.176",
+        "responseHeaders": {
+          "cache-control": "max-age=300, public"
+        },
+        "responseBodyHash": "ed34a59f182c66e2b25c602f3c9b0f21435a8f475d5dbc9e6830ff4c7929f5cd",
+        "initiators": [
+          "https://js.stripe.com/v3/fingerprinted/js/m-outer-639174098ea8fe7fede6fa654790e8ec.js"
+        ],
+        "time": 0.04922000000078697
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/analytics/index.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 16989,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"616f114f-d9ea\""
+        },
+        "responseBodyHash": "12500d956b47de01bfe02a21db437ebbd7b462f54137f0a37b80992df7f5ce59",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://www.paypal.com/tagmanager/pptm.js?id=fwfg.com&source=checkoutjs&t=xo&v=4.0.331"
+        ],
+        "time": 0.015098999996553175
+      },
+      {
+        "url": "https://m.stripe.network/out-4.5.41.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://m.stripe.network/inner.html",
+        "status": 200,
+        "size": 15932,
+        "remoteIPAddress": "151.101.36.176",
+        "responseHeaders": {
+          "cache-control": "max-age=300, public"
+        },
+        "responseBodyHash": "a2f6b81396ab1150effea054efbf1623212ea0419976389ce8f10e909d39e4c7",
+        "initiators": [
+          "https://m.stripe.network/inner.html"
+        ],
+        "time": 0.0035910000005969778
+      },
+      {
+        "url": "https://fwfg.com/api/products/63149",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 2408,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"30579e1d56c34d8b494d1d09b966a8bb\"",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "affiliate=; path=/; expires=Fri, 21 Jan 2022 16:20:55 GMT\n_uscreen2_session=ZE5SckIzTnoxaTNMNURndlNycXNlOHZvbDRaeVo2cVVvMHlKUWNacVFsS0VQL2h3bUFrcnFRVFVvNDAxSVoxa2xzdit1cjl0M0xvbUVPeUczdUZpQU5lY1hCSDlxS09XU3V3bDkrM2JHOU9aWFBJZkFFdDIwOHk1SWhnbTE2b254elNlb3lqaFpLOE02dm5UZnlydm1pNEMwMHRWUnAzd0lhOXpONmt6NHFZPS0tWUFkRUhGT0hlM29RaGtPRkcwaWJEZz09--2ede53ebf3ceff4a0676937e4b52bcbee7c3bc45; path=/; HttpOnly"
+        },
+        "responseBodyHash": "30579e1d56c34d8b494d1d09b966a8bb68b7590611c42b12f979857b29b7122d",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://fwfg.com/packs/js/64-1f6e3d4787e0f857dd75.chunk.js",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js"
+        ],
+        "time": 0.13554500001191627
+      },
+      {
+        "url": "https://fwfg.com/api/user_fields",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 1303,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"44136fa355b3678a1146ad16f7e8649e\"",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "affiliate=; path=/; expires=Fri, 21 Jan 2022 16:20:55 GMT\n_uscreen2_session=c2llaFQxdGtKalEvOFVuMTVua0pXS0lZUVVBMDlUM2lBQm5sVERtR2xra3F3elYwMDU3dDk0MkhxUzRQQ1R0bExQdVRJc2laNmJya0dKZkhacUV6Qmp4Wmgwb0o1Y3RmZEpDWkRRbk8wckFGNEgxS1Z0VmgyMFVtdzhCbmMyWEdhSnRqa0hOZkNUTExsczJpQVVzNW9BN1pVMHdZdDJxSjJXVHRQQTNYeFUwPS0tR29LYnI3RC9jTkFDWWtJUm0zZTZ0Zz09--70652ee1c256d6c6532f100cdcd5e43192188f2a; path=/; HttpOnly"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://fwfg.com/packs/js/64-1f6e3d4787e0f857dd75.chunk.js",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js"
+        ],
+        "time": 0.1343909999995958
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=316432390228920&ev=PageView&dl=https%3A%2F%2Ffwfg.com%2Forders%2Fcustomer_info%3Fo%3D63149&rl=&if=false&ts=1640103655202&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640103655197.2137544308&it=1640103654809&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Tue, 21 Dec 2021 16:20:55 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/316432390228920?v=2.9.48&r=stable"
+        ],
+        "time": 0.012014000007184222
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v7/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 38329,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 22:05:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "73ba891f7df31d3d5528178ee49ea69d461e22f8fc32c9a972be4b0f9e3ba2fb",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+        ],
+        "time": 0.05801399999472778
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=316432390228920&ev=InitiateCheckout&dl=https%3A%2F%2Ffwfg.com%2Forders%2Fcustomer_info%3Fo%3D63149&rl=&if=false&ts=1640103655326&cd[content_name]=FWFG%20Yoga%20-%20Annual&cd[value]=129.99&cd[currency]=USD&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640103655197.2137544308&it=1640103654809&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Tue, 21 Dec 2021 16:20:55 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://fwfg.com/orders/customer_info?o=63149",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.01015999999071937
+      },
+      {
+        "url": "https://alpha.uscreencdn.com/images/offer/63149/big_data_2Fimages_2FIq1J8POHRrCYVAz1fOFv_Annual_20Subscription.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 198220,
+        "remoteIPAddress": "151.101.2.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"IFjcL5UEKT/M92X+R1Dk4ntqypmNz+lYlsvZ4+Q7KOg\""
+        },
+        "responseBodyHash": "3c4ed7fb2e85fa34dd7fedfdea4651bc465f1b3b11b2b6a05816a98bea75b61f",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.028766999996150844
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/noop.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.paypalobjects.com/muse/analytics/index.html",
+        "status": 200,
+        "size": 206,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "\"60271cd0-12\""
+        },
+        "responseBodyHash": "0739b17b1053de387d55795753300a79626787634f8c909277efff94d0e3f154",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.005003000012948178
+      },
+      {
+        "url": "https://m.stripe.com/6",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://m.stripe.network/",
+        "status": 200,
+        "size": 523,
+        "remoteIPAddress": "52.25.233.186",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://m.stripe.network",
+          "set-cookie": "m=f897ab8b-1044-473c-8bda-631783cc7dc53c75a0;Expires=Thu, 21-Dec-2023 16:20:55 GMT;Secure;HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "d3bc184a15ce8ac9fc4d10b84ff439397dfd3f8e66735fc41a56484b705c3a2c",
+        "initiators": [
+          "https://m.stripe.network/out-4.5.41.js",
+          "https://m.stripe.network/inner.html"
+        ],
+        "time": 0.4688810000079684
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Aoffer%3A%3A%3AMJU7M7WK9FUKU-1&page=muse%3Aoffer%3A%3A%3AMJU7M7WK9FUKU-1%3A%3AvisitorInfoFlowStarted%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=962c3acf-a0b2-4ad2-9459-d19c284f8227&es=visitorInfoFlowStarted&mrid=MJU7M7WK9FUKU&code=CHECKOUT_BUTTON&partner_name=CHECKOUT_BUTTON&pt=Find%20What%20Feels%20Good&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640103655536&g=0&completeurl=https%3A%2F%2Ffwfg.com%2Forders%2Fcustomer_info%3Fo%3D63149",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 492,
+        "remoteIPAddress": "151.101.193.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 21 Dec 2021 16:20:55 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734798055%26vteXpYrS%3D1640105455%26vr%3Dddcbb5d617d0aa59b441d1a5ffffffff%26vt%3Dddcbb5d617d0aa59b441d1a5fffffffe; Expires=Sat, 21 Dec 2024 16:20:55 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dddcbb5d617d0aa59b441d1a5ffffffff%26vt%3Dddcbb5d617d0aa59b441d1a5fffffffe; Expires=Sat, 21 Dec 2024 16:20:55 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=fwfg.com&source=checkoutjs&t=xo&v=4.0.331",
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.1622920000081649
+      },
+      {
+        "url": "https://www.paypal.com/targeting/graphql",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.paypalobjects.com/",
+        "status": 200,
+        "size": 2003,
+        "remoteIPAddress": "151.101.193.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypalobjects.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"1b2-bV+8ahlnaMpJY0CHyBKRoXN/y6A\"",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 22 Dec 2021 01:06:51 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 21 Dec 2022 16:20:55 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDEwMzY1NTg5OSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=targetingnodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 24 Dec 2021 16:20:55 GMT; HttpOnly; Secure; SameSite=None\nnsid=s%3A6OShkbg79z4I13KeJmiEdk6RhG00hwGd.vMzorCqICp4L9a7%2FrpYjzu8xeQ1ZquH2u21%2FBZLxYhc; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg02.phx; Path=/; Domain=paypal.com; Expires=Tue, 21 Dec 2021 16:50:55 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734798055%26vteXpYrS%3D1640105455%26vr%3Dddcbb5d617d0aa59b441d1a5ffffffff%26vt%3Dddcbb5d617d0aa59b441d1a5fffffffe%26vtyp%3D; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 16:20:55 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dddcbb5d617d0aa59b441d1a5ffffffff%26vt%3Dddcbb5d617d0aa59b441d1a5fffffffe; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 16:20:55 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "1fa5ec972bec47f959413ca438443c35fe8340eddf37c2ef7b4eea90f1934945",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.43671800001175143
+      },
+      {
+        "url": "https://www.paypal.com/targeting/graphql",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.193.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypalobjects.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Wed, 22 Dec 2021 01:06:51 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Wed, 21 Dec 2022 16:20:55 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDEwMzY1NTY1MSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\nnsid=s%3Ace5m5erlC5jbRFsX0z3N4_2UiZQz8ttW.PX76QPdNBt054bnuwVBIZw7hLkh1EH%2BSosV1M63g%2BCU; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg14.slc; Path=/; Domain=paypal.com; Expires=Tue, 21 Dec 2021 16:50:55 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734798055%26vteXpYrS%3D1640105455%26vr%3Dddcbb8d817d0a7805fdc8304f7a85bb7%26vt%3Dddcbb8d817d0a7805fdc8304f7a85bb6%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 16:20:55 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dddcbb8d817d0a7805fdc8304f7a85bb7%26vt%3Dddcbb8d817d0a7805fdc8304f7a85bb6; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 16:20:55 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/targeting/graphql"
+        ],
+        "time": 0.17264699999941513
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit&hl=",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 996,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 21 Dec 2021 16:20:55 GMT"
+        },
+        "responseBodyHash": "8ff26637a0ae3914e258a12bb21c91bbb7891a6736ce7542177675b0d306a448",
+        "initiators": [
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.02040300000226125
+      },
+      {
+        "url": "https://alpha.uscreencdn.com/nullx100/images/logotypes/2611/KRvoRc9SS06LeXrfkHVK_FWFG_20Logo_hi_res_20_1_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 5561,
+        "remoteIPAddress": "151.101.2.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"akeETNnrzFzvQFY+iCkKQGYJsHQ1LPl7IoVfzKE3Pso\""
+        },
+        "responseBodyHash": "a42e3540a14f35498b275924428bb10bad3308e95191c5f638359f2bb4112576",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.005067000005510636
+      },
+      {
+        "url": "https://fwfg.com/packs/media/assets/images/eye-off-b701dfe03b9151565ee15fa428e13bca.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/orders/customer_info?o=63149",
+        "status": 200,
+        "size": 1817,
+        "remoteIPAddress": "159.203.146.41",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=15552000",
+          "expires": "Wed, 21 Dec 2022 14:11:54 +0000"
+        },
+        "responseBodyHash": "7b6e6c0865c8c08a248a09673d191c878f4531e69afd67d8431c131c5dfd0936",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/vendors-866f532b288fc335f2cd.chunk.js",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.11524100000679027
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 138246,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:29:19 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit&hl="
+        ],
+        "time": 0.04568700000527315
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs&co=aHR0cHM6Ly9md2ZnLmNvbTo0NDM.&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=normal&cb=ic1cnex3ae3t",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 21073,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d1d28f1831164dae3c611ec232da7f977782b87739393e27755e3d23df786c35",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+          "https://fwfg.com/packs/js/483-640eaee27084ca71d602.chunk.js"
+        ],
+        "time": 0.0501279999880353
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 24180,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:51:28 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs&co=aHR0cHM6Ly9md2ZnLmNvbTo0NDM.&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=normal&cb=ic1cnex3ae3t"
+        ],
+        "time": 0.009878999990178272
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:29:19 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs&co=aHR0cHM6Ly9md2ZnLmNvbTo0NDM.&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=normal&cb=ic1cnex3ae3t"
+        ],
+        "time": 0.010995000004186295
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "status": 200,
+        "size": 2252,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Thu, 23 Dec 2021 04:24:17 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css"
+        ],
+        "time": 0.00495000000228174
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 10775,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "526007135db0306094b7b2cc2924c76c5914b3b3aaeb52131a3ddf23ebffac2a",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs&co=aHR0cHM6Ly9md2ZnLmNvbTo0NDM.&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=normal&cb=ic1cnex3ae3t"
+        ],
+        "time": 0.0970299999898998
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs&co=aHR0cHM6Ly9md2ZnLmNvbTo0NDM.&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=normal&cb=ic1cnex3ae3t",
+        "status": 200,
+        "size": 134,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 21 Dec 2021 16:20:56 GMT"
+        },
+        "responseBodyHash": "6bfc7f035838df33c0b927be3bc8d8a59d6f055658945c9a17eee1c0d09fb972",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs&co=aHR0cHM6Ly9md2ZnLmNvbTo0NDM.&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=normal&cb=ic1cnex3ae3t"
+        ],
+        "time": 0.011474999992060475
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-1212.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 13276,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"9dfe540eb31e6fc0e0dddd91e3511f68\""
+        },
+        "responseBodyHash": "e8fd6832e13fca9622a46af5fddb394c358ef083d84002896aca34613d77780e",
+        "initiators": [
+          "https://fwfg.com/orders/customer_info?o=63149"
+        ],
+        "time": 0.016753000003518537
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:29:19 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP"
+        ],
+        "time": 0.00827700000081677
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 1148,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8b13133eb376635c2c94f87bae1c121d7a2b390d5592eb0abfb6e9989283f24a",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.023783000011462718
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/1/488cdc789a?a=263291629&v=1212.e95d35c&to=dgxbEEBeX1VdQxdGQ1oRUAJAXl1NF15KUVJHEBoHR0JHVlVUSmpeWwVa&rst=3203&ck=1&ref=https://fwfg.com/orders/customer_info&qt=3&ap=35&be=373&fe=3114&dc=1538&perf=%7B%22timing%22:%7B%22of%22:1640103653042,%22n%22:0,%22f%22:0,%22dn%22:2,%22dne%22:9,%22c%22:9,%22s%22:90,%22ce%22:178,%22rq%22:178,%22rp%22:338,%22rpe%22:409,%22dl%22:346,%22di%22:1537,%22ds%22:1538,%22de%22:1542,%22dc%22:3113,%22l%22:3113,%22le%22:3115%7D,%22navigation%22:%7B%7D%7D&fp=2214&fcp=2214&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 711,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "JSESSIONID=5064f966649e275e; Path=/; Domain=.nr-data.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "b91234b576455d66e12dd661a2539eb2418a831078ecef9ebc7f4bbd4e580d9c",
+        "initiators": [
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.5215020000032382
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:51:28 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs"
+        ],
+        "time": 0.0005240000027697533
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:29:19 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs"
+        ],
+        "time": 0.00042699999175965786
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/bframe?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&k=6LcRceEZAAAAAChlSQ4XNd4qD2_ktzD-Oo8kJ_qs"
+        ],
+        "time": 0.00041599999531172216
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=316432390228920&ev=Microdata&dl=https%3A%2F%2Ffwfg.com%2Forders%2Fcustomer_info%3Fo%3D63149&rl=&if=false&ts=1640103656731&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Find%20What%20Feels%20Good%22%7D&cd[OpenGraph]=%7B%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=2&o=30&fbp=fb.1.1640103655197.2137544308&it=1640103654809&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Tue, 21 Dec 2021 16:20:56 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/316432390228920?v=2.9.48&r=stable",
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js"
+        ],
+        "time": 0.0038249999925028533
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/488cdc789a?a=263291629&v=1212.e95d35c&to=dgxbEEBeX1VdQxdGQ1oRUAJAXl1NF15KUVJHEBoHR0JHVlVUSmpeWwVa&rst=13200&ck=1&ref=https://fwfg.com/orders/customer_info",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fwfg.com/",
+        "status": 202,
+        "size": 502,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://fwfg.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://cdn-uscreen-alpha.global.ssl.fastly.net/packs/js/storefront-2df3d614134261198928.js",
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.11763800001062918
+      }
+    ]
+  }
+}

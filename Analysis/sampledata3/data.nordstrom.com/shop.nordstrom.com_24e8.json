@@ -1,0 +1,86 @@
+{
+  "initialUrl": "https://shop.nordstrom.com/c/affiliate-program",
+  "finalUrl": "https://siteclosed.nordstrom.com/invitation.html",
+  "timeout": false,
+  "testStarted": 1639749548524,
+  "testFinished": 1639749566267,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://shop.nordstrom.com/c/affiliate-program",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "151.101.130.132",
+        "responseHeaders": {
+          "cache-control": "max-age=5"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.nordstrom.com/browse/affiliate-program",
+        "initiators": [],
+        "time": 0.4581060000928119
+      },
+      {
+        "url": "https://www.nordstrom.com/browse/affiliate-program",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 92236,
+        "remoteIPAddress": "151.101.38.132",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "Ad34bsY56=AGuBsMh9AQAAMtgy7cwe54nqWlDvhjv_RDaVTytNQZEATTps7wky_1lasCI-|1|0|2dbd9dea01d206d7c062f2caf52a8fd30ba83ae1; Path=/; Max-Age=31556952; Domain=nordstrom.com; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "73c62d8e71ca3b3b9acfa894fa4cfdc18f536ee206a0797a619816db776f0a7c",
+        "redirectedFrom": "https://shop.nordstrom.com/c/affiliate-program",
+        "initiators": [],
+        "time": 0.9125159999821335
+      },
+      {
+        "url": "https://www.nordstrom.com/browse/affiliate-program",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.nordstrom.com/browse/affiliate-program",
+        "status": 200,
+        "size": 214,
+        "remoteIPAddress": "151.101.38.132",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.nordstrom.com/browse/affiliate-program"
+        ],
+        "time": 0.40705000003799796
+      },
+      {
+        "url": "https://siteclosed.nordstrom.com/invitation.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.nordstrom.com/",
+        "status": 200,
+        "size": 94050,
+        "remoteIPAddress": "151.101.38.132",
+        "responseHeaders": {
+          "etag": "\"b110597997d3f9060d8c9d40014cb0df\""
+        },
+        "responseBodyHash": "efd24b9491a0f59165c6f7f596b2a150aa859d659db2f251dd8c0bb216704c59",
+        "initiators": [
+          "https://www.nordstrom.com/browse/affiliate-program"
+        ],
+        "time": 0.7454030000371858
+      }
+    ]
+  }
+}

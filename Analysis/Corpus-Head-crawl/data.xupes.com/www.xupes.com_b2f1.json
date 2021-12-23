@@ -1,0 +1,43 @@
+{
+  "initialUrl": "https://www.xupes.com/currency/changeculture?path=%2Fhandbags%2Fproducts.html%3FIsOffer%3Dtrue&locale=nl&uilocale=en",
+  "finalUrl": "https://www.xupes.com/nl/nl/handbags/products.html%3fIsOffer%3dtrue",
+  "timeout": false,
+  "testStarted": 1640152220859,
+  "testFinished": 1640152236441,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.xupes.com/links.www.xupes.com_b2f1.json",
+    "requests": [
+      {
+        "url": "https://www.xupes.com/currency/changeculture?path=%2Fhandbags%2Fproducts.html%3FIsOffer%3Dtrue&locale=nl&uilocale=en",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "172.67.73.172",
+        "responseHeaders": {
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache",
+          "set-cookie": "CULTURE_SETTINGS_X2=en%2Cen; expires=Thu, 22 Dec 2022 05:50:21 GMT; path=/\nCULTURE_SETTINGS_X2=nl%2Cnl; expires=Thu, 22 Dec 2022 05:50:21 GMT; path=/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.xupes.com/nl/nl/handbags/products.html%3fIsOffer%3dtrue",
+        "initiators": [],
+        "time": 0.13049499999033287
+      },
+      {
+        "url": "https://www.xupes.com/nl/nl/handbags/products.html%3fIsOffer%3dtrue",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 404,
+        "size": 245,
+        "remoteIPAddress": "172.67.73.172",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.xupes.com/currency/changeculture?path=%2Fhandbags%2Fproducts.html%3FIsOffer%3Dtrue&locale=nl&uilocale=en",
+        "initiators": [],
+        "time": 0.8304939999943599
+      }
+    ]
+  }
+}

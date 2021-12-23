@@ -1,0 +1,3911 @@
+{
+  "initialUrl": "https://www.anthropologie.com/",
+  "finalUrl": "https://www.anthropologie.com/",
+  "timeout": false,
+  "testStarted": 1639671026558,
+  "testFinished": 1639671055596,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.anthropologie.com\\links.www.anthropologie.com_a8c5.json",
+    "requests": [
+      {
+        "url": "https://www.anthropologie.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 88420,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, proxy-revalidate, no-store, no-cache, must-revalidate",
+          "expires": "Sat, 19 Jun 2021 15:49:32 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "same-origin",
+          "set-cookie": "SS_PWA_PAYMENT=1; path=/; domain=.anthropologie.com; expires=Thu, 16-Dec-2021 16:40:27 GMT\nSS_ATTENTIVE=1; path=/; domain=.anthropologie.com; expires=Thu, 16-Dec-2021 16:40:27 GMT\nSSLB=1; path=/; domain=.anthropologie.com; expires=Fri, 16-Dec-2022 16:15:27 GMT\nSSID=CQDGGh1GAAAAAADzZLthrBIECPNku2EBAAAAAACfmZxj82S7YQBzWlPvAANoFiEA82S7YQEAo-sAA-W9IADzZLthAQCF8AAB6DEhAPNku2EBAAzPAAPzmBwA82S7YQEAbvsAA7ITIgDzZLthAQA; path=/; domain=.anthropologie.com; expires=Fri, 16-Dec-2022 16:10:27 GMT\nSSSC=439.G7042333437298217644.1|53004.1874163:60323.2145765:61267.2168424:61573.2175464:64366.2233266; path=/; domain=.anthropologie.com\nSSRT=82S7YQABAA; path=/; domain=.anthropologie.com; expires=Fri, 16-Dec-2022 16:10:27 GMT\nurbn_geo_region=EU-LN; Max-Age=15552000; Path=/; Expires=Tue, 14 Jun 2022 16:10:28 GMT\nurbn_tracer=4KAEN2MKYB; Max-Age=15552000; Path=/; Expires=Tue, 14 Jun 2022 16:10:28 GMT\nurbn_clear=true; Max-Age=86400; Path=/; Expires=Fri, 17 Dec 2021 16:10:27 GMT\nurbn_currency=USD; Path=/\nurbn_uuid_session=f5ee66b7-fc7f-436c-bb13-3dbc8bf2221a; Path=/\nurbn_uuid=a1fef700-0940-4312-9a0d-775dd98e856b; Path=/; Expires=Fri, 17 Jun 2022 07:10:27 GMT\nurbn_language=en-US; Path=/\nurbn_auth_payload=%7B%22authToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhbiIsImV4cCI6MTYzOTY3MTYyNy44OTg2OTEyLCJpYXQiOjE2Mzk2NzEwMjcuODk4NjkxMiwiZGF0YSI6IntcImNyZWF0ZWRUaW1lXCI6IDE2Mzk2NzEwMjcuODk3NzgxNiwgXCJwcm9maWxlSWRcIjogXCJabGNhM3Z5b1BkWjczaFk3WVVoYWlBQTBRRUV0STZseWZodlpkZHVUWWZRZ0JZZGlIMUNxNjNlcS9zMmE3OU9tNVUrM3JzMnJ4aGptNHBEMzBDY0lCdz09ZDkxYWY2NWQ2NjkzNTc0NmY4YWNmMzU4OTFiODcyOGZmYThhMzJlMTU3ZGFlZTk0OTI0OWIyMmE2YTA4MzE1N1wiLCBcImFub255bW91c1wiOiB0cnVlLCBcInRyYWNlclwiOiBcIjRLQUVOMk1LWUJcIiwgXCJjYXJ0SWRcIjogXCJUQzBCWGZ1TTlvMlJhL01OcmF1M2VsZkthSWQ3MytLYWt5blREOUxnd1JOaUw1OHd0bGFvNEhsLzBmU3M5MHUzNVUrM3JzMnJ4aGptNHBEMzBDY0lCdz09MmMxZTkxNzU1NDcwZWRiYWRlNzhiYWQ3OGY2ZWRmZTYwNGVmZTlkMjM1NDY5ODAzMzhkZjk1YzgwZGQ4MTRmOVwiLCBcInNjb3BlXCI6IFtcIkdVRVNUXCJdLCBcInNpdGVJZFwiOiBcImFuLXVzXCIsIFwiYnJhbmRJZFwiOiBcImFuXCIsIFwic2l0ZUdyb3VwXCI6IFwiYW4tdXNcIiwgXCJkYXRhQ2VudGVySWRcIjogXCJVUy1QQVwiLCBcImdlb1JlZ2lvblwiOiBcIkVVLUxOXCJ9In0.OxXBgJsGS4PbdwdehNGkMvdR2R8lRQFeFn0FqYIZB2Q%22%2C%22reauthToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhbiIsImV4cCI6MTY1NTIyMzAyNy44OTkwNzIyLCJpYXQiOjE2Mzk2NzEwMjcuODk5MDcyMiwiZGF0YSI6IntcImNyZWF0ZWRUaW1lXCI6IDE2Mzk2NzEwMjcuODk5MDU5MywgXCJzY29wZVwiOiBbXCJHVUVTVFwiXSwgXCJ0cmFjZXJcIjogXCI0S0FFTjJNS1lCXCIsIFwicHJvZmlsZUlkXCI6IFwiWmxjYTN2eW9QZFo3M2hZN1lVaGFpQUEwUUVFdEk2bHlmaHZaZGR1VFlmUWdCWWRpSDFDcTYzZXEvczJhNzlPbTVVKzNyczJyeGhqbTRwRDMwQ2NJQnc9PWQ5MWFmNjVkNjY5MzU3NDZmOGFjZjM1ODkxYjg3MjhmZmE4YTMyZTE1N2RhZWU5NDkyNDliMjJhNmEwODMxNTdcIn0ifQ.OmhY0iAI_eVPFcaZEH96_UxfiCW4xzajqQBGjju7GdA%22%2C%22reauthExpiresIn%22%3A15552000%2C%22expiresIn%22%3A600%2C%22scope%22%3A%22GUEST%22%2C%22tracer%22%3A%224KAEN2MKYB%22%2C%22dataCenterId%22%3A%22US-PA%22%2C%22geoRegion%22%3A%22EU-LN%22%2C%22edgescape%22%3A%7B%22country%22%3A%22NL%22%2C%22city%22%3A%22AMSTERDAM%22%7D%2C%22trueClientIp%22%3A%22145.116.164.35%22%2C%22createdAt%22%3A1639671027903%2C%22authExpiresTime%22%3A1639671507.903%2C%22reauthExpiresTime%22%3A1655223027.903%7D; Max-Age=15552000; Path=/; Expires=Tue, 14 Jun 2022 16:10:28 GMT\nurbn_edgescape_site_id=an-uk; Path=/\nurbn_country=NL; Path=/\nurbn_inventory_pool=INTL_DIRECT; Path=/\nurbn_site_id=an-us; Path=/\nurbn_data_center_id=US-PA; Max-Age=15552000; Path=/; Expires=Tue, 14 Jun 2022 16:10:28 GMT\nlocalredirected=False; path=/\nAKA_A2=A; expires=Thu, 16-Dec-2021 17:10:28 GMT; path=/; domain=anthropologie.com; secure; HttpOnly\nsiteId=an-us; Path=/\nurbn_channel=web; Path=/\nlocalredirected=False; path=/\nAKA_A2=A; expires=Thu, 16-Dec-2021 17:10:28 GMT; path=/; domain=anthropologie.com; secure; HttpOnly\nakavpau_a15_anthropologie_vp_us=1639671328~id=847116d0f14718cb15891e8418bcecd4; Path=/; HttpOnly; Secure; SameSite=None\nakacd_ss1=3817123826~rv=84~id=8b549145763adf5a5377574977424349; path=/;; Secure; SameSite=None"
+        },
+        "responseBodyHash": "a07c2905ce0ac1a012b1bda54d3f80560d357d068114482f24173c2615c70bee",
+        "initiators": [],
+        "time": 1.6940090000862256
+      },
+      {
+        "url": "https://polyfill.io/v3/polyfill.min.js?features=default%2Ces2015%2Ces2016%2Ces2017%2CElement.prototype.remove%2CIntersectionObserver%2CrequestIdleCallback&version=3.52.1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 560,
+        "remoteIPAddress": "151.101.1.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=604800, stale-while-revalidate=604800, stale-if-error=604800",
+          "referrer-policy": "origin-when-cross-origin",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "aaecd144d2b8763b2fa5c91f09778294363cef363c10504205f4203922644d11",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.06894799997098744
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 13280,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"35b3f2e1b03a9049dd8f2d024027a46e:1636749468.49663\"",
+          "expires": "Sat, 15 Jan 2022 16:10:27 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "af07c454b79792807d70118e555282595c901bc89364715dbd8cc4e7e343b081",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.0070599999744445086
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 203689,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"dc397b7eaab52b8ad630f388e4147cdd:1638558166.553368\"",
+          "expires": "Sat, 15 Jan 2022 16:10:27 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "c2967ff79751e39f48f735b6246e40856cb2c3c67807de4cd4e0165fcd057740",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.015244000009261072
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/catch-all.eef19abd0b6f5846a227.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 8870,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"98f1318bcad6bdf9c7bb0b90a5e7569a:1636749492.198972\"",
+          "expires": "Sat, 15 Jan 2022 16:10:27 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "c9d71ed1ed96932d68cc5f9053475653c59323e026ce604eefa09c4f449fdf12",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.008824000018648803
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/async/catch-all.75d79a39cdaa0edca1bd.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 65088,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"b542005e6ae90d4de88eebf7e8854c28:1638558171.961881\"",
+          "expires": "Sat, 15 Jan 2022 16:10:27 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "19743ac13961ead330ebe164b6c3f44fc40c40ea5c4ac53baf31b3f07d6c36e0",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.0443450000602752
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/4ZrgvwZk7dhamiSvXf9PJY/10269715f60f294c463cf63a903e6575/Anthropologie_TypeLogo_gold__1_.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 77815,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3a6b955efecb3e35f81c2ad8d0791393\""
+        },
+        "responseBodyHash": "bd10b92cc23fedd341218b54b369576c7d00486ae7ca3210f11f4341ac752ba7",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.2642230000346899
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/6YBvbj7oaFrW5Uo6rJ9VGJ/d07c70077d4b6788e8585ebbd92f7b6a/Dec21_50OffGifts_HPGModule_LS_03.jpg?w=2882&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 398279,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1104d3b4fc4fa68e6396d1d7823e6d11\""
+        },
+        "responseBodyHash": "2536109ab39ac76df185d266d0e619689a7369c8f9e58355a86c39667e26dcbf",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.311710000038147
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/58S3QVdVarfXJrHy7yesG8/b6adc349c4519a196300c73f13c158ce/CT_1.jpg?w=480&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 5197,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"9314ba48344ad0e204ebdd68124f07b4\""
+        },
+        "responseBodyHash": "bcec6a893e91d8bf9b6bbea1b8c177a459eba6f6384bf13ea0a2f355b04e9d6e",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.2494060000171885
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/2uqBWRRAbePqyOswiUo2Af/8234879ffb98fe20535d9c472ea7d257/CT_2.jpg?w=480&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3901,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6220ee90c07f688c29f9a9e8e0af3593\""
+        },
+        "responseBodyHash": "21d213e3e04a8f3666e727aaa7a5a10e84486d667818238a0880d7174b92724f",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.24954799993429333
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 51862,
+        "remoteIPAddress": "104.99.232.176",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "95a439c4e11ace2484e8d42c30ff56cf7db5ea7c6463df9ce2fdafa7f6ccbf54",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.08157500007655472
+      },
+      {
+        "url": "https://www.anthropologie.com/__ssobj/core.js+ssdomvar.js+generic-adapter.js+ssrecscapture.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 23294,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:10:29 GMT",
+          "set-cookie": "SS_ATTENTIVE=1; path=/; domain=.anthropologie.com; expires=Thu, 16-Dec-2021 16:40:29 GMT\nSS_PWA_PAYMENT=1; path=/; domain=.anthropologie.com; expires=Thu, 16-Dec-2021 16:40:29 GMT\nSSLB=1; path=/; domain=.anthropologie.com; expires=Fri, 16-Dec-2022 16:15:27 GMT\nlocalredirected=False; path=/"
+        },
+        "responseBodyHash": "22f411ab2bd48cc607ed30f55fef695910ef01890ddfed866bc1129b7b613476",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.357190000009723
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/35e18778c48be70776f23adf3d07d690.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css",
+        "status": 200,
+        "size": 66530,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"99e41e7f54caf79d6c87a35f8289509e:1639144288.165488\"",
+          "expires": "Sat, 15 Jan 2022 16:10:29 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "abd4e2478fba570bae216305719a030e6ac7b2abc4251b6adba35b4ba9c295f4",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css"
+        ],
+        "time": 0.4328059999970719
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/4ddcdc249e5eb0bfcd9903d6c0f4e43d.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css",
+        "status": 200,
+        "size": 55175,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"8861111344a0d2c8a12c5aebf7b2330a:1638283249.078471\"",
+          "expires": "Sat, 15 Jan 2022 16:10:29 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "aa0faf22244551ab187e13b9916f7c981e86deec92dd68d45335c3f5decdb4ab",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css"
+        ],
+        "time": 0.43957799999043345
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/5c17de5e2cfbdd55bb7c75b6d6f41c69.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css",
+        "status": 200,
+        "size": 109088,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"50bc648131ca62fef521aa0509d87765:1638283249.430944\"",
+          "expires": "Sat, 15 Jan 2022 16:10:29 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "6e5004d0dcca020c3a0f5a457d5b37d2a91ed55392db39a40a0e619ab732aa19",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.bd3504f390cf22fc4ef3.css"
+        ],
+        "time": 0.41707900003530085
+      },
+      {
+        "url": "https://polyfill.io/v3/polyfill.min.js?features=default%2Ces2015%2Ces2016%2Ces2017%2CElement.prototype.remove%2CIntersectionObserver%2CrequestIdleCallback&version=3.52.1",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 69,
+        "remoteIPAddress": "151.101.1.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=604800, stale-while-revalidate=604800, stale-if-error=604800",
+          "referrer-policy": "origin-when-cross-origin",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "aaecd144d2b8763b2fa5c91f09778294363cef363c10504205f4203922644d11",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.03773799992632121
+      },
+      {
+        "url": "https://cdn.dynamicyield.com/api/8767825/api_dynamic.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 84881,
+        "remoteIPAddress": "52.222.138.113",
+        "responseHeaders": {
+          "cache-control": "max-age=30",
+          "etag": "W/\"7c12649432c13e0f83da18361dda436e\""
+        },
+        "responseBodyHash": "1b90f19515a3a03c2d00eb6546db792f8e734bed3c31c41ac8ec0fad3c444e79",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.5900009999750182
+      },
+      {
+        "url": "https://cdn.dynamicyield.com/api/8767825/api_static.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 100851,
+        "remoteIPAddress": "52.222.138.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"708d023407818a551444011c977bceb5\""
+        },
+        "responseBodyHash": "e997357539f62296259f6664e642191b452e7468de0323ac786d96882019dbff",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.1979479999281466
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 26488,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "\"0ac2371e4956dfa3b8260c3d96e48ebf:1638886535.932546\"",
+          "expires": "Thu, 16 Dec 2021 16:15:29 GMT"
+        },
+        "responseBodyHash": "33dfd9715b44c453fa8679b28a333ec136236f7625f9e3429a01c0ba3e7b74b4",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.04925000004004687
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/async/vendors~brand~catch-all~creative-content~membership~search~seller~super-nav-dropdown.835e4fdc2c830690664d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 5695,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"119fe1338e81682657293bbb582d3bb6:1638558183.260248\"",
+          "expires": "Sat, 15 Jan 2022 16:10:30 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "a94cbf3cde183f67159c5a6b11d6ad4b4536c019ec706cdf2c1883e4e30ce169",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.020168000017292798
+      },
+      {
+        "url": "https://st.dynamicyield.com/st?sec=8767825&inHead=true&id=0&jsession=&ref=&scriptVersion=1.81.0&dyid_server=&ctx=%7B%22type%22%3A%22HOMEPAGE%22%7D",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 14316,
+        "remoteIPAddress": "52.222.138.101",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Thu, 16 Dec 2021 16:10:29 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR ADM DEV OUR BUS\"",
+          "set-cookie": "DYID=-7620090168439249674; Domain=.dynamicyield.com; Path=/; Expires=Fri, 16 Dec 2022 16:10:30 GMT; Secure; SameSite=None\nDYSES=9b234d2271840f372f837c54e7f895d8; Domain=.dynamicyield.com; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "d4b54609e2acc9ee7d30166787869377f64796ca7dc160876c6da99c2a604c42",
+        "initiators": [
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.1735880000051111
+      },
+      {
+        "url": "https://www.anthropologie.com/api/checkout/v0/an-us/minicart?cacheBuster=1639671033272",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 601,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "W/\"2113e492cae8ed052fce4f8b4f0da2c1adae558d\"",
+          "expires": "Thu, 16 Dec 2021 16:10:33 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "spacookie=1; path=/\nlocalredirected=False; path=/"
+        },
+        "responseBodyHash": "ce0a43cf5408f0f52abbb0274f928d2fe51668f5e18f49a92f1b333930db6287",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.20485900004860014
+      },
+      {
+        "url": "https://www.anthropologie.com/api/catalog/v0/an-us/configuration?projection=%7B%22sites%22:%7B%22siteId%22:true,%22membershipGroups%22:%7B%22name%22:true,%22postalCodes%22:true%7D%7D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 9552,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "W/\"d999667b8ca710cd37666a3d0b0f59958b82c037\"",
+          "expires": "Thu, 16 Dec 2021 16:10:33 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "spacookie=1; path=/\nlocalredirected=False; path=/"
+        },
+        "responseBodyHash": "d712b0d925daa3d135e3e1aada41dc89405b39cb49c235bf36b06fe1e34bf563",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.05157200002577156
+      },
+      {
+        "url": "https://www.anthropologie.com/__ssobj/ard.png?7042333437298217644_1-439-1639671027&n=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 381,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, max-age=0, must-revalidate, proxy-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "SSRT=-WS7YQADAA; path=/; domain=.anthropologie.com; expires=Fri, 16-Dec-2022 16:10:33 GMT\nlocalredirected=False; path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.2715719999978319
+      },
+      {
+        "url": "https://urbanoutfitters.evergage.com/api2/event/anus_prod",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.200.210.253",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://urbanoutfitters.evergage.com/api2/event/anus_prod"
+        ],
+        "time": 0.5338820000179112
+      },
+      {
+        "url": "https://urbanoutfitters.evergage.com/api2/event/anus_prod",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 608,
+        "remoteIPAddress": "34.200.210.253",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d898ae3394f2ffbff1980edc0d5bb67d4d57d917f2522dcb2614c11dbb24eedd",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js",
+          "https://www.anthropologie.com/static/v3/async/catch-all.75d79a39cdaa0edca1bd.js"
+        ],
+        "time": 0.6884219999192283
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/7JmWVjKSfxihNNr6onjWYA/970e93b4b864773587f506eafa9ecd06/CT_3.jpg?w=480&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3459,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b88472fa92f1cc1d3b13ef92915f1f32\""
+        },
+        "responseBodyHash": "ccb4957321e9bf5d838f0a26f8387e262547c89472bb724e62155bffc9ef7432",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.023410000023432076
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/7a5He0K4CJQtuGM53G91th/ddc703e4c57541582c2b64373e455784/CT_4_new.jpg?w=480&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4846,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"0d4faf3dd1015a6fc778e05ab903475b\""
+        },
+        "responseBodyHash": "0e1bf2901775a003e0376284a1350f81bd859f2b18ba66edaab20b881d70d7cb",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.027754000038839877
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/7bYqyQKWsN3o5Lb41RClNN/249a9d5f9bf8df251056dc1e2e8795fb/CT_5.jpg?w=480&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4920,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"95e41340bf91fe77d1147bac5971485c\""
+        },
+        "responseBodyHash": "9df1212cc958a628d0bf3130eb7f1e7e9fa4d525ff4bc3ba89cc7c2aa2dee551",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.02150999999139458
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/5aS2SfnmDwZJvqSLqDScCR/f4caeb08e37ed96d2619116418c83061/CT_6.jpg?w=480&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3671,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"bb255abc989841d12359f86117ff26e6\""
+        },
+        "responseBodyHash": "165e5fc5f36d35243c9819bd1cdeaa5ef597f8f53b3295772106e1836eea8885",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.02575899998191744
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/45QOXj1VI8tqn1gZp1qBFZ/4e6c33585a9fc76ed06725ef57fb1757/121321_HPG_LS_M1.jpg?w=1756&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 183947,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"610391bb6bfc19b0b0b072765fe00760\""
+        },
+        "responseBodyHash": "ab776441b849cf1e2af7dfb5de3bc10b5183d82fbe4af38ffc25ff18c9646230",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.04203000001143664
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/8gjS4et6dNpCxUaViefBv/2be2bee74484307a4f2b14512501abc4/RR_Bedding_Pillows_Throws.jpg?w=856&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 62978,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6dd097c196513cf52ed07b0250a8ac05\""
+        },
+        "responseBodyHash": "ac7bc506ccf556c2bcd88fadb8776d1c7f7765014c00566ea2fdc522f3fa1e1b",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.03835599997546524
+      },
+      {
+        "url": "https://images.ctfassets.net/5de70he6op10/fdKyhihlgONPNIx5d9IXQ/5865ba1711de036db4c58e5147ab7fec/121321_HPG_RR_Dresses.jpg?w=856&q=80&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 56980,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3ffa164c393b6cca86f6863e5ba822a4\""
+        },
+        "responseBodyHash": "b378cb11db0cb873d04c6c017e0279acffb29fcc70e3df0faeeb94abfaf65f95",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.09947899996768683
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.currency.js?utv=ut4.41.202112071415",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2052,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"0243bf14cb5f912be8cd39d5e8ffbe6d:1639530004.808794\"",
+          "expires": "Fri, 31 Dec 2021 16:10:34 GMT"
+        },
+        "responseBodyHash": "1c3ec9523bd7031013eea16550c6976396cfc29fc007a89dc8ddb6c2de814c34",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.05471299996133894
+      },
+      {
+        "url": "https://c.go-mpulse.net/api/config.json?key=26K8Y-MFDAT-MVPBC-TR5WY-T9YYT&d=www.anthropologie.com&t=5465570&v=1.632.0&if=&sl=0&si=ncvx3fl6o2d-r47u9h&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,LOGN&acao=&ak.ai=321052",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 889,
+        "remoteIPAddress": "2.16.84.148",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300, stale-while-revalidate=60, stale-if-error=120",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fe2bb751cb48137528fad9b70885680c3eeecd2f7c55d33efa929c243f5d20eb",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT"
+        ],
+        "time": 0.2035590000450611
+      },
+      {
+        "url": "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 62469,
+        "remoteIPAddress": "52.222.138.113",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"14b4c5374165d7a3803b9d92abeae0d4\""
+        },
+        "responseBodyHash": "7dbca0038b8afa36949ed6dd2ec47d0cd0b5496a0361b97a604177096d896199",
+        "initiators": [
+          "https://st.dynamicyield.com/st?sec=8767825&inHead=true&id=0&jsession=&ref=&scriptVersion=1.81.0&dyid_server=&ctx=%7B%22type%22%3A%22HOMEPAGE%22%7D"
+        ],
+        "time": 0.1503580000717193
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.146.js?utv=ut4.41.202111152015",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1628,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"98c4cbc1a33356043bfd66acfe15e768:1637007351.061285\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "3e2f1a6eb9be4b7ce8ef08f2afa9fa0b14bc69985a64eb014b2d8034c8a5d0f8",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.08745800005272031
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/dpx?cnst=1&_=468296&msn=&name=Homepage_Visit&props=%7B%7D&uid=-7620090168439249674&sec=8767825&cl=dk.m.c.ws.&ses=8275e544268d4a525585d0c4aec3a5a9&l=def&p=1&sd=&rf=&trf=0&aud=1091357.455533.460458.1236846.472305.472307&svars=&url=https%3A%2F%2Fwww.anthropologie.com%2F&exps=%5B%5B%22245590%22%2C%228987712%22%2C%227518351%22%2C0%2Cnull%2Cnull%2C%22-8714472698916665228%22%2C%222%22%2C%223%22%5D%2C%5B%22331631%22%2C%223646463%22%2C%229753415%22%2C0%2Cnull%2Cnull%2C%22-8714472697069929227%22%2C%221%22%2Cnull%5D%2C%5B%22851231%22%2C%227872787%22%2C%2220912999%22%2C0%2Cnull%2Cnull%2C%22-8714472697370895284%22%2C%221%22%2Cnull%5D%2C%5B%22881268%22%2C%228086372%22%2C%2221325088%22%2C0%2Cnull%2Cnull%2C%22-8714472698478585718%22%2C%221%22%2Cnull%5D%2C%5B%22918394%22%2C%228433141%22%2C%2222280226%22%2C0%2Cnull%2Cnull%2C%22-8714472700195236689%22%2C%221%22%2Cnull%5D%2C%5B%22994780%22%2C%229198531%22%2C%2224433480%22%2C0%2Cnull%2Cnull%2C%22-8714472697200396380%22%2C%221%22%2Cnull%5D%2C%5B%22416094%22%2C%228194787%22%2C%2221594806%22%2C0%2Cnull%2Cnull%2C%22-8714472697616412283%22%2C%221%22%2Cnull%5D%2C%5B%22393592%22%2C%224179643%22%2C%2211270291%22%2C0%2Cnull%2Cnull%2C%22-8714472700401108428%22%2C%221%22%2Cnull%5D%5D&expSes=90695&tsrc=Direct&reqts=1639671035480&rri=557148&geoData=NL_UT_Utrecht",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.7092309999279678
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/uia?cnst=1&_=1639671035506",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 392,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.2673630000790581
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.86.js?utv=ut4.41.202108241848",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 7530,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"45dfc63faf7abd4bfb261df7745d3de8:1626985102.642758\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "9192b71187f993b5dc566b43cb0c6f0d70183a523f3b36d2aa7523ee1eb54db8",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.11682900006417185
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.145.js?utv=ut4.41.202101221448",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1638,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"5aedf71be033a6b857f509c7b3f0588b:1611326921.524195\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "e902a039e6874a75d5eef35ebb876a28ec196e073db4119e914c9af912071f89",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.10829000000376254
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.85.js?utv=ut4.41.201910281321",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1426,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"42b2dd645812868571e1cea63ade1be0:1517239542\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "346e558fab1d07c7c6f836e20e5423d65ae0bcb62522d81c9ab6d338505a8992",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.10583200003020465
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.105.js?utv=ut4.41.202106141532",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4614,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"c38e59c18da602ecce4a9096884679f8:1623684783.273868\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "e0b86240e3034036e44a1c7865b06d3769178388567a8e123a68d87fe3e3fa8c",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.10554699995554984
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.108.js?utv=ut4.41.201909231258",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1377,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"d1ef1e34ad132f33d59c1c381343fded:1592849236.701542\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "1c223af322c2bd53f8fe0c44918127432506ba0b0fb614b2db4dbb38bfab08d7",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.11184100003447384
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.118.js?utv=ut4.41.202103162015",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3473,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"6944c092dfde4e82a4671612e5456828:1592849232.931252\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "a45fa1e179609a2c550ee56bf4f9780acac253a4356f07a46f7bb804e575b98e",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.1094849999062717
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.119.js?utv=ut4.41.202006301344",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3130,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"a5e2c8db195fc2de3c7f022174026c19:1592849235.179524\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "f47c8820988a8237eafeb50907383977747e7960b0c95339e22dcb0650fe036d",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.12656000000424683
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.120.js?utv=ut4.41.202006301344",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3129,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"9484b9baa5d0b488b12af4472e109398:1592849236.258838\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "ca038886e04500dc5672400aadc161130a89beb54b7a9ca557988bc23c16fcc5",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.10948199999984354
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.130.js?utv=ut4.41.202103162015",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4830,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"6205ee01826e2e71404cabfdc029b2fc:1593524679.234459\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "09d126ef037829fe0083bd75c6aba169b31a69e495487cefc06b294337d4f283",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.1254079999634996
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.142.js?utv=ut4.41.202103162015",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1887,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"f958d0c104603c30006c350af12e07f9:1609793731.576841\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "66b273a2379050391e5ce0c549c6f24d599dd07453efd389fed9a907ae708ff9",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.12197600002400577
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.148.js?utv=ut4.41.202103162015",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2145,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"674ade8d6383d2fa3a3ed020c1393a98:1612298735.461059\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "d4dfc0b715f27c8473379618addb82dc08cc44e72001c041596f5de92a9364f0",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.12123199994675815
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1876,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"1ece49625ec35ae9dc8b9e1375084d7f:1634146570.8313\"",
+          "expires": "Fri, 31 Dec 2021 16:10:35 GMT"
+        },
+        "responseBodyHash": "aa126ef0a3079a207f474d042f3946424545fd27d239532034787db8afe9f7bc",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.12029900006018579
+      },
+      {
+        "url": "https://rcom.dynamicyield.com/userAffinities?sec=8767825&uid=-7620090168439249674",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 758,
+        "remoteIPAddress": "13.227.219.124",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f\"",
+          "set-cookie": "AWSALB=d68r9KCn+5g3N6702+gN/dD++r1NnJGcKJ5zB+pMrRSf6WQnFfCoc4YgDRdMg1kdI0a61ciCxDSFe9JVO2KzvsTPrnq19WV95ek/ka/UvbR/CrKtZ0w7rhss6p0s; Expires=Thu, 23 Dec 2021 16:10:35 GMT; Path=/\nAWSALBCORS=d68r9KCn+5g3N6702+gN/dD++r1NnJGcKJ5zB+pMrRSf6WQnFfCoc4YgDRdMg1kdI0a61ciCxDSFe9JVO2KzvsTPrnq19WV95ek/ka/UvbR/CrKtZ0w7rhss6p0s; Expires=Thu, 23 Dec 2021 16:10:35 GMT; Path=/; SameSite=None; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.23594599997159094
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=275128&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=331631&p=1&ve=3646463&va=%5B9753415%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472697069929227&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030579&rri=4829549",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.6160490000620484
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=717814&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=851231&p=1&ve=7872787&va=%5B20912999%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472697370895284&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030583&rri=2830239",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.6107840000186116
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=712787&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=881268&p=1&ve=8086372&va=%5B21325088%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472698478585718&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030590&rri=1522380",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.6036689999746159
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=77502&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=918394&p=1&ve=8433141&va=%5B22280226%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472700195236689&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030595&rri=5882597",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.5955959999701008
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=356707&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=994780&p=1&ve=9198531&va=%5B24433480%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472697200396380&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030599&rri=3475378",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.59085999999661
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=867396&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=416094&p=1&ve=8194787&va=%5B21594806%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472697616412283&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030604&rri=6915161",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.5909390000160784
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=482417&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=393592&p=1&ve=4179643&va=%5B11270291%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472700401108428&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030609&rri=5358030",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.5857219999888912
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/batch?cnst=1&_=1639671035624_444826",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 391,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.1985720000229776
+      },
+      {
+        "url": "https://async-px.dynamicyield.com/var?cnst=1&_=370584&msn=&uid=-7620090168439249674&sec=8767825&t=ri&e=420396&p=1&ve=4537381&va=%5B12298458%5D&ses=8275e544268d4a525585d0c4aec3a5a9&expSes=90695&aud=1091357.455533.460458.1236846.472305.472307&expVisitId=-8714472699487226277&mech=1&smech=null&eri=1&tsrc=Direct&reqts=1639671030633&rri=1615016",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://cdn.dynamicyield.com/scripts/1.81.0/dy-coll-min.js",
+          "https://cdn.dynamicyield.com/api/8767825/api_static.js"
+        ],
+        "time": 0.5624510000925511
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/site-switch-banner.0630739b56dd24ded765.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 920,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"520874f093568da53548962fa095326c:1638558200.769993\"",
+          "expires": "Sat, 15 Jan 2022 16:10:35 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "cf834a1e6b37b9cb4c943b4820a438364137608fa2ad9febe2e751eebcf53bd3",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.02852400008123368
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/async/site-switch-banner.c7d0e0a0985acb0b83f9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 2385,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"c5089420ffb821fb3ae0b69f455d068a:1638558181.814398\"",
+          "expires": "Sat, 15 Jan 2022 16:10:35 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "7b75316e91aca7413d237bb4460a5e4b4b9e4411f213d4caad4205534785c77a",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.03903899993747473
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/chat.f44e4c4acc58f85d6ece.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 1444,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"7d5ac0f147cb5916d3a8db278ca03643:1638558186.263067\"",
+          "expires": "Sat, 15 Jan 2022 16:10:27 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "bc5bbac25a64029010aff18e32d1f98dd421acb9ef26679c901819439ba4512b",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.019490999984554946
+      },
+      {
+        "url": "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 5027,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000",
+          "etag": "\"9d9c5a4e8b17ea60247510384605c2b7:1638558172.176241\"",
+          "expires": "Sat, 15 Jan 2022 16:10:35 GMT",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "22e1d501e8323e00c20286a2e0645bc9cb7e0ca0015998d829f6cef56d44876f",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.03705499996431172
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=urbanoutfitters/a15-urbnweb/202112071415&cb=1639671035710",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 202,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "etag": "\"7bc0ee636b3b83484fc3b9348863bd22:1460653071\"",
+          "expires": "Thu, 16 Dec 2021 16:20:35 GMT"
+        },
+        "responseBodyHash": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.020434000063687563
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Thu, 16 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.86.js?utv=ut4.41.202108241848",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.1758730000583455
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 61783,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "09b563083a3e51fd79796aceccf799a3d8a3f8a87a6472ef69eab50a878be583",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.20431199995800853
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 830,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.18662199995014817
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-950584264",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 39677,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "2ea7f1f5301242ba3861071c1a5906c8c283c48aa4ad8d58d30ef2e2c35a35ce",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.20400999998673797
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 27030,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.10038900002837181
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 10961,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=0AD8834747EE629C02BA924846B76358; domain=.bing.com; expires=Tue, 10-Jan-2023 16:10:36 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.130.js?utv=ut4.41.202103162015",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.15298099990468472
+      },
+      {
+        "url": "https://track.securedvisit.com/js/sv.js?sv_origin=anthropologie.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 24709,
+        "remoteIPAddress": "52.22.194.150",
+        "responseHeaders": {
+          "cache-control": "proxy-revalidate, no-cache, private, must-revalidate, max-age=0",
+          "etag": "W/\"a24fb0c2731fc914353e3d07a3f5c611\"",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "ea844e68b77179486e8847958d0395167e0d0a0a7e1927495a01f66ee28ded1b",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.148.js?utv=ut4.41.202103162015",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.49715399998240173
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 30552,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "0c46adff26528af2924816bb229ec46b606b26f534e91b310d866cc812e3175d",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.09349599992856383
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 7126,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9BE75DC2F7AD9"
+        },
+        "responseBodyHash": "4d2a74d8b25e1ccd4b1294b0b937804bc24aeea7f46edad3f3c1f91604d2708c",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.146.js?utv=ut4.41.202111152015",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.10467199992854148
+      },
+      {
+        "url": "https://anthropologie501z.btttag.com/btt.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 22281,
+        "remoteIPAddress": "104.22.58.128",
+        "responseHeaders": {
+          "cache-control": "max-age=43200",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "144771f31c1aac198b82df4b7b7d4960dba432c202ee392ed59f8c12c273b542",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.2424279999686405
+      },
+      {
+        "url": "https://cdn.krxd.net/controltag/vu3qlt02i.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 7806,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "etag": "\"699867f65ba04a41c1231961b8fc6dddb03207c2\""
+        },
+        "responseBodyHash": "f66384b59517428e609561fcded6c458d76cb39f7cd24a7cd118b7126dc83b84",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.145.js?utv=ut4.41.202101221448",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.07842599996365607
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.25.js?utv=ut4.41.202112071415",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3698,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"23ce0e9f69c34e8aa896d753ee58b776:1622643788.300904\"",
+          "expires": "Fri, 31 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "dca8e4cdeae5fad6313d8d2a3df6613e046563529f8e02598b0ea7f9edf9f176",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.08826400001998991
+      },
+      {
+        "url": "https://cdn.pbbl.co/r/1201.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 403,
+        "remoteIPAddress": "52.222.138.93",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.85.js?utv=ut4.41.201910281321",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.3931199999060482
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/scripts/0062/9490.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2237,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1665aacbe3f67aad1e45ce4cd154d1423dcb634e824318218f2074618c6175f5",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.18100999994203448
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.97.js?utv=ut4.41.202112071415",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4404,
+        "remoteIPAddress": "104.84.232.209",
+        "responseHeaders": {
+          "cache-control": "max-age=1296000",
+          "etag": "\"a403ee80568a784f956f90eb8e33bcef:1599154362.944198\"",
+          "expires": "Fri, 31 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "208c4cf4aae3666aa89e285890744bf57651cd5465b652eda3f89375d8ff850c",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.08755099994596094
+      },
+      {
+        "url": "https://intljs.rmtag.com/115251.ct.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 22243,
+        "remoteIPAddress": "34.102.147.248",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "d6a1cfc055171d0f3c618eea5b07da9f3425f7e68911140d9fbe8c6b750fa1c2",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.105.js?utv=ut4.41.202106141532",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.20152799994684756
+      },
+      {
+        "url": "https://www.anthropologie.com/XgWM9nuH/init.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 28137,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=57",
+          "etag": "W/\"126be-6IeWnX+1wxQGWcREtvAV9EGGUDA\"",
+          "set-cookie": "localredirected=False; path=/\nakavpau_a15_anthropologie_vp_us=1639671336~id=8403d8b663bd2ac3c95177cc6650ef61; Path=/; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "209133b390b491eb229673a3fb0738769e62c0b510f7e547713dac996325c4da",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.108.js?utv=ut4.41.201909231258",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.20780999993439764
+      },
+      {
+        "url": "https://cdn.attn.tv/anthropologie/dtag.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 375,
+        "remoteIPAddress": "13.227.219.50",
+        "responseHeaders": {
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.1779419999802485
+      },
+      {
+        "url": "https://d38xvr37kwwhcm.cloudfront.net/js/grin-sdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 46012,
+        "remoteIPAddress": "52.222.137.107",
+        "responseHeaders": {
+          "etag": "\"1f6c0af887baf74e41d5bc75d3fb2fda\""
+        },
+        "responseBodyHash": "d3c788a6469d3de15f844df644f328c04c222d1f34cf29850bcda1386da0fd56",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.3136889999732375
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BVLMPJF34F2PK9J4G1CG",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 39213,
+        "remoteIPAddress": "96.16.53.211",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c6461d568bbd6510e67c6b37c405a2097a266401fb7546575dd6f7e47c12d972",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.3864080000203103
+      },
+      {
+        "url": "https://www.anthropologie.com/api/content/v1/an-us/entries?include=1&content_type=localizedText&select=fields.slug,fields.displayText&fields.slug[match]=choose-local-site-&limit=1000",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 598,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=542",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "d8a65539324bf3e9a454a04ecb1d0b17b2d6f7fd8e7e847025ce19f78d0096ed",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js",
+          "https://www.anthropologie.com/static/v3/async/site-switch-banner.c7d0e0a0985acb0b83f9.js"
+        ],
+        "time": 0.2099259999813512
+      },
+      {
+        "url": "https://www.anthropologie.com/api/content/v1/an-us/entries?include=1&content_type=localizedText&select=fields.slug,fields.displayText&fields.slug[match]=interstitial_modal-&limit=1000",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 1310,
+        "remoteIPAddress": "23.0.82.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=588",
+          "set-cookie": "localredirected=False; path=/"
+        },
+        "responseBodyHash": "a31af3f8f58655f4ee4a1a638e4080211e00d52d957ae71713b668ec7cd0dff5",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js",
+          "https://www.anthropologie.com/static/v3/async/site-switch-banner.c7d0e0a0985acb0b83f9.js"
+        ],
+        "time": 0.4164400000590831
+      },
+      {
+        "url": "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 8962,
+        "remoteIPAddress": "85.222.140.10",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Wed, 15 Dec 2021 02:24:16 GMT",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=urbn.my.salesforce.com; path=/; expires=Wed, 14-Dec-2022 02:24:16 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=urbn.my.salesforce.com; path=/; expires=Wed, 14-Dec-2022 02:24:16 GMT; Max-Age=31536000\nBrowserId=71cxX1yEEeyfBu3ubtUI8w; domain=.salesforce.com; path=/; expires=Wed, 14-Dec-2022 02:24:16 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "afff91115a935910e7686546c509ab6fd037b0bd70cf980d6b4e7555c00bb915",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js"
+        ],
+        "time": 0.21492399997077882
+      },
+      {
+        "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1635,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Thu, 16 Dec 2021 16:44:51 GMT"
+        },
+        "responseBodyHash": "058ed961bfe422af7bfc65865f4c08531ec8ace995f8a1ec560a46581cb7712c",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.022130000055767596
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 19099,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.20109799993224442
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/2022860984616418?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 89169,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "e06e3e182d014f2eb9dbffd6e8c3ed7c1f51a362f1e992d526420477b83e7a16",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.02547200000844896
+      },
+      {
+        "url": "https://bat.bing.com/p/action/5715115.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 739,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c32752451cd74d310866b252f161b46bcd43889b79b30c6baf3183e6e548bbf2",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.130.js?utv=ut4.41.202103162015",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.3250700000207871
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=5715115&Ver=2&mid=d48f0cee-b2d5-4b2a-aea1-ac89fb94b9e0&sid=b44286b05e8a11ecbd2999ae8306d144&vid=b44344a05e8a11ec87e19d1e65c2f9e6&vids=1&pi=842281895&lg=en-GB&sw=800&sh=600&sc=24&tl=Anthropologie%20-%20Women%27s%20Clothing,%20Accessories%20%26%20Home&p=https%3A%2F%2Fwww.anthropologie.com%2F&r=&lt=2998&evt=pageLoad&msclkid=N&sv=1&rn=160816",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 204,
+        "size": 172,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.130.js?utv=ut4.41.202103162015",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.150.js?utv=ut4.41.202110131736"
+        ],
+        "time": 0.03676899999845773
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-9240574&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 36076,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "8bc87b659772fe9fb17e3cba4063364c48f0076ad0ee04477c82960621fbe917",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.06339599995408207
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-950584264&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 39699,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "4ff8623d58bed6aa5a3e87fa71c04c9ef6521624fe6697decb4d31bbac22bb42",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.05621200008317828
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-972073518&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 51214,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "93c22e43d8297cc1a6e46d3bd5721466220b9bff37a87482ef79613e84e2f3f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.03411399992182851
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-8407796&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 36077,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "197408ee5f3e907e2a1a69de82f578a417a8745410cc94e883d1db00225235d4",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.04602899996098131
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-8891284&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 36071,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "b5da9954fae9d1f707707a960830bc3e34e2e2b919863ffd6a22def4304aaa33",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.05287600005976856
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1012189396&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 39610,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:10:36 GMT"
+        },
+        "responseBodyHash": "2ade6c3a2b2c8b1cba8afc6081df882bae61ff4cf2f8abb039610c0c519a4f7c",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.055551999947056174
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/d6daaef5-8aaa-45a4-ab88-0b8982a64c31/d6daaef5-8aaa-45a4-ab88-0b8982a64c31.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1928,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9926E5DD4D78A",
+          "expires": "Thu, 16 Dec 2021 20:10:36 GMT"
+        },
+        "responseBodyHash": "f94792c448abbb737ca8eff0b31e0266cf57d639c5306d1c496b0779161015d9",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.07627400010824203
+      },
+      {
+        "url": "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 84830,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"a1705c5ac5f06cf0c202ff70908fc042\"",
+          "expires": "Thu, 31 Jul 2031 12:06:16 GMT"
+        },
+        "responseBodyHash": "58d6350da5588a52d6baa4efc27a3362b4ee69dba3504fc762f934d7bb5d0bc4",
+        "initiators": [
+          "https://cdn.krxd.net/controltag/vu3qlt02i.js"
+        ],
+        "time": 0.04137400002218783
+      },
+      {
+        "url": "https://login.dotomi.com/ucm/UCMController?dtm_fid=101&dtm_com=28&dtm_cid=2466&dtm_cmagic=7b41bf&dtm_format=5&cli_promo_id=1&dtmc_tracer_id=4KAEN2MKYB&dtmc_department=homepage&dtm_user_id=a1fef700-0940-4312-9a0d-775dd98e856b&dtmc_ref=&dtmc_loc=https%3A//www.anthropologie.com/&dtm_user_token=",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 302,
+        "remoteIPAddress": "89.207.16.137",
+        "responseHeaders": {
+          "cache-control": "no-cache, private, max-age=0, no-store",
+          "expires": "0",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP NID OUR STP\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://core.conversant.mgr.consensu.org/gdpr/iab/consent/current?rdct_url=https%3A%2F%2Flogin.dotomi.com%2Fucm%2FUCMController%3Fgdpr%3D1%26dtm_fid%3D101%26dtm_com%3D28%26dtm_cid%3D2466%26dtm_cmagic%3D7b41bf%26dtm_format%3D5%26cli_promo_id%3D1%26dtmc_tracer_id%3D4KAEN2MKYB%26dtmc_department%3Dhomepage%26dtm_user_id%3Da1fef700-0940-4312-9a0d-775dd98e856b%26dtmc_loc%3Dhttps%253A%252F%252Fwww.anthropologie.com%252F%26dtm_user_ip%3D145.116.164.35%26dtm_user_agent%3DMozilla%252F5.0%2B%2528Macintosh%253B%2BIntel%2BMac%2BOS%2BX%2B10_15_7%2529%2BAppleWebKit%252F537.36%2B%2528KHTML%252C%2Blike%2BGecko%2529%2BChrome%252F93.0.4577.63%2BSafari%252F537.36%26gdpr_consent%3D",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.25.js?utv=ut4.41.202112071415",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.15034499997273088
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/data-scripts/0062/9490.json?t=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1980,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "68923a8169f8633bcc08fd934416b71ca1097827d78acabc640e5a668a123bc1",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0062/9490.js"
+        ],
+        "time": 0.04426300001796335
+      },
+      {
+        "url": "https://core.conversant.mgr.consensu.org/gdpr/iab/consent/current?rdct_url=https%3A%2F%2Flogin.dotomi.com%2Fucm%2FUCMController%3Fgdpr%3D1%26dtm_fid%3D101%26dtm_com%3D28%26dtm_cid%3D2466%26dtm_cmagic%3D7b41bf%26dtm_format%3D5%26cli_promo_id%3D1%26dtmc_tracer_id%3D4KAEN2MKYB%26dtmc_department%3Dhomepage%26dtm_user_id%3Da1fef700-0940-4312-9a0d-775dd98e856b%26dtmc_loc%3Dhttps%253A%252F%252Fwww.anthropologie.com%252F%26dtm_user_ip%3D145.116.164.35%26dtm_user_agent%3DMozilla%252F5.0%2B%2528Macintosh%253B%2BIntel%2BMac%2BOS%2BX%2B10_15_7%2529%2BAppleWebKit%252F537.36%2B%2528KHTML%252C%2Blike%2BGecko%2529%2BChrome%252F93.0.4577.63%2BSafari%252F537.36%26gdpr_consent%3D",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 302,
+        "remoteIPAddress": "89.207.16.137",
+        "responseHeaders": {
+          "cache-control": "no-cache, private, max-age=0, no-store",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://login.dotomi.com/ucm/UCMController?gdpr=1&dtm_fid=101&dtm_com=28&dtm_cid=2466&dtm_cmagic=7b41bf&dtm_format=5&cli_promo_id=1&dtmc_tracer_id=4KAEN2MKYB&dtmc_department=homepage&dtm_user_id=a1fef700-0940-4312-9a0d-775dd98e856b&dtmc_loc=https%3A%2F%2Fwww.anthropologie.com%2F&dtm_user_ip=145.116.164.35&dtm_user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F93.0.4577.63+Safari%2F537.36&gdpr_consent=",
+        "redirectedFrom": "https://login.dotomi.com/ucm/UCMController?dtm_fid=101&dtm_com=28&dtm_cid=2466&dtm_cmagic=7b41bf&dtm_format=5&cli_promo_id=1&dtmc_tracer_id=4KAEN2MKYB&dtmc_department=homepage&dtm_user_id=a1fef700-0940-4312-9a0d-775dd98e856b&dtmc_ref=&dtmc_loc=https%3A//www.anthropologie.com/&dtm_user_token=",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.25.js?utv=ut4.41.202112071415",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.19908599997870624
+      },
+      {
+        "url": "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 561,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=a6a01693-c516-47cb-be4a-5a629c983726; Path=/; Domain=linksynergy.com; Expires=Fri, 16 Dec 2022 16:10:37 GMT; Secure; SameSite=None\nicts=2021-12-16T16:10:37Z; Path=/; Domain=linksynergy.com; Expires=Fri, 16 Dec 2022 16:10:37 GMT; Secure; SameSite=None\nrmuid=a6a01693-c516-47cb-be4a-5a629c983726; Path=/; Domain=linksynergy.com; Expires=Wed, 16 Mar 2022 16:10:37 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "64c98f5307b262311a18cbc36474c14112062c5f068fa08e9dc66c86dcaca45a",
+        "initiators": [
+          "https://intljs.rmtag.com/115251.ct.js"
+        ],
+        "time": 0.18364399997517467
+      },
+      {
+        "url": "https://consent.linksynergy.com/consent/v3/p?rmch=cs&domain=www.anthropologie.com&sought=false&tp=gdpr&aff_mid=39789&attr_sid=115251&purposes=&vendors=&ext_id=3494a8a5-394a-4012-ab29-ea1b4dd386e5",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 335,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=6df350fa-81ea-4175-be12-90aa42adf223; Path=/; Domain=linksynergy.com; Expires=Fri, 16 Dec 2022 16:10:37 GMT; Secure; SameSite=None\nicts=2021-12-16T16:10:37Z; Path=/; Domain=linksynergy.com; Expires=Fri, 16 Dec 2022 16:10:37 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+        "initiators": [
+          "https://intljs.rmtag.com/115251.ct.js"
+        ],
+        "time": 0.09453500004019588
+      },
+      {
+        "url": "https://login.dotomi.com/ucm/UCMController?gdpr=1&dtm_fid=101&dtm_com=28&dtm_cid=2466&dtm_cmagic=7b41bf&dtm_format=5&cli_promo_id=1&dtmc_tracer_id=4KAEN2MKYB&dtmc_department=homepage&dtm_user_id=a1fef700-0940-4312-9a0d-775dd98e856b&dtmc_loc=https%3A%2F%2Fwww.anthropologie.com%2F&dtm_user_ip=145.116.164.35&dtm_user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F93.0.4577.63+Safari%2F537.36&gdpr_consent=",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 1206,
+        "remoteIPAddress": "89.207.16.137",
+        "responseHeaders": {
+          "cache-control": "no-cache, private, max-age=0, no-store",
+          "expires": "0",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP NID OUR STP\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "60ae70737d1db534bc33faeeb9e6d9bd4ee0dadc1b499a5cf0690d1fc262b1cc",
+        "redirectedFrom": "https://core.conversant.mgr.consensu.org/gdpr/iab/consent/current?rdct_url=https%3A%2F%2Flogin.dotomi.com%2Fucm%2FUCMController%3Fgdpr%3D1%26dtm_fid%3D101%26dtm_com%3D28%26dtm_cid%3D2466%26dtm_cmagic%3D7b41bf%26dtm_format%3D5%26cli_promo_id%3D1%26dtmc_tracer_id%3D4KAEN2MKYB%26dtmc_department%3Dhomepage%26dtm_user_id%3Da1fef700-0940-4312-9a0d-775dd98e856b%26dtmc_loc%3Dhttps%253A%252F%252Fwww.anthropologie.com%252F%26dtm_user_ip%3D145.116.164.35%26dtm_user_agent%3DMozilla%252F5.0%2B%2528Macintosh%253B%2BIntel%2BMac%2BOS%2BX%2B10_15_7%2529%2BAppleWebKit%252F537.36%2B%2528KHTML%252C%2Blike%2BGecko%2529%2BChrome%252F93.0.4577.63%2BSafari%252F537.36%26gdpr_consent%3D",
+        "initiators": [
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.25.js?utv=ut4.41.202112071415",
+          "https://tags.tiqcdn.com/utag/urbanoutfitters/a15-urbnweb/prod/utag.js"
+        ],
+        "time": 0.09698399994522333
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 964,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2f9aebc7f07d95c8ceb10fdd8ec6706838c786f3838c148cb96035b6d3e8449b",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.10210999997798353
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/identify.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 31781,
+        "remoteIPAddress": "96.16.53.211",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:10:37 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b2864c65b32cd25bf64a7eb4fddf486dff821f1924172a0083db962615bd6ce0",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BVLMPJF34F2PK9J4G1CG"
+        ],
+        "time": 0.16680300002917647
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=BVLMPJF34F2PK9J4G1CG&hostname=www.anthropologie.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 20683,
+        "remoteIPAddress": "96.16.53.211",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:10:37 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "73aded48f99a99295bd4245f9ee39357008c67b562361b9d5e96b498b4497a69",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BVLMPJF34F2PK9J4G1CG"
+        ],
+        "time": 0.11905899993143976
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 394,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {},
+        "responseBodyHash": "cbf703b757f969f2cc8a77701ddc301f2f97cfaa22873fdfb156119b12f245a5",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.2758540000068024
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 23538,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b401d1e804e0a5079603c8f74249ae0e2ec2c797703490f3a0c38079cd989027",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0062/9490.js"
+        ],
+        "time": 0.18173299997579306
+      },
+      {
+        "url": "https://www.google-analytics.com/collect",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 245,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.1295049999607727
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-1692859-1&cid=367731952.1639671036&jid=284616437&uid=a1fef700-0940-4312-9a0d-775dd98e856b&gjid=1568175885&_gid=565012984.1639671036&_u=aGBAgAIJAAAAAE~&z=1188835350",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 446,
+        "remoteIPAddress": "108.177.119.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.19254900002852082
+      },
+      {
+        "url": "https://www.google-analytics.com/collect",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 100,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.09474000008776784
+      },
+      {
+        "url": "https://www.google-analytics.com/collect",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 100,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.12996799999382347
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/utils/common.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1890,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:57:08 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "a743cabdf56f0bec67d35ef5435b030a7ef10a02f41153403fbc77c79724ade5",
+        "initiators": [
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.18530900008045137
+      },
+      {
+        "url": "https://images.ctfassets.net/9q9nf0ar8wu3/3cFNJlIio0io8KoO6OIUog/53c3b75ffa515487409bb1be17b3782e/AN_Avatar_40x40_2x.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 11170,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"be4edf982fda0a00f6d5eeb2ec34eba7\""
+        },
+        "responseBodyHash": "04f946d9ed8bbf92a68c85154c1c1bac44561ca5ecaf781ee1e13c59ba49504e",
+        "initiators": [
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js"
+        ],
+        "time": 0.15035000001080334
+      },
+      {
+        "url": "https://www.cloudflare.com/cdn-cgi/trace",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 432,
+        "remoteIPAddress": "104.16.123.96",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": "76765c5894f814f625e9971472e610c057786d6e6a288cbc207bfef16c2b69fc",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://d38xvr37kwwhcm.cloudfront.net/js/grin-sdk.js"
+        ],
+        "time": 0.1920190000673756
+      },
+      {
+        "url": "https://idsync.rlcdn.com/458359.gif?partner_uid=a6a01693-c516-47cb-be4a-5a629c983726",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 307,
+        "remoteIPAddress": "35.244.174.68",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=0vSK8HsDFNB6Ml3RD11RKc+MkTs+g9b/p6DiXeJbgCs=; Path=/; Domain=rlcdn.com; Expires=Fri, 16 Dec 2022 16:10:38 GMT; Secure; SameSite=None\npxrc=CAA=; Path=/; Domain=rlcdn.com; Expires=Mon, 14 Feb 2022 16:10:38 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idsync.rlcdn.com/1000.gif?memo=CPf8GxIwCiwIARCd5gEaJGE2YTAxNjkzLWM1MTYtNDdjYi1iZTRhLTVhNjI5Yzk4MzcyNhAAGg0I_sntjQYSBQjoBxAAQgBKAA",
+        "initiators": [
+          "https://intljs.rmtag.com/115251.ct.js",
+          "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid"
+        ],
+        "time": 1.561327000032179
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2614218781784&ov=%7B%22page_name%22%3A%22Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%7D&cb=1639671038471",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 759,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "bf6ab7885cc175f2d6614a7c19f77d6300a452a10e356e5d5a27e104183a69d9",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.13026299991179258
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2614218781784&ov=%7B%22page_name%22%3A%22Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.anthropologie.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639671038525",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 86,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.08780000009573996
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2614218781784&ov=%7B%22page_name%22%3A%22Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22np%22%3A%22tealium%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.anthropologie.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639671038527",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 81,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.08908900001551956
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22currency%22%3A%22USD%22%7D&tid=2614218781784&pd=%7B%22np%22%3A%22tealium%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.anthropologie.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639671038528",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 328,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZZYXNYQmhPMVU0RUthbXhmQUZ3WCtRdUM1aVlad3lKMEhqQXNrbHVOKzg0aHoyY2U3RWVFb0E2UTVpaFVEKy9TWmF3VGw4dDJLZkJCOHRwL3ZnSXg2VWdqRWdWVEtyQUh1TkxoS3dzYXlCdz0ma3YwKzlleGRTakpUVkVNY3ZRSU5rWElvV3dVPQ==\"; Expires=Fri, 16 Dec 2022 16:10:38 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.08724899997469038
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22currency%22%3A%22USD%22%7D&tid=2614218781784&pd=%7B%22np%22%3A%22tealium%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.anthropologie.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639671038529",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 339,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZqM1FBSXhvRmlmT0gxNW1KYWc3RmI4dGJxcTNBNEZyZ3N1YkQ5OWNVbmRmN08xWmJwMFhxaDhBa01reVFKclZDN0lDMk5tS2N6OUZQNklZNmFraFFlVmgrY0xLWVYvbmRMc21BV2hKNHlYUT0mY0ttV2ZERTZUVVhheEQ2MFNIbC9SaVVZT0VRPQ==\"; Expires=Fri, 16 Dec 2022 16:10:38 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.08457399997860193
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22currency%22%3A%22USD%22%7D&tid=2614218781784&pd=%7B%22np%22%3A%22tealium%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.anthropologie.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639671038530",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 328,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSYrU09JK1hLODk0STZzOHErNndhb2g1dnVQV1RUNGJxSC9seElsVHdYYmZqTFNkTjFrUXpTelA1aTcxaEJXeVV5WFM3OW9kVDVYK2w1UjQ4OWQrblp5U014UExnYTZJbjIwZEJ0dU5haHB4Yz0mcSt0cVdhemx3bkVwcm8xa1E0bkVwOWZ1SnZnPQ==\"; Expires=Fri, 16 Dec 2022 16:10:38 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.0852209998993203
+      },
+      {
+        "url": "https://e.clarity.ms/s/0.6.30/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://bat.bing.com/p/action/5715115.js"
+        ],
+        "time": 0.000054999953135848045
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://bat.bing.com/p/action/5715115.js"
+        ],
+        "time": 0.00004099996294826269
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-18L708BGR5&gtm=2oec10&_p=1484131288&sr=800x600&gcs=G100&gtm_up=1&gdid=dYmQxMT&ul=en-gb&cid=2075398369.1639671039&_s=1&dl=https%3A%2F%2Fwww.anthropologie.com%2F&dt=Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home&uid=a1fef700-0940-4312-9a0d-775dd98e856b&cu=USD&sid=1639671036&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=2&ep.page_category=home&ep.category_type=GATEWAY_NN&ep.category_level=1&ep.category_root=homepage&ep.employee_id=false&ep.tracer_session=4KAEN2MKYB&ep.sitespect_variation_id=1874163%2C2145765%2C2168424%2C2175464%2C2233266&ep.site_currency=USD&ep.site_inventory_pool=INTL_DIRECT&ep.site_channel=web&ep.site_language=en-US&ep.site_id=an-us&ep.geo_location=EU-LN&ep.connection_speed=5000&ep.breadcrumb=homepage&ep.entry_url=https%3A%2F%2Fwww.anthropologie.com%2F&ep.page_name=homepage&ep.customer_build_version=3.55.0&ep.is_soft_nav=false&ep.affiliation=web&ep.page_path=%2F&up.employee_flag=false&up.site_id=an-us",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 204,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://www.googletagmanager.com/gtag/js?id=DC-9240574&l=dataLayer&cx=c"
+        ],
+        "time": 0.07146599993575364
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Thu, 16 Dec 2021 16:10:38 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-950584264",
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://www.googletagmanager.com/gtag/js?id=DC-9240574&l=dataLayer&cx=c"
+        ],
+        "time": 0.15085799992084503
+      },
+      {
+        "url": "https://ade.googlesyndication.com/ddm/activity/src=9240574;type=global;cat=allpgsu;ord=1;num=653500413020;gtm=2odc10;gcs=G100;u1=https%3A%2F%2Fwww.anthropologie.com%2F;u3=4KAEN2MKYB;u7=web;u14=%26;gdid=dYmQxMT;~oref=https%3A%2F%2Fwww.anthropologie.com%2F?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-9240574&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5"
+        ],
+        "time": 0.00006500002928078175
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=2022860984616418&ev=PageView&dl=https%3A%2F%2Fwww.anthropologie.com%2F&rl=&if=false&ts=1639671038774&sw=800&sh=600&v=2.9.48&r=stable&a=tmtealium&ec=0&o=30&fbp=fb.1.1639671038763.1995189940&it=1639671036411&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:10:39 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/2022860984616418?v=2.9.48&r=stable"
+        ],
+        "time": 0.14711999997962266
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 709,
+        "remoteIPAddress": "96.16.53.211",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:10:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BVLMPJF34F2PK9J4G1CG"
+        ],
+        "time": 0.12496800010558218
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 711,
+        "remoteIPAddress": "96.16.53.211",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:10:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BVLMPJF34F2PK9J4G1CG",
+          "https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=BVLMPJF34F2PK9J4G1CG&hostname=www.anthropologie.com"
+        ],
+        "time": 0.12745899998117238
+      },
+      {
+        "url": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 849,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"3d2100fd7107262ecb55ce6847f01fa5\"",
+          "expires": "Fri, 19 Feb 2027 17:50:50 GMT",
+          "p3p": "policyref=\"https://cdn.krxd.net/kruxcontent/p3p.xml\", CP=\"NON DSP COR NID OUR DEL SAM OTR UNR COM NAV INT DEM CNT STA PRE LOC OTC\""
+        },
+        "responseBodyHash": "3bcfa04dbc2db44af54bd72a0f7b98912368f16f525729a1b9b673f62ca7e5c9",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://cdn.krxd.net/controltag/vu3qlt02i.js"
+        ],
+        "time": 0.09547400008887053
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1692859-1&cid=367731952.1639671036&jid=284616437&_u=aGBAgAIJAAAAAE~&z=743020400",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.13563000003341585
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1692859-1&cid=367731952.1639671036&jid=284616437&_u=aGBAgAIJAAAAAE~&z=743020400",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.12948900007177144
+      },
+      {
+        "url": "https://idsync.rlcdn.com/1000.gif?memo=CPf8GxIwCiwIARCd5gEaJGE2YTAxNjkzLWM1MTYtNDdjYi1iZTRhLTVhNjI5Yzk4MzcyNhAAGg0I_sntjQYSBQjoBxAAQgBKAA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 307,
+        "remoteIPAddress": "35.244.174.68",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=JQeQfLEd0kVzKVAJGnuX38+MkTs+g9b/p6DiXeJbgCs=; Path=/; Domain=rlcdn.com; Expires=Fri, 16 Dec 2022 16:10:40 GMT; Secure; SameSite=None\npxrc=CIDK7Y0GEgUI6AcQABIGCOTrARAA; Path=/; Domain=rlcdn.com; Expires=Mon, 14 Feb 2022 16:10:40 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://tags.rd.linksynergy.com/cs?ns=lr&uid3=e2d4b63aa14b76e7779da31a0de2db3fa8cbdcb72014f8d1672b1a3581ace68d6ac34734d8e453ee",
+        "redirectedFrom": "https://idsync.rlcdn.com/458359.gif?partner_uid=a6a01693-c516-47cb-be4a-5a629c983726",
+        "initiators": [
+          "https://intljs.rmtag.com/115251.ct.js",
+          "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid"
+        ],
+        "time": 0.568163999938406
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 484,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "01b5fa52077fbc663f2032d87578ef77bed3a7ab74d82f32cfbad27236b69526",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.09884900005999953
+      },
+      {
+        "url": "https://consumer.krxd.net/consent/get/a8b67b36-0f47-4e12-8686-a42fe8588d48?idt=device&dt=kxcookie&callback=Krux.ns.anthropologieglobal.kxjsonp_consent_get_0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 437,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=1800"
+        },
+        "responseBodyHash": "133d44917a586a29201bdb3dcd9a165ad91a8ce999d6677f96111e8aa382e061",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://cdn.krxd.net/controltag/vu3qlt02i.js"
+        ],
+        "time": 0.062261000042781234
+      },
+      {
+        "url": "https://tags.rd.linksynergy.com/cs?ns=lr&uid3=e2d4b63aa14b76e7779da31a0de2db3fa8cbdcb72014f8d1672b1a3581ace68d6ac34734d8e453ee",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 300,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=a6a01693-c516-47cb-be4a-5a629c983726; Path=/; Domain=linksynergy.com; Expires=Fri, 16 Dec 2022 16:10:40 GMT; Secure; SameSite=None\nicts=2021-12-16T16:10:37Z; Path=/; Domain=linksynergy.com; Expires=Fri, 16 Dec 2022 16:10:40 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+        "redirectedFrom": "https://idsync.rlcdn.com/1000.gif?memo=CPf8GxIwCiwIARCd5gEaJGE2YTAxNjkzLWM1MTYtNDdjYi1iZTRhLTVhNjI5Yzk4MzcyNhAAGg0I_sntjQYSBQjoBxAAQgBKAA",
+        "initiators": [
+          "https://intljs.rmtag.com/115251.ct.js",
+          "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid"
+        ],
+        "time": 0.0630840000230819
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 204,
+        "size": 198,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.0526090000057593
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 93,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "null"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.anthropologie.com/"
+        ],
+        "time": 0.02712400001473725
+      },
+      {
+        "url": "https://ade.googlesyndication.com/ddm/activity/src=9240574;type=global;cat=allpgs;ord=4110364711298;gtm=2odc10;gcs=G100;u1=https%3A%2F%2Fwww.anthropologie.com%2F;u2=homepage;u3=4KAEN2MKYB;u4=homepage;u7=web;u14=%26;gdid=dYmQxMT;~oref=https%3A%2F%2Fwww.anthropologie.com?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-9240574&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5",
+          "https://www.googletagmanager.com/gtag/js?id=AW-972073518&l=dataLayer&cx=c"
+        ],
+        "time": 0.00006799993570894003
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.12.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 81604,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D8BD11958F56CC"
+        },
+        "responseBodyHash": "1d97729299024aa64b03739e244f254966f9b546045de88bd835701a473045d8",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.046326000010594726
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/esw.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4526,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:58:44 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "721f2d2fe18f13edc2ae51c1918c1b0a2d7b668318c559310ab35fa22363fdad",
+        "initiators": [
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.06009000004269183
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 6230,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:58:31 GMT"
+        },
+        "responseBodyHash": "a1186fc137bb42d3bcaace62718d533a37817301f66c2733edd02bc350c077ae",
+        "initiators": [
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.02975500002503395
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/sampling-data-scripts/0062/9490.json?t=455464",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 357,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0b1fa3e60ba0e829cd7dd299cd386ca2f6fe28eb5d185509f78d8a7458b994aa",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.0532519998960197
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/972073518/?random=1639671040707&cv=9&fst=1639671040707&num=1&label=qqviCOyk77kCEK7Uws8D&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dconversion&frm=0&url=https%3A%2F%2Fwww.anthropologie.com&tiba=Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home&gcs=G100&gcd=G100&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-972073518&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=G-18L708BGR5"
+        ],
+        "time": 0.00012199999764561653
+      },
+      {
+        "url": "https://cdn.krxd.net/controltag/vu3qlt02i.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "etag": "\"699867f65ba04a41c1231961b8fc6dddb03207c2\""
+        },
+        "responseBodyHash": "f66384b59517428e609561fcded6c458d76cb39f7cd24a7cd118b7126dc83b84",
+        "initiators": [
+          "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html"
+        ],
+        "time": 0.0016239999094977975
+      },
+      {
+        "url": "https://pagestates-tracking.crazyegg.com/healthcheck",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 421,
+        "remoteIPAddress": "52.222.138.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d06f04fccf68d0b228a5923187ce1afd\""
+        },
+        "responseBodyHash": "830e67bda2532cd5880ee86e3b33e69721082f8458bb0df0cd4edbb1577fd375",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.1197880000108853
+      },
+      {
+        "url": "https://assets-tracking.crazyegg.com/healthcheck",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 420,
+        "remoteIPAddress": "13.227.219.127",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d06f04fccf68d0b228a5923187ce1afd\""
+        },
+        "responseBodyHash": "830e67bda2532cd5880ee86e3b33e69721082f8458bb0df0cd4edbb1577fd375",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.15269699995405972
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/d6daaef5-8aaa-45a4-ab88-0b8982a64c31/28351c70-0a04-4e30-ba0a-714042ec5131/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 18344,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9926E5F211C0B",
+          "expires": "Thu, 16 Dec 2021 20:10:41 GMT"
+        },
+        "responseBodyHash": "5e72bd63d2168469902ab83b519b7b1fbe212e5155b24941b12a442e4af63b33",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.12.0/otBannerSdk.js"
+        ],
+        "time": 0.09314800007268786
+      },
+      {
+        "url": "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"a1705c5ac5f06cf0c202ff70908fc042\"",
+          "expires": "Thu, 31 Jul 2031 12:06:16 GMT"
+        },
+        "responseBodyHash": "58d6350da5588a52d6baa4efc27a3362b4ee69dba3504fc762f934d7bb5d0bc4",
+        "initiators": [
+          "https://cdn.krxd.net/controltag/vu3qlt02i.js"
+        ],
+        "time": 0.002877000020816922
+      },
+      {
+        "url": "https://tracking.crazyegg.com/clock?t=1639671041124",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 135,
+        "remoteIPAddress": "34.255.166.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "6ad3cf23280b851a4ae2748d7b964974ef395ae0f214ba59ecc46bcc7fc9c2ef",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.2646090000635013
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.12.0/assets/otCenterRounded.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3017,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D8BD11914656E7"
+        },
+        "responseBodyHash": "afabb6d97c205d70c14568e298a95cfeb81301dcae89610dfe02b917f1b3f724",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.12.0/otBannerSdk.js"
+        ],
+        "time": 0.03576600004453212
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.12.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 11510,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D8BD1192422474"
+        },
+        "responseBodyHash": "8c000e4544bfb7ad85dd61fac0a167d1b3f4ca26213b90ba28be37edb4626bc8",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.12.0/otBannerSdk.js"
+        ],
+        "time": 0.1577420000685379
+      },
+      {
+        "url": "https://consumer.krxd.net/consent/get/a8b67b36-0f47-4e12-8686-a42fe8588d48?idt=device&dt=kxcookie&callback=Krux.ns.anthropologieglobal.kxjsonp_consent_get_0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.krxd.net/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=1800"
+        },
+        "responseBodyHash": "133d44917a586a29201bdb3dcd9a165ad91a8ce999d6677f96111e8aa382e061",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://cdn.krxd.net/controltag/vu3qlt02i.js"
+        ],
+        "time": 0.0018530000234022737
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 4170,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=0499d193883bc06065864cefc1ba4b34; path=/; expires=Fri, 16 Dec 2022 16:10:42 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSY2bU92ZUZKb2dwRW1HTlRiQnVrTnhKS08zT2c0QXRneFN4NkVOeG93bkR5dGZOb2oxMkdqT3Y2WjFoZE1PMFhBeEFtc0pnWVN1MDFNc01xK09vcmtTZ1Vua09hUWxtZkpMOG83WTlHWlB6Ty9tUDgzRUNqNjltbXdFVVRKQnhNRiYrdnZLN2tWSGl6c1F4d0pwVlh3UGRxYlhyN0U9; path=/; expires=Sun, 11 Dec 2022 16:10:42 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Sun, 11 Dec 2022 16:10:42 GMT; domain=.pinterest.com; secure; httponly\n_routing_id=\"dc7d07c8-9fda-45c6-afcd-84ac3b5c3e8b\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "de7ae864212e85d5698310a012b6d483f430d276c9d053f441f57d2c35fdda38",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+          "https://anthropologie501z.btttag.com/btt.js"
+        ],
+        "time": 0.3575999999884516
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 725,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:43:19 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "01f5a67caa33661cd1698afb1a912b91d9eddc962c2d78307b3b32a5453214e4",
+        "initiators": [
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js"
+        ],
+        "time": 0.0440330000128597
+      },
+      {
+        "url": "https://beacon.krxd.net/optout_check?callback=Krux.ns.anthropologieglobal.kxjsonp_optOutCheck",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 252,
+        "remoteIPAddress": "108.128.79.28",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, s-max-age=0"
+        },
+        "responseBodyHash": "8a340224bc8552df7bc350be7b28932b41906711e5f08e7067558f663485860a",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://cdn.krxd.net/controltag/vu3qlt02i.js"
+        ],
+        "time": 0.19162800000049174
+      },
+      {
+        "url": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=p1vm5fj9a",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "23.72.252.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedTo": "https://sf2kiiyxjd6dsyn3muba-p1vm5f-496d6ea28-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT"
+        ],
+        "time": 0.20660699997097254
+      },
+      {
+        "url": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=p1vm5fj9a",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.109.143.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://145-116-164-35_s-104-109-143-14_ts-1639671042-clienttons-s.akamaihd.net/eum/results.txt",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT"
+        ],
+        "time": 0.15954599995166063
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/",
+        "status": 200,
+        "size": 2319,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 12:55:26 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "5b17ce347efa0486b6770c9c170cccd5a5f75018bceb99048daddbe1c6fa0be9",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/"
+        ],
+        "time": 0.053896999917924404
+      },
+      {
+        "url": "https://145-116-164-35_s-104-109-143-14_ts-1639671042-clienttons-s.akamaihd.net/eum/results.txt",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 312,
+        "remoteIPAddress": "104.109.143.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"402e7a087747cb56c718bde84651f96a:1367999472\""
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedFrom": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=p1vm5fj9a",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT"
+        ],
+        "time": 0.2631840000394732
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/frame/session.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/",
+        "status": 200,
+        "size": 1282,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:58:49 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "fa305b054bf6a60bd1a87abbca8f52553bbb54e6e8929564c704b85313d23790",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js"
+        ],
+        "time": 0.04921600001398474
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/frame/broadcast.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/",
+        "status": 200,
+        "size": 1293,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:55:12 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "ecb244f676677252c58d2eccb58f1b0b87b5dd6baab45d29d46dba74c823b7f2",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js"
+        ],
+        "time": 0.02738900005351752
+      },
+      {
+        "url": "https://sf2kiiyxjd6dsyn3muba-p1vm5f-496d6ea28-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 312,
+        "remoteIPAddress": "23.72.252.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"402e7a087747cb56c718bde84651f96a:1367999472\""
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedFrom": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=p1vm5fj9a",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT"
+        ],
+        "time": 0.14762200007680804
+      },
+      {
+        "url": "https://684dd311.akstat.io/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 204,
+        "size": 206,
+        "remoteIPAddress": "104.99.232.176",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:10:42 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/26K8Y-MFDAT-MVPBC-TR5WY-T9YYT"
+        ],
+        "time": 0.15598099993076175
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/",
+        "status": 200,
+        "size": 5531,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:55:10 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "dc1ec9e02f7fd28a008997a1e9ef0360dba6866fe21e7553cee19ad23c41901e",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.04814500000793487
+      },
+      {
+        "url": "https://d.la4-c1-ia2.salesforceliveagent.com/chat/rest/EmbeddedService/EmbeddedServiceConfig.jsonp?Settings.prefix=EmbeddedService&org_id=00D36000000JYs1&EmbeddedServiceConfig.configName=Anthropologie_Proactive&callback=embedded_svc.liveAgentAPI.handleChatSettings&version=48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 3853,
+        "remoteIPAddress": "13.110.83.82",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "X-Salesforce-CHAT=!ykA5DYQw/ZQ0E37N6HOVaE5FyUqZSTmo6dEdEYSepnCtB9OyCL7+HdIRY5ck/MNhpUKYTEALfxxFoyg=; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": "5e37cb8bdb31b249a4efc6b78cc3b2c0c36539a44eaf00b369b204017dd969c8",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/utils/common.min.js",
+          "https://service.force.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.7410219999728724
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/client/invite.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 4992,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 12:55:27 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "98efd9f1b80ef8fb38694de1212745a8067a60f027cb87b08f4ed8920a72aa82",
+        "initiators": [
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/utils/common.min.js",
+          "https://service.force.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.06835199997294694
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/frame/filetransfer.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.anthropologie.com/",
+        "status": 200,
+        "size": 745,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:55:10 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "34172e3b2c0f93498a2730933bc90740b38178cf10bd81b3164289d0445644a9",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js",
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.04033899994101375
+      },
+      {
+        "url": "https://d.la4-c1-ia2.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?Settings.prefix=Visitor&Settings.buttonIds=[57336000000XZGV]&Settings.updateBreadcrumb=1&callback=embedded_svc.liveAgentAPI.connection.handlePing&deployment_id=57236000000XZG6&org_id=00D36000000JYs1&version=48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1294,
+        "remoteIPAddress": "13.110.83.82",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "X-Salesforce-CHAT=!aipIrG3UjW4Bgd7N6HOVaE5FyUqZSer65ZrRHqdSTsLntjbWqpU7npk1YlgiJFMAcoijoPcfb3dDMuA=; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": "21a2ddb35f6e222622679286f7e9b33435368d8ae6897314ccafa84d6cc1e45a",
+        "initiators": [
+          "https://service.force.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/utils/common.min.js",
+          "https://service.force.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.4467360000126064
+      },
+      {
+        "url": "https://service.force.com/embeddedservice/5.0/utils/inert.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2941,
+        "remoteIPAddress": "161.71.0.165",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Fri, 17 Dec 2021 09:55:10 GMT"
+        },
+        "responseBodyHash": "12834f596f899e7e17cc2a4a76a1ee77ea0f1ebbfb61e8a33dafe426327c71a3",
+        "initiators": [
+          "https://urbn.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/utils/common.min.js",
+          "https://service.force.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://service.force.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.anthropologie.com/static/v3/async/chat.315718b09332406d3f48.js",
+          "https://www.anthropologie.com/static/v3/app.a5eefe2582547b7c7c87.js"
+        ],
+        "time": 0.06541400006972253
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 82,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.09502100001554936
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 79,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.14074100006837398
+      },
+      {
+        "url": "https://d.btttag.com/analytics.rcv?pgNm=home&trSeg=eCommerce&navStart=1639671027061",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.67.37.210",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://d.btttag.com/analytics.rcv?pgNm=home&trSeg=eCommerce&navStart=1639671027061"
+        ],
+        "time": 0.16081699996721
+      },
+      {
+        "url": "https://d.btttag.com/analytics.rcv?pgNm=home&trSeg=eCommerce&navStart=1639671027061",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1045,
+        "remoteIPAddress": "104.22.58.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "cache-control": "private, no-cache, no-cache=Set-Cookie, proxy-revalidate",
+          "expires": "Wed, 19 Apr 2013 01:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "collection=1; expires=Thu, 16-Dec-2021 16:35:45 GMT; Max-Age=1500; path=/; SameSite=None; domain=btttag.com; secure\nenabled=1; expires=Thu, 16-Dec-2021 16:35:45 GMT; Max-Age=1500; path=/; SameSite=None; domain=btttag.com; secure\nsessionID=153521221375183231; expires=Thu, 16-Dec-2021 16:35:45 GMT; Max-Age=1500; path=/; SameSite=None; domain=btttag.com; secure\nanthropologie501z-txnName=eCommerce; expires=Thu, 16-Dec-2021 16:35:45 GMT; Max-Age=1500; path=/; SameSite=None; domain=btttag.com; secure\nanthropologie501z-BrowserVersion=Chrome-93; expires=Thu, 16-Dec-2021 16:35:45 GMT; Max-Age=1500; path=/; SameSite=None; domain=btttag.com; secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6d979c8b96628510c2162fa81ada8d10c717d2ca14f9298c73c23b285af828f7",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js"
+        ],
+        "time": 0.3004880000371486
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=2022860984616418&ev=SubscribedButtonClick&dl=https%3A%2F%2Fwww.anthropologie.com%2F&rl=&if=false&ts=1639671047364&cd[buttonFeatures]=%7B%22classList%22%3A%22cookie-setting-link%22%2C%22destination%22%3A%22%22%2C%22id%22%3A%22onetrust-pc-btn-handler%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22Manage%20Cookie%20Settings%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22button%22%2C%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D&cd[buttonText]=Manage%20Cookie%20Settings&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home%22%7D&cd[parameters]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=tmtealium&ec=2&o=30&fbp=fb.1.1639671038763.1995189940&it=1639671036411&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 147,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:10:47 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/2022860984616418?v=2.9.48&r=stable",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.04426600004080683
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/a9d3dc19-0c91-478e-9e19-de0cc524c81c/07aaf7bd-0c2d-49be-a492-bd1524c311dd/e403f2f2-46f5-4bac-b6cc-cb5b4063dba4/anthro-logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.anthropologie.com/",
+        "status": 200,
+        "size": 6411,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D88A7E0D990195"
+        },
+        "responseBodyHash": "82a9034d6c75e01c778413820f623228f847a32d71f950ae2e158c697174ef4f",
+        "initiators": [],
+        "time": 0.07787399995140731
+      },
+      {
+        "url": "https://privacyportal.onetrust.com/request/v1/consentreceipts",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "same-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://privacyportal.onetrust.com/request/v1/consentreceipts"
+        ],
+        "time": 0.24233899998944253
+      },
+      {
+        "url": "https://privacyportal.onetrust.com/request/v1/consentreceipts",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1527,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a6dc678b680b74ee320d71f73f4b349773e377118d2ffd1e007f6436cdb63d15",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.12.0/otBannerSdk.js",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.45953600003849715
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=2022860984616418&ev=SubscribedButtonClick&dl=https%3A%2F%2Fwww.anthropologie.com%2F&rl=&if=false&ts=1639671047456&cd[buttonFeatures]=%7B%22classList%22%3A%22save-preference-btn-handler%20onetrust-close-btn-handler%22%2C%22destination%22%3A%22%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22CONFIRM%20MY%20CHOICES%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22button%22%2C%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D&cd[buttonText]=CONFIRM%20MY%20CHOICES&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Anthropologie%20-%20Women%27s%20Clothing%2C%20Accessories%20%26%20Home%22%7D&cd[parameters]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=tmtealium&ec=3&o=30&fbp=fb.1.1639671038763.1995189940&it=1639671036411&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Thu, 16 Dec 2021 16:10:47 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/2022860984616418?v=2.9.48&r=stable",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.07480699999723583
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 480,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3123e4b4a47ad1e3087f1cbbc22aa4a08f701e0f941282df90dc7f2031ee68e4",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.08233600005041808
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 79,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.05335699999704957
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 79,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.08090100006666034
+      },
+      {
+        "url": "https://collector-pxxgwm9nuh.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 79,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.anthropologie.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://anthropologie501z.btttag.com/btt.js",
+          "https://www.anthropologie.com/XgWM9nuH/init.js"
+        ],
+        "time": 0.06621800002176315
+      }
+    ]
+  }
+}

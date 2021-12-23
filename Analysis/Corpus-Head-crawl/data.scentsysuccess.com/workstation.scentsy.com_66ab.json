@@ -1,0 +1,842 @@
+{
+  "initialUrl": "https://workstation.scentsy.com/Home/ForgotPassword",
+  "finalUrl": "https://workstation.scentsy.com/Home/ForgotPassword",
+  "timeout": false,
+  "testStarted": 1640112220352,
+  "testFinished": 1640112237188,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.scentsysuccess.com/links.workstation.scentsy.com_66ab.json",
+    "requests": [
+      {
+        "url": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 14733,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "ASP.NET_SessionId=51kefueujtmtpjnhgs2u1ahv; path=/; secure; HttpOnly; SameSite=None\nASP.NET_SessionId=51kefueujtmtpjnhgs2u1ahv; path=/; secure; HttpOnly; SameSite=None\n__RequestVerificationToken=8U55QrHTc0OGDbnyZYo3zAWeq2DSEF6cagVF0gXmlqjYEt8hiFfLuW-Q_RB33FvKglgrJgfB4jqUaLTH06PVwcLeSSylViseoSX1_bGOZ-81; path=/; secure; HttpOnly; SameSite=None\nNSC_xpsltubujpotjuf_mc=ffffffff0934149345525d5f4f58455e445a4a42378b;path=/;secure;httponly;SameSite=none\nvisid_incap_2454808=KkwsELdGRaWQ6j3c8RblZVwgwmEAAAAAQUIPAAAAAAD1r6TWQXLXLLvM9PUeasN4; expires=Wed, 21 Dec 2022 00:00:23 GMT; HttpOnly; path=/; Domain=.scentsy.com; Secure; SameSite=None\nnlbi_2454808=RrRcVoCcKRRRaCp6AVgzZAAAAABLMwIVWquZBNsMKyRIG8Ii; path=/; Domain=.scentsy.com; Secure; SameSite=None\nincap_ses_449_2454808=NfhNH8XaoRyuV3fSDiw7BlwgwmEAAAAAbwD+Jo5zFHgEhdtixi912A==; path=/; Domain=.scentsy.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "3462ddd68e2d153e7d1a651922d656086e4d8ce988725e4d9b3dc6344c13eec8",
+        "initiators": [],
+        "time": 0.8346639999945182
+      },
+      {
+        "url": "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 77782,
+        "remoteIPAddress": "104.85.0.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "max-age=3600",
+          "etag": "\"bdb82afb776ede48bbd309b6c34fd08b:1624656083.638517\"",
+          "expires": "Tue, 21 Dec 2021 19:43:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cc98b4fe6b94156e227fc466f443d07d233ca9c65200f898ad3cfcd8faefbe91",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.02229500000248663
+      },
+      {
+        "url": "https://workstation.scentsy.com/resources/digitalanalytics/scentsy.adobeanalytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 2635,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"9de3a1ee\""
+        },
+        "responseBodyHash": "d78f22bdd737d0b00408349da23aa88039f8a35e25fa383c011f47daaf190448",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.006105000007664785
+      },
+      {
+        "url": "https://workstation.scentsy.com/Content/CSS/app-bootstrap4.css?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 414540,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0101eaf82f3d71:0\""
+        },
+        "responseBodyHash": "ca1b6b0f38f684f27dd6e01c4b44f84df1749262c08e5a786bcbadc49c3914f9",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.04539600000134669
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/_ext/jQuery/jquery-3.5.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 39910,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"04f9a38b919d71:0\""
+        },
+        "responseBodyHash": "f36844906ad2309877aae3121b87fb15b9e09803cb4c333adc7e1e35ac92e14b",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.025836999993771315
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/_ext/babel-polyfill/polyfill.min.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 44124,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"04f9a38b919d71:0\""
+        },
+        "responseBodyHash": "41cfee28748874aa3d153d69d9270064c96b9ab3e7474de25ddda47c758922f2",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.0342780000064522
+      },
+      {
+        "url": "https://cdn.optimizely.com/js/4814020714.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 106222,
+        "remoteIPAddress": "104.84.232.151",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=120",
+          "etag": "\"99108265a0c867e1604bf02cfc20479f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f0888a198b315545450a60349c9d622d48828bbbb0ababa669331a7ba675b279",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.03466399999160785
+      },
+      {
+        "url": "https://workstation.scentsy.com/Content/Images/scentsy-workstation-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 28511,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0226937b919d71:0\""
+        },
+        "responseBodyHash": "7a20859627b4c6d2eaaee79ce807a2313ea73187d78c0ca724119315d58622a8",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 1.2977499999979045
+      },
+      {
+        "url": "https://imagelive.scentsy.com/cmsimages/images/workstation/login/workstation-simplicity.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 7584,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=43200, public",
+          "etag": "\"ca37c408652d71:0\"",
+          "expires": "Wed, 22 Dec 2021 06:43:41 GMT",
+          "set-cookie": "nlbi_2454783=DyxlM5i8ghs7E98jEpOC7wAAAAA68Vh7JXPFBg317qLgBoqa; path=/; Domain=.scentsy.com\nvisid_incap_2454783=lSHgPtA2S+6i1LFwcqFcyV0gwmEAAAAAQUIPAAAAAADSJ84IqmdrLZyLflt2mlVT; expires=Wed, 21 Dec 2022 00:00:23 GMT; HttpOnly; path=/; Domain=.scentsy.com\nincap_ses_449_2454783=bg0bE6ZttG6cWXfSDiw7Bl0gwmEAAAAAChH7za+WbTgfqsgizAmPGQ==; path=/; Domain=.scentsy.com"
+        },
+        "responseBodyHash": "161b23bc1b46f79aa41b772701b03f6e809ad515fdc9f1294411264f2513dba0",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.7580219999945257
+      },
+      {
+        "url": "https://imagelive.scentsy.com/cmsimages/images/workstation/login/workstation-authenticity.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 9244,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=43200, public",
+          "etag": "\"6851e408652d71:0\"",
+          "expires": "Wed, 22 Dec 2021 06:43:42 GMT",
+          "set-cookie": "nlbi_2454783=hxfpCtk+pE9atuC1EpOC7wAAAAD90ph+StOTlYcmpk0V7zTI; path=/; Domain=.scentsy.com\nvisid_incap_2454783=lSHgPtA2S+6i1LFwcqFcyV0gwmEAAAAAQUIPAAAAAADSJ84IqmdrLZyLflt2mlVT; expires=Wed, 21 Dec 2022 00:00:23 GMT; HttpOnly; path=/; Domain=.scentsy.com\nincap_ses_449_2454783=CGZqdX3QtAucWXfSDiw7Bl4gwmEAAAAAqogM5LhLfx/f6ws5ye+OEg==; path=/; Domain=.scentsy.com"
+        },
+        "responseBodyHash": "dcccf86ab0ef2a2543dcc63ebb5497819046bd8fefccdd7d1cd427b80f43e6c1",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 1.234903000004124
+      },
+      {
+        "url": "https://imagelive.scentsy.com/cmsimages/images/workstation/login/workstation-generosity.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 9247,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=43200, public",
+          "etag": "\"2e644e408652d71:0\"",
+          "expires": "Wed, 22 Dec 2021 06:43:42 GMT",
+          "set-cookie": "nlbi_2454783=FdZ5QFVJBkfqT+MiEpOC7wAAAACUupcUU6SLnEP6BGO/6TOJ; path=/; Domain=.scentsy.com\nvisid_incap_2454783=lSHgPtA2S+6i1LFwcqFcyV0gwmEAAAAAQUIPAAAAAADSJ84IqmdrLZyLflt2mlVT; expires=Wed, 21 Dec 2022 00:00:23 GMT; HttpOnly; path=/; Domain=.scentsy.com\nincap_ses_449_2454783=mTOTAiWOTUOcWXfSDiw7Bl4gwmEAAAAAo4lZ7+V20IYCyDwbHR353A==; path=/; Domain=.scentsy.com"
+        },
+        "responseBodyHash": "f39aea39ca07776eedc1b61f9c703e6bbb4030521a95b5bb9ff067da51c18dbd",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 1.2450620000017807
+      },
+      {
+        "url": "https://workstation.scentsy.com/Content/Images/scentsy-footer-logo-2019.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 2549,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0226937b919d71:0\""
+        },
+        "responseBodyHash": "e8919866f5857f53849382974f5f9ceb99a005681f368876fa472b63313e9373",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.492841999992379
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/dist/bootstrap.min.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 31633,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0d5c5a682f3d71:0\""
+        },
+        "responseBodyHash": "f18e4505b6ec82b6476c757fde69d046140af7afa0a69b02711e43024f441db6",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.08706700000038836
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/dist/bootstrap-extensions.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 1064,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0211a282f3d71:0\""
+        },
+        "responseBodyHash": "3fc34f2713467289b628734b597f7dfd11b67bd1b9129861aec79ff8805a61bf",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.2777490000007674
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/dist/moment.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 33743,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0d8819282f3d71:0\""
+        },
+        "responseBodyHash": "af7bd229da325b8286d94eb54f761d4614061215a42f14981ac0c5a8402b3f45",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.2805499999958556
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/dist/layout.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 1851,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"04e32a382f3d71:0\""
+        },
+        "responseBodyHash": "8622f6645a007495090da013da150265aa1cfeff9254484fc9c2c9db82525ddd",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.471560000005411
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/dist/jquery-validation.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 22591,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0ab509182f3d71:0\""
+        },
+        "responseBodyHash": "ffac4b26c5b646eec78fe384a780cb223ccd580f79d471bf76af66f1466d3bcf",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 1.1258150000066962
+      },
+      {
+        "url": "https://workstation.scentsy.com/Scripts/dist/login.js?v=AJPiYlbB2Qg%3d",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"0211a282f3d71:0\""
+        },
+        "responseBodyHash": "2023eca9c8054010dcf5532c3269b60a932bf7a768121b9aef94cb116ebd168e",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 1.1175619999994524
+      },
+      {
+        "url": "https://workstation.scentsy.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=967418472",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 22733,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "e656f6ce2ca15de7c82cf6463e71762165ec93997cacb54c6b67e01f6c4c4583",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.4881150000001071
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.6.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=771B153858D920FA0A495D1A%40AdobeOrg&d_nsid=0&ts=1640112221494",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 1140,
+        "remoteIPAddress": "52.214.62.89",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=70865977389633569014544567141600399570; Max-Age=15552000; Expires=Sun, 19 Jun 2022 18:43:41 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "87834d72cf57a3dc1a8536402bffadb2e8ffbf4f2e2789a4b62106aa13211cbe",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js"
+        ],
+        "time": 0.08002000000851694
+      },
+      {
+        "url": "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 13638,
+        "remoteIPAddress": "104.85.0.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "no-cache",
+          "etag": "\"42fa244f36955eedb3cd8ade6f492bf6:1583879362.816163\"",
+          "expires": "Tue, 21 Dec 2021 19:43:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "adfcb165c69213b0aba3c64bc549f7ff156ec82110fb8ef144b1d16ebc13b04a",
+        "initiators": [
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js"
+        ],
+        "time": 0.29892499999550637
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WK9RTV",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 44946,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 18:43:41 GMT"
+        },
+        "responseBodyHash": "67ef48e2912d2f560f1f6b3a075d986e270020745da012613ecec82c01e43288",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.35611599999538157
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 1140,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 21 Dec 2021 18:43:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d507a03dfa793afc7689012b92ed18975996def72e99515c7e7c72f8abfa4ad",
+        "initiators": [
+          "https://workstation.scentsy.com/Content/CSS/app-bootstrap4.css?v=AJPiYlbB2Qg%3d"
+        ],
+        "time": 0.025739999997313134
+      },
+      {
+        "url": "https://scentsy.d1.sc.omtrdc.net/id?d_visid_ver=4.6.0&d_fieldgroup=A&mcorgid=771B153858D920FA0A495D1A%40AdobeOrg&mid=71045912437318279454598659814145532126&ts=1640112221594",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 322,
+        "remoteIPAddress": "15.236.176.210",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "p3p": "CP=\"This is not a P3P policy\""
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js"
+        ],
+        "time": 0.07526800000050571
+      },
+      {
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=70865977389633569014544567141600399570",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 302,
+        "remoteIPAddress": "54.75.68.230",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "p3p": "CP=\"NOI NID DEVa PSAa PSDa OUR IND PUR COM NAV INT DEM\"",
+          "set-cookie": "everest_g_v2=g_surferid~YcIgXQAAALaFIgQA;path=/;Max-Age=31536000;domain=.everesttech.net;Secure;SameSite=None\neverest_session_v2=YcIgXQAAALaFIwQA;path=/;Max-Age=-1;domain=.everesttech.net;Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=YcIgXQAAALaFIgQA",
+        "initiators": [
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js",
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.29819500001030974
+      },
+      {
+        "url": "https://scentsy.tt.omtrdc.net/m2/scentsy/mbox/json?mbox=target-global-mbox&mboxSession=79ff16b7471049299d3c971cd2b0ed2b&mboxPC=&mboxPage=fdd6b4c860c0404590a54b1ec579c223&mboxRid=a5c632df6b1345e8bd639f58b678fe06&mboxVersion=1.8.1&mboxCount=1&mboxTime=1640112221523&mboxHost=workstation.scentsy.com&mboxURL=https%3A%2F%2Fworkstation.scentsy.com%2FHome%2FForgotPassword&mboxReferrer=&browserHeight=812&browserWidth=1440&browserTimeOffset=0&screenHeight=600&screenWidth=800&colorDepth=24&devicePixelRatio=1&screenOrientation=portrait&webGLRenderer=Google%20SwiftShader&mboxMCSDID=5338707A84FEAD22-1B98DECD7F7B599E&vst.trk=scentsy.d1.sc.omtrdc.net&mboxMCGVID=71045912437318279454598659814145532126&mboxAAMB=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&mboxMCGLH=6",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 403,
+        "remoteIPAddress": "63.32.151.178",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "no-cache",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "50503e4030343d19ad120becc791220d0e7686d7695b1baf767febac4168158e",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js"
+        ],
+        "time": 0.07194900000467896
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14806,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 23:55:08 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "22fcebf109b2d94c4d396fc895220447c0422ad44807c3d4082eb268e251b2a4",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap"
+        ],
+        "time": 0.1515040000085719
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14026,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 00:06:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a56c88f6f2dea2f9ae32f10ab32b7f66f98a6b72c5ab113b744d26a238257afe",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap"
+        ],
+        "time": 0.09491300000809133
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14233,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 23:48:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4ae13d230a67c5717abed15f0a0dfb1db4178b06ab631ac5bb940cc8dd75ffd6",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap"
+        ],
+        "time": 0.09327800000028219
+      },
+      {
+        "url": "https://scentsy.demdex.net/dest5.html?d_nsid=0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 3471,
+        "remoteIPAddress": "34.252.171.173",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7bea17a80a61ed0f54248b4ffc4c718f7c8ff2619742577a73591d62ce074da8",
+        "initiators": [
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js",
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.08907800000451971
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=YcIgXQAAALaFIgQA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 945,
+        "remoteIPAddress": "52.214.62.89",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "dpm=70865977389633569014544567141600399570; Max-Age=15552000; Expires=Sun, 19 Jun 2022 18:43:41 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None\ndemdex=70865977389633569014544567141600399570; Max-Age=15552000; Expires=Sun, 19 Jun 2022 18:43:41 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://cm.everesttech.net/cm/dd?d_uuid=70865977389633569014544567141600399570",
+        "initiators": [
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js",
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.023044999994453974
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 21 Dec 2021 19:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WK9RTV",
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.015748999998322688
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1283798340&t=pageview&_s=1&dl=https%3A%2F%2Fworkstation.scentsy.com%2FHome%2FForgotPassword&ul=en-us&de=UTF-8&dt=Sign%20in%20-%20Scentsy%20Dashboard&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAAABAAAAAC~&jid=1664603770&gjid=835894332&cid=2095928159.1640112222&tid=UA-5908738-57&_gid=305456047.1640112222&_r=1&gtm=2wgc10WK9RTV&z=1995648912",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.013119000010192394
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-5908738-57&cid=2095928159.1640112222&jid=1664603770&gjid=835894332&_gid=305456047.1640112222&_u=YEBAAAAAAAAAAC~&z=1743646057",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 444,
+        "remoteIPAddress": "142.250.145.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.019417999996221624
+      },
+      {
+        "url": "https://workstation.scentsy.com/Content/fonts/scentsicon/scentsicon.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Content/CSS/app-bootstrap4.css?v=AJPiYlbB2Qg%3d",
+        "status": 200,
+        "size": 42749,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"04f9a38b919d71:0\""
+        },
+        "responseBodyHash": "b9f32de63271cea6bd08a6ed838152be28cbfdfe8837b7339d3987a514b69cb6",
+        "initiators": [
+          "https://workstation.scentsy.com/Content/CSS/app-bootstrap4.css?v=AJPiYlbB2Qg%3d"
+        ],
+        "time": 0.03846500000508968
+      },
+      {
+        "url": "https://workstation.scentsy.com/_Incapsula_Resource?SWKMTFSR=1&e=0.3063177797185348",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/Home/ForgotPassword",
+        "status": 200,
+        "size": 36,
+        "remoteIPAddress": "45.223.20.37",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://workstation.scentsy.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=967418472"
+        ],
+        "time": 0.003364000003784895
+      },
+      {
+        "url": "https://scentsy.d1.sc.omtrdc.net/b/ss/scentsyworkstationprod/1/JS-2.20.0-LBSQ/s2135091151723?AQB=1&ndh=1&pf=1&t=21%2F11%2F2021%2018%3A43%3A42%202%200&sdid=5338707A84FEAD22-1B98DECD7F7B599E&mid=71045912437318279454598659814145532126&aamlh=6&ce=UTF-8&pageName=Home%2FForgotPassword&g=https%3A%2F%2Fworkstation.scentsy.com%2FHome%2FForgotPassword&cc=USD&events=event1&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&v2=Workstation&v3=1&c4=https%3A%2F%2Fworkstation.scentsy.com%2FHome%2FForgotPassword&v6=Home%2FForgotPassword&c9=Tuesday%20-%201%3A30PM&v9=Tuesday%20-%201%3A30PM&c12=Home%2FForgotPassword&v12=Home%2FForgotPassword&c16=1&c17=US&c18=en-US&c21=First%20Visit&c22=New&c23=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F93.0.4577.63%20Safari%2F537.36&v23=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F93.0.4577.63%20Safari%2F537.36&c27=Workstation&v31=logged%20in%20visitor&v33=71045912437318279454598659814145532126&v34=4253768058131&v35=US&v36=en-US&v42=First%20Visit&s=800x600&c=24&j=1.6&v=N&k=Y&bw=1440&bh=812&mcorgid=771B153858D920FA0A495D1A%40AdobeOrg&AQE=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 244,
+        "remoteIPAddress": "15.236.176.210",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "etag": "3522114178793439232-4619606832217098844",
+          "expires": "Mon, 20 Dec 2021 18:43:42 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "initiators": [
+          "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement.min.js",
+          "https://assets.adobedtm.com/9ce4f5d0f1a3/2c637315cff5/launch-c1bfe53150f4.min.js",
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.02674299999489449
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-1212.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 13277,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"9dfe540eb31e6fc0e0dddd91e3511f68\""
+        },
+        "responseBodyHash": "e8fd6832e13fca9622a46af5fddb394c358ef083d84002896aca34613d77780e",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword"
+        ],
+        "time": 0.014272000000346452
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/1/c8dc881f90?a=174659020&v=1212.e95d35c&to=ZFcGNUoHXEVTWkELW10dKTd7SXpZX1x2DVpHQAsNVANAGXRWRwVbR2IFEksRXURW&rst=2250&ck=0&ref=https://workstation.scentsy.com/Home/ForgotPassword&ap=13&be=882&fe=2224&dc=2031&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1640112220452,%22n%22:0,%22f%22:0,%22dn%22:2,%22dne%22:8,%22c%22:8,%22s%22:9,%22ce%22:18,%22rq%22:18,%22rp%22:833,%22rpe%22:835,%22dl%22:840,%22di%22:2030,%22ds%22:2031,%22de%22:2033,%22dc%22:2224,%22l%22:2224,%22le%22:2231%7D,%22navigation%22:%7B%7D%7D&fp=1414&fcp=1414&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 622,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "dac715f087720dd7ff7067f5d2ec1988851fa93140ae8a9cbfaa15659dd7fd82",
+        "initiators": [
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.17324899999948684
+      },
+      {
+        "url": "https://logx.optimizely.com/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 204,
+        "size": 368,
+        "remoteIPAddress": "3.93.107.80",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://cdn.optimizely.com/js/4814020714.js"
+        ],
+        "time": 0.35117899999022484
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/c8dc881f90?a=174659020&v=1212.e95d35c&to=ZFcGNUoHXEVTWkELW10dKTd7SXpZX1x2DVpHQAsNVANAGXRWRwVbR2IFEksRXURW&rst=12250&ck=0&ref=https://workstation.scentsy.com/Home/ForgotPassword",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://workstation.scentsy.com/",
+        "status": 200,
+        "size": 511,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://workstation.scentsy.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://workstation.scentsy.com/Home/ForgotPassword",
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.515625
+      }
+    ]
+  }
+}

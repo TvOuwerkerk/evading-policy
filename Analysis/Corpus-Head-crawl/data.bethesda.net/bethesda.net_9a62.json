@@ -1,0 +1,1954 @@
+{
+  "initialUrl": "https://bethesda.net/",
+  "finalUrl": "https://bethesda.net/en/dashboard",
+  "timeout": false,
+  "testStarted": 1640015413349,
+  "testFinished": 1640015429922,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.bethesda.net/links.bethesda.net_9a62.json",
+    "requests": [
+      {
+        "url": "https://bethesda.net/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "cache-control": "max-age=60, s-maxage=60"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://bethesda.net/dashboard",
+        "initiators": [],
+        "time": 0.12832799999887357
+      },
+      {
+        "url": "https://bethesda.net/dashboard",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 1915,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "cache-control": "max-age=60, s-maxage=60"
+        },
+        "responseBodyHash": "cfbaee856385cc504591e6137ebb5edd8f9a5a048166c3313081ac63c28319cd",
+        "redirectedFrom": "https://bethesda.net/",
+        "initiators": [],
+        "time": 0.35324000000036904
+      },
+      {
+        "url": "https://bethesda.net/main.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/dashboard",
+        "status": 200,
+        "size": 22161,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"327702bac0c70e865c057655fb1232be\""
+        },
+        "responseBodyHash": "0f533ba95803d32f41e3fcf848093a64bf7cabdad351ac62653e6cdc2d6052cc",
+        "initiators": [
+          "https://bethesda.net/dashboard"
+        ],
+        "time": 0.020923000000038883
+      },
+      {
+        "url": "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1630,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"f1378bb72d4672826fbea6ebd8b8c777\""
+        },
+        "responseBodyHash": "647f7feef17d40f69e0d32251e6ea9175d05ac27ce3355012884ef9985dda636",
+        "initiators": [
+          "https://bethesda.net/dashboard"
+        ],
+        "time": 0.017757999998138985
+      },
+      {
+        "url": "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 322869,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"d53969018671cbf97118197b82fd1fdd\""
+        },
+        "responseBodyHash": "4fa4e8f8d7a418c6a7195ec3339f069fa19d91fc4dee289b4de6e6ecfcbd15c6",
+        "initiators": [
+          "https://bethesda.net/dashboard"
+        ],
+        "time": 0.09014200000092387
+      },
+      {
+        "url": "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 483004,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"9510d2656bb0d11938c3dd8466a5da91\""
+        },
+        "responseBodyHash": "9075908fbfcb88d07b230122ebeefadcd8a2dc139dcb8f1101d4bd040c3bb213",
+        "initiators": [
+          "https://bethesda.net/dashboard"
+        ],
+        "time": 0.10512899999957881
+      },
+      {
+        "url": "https://bethesda.net/sites/main.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1133733,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"5a1bdaece6e045bbb56b591729ff2912\""
+        },
+        "responseBodyHash": "4f79331e0f38ee14d817aa32e66383fa35481685834f6f27e738998b2e804c2d",
+        "initiators": [
+          "https://bethesda.net/dashboard"
+        ],
+        "time": 0.2770969999983208
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap&subset=cyrillic,latin-ext",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 785,
+        "remoteIPAddress": "142.250.179.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:50:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1c014b7e32139f2b0f05ae5bf0aacbc0452eb662fdeb7ecc9a89eec3f5191c6c",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.03175399999963702
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=cyrillic,latin-ext&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1096,
+        "remoteIPAddress": "142.250.179.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:50:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ab64becd5f6472c800699ed3eb77432439a9c8abad8fe8e417d4c35e99b10daa",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.02919800000017858
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&subset=cyrillic&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 857,
+        "remoteIPAddress": "142.250.179.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:50:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "656140eadb9f8cfac49d21d0411d8f611854838dd13bc60a1050fac0f40380ec",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.03140500000154134
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 16371,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:28:03 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "10f497496bb9bd7159c5e4c46b0ddcd21dacbbb0d552ba9a046bdd90d60fcff9",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.03158199999961653
+      },
+      {
+        "url": "https://bethesda.net/data/core?cbo=https%3A%2F%2Fbethesda.net",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 6106,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "cache-control": "public, max-age=900, s-maxage=900"
+        },
+        "responseBodyHash": "17f063fe4043ef38085b37857459b1289be33972cfa501db6ce0b24e0c25837e",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.008519999999407446
+      },
+      {
+        "url": "https://bethesda.net/data/models/countries?cbo=https%3A%2F%2Fbethesda.net",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 17922,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "cache-control": "max-age=120, no-transform, public",
+          "etag": "W/\"3b319858d356dd7f409aa1be4f32a862\""
+        },
+        "responseBodyHash": "d9c68c6ef8ea0a0bfdc51fe4101787e331dd130ea667b2a1366adb2eb32836e5",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.010767999996460276
+      },
+      {
+        "url": "https://api.bethesda.net/account/status",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 694,
+        "remoteIPAddress": "65.9.83.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://bethesda.net",
+          "etag": "\"b216bf3aeb3fcf3dcf41225cd2fa6e14452e9a57\""
+        },
+        "responseBodyHash": "273897b5518780a67dcbfa2c3110d1652ad24ddbe8ba318e0e236a2756239d01",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.13394800000241958
+      },
+      {
+        "url": "https://cdn.bethesda.net/data/legal/languageMap?cbo=https%3A%2F%2Fbethesda.net",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 920,
+        "remoteIPAddress": "65.9.83.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=120, no-transform, public",
+          "etag": "W/\"356ae8a259bbeb2179f87334f4c6266d\""
+        },
+        "responseBodyHash": "ee650e38f4f608741695b32a93de140c2f1e8c4542ee4893ad48db8e706eff51",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.02525900000182446
+      },
+      {
+        "url": "https://api.locize.app/657e9e0e-8225-4266-88dd-75f047f1a2b3/live/en/common",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 17685,
+        "remoteIPAddress": "13.227.219.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, stale-while-revalidate=10, max-age=60, s-maxage=60",
+          "etag": "W/\"af61198eef9fa045f227f7bb12800f9f\""
+        },
+        "responseBodyHash": "dfa5e1eecec9283e9ffa3524bae33a72b07893e2e939bf459c6c8feb9107ff3b",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.03399400000125752
+      },
+      {
+        "url": "https://api.locize.app/657e9e0e-8225-4266-88dd-75f047f1a2b3/live/en/common",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.locize.app/657e9e0e-8225-4266-88dd-75f047f1a2b3/live/en/common"
+        ],
+        "time": 0.024650999999721535
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?locale=en&include=10&limit=100&order=fields.name&fields.active=true&content_type=menu",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?locale=en&include=10&limit=100&order=fields.name&fields.active=true&content_type=menu"
+        ],
+        "time": 0.011147000001074048
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?locale=en&include=10&limit=100&order=fields.name&fields.active=true&content_type=menu",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 16221,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"14928083287533380983\""
+        },
+        "responseBodyHash": "44ecc9d1219bef972eb1349fce7cec554136f0c0434e56c158d0f2f9ee4b2fb1",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.016319999998813728
+      },
+      {
+        "url": "https://ingest.crash.vault-tec.systems/api/9/store/?sentry_version=7&sentry_client=raven-js%2F3.27.2&sentry_key=a70de7f06fd247a8bafd8f77d470ecfb",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 429,
+        "size": 297,
+        "remoteIPAddress": "3.14.18.52",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://bethesda.net"
+        },
+        "responseBodyHash": "77e29e7c2ef665fb66daa4adbd5a877ad518b9698c165e1a486813acf9ee84f2",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.39993200000026263
+      },
+      {
+        "url": "https://bethesda.net/sites/services/1.114.0/versioned-routing-entry-points.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1009,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"394495cfe4904d3f6274d175eadb9474\""
+        },
+        "responseBodyHash": "76422257d8f673208804f0a7ddbb866f7e45ef58db48f83fd1b13a50a10702bc",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.020104000002902467
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?fields.key=ESRB%2FRP-M&content_type=rating&limit=1",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?fields.key=ESRB%2FRP-M&content_type=rating&limit=1"
+        ],
+        "time": 0.005121999998664251
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?skip=0&order=&include=3&content_type=globalNav&locale=en&limit=1&fields.isActive=true",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?skip=0&order=&include=3&content_type=globalNav&locale=en&limit=1&fields.isActive=true"
+        ],
+        "time": 0.003961000002163928
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?content_type=rating&fields.key=ESRB%2FRP-M",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?content_type=rating&fields.key=ESRB%2FRP-M"
+        ],
+        "time": 0.009122999999817694
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K88MLG",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 61015,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:50:15 GMT"
+        },
+        "responseBodyHash": "e8310552fb1b39e03c1670504c59d4e18027a451f321a84d574723b8afe5e778",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.027935999998589978
+      },
+      {
+        "url": "https://store.bethesda.net/promo?apiKey=f06ec13a06cb4faba310c583fa4419ba&format=json&promoID=4892072800",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 4769,
+        "remoteIPAddress": "45.60.33.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://bethesda.net",
+          "cache-control": "no-cache=\"set-cookie\"",
+          "expires": "Wed, 31 Dec 1969 23:59:59 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See the privacy statement linked from this page for information on privacy practices.\"",
+          "pragma": "no-cache",
+          "set-cookie": "JSESSIONID=A162ABF83CAB80CF3FD6C4F6EB5049CD; Path=/; Secure; SameSite=None; HttpOnly\nVISITOR_ID=971D4E8DFAED436773E81CE86D5ADDB6FFE331F778B67F6C7690B84027904C4CFD71DC544A75D8CA263BD758C3BF10AA0F2381E7FD7DE246864510C72D47D998; Expires=Tue, 20-Dec-2022 21:39:27 GMT; Path=/; Secure; HttpOnly\nX-DR-SHOPPER-bethesda=5EB8C5A020862DCEEC2081DA21B034094619CB8287B871BBAFEC5EA077A0DEC7D578DDFC79E267B5FD39670F7FB83F7AEA393E9FBAE61B96B34F257B373818C6; Expires=Tue, 20-Dec-2022 21:39:27 GMT; Path=/; Secure; HttpOnly\ngc_ss_bethesda=6AE00CDB3011AF63AF71D03371F20F18C234FCAE9D356F3B7C3DC83CF946E866DBA36E63A294BA68; Path=/; Secure\nX-DR-LOCALE=en_IE; Path=/; HttpOnly\nX-DR-CURRENCY=EUR; Path=/; HttpOnly\nX-DR-THEME=39243600; Path=/; HttpOnly\nAWSELB=655DD31F1E3EC2BA10E72FF0AA07C932F6FD91493E0F294F726D5A131900CD91688BF254FA20788A4FBCBC78493541DC3324DE5D6550AC05D6C7D4244F2EE549759D9FF07B;PATH=/\nAWSELBCORS=655DD31F1E3EC2BA10E72FF0AA07C932F6FD91493E0F294F726D5A131900CD91688BF254FA20788A4FBCBC78493541DC3324DE5D6550AC05D6C7D4244F2EE549759D9FF07B;PATH=/;SECURE;SAMESITE=None\nvisid_incap_1639397=G7EjPpPwRye6fnLkuP2ktTemwGEAAAAAQUIPAAAAAAC7Wpy04J0zSIJkiY/gZBRf; expires=Tue, 20 Dec 2022 07:38:37 GMT; HttpOnly; path=/; Domain=.bethesda.net\nnlbi_1639397=87RSB318ADPM3sAUvecoYwAAAAAzVX2i7ePtK1iUTF8pYTkY; path=/; Domain=.bethesda.net\nincap_ses_451_1639397=mD4mdZpUJBsrh7W6l0ZCBjemwGEAAAAA5knnYR0tzg/0VueRr2tiDA==; path=/; Domain=.bethesda.net"
+        },
+        "responseBodyHash": "be57eb54b19749885c814b33d807f839203bf3dc59c646e0443d12791eaa299a",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.24316199999884702
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 13582,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 17:21:26 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7605987483bb1eee3e0fc5a78744b999f063de2017fcf0adb2d1f36b78218e26",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.3524069999984931
+      },
+      {
+        "url": "https://bethesda.net/data/fonts/TradeGothic/Bold2/TradeGothicBold2.latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/main.css",
+        "status": 200,
+        "size": 16085,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"ffd75da4ea7ea8e24568f958dae767e3\""
+        },
+        "responseBodyHash": "e88addb35f987ff683ae04812a9d2676b18489f8bcdeb441b80106fe84ee61ca",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.3650159999997413
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 2540,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9A62F79709DEB",
+          "expires": "Mon, 20 Dec 2021 19:50:15 GMT"
+        },
+        "responseBodyHash": "cb56951547d612a7c4f4ddaa328fc0aa390664735887151fcd9d8903ff027a54",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.03159199999936391
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 7126,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9C17FDD6FB88D"
+        },
+        "responseBodyHash": "4d2a74d8b25e1ccd4b1294b0b937804bc24aeea7f46edad3f3c1f91604d2708c",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.02921000000060303
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 13827,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:37:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "95d48d03fa1feced30bef50f02845e457957a7eaaeb143d4452303bd8c2f31c5",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.23835799999869778
+      },
+      {
+        "url": "https://esrbstorage.blob.core.windows.net/esrbcontent/images/privacy_certified_globe_color.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 4564,
+        "remoteIPAddress": "52.239.247.100",
+        "responseHeaders": {
+          "etag": "0x8D4B1A5984E038E"
+        },
+        "responseBodyHash": "a1c61665be52aa8357fc0dd1b9a9e91db3c9811dacf38272aee86d23eb66f18f",
+        "initiators": [],
+        "time": 0.3601459999990766
+      },
+      {
+        "url": "https://bethesda.net/data/images/legal/usk-gutesiegel.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 11094,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"a836c4c0faeb81b2aab0890617e2f5ee\""
+        },
+        "responseBodyHash": "970b42bbf87a9d62a3dc448a06de9aa2d0016be4de4eaf659812de9fd5e365d1",
+        "initiators": [],
+        "time": 0.019814999999653082
+      },
+      {
+        "url": "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 9349,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "etag": "W/\"4a1b0278e53a4a87ee1926edf00b7210\""
+        },
+        "responseBodyHash": "c5d260843628bc3df1f09d786864d9dc55f061c441d9911ca899b92d0b0d47d4",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.01782399999865447
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?fields.key=ESRB%2FRP-M&content_type=rating&limit=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1551,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5093733885203165518\""
+        },
+        "responseBodyHash": "63eb786947f34d8cbe21ec98881ccc5cc5989cb2a1fa2e46fea319b56cb29d84",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.01407900000049267
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?skip=0&order=&include=3&content_type=globalNav&locale=en&limit=1&fields.isActive=true",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 5574,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"13495370114535985624\""
+        },
+        "responseBodyHash": "b92e1de4044092b8d070fe23e56b1cabdc8fa376777f5f0f0934a54e942758a1",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.01373299999977462
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?content_type=rating&fields.key=ESRB%2FRP-M",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1552,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6391961023354222682\""
+        },
+        "responseBodyHash": "37cf0f482a6f2d3cf01710040820e26b180f80896bd1ee04307df3e60d7058e0",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.016410000000178115
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?content_type=globalNav&locale=en&fields.isActive=true&include=4&limit=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 5150,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"13495370114535985624\""
+        },
+        "responseBodyHash": "b92e1de4044092b8d070fe23e56b1cabdc8fa376777f5f0f0934a54e942758a1",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.011260999999649357
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?content_type=globalNav&locale=en&fields.isActive=true&include=4&limit=1",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?content_type=globalNav&locale=en&fields.isActive=true&include=4&limit=1"
+        ],
+        "time": 0.0049010000002454035
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/2V4yXBuQIowCGC4SCIOgQU/cdc18abdb22df2b7f518843abcd777f4/esrb_comp_rp-m__1_.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 7051,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"175380bc270b9a05b9fec7e8175b24c2\""
+        },
+        "responseBodyHash": "4e79893d1faeb4b07e19bd3b915567d44906997adbc6cbbf41dccafa2ac01e43",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.01356399999713176
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NDF6ZT&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 55806,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:50:16 GMT"
+        },
+        "responseBodyHash": "7c5e377a22db4cd0f9b3153f718064d3ecd4baab53dee1b0b3bc5617ff61ea1e",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-K88MLG",
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.023632000000361586
+      },
+      {
+        "url": "https://api.bethesda.net/dr-gc/v1/shoppers/me/carts/active?format=json&token=833ab4b05e7c49f443aef7b54a4cb6d50b1d80341b19b557655d23a4f2795c20c455ba2c27b0b61f3457b608ac98fed2054f1f482c82442ac9c04eb88aa26d456889d93d7b45ae14d2ceb514579f8a6fb9f03535d49c4ded2b29abe6d02a5a0128e8b22be3c60c7a",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1446,
+        "remoteIPAddress": "65.9.83.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "W/\"da381b5ad3ee5e4e6e6d0e409daeb7cb94c7402b\"",
+          "expires": "Wed, 31 Dec 1969 18:00:00 CST",
+          "set-cookie": "visid_incap_1638494=gswysRYgSwCZCkHXO0BmbTemwGEAAAAAQUIPAAAAAAD7VucKSv7FTJsadn2bc1HZ; expires=Tue, 20 Dec 2022 04:31:50 GMT; HttpOnly; path=/; Domain=.digitalriver.com\nincap_ses_486_1638494=iEDWKVDbH0JEy3YoBJ++BjemwGEAAAAAzZkmpYO+NOqcDzPcmb26Lw==; path=/; Domain=.digitalriver.com"
+        },
+        "responseBodyHash": "f4cbcfdb3c3ca70f2de4bff00644faf675b7cd0998781a3c869082e377e6735b",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.4487540000009176
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/5f096f82-0618-47cf-8d81-511da6f6b070.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 2297,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9A62F7A309E99",
+          "expires": "Mon, 20 Dec 2021 19:50:16 GMT"
+        },
+        "responseBodyHash": "0af4a7bd1911d9e7baf3f30df81b10bc1bdd296d611e8b0d4ce5872250725aad",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.028365000001940643
+      },
+      {
+        "url": "https://platform.twitter.com/widgets.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 29655,
+        "remoteIPAddress": "93.184.220.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "\"50ec7e701ed018305368886c39cac301+gzip\"",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\""
+        },
+        "responseBodyHash": "97719c71e44494e537beba8d51c6bb268a34dcd867fdefc431229225ca734b46",
+        "initiators": [
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.015073999999003718
+      },
+      {
+        "url": "https://api.locize.app/657e9e0e-8225-4266-88dd-75f047f1a2b3/live/en/dashboard",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.locize.app/657e9e0e-8225-4266-88dd-75f047f1a2b3/live/en/dashboard"
+        ],
+        "time": 0.003355000000738073
+      },
+      {
+        "url": "https://api.locize.app/657e9e0e-8225-4266-88dd-75f047f1a2b3/live/en/dashboard",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1221,
+        "remoteIPAddress": "13.227.219.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, stale-while-revalidate=10, max-age=60, s-maxage=60",
+          "etag": "W/\"b5814afccf54c5f9b258b7cff0d0e997\""
+        },
+        "responseBodyHash": "e128adcb1b29bf1ea7515c7bc321e2e42a624f0152b8938113aa42073961275c",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.03102500000022701
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 395,
+        "remoteIPAddress": "104.20.184.68",
+        "responseHeaders": {},
+        "responseBodyHash": "b47fbb15b82c9c2b3099a23ec79c680183bc5aafe7c990cd1d11044331c4b4ce",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.040853999998944346
+      },
+      {
+        "url": "https://platform.twitter.com/widgets/widget_iframe.21f942bb866c2823339b839747a0c50c.html?origin=https%3A%2F%2Fbethesda.net",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 105958,
+        "remoteIPAddress": "93.184.220.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"8321d7cf58d70200c1423dfa0bca40f6+gzip\"",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\""
+        },
+        "responseBodyHash": "c6d03b7a5561687268e57b13d9d4a6a4c71ee570ea74718040ce9227676e3e5e",
+        "initiators": [
+          "https://platform.twitter.com/widgets.js"
+        ],
+        "time": 0.0066520000000309665
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?skip=0&order=-sys.updatedAt&include=10&content_type=dashboard&locale=en&limit=1&fields.active=true&fields.refresh=true&fields.consumer=Web",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 146710,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"10667655120769346291\""
+        },
+        "responseBodyHash": "ef3c8073bedf511bbfd0ca27055d0c76b2c6195ffe47fb5adf2cb20e645fc803",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.06682000000000698
+      },
+      {
+        "url": "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?skip=0&order=-sys.updatedAt&include=10&content_type=dashboard&locale=en&limit=1&fields.active=true&fields.refresh=true&fields.consumer=Web",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.contentful.com/spaces/rporu91m20dc/environments/master/entries?skip=0&order=-sys.updatedAt&include=10&content_type=dashboard&locale=en&limit=1&fields.active=true&fields.refresh=true&fields.consumer=Web"
+        ],
+        "time": 0.008965000000898726
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 77994,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D99A4C1D48EF51"
+        },
+        "responseBodyHash": "972688e6f6c24d2b23019a796b19f90515ba5f4ff744747c072b79fa44de3432",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.017483999999967637
+      },
+      {
+        "url": "https://api.bethesda.net/dr-gc/v1/shoppers/me/carts/active?format=json&token=833ab4b05e7c49f443aef7b54a4cb6d50b1d80341b19b557655d23a4f2795c20c455ba2c27b0b61f3457b608ac98fed2054f1f482c82442ac9c04eb88aa26d456889d93d7b45ae14d2ceb514579f8a6fb9f03535d49c4ded2b29abe6d02a5a0128e8b22be3c60c7a",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 992,
+        "remoteIPAddress": "65.9.83.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "W/\"da381b5ad3ee5e4e6e6d0e409daeb7cb94c7402b\"",
+          "expires": "Wed, 31 Dec 1969 18:00:00 CST",
+          "set-cookie": "visid_incap_1638494=3PfNYaDJQP2n16r7pXraHjimwGEAAAAAQUIPAAAAAAALUdLk/bTBIhOdYPm6oq3X; expires=Tue, 20 Dec 2022 12:53:11 GMT; HttpOnly; path=/; Domain=.digitalriver.com\nincap_ses_1342_1638494=ZWG9EaAm5B/HlEMLM76fEjimwGEAAAAAnU1KCZTojXiucUtCfLQoGg==; path=/; Domain=.digitalriver.com"
+        },
+        "responseBodyHash": "f4cbcfdb3c3ca70f2de4bff00644faf675b7cd0998781a3c869082e377e6735b",
+        "initiators": [
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.3936940000021423
+      },
+      {
+        "url": "https://syndication.twitter.com/settings?session_id=9b8395b164197df422057fe426573c86bbe55c20",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://platform.twitter.com/",
+        "status": 200,
+        "size": 448,
+        "remoteIPAddress": "104.244.42.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://platform.twitter.com",
+          "cache-control": "must-revalidate, max-age=600"
+        },
+        "responseBodyHash": "726906ee6ce6dfe1b6e35ddad151196c50277e31520de30e916e9cd9affc0ef3",
+        "initiators": [
+          "https://platform.twitter.com/widgets/widget_iframe.21f942bb866c2823339b839747a0c50c.html?origin=https%3A%2F%2Fbethesda.net"
+        ],
+        "time": 0.15445199999885517
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/dc38829f-9af3-4398-ac8e-3d7f6b567c37/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 18167,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9A62F85435D8E",
+          "expires": "Mon, 20 Dec 2021 19:50:16 GMT"
+        },
+        "responseBodyHash": "bdb5ac7b413209967d79c52952faf86a25e4dd37dc81255230db6f167c85a87f",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js"
+        ],
+        "time": 0.05421600000045146
+      },
+      {
+        "url": "https://bethesda.net/data/fonts/TradeGothic/BoldCondensed20/TradeGothicBoldCondensed20.latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/main.css",
+        "status": 200,
+        "size": 15983,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"c27bfb3b7f574e3073113fdc5d4ff28d\""
+        },
+        "responseBodyHash": "8639947a98fd906618e62805e37f3653579d5e9cba9614d6fc480bc71dcfb00c",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.3030749999998079
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5YECGONQW64nfcr9UtJjr1/bdc08e04782622bbc91579bb10355038/Starfield_SmallCard_EndlessPursuit.png?fit=scale&h=60&w=45&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 508,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6c474e1179122ab2237150581e535e89\""
+        },
+        "responseBodyHash": "c3c6ac1f6075a99e179fc08d0b977ffae991500915090c7f49989000e4d2dba7",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.005687000000762055
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/1N40Z0JQqCjiadwjoC1hKM/97da67f8bd63e89c676983982cd3279b/DEATHLOOP_SmallCard_Soundtrack.png?fit=scale&h=60&w=45&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 511,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"552cbb656907171397ccaaa546ab657b\""
+        },
+        "responseBodyHash": "6ab3b7cb8850993a7e08201294beaccff3dfb1545be38e9c38ce66d2de1408d2",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.005618999999569496
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/2bk0c5DszLSS2lmsiqHvVZ/0802453fce0a98be7f44d29637e6bd00/GWT_Hannya_Trailer_SCARD_376x470.jpg?fit=scale&h=60&w=45&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 485,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"dba84ca59fd160f77daaf494fbc7ebc6\""
+        },
+        "responseBodyHash": "2c1c505e825345f444e417d5b7c54650432d9b7ba800bb52a8a56dd5b6f81556",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.010526999998546671
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/39f0UBojpoxbZ8SCyR8pqI/aa96de76436895bf8636d7f3b431b9fe/DEATHLOOP_SmallCard_GameplayReveal.jpg?fit=scale&h=60&w=45&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 531,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"0575ccb07ec8491469735eeda0404bbb\""
+        },
+        "responseBodyHash": "712a8b8454fa34d2d2ba60fefe1ee8a17a2504e742aac89311665395594a23c1",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.02206099999966682
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5qTvgscs32INPCjKaOYDvj/9f70a18d26195bb12061c06afb5850a5/Starfield_LargeHero_EndlessPursuit.png?f=center&fit=thumb&h=870&w=1920&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"f6bcbdd92e120b3a73edff4178703836\""
+        },
+        "responseBodyHash": "5c9aa5b5fa5c2de8f5be260566900598899b7be6ad3accda59559fd25a6e71e3",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.019083000002865447
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/1PPTAJx2zJEVCF8fnmptEq/bfbe6304010b714553e5d9c1eb448595/DEATHLOOP_LargeHero_Soundtrack.png?f=center&fit=thumb&h=870&w=1920&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 518,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"2364ca8adcec9c0eb2c328b0fd77060f\""
+        },
+        "responseBodyHash": "0fa3519779792e3aec69aaab11cd43ac843614afa9e31352a1456d355dda1669",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.017765000000508735
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/6xoDhdniZAg6XUwI27OCGH/056377f6abf34a13e9e4279e65305a2f/GWT_Hannya_Trailer_HERO_1920x870.jpg?f=center&fit=thumb&h=870&w=1920&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 469,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7ba88e9d2fa67a661146370c8ede5eb8\""
+        },
+        "responseBodyHash": "355f3d8bbd5862779118fc5d51fa6793a918c17c9fcc2e57f89c3f0279c3da23",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.01924000000144588
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/3D6hyJv4hKogp2HV6Q9ZEa/8cbc0f2ef9411dee7b3f9172c0e9d960/DEATHLOOP_LargeHero_GameplayReveal.png?f=center&fit=thumb&h=870&w=1920&q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 533,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"45ba937f13aa4eb0e782c72939d2a4b3\""
+        },
+        "responseBodyHash": "ee8275373d7ba181b7419331eec384b45165923c4bd00c4055e481c218fb029c",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.021356000001105713
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5fHWUbyjRoFghTF7yYwpOM/262b97bd638b5fb2bdd4ab0b6d45789b/QUAKE_HORDE_LEVEL_LCARD_776x470.jpg?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 444,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"490fdf2c65d21ac903f371fb582fa017\""
+        },
+        "responseBodyHash": "c6443a394cbdf1ec4672abe3abf108dfcd5974f3cb4be650afe4430107107192",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.022451000000728527
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/7pt59SkjRktpQRLv0tdzOc/634522454f9536020fbbe9fdf9d77e09/DEATHLOOP_LargeCard_Soundtrack.png?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1063b7ae6c476659156eb9d341287afe\""
+        },
+        "responseBodyHash": "da0cc228ec6fea703e5cf8a79553084b9f3a6c43ee5ac7974259534e76fe94dd",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.029332999998587184
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/6oXLZzOI0XIOoTBwFhkEn4/825946dcd81327ae97617ca5e3431f35/SKY10_GhostsTribunal_SCARD_376x470.jpg?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 470,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"f5268ffdeb10715c601af7975d7582a0\""
+        },
+        "responseBodyHash": "9b9dde9492504aced5297e00fb73a65f39a35f9c4811b148cbd226cc2ab92bbd",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.023160000000643777
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/6lCMwKYcoT4QNIjseKKRB8/31fc69df8f2d8fbab311705896737f84/ESO_Mehrune_Dagon_LCARD_776x470.jpg?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 470,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b031a1e1ed0c9513701a44e7100e6028\""
+        },
+        "responseBodyHash": "77864462953d4fbc7fb6dc1cd51e68f06daf28b4bb12f5987ac23c168d679114",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.029204999998910353
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/7JSlQacldi79CeG5Y4EjjM/28c57c19a4f45d5ddd9d4bc31449d2e7/DEATHLOOP_SmallCard_CoverageRoundup.png?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 460,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"746eaf891f47b5bdcff2246c268dabee\""
+        },
+        "responseBodyHash": "2f3d0c90b683659b96a463216e130a00138e1885399e78099b19313fcf9b2f9e",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.030910000001313165
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/2R0SaE6bUD9ztvHzpQoUhy/1ee01c59a152e334b26c3cab30b6c6d8/MonthlyModder_LargeCard_JosephRussell.png?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 459,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"09635104242d77b7839363729b3ab651\""
+        },
+        "responseBodyHash": "c69026c643727b924513415eabf2696ca5954a59fa53efe11b624e650d554b90",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.030464000003121328
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/61s07guT3s6iGDqOPmzT9C/3ac7c19f021394337c74cdfd9c92500c/DE_Gift_Wrap_Tear_SCARD_376x470.jpg?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 487,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"9334756d09bb83f71845b0ef0ae86132\""
+        },
+        "responseBodyHash": "5a92e5308cc72ce4b4dd6453a99c83034e9be5f581b6d77a116da65f9e28130d",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.029976000001624925
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5yiiys4C3edODhhkZeetEb/992cc791857f6480a30ee76f894a8503/FeaturedMods_SmallCard_December2021.png?q=1&w=25&h=25&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 509,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"2ffaad2b02649f5668ab0f7dcf0414fb\""
+        },
+        "responseBodyHash": "fda498257bc8cee57ba933163acae6aaa9a11f5f6d5729915a5b1d582200ba68",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dashboard~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/runtime~bundle.js"
+        ],
+        "time": 0.030455000000074506
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5YECGONQW64nfcr9UtJjr1/bdc08e04782622bbc91579bb10355038/Starfield_SmallCard_EndlessPursuit.png?fit=scale&h=60&w=45&q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 847,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"5bf92632f9a2d4c1cada3601a8f1b016\""
+        },
+        "responseBodyHash": "323067f1489e54104a1d6e9f4bece66ca1772f080c8101909aed1cdc511f05fe",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.00538099999903352
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/1N40Z0JQqCjiadwjoC1hKM/97da67f8bd63e89c676983982cd3279b/DEATHLOOP_SmallCard_Soundtrack.png?fit=scale&h=60&w=45&q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1293,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"fb5a7ebbc831cb2c6f8f8aaaa9661fb1\""
+        },
+        "responseBodyHash": "93c408496b94c57a3f98d38f798dbd9e97402627a1b429f35794f5b2beff76d8",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.009653000000980683
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/2bk0c5DszLSS2lmsiqHvVZ/0802453fce0a98be7f44d29637e6bd00/GWT_Hannya_Trailer_SCARD_376x470.jpg?fit=scale&h=60&w=45&q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1016,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"dd487dcad9edab1d53a82b5a19835cfc\""
+        },
+        "responseBodyHash": "0cbc08a6370931f277d845bcdfad3f775211ceb64c6a8ba48addc11d69350739",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.06007300000055693
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/39f0UBojpoxbZ8SCyR8pqI/aa96de76436895bf8636d7f3b431b9fe/DEATHLOOP_SmallCard_GameplayReveal.jpg?fit=scale&h=60&w=45&q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1361,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"362f12ea46d33e35038600c859107e10\""
+        },
+        "responseBodyHash": "b2e5052410472500d13944edd268561abb310ad4c60de67716b08ed2ee9c04d4",
+        "initiators": [
+          "https://cdn.cookielaw.org/consent/5f096f82-0618-47cf-8d81-511da6f6b070/OtAutoBlock.js",
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.021828000000823522
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5qTvgscs32INPCjKaOYDvj/9f70a18d26195bb12061c06afb5850a5/Starfield_LargeHero_EndlessPursuit.png?f=center&fit=thumb&h=870&w=1920&q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 125773,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"88c6b3dbc09d9b066a315f5e167184aa\""
+        },
+        "responseBodyHash": "f740c3c9677cb59d0110f7778e0fdfc529dc6c36a10b7d46dd742b0f9f489e80",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.06026999999812688
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/1PPTAJx2zJEVCF8fnmptEq/bfbe6304010b714553e5d9c1eb448595/DEATHLOOP_LargeHero_Soundtrack.png?f=center&fit=thumb&h=870&w=1920&q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 189278,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d426bf6cca2dd6ded8924be3a77e08f3\""
+        },
+        "responseBodyHash": "9f0e80fe0600b675d1f4cc69b6f47df07901c672bcb927629fbc56e7fcbc853a",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.05471899999974994
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/5fHWUbyjRoFghTF7yYwpOM/262b97bd638b5fb2bdd4ab0b6d45789b/QUAKE_HORDE_LEVEL_LCARD_776x470.jpg?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 52235,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b19b72deb1208d17aa64b51de352d1de\""
+        },
+        "responseBodyHash": "46258d0bb5a47032584821a7bc5ee746b5acbf6ae103b904e3ce6438618021ca",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.05908600000111619
+      },
+      {
+        "url": "https://images.ctfassets.net/rporu91m20dc/7pt59SkjRktpQRLv0tdzOc/634522454f9536020fbbe9fdf9d77e09/DEATHLOOP_LargeCard_Soundtrack.png?q=70&fm=webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 77260,
+        "remoteIPAddress": "52.222.139.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"76f70f427bbd3a87b66136663597919b\""
+        },
+        "responseBodyHash": "320b19a994eccc7d34620049894fe9c3e25fff70c352fc4859ea80c6fa6a4c33",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/sites/services/1.114.0/dwemer~bundle.js",
+          "https://bethesda.net/sites/services/1.114.0/vendors~bundle.js"
+        ],
+        "time": 0.05452499999955762
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.26.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 3248,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9A3BFF8DDCD5C"
+        },
+        "responseBodyHash": "72562f00bd821b6edc0368065bf009468955ba01f8ead742d8bbc2470c4358c4",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js"
+        ],
+        "time": 0.0698229999979958
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.26.0/assets/v2/otPcTab.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 12098,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9A3BFF9FC586A"
+        },
+        "responseBodyHash": "4efca4768dedb757f956b51f3620d1521be4e8f065080515489defc83c2de704",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js"
+        ],
+        "time": 0.08731699999771081
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.26.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 4443,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": "2ee6fdf3d0f4d826380054030e5a9fd6fc8c451d9fe28123f1d76e632332e659",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js"
+        ],
+        "time": 0.050147000001743436
+      },
+      {
+        "url": "https://bethesda.net/data/vendor/new-relic/new-relic.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 9766,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"d243b9e33e38757ba04f14060b86e816\""
+        },
+        "responseBodyHash": "215eb78876c15899e8b21614437fe8ded5cdc7cc97c953522cc3821a6e181c29",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js",
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.4344660000024305
+      },
+      {
+        "url": "https://zn2ldpvjkekowkxyz-bethesda.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_2ldpVjkekowKXyZ",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 3686,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, s-maxage=604800",
+          "etag": "W/\"20f3-ZQQ70AxoN/MphEg4Fxq26rywUDQ\"",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a654b3f8732b8e685eb694e9823c7cd56f57cf11445cb885a6c84f7b2dc43cdc",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js",
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.052238000000215834
+      },
+      {
+        "url": "https://static.hotjar.com/c/hotjar-574125.js?sv=6",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 3327,
+        "remoteIPAddress": "52.222.139.116",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/b003bca98a324d7dbe91c8ac9db2c524"
+        },
+        "responseBodyHash": "8ff717a1454386636667830b8d4cfdf125300186c1720a13a49d590377087402",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NDF6ZT&l=dataLayer",
+          "https://bethesda.net/sites/main.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js"
+        ],
+        "time": 0.014032000002771383
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/12.8327016048e927965e51.chunk.js?Q_CLIENTVERSION=1.64.1&Q_CLIENTTYPE=web&Q_BRANDID=bethesda.net",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 17357,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=604800",
+          "etag": "W/\"e015-17dbb229ea0\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "878227787bfdfdc233209277b711325be189981949e62797f2b8413f1931c261",
+        "initiators": [
+          "https://zn2ldpvjkekowkxyz-bethesda.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_2ldpVjkekowKXyZ"
+        ],
+        "time": 0.04322699999829638
+      },
+      {
+        "url": "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 61482,
+        "remoteIPAddress": "13.227.219.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7a85a2a595def8796a50e919e49cda7a\""
+        },
+        "responseBodyHash": "2a76024584e2692938f4dd0feb5b77e96a0bdc93d8661f8c855a7546125552f7",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-574125.js?sv=6"
+        ],
+        "time": 0.020547000000078697
+      },
+      {
+        "url": "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1485,
+        "remoteIPAddress": "13.227.219.104",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"6215abf691a11c2f451680e635d30daa\""
+        },
+        "responseBodyHash": "d39c7ff4103007338040282460b2eb0e5adadd9fb80f986fb4c8a3d41785a6ca",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-574125.js?sv=6",
+          "https://bethesda.net/sites/main.js"
+        ],
+        "time": 0.014665999999124324
+      },
+      {
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_2ldpVjkekowKXyZ&Q_CLIENTVERSION=1.64.1&Q_CLIENTTYPE=web",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 766,
+        "remoteIPAddress": "104.17.209.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://bethesda.net",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "19059cb7042d8237b0491c4ad9f514cc4f958f21c978a5175b022504d0fc9b43",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://siteintercept.qualtrics.com/dxjsmodule/12.8327016048e927965e51.chunk.js?Q_CLIENTVERSION=1.64.1&Q_CLIENTTYPE=web&Q_BRANDID=bethesda.net",
+          "https://zn2ldpvjkekowkxyz-bethesda.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_2ldpVjkekowKXyZ"
+        ],
+        "time": 0.12375900000188267
+      },
+      {
+        "url": "https://vc.hotjar.io/sessions/574125?s=0.25&r=0.0005495591882838102",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 204,
+        "size": 256,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/data/vendor/new-relic/new-relic.js",
+          "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+          "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+          "https://static.hotjar.com/c/hotjar-574125.js?sv=6"
+        ],
+        "time": 0.03454699999929289
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/76ada5ef-894e-4462-82ae-8f51a11d8749/b9468599-9585-4bb6-9ff2-ce8ca615dfe1/ca4d5987-0302-44b0-9667-0090b34ab8fd/Bethesda_Logo-White.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 42975,
+        "remoteIPAddress": "104.16.149.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D8487E8E244BF7"
+        },
+        "responseBodyHash": "41c38483321ae6b7697cee51af5fc685dca73c7d1f9fa624b63aaa25a9559c70",
+        "initiators": [],
+        "time": 0.019778000001679175
+      },
+      {
+        "url": "https://bethesda.net/data/fonts/FrutigerNext/CondensedBold/FrutigerNextCondensedBold.latin.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/main.css",
+        "status": 200,
+        "size": 17815,
+        "remoteIPAddress": "52.222.139.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"345c88b8f0962f7cfc72cdb577ba690e\""
+        },
+        "responseBodyHash": "527c422a8fd0d71af92cda692efb03188d3dc8992cca94e9ffd51faed03c5b65",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.47539099999994505
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 15843,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 04:16:40 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1d42af2adeab02b643fbdf0086157367d09f08e3b4874cdc203827a452eb5b6d",
+        "initiators": [
+          "https://bethesda.net/main.css"
+        ],
+        "time": 0.051916000000346685
+      },
+      {
+        "url": "https://privacyportal.onetrust.com/request/v1/consentreceipts",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.20.184.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://privacyportal.onetrust.com/request/v1/consentreceipts"
+        ],
+        "time": 0.15608900000006543
+      },
+      {
+        "url": "https://privacyportal.onetrust.com/request/v1/consentreceipts",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "origin",
+        "referer": "https://bethesda.net/",
+        "status": 200,
+        "size": 1516,
+        "remoteIPAddress": "104.20.184.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "5a8c6adc16226e93890604b228a0dcabb62629ecd0087b1262fa8ea48bfd167e",
+        "initiators": [
+          "https://bethesda.net/sites/main.js",
+          "https://bethesda.net/data/vendor/new-relic/new-relic.js",
+          "https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.38500399999975343
+      }
+    ]
+  }
+}

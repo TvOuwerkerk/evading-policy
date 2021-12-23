@@ -1,0 +1,2335 @@
+{
+  "initialUrl": "https://www.alibris.co.uk/",
+  "finalUrl": "https://www.alibris.co.uk/",
+  "timeout": false,
+  "testStarted": 1639584664647,
+  "testFinished": 1639584682305,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://www.alibris.co.uk/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 19675,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "set-cookie": "JSESSIONID=DNYmh6TZL3G4HwyfZp0hDxZv6gJ7xb1htjnydtmrGLPfmhyngpTH!311102724; path=/; HttpOnly\nvid=abe0b574-9b0d-4aa2-80d4-4051bdb58506; domain=.alibris.co.uk; expires=Friday, 08-Dec-2051 16:11:05 GMT; path=/\njid=DNYmh6TZL3G4HwyfZp0hDxZv6gJ7xb1htjnydtmrGLPfmhyngpTH!311102724!1639584665074; domain=.alibris.co.uk; path=/\nNSC_bmjcsjt.dp.vl_sxxfc_dm2=475ca3dd0537e964213b1f9dbc979a14a7577b1735aae907af1bc2fcfc4bd50ef9e3b962;path=/;secure;httponly"
+        },
+        "responseBodyHash": "d474d378eff100511d7d68d2879d9ea8c17b6cbcfaef4d04752b9c7a4203de6d",
+        "initiators": [],
+        "time": 0.45441399997798726
+      },
+      {
+        "url": "https://www0.alibris-static.com/css/en_GB/jquery-ui7.186.030-s.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5246,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "fd2100ddd5565563db1c099a68b807936d5f45e9558fa30b1e7953bef6c1ff69",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.1085120000061579
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 20431,
+        "remoteIPAddress": "104.18.11.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f75e846cc83bd11432f4b1e21a45f31bc85283d11d372f7b19accd1bf6a2635c",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.0740290000103414
+      },
+      {
+        "url": "https://www3.alibris-static.com/css/en_GB/redMain7.186.030-s.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 37057,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "b33ac56df8e670df78fc313588d8bb3f3a8506068e5aef9ec211985a753efd53",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.10645000002114102
+      },
+      {
+        "url": "https://www1.alibris-static.com/css/en_GB/promos-red7.186.030-s.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5256,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "c9f6f47729960d4f8191368af67119a00ed9c084d08aff3227dfc8697bb092c9",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.11993699998129159
+      },
+      {
+        "url": "https://www1.alibris-static.com/framework/skins/alibris/js/web.7.186.030.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1059,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "89e1cd12a09f579181fa34a2e7d664a03cfbd6e566905d26e102a2472a62ad92",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.08956799999577925
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30901,
+        "remoteIPAddress": "142.251.39.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Thu, 15 Dec 2022 14:59:30 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.07646499999100342
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10958,
+        "remoteIPAddress": "104.18.11.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53964478a7c634e8dad34ecc303dd8048d00dce4993906de1bacf67f663486ef",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.06686800002353266
+      },
+      {
+        "url": "https://www.alibris.co.uk/framework/skins/alibris/js/slick.1.9.0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15097,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:11:05 GMT"
+        },
+        "responseBodyHash": "cd44068a14c4900e2792b81f6db00cd5fde9c6f9d68b39c1343f93b89a14bf73",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.06339600001228973
+      },
+      {
+        "url": "https://www1.alibris-static.com/framework/skins/alibris/js/red.7.186.030.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1686,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "171f790961361c4da8336375ec9cb8c80bc4317cf1e4a6bcd3e2076e0ade6df2",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.08767100004479289
+      },
+      {
+        "url": "https://www0.alibris-static.com/framework/skins/alibris/js/jquery.menu-aim.7.186.030.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1106,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "74aed021b4529270379fe321dbbab4ae843a1518beffefbc00c2a24eb45f854f",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.1197140000294894
+      },
+      {
+        "url": "https://www1.alibris-static.com/framework/skins/alibris/js/jquery.hoverIntent.minified.7.186.030.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 782,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "97a67f1432d7298aa7d50e608e8db3600ac139173545fe800490437578b55b54",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.09821700002066791
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 68700,
+        "remoteIPAddress": "142.251.39.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Mon, 12 Dec 2022 16:14:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "55accff7b642c2d7a402cbe03c1494c0f14a76bc03dee9d47d219562b6a152a5",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.08347499999217689
+      },
+      {
+        "url": "https://www1.alibris-static.com/css/en_GB/cookieconsent.min7.186.030-s.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1515,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "459386386a93a7e2f17759288436f8ed0c24a62dfb118bd85495c7b1d9c39aea",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.08522299997275695
+      },
+      {
+        "url": "https://www.alibris.co.uk/framework/skins/alibris/js/cookieconsent.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6677,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:11:05 GMT"
+        },
+        "responseBodyHash": "af4c6683814aa527caf53bde3d021e6aafe00833b45f2dead043c87ed7864674",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.0574180000112392
+      },
+      {
+        "url": "https://www.alibris.co.uk/cdn-cgi/bm/cv/669835187/api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9272,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public"
+        },
+        "responseBodyHash": "5ad73612f12f05dfb07d437a5d3d9a19c5ed14ced0b78362eadd9ac8effde3ec",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.23307000001659617
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-6901668",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36424,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:11:05 GMT"
+        },
+        "responseBodyHash": "d44901366dd4ac17ded1c6ef32aa74f01dceb45cd2282f7ec267900e161e6a0c",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.29420000000391155
+      },
+      {
+        "url": "https://www3.alibris-static.com/framework/skins/alibris/js/complete.7.186.030.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1457,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "dbe6108aae52a847340a72ffc5ad1c0e7e5c335c3f6c1155a72869230371e05b",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.09720000001834705
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/holiday-nav/alibris_logo_holiday_2020.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7682,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "8a4a60b042858c6d9e6ff970132a5ea963abd060153ac8c9c9dff093d6ccf89d",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2855120000313036
+      },
+      {
+        "url": "https://www4.alibris-static.com/images/red/nav/mag-glass-header.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1332,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "b9b68ac18ddfa5f171edb742166f72c6ac9e2479cb9b7531826327953747303b",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2919209999963641
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/nav/text_bts.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38305,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "f18d4fb98033afa46f56872331947f2d5e0c2b31e3a80ccbf32c4bd9e43cc4f2",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3145659999572672
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/promos/red/nav/books_rare_new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10087,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "34ed59352e572fc8a85a7617a616d331a39e0901c142723a14740b8e56a96613",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2345249999780208
+      },
+      {
+        "url": "https://www4.alibris-static.com/images/promos/red/nav/books_favorites_new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7113,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "72dad1e57c101cc26b881844233831f6acf18ff323705c071168c722b72e1338",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.31453099998179823
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/nav/books_search_new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8569,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "a3a36aad9a691b7111060cc2b65c1a49ec116ce120e06e2e10a4056858949ec7",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.31376500002807006
+      },
+      {
+        "url": "https://www.alibris.co.uk/images/promos/red/kids-teens/kids_nav_316x236.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17685,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:11:05 GMT"
+        },
+        "responseBodyHash": "f0f12c80885f45f3d0b80a9d2771a071959b791c022fa56467f70c102c538af2",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.24896500003524125
+      },
+      {
+        "url": "https://www.alibris.co.uk/images/promos/red/kids-teens/kids_nav_YA_316x236.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15290,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:11:05 GMT"
+        },
+        "responseBodyHash": "a4d38be1406abf376a9f684b81ac685f50736d96bae9dcb4c4a136503e3efc62",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2856660000397824
+      },
+      {
+        "url": "https://www4.alibris-static.com/images/promos/red/nav/music-nav.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7149,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "bb4376d88c8c054a53279d7930a2e383de8a16e0a2f792a85772a29beed7e8b0",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.31392399995820597
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/promos/red/nav/music_classical_new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8823,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "a4dd6de964732ecdd5fa01421706bceb1f16253e8e59b87f4f3259ad1ae17b89",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.23737200000323355
+      },
+      {
+        "url": "https://www0.alibris-static.com/images/promos/red/nav/music_search_new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7366,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "b2cc1e4bb35be6313f812dc01f25357c0a1aee579bddb037c19e673c9eb4733e",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2560539999976754
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/nav/movies_aclaimed_new.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7077,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "149947bc8c190477f5f7e14b7267d6b1d36e245226faaace5f5b7d2e13393fea",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.31290900002932176
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/promos/red/nav/movies_advanced.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35803,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "7e184edcf85ea3523f49265a799482ad4b302c572bf10647506b2b843800b089",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2385319999884814
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/promos/red/nav/bargains_discountBooks.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 31109,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "337fc1a4062cadc6add0d580427c66bac23f934c7c22a2b38196ead561b12604",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2806749999872409
+      },
+      {
+        "url": "https://www4.alibris-static.com/images/promos/red/nav/bargains_dailyCoupons.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 47629,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "c82f6055bb20d9feb866983543024c4c0ea90c3f618ee8216d2c6d02b0cddf54",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3164610000094399
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/nav/explore_seasonalGuide.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 49569,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "5791b042f8aa585a18e36151baa7646ff72c6521fa04775d54a719690798920e",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3148570000194013
+      },
+      {
+        "url": "https://www0.alibris-static.com/images/promos/red/nav/explore_community.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 31746,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "f1ec43b67a6edbc80053fec0cb810279afcd899f4d49829b8ae7c8ec25084103",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2516310000210069
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/promos/red/nav/explore_blog.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 26503,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "f4fd7a12084dfec78e291decb7cf3435cc47ee0dc606cf86fe7b0f731067874c",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2404979999992065
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/promos/red/nav/explore_authorPersonalities.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21069,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "dcf3419632989cebdff13eb72bcfd7e8e8838c779ea9211e246603cbe4feb78d",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3081170000368729
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/red/nav/cart.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 395,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "ac446ec96e1656f75b6b5044a07353dfa0a108941958c9acf1221f149a6fdb0e",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.24105700000654906
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/holiday-2021/2021_holiday_banner.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 69106,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "0d65fda06f91cf5e1dec1ef5033eafd924250ebd13d435d12467505c860039dc",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.31788599997526035
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/kids-teens/kids_banner_landingPage.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 34594,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "46b56efb7ab242f7c039bc06e0d2e66d97c680794aac6a31446d7a58dc0d1960",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3217659999500029
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/promos/red/holiday-2021/homepage_textbooks_2021_holiday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9973,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "4efb3590023564ef4123f272765dcac51e86c37b153d4352939956fa9b109cd9",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.27547900000354275
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/holiday-2021/homepage_fiction_2021_holiday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9998,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "416e84e9ed47910a65b8bdb373ef4a5dc280a217879895bd935b2dc4b1167926",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3376859999843873
+      },
+      {
+        "url": "https://www0.alibris-static.com/images/promos/red/holiday-2021/homepage_romance_2021_holiday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10382,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "2bc8bc6710686cf0f0d2f56c5e08069566fa70b54dd58bb8ca06b4870071e6f6",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.26072199997724965
+      },
+      {
+        "url": "https://www4.alibris-static.com/images/promos/red/summer2020/homepage_business_2020_summer.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11680,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "d1ee5033bbdb81244f9b42acbe4a668b410f4dd1d294b77fffd87043b0f13217",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3169890000135638
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/promos/red/holiday-2021/homepage_cookbooks_2021_holiday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9454,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "9623d4831d8a304e4dfe3bc544b464c0ea42d220448e132e228c78aba58fd0d4",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2524529999936931
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/promos/red/holiday-2021/homepage_kids_2021_holiday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9963,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "7f07f30268d2a4d72a0521af84a46fa9e30b02c8a43ed90629eaa670d4ceebd0",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.31042500003241
+      },
+      {
+        "url": "https://www0.alibris-static.com/images/promos/red/holiday-2021/homepage_crafting_2021_holiday.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8706,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "bd58911b7d1a1167b8f81ba0e009f49b702058df230264ec52a9ceb55473ac78",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.24620900000445545
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/promos/red/fall-2021/homepage_mystery_2021_fall.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7516,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "e66b3cc3a7ab78e76298942d34a86e6e8e50747778994f2427c9959b6e4f851d",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2528440000023693
+      },
+      {
+        "url": "https://www0.alibris-static.com/taste-my-life-through-food/isbn/9781982168018.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14505,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "f90c42b9bca679d706ec0f3fc1b464ee1a1e7d6355ff44197b8b682da21b4526",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.25391600001603365
+      },
+      {
+        "url": "https://www3.alibris-static.com/gone-with-the-gin-cocktails-with-a-hollywood-twist/isbn/9780762458608.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13406,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "87e1873bd449fbfffe5f2725c3f4d56e22962f71f70543ad8de96aa794f9046f",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.4013680000207387
+      },
+      {
+        "url": "https://www1.alibris-static.com/wacky-waving-inflatable-tube-guy/isbn/9780762462872.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9139,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "0647d1faa7e82bb7be5352118e4d3362d7e3181f876ad5b444d7ae806dbc0335",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2797100000316277
+      },
+      {
+        "url": "https://www0.alibris-static.com/let-it-be/cover/e67167sz4zk.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5104,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "64f60c4aefabd8dff439bed26ec2a896bdb7e780781591ba252d424ca870ab04",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.585075999959372
+      },
+      {
+        "url": "https://www1.alibris-static.com/map-of-the-soul-7/cover/80072wm78s.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4028,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "0e39d8c0ee1d14773693a4d4f5d5a925fc004fc38f082edec376f363c5ee40a4",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.4489140000077896
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/promos/red/alibris-blog-home.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13203,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "d50f4c9d1e27a470f917ce6fa812df42eb13ed80be4875c7f4134986b1e9855e",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.24875300005078316
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/red/home/category/music_350.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12318,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "3c05bc227073f167e7fa01cba10fd81a6f08df38fe1cc6efdbb7301f0762c026",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.3090430000447668
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/red/home/category/movies_350.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15605,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "71cd9e4b60c7fa7545dd2d8c20a8cb45fd43a6c142a6790a301d8b51548b9634",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2511650000233203
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/red/footer/facebook-60.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2213,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "007899098eb2978fdbaf18e19313dfffadaa62e1a8b5752ae16b297579a7fec6",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2794790000189096
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/red/footer/twitter-60.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2428,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "d0b30e7cb832d7eb907552d22b515348de3a04f5df37ad53f7bdd3d23ab83e1e",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.27976900001522154
+      },
+      {
+        "url": "https://www0.alibris-static.com/images/red/footer/pintrest-60.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2890,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "ea01970c69dbd188e724e63f286e710285d535b0e36654df205dd31f7460948d",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.25558100000489503
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/red/footer/blog-60.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1635,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:06 GMT"
+        },
+        "responseBodyHash": "fc1c6c1736168ffa5d7069974102a516c84ff74a44eedcd50d84f3adc9c0dbd9",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.948355000000447
+      },
+      {
+        "url": "https://sealserver.trustwave.com/seal.js?style=invert&code=b8893b161c294f7ba3521f4dfc863652",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 975,
+        "remoteIPAddress": "23.1.120.171",
+        "responseHeaders": {},
+        "responseBodyHash": "ee54addc3b8b2064b7bd2b0725080ae6d42e3553f468c7ba8bd08563ee9d4ec5",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.1745219999575056
+      },
+      {
+        "url": "https://seal-goldengate.bbb.org/seals/blue-seal-200-42-whitetxt-bbb-17525.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4119,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "e3706b893c009a23a6cb18647479d1b9aba2da015cfe3d8d78a49522d4a3e1c1",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.34708899998804554
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/red/footer/logo-footer.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "efe5d4c080c23469976cb8624b440abb7da2815e10618e9962359fd0367f9cd5",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.287882000033278
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/red/footer/rovi.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2164,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "8c4cbb62709e226a32b39db4317830c6af12318510f88aa6fe9297dbd77a9caa",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2796269999817014
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/spacer.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 160,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "4b8aa4169b6dd229c9cdc2e3bb3d2c89c54ee300631843e623a810d1bcd7f54a",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.30198699998436496
+      },
+      {
+        "url": "https://js.b1js.com/tagcontainer.js?id=9d8f53cd2b864fa8aa323144431bef11&type=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3389,
+        "remoteIPAddress": "52.222.138.102",
+        "responseHeaders": {
+          "etag": "W/\"bbde918773ffa89049b954bdb5f0a9c1\""
+        },
+        "responseBodyHash": "fa6d246b346ce3563f8a1b58e7e5bb0633f84c98f24d1c4f841eb6b0253940fe",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.2616450000205077
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 46913,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:11:05 GMT"
+        },
+        "responseBodyHash": "da39c2c02cfc3b4290730edd6a6f81bc2da6f7b4c034f5387b63adf2ce210375",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.1632450000033714
+      },
+      {
+        "url": "https://intljs.rmtag.com/117607.ct.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21277,
+        "remoteIPAddress": "34.102.147.248",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "d5b29a961410b0cce41d7487a8e4873c10b6cfe0830d45449e3293c4e6e5e0dd",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.19985100004123524
+      },
+      {
+        "url": "https://www0.alibris-static.com/images/red/nav/select-arrow-trans.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1353,
+        "remoteIPAddress": "104.16.134.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "52c905cccd01131670053bcb2a5c471ad6ca17ca625a40dbdd6a8d765f1b3134",
+        "initiators": [
+          "https://www3.alibris-static.com/css/en_GB/redMain7.186.030-s.css"
+        ],
+        "time": 0.029098999977577478
+      },
+      {
+        "url": "https://sealserver.trustwave.com/seal_image.php?customerId=b8893b161c294f7ba3521f4dfc863652&size=105x54&style=invert",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2084,
+        "remoteIPAddress": "23.1.120.171",
+        "responseHeaders": {},
+        "responseBodyHash": "f0756c23a7899cf58b4f99b691beacae297ffce26eb81675756d7306b4d1b564",
+        "initiators": [
+          "https://sealserver.trustwave.com/seal.js?style=invert&code=b8893b161c294f7ba3521f4dfc863652"
+        ],
+        "time": 0.009028000000398606
+      },
+      {
+        "url": "https://static.sitejabber.com/js/widget.min.1635181051.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44156,
+        "remoteIPAddress": "52.222.138.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "\"39df5-5d31f6efa3c9b-gzip\""
+        },
+        "responseBodyHash": "04fe2e9bd7753e2aadeb6545a0b816cebab4af971416211094a6a3f009f74a7c",
+        "initiators": [
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.09622800000943244
+      },
+      {
+        "url": "https://www3.alibris-static.com/images/red/ajax-loader.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2681,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "2090d776b42269b51eed46da3e79041c47c27013d6d492de46d332c6bdbfe87a",
+        "initiators": [
+          "https://www3.alibris-static.com/css/en_GB/redMain7.186.030-s.css"
+        ],
+        "time": 0.21871700003976002
+      },
+      {
+        "url": "https://www1.alibris-static.com/images/red/carousels/carousel-left-arrow-white.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 460,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "d84c41ba5a92f90308f654a3e8fc9a36e5425937899457ae16694c6cbb7bdcf3",
+        "initiators": [
+          "https://www3.alibris-static.com/css/en_GB/redMain7.186.030-s.css"
+        ],
+        "time": 0.020204999949783087
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/red/carousels/carousel-right-arrow-white.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 690,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "1fa0a5e90d3c35c91408263874b938001f60e710c9fc4cfe44c86086b27f2b5f",
+        "initiators": [
+          "https://www3.alibris-static.com/css/en_GB/redMain7.186.030-s.css"
+        ],
+        "time": 0.032844999979715794
+      },
+      {
+        "url": "https://www2.alibris-static.com/images/promos/red/bts/bts-2019-fall/homepage_banner_2019_fall_textbooks.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 43315,
+        "remoteIPAddress": "104.16.135.249",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Wed, 15 Dec 2021 20:11:05 GMT"
+        },
+        "responseBodyHash": "924120f8ab64da4f747df5bf5afa21ea9f0e345d2e0d8b7b7ac3d8abd9460f81",
+        "initiators": [
+          "https://www.alibris.co.uk/framework/skins/alibris/js/slick.1.9.0.js",
+          "https://www1.alibris-static.com/framework/skins/alibris/js/red.7.186.030.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        ],
+        "time": 0.025163999991491437
+      },
+      {
+        "url": "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 561,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=2cc3e97c-4b9a-463d-93c1-03325afae051; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:11:05 GMT; Secure; SameSite=None\nicts=2021-12-15T16:11:05Z; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:11:05 GMT; Secure; SameSite=None\nrmuid=2cc3e97c-4b9a-463d-93c1-03325afae051; Path=/; Domain=linksynergy.com; Expires=Tue, 15 Mar 2022 16:11:05 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "9b8d929a356a943e6c8522e4652580c0d1df766ffbebf85c4c3a0228e0fdeab5",
+        "initiators": [
+          "https://intljs.rmtag.com/117607.ct.js"
+        ],
+        "time": 0.05342400004155934
+      },
+      {
+        "url": "https://consent.linksynergy.com/consent/v3/p?rmch=cs&domain=www.alibris.co.uk&sought=false&tp=gdpr&attr_sid=117607&granted_date=2021-12-15T16:11:05.833Z&purposes=&vendors=&ext_id=1eea26e2-d95f-4d8a-ae03-507f48dac781",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 335,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=6cd6ffaa-f029-4bc7-bf14-de15bc84cd3f; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:11:05 GMT; Secure; SameSite=None\nicts=2021-12-15T16:11:05Z; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:11:05 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+        "initiators": [
+          "https://intljs.rmtag.com/117607.ct.js"
+        ],
+        "time": 0.04635799996322021
+      },
+      {
+        "url": "https://track.nextuser.com/nu.js?tid=alibris_uk&v=1.3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 48975,
+        "remoteIPAddress": "35.189.78.234",
+        "responseHeaders": {},
+        "responseBodyHash": "43f73a9bc12ceb4b3e5b1b1f948783625ddfc2a7cc8b464139ce875d0533170d",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.1764240000047721
+      },
+      {
+        "url": "https://wisepops.com/default/index/get-loader?user_id=9492",
+        "method": "GET",
+        "type": "Script",
+        "status": 301,
+        "remoteIPAddress": "104.26.11.19",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Wed, 15 Dec 2021 17:11:05 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://loader.wisepops.com/get-loader.js?user_id=9492",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.15569400001550093
+      },
+      {
+        "url": "https://ssl.google-analytics.com/ga.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17383,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:37:26 GMT"
+        },
+        "responseBodyHash": "1259ea99bd76596239bfd3102c679eb0a5052578dc526b0452f4d42f8bcdd45f",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.012662999972235411
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.044362999964505434
+      },
+      {
+        "url": "https://b-code.liadm.com/a-00h6.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10471,
+        "remoteIPAddress": "13.227.219.64",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "14c2ddde7dd6cf41be0fac74f2c6a0741f6a7c1ba5a0e72603e9280699643d77",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.36665199999697506
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10985,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=38CBB1FDDD4867762822A0F3DC7D6674; domain=.bing.com; expires=Mon, 09-Jan-2023 16:11:05 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.11709600000176579
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18129,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "5620577396173936331",
+          "expires": "Wed, 15 Dec 2021 16:11:06 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a794323056095d4ae3d4bccb01fdb689b186c5343f70248d41e61e951cf72fb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.360852999961935
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-LVVVEGSLSZ&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 62500,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:11:06 GMT"
+        },
+        "responseBodyHash": "2ceecb511d38d309fd1f3384c24f4ebf672a4a8e0f3de70f9122da26bb9d1426",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=DC-6901668"
+        ],
+        "time": 0.33383499999763444
+      },
+      {
+        "url": "https://static.sitejabber.com/css/widget.min.1637847212.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 29522,
+        "remoteIPAddress": "52.222.138.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "\"326c6-5d320b6a9fcf8-gzip\""
+        },
+        "responseBodyHash": "28a92ad1fcce70e4c1a05428d55abc970d56d6b48f3421e15f09b704b676ce15",
+        "initiators": [
+          "https://static.sitejabber.com/js/widget.min.1635181051.js"
+        ],
+        "time": 0.30718599999090657
+      },
+      {
+        "url": "https://static.sitejabber.com/css/icomoon.min.1637847212.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2950,
+        "remoteIPAddress": "52.222.138.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800",
+          "etag": "\"2aaa-5d1a0bae4b361-gzip\""
+        },
+        "responseBodyHash": "02a3956a2cc2b60a91eb97445071299c7565a9b545bcf8593943629cff1486a2",
+        "initiators": [
+          "https://static.sitejabber.com/js/widget.min.1635181051.js"
+        ],
+        "time": 0.2908739999984391
+      },
+      {
+        "url": "https://www.sitejabber.com/widget-review-badge/alibris.com/1?type=banner",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1357,
+        "remoteIPAddress": "54.236.238.23",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "CAKEPHP=qnitc9s7u8nk6krvacqjojg5bh; path=/; secure; HttpOnly; SameSite=None\nLandingData=Q2FrZQ%3D%3D.MDlhYTZjMGU2YTdmNTFkZGJjYjYwMDk1NDVhMGNhYmU4OWY4ZTIwMTM3NDY2OTU4YWYxYmNjM2NkM2EzMWU0ZQ6G8nlSsQe25R2pa%2BH9VYjzZFE69DTs2ePWKQtEx3TLF4cn%2FEEji9i1Tm5IA%2F5zk05HoRJSuhj6YxhtYik8OwwTHw6Bu3h6X2BYdB%2FwUpAsBRuK2gL2Wy8sgh0l6ziFWv4sj4TMCD6G%2BE0BAOuMwEp4Sj5xePoYzMn76edUvIV7; expires=Fri, 14-Jan-2022 16:11:06 GMT; Max-Age=2592000; path=/; domain=.sitejabber.com; secure; HttpOnly; SameSite=Lax"
+        },
+        "responseBodyHash": "f1a069d2229a82cb512de3a0924443936a73e7052e0796a98c8df952bb55e37a",
+        "initiators": [
+          "https://static.sitejabber.com/js/widget.min.1635181051.js",
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.45027599995955825
+      },
+      {
+        "url": "https://idsync.rlcdn.com/458359.gif?partner_uid=2cc3e97c-4b9a-463d-93c1-03325afae051",
+        "method": "GET",
+        "type": "Image",
+        "status": 307,
+        "remoteIPAddress": "35.244.174.68",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=BWzd3ao4B2ArLMpRM1QylU/Bx7Qjx4L8dQWntXTpN/8=; Path=/; Domain=rlcdn.com; Expires=Thu, 15 Dec 2022 16:11:06 GMT; Secure; SameSite=None\npxrc=CAA=; Path=/; Domain=rlcdn.com; Expires=Sun, 13 Feb 2022 16:11:06 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idsync.rlcdn.com/1000.gif?memo=CPf8GxIwCiwIARCd5gEaJDJjYzNlOTdjLTRiOWEtNDYzZC05M2MxLTAzMzI1YWZhZTA1MRAAGg0ImqfojQYSBQjoBxAAQgBKAA",
+        "initiators": [
+          "https://intljs.rmtag.com/117607.ct.js",
+          "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid"
+        ],
+        "time": 0.04484800004865974
+      },
+      {
+        "url": "https://loader.wisepops.com/get-loader.js?user_id=9492",
+        "method": "GET",
+        "type": "Script",
+        "status": 404,
+        "remoteIPAddress": "104.26.11.19",
+        "responseHeaders": {
+          "cache-control": "private, max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "redirectedFrom": "https://wisepops.com/default/index/get-loader?user_id=9492",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.2512940000160597
+      },
+      {
+        "url": "https://www.alibris.co.uk/cdn-cgi/bm/cv/result?req_id=6be0f21b8c6f4c14",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 291,
+        "remoteIPAddress": "104.16.135.250",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=M303I1ne1w6WL1hjfY.XohskpwMrphwj0x3zs_4ABTw-1639584666-0-AYjsU0TcSlYW35kFolOcHzM8Wshfrbojf/F0CKqoYwVr3Oxy+qmYN4zq2NhskDfvIuG+5XXInGY5orvdM3GxM9sonsabrKgrchztXQ1PqASLljxdozGJV/DONenSHjs4kQ==; path=/; expires=Wed, 15-Dec-21 16:41:06 GMT; domain=.alibris.co.uk; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.alibris.co.uk/cdn-cgi/bm/cv/669835187/api.js"
+        ],
+        "time": 0.012825999991036952
+      },
+      {
+        "url": "https://idsync.rlcdn.com/1000.gif?memo=CPf8GxIwCiwIARCd5gEaJDJjYzNlOTdjLTRiOWEtNDYzZC05M2MxLTAzMzI1YWZhZTA1MRAAGg0ImqfojQYSBQjoBxAAQgBKAA",
+        "method": "GET",
+        "type": "Image",
+        "status": 307,
+        "remoteIPAddress": "35.244.174.68",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=BWzd3ao4B2ArLMpRM1QylU/Bx7Qjx4L8dQWntXTpN/8=; Path=/; Domain=rlcdn.com; Expires=Thu, 15 Dec 2022 16:11:06 GMT; Secure; SameSite=None\npxrc=CJqn6I0GEgUI6AcQABIGCOTrARAA; Path=/; Domain=rlcdn.com; Expires=Sun, 13 Feb 2022 16:11:06 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://tags.rd.linksynergy.com/cs?ns=lr&uid3=39199681dfd531c2f847a2673d85baa027d567cc94d246ca32c56d3792e81f756ac34734d8e453ee",
+        "redirectedFrom": "https://idsync.rlcdn.com/458359.gif?partner_uid=2cc3e97c-4b9a-463d-93c1-03325afae051",
+        "initiators": [
+          "https://intljs.rmtag.com/117607.ct.js",
+          "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid"
+        ],
+        "time": 0.0890209999633953
+      },
+      {
+        "url": "https://bat.bing.com/p/action/5637969.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 92,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.03205699997488409
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=5637969&Ver=2&mid=1412e15a-4fa9-4308-bc6d-f9de1fd83769&sid=9b81a8505dc111ec8f1b1b0ef68005bf&vid=9b81fc205dc111eca1a8cd314be9eb8b&vids=1&pi=842281895&lg=en-GB&sw=800&sh=600&sc=24&tl=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books,%20textbooks,%20music%20and%20movies&p=https%3A%2F%2Fwww.alibris.co.uk%2F&r=&lt=908&evt=pageLoad&msclkid=N&sv=1&rn=309926",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 149,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MQMLDF"
+        ],
+        "time": 0.050993000040762126
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-35276570-1&cid=782257449.1639584666&jid=1393169844&gjid=29193793&_gid=1912514158.1639584666&_u=IGBAgAABAAAAAE~&z=1770888054",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 441,
+        "remoteIPAddress": "172.217.218.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.alibris.co.uk",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.05152899998938665
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1916005210&t=pageview&_s=1&dl=https%3A%2F%2Fwww.alibris.co.uk%2F&ul=en-gb&de=windows-1252&dt=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=IGBAgAAB~&jid=1393169844&gjid=29193793&cid=782257449.1639584666&tid=UA-35276570-1&_gid=1912514158.1639584666&z=53526327",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 194,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01783699996303767
+      },
+      {
+        "url": "https://track.nextuser.com/collect?tid=alibris_uk",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 109,
+        "remoteIPAddress": "35.189.78.234",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://track.nextuser.com/nu.js?tid=alibris_uk&v=1.3"
+        ],
+        "time": 0.021585999988019466
+      },
+      {
+        "url": "https://track.nextuser.com/iam_style.css?tid=alibris_uk",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3377,
+        "remoteIPAddress": "35.189.78.234",
+        "responseHeaders": {},
+        "responseBodyHash": "c9d94d52ad24550fb2d4a48d4797c00283eefed8bd80e2ecf6795ea4d2f200a9",
+        "initiators": [
+          "https://track.nextuser.com/nu.js?tid=alibris_uk&v=1.3"
+        ],
+        "time": 0.030504999973345548
+      },
+      {
+        "url": "https://tags.rd.linksynergy.com/cs?ns=lr&uid3=39199681dfd531c2f847a2673d85baa027d567cc94d246ca32c56d3792e81f756ac34734d8e453ee",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 300,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=2cc3e97c-4b9a-463d-93c1-03325afae051; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:11:06 GMT; Secure; SameSite=None\nicts=2021-12-15T16:11:05Z; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:11:06 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+        "redirectedFrom": "https://idsync.rlcdn.com/1000.gif?memo=CPf8GxIwCiwIARCd5gEaJDJjYzNlOTdjLTRiOWEtNDYzZC05M2MxLTAzMzI1YWZhZTA1MRAAGg0ImqfojQYSBQjoBxAAQgBKAA",
+        "initiators": [
+          "https://intljs.rmtag.com/117607.ct.js",
+          "https://ut.rd.linksynergy.com/jsp?cn=rmuid&ro=0&cb=___rmuid"
+        ],
+        "time": 0.03268699999898672
+      },
+      {
+        "url": "https://b-code.liadm.com/sync-container.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2796,
+        "remoteIPAddress": "13.227.219.64",
+        "responseHeaders": {
+          "etag": "W/\"ae5e94de938b0387eda6df8f20da811a\""
+        },
+        "responseBodyHash": "58a07739b05fec4d319e4d5c6b1fa4ac79e2a625e08ab3f303929b77fde5bdf4",
+        "initiators": [
+          "https://b-code.liadm.com/a-00h6.min.js"
+        ],
+        "time": 0.01531099999556318
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071345381/?random=1639584666308&cv=9&fst=1639584666308&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhome%3Becomm_totalvalue%3D&frm=0&url=https%3A%2F%2Fwww.alibris.co.uk%2F&tiba=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&hn=www.googleadservices.com&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1708,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 15-Dec-2021 16:26:06 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a06ffbe2969ce3ca10fa8b0be04106dfa78b405724d2c62274e940172ba350b2",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion.js"
+        ],
+        "time": 0.06985099997837096
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LVVVEGSLSZ&gtm=2oec10&_p=1916005210&sr=800x600&ul=en-gb&cid=782257449.1639584666&_s=1&dl=https%3A%2F%2Fwww.alibris.co.uk%2F&dt=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&sid=1639584665&sct=1&seg=0&en=page_view&_fv=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 125,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.alibris.co.uk",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-LVVVEGSLSZ&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=DC-6901668"
+        ],
+        "time": 0.01724000001559034
+      },
+      {
+        "url": "https://rp.liadm.com/j?dtstmp=1639584666464&aid=a-00h6&se=e30&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&tna=v2.3.0&pu=https%3A%2F%2Fwww.alibris.co.uk%2F&wpn=lc-bundle&c=PHRpdGxlPkFsaWJyaXMgVUsgLSBCdXkgbmV3IGFuZCBzZWNvbmQtaGFuZCBib29rcywgdGV4dGJvb2tzLCBtdXNpYyBhbmQgbW92aWVzPC90aXRsZT48aDE-QWxpYnJpcyBpcyBZb3VyIFNvdXJjZSBmb3IgQm9va3MsIE11c2ljICZhbXA7IE1vdmllczwvaDE-",
+        "method": "GET",
+        "type": "XHR",
+        "status": 302,
+        "remoteIPAddress": "52.5.181.6",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.alibris.co.uk",
+          "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+          "set-cookie": "lidid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269; Max-Age=63072000; Expires=Fri, 15 Dec 2023 16:11:06 GMT; SameSite=None; Path=/; Domain=.liadm.com; Secure; HTTPOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://rp.liadm.com/j?dtstmp=1639584666464&aid=a-00h6&se=e30&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&tna=v2.3.0&pu=https%3A%2F%2Fwww.alibris.co.uk%2F&wpn=lc-bundle&c=PHRpdGxlPkFsaWJyaXMgVUsgLSBCdXkgbmV3IGFuZCBzZWNvbmQtaGFuZCBib29rcywgdGV4dGJvb2tzLCBtdXNpYyBhbmQgbW92aWVzPC90aXRsZT48aDE-QWxpYnJpcyBpcyBZb3VyIFNvdXJjZSBmb3IgQm9va3MsIE11c2ljICZhbXA7IE1vdmllczwvaDE-&n3pc=true",
+        "initiators": [
+          "https://b-code.liadm.com/a-00h6.min.js"
+        ],
+        "time": 0.3183680000365712
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1071345381/?random=1639584666308&cv=9&fst=1639584000000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhome%3Becomm_totalvalue%3D&frm=0&url=https%3A%2F%2Fwww.alibris.co.uk%2F&tiba=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&fmt=3&is_vtc=1&random=3790222455&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071345381/?random=1639584666308&cv=9&fst=1639584666308&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhome%3Becomm_totalvalue%3D&frm=0&url=https%3A%2F%2Fwww.alibris.co.uk%2F&tiba=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.05214200000045821
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1071345381/?random=1639584666308&cv=9&fst=1639584000000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhome%3Becomm_totalvalue%3D&frm=0&url=https%3A%2F%2Fwww.alibris.co.uk%2F&tiba=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&fmt=3&is_vtc=1&random=3790222455&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071345381/?random=1639584666308&cv=9&fst=1639584666308&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_prodid%3D%3Becomm_pagetype%3Dhome%3Becomm_totalvalue%3D&frm=0&url=https%3A%2F%2Fwww.alibris.co.uk%2F&tiba=Alibris%20UK%20-%20Buy%20new%20and%20second-hand%20books%2C%20textbooks%2C%20music%20and%20movies&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.0473220000276342
+      },
+      {
+        "url": "https://tags.b1js.com/tags/9d8f53cd2b864fa8aa323144431bef11.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 377,
+        "remoteIPAddress": "52.222.138.115",
+        "responseHeaders": {
+          "etag": "\"cd580530e46671a95d75f1b2c472fe90\""
+        },
+        "responseBodyHash": "a9437e3f1d79a5e09c08deb1b826d4b5a1063000e8db20f1eb05dba66b2b937c",
+        "initiators": [
+          "https://js.b1js.com/tagcontainer.js?id=9d8f53cd2b864fa8aa323144431bef11&type=1"
+        ],
+        "time": 0.07569000002695248
+      },
+      {
+        "url": "https://b1img.com/9d8f53cd2b864fa8aa323144431bef11/eu_tag?type=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 320,
+        "remoteIPAddress": "34.102.245.58",
+        "responseHeaders": {
+          "set-cookie": "visitor=\"\"; expires=Wed, 15 Dec 2021 16:11:05 GMT; Path=/\nuuid=\"\"; expires=Wed, 15 Dec 2021 16:11:05 GMT; Path=/"
+        },
+        "responseBodyHash": "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57",
+        "initiators": [
+          "https://js.b1js.com/tagcontainer.js?id=9d8f53cd2b864fa8aa323144431bef11&type=1",
+          "https://tags.b1js.com/tags/9d8f53cd2b864fa8aa323144431bef11.js"
+        ],
+        "time": 0.14803699997719377
+      },
+      {
+        "url": "https://rp.liadm.com/j?dtstmp=1639584666464&aid=a-00h6&se=e30&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&tna=v2.3.0&pu=https%3A%2F%2Fwww.alibris.co.uk%2F&wpn=lc-bundle&c=PHRpdGxlPkFsaWJyaXMgVUsgLSBCdXkgbmV3IGFuZCBzZWNvbmQtaGFuZCBib29rcywgdGV4dGJvb2tzLCBtdXNpYyBhbmQgbW92aWVzPC90aXRsZT48aDE-QWxpYnJpcyBpcyBZb3VyIFNvdXJjZSBmb3IgQm9va3MsIE11c2ljICZhbXA7IE1vdmllczwvaDE-&n3pc=true",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 584,
+        "remoteIPAddress": "52.5.181.6",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.alibris.co.uk",
+          "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+          "set-cookie": "lidid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269; Max-Age=63072000; Expires=Fri, 15 Dec 2023 16:11:06 GMT; SameSite=None; Path=/; Domain=.liadm.com; Secure; HTTPOnly"
+        },
+        "responseBodyHash": "efabba3678b85fcab831b778ea2ddaad1e2a1e952584d3566bc39b7ccb3429d9",
+        "redirectedFrom": "https://rp.liadm.com/j?dtstmp=1639584666464&aid=a-00h6&se=e30&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&tna=v2.3.0&pu=https%3A%2F%2Fwww.alibris.co.uk%2F&wpn=lc-bundle&c=PHRpdGxlPkFsaWJyaXMgVUsgLSBCdXkgbmV3IGFuZCBzZWNvbmQtaGFuZCBib29rcywgdGV4dGJvb2tzLCBtdXNpYyBhbmQgbW92aWVzPC90aXRsZT48aDE-QWxpYnJpcyBpcyBZb3VyIFNvdXJjZSBmb3IgQm9va3MsIE11c2ljICZhbXA7IE1vdmllczwvaDE-",
+        "initiators": [
+          "https://b-code.liadm.com/a-00h6.min.js"
+        ],
+        "time": 0.10834099998464808
+      },
+      {
+        "url": "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1162,
+        "remoteIPAddress": "52.0.211.241",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, max-age=0",
+          "etag": "1.61803398874",
+          "set-cookie": "_li_ss=MgUIBhCOETIFCAoQjhEyBQh-EI0RMgYIiwEQjhEyBQgLEI4RMgUIDBCOETIFCHkQjRE; Max-Age=2592000; Expires=Fri, 14 Jan 2022 16:11:07 GMT; SameSite=None; Path=/s; Secure"
+        },
+        "responseBodyHash": "9a988f45740d5a7b3c204215aadb5fbf09a1bd9c751d8ae0af04125686c53829",
+        "initiators": [
+          "https://b-code.liadm.com/sync-container.js",
+          "https://b-code.liadm.com/a-00h6.min.js"
+        ],
+        "time": 0.4443899999605492
+      },
+      {
+        "url": "https://www.sitejabber.com/save-cookie?n=siteJabberTracking&v=ReviewBadgeWidget&e=14&rnd=0.5085381815909185",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 793,
+        "remoteIPAddress": "54.236.238.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.alibris.co.uk",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "plain-siteJabberTracking=ReviewBadgeWidget; expires=Wed, 29-Dec-2021 16:11:07 GMT; Max-Age=1209600; path=/; domain=.sitejabber.com; secure; SameSite=None\nsiteJabberTracking=Q2FrZQ%3D%3D.M2FjYTE0NjhkYWU4NDcxYzgyZDAzMTE5NDRiZWJkNGM0YjUzMWQ3Y2FiNjU1OTFhMzRjZTZkODYwNzU1MTMyMmX%2FqWpAn6OkBVNlnbOjKvWpd6ECbh%2BFY9N0NXaSKuFAyoUJaF6MHrrN2Ev8Cv2UrA%3D%3D; expires=Wed, 29-Dec-2021 16:11:07 GMT; Max-Age=1209600; path=/; domain=.sitejabber.com; secure; SameSite=None"
+        },
+        "responseBodyHash": "3d23d39a30bb7323f8ccfd64c52cf286138fba4f83e78f7edcf66703b7c23aaa",
+        "initiators": [
+          "https://static.sitejabber.com/js/widget.min.1635181051.js",
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.19292699999641627
+      },
+      {
+        "url": "https://static.sitejabber.com/img/svg/sitejabber-logo-white.1629291774.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2086,
+        "remoteIPAddress": "52.222.138.33",
+        "responseHeaders": {
+          "cache-control": "public, max-age=15552000",
+          "etag": "W/\"ef2-5c9d50d7333d1\""
+        },
+        "responseBodyHash": "59ef7c190a48f890900e0d93969b76ef31b2348ca9145de97c6a450b5b51e5e4",
+        "initiators": [
+          "https://static.sitejabber.com/js/widget.min.1635181051.js",
+          "https://www.alibris.co.uk/"
+        ],
+        "time": 0.008796000038273633
+      },
+      {
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=36&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D7156%26muid%3D%5BMM_UUID%5D&d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "185.29.132.241",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Wed, 15 Dec 2021 16:11:06 GMT",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "uuid=530561ba-139a-4600-9276-23ec8811284b; domain=.mathtag.com; path=/; expires=Thu, 12-Jan-2023 16:11:06 GMT; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i.liadm.com/s/e/a-00h6/0/407acd82e17c44029d0b1224fef443fd?mpid=7156&muid=530561ba-139a-4600-9276-23ec8811284b",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.12129799998365343
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=liveintent&ttd_tpi=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "3.33.220.150",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, must-revalidate",
+          "p3p": "CP=\"NOI DSP COR CUR ADMo DEVo PSAo PSDo OUR SAMo BUS UNI NAV\"",
+          "pragma": "no-cache",
+          "set-cookie": "TDID=5a0a7cc4-a367-4659-bbce-e3009c0c08a0; domain=.adsrvr.org; expires=Thu, 15-Dec-2022 16:11:07 GMT; path=/; secure; SameSite=None\nTDCPM=CAEYBSgCMgsIuruUuof8nzoQBTgB; domain=.adsrvr.org; expires=Thu, 15-Dec-2022 16:11:07 GMT; path=/; secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=liveintent&ttd_tpi=1",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.11214399995515123
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=127444&dpuuid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D82775%26muid%3D%24%7BDD_UUID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "54.72.239.169",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=11111217081793446841522734154298497508; Max-Age=15552000; Expires=Mon, 13 Jun 2022 16:11:07 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=127444&dpuuid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D82775%26muid%3D%24%7BDD_UUID%7D",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.14538100000936538
+      },
+      {
+        "url": "https://x.dlx.addthis.com/e/live_intent_sync?na_exid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.80.225.228",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:11:07 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "na_id=2021121516110700011295926787; Path=/; Domain=addthis.com; Max-Age=34214400; Secure; SameSite=None\nna_tc=Y; Path=/; Domain=addthis.com; Max-Age=34214400; Secure; SameSite=None\nuid=61ba139b9cef5a4e; Path=/; Domain=addthis.com; Max-Age=34214400; Secure; SameSite=None\nouid=61ba139b00015c203165a5d0e7db6340ab081d2c0b771206871f; Path=/; Domain=addthis.com; Max-Age=34214400; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://x.dlx.addthis.com/e/live_intent_sync?na_exid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&rd=Y",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.1860480000032112
+      },
+      {
+        "url": "https://x.bidswitch.net/syncd?dsp_id=256&user_group=2&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=%2F%2Fi.liadm.com%2Fs%2F52176%3Fbidder_id%3D5298%26bidder_uuid%3D%24%7BBSW_UID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "18.196.134.58",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "tuuid=30d5f5b3-896b-4d4d-944b-944d33618e17; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\nc=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\ntuuid_lu=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\nc=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://x.bidswitch.net/ul_cb/syncd?dsp_id=256&user_group=2&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=%2F%2Fi.liadm.com%2Fs%2F52176%3Fbidder_id%3D5298%26bidder_uuid%3D%24%7BBSW_UID%7D",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.07300400000531226
+      },
+      {
+        "url": "https://x.bidswitch.net/sync?ssp=liveintent&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "18.196.134.58",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "tuuid=074181ef-5bb9-44d2-b306-bb3ca183f551; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\nc=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\ntuuid_lu=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\nc=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://x.bidswitch.net/ul_cb/sync?ssp=liveintent&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.07376800000201911
+      },
+      {
+        "url": "https://trc.taboola.com/sg/liveintent/1/cm/",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 229,
+        "remoteIPAddress": "199.232.149.44",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c37e5682407d07e7974304b5334721abfcaaf80533aa565ee3a2f66de1f6676f",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.044861000031232834
+      },
+      {
+        "url": "https://x.bidswitch.net/ul_cb/syncd?dsp_id=256&user_group=2&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=%2F%2Fi.liadm.com%2Fs%2F52176%3Fbidder_id%3D5298%26bidder_uuid%3D%24%7BBSW_UID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "18.196.134.58",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "tuuid=074181ef-5bb9-44d2-b306-bb3ca183f551; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\ntuuid_lu=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i.liadm.com/s/52176?bidder_id=5298&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "redirectedFrom": "https://x.bidswitch.net/syncd?dsp_id=256&user_group=2&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=%2F%2Fi.liadm.com%2Fs%2F52176%3Fbidder_id%3D5298%26bidder_uuid%3D%24%7BBSW_UID%7D",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.03511400002753362
+      },
+      {
+        "url": "https://x.bidswitch.net/ul_cb/sync?ssp=liveintent&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "18.196.134.58",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "tuuid=074181ef-5bb9-44d2-b306-bb3ca183f551; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure\ntuuid_lu=1639584667; path=/; expires=Thu, 15-Dec-2022 16:11:07 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.g.doubleclick.net/pixel?google_nid=bidswitch_dbm&google_cm&google_sc&ssp=liveintent&bsw_param=074181ef-5bb9-44d2-b306-bb3ca183f551&google_hm=MDc0MTgxZWYtNWJiOS00NGQyLWIzMDYtYmIzY2ExODNmNTUx",
+        "redirectedFrom": "https://x.bidswitch.net/sync?ssp=liveintent&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.03487099998164922
+      },
+      {
+        "url": "https://i.liadm.com/s/52176?bidder_id=5298&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "method": "GET",
+        "type": "Image",
+        "status": 303,
+        "remoteIPAddress": "52.0.211.241",
+        "responseHeaders": {
+          "set-cookie": "_li_ss=MgUIBhCOETIFCAoQjhEyBQh-EI0RMgYIiwEQjhEyBQgLEI4RMgUIDBCOETIFCHkQjREyCQj_____BxCOEQ; Max-Age=2592000; Expires=Fri, 14 Jan 2022 16:11:07 GMT; SameSite=None; Path=/s; Secure\nlidid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269; Max-Age=63072000; Expires=Fri, 15 Dec 2023 16:11:07 GMT; SameSite=None; Path=/; Domain=liadm.com; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i6.liadm.com/s/52176?bidder_id=5298&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "redirectedFrom": "https://x.bidswitch.net/ul_cb/syncd?dsp_id=256&user_group=2&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=%2F%2Fi.liadm.com%2Fs%2F52176%3Fbidder_id%3D5298%26bidder_uuid%3D%24%7BBSW_UID%7D",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.10512999998172745
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bidswitch_dbm&google_cm&google_sc&ssp=liveintent&bsw_param=074181ef-5bb9-44d2-b306-bb3ca183f551&google_hm=MDc0MTgxZWYtNWJiOS00NGQyLWIzMDYtYmIzY2ExODNmNTUx",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "172.217.168.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "IDE=AHWqTUkBmcZgxv6qe5jyIRNcN56dkngVLfNK6m-2Or8CfVZa0dCv28vZSutdSw0cgfk; expires=Mon, 09-Jan-2023 16:11:07 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://x.bidswitch.net/sync?dsp_id=16&user_id=CAESEHb6NiJIRmTQMxAr8tMI5cw&google_cver=1&ssp=liveintent&bsw_param=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "redirectedFrom": "https://x.bidswitch.net/ul_cb/sync?ssp=liveintent&user_id=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.07189700001617894
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=liveintent&ttd_tpi=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "3.33.220.150",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, must-revalidate",
+          "p3p": "CP=\"NOI DSP COR CUR ADMo DEVo PSAo PSDo OUR SAMo BUS UNI NAV\"",
+          "pragma": "no-cache",
+          "set-cookie": "TDID=5a0a7cc4-a367-4659-bbce-e3009c0c08a0; domain=.adsrvr.org; expires=Thu, 15-Dec-2022 16:11:07 GMT; path=/; secure; SameSite=None\nTDCPM=CAESGQoKbGl2ZWludGVudBILCPiP5Y3x-586EAUYBSABKAIyCwi6u5S6h_yfOhAFOAE.; domain=.adsrvr.org; expires=Thu, 15-Dec-2022 16:11:07 GMT; path=/; secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i.liadm.com/s/35759?bidder_id=44489&bidder_uuid=5a0a7cc4-a367-4659-bbce-e3009c0c08a0",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=liveintent&ttd_tpi=1",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.047993000014685094
+      },
+      {
+        "url": "https://i.liadm.com/s/e/a-00h6/0/407acd82e17c44029d0b1224fef443fd?mpid=7156&muid=530561ba-139a-4600-9276-23ec8811284b",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 285,
+        "remoteIPAddress": "52.0.211.241",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://sync.mathtag.com/sync/img?mt_exid=36&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D7156%26muid%3D%5BMM_UUID%5D&d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.20151300000725314
+      },
+      {
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=127444&dpuuid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D82775%26muid%3D%24%7BDD_UUID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "54.72.239.169",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "dpm=11111217081793446841522734154298497508; Max-Age=15552000; Expires=Mon, 13 Jun 2022 16:11:07 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None\ndemdex=11111217081793446841522734154298497508; Max-Age=15552000; Expires=Mon, 13 Jun 2022 16:11:07 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i.liadm.com/s/e/a-00h6/0/407acd82e17c44029d0b1224fef443fd?mpid=82775&muid=11111217081793446841522734154298497508",
+        "redirectedFrom": "https://dpm.demdex.net/ibs:dpid=127444&dpuuid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D82775%26muid%3D%24%7BDD_UUID%7D",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.046506999991834164
+      },
+      {
+        "url": "https://i.liadm.com/s/35759?bidder_id=44489&bidder_uuid=5a0a7cc4-a367-4659-bbce-e3009c0c08a0",
+        "method": "GET",
+        "type": "Image",
+        "status": 303,
+        "remoteIPAddress": "52.0.211.241",
+        "responseHeaders": {
+          "set-cookie": "_li_ss=MgUIBhCOETIFCAoQjhEyBQh-EI0RMgYIiwEQjhEyBQgLEI4RMgUIDBCOETIFCHkQjREyCQj_____BxCOEQ; Max-Age=2592000; Expires=Fri, 14 Jan 2022 16:11:07 GMT; SameSite=None; Path=/s; Secure\nlidid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269; Max-Age=63072000; Expires=Fri, 15 Dec 2023 16:11:07 GMT; SameSite=None; Path=/; Domain=liadm.com; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i6.liadm.com/s/35759?bidder_id=44489&bidder_uuid=5a0a7cc4-a367-4659-bbce-e3009c0c08a0",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=liveintent&ttd_tpi=1",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.2726029999903403
+      },
+      {
+        "url": "https://x.bidswitch.net/sync?dsp_id=16&user_id=CAESEHb6NiJIRmTQMxAr8tMI5cw&google_cver=1&ssp=liveintent&bsw_param=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "18.196.134.58",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "licd=; path=/; expires=Mon, 01-Mar-2004 00:00:00 GMT; domain=.bidswitch.net; samesite=none; secure\nbsw_origin_init=; path=/; expires=Mon, 01-Mar-2004 00:00:00 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i.liadm.com/s/52164?bidder_id=5298&licd=&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=bidswitch_dbm&google_cm&google_sc&ssp=liveintent&bsw_param=074181ef-5bb9-44d2-b306-bb3ca183f551&google_hm=MDc0MTgxZWYtNWJiOS00NGQyLWIzMDYtYmIzY2ExODNmNTUx",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.025383999978657812
+      },
+      {
+        "url": "https://x.dlx.addthis.com/e/live_intent_sync?na_exid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&rd=Y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 602,
+        "remoteIPAddress": "104.80.225.228",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:11:07 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "na_id=2021121516110700011295926787;Path=/;Version=1;Comment=;Domain=addthis.com;Max-Age=34214400;Secure;SameSite=None\nna_tc=Y;Path=/;Version=1;Comment=;Domain=addthis.com;Max-Age=34214400;Secure;SameSite=None\nuid=61ba139b9cef5a4e;Path=/;Version=1;Comment=;Domain=addthis.com;Max-Age=34214400;Secure;SameSite=None\nouid=61ba139b00015c203165a5d0e7db6340ab081d2c0b771206871f;Path=/;Version=1;Comment=;Domain=addthis.com;Max-Age=34214400;Secure;SameSite=None\nna_sc_x=1;Path=/;Version=1;Comment=;Domain=dlx.addthis.com;Max-Age=2592000;Secure;SameSite=None"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "redirectedFrom": "https://x.dlx.addthis.com/e/live_intent_sync?na_exid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.15604099998017773
+      },
+      {
+        "url": "https://i.liadm.com/s/e/a-00h6/0/407acd82e17c44029d0b1224fef443fd?mpid=82775&muid=11111217081793446841522734154298497508",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 285,
+        "remoteIPAddress": "52.0.211.241",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=127444&dpuuid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269&redir=https%3A%2F%2Fi.liadm.com%2Fs%2Fe%2Fa-00h6%2F0%2F407acd82e17c44029d0b1224fef443fd%3Fmpid%3D82775%26muid%3D%24%7BDD_UUID%7D",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.2293099999660626
+      },
+      {
+        "url": "https://i.liadm.com/s/52164?bidder_id=5298&licd=&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "method": "GET",
+        "type": "Image",
+        "status": 303,
+        "remoteIPAddress": "52.0.211.241",
+        "responseHeaders": {
+          "set-cookie": "_li_ss=MgUIBhCOETIFCAoQjhEyBQh-EI0RMgYIiwEQjhEyBQgLEI4RMgUIDBCOETIFCHkQjREyCQj_____BxCOEQ; Max-Age=2592000; Expires=Fri, 14 Jan 2022 16:11:07 GMT; SameSite=None; Path=/s; Secure\nlidid=d7af82d5-eaca-4e1b-9a53-d4d7bd9b5269; Max-Age=63072000; Expires=Fri, 15 Dec 2023 16:11:07 GMT; SameSite=None; Path=/; Domain=liadm.com; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://i6.liadm.com/s/52164?bidder_id=5298&licd=&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "redirectedFrom": "https://x.bidswitch.net/sync?dsp_id=16&user_id=CAESEHb6NiJIRmTQMxAr8tMI5cw&google_cver=1&ssp=liveintent&bsw_param=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.27493100002175197
+      },
+      {
+        "url": "https://i6.liadm.com/s/52176?bidder_id=5298&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 285,
+        "remoteIPAddress": "34.199.214.84",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://i.liadm.com/s/52176?bidder_id=5298&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.30865399999311194
+      },
+      {
+        "url": "https://i6.liadm.com/s/35759?bidder_id=44489&bidder_uuid=5a0a7cc4-a367-4659-bbce-e3009c0c08a0",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 285,
+        "remoteIPAddress": "34.199.214.84",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://i.liadm.com/s/35759?bidder_id=44489&bidder_uuid=5a0a7cc4-a367-4659-bbce-e3009c0c08a0",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.203436000039801
+      },
+      {
+        "url": "https://i6.liadm.com/s/52164?bidder_id=5298&licd=&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 285,
+        "remoteIPAddress": "34.199.214.84",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://i.liadm.com/s/52164?bidder_id=5298&licd=&bidder_uuid=074181ef-5bb9-44d2-b306-bb3ca183f551",
+        "initiators": [
+          "https://i.liadm.com/s/c/a-00h6?s=&cim=&ps=true&ls=true&duid=f25efd648ad3--01fpzds4mdnrp2hwy8w0hhrt5b&ppid=0&euns=0&ci=0&version=sc-v0.2.0&nosync=false&monitorExternalSyncs=false&"
+        ],
+        "time": 0.2622119999723509
+      }
+    ]
+  }
+}

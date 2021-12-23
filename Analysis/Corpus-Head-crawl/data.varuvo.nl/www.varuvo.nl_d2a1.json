@@ -1,0 +1,685 @@
+{
+  "initialUrl": "https://www.varuvo.nl/nl/assortiment/prijswijzigingen/?geschiedenis=1",
+  "finalUrl": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+  "timeout": false,
+  "testStarted": 1640110487475,
+  "testFinished": 1640110503663,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.varuvo.nl/links.www.varuvo.nl_d2a1.json",
+    "requests": [
+      {
+        "url": "https://www.varuvo.nl/nl/assortiment/prijswijzigingen/?geschiedenis=1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "referrer-policy": "same-origin",
+          "set-cookie": "PHPSESSID=01sca8529l9laut7hp4k1eaq8u; path=/; secure; HttpOnly; SameSite=Strict"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "initiators": [],
+        "time": 0.0373130000079982
+      },
+      {
+        "url": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 4527,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "9ce0d8df579d120d354f5da4ca685907b6bee4705ef4bd8095346f2ead1ad714",
+        "redirectedFrom": "https://www.varuvo.nl/nl/assortiment/prijswijzigingen/?geschiedenis=1",
+        "initiators": [],
+        "time": 0.012944999994942918
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/style-with-skeleton.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 2906,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2a4d-5c79fe7f82892-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "19899b4fe1224eab509be3e9abc629b259dddc236346d68aa7e187ca558511ea",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.011094000001321547
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 34286,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"17b8b-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.033007999998517334
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery-migrate-1.2.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 3593,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1c20-4f0273ede7600-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c4d24f6b27cc7ceea56fbec786bb1f486fdad9a1f998f760f76d1f44671e105c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.0279830000072252
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.watermark.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 2332,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"135d-5771af1eb51f3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "37a67731e5d452edb691d4a8cafe39f353bd8bb42dc8b2eb1a2ea9f8e84c9ae7",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.0684049999981653
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/CookieJar.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1820,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"cb4-5c7b52606bd87-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "abfcb4064d03f21c55a859b5f51009e31a2ded58d8ade82f2975f0910aaef2d1",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.0687199999956647
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/I18N.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1179,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"620-5771af1eb51f3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "0d5fd522b768c31376f00ce7adef74a30241d64c64e84103ba7a275b79c3f3d9",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.06789600000774954
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/i18n/nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 708,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"112-5c7b52606cd27-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "4191d29698665d6be2a9a1b2679ebea61ee7ab74a579c0c88e6361fa0a110a1c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.06820200000947807
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/site.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 2560,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"12fc-5c7b52606ec67-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e4e127315323a1f9ee2ba98bdb1374c63d537c5efad87161284b41943fac933b",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.0883999999932712
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/tooltipster/dist/css/tooltipster.bundle.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1626,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"195f-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "41ce2509fa9959868717986010e16b6334885fd46bc64d0d3c745a73ed3c41e4",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.05803099999320693
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/tooltipster/dist/js/tooltipster.bundle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 10714,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"9b08-5771ad7522d0e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "fe2c149df0cbff9d71a735fbd47e39d9dd9a7a5957c439158e43b5a57c1cddd3",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.08172200000262819
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/jquery.validate.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 8339,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"5f38-5c7b52606dcc7-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "328dd32ad02a8c9edd0f99a407cbfe22c6c98eadb551c8fbe77ffc084b756c12",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.08201299999200273
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/jquery.validate.site.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 5801,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"45d6-5ce291fa7a04c-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c386482bf6472d0aa10dc275607cc4010a1be8f2854f5b0c8986f9e51c58c1f8",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.08121799999207724
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/localization/messages_nl.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1203,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"714-5c7b52606dcc7-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c34d283cd287ae6866d4c3ad02396d19212728912089269d8b843586981a3f26",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.07854099999531172
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/localization/methods_nl.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 884,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"23a-5c7b52606dcc7-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c4350e6266e4af1f7c287e8347bdd87a961243ce70edc8e0f0709e4a909065c0",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.0955439999961527
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/jquery.validate.site.nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1277,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"5a0-5c7b52606dcc7-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "b1ac95dcb52c5b8b718fa7c13e4e85b426788a89c382201fef3f70870381a831",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.09545500000240281
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/handlerFactory/tooltipster-error.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 944,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"894-5c7b52606cd27-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c4d44469556abccd952a4eed7053b404565593a150b22700b80a4b3abf1d3ffd",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.05666799999016803
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/validate/handlerFactory/tooltipster.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1213,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"613-5c7b52606cd27-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "26a857341d6a65aca24e911f8ab31a9c9e961fa3d64d4015aceb172001457949",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.09493300000031013
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.cookie.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1204,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"505-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "cec15a7b8154ec3ca9e3969429cbac4d5c829502f1ac2f748304fe781f66611d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.09503700000641402
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/cookiecuttr/cookiecuttr-custom.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1129,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"8e6-5597eb722e6f2-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "47f6d1f55ff87ef2c167e5a66934338e60b5805e9a24c26eb50c9640418bcfc6",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.07519699999829754
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/cookiecuttr/jquery.cookiecuttr.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 2151,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1793-5771ad7520dcf-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "013f5b4be588408c415c32abb1a666dd85d38ddf669b4ae488ada060555894aa",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.07078300000284798
+      },
+      {
+        "url": "https://www.varuvo.nl/include/img/flags/nl_checked.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1594,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"470-5771ad7520dcf\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e36308b8948b9518c32c47bdc1833cf8047a6913380e0aec9d5ab8f6d5eea311",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.14040299999760464
+      },
+      {
+        "url": "https://www.varuvo.nl/include/img/flags/fr.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 1486,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"404-5771ad7520dcf\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "71b23055bb2ce2096229ca420f20374d41e4de44785799a196faf48edd13515e",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.14112400000158232
+      },
+      {
+        "url": "https://www.varuvo.nl/include/skin/img/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 5048,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"11ed-55903feb3d879\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "1a7a31e3f3b7a5beb6b4039ee8f7cd2b59936aaab49ab86635c0e5abaf0341ea",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.16087199999310542
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/print.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 622,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"7f-5597eb70f6ec2-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "7ef81d320d50611374d5108c079a18b503672bd9deddee33cf308bd8602fc30f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.15801600000122562
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/0800-0967.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 803,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"218-5b5e891ea1f53-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "25f08ff81ca61d51b5f110700e55ba3bc99edd94ac56cab8024d39bdc8094b95",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.029903000002377667
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/0968-1023.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 762,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"19e-5b5e8921e6df3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "374990f622b99592c93e4a5f09a80a0ae5599c16d944f8395837defd09e9a03d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.029585000011138618
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/1024-1279.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1",
+        "status": 200,
+        "size": 757,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"18e-5b5e859e491d3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "6fbd36d6a359efa7ba584a2035ba52f207ff6a3e0f5ad6606c59e716d4acee9f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.029460999998264015
+      },
+      {
+        "url": "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Tue, 21 Dec 2021 20:18:19 GMT"
+        },
+        "responseBodyHash": "16cc547456ffa0052c3679e6c5ece2e14ad57c92b93562deb7bcb5829b7afcb7",
+        "redirectedTo": "https://static.zdassets.com/ekr/asset_composer.js",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.2388619999983348
+      },
+      {
+        "url": "https://static.zdassets.com/ekr/asset_composer.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 6341,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, s-maxage=60",
+          "etag": "W/\"cc904f41324148b571599b3b02fdec0b\""
+        },
+        "responseBodyHash": "16cc547456ffa0052c3679e6c5ece2e14ad57c92b93562deb7bcb5829b7afcb7",
+        "redirectedFrom": "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "initiators": [
+          "https://www.varuvo.nl/nl/auth/login/?from=%2Fnl%2Fassortiment%2Fprijswijzigingen%2F%3Fgeschiedenis%3D1"
+        ],
+        "time": 0.0355379999964498
+      },
+      {
+        "url": "https://ekr.zdassets.com/compose/zopim_chat/2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 910,
+        "remoteIPAddress": "104.18.70.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public, s-maxage=60, stale-while-revalidate=600, stale-if-error=3600",
+          "etag": "W/\"e9d01a7ad99186f1a9a6a82323156dd4\""
+        },
+        "responseBodyHash": "e9d01a7ad99186f1a9a6a82323156dd4337e7182d50754b5f64d71af7cbd0e4e",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.19992899999488145
+      },
+      {
+        "url": "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Tue, 21 Dec 2021 22:14:48 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://v2.zopim.com/bin/v/widget_v2.329.js",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.03854199999477714
+      },
+      {
+        "url": "https://v2.zopim.com/bin/v/widget_v2.329.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 249623,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "W/\"5ee087b5-102db5\"",
+          "expires": "Fri, 19 Dec 2031 18:14:48 GMT"
+        },
+        "responseBodyHash": "16b857516acd23561758c98ebe75b2a49731a0052fbaffa8918dfe22e8ba3fff",
+        "redirectedFrom": "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.048799000011058524
+      },
+      {
+        "url": "wss://widget-mediator.zopim.com/s/W/ws/y0ZSgiFLzrEYufOF/c/1640110488727",
+        "type": "WebSocket",
+        "initiators": [
+          "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ]
+      },
+      {
+        "url": "https://v2.zopim.com/lib/20200610.071112/__$$__stringtable_lang_nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2200,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "W/\"5ee087b3-1786\"",
+          "expires": "Fri, 19 Dec 2031 18:14:48 GMT"
+        },
+        "responseBodyHash": "520bb68f4006f6aac151578b09e41e429ded957daed4541960bdef94e4690b2c",
+        "initiators": [
+          "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.02260400001250673
+      }
+    ]
+  }
+}

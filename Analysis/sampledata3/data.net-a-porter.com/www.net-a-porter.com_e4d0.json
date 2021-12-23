@@ -1,0 +1,2806 @@
+{
+  "initialUrl": "https://www.net-a-porter.com/",
+  "finalUrl": "https://www.net-a-porter.com/en-nl/",
+  "timeout": false,
+  "testStarted": 1639670841782,
+  "testFinished": 1639670866154,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.net-a-porter.com\\links.www.net-a-porter.com_e4d0.json",
+    "requests": [
+      {
+        "url": "https://www.net-a-porter.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "TS01fbb578=01231dfb7fc0b9517e562f067afbfaba518e9e63320d1a78bd09b6e38166538c5bd4b7110d708dfdd9ae9ff797445588de4383cd86; Path=/; Secure; HTTPOnly\nY-City=NL--; path=/; domain=.www.net-a-porter.com; secure\ngeoIP=NL; path=/; domain=.www.net-a-porter.com; secure; SameSite=Lax\nAKA_A2=A; expires=Thu, 16-Dec-2021 17:07:22 GMT; path=/; domain=net-a-porter.com; secure; HttpOnly\n_abck=8D27DDFD62F43B73E3CFF20BA2C507A3~-1~YAAQtlozuMZ2OrV9AQAAmYP/wwc2NJEhiEpTW7v6kYDxtxw2CeK9e8VLWHAVYCi9z2flGwSaoyhS7buDDkymb+3IAUWCi26nod/KhWQxhVvemDLWVUNFEU0hqMioJnl4vPgiJslGlQ8HfOJ92YYCjG5x4q+l8PAtnfpsqSUMnuEyz4T6+AWatcKGnzBTbIFDFl8Zjmqqwn3/7xTZzpbkG+lV0D9NpcWbZ9Ss1wvv6c7FUnrbVLLcBThhdPWLUhrUtuOdVcHN8MYT/n/GM86EqoHLbMrOihaAmdoyh7OAdTtlL2+yB+YQcIVaXdpcwPOEHMfg6JanjppGzE4nICGdHVh1dKO5IIcl0z/cfU8MvS7Y7USHUtw6pFGhbmW5wemeohk=~-1~-1~1639674404; Domain=.net-a-porter.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:22 GMT; Max-Age=31536000; Secure\nbm_sz=495CDB456050846C6D7FF4960B7BD123~YAAQtlozuMd2OrV9AQAAmYP/ww4/azE4bXoc82RRNa4LjBMyZ371iA0uSSGWaVWWvgG6MARHa2hWBHMcTFzaQqIAmok1yDh9gwVdvEe+zc60yAb3MbW1PzWC9/JW9JScFM0XA2x+YRaRC9tTl9su4Y+coUJeWsyonHQ1aPUaJQ1yCqJJlxhnm2ey6hgYRT1zMEXKbbdWkbFMl59BacgmMTB+It6BizhIaDfkTQepPbNCzSokOmOYiyTeFrnfcVsIcesaoR0tktqfl5JwGPTuawVbzlGGKf/QiX7QhpKM87y2HNW5L9/CQxw=~3487044~3683892; Domain=.net-a-porter.com; Path=/; Expires=Thu, 16 Dec 2021 20:07:22 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.net-a-porter.com/en-nl/",
+        "initiators": [],
+        "time": 0.1751869999570772
+      },
+      {
+        "url": "https://www.net-a-porter.com/en-nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 65970,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "bm_mi=479486CA2DCC38BAEA8B8A9ACAB91703~bW6kEBfzWdKS0m70z2WfEMvlpo1Q4RDxRf4lTiURCqkiwBoTP06Tr+/B0tPo0FXbRGn1J1KPtwssBtAy+f2f4CO2RehaoJckkGAzM6TL+gShdj6cIGsVhgt7W1Il51tOqdChzdJBIQIDxj4MBB2hj/KxRfNWwtWpwMMobf2TAiQvGjhCVWUxBFUvbFGgSkRr5bSDLAejAgY2r796RTw2bGHiY+qkkkeSXzQxd+06rKg=; Domain=.net-a-porter.com; Path=/; Max-Age=0; HttpOnly\nak_bmsc=F220B3749B5F66559DD9A9AEC6C0FB64~000000000000000000000000000000~YAAQtlozuNF2OrV9AQAAu4P/ww7I8q9uFyxo019v3SiD0YZ0N+SnpjeMf6EYI3bM8RyNQIV4ZeBMGco0bBV5mvCVUNp7+g0OCFSl8IuSGJ2CKFwvgcZgYCJp97JskFcjETBg/ctTC/qk0e8qT1IXI5bSvkC24OzqIPVyE/Ik+ZX/5PKXcMZteP0vznvFUrT7DSORqxiIaO2zlapprkHmGEmJRi+FI8VqO76VKFrwYC6GbLF9cFaajpZih/46Q+4levP+2zNHgRm//qHkDYIkuApECTwzh+xpETHq7LE4+mhlpXuAdZIS+ZvwFovIYtOQFxR86CMrsr03YC1DU5es7zfRj8KqZ7PF1w1AA7GHQVZx8PTVcnAOWm+mMGCvF3XoEEOsU7dG+BBSOHvuSZDbLg0=; Domain=.net-a-porter.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:22 GMT; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "461aedcd328863931dfd3df80c2e692c016ced6c0739b2cc36a8d13da1ac23ee",
+        "redirectedFrom": "https://www.net-a-porter.com/",
+        "initiators": [],
+        "time": 0.16392700001597404
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/fonts/akkuratproregular-6af33340.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 24186,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"6af3334012b6aa6b617b245900be95cb\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e02dd6b5898076b7600500c3fe98b72fa907cfceed7a5a3ff4e60f02bc90c708",
+        "initiators": [],
+        "time": 0.11079800000879914
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/fonts/akkuratprobold-667601e9.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 24264,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"667601e95ae3f4f906dd09ed4d89ea31\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "367e2585cfbe10190987f44fc6b514442753226e96b6bac9c2a7a4e51cb93878",
+        "initiators": [],
+        "time": 0.1349019999615848
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/fonts/chronicledisplay-b7d97994.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 14899,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"b7d9799426f85aaf58cae1b832937b92\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "10cda1a3a4bc3f712ffe9846de519e11a5d753da912df7548576735d7e2a8837",
+        "initiators": [],
+        "time": 0.14452400000300258
+      },
+      {
+        "url": "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 50365,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"0x8D8E22D74D3CBDA\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "649d84a74bd002c22bc1a26d2b8b92543a58ffebbc635759491c911b43c6aa95",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.1288479999639094
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 70308,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"ad484fe81e445bf26301b07e14261faa\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "Y-City=NL--; path=/; domain=.www.net-a-porter.com; secure\ngeoIP=NL; path=/; domain=.www.net-a-porter.com; secure; SameSite=Lax"
+        },
+        "responseBodyHash": "ba21f9c0f1865786094de8c583547408193b4d4bb76c430dc192ad0eca1985ca",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.018403999973088503
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 504242,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"5cc8419b82f8add5a72410df885e1abc\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e22084073d0be6a30300a7040456b60059691b3c1de1191125531997c6e6b20b",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.5212619999656454
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 1216,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"2589795dbe92ee3be53beeb1935adca4\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "4b747b9e10e3584ed030dd126f0ee831cb7d84c62d93ab5a5bf19c340067fa55",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.17001499992329627
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 13807,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"2c1b909842f9c1ea86ff8b900fd789ac\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8299f8eef2dc6f1febbdc24a9e63a4133ee1d79ac2c579934aae2d4c02c56720",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.20412500004749745
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 12352,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"9b41ea53bdc1972e197d191bc088ef13\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "2669542e28f995d0ab7376e38e5983aa2dd12333abad361a786711b42c4db62e",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.27418399997986853
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/pages/_app-db3f3c17139ad0fb7ada.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 1762,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"5e2f62f6f5ff73f983ad44d5e566e40b\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f8a338ac30f7182f350d2e01d293c3b3e75f5518887755b9b525b12766ba3898",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.19981599994935095
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/framework.b8f3eb8bcaae4060f23f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 995,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"96b289b7c48b8e70dea87ac3e17e8e8d\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "68bb9b3a0af646e02d615763b132d86f7193a0d1d42a7006c28793534baa864e",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.2269790000282228
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 287143,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"146f5b9c0c08a849d8db0d3ef47e62ee\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a0f2e24af9d513bc33b6eb42a00c29c7d1aef7d731db958546148a1f38fea9d2",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.45274800003971905
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 22749,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"2cdb301fca5a593a4b4480e9d763ee6e\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f0d89b060e3b205601e01b38f9fd40b0e2427483e62d48b48e0f5841436d5fc7",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.2819679999956861
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/chunks/pages/NAPHomepage-158fc213fc2d5f3bc76a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 14473,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"0ea5d98633bc07930dd868137f6b3acb\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7ab824dba776234c0a060cfe3e1a21e362070f719599131789ab142e91a7e322",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.272463999921456
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/nap-LocaleSwitchOverlay-1922ab9e.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 4732,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"72ec4f577fca589dec4183ce2194928b\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b96759f8426cf2f17297c684416ffcb65de498f781298a275e2f4ee981057721",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.361754999961704
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/nap-SearchOverlay-b30ddd8d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 4406,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"1f981942f3de85790b691aa465002a36\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "77a9e21e9e2e7e6c7f0b236c2fd54505d7eab1edb65156b8afbbb5af8562f9d7",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.3767509999452159
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/nap-vendors~LocaleSwitchOverlay-0e17b3fa.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 7235,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"36393177678d5d446d283b7b61b8c3e8\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "51dbf095d7ac389666c4c37d8160b591625aad39ba3c882a0536d7e47ff02395",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.37521600001491606
+      },
+      {
+        "url": "https://cdn-pci.optimizely.com/public/3533800155/s/nap_home.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 122237,
+        "remoteIPAddress": "104.74.231.151",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"d25d73943e8d236936dc1f61a36289d4\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f5f65e3e39b97d152630b9bc9186d55e5faa39ef0dee4257e2ca29e6ad4cbae2",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.49250900000333786
+      },
+      {
+        "url": "https://www.net-a-porter.com/akam/11/7f5260e0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 11234,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"4e87fb23a3e04e01111790227bef9f1a4ce97f5c26e7e1e923999a1e52c69774\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=F220B3749B5F66559DD9A9AEC6C0FB64~000000000000000000000000000000~YAAQtlozuAp3OrV9AQAAkYX/ww6PIEXt0k1SFHUcxREV074i+7NOZCPeRcnGgQW54fvNhFub+lzmNtLYUtJEtbDm3ojx/eVvqeeAthx3OMNZt+hetK/cgL0qY8fwU+CcKWWsTjvTPjF61KSlUMqwxtWw3A4WAIKszAkAYXfF1sq6JX5/NG7x9WMsK1vddr8TFik8Z79ctizYySiom6CCkYtFyKashe8zmSr/IkJkjf+qmXIztdReLir92VPsa5d/ZEcm4VUIwb/efpJHd5esBsSmj71hZmovCQkeUoIutAaCCKY9aCmZRkbyPXffoElSWQjv4WHD94rTw5d44Anlrebdn4nqo9jxAR8ITQENjwnZKAgD5hMhE/5ca3RpQKv4Ox0pwmprBQvaLrlSbXPlPc5UpddpbDp9uAIuM8angPxa3EiMvLxXqf2NUZjLl2p5pyRgu//4iTOpZuhXLw9m2zoQ/2nPkjhutW+iRLrSfkm1Ss8yU24=; Domain=.net-a-porter.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:22 GMT; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "4a72f59e26f3b06df06ad8336ad7619711ef2fc9cc85587d249fa5e234682d63",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4505320000462234
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/712162/0e61efac56c501ae976c746c4ab3a22e/promo-banner-desktop-2752x388-b-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 6062,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "0fe53a0830e946be8c0ecfc33748c1e0d784c056c7e03d8a3b8598408ad5e0ec",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4047390000196174
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/712188/aa66fc606c06bdc4193d1236300124e3/desktop-single-promo-1582x892-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 38569,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "9ac756f25f42977b7451bee0346ba3d6eedea72e2bd7c24a4b037a1025c0b672",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.38755200000014156
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/712098/a648a7f6da8ced52414529a82b2173a1/desktop-duo-promo-1346x1010-data.gif/w0.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 7948230,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "\"a648a7f6da8ced52414529a82b2173a1\"",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "4c89e26ad627eba9b00c1e4ebf346bde541c8d7720941b7b0a534c594bc9748e",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 7.475300000049174
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/712078/cfd63784c1932ff1998f8df62f8bc83a/desktop-duo-promo-1346x1010-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 55834,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "d81cdb1e4b1694fdf7ff67c077c210541a885412e1f3c2b7c939f197500e0c4e",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4854789999080822
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/434798/61db477c386632a6f1ff2de9689d5091/apps-img-data.png/w0.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 5669,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "\"61db477c386632a6f1ff2de9689d5091\"",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "9cc0a843f7bf96f3669fdfcb6cc0f461b2e95a6e38ce21355f79e411336f2cb2",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4444870000006631
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/434832/8f5602017863f5c4c449c3bef3accbfd/sustainability-img-data.png/w0.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 4750,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "\"8f5602017863f5c4c449c3bef3accbfd\"",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "25a395761dbfea32b0214967ab23ebcee76d1fddcee9dc6db6077be9a027d109",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.47175899997819215
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/570848/47585dbbe2ee06a60bbc760141fb3d46/eip-img-data.svg/w0.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 939,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"47585dbbe2ee06a60bbc760141fb3d46-gzip\"",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "96fb339ddd85744666eadf6f3dbfdfc970a9ac845fe74477cade42d8b7ab05ca",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4442120000021532
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/434792/4848e9c4e47d080e473a542ebbe40e8f/advice-img-data.png/w0.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 4118,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "\"4848e9c4e47d080e473a542ebbe40e8f\"",
+          "expires": "Thu, 16 Dec 2021 17:07:22 GMT"
+        },
+        "responseBodyHash": "412f476283b4cf9dbbdab09338424352e286736fd28ff5d724547fd89fb878d7",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4712719999952242
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/HKXcGQsIyAcfPTh2V8A9-/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 1055,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"3c4d6619d2a78cdac17ebf43886c1dca\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "39dac5da436f204fec3b7d1a36a0289f115b6e08165da8e18171e16662acac8b",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4829020000761375
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/_next/static/HKXcGQsIyAcfPTh2V8A9-/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"abee47769bf307639ace4945f9cfd4ff\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "653f3e53e89b4f8548ff86c19e92bb3c6b84b6be7485a320b1e00893ed877479",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.4644159999443218
+      },
+      {
+        "url": "https://cdn.trustcommander.net/privacy/5700/privacy_v2_8.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 132289,
+        "remoteIPAddress": "192.229.233.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400, must-revalidate",
+          "etag": "\"9df98c6e3a3c4b68d41004ff4a3171ec+gzip\""
+        },
+        "responseBodyHash": "8f1793a599d06dc52903df805e70855d8d37e65b6bcd9fd58647452fca31921e",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.3921740000369027
+      },
+      {
+        "url": "https://api.pushio.com/webpush/sdk/wpIndex_min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 7257,
+        "remoteIPAddress": "23.2.170.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "ad6b4b13-5eab-42a2-9aee-9db1e4a0348d"
+        },
+        "responseBodyHash": "71584701dffceb96816dd719edbf84e6e098fceb64c983f7d3fb28285179a603",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.36458099994342774
+      },
+      {
+        "url": "https://www.net-a-porter.com/4xvT_i/aPl1/w7hST/k0DJ/zdfC6ERs/bYLizLOGVicY/VwgDKA/VkBfXFd/lFWUB",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 19852,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"d3caf572c192c8eeac2bc593a3b79aa0d20f9585b44afb7c04b08e353363cc30\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "_abck=8D27DDFD62F43B73E3CFF20BA2C507A3~-1~YAAQtlozuAh3OrV9AQAARoX/wwd7uO6Y3S5ubblk6M625e1ianmHPEahYSGn2lp01COM1OlzoQ/ZGuWUDQuegSL3ptgsvdvoOudEiIhMx6DYl9FfyXvQPF7VrMdAOVSougz8fdq+JQ5NinwuQv2pYqOw1ya/rik1MdHu8d5b3kmLhqqePRq+SoT5LxaFKfM8m1RXyXyaSLZZ9DDMRpejfAVbqbZVmFQLYWaBYAFYPGSQHyAuTx4KgAiLFcIxCuBMl6h8R/YfYGXWxu1ypt45z9oEI/IMbcAPAV/z733Z0EBrElbxHQ+fVnd+0Cj8Sml02f+r3pBcQyBmC/BLZmCQz1IysKjOL/iMXUDoJKTmFBO4UvnOBZyGA+lls1+xOCNkW7m5t38Vv5vXp5Vge0gcCQ==~-1~-1~1639674404; Domain=.net-a-porter.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:22 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "d28fcb63f244f9fc0347fc8efaaa91ccc5b6c0f63a94281e826d4e4329dce19a",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.2584529999876395
+      },
+      {
+        "url": "https://p11.techlab-cdn.com/e/65319_1825232283.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 19158,
+        "remoteIPAddress": "96.16.53.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"0x8D8C7B725157160\"",
+          "expires": "Thu, 16 Dec 2021 16:17:22 GMT",
+          "set-cookie": "akacd_RWASP-default-phased-release=3817123641~rv=98~id=6c856c84134a04fe15cc5c51307a0cdb; path=/;; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1efea7200f622de0ea17ac76fc4737fec4c5679b16a0a7a905160b6c52cdeafc",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657"
+        ],
+        "time": 0.10558600001968443
+      },
+      {
+        "url": "https://p11.techlab-cdn.com/e/65257_1825232252.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 6470,
+        "remoteIPAddress": "96.16.53.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"0x8D8D1B7B891C089\"",
+          "expires": "Thu, 16 Dec 2021 16:17:22 GMT",
+          "set-cookie": "akacd_RWASP-default-phased-release=3817123641~rv=22~id=65e227a082d859c1edf74b852e2c6e76; path=/;; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e827785f43a3c6e3166227ab3d91cd1a5c85ee03755d49a2017a679d3a4156fb",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657"
+        ],
+        "time": 0.10782100004144013
+      },
+      {
+        "url": "https://p11.techlab-cdn.com/e/64885_1825232283.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 2396,
+        "remoteIPAddress": "96.16.53.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"0x8D8C7B7200E6A28\"",
+          "expires": "Thu, 16 Dec 2021 16:17:22 GMT",
+          "set-cookie": "akacd_RWASP-default-phased-release=3817123641~rv=8~id=fdcfa3cb10a083d36408a1f0e744a3a3; path=/;; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2281bceeaf3c81dc26731248960c8d210a0d461a02759c39b7a7b6c5ee1e06a0",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657"
+        ],
+        "time": 0.10739500005729496
+      },
+      {
+        "url": "https://p11.techlab-cdn.com/e/65226_1825232283.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 31826,
+        "remoteIPAddress": "96.16.53.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"0x8D8C7B7938204CF\"",
+          "expires": "Thu, 16 Dec 2021 16:17:22 GMT",
+          "set-cookie": "akacd_RWASP-default-phased-release=3817123641~rv=34~id=a6c2186a99d7276dcaff035695299f34; path=/;; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6247b325d302c4b1903c7d0e8d371f1dc0d749c863166b5506dcce892ca95af8",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657"
+        ],
+        "time": 0.12193799996748567
+      },
+      {
+        "url": "https://cdn.raygun.io/raygun4js/raygun.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 21309,
+        "remoteIPAddress": "52.222.138.101",
+        "responseHeaders": {
+          "etag": "W/\"0a09ca5cadf6e0535a156ee1a20a4b57\""
+        },
+        "responseBodyHash": "8051dd1295a05cbc5ffc8dffade6801634b68c334eed14b3026b91d051dbfc38",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.20655600004829466
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5MWMFL4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 31545,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT"
+        },
+        "responseBodyHash": "c775b6518ddabb792cfb786f55b9ab1eebf96007f94049622ff6fb07bdb8d61f",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.1809949999442324
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 50675,
+        "remoteIPAddress": "104.99.232.176",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "09ebd7f407439990aac227e70da23e1a819e8e30282928e324370805f480bec4",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.12187499995343387
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/images/flag_sprites-4d1c2b4d.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 258665,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"4d1c2b4d9e75d3c85798a7b4edd76ad2\"",
+          "expires": "Thu, 16 Dec 2021 16:07:22 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b698ae22edec6ae99234e8470a8bf004f2fe094358e19358578beba17318abe0",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.20062300004065037
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/fonts/SackersGothicStd-Heavy-184d748e.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 13019,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"184d748ecce10a360033950b3c6e0537\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "19d7da0dcfecd7e643af143a6a68a740904b8749405df6741a066096b4dff831",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.2526700000744313
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/fonts/chronicledisplaylightitalic-7989bd35.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 16551,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"7989bd353b42d833b0ea7cca35fa520a\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "af77b75d22288e8d841ac48b029594763a7fd1ffc2051f92b26d4048252b8e6b",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.23629000002983958
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/images/instagram-44c80a3b.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 1506,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"44c80a3b6b41fc2d37c1e192075b3ce9\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6be6b85400b121c2fd52e35f2b3d130090558915ded73d48231454a4451734d1",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.14070500002708286
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/images/logo-jcb-03bd433f.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 1429,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"03bd433f605bfdb6624a31b2153542e1\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e019ab793ac330c5f06d68fc755a36380340bcbf8dcc5bf76e85bfb7773535aa",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.1897720000706613
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/images/logo-applepay-17b063c5.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 1940,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"17b063c563bb1cc60f13c7adf48bf5f2\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b157c72c28be72a3397663c1a028c6cc2505f751ce0d195175a09466e60da662",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.18463000003248453
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/images/logo-klarna-b0ce03f5.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 1697,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"b0ce03f5db7ec95837121c7c2a83b6c9\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9b5c065f411c9d8ecda04f68d62e29e467db0297420687f71718c965b58f11ad",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.201450000051409
+      },
+      {
+        "url": "https://www.net-a-porter.com/assets/images/logo-unionpay-ea3ed1e2.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css",
+        "status": 200,
+        "size": 5070,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"ea3ed1e2663ca959a61b5f34d2f4dd97\"",
+          "expires": "Thu, 16 Dec 2021 16:07:23 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a413230ca34049a26f538e29a20908985ab494effdac7f47fe86e20fa686a3cd",
+        "initiators": [
+          "https://www.net-a-porter.com/assets/nap-sifu-26b052fe.css"
+        ],
+        "time": 0.1947490000165999
+      },
+      {
+        "url": "https://www.net-a-porter.com/4xvT_i/aPl1/w7hST/k0DJ/zdfC6ERs/bYLizLOGVicY/VwgDKA/VkBfXFd/lFWUB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 201,
+        "size": 677,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "set-cookie": "_abck=8D27DDFD62F43B73E3CFF20BA2C507A3~-1~YAAQtlozuFN3OrV9AQAAc4j/wweaIXpvLGyOVAAr7ZRexiGaCDWFo8HbMsJt6ejEKkMvKH/kHr6hS+GpDabECC2ocRvlEYf4dIyl3jMOabtAwF+eTu7iP6TgN43uhRcSMAvHCwJE0i7+rq0u4YSGZ8/wKkpFcwIZyXul6r4aRf6jVNdvPxS2qH8LWj77B5Lr/Q5ktIafIPvK2OslkEIEU0Asx9Rc9eD9xk3ZRDqT/QEw17M6aYRT2N1DjlIfoVrIDJ04UZ1sP7jCbuZr4oDg6SvBdR5ihjdGsF86IuLCy3F7qgYxOzXHaISzGQwKjotYef5FkAcvtjknTjwM8KOFQOxJR5z+hDZkVA9z8Rfb00e+WDTsmj12JeA1X0t6/+8bkNh2zWXb/ZO1S1eP80Mcdw==~-1~-1~1639674413; Domain=.net-a-porter.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:23 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/4xvT_i/aPl1/w7hST/k0DJ/zdfC6ERs/bYLizLOGVicY/VwgDKA/VkBfXFd/lFWUB"
+        ],
+        "time": 0.0820829999865964
+      },
+      {
+        "url": "https://a3533800155.cdn-pci.optimizely.com/client_storage/a3533800155.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 1240,
+        "remoteIPAddress": "23.2.171.171",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "etag": "\"6a72fa8ca367d7a30c40e0b90a5f8410\""
+        },
+        "responseBodyHash": "d9d1ae249cf9dbd6cf049c76a5a1454ccafa42eae4eecd2bcf25ab6097134709",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://cdn-pci.optimizely.com/public/3533800155/s/nap_home.js"
+        ],
+        "time": 0.03877500002272427
+      },
+      {
+        "url": "https://tapi.optimizely.com/api/js/odds/snippet/17689210266?project=17644331683",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 608,
+        "remoteIPAddress": "23.1.124.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:07:24 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9e9ea6355f72363231b899f8181016c7a3e5b5730610c334b96152b0a88236f0",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://cdn-pci.optimizely.com/public/3533800155/s/nap_home.js"
+        ],
+        "time": 0.4153120000846684
+      },
+      {
+        "url": "https://www.googletagservices.com/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 27479,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "\"1072 / 781 of 1000 / last-modified: 1639397097\"",
+          "expires": "Thu, 16 Dec 2021 16:07:25 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c06177c6d05c0f3eab6348d97829ee87c1de50d771987e3d8afeb3aa90d8fb76",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.04751099995337427
+      },
+      {
+        "url": "https://www.net-a-porter.com/api/nap/search/resources/store/nap_NL/productview/byCategory?category=/new-in&pageSize=12&pageNumber=1&locale=en_US&orderBy=5",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 15273,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "1639670662319",
+          "expires": "Thu, 16 Dec 2021 16:07:25 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "bm_sv=AB176DBA3AFBC9AEA04E6E44CA69A5FA~4WC+s83/jK9OrGaA1/IT+n4VpqnFDjBRpjoGd904YSeQnh8I8uL3obkF77I9ndG7/3HtKDtEfDA3BRUwws+2RGPwTXVApJHLVre5ulEZ1fztjIoVIyfTmHN1BDdGKa0TwBNQNGFZu29sybHycejbLdYmoZoSqLYt0jDvr1WtI+A=; Domain=.net-a-porter.com; Path=/; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "b80e74c16408ccf8a1688d46f64f335843ebd5528baad7713655f22d078176fe",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.05007100000511855
+      },
+      {
+        "url": "https://www.net-a-porter.com/api/nap/search/resources/store/nap_NL/productview/byCategory?category=/holiday-gifting/gifting&pageSize=12&pageNumber=1&locale=en_US&orderBy=5",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 14289,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "1639670032387",
+          "expires": "Thu, 16 Dec 2021 16:07:25 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "bm_sv=48549EC195E6B0EF9FD4690DB70881E8~4WC+s83/jK9OrGaA1/IT+m8Ug8PYJtIWyNmG/ZuIaITgDSt3Dqd9S+yLyjTVUVGNX0Ortit+wIJ9MN48mm4C4AMiXXfuk82yLWXNfkG351egwG+AcYpb/kXxE64CmlkgD7v4xAlnzz6TsE5xtinqvqMeiEAN6K8aIZkpLi02ZWA=; Domain=.net-a-porter.com; Path=/; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "99d061687e16eaac970807e23e36e0b5c94b8db0dbb7fcb1747f202b2772c7dc",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.046577999950386584
+      },
+      {
+        "url": "https://privacy.trustcommander.net/privacy-consent/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 537,
+        "remoteIPAddress": "15.236.17.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "private, max-age=486000, pre-check=486000",
+          "expires": "Wed, 16 Mar 2022 16:07:25 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID ADM DEV PSA OUR IND UNI PUR COM NAV INT STA\"",
+          "pragma": "private"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://cdn.trustcommander.net/privacy/5700/privacy_v2_8.js"
+        ],
+        "time": 0.11498600000049919
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/713016/bf5b4f94504f75a3f5d72820bba77969/sydney-sweeney-wk1-1-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 122791,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:25 GMT"
+        },
+        "responseBodyHash": "05603a98cb452db8455228cdf576b87dbae81cae9a7a1663b1d8e960a9dc7115",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.10730799997691065
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/713012/dde275094a76561cdbcf5c424c4b2ec1/sydney-sweeney-wk1-2-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 64190,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:25 GMT"
+        },
+        "responseBodyHash": "051dcb1709c00796d9d76bb4766e84faf3809c2159dd2840669ebd2efed9082b",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.067094000056386
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/713010/b9d41096069429986557f2b18d259eaa/sydney-sweeney-wk1-3-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 85747,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:25 GMT"
+        },
+        "responseBodyHash": "38a13ec5579625ca30998304e51df03757e33750841765f1ea37ade8f3c7f6dd",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.055416000075638294
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/713014/e4f0583af205e3592facbefcc0e307f6/sydney-sweeney-wk1-4-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 80191,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:25 GMT"
+        },
+        "responseBodyHash": "110e6fb2751359279be4a75b4141006db1a0b7dcce2ee7bcb6c129733bbef6f9",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.04377900005783886
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/712046/95dc03e30d78b4e0c78301c015ee28e7/desktop-duo-promo-1346x1010-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 106607,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:25 GMT"
+        },
+        "responseBodyHash": "703c4e8193232e036ddaf50b1f76980d32b33d21396d8c0546b0eef37dc2ad07",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.09549199999310076
+      },
+      {
+        "url": "https://www.net-a-porter.com/content/images/cms/ycm/resource/blob/712228/648823c4b7e35252196b07133d913c37/desktop-duo-promo-1346x1010-data.jpg/w1500_q80.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 127080,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:25 GMT"
+        },
+        "responseBodyHash": "0c369e3798c17d5de8c965592bd82a4e4412e44e3431bb64c5e6ad00448bc3af",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.08515699999406934
+      },
+      {
+        "url": "https://lptag.liveperson.net/tag/tag.js?site=73583570",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 8353,
+        "remoteIPAddress": "178.249.101.23",
+        "responseHeaders": {
+          "cache-control": "public, max-age=630",
+          "etag": "\"5f50a905-1d8f\""
+        },
+        "responseBodyHash": "145d14bb73e5b03cc73062c2a78c392125b891c62b1cc9d542e5adba762f04e7",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.12973799998871982
+      },
+      {
+        "url": "https://www.net-a-porter.com/4xvT_i/aPl1/w7hST/k0DJ/zdfC6ERs/bYLizLOGVicY/VwgDKA/VkBfXFd/lFWUB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 201,
+        "size": 680,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "set-cookie": "_abck=8D27DDFD62F43B73E3CFF20BA2C507A3~-1~YAAQtlozuCZ4OrV9AQAAI5L/wwdDb0ldQGkA8z/2tOuBdmTbBMeFLdJJqknDVzGVgRFA0T7WP4A0hTDeAGJMhmwrzkTKTMV3jkJHVfK328oNx+xelhTLyegjJfClm2dV9PrsbDfmGgxmONa/vA8gCmjG2uGD/9f+7ywkITdxlR6zCLLHixJsAvFuRHlivKq4xB8rOO4sCilSwmVMjt7jT/Z4MfFnQWBWkw/CBnRbcsr7iNHz8AfoJ5xjA6wt5yGVv9ENQGvAjQVkqCWdFO1qHxx8qcdKrKEN9RbDbgBpNt2+U7AQMtOkUQuhTWiVk5yODSXtDLCy1O/+aigEKBrvK0n9KNq1DinsXMOajwGXdzMWRLp+C+aJQzeuC/09v4EOZPjSt2ZlpYm/GFdJTjzs3g==~-1~-1~1639674344; Domain=.net-a-porter.com; Path=/; Expires=Fri, 16 Dec 2022 16:07:25 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://www.net-a-porter.com/4xvT_i/aPl1/w7hST/k0DJ/zdfC6ERs/bYLizLOGVicY/VwgDKA/VkBfXFd/lFWUB"
+        ],
+        "time": 0.11789100000169128
+      },
+      {
+        "url": "https://c.go-mpulse.net/api/config.json?key=R4ER9-P3HDX-YEVEY-55HHF-MEUYZ&d=www.net-a-porter.com&t=5465569&v=1.720.0&if=&sl=0&si=53339dc2-5b6e-48b7-9893-a42d4fe54d5e-r47u4a&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=332943",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 1259,
+        "remoteIPAddress": "92.122.254.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300, stale-while-revalidate=60, stale-if-error=120",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0a3ecb847ab970da5dac1bebc5a687e517b8a01a914347467f29d17656865b48",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ"
+        ],
+        "time": 0.12544299999717623
+      },
+      {
+        "url": "https://www.net-a-porter.com/akam/11/pixel_7f5260e0",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 671,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:07:26 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=F220B3749B5F66559DD9A9AEC6C0FB64~000000000000000000000000000000~YAAQtlozuDh4OrV9AQAAfZP/ww7rAjhdyRBawfwR58ffeVj/3tGaWUqWWMgmhBSeq7h6J350fs6WrL2NFxSMfiA3rsByTR7uUnMFpCtCZX/etRavGipm/n0wNM0KkgMJ7MnjoSRboyqRjgDxomFbgtwP+TioyQh1c+MmZ1kkhiYlO0xkV6JeSd9QEc3ZNusjNXonYuT4VbMb4XcLiGHTwICgIPn/ET+LInEFqiWpzLVWfe//5efwKU+iElWlRERdkC9438RqXRvE/WTzeJ+b0XfGKcYGQccJlBuWxJCVOOPDK44Y75uAR0FoacJ371JyZW6TQGbCcKKa+AWWJh5wEIvByya+1UonhljPpfzYw1/cDVcsoIaWlP6auat6XSkqw57SUz3R9g9Oc4t+drAfsVIoW82ZFraIi1SnNBwa94c909BJ1QL66Gds2jfLjOHFf7um+W/5IekFk6d34pf2ELr+lrp/YrZnbRUTPBpIAXHEW3LmP9PVm+tf4iU2aGkmzA4=; Domain=.net-a-porter.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:22 GMT; Max-Age=7196; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://www.net-a-porter.com/akam/11/7f5260e0"
+        ],
+        "time": 0.021644999971613288
+      },
+      {
+        "url": "https://logx.optimizely.com/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 204,
+        "size": 365,
+        "remoteIPAddress": "50.16.127.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://cdn-pci.optimizely.com/public/3533800155/s/nap_home.js"
+        ],
+        "time": 0.4411119999131188
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TN74DZS&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 138393,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:07:26 GMT"
+        },
+        "responseBodyHash": "243c506a102abe9067046e9ec0a227a174b91dc72fe304d956b0ddcce3ce72a7",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-5MWMFL4"
+        ],
+        "time": 0.10158599994610995
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391939499/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 6826,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "a8fd8c8bff600f38be53593bd2002042f2fd58ee0dd14f618165c9878d760a46",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.16057199996430427
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391939575/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 15368,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "6588a43e598d905533d685a3f00bd5012ee4335e2befc5a2a3e4a24017171b84",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.08185600000433624
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/25185454455747875/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 9907,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "8ab243d50f0b7b27a480d60e9865210f007f51b0959fab7c378e49c916e5238d",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.0648439999204129
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391949474/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 4414,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "4a89a3e0afaf7823b9f52ad4d8a2d4cd922d23bf853957b65207b26e56babc1c",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.19009699998423457
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/25185454457048263/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 16532,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "1428c683fc818a384f890589ee0ceadb9be9d36fa9b888e2d397d64ed603b0c1",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.11427000002004206
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391939703/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 3860,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "f8a802199823965c58549cd48313546938d7ee168173a067f66eafefc566f809",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.23162500001490116
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/25185454457048311/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 8015,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "d77d4e0ed895fcb1273e2e4092bb417e82f28e8e977df4866f9c0cb299fec4d8",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.31264100002590567
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391949515/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 4360,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "4c3edb0d475b301080192edf20331d9ff669e50d9e04c0863a949a3a551d719c",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.24490199994761497
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391939464/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 3708,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "9183e3e8dd827853632909d7bfee3114161afee6582689e0ef3988b2d529704f",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.21903000003658235
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391949397/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 3852,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "64e4c0ce7206fee02456689639625fb340095602825254256852e69d1533530f",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.2968660000478849
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/30629810019962183/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 7678,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "bca3abc9dce2545e95ef2a097460ba270c7f068d3c1199426c7e582ebccaa016",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.28020100004505366
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/31840166391949525/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 3445,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "4139ebaf0be41ae6de9b371f522e7d5075a1e5b2098be7cd6a036e3571ddfc83",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.2582270000129938
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/20346390236419127/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 10410,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "3cba4c3263de14899a100b1bb9f798a1652ac7546495212392f9392ee76bc8a2",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.023261999944224954
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/13452677152133291/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 8505,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "26d217cb6dfae0308885f6580fd92321aa408249b55f6b048dc40ea35a557199",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.03596600005403161
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/20346390235650958/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 25923,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "9f68b5c90cffbcc2e9f17207be43d3dfb0c1fcb0beaadb2ee6e39e3ddc11d002",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.05201299989130348
+      },
+      {
+        "url": "https://www.net-a-porter.com/variants/images/20346390235873755/in/w300.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "status": 200,
+        "size": 7036,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:07:27 GMT"
+        },
+        "responseBodyHash": "232c181713a6447386b921b1ea67a73fa8a07b5fb43145d7ba28a18b9ae26a48",
+        "initiators": [
+          "https://www.net-a-porter.com/en-nl/"
+        ],
+        "time": 0.06748900003731251
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 120165,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, immutable, max-age=31536000",
+          "expires": "Thu, 16 Dec 2021 16:07:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d5ae5a515a688823dc98d032242c2ed6f490a74c4281bdd599567898f9fa675",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.googletagservices.com/tag/js/gpt.js"
+        ],
+        "time": 0.0608500000089407
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.net-a-porter.com",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 744,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3600, stale-while-revalidate=3600",
+          "expires": "Thu, 16 Dec 2021 16:07:27 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 16-Dec-2021 16:22:27 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bf1b9f14635f9dc20c8f67f8454fdd0b1a139e70611ee81d2c56eed9e56ee501",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://www.googletagservices.com/tag/js/gpt.js"
+        ],
+        "time": 0.04567799996584654
+      },
+      {
+        "url": "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 103319,
+        "remoteIPAddress": "178.249.101.23",
+        "responseHeaders": {
+          "cache-control": "public, max-age=630"
+        },
+        "responseBodyHash": "237f280a388af46ab8f4c00030afa621613e079fc103d77f83f3cb67e9213934",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/en-nl/",
+          "https://lptag.liveperson.net/tag/tag.js?site=73583570"
+        ],
+        "time": 0.12636999995447695
+      },
+      {
+        "url": "https://logx.optimizely.com/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 204,
+        "size": 365,
+        "remoteIPAddress": "50.16.127.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://cdn-pci.optimizely.com/public/3533800155/s/nap_home.js"
+        ],
+        "time": 0.10693999996874481
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Thu, 16 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TN74DZS&l=dataLayer"
+        ],
+        "time": 0.06259599991608411
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-5PC34TLD96&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 62059,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:07:27 GMT"
+        },
+        "responseBodyHash": "5b6aa3395c02eee8961d156834a781cb77aef1b3933b61881fbb27f6124ac621",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TN74DZS&l=dataLayer"
+        ],
+        "time": 0.02823499997612089
+      },
+      {
+        "url": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 3665,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:07:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a73730123a43c3040d889aaee11ec35094277ce5f778076b262c23a293870adb",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js"
+        ],
+        "time": 0.09521699999459088
+      },
+      {
+        "url": "https://adservice.google.nl/adsid/integrator.js?domain=www.net-a-porter.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 792,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657 for more info.\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.05525299999862909
+      },
+      {
+        "url": "https://adservice.google.com/adsid/integrator.js?domain=www.net-a-porter.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 549,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657 for more info.\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.054056999972090125
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=2831219031695160&correlator=174674362094814&output=ldjh&impl=fif&eid=44756717&vrg=2021120601&ptt=17&sc=1&sfv=1-0-38&ecs=20211216&iu_parts=9237%2Cnetaporter%2Chomepageupdatetrio%2CINTL&enc_prev_ius=%2F0%2F1%2F2%2F3&prev_iu_szs=320x50&fluid=height&prev_scp=language%3Den&cookie_enabled=1&bc=31&abxe=1&lmt=1639670847&dt=1639670847941&dlt=1639670842183&idt=5628&frm=20&biw=1440&bih=812&oid=2&adxs=32&adys=4018&adks=3469346702&ucis=1&ifi=1&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=60&flash=0&url=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=442x0&msz=442x0&ga_vid=1277091920.1639670848&ga_sid=1639670848&ga_hid=1459969416&ga_fc=false&fws=0&ohw=0&btvi=1&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 10793,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 16-Dec-2021 16:22:28 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a6d1565a6711079e1bbc75b84d5326e6d73ce9a8b156cd77aa6eb25ba07cf57b",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.0648980000987649
+      },
+      {
+        "url": "https://accdn.lpsnmedia.net/api/account/73583570/configuration/setting/accountproperties/?cb=lpCb93797x33050",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 1585,
+        "remoteIPAddress": "178.249.101.99",
+        "responseHeaders": {
+          "expires": "Thu, 16 Dec 2021 16:08:04 GMT"
+        },
+        "responseBodyHash": "b51ccaeafd0ded75481dc6a46055f3f9a05ca8db12447eb8b1cd27d1ae4fde1c",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+          "https://lptag.liveperson.net/tag/tag.js?site=73583570"
+        ],
+        "time": 0.11295300000347197
+      },
+      {
+        "url": "https://accdn.lpsnmedia.net/api/account/73583570/configuration/le-campaigns/zones?fields=id&fields=zoneValue&cb=lpZonesStaticCB",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 864,
+        "remoteIPAddress": "178.249.101.99",
+        "responseHeaders": {
+          "expires": "Thu, 16 Dec 2021 16:07:53 GMT"
+        },
+        "responseBodyHash": "51630be59f4e3e3e35a03c38cf4b73c47be461d4c98a7b28668ff25c18fd5a96",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+          "https://lptag.liveperson.net/tag/tag.js?site=73583570"
+        ],
+        "time": 0.09285699995234609
+      },
+      {
+        "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 1635,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Thu, 16 Dec 2021 16:44:51 GMT"
+        },
+        "responseBodyHash": "058ed961bfe422af7bfc65865f4c08531ec8ace995f8a1ec560a46581cb7712c",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.011992999934591353
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=1459969416&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&dr=&dp=%2Fen-nl%2F&dh=www.net-a-porter.com&ul=en-gb&de=UTF-8&dt=NET-A-PORTER%20%7C%20Luxury%20Fashion%2C%20Beauty%20%26%20Lifestyle%20for%20Women&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=fs-on%20site%20testing&ea=full-stacksite%20testing&el=setup&_u=YAhAAEAL~&cid=1277091920.1639670848&tid=UA-4866101-7&_gid=311402479.1639670848&gtm=2wgc10TN74DZS&cg2=%20-%20&cd56=4g&cd57=24&cd63=fs-on%20site%20testing%20%3A%3A%20full-stacksite%20testing%20%3A%3A%20setup&cd73=&cd76=1277091920.1639670848&cd173=GA%20-%20event%20-%20generic&cd175=analytics%3A%20false%20%2F%20advertising%3A%20false&cm2=1&z=1156311406&cd55=706",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.012729999958537519
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=1459969416&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&dr=&dp=%2Fen-nl%2F&dh=www.net-a-porter.com&ul=en-gb&de=UTF-8&dt=NET-A-PORTER%20%7C%20Luxury%20Fashion%2C%20Beauty%20%26%20Lifestyle%20for%20Women&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=fs-on%20site%20testing&ea=full-stacksite%20testing&el=setup&_u=YAjAAEAL~&cid=1277091920.1639670848&tid=UA-4866101-7&_gid=311402479.1639670848&gtm=2wgc10TN74DZS&cg2=%20-%20&cd56=4g&cd57=24&cd63=fs-on%20site%20testing%20%3A%3A%20full-stacksite%20testing%20%3A%3A%20setup&cd73=&cd76=1277091920.1639670848&cd173=GA%20-%20event%20-%20generic&cd175=analytics%3A%20false%20%2F%20advertising%3A%20false&cm2=1&z=1995988907&cd55=706",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.012733999988995492
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=1459969416&t=pageview&_s=1&dl=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&dr=&dp=%2Fen-nl%2F&dh=www.net-a-porter.com&ul=en-gb&de=UTF-8&dt=homepage&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YAjAAEAL~&cid=1277091920.1639670848&tid=UA-4866101-7&_gid=311402479.1639670848&gtm=2wgc10TN74DZS&cg1=homepage&cg2=homepage%20-%20homepage&cd27=nl&cd43=website&cd53=prod&cd56=4g&cd57=24&cd63=fs-on%20site%20testing%20%3A%3A%20trackPage%20%3A%3A%20setup&cd73=&cd76=1277091920.1639670848&cd101=homepage&cd102=&cd104=en&cd109=nl&cd110=eu%2Frow&cd112=homepage&cd113=marketing&cd126=eur&cd173=GA%20-%20trackPage%20-%20generic&cd175=analytics%3A%20false%20%2F%20advertising%3A%20false&cm2=1&z=824394617&cd55=712",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 194,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.011144999996758997
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5PC34TLD96&gtm=2oec10&_p=1459969416&sr=800x600&ul=en-gb&cid=1277091920.1639670848&_s=1&dl=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&dr=&dt=homepage&sid=1639670847585.db4dfika&sct=1&seg=0&en=page_view&_fv=1&_ss=2&ep.site_country_iso_code=nl&ep.page_system_environment=website&ep.timestamp=2021-12-16T17%3A07%3A27.584%2B01%3A00&ep.fy_week=Week%2090&ep.page_environment=prod&ep.navigator_connection_type=4g&ep.gtm_version=24&ep.query_string_parameters=&ep.page_type=homepage&ep.region=eu%2Frow&ep.page_category=homepage&ep.page_category2=homepage&ep.page_category3=marketing&ep.site_currency=eur&ep.page_hostname=www.net-a-porter.com&ep.page_language=en&up.user_login_status=anonymous",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 204,
+        "size": 127,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.googletagmanager.com/gtag/js?id=G-5PC34TLD96&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TN74DZS&l=dataLayer"
+        ],
+        "time": 0.020744999987073243
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5PC34TLD96&gtm=2oec10&_p=1459969416&sr=800x600&ul=en-gb&cid=1277091920.1639670848&_s=2&dl=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&dr=&dt=homepage&sid=1639670847585.db4dfika&sct=NaN&seg=0",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 204,
+        "size": 45,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.googletagmanager.com/gtag/js?id=G-5PC34TLD96&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TN74DZS&l=dataLayer"
+        ],
+        "time": 0.013959999894723296
+      },
+      {
+        "url": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:07:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a73730123a43c3040d889aaee11ec35094277ce5f778076b262c23a293870adb",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js"
+        ],
+        "time": 0.003674000035971403
+      },
+      {
+        "url": "https://www.google-analytics.com/collect",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 100,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.015231999917887151
+      },
+      {
+        "url": "https://www.google-analytics.com/collect",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 100,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.01737599994521588
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/safeframe/1-0-38/js/ext.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "size": 7128,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 13:53:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0bcac89d72d5f0b2bef20f815406384ff05489e4294acee57409060c2eccffc5",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.046716999961063266
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/simgad/4205922262981738255?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "size": 207395,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:13:08 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9e6fcb700ae13b5b8ea0107a78bf35d1f5681b33922555d28a0cfbc03aba039f",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.07197699998505414
+      },
+      {
+        "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "size": 37754,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1638461285297402\"",
+          "expires": "Thu, 16 Dec 2021 16:07:29 GMT"
+        },
+        "responseBodyHash": "87f7f86b17eacf56e623a69be05e5f5487470d6b30347efe12742aefa3f5af48",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.05572499998379499
+      },
+      {
+        "url": "https://lpcdn.lpsnmedia.net/le_secure_storage/3.15.0.0-release_5063/storage.secure.min.html?loc=https%3A%2F%2Fwww.net-a-porter.com&site=73583570&env=prod",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 16303,
+        "remoteIPAddress": "178.249.101.98",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "expires": "Thu, 16 Dec 2021 16:17:29 GMT"
+        },
+        "responseBodyHash": "59f4843277d9aca1200c779c52318aadb380021a0051a6644b75274acb7fe158",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined"
+        ],
+        "time": 0.09356899990234524
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjssDzt4JttlNoELFPd2V3pgwFfuWVDqQALbbp09WWr4aD4HgfHyb1S5L8M6mm_rnxpUtxaYgh3lopXLjCnYicrTtl_3bXyWwPRoC-Guyp7hsKYOWYFMbjNMo9tTYBM7yCyc01kk34OhpogmpDqgZc1-YB8nM5W_nb2HswFIyVnRxCZTUT1rNOxlfCVTl2svWKt8h6Z3jOMc1LF8QIq-Zd7NULyr5FQtteBxy8Q-t-aQ1rg5lBAQWN9Wsncy5gR9-0BAxdgsdieEo-IXMnEfUSIWJF_ZB6EcD7Yw9Rvcwec95uz3eNpUYSqiQTggtvSL07j_3r2vF_wQ0tr_fLGJjG0IthfQ&sai=AMfl-YQOxcoCUqxXHROYdFdvQ-xt1TfJBAv2XlDB89EZH2Klp3DrcG6e7_Mwg02G6MATaFqCgFoIRt6BNkMcK12xHnBDA_DZ4jmrZUwuiyQsI-rKnaGYfI_TjY0ZJwSUtdA&sig=Cg0ArKJSzEFkIinUdfUREAE&uach_m=[UACH]&urlfix=1&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "expires": "Thu, 16 Dec 2021 16:07:29 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "IDE=AHWqTUks4DrSQ0-VkLz-CTyhyu8bPm6rY_NlWQMCzHV4eJbRZD47NS64SFwLsxutp8o; expires=Tue, 10-Jan-2023 16:07:29 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.22919300000648946
+      },
+      {
+        "url": "https://www.net-a-porter.com/xite-assets/sitefurniture-build/netaporter/base/chronicledisplaylight-5b36dc6f.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "responseHeaders": {
+          "cache-control": "max-age=15768000, immutable",
+          "etag": "\"5b36dc6fd641839e09943e6240c37b39\"",
+          "set-cookie": "Y-City=NL--; path=/; domain=.www.net-a-porter.com; secure"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.23208400001749396
+      },
+      {
+        "url": "https://www.net-a-porter.com/xite-assets/sitefurniture-build/netaporter/base/akkuratproregular-6af33340.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "responseHeaders": {
+          "cache-control": "max-age=15768000, immutable",
+          "etag": "\"6af3334012b6aa6b617b245900be95cb\"",
+          "set-cookie": "Y-City=NL--; path=/; domain=.www.net-a-porter.com; secure"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.23564400000032037
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstaod8xcgjrHh5CwcoNnwoSWNkHijWA6bKiRV27UfOgXnEkyMUSD17M_YnlcY-izBmDqKUthFvp0BzTNeNsWZlweHSQ94LBxF5e7b29Woo_qk2aqCf_TjmRrYy2MDCLIquO3rdWUC4UPaMp962bb98fRtq2yMNmxfMcUwDQgR3HtanrNXMbz3Ht3dHrpH8t-zlsC_-KrttWey1n0heKaxs4rerVH0npFoc-p2HGfjWrzyOML_jeUJ13cWOM9Y-Fbhp_pGqBGQdMSYVD3qPtdDjUHnn2JeuaFd3AEuvpkngU5JuzLa6CjlKWp3rEdTeSY-tHewkVPSe5st1N8nY-jFgJPxQjxA&sai=AMfl-YTA-TMV-QRkDhgPJs4XgsHkpRSfqSE9cVEhqfLa-ePvPkOSMesBhg1eJnlsEzCN3l8qP62EDJ_RKqot8UcLOIKYFutnqdb5DyHXmZPbCKzvwrwiQ3TJ8Qj2oS8-UyA&sig=Cg0ArKJSzAbI8DUPhmvoEAE&uach_m=[UACH]&urlfix=1&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "expires": "Thu, 16 Dec 2021 16:07:29 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 16-Dec-2021 16:22:29 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+        ],
+        "time": 0.08405499998480082
+      },
+      {
+        "url": "https://www.net-a-porter.com/xite-assets/sitefurniture-build/netaporter/base/chronicledisplaylight-55c81ded.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "size": 17721,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=15768000, immutable",
+          "etag": "\"55c81ded82d777b7ca2abe3c2e0738ff\"",
+          "set-cookie": "Y-City=NL--; path=/; domain=.www.net-a-porter.com; secure"
+        },
+        "responseBodyHash": "1823980be63d0976fe1b6d6a476a0e39c18a31dff7c9d8a5592c8f16728cbb83",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.03100399998947978
+      },
+      {
+        "url": "https://www.net-a-porter.com/xite-assets/sitefurniture-build/netaporter/base/akkuratproregular-0f24c307.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/",
+        "status": 200,
+        "size": 31133,
+        "remoteIPAddress": "104.74.242.17",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=15768000, immutable",
+          "etag": "\"0f24c307957d9a6513f3a80c452857ad\"",
+          "set-cookie": "Y-City=NL--; path=/; domain=.www.net-a-porter.com; secure"
+        },
+        "responseBodyHash": "9ae32efda822ef8c363dbb39d158eeedd0ecf13287c8f111493989ac65c0d2d1",
+        "initiators": [
+          "https://bad5238f7fbc8767cb9061260b0e18f8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+        ],
+        "time": 0.05185299995355308
+      },
+      {
+        "url": "https://lpcdn.lpsnmedia.net/le_secure_storage/3.15.0.0-release_5063/storage.secure.min.js?loc=https%3A%2F%2Fwww.net-a-porter.com&site=73583570&force=1&env=prod",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 15651,
+        "remoteIPAddress": "178.249.101.98",
+        "responseHeaders": {
+          "cache-control": "max-age=600",
+          "expires": "Thu, 16 Dec 2021 16:17:29 GMT"
+        },
+        "responseBodyHash": "996ab3c1e26cb00ec7d3d29650e784755ba46f33613563b7173b0dab03fa3d73",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+          "https://lpcdn.lpsnmedia.net/le_secure_storage/3.15.0.0-release_5063/storage.secure.min.html?loc=https%3A%2F%2Fwww.net-a-porter.com&site=73583570&env=prod"
+        ],
+        "time": 0.033241999917663634
+      },
+      {
+        "url": "https://api.raygun.io/events?apikey=JxGdFia4rP3SOHJ07tppbg",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 202,
+        "size": 171,
+        "remoteIPAddress": "34.196.27.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js"
+        ],
+        "time": 0.5883380000013858
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021120601&st=env",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 8942,
+        "remoteIPAddress": "216.58.214.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "55029cbd94b481326d814f44d2cedbd9cd380a42687246c0cf5e57fe0d37084b",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.39147399994544685
+      },
+      {
+        "url": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=pzabhia2z",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 302,
+        "remoteIPAddress": "23.72.252.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedTo": "https://sf2kiiyxjd6dsyn3mrba-pzabhi-c096a3d19-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ"
+        ],
+        "time": 0.16942699998617172
+      },
+      {
+        "url": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=pzabhia2z",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 302,
+        "remoteIPAddress": "104.109.143.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedTo": "https://145-116-164-35_s-104-109-143-25_ts-1639670850-clienttons-s.akamaihd.net/eum/results.txt",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ"
+        ],
+        "time": 0.16496500000357628
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/sodar/sodar2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 6670,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1637097310169751\"",
+          "expires": "Thu, 16 Dec 2021 16:07:30 GMT"
+        },
+        "responseBodyHash": "61c32059a5e94075a7ecff678b33907966fc9cfa384daa01aa057f872da14dbb",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/dc59846df2df00eb9166a4b9f9872b936980b5ae.fcb520311fd6e6762390.js",
+          "https://www.net-a-porter.com/assets/nap-sifu-en-562c8150.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/main-8adf78d6aec7c3d5e2e5.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/commons.22b59dcc74c8b98177c7.js",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/webpack-deeeca48fd6e88836e20.js"
+        ],
+        "time": 0.02873099991120398
+      },
+      {
+        "url": "https://lo.v.liveperson.net/api/js/73583570?&cb=lpCb74573x9415&t=sp&ts=1639670848088&pid=4737987663&tid=666491539&pt=NET-A-PORTER%20%7C%20Luxury%20Fashion%2C%20Beauty%20%26%20Lifestyle%20for%20Women&u=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&sec=%5B%22net-a-porter%22%2C%22en%22%5D&df=0&os=1&sdes=%5B%7B%22type%22%3A%22ctmrinfo%22%2C%22info%22%3A%7B%22cstatus%22%3A%22unknown%20%3A%20unknown%22%2C%22currency%22%3A%22EUR%22%2C%22customerId%22%3A%22unknown%22%7D%7D%5D&identities=%5B%7B%22iss%22%3A%22LivePerson%22%2C%22acr%22%3A%220%22%7D%5D",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 1096,
+        "remoteIPAddress": "178.249.97.70",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "set-cookie": "LPVisitorID=VmYTkwZTI2MjRkOGEwNzAz; Expires=Fri, 16-Dec-2022 16:07:30 GMT; Path=/; HttpOnly\nLPSessionID=3j0BUFm-Tj2BPi4Jm7uybQ; Path=/api/js/73583570; HttpOnly"
+        },
+        "responseBodyHash": "229f10d1f26a8596cd106603add1bb44d96136c10c5a79483f3ce056e8968899",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+          "https://lpcdn.lpsnmedia.net/le_secure_storage/3.15.0.0-release_5063/storage.secure.min.html?loc=https%3A%2F%2Fwww.net-a-porter.com&site=73583570&env=prod"
+        ],
+        "time": 0.181148000061512
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 5161,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 23:57:23 GMT"
+        },
+        "responseBodyHash": "55a119c0394f901a8a297e109c17b5e5402689708b999ab10691c16179f32a4a",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.03519900003448129
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/aframe",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 1172,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:07:30 GMT"
+        },
+        "responseBodyHash": "6f46064f97f9ba4ee57203908cb0ddad8674d400a83e2ad5edf5c88a7a741827",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.052949999924749136
+      },
+      {
+        "url": "https://145-116-164-35_s-104-109-143-25_ts-1639670850-clienttons-s.akamaihd.net/eum/results.txt",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 312,
+        "remoteIPAddress": "104.109.143.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"402e7a087747cb56c718bde84651f96a:1367999472\""
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedFrom": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt?c=pzabhia2z",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ"
+        ],
+        "time": 0.06048200000077486
+      },
+      {
+        "url": "https://sf2kiiyxjd6dsyn3mrba-pzabhi-c096a3d19-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 312,
+        "remoteIPAddress": "23.72.252.82",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"402e7a087747cb56c718bde84651f96a:1367999472\""
+        },
+        "responseBodyHash": "662efaf46c617ddbcb8ff4a2a8f64cffd3d93630f1003f8e66511f369b87730f",
+        "redirectedFrom": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt?c=pzabhia2z",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ"
+        ],
+        "time": 0.05849800002761185
+      },
+      {
+        "url": "https://lo.v.liveperson.net/api/js/73583570?sid=3j0BUFm-Tj2BPi4Jm7uybQ&cb=lpCb16215x895&t=pl&ts=1639670850564&pid=4737987663&tid=666491539&vid=VmYTkwZTI2MjRkOGEwNzAz",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 852,
+        "remoteIPAddress": "178.249.97.70",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "40be708fd936464437d913020b05fb176774f9d3f258345f40e0d5a8ae10562c",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+          "https://lo.v.liveperson.net/api/js/73583570?&cb=lpCb74573x9415&t=sp&ts=1639670848088&pid=4737987663&tid=666491539&pt=NET-A-PORTER%20%7C%20Luxury%20Fashion%2C%20Beauty%20%26%20Lifestyle%20for%20Women&u=https%3A%2F%2Fwww.net-a-porter.com%2Fen-nl%2F&sec=%5B%22net-a-porter%22%2C%22en%22%5D&df=0&os=1&sdes=%5B%7B%22type%22%3A%22ctmrinfo%22%2C%22info%22%3A%7B%22cstatus%22%3A%22unknown%20%3A%20unknown%22%2C%22currency%22%3A%22EUR%22%2C%22customerId%22%3A%22unknown%22%7D%7D%5D&identities=%5B%7B%22iss%22%3A%22LivePerson%22%2C%22acr%22%3A%220%22%7D%5D"
+        ],
+        "time": 0.01939099992159754
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=225&li=gpt_2021120601&jk=2831219031695160&rc=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "216.58.214.2",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/aframe",
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.0730870000552386
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tpc.googlesyndication.com/",
+        "status": 200,
+        "size": 14202,
+        "remoteIPAddress": "216.58.214.2",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 14:42:43 GMT"
+        },
+        "responseBodyHash": "53f0cf5f2fef7e5a938d553f62eb56266d1ac4e244eb7dcd40630614485fdacd",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html"
+        ],
+        "time": 0.029900000081397593
+      },
+      {
+        "url": "https://www.net-a-porter.com/sw.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/en-nl/",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:07:31 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ak_bmsc=F220B3749B5F66559DD9A9AEC6C0FB64~000000000000000000000000000000~YAAQtlozuP55OrV9AQAAI6f/ww4enUmGZDavyy59VTM6q6GbzOVR8Yq0AlKt9NbEcoV353Dr54taQbAMQksRyJee/+eqQKqLlrZea3SvN0FI3EhY+pLqCRAlTVvfkIgMLNhkTPVNC/dlsiRqnqt54f7MzcgrmxvUSNoeHUZQQA8gxjycG0jFFLu3UOr55qw/XLtc8+L5qyqasmNlBDZWP/ZFLPrj7eQJNLlPkmMYX4+3q7tpU8tiftZum+qWZeu/mva0WKlMCdyh5496xylEB3b9Ia5snIe1/erADZT2KcgC1syX8M4cjtP/yGOAO1byWmQ1smLLgpSXU+s8a/a76t4k1+ydLqYVy/EAnAzafhwnTLU20bwtXvAs9MEFB3aQyI3E0alz+VqFibN7n0+FQJgfsA/8v0cm+6eE0T5apzX6MzXisMqB3aUw1HcprYzYA+Y9nqr/y391JD5k78XRsRC96ZDnPwqFDTbab0JqP2k0FUvx6Q9rwlItrIXaXvZTLF0jPCuzTWo3jM+J; Domain=.net-a-porter.com; Path=/; Expires=Thu, 16 Dec 2021 18:07:22 GMT; Max-Age=7191; HttpOnly"
+        },
+        "initiators": []
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=225&t=2&li=gpt_2021120601&jk=2831219031695160&bg=!QkGlQQXNAAZKWFskSlg7ACkAdvg8WusdOkCxFf_JJiSTkutgWP9aUu0fqR4n7rIcN6X3sYBSB2j93QIAAAEwUgAAABVoAQcKALRM8n6f9vpAPc2OWPHyrB57kqIuLxLEs8EIAwVMJD1_CVKtxYasXbOfbxJ2wuyhyjOnrrEpQ6G0VUFFmNlW5eTlzARo3r6TWx4oMc0sohxNAQ0yiPqXRnnNhJ-RXa4V_qFRsYWN1zLZLhurc1_1HYRT9pM2zM9-xjCP5TF42Q8AqOnlE0fz7DBA7s4CJZFmPYFxwFe0N1s5mUJ37OGAd7-4jhFr5IJ_ov5CYmqkZGC9jo-2Q96ZAs2W2DokkAhev4qWRkS7Knm6pktiadNoPbljhkFETCG231jwT9E8u4eNmgGNm2WxMZ1ZcOIFxHcQ74AvrJN-UTYm-JoRR_4Q_qQcGYkwtq-Se1gcA-xM3gVfWFQDYbK6mnG-Q_BQkb5Fp8vfwQEJgdfE3jxQl6TJ_8beEawrmCC7edkXaAwYiVEp_5Xg_-2DrriuEGNnJrMWzDvPfUsVYKc7HkQDnAhq8WQdhvJeSmuzw9Dddep2wLGuTKvDO1kdAu9duxDpoQrvCfvxlp023dkk4f5X5QYCEZYuouZk7YwwiG_AEQhsywl8iohUxGSFHZkCNe8B5_8C49xmypMELX_CHWYZGuPM7rInW9bVZEO-o5pNbkaxzIjlDh3pRmsYyZ1KNVDQH_qH19dCmHk0j8PLxiEDLpowT7Opj70qfUpozRqDTfR9quwY_IigJdnq4-mrcAkrKlFFIys2ggtwWvyRYR_o_O4iU2ykVpGsM_Clm1HfCfBwj-JN6mLSMuTvehN0XmsSbar-P2B2dcGY4ZsLwBdS3UBUeq2024aH0QXT0tzjUhOeeDIzcK6zEpQBSboS5zS9D6s3vSf6jb4nNreDHNUrtzyCkxvZHbq2hAguGFAK8rnUGAn7TsT16B6eybbYLbAQyiJ1iLfiOLCLAQlrvui6plcKJkxQuYFucNcRAFwNo0u5Qy06v0TJvxfZhPw_27JepF7ag5WrVmXL2jynsGhQxiBX23oTmOJFRIaa_FWovMTisFpvF3K0kiWYNZ0ncYBaPQcxa06_3jBG9AeRJb1C_HLkKgFDqd9T1Zd3G8US9vBs3bF8YkAcGKOkftVe7zYectUMl7A-KBdrnZ-hPO7tK89i2Fw2o7GwA61XC_NSO7X3_DX3iW9ls8-dYNi82cz0bAZYfk-QyErVjY0IQN10Qh0Ool4biYgx3Tei75pXPiJyA11af6yxOgU",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 204,
+        "size": 119,
+        "remoteIPAddress": "216.58.214.2",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.09600600006524473
+      },
+      {
+        "url": "https://684dd32b.akstat.io/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 204,
+        "size": 361,
+        "remoteIPAddress": "104.99.232.176",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.net-a-porter.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:07:31 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://www.net-a-porter.com/assets/_next/static/chunks/b76642e9f60a1fcf3c87dff0e6980d6a6fb2ae50.8eba36d940f467565c95.js",
+          "https://cdn.raygun.io/raygun4js/raygun.min.js",
+          "https://s.go-mpulse.net/boomerang/R4ER9-P3HDX-YEVEY-55HHF-MEUYZ"
+        ],
+        "time": 0.09393799991812557
+      },
+      {
+        "url": "https://lo.v.liveperson.net/api/js/73583570?sid=3j0BUFm-Tj2BPi4Jm7uybQ&cb=lpCb65927x13950&t=ip&ts=1639670860896&pid=4737987663&tid=666491539&vid=VmYTkwZTI2MjRkOGEwNzAz",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.net-a-porter.com/",
+        "status": 200,
+        "size": 823,
+        "remoteIPAddress": "178.249.97.70",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "a497176e376c76dec8a85952d8fc9b261401e39c1027c572998fd07780680d96",
+        "initiators": [
+          "https://www.net-a-porter.com/resources/253cd35f451096fed569d5ea9b5f4896f2d72a3d52657",
+          "https://lptag.liveperson.net/lptag/api/account/73583570/configuration/applications/taglets/.jsonp?v=2.0&df=undefined&b=undefined",
+          "https://lo.v.liveperson.net/api/js/73583570?sid=3j0BUFm-Tj2BPi4Jm7uybQ&cb=lpCb16215x895&t=pl&ts=1639670850564&pid=4737987663&tid=666491539&vid=VmYTkwZTI2MjRkOGEwNzAz"
+        ],
+        "time": 0.07351399993058294
+      }
+    ]
+  }
+}

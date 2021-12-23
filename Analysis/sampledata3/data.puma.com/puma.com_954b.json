@@ -1,0 +1,1760 @@
+{
+  "initialUrl": "https://puma.com/",
+  "finalUrl": "https://eu.puma.com/nl/nl/home",
+  "timeout": true,
+  "testStarted": 1639670991984,
+  "testFinished": 1639671034210,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.puma.com\\links.puma.com_954b.json",
+    "requests": [
+      {
+        "url": "https://puma.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "40.71.11.142",
+        "responseHeaders": {},
+        "responseBodyHash": "575870442ac470863b02b2c44327093df238c16003ab00d8b624f679fb2eaa2f",
+        "redirectedTo": "https://eu.puma.com/nl/nl/home",
+        "initiators": [],
+        "time": 0.4729850000003353
+      },
+      {
+        "url": "https://eu.puma.com/nl/nl/home",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 48372,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "dwac_beJKsiaagurPYaaadbVLZSmGcd=GZaMoN0mQx-5dA6UgWAmgu4xDtLvUL7ZhfU%3D|dw-only|||EUR|false|Europe%2FBerlin|true; Path=/; Secure; SameSite=None\ncqcid=abSfAwVOHRXu2NFdLMBHYF3QqY; Path=/; Secure; SameSite=None\ncquid=||; Path=/; Secure; SameSite=None\nsid=GZaMoN0mQx-5dA6UgWAmgu4xDtLvUL7ZhfU; Path=/; Secure; SameSite=None\ndwanonymous_c5a39b2ce2870afea8e0fb7344b8fb95=abSfAwVOHRXu2NFdLMBHYF3QqY; Version=1; Comment=\"Demandware anonymous cookie for site Sites-EU-Site\"; Max-Age=15552000; Expires=Tue, 14-Jun-2022 16:09:52 GMT; Path=/; Secure; SameSite=None\n__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None\ndwsid=aOWrXNiJy7kZSsltmctYlJ9CKS7q_zZ_JcsG1LnbEK9OnJpXPGgGfQ12LXhqNTU9Z65wp4q2qhHcZ5JR_vlN_g==; path=/; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "575870442ac470863b02b2c44327093df238c16003ab00d8b624f679fb2eaa2f",
+        "redirectedFrom": "https://puma.com/",
+        "initiators": [],
+        "time": 0.6213719999650493
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 814,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "1bcb6f2330f7b880493085d33ddb5d5c8a6d7eb06f622e15be9b6b25f476203d",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.02951799996662885
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/global.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 57517,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "c719b98451c94c708274815c1bac185fc550e60b48ad402bd9b84d65035db793",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.041673999978229403
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/kitOfParts.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 15465,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "5a61f0ca253b9d40001b6b74e243fa7409632d0c20d490ef71818d3904f913e6",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.030408999999053776
+      },
+      {
+        "url": "https://www.googleoptimize.com/optimize.js?id=OPT-K8WV5DK",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 64364,
+        "remoteIPAddress": "142.251.36.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "cdd506a7608044bf454238ec3207c06545d61977c7b4b72879af53274d03284d",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.1819769999710843
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwddca4d93/images/unsupported-browser/safari.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 10665,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86396",
+          "expires": "Fri, 17 Dec 2021 16:09:49 GMT"
+        },
+        "responseBodyHash": "6835a0050a15c72607858d8b356c0a030e4836b6046d12c5d9af3ae0e71a6d09",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.07949099992401898
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwa00cfc27/images/unsupported-browser/chrome.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 1563,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86395",
+          "expires": "Fri, 17 Dec 2021 16:09:48 GMT"
+        },
+        "responseBodyHash": "f3d433d588a7b701b7a664cfda2f67982dc9c0ce4034b75ebefe60f1f1eadb9c",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.10507399996276945
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dw8d0d91f9/images/unsupported-browser/firefox.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 3489,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86396",
+          "expires": "Fri, 17 Dec 2021 16:09:49 GMT"
+        },
+        "responseBodyHash": "9e1e82132d4b3ce304b07707f6662d88c6e92ef461adb6140588c8980dc0b669",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.12513500009663403
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwef78c786/images/paypal_btn_checkout_200px.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 2815,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86396",
+          "expires": "Fri, 17 Dec 2021 16:09:49 GMT"
+        },
+        "responseBodyHash": "533c3f058b48ec1a17315a1b3352122951f4c69d45f0f3e1e28c05cf9ea7c7b2",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.10746800003107637
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dw205c06da/flags/nl.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 590,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "b6c25c6e943ba08c9e1f7e3791a893f5d8f7af2ebdd6a7cc2156e61aa059f249",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.09853900002781302
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-58X7F8K",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 128008,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "8489245e57ffbc828659178835e51800e6b0578431386b74271d0e37549c5f22",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.2924720000009984
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/fonts/FFDINforPumaW01-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css",
+        "status": 200,
+        "size": 18683,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "d182ea2610b2a7c6c772585914db86ff95cc08ba180edcc3ba308efab2eeb6e7",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css"
+        ],
+        "time": 0.2095540000591427
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/fonts/FFDINforPumaW01-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css",
+        "status": 200,
+        "size": 18656,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "815972df7c850416a46ebfc70b8360dd95ae1e9ea352b69f49636b7cca2eb619",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css"
+        ],
+        "time": 0.20418399991467595
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/fonts/FFDINforPumaW01-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css",
+        "status": 200,
+        "size": 17669,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:53 GMT"
+        },
+        "responseBodyHash": "a8e255982672577c18a85642e9c136a66b0433b314c63e3992ec20dab7e056a7",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/css/fonts.css"
+        ],
+        "time": 0.20727700006682426
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/-/Library-Sites-Shared-EEA/default/dw84ec825e/web-components/pumatrac-logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 2152,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591996",
+          "expires": "Sat, 15 Jan 2022 16:09:50 GMT"
+        },
+        "responseBodyHash": "9965f19e82a0ead13c78a7f821407de43f0d8c54eb09155a9e0b8434c1ce2116",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.05153199995402247
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/Bloomreach-ABTestCookie",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 251,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.11280300002545118
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 7126,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9BE75DC2F7AD9"
+        },
+        "responseBodyHash": "4d2a74d8b25e1ccd4b1294b0b937804bc24aeea7f46edad3f3c1f91604d2708c",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.11381300003267825
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/polyfills.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 24126,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "2f82cf118c1d31a3e969e2fbd3153ce87860e4df351edaddf469c7d11fe21a63",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.06144899991340935
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/framework-vendors.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 11172,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "d05eec552064460b0e7861a89d9a42c391bc8d7be9c581f8ef32dbd79225fc35",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.053416999988257885
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/common-vendors.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 7510,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "98925082c33c03197b4564c103134637bb26078330009bc8b4e5b15c6da25c7a",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.04624399996828288
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/base.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 5792,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "6176465ee9882abfa446a213da54b680b9064bc2a1c8d53e74a4ac16aa7326bb",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.047716000000946224
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 133027,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "44ccdffa1a2605187b07cc7d4e2a9ce1f0fc720ab5a8d107cd5c2c8f42cacef2",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.11027499998454005
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/webcomp/cookielocation.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 156132,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "f194c26cdc93a264f33a5f11056d730999cbc15de73b2828622691d118a4ec10",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.4045240000123158
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/dwanalytics-21.9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 2766,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "c1be4481f94f8dbeac0db34fa65981e1211c794231cb7952d7f2d73f73cb6bfe",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.044772999943234026
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/dwac-21.7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 1984,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "0acc05529b896335e67451050b9d9353d4cd680a470919fecf91c12ff09196d3",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.05076699994970113
+      },
+      {
+        "url": "https://cdn.cquotient.com/js/v2/gretel.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 12604,
+        "remoteIPAddress": "13.227.217.143",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"4fdd1834cd022d3113e766921bac1ba4\""
+        },
+        "responseBodyHash": "6b6b34e69f08fb2fb269c0affa0b91f979eacc9df506d06fcc670e0601f23784",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.11987099994439632
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/applepay.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 2581,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "2ad8df0436390cc4a60f3d7cffb9022a4f7689478cac55850b003cb54090ed6a",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.05611599993426353
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-547W3RC&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 40012,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Thu, 16 Dec 2021 16:09:54 GMT"
+        },
+        "responseBodyHash": "48ecd5a1a878b8512c58faa75cb8de6d6814bd6e712bd423761f49b724d4c008",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-58X7F8K"
+        ],
+        "time": 0.02207000006455928
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/82f140fd-3c88-4ed6-9862-a69db9c79455/82f140fd-3c88-4ed6-9862-a69db9c79455.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 1999,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D994C0CE0E35D3",
+          "expires": "Thu, 16 Dec 2021 20:09:54 GMT"
+        },
+        "responseBodyHash": "9bbafa484138f2087de39a8155a9c4a3b8a93ea07131e39490998d7e260f8abe",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.04405100003350526
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 394,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {},
+        "responseBodyHash": "cbf703b757f969f2cc8a77701ddc301f2f97cfaa22873fdfb156119b12f245a5",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.04472200002055615
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/Product-SlotComponentCarousel?recomm=true&pids=4064535335606,4063699679069,4063699975857,4063697837546,4063697605589,4063697808188,4063697824973,4063697834644,4063697846784,4062453170354,4062453166692,4063697805262,4063698178006,4063697606197,4063697615137,4063697559455,4063697810686,4063699665437&ct=default&hc=&jscl=",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 1930,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "eb0142f35525b3ac41fc75123178dfccc1f9aa0d1c5c2ab807f4f824175af083",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.21556399995461106
+      },
+      {
+        "url": "https://p.cquotient.com/pebble?tla=aakf-EU&activityType=viewReco&callback=CQuotient._act_callback0&cookieId=abSfAwVOHRXu2NFdLMBHYF3QqY&userId=&emailId=&products=id%3A%3A307151%7C%7Csku%3A%3A4064535335606%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306869%7C%7Csku%3A%3A4063699679069%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A380173%7C%7Csku%3A%3A4063699975857%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306639%7C%7Csku%3A%3A4063697837546%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A380173%7C%7Csku%3A%3A4063697605589%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306796%7C%7Csku%3A%3A4063697808188%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306725%7C%7Csku%3A%3A4063697824973%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306725%7C%7Csku%3A%3A4063697834644%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306725%7C%7Csku%3A%3A4063697846784%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306579%7C%7Csku%3A%3A4062453170354%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306579%7C%7Csku%3A%3A4062453166692%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306572%7C%7Csku%3A%3A4063697805262%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306572%7C%7Csku%3A%3A4063698178006%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A380173%7C%7Csku%3A%3A4063697606197%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A380173%7C%7Csku%3A%3A4063697615137%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A380173%7C%7Csku%3A%3A4063697559455%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306725%7C%7Csku%3A%3A4063697810686%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A%3B%3Bid%3A%3A306797%7C%7Csku%3A%3A4063699665437%7C%7Ctype%3A%3A%7C%7Calt_id%3A%3A&recommenderName=__UNDEFINED__&realm=AAKF&siteId=EU&instanceType=prd&locale=nl_NL&slotId=&slotConfigId=&slotConfigTemplate=&referrer=&currentLocation=https%3A%2F%2Feu.puma.com%2Fnl%2Fnl%2Fhome&ls=true&_=1639670994646&v=v2.34.2&fbPixelId=__UNKNOWN__",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 450,
+        "remoteIPAddress": "52.213.44.204",
+        "responseHeaders": {
+          "etag": "W/\"93-ihns+sLaJ0PwuK2dmMccfMfmUW4\"",
+          "set-cookie": "uuid=abSfAwVOHRXu2NFdLMBHYF3QqY; Max-Age=34128000; Domain=.cquotient.com; Path=/; Expires=Sun, 15 Jan 2023 16:09:54 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "bd06fa0947229669ce6665fcc9b5b7bbec83ff799ac1460c1d2762b51f75b472",
+        "initiators": [
+          "https://cdn.cquotient.com/js/v2/gretel.min.js"
+        ],
+        "time": 0.1173430000199005
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/Home-LastVisitedItem",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 500,
+        "size": 74978,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "53a7d14c226e4c78325d30a2085722eaad11d07b5ecb1e65b73a42ee85040e18",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/base.bundle.js"
+        ],
+        "time": 0.239623999921605
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/global.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 7917,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:55 GMT"
+        },
+        "responseBodyHash": "94856e107b66dd96877e7ea65ec85a2948c968ec2a8eb6896a9817d23fe904d6",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.05973800003994256
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/default/dwd46069b5/images/lazyload.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 238,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=85224",
+          "expires": "Fri, 17 Dec 2021 15:50:19 GMT"
+        },
+        "responseBodyHash": "931870ec1ad42a2613c8cfdb7d4b4056f0056a682e0ebfe5956d594d5589caea",
+        "initiators": [
+          "https://eu.puma.com/nl/nl/home"
+        ],
+        "time": 0.03528099996037781
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/vendors~pdp~plp.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 13841,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:55 GMT"
+        },
+        "responseBodyHash": "7b53b6b41bef20c1a91284e123c57f5799fb5d0439864d47cefb95c8543a652a",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.029623999958857894
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/vendors~pdp.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 23820,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:55 GMT"
+        },
+        "responseBodyHash": "33d5fa256f22d90c77538794ee8e53801dfb4656cf2101d96b8fbc08343bd828",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.05129200010560453
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/pdp.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 27837,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Fri, 17 Dec 2021 16:09:55 GMT"
+        },
+        "responseBodyHash": "c8d58a358a431165cb19acd489f851533f9c1ed29f4900836a7913c728cccdf9",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.04711599997244775
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 77723,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9957C5F8AA42D"
+        },
+        "responseBodyHash": "fe035b6ff2394b9fc9b4dad0acc9050d633269a5efa7cfeac7e6b8fdc12b7065",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.042200000025331974
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/307151/01/sv01/fnd/EEA/fmt/png/Speedcat-Pro-Spectra-Men's-Motorsport-Shoes",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 11677,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"a22cf61076ab5496f56a5b6aecd95802\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3c3b335c5241bb0fbaddeb7b1a692eb6fa2b24f06009fd61ca15b176b8c35fab",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.14915700000710785
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/306725/02/sv01/fnd/EEA/fmt/png/Speedcat-OG+-Sparco-motorsportschoenen",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 9791,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"57a1cb956fe9c084884303ceb102fa03\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3b94ecb60266f9469c7a3d343ef1fe633c594a96da81fe265dc29d8b50387807",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.15910200006328523
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/306725/03/sv01/fnd/EEA/fmt/png/Speedcat-OG+-Sparco-motorsportschoenen",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 7672,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"1d07b47af53475201049ec9b8bc363f7\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3002ee6ae47211c18d123d9b5c60f299d6944fa784ec7fffc32c6bf03e31eca",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.15909400000236928
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/306725/05/sv01/fnd/EEA/fmt/png/Speedcat-OG+-Sparco-motorsportschoenen",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 8144,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"cdc5f78144f8977b7e59391c3308d62e\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "657a8151ae288bd0eb0b4e9a7e6939c6ec74992e321005bafa98e0d551b75b4c",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.1330529999686405
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/380173/02/sv01/fnd/EEA/fmt/png/SpeedCat-LS-sneakers",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 9723,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"5470080036b225eb57273ab2538b8d4b\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b803e6cf8230a5c6dd75614d6dcd227e963e8336e04af1543a6aa393e9370305",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.1343470000429079
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/380173/01/sv01/fnd/EEA/fmt/png/SpeedCat-LS-sneakers",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 8479,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"1332567c8a34205eca5c197f034caa9e\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d7c8985c4d227d26896d0f6e3397b355c81d1972e990a9c435bd2a5e4a657b11",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.15767200000118464
+      },
+      {
+        "url": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/380173/04/sv01/fnd/EEA/fmt/png/SpeedCat-LS-sneakers",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 9749,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"8c95e86dd1324ae84c42883862da76bf\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ec992417077ebdc3b9aa3bc604269794dcc0e58a4bfdc213a86d3a25d344dbd4",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.2513129999861121
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/__Analytics-Start?url=https%3A%2F%2Feu.puma.com%2Fnl%2Fnl%2Fhome&res=800x600&cookie=1&ref=&title=PUMA.com%20%7C%20Kleding%20en%20schoenen%20%7C%20PUMA&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=0&java=0&gears=0&ag=0&dwac=0.5315130683282046&cmpn=&tz=Europe/Berlin&pcc=EUR&pct=&pcat=&pid-0=4064535335606&pev-0=event3&evr4-0=Yes&pid-1=4063699679069&pev-1=event3&evr4-1=Yes&pid-2=4063699975857&pev-2=event3&evr4-2=Yes&pid-3=4063697837546&pev-3=event3&evr4-3=Yes&pid-4=4063697605589&pev-4=event3&evr4-4=Yes&pid-5=4063697808188&pev-5=event3&evr4-5=Yes&pid-6=4063697824973&pev-6=event3&evr4-6=Yes&pid-7=4063697834644&pev-7=event3&evr4-7=Yes&pid-8=4063697846784&pev-8=event3&evr4-8=Yes&pid-9=4062453170354&pev-9=event3&evr4-9=Yes&pid-10=4062453166692&pev-10=event3&evr4-10=Yes&pid-11=4063697805262&pev-11=event3&evr4-11=Yes&pid-12=4063698178006&pev-12=event3&evr4-12=Yes&pid-13=4063697606197&pev-13=event3&evr4-13=Yes&pid-14=4063697615137&pev-14=event3&evr4-14=Yes&pid-15=4063697559455&pev-15=event3&evr4-15=Yes&pid-16=4063697810686&pev-16=event3&evr4-16=Yes&pid-17=4063699665437&pev-17=event3&evr4-17=Yes&dw_dnt=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 123,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/dwanalytics-21.9.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/dwac-21.7.js"
+        ],
+        "time": 0.161752000101842
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/Page-KOPLoadAsset?cid=global-banner-christmas-delivery-info-aw21",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 854,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a542055c94e9f4573e300a0cb6437535bca96024fedea3d94960c6aec05f07f6",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/global.bundle.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.07183900009840727
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/Page-KOPLoadAsset?cid=large-full-bleed-redblast-aw21-m",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 1007,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "720e6e873b376b2d97c59af5b00c499b3d3b78dc34ed3bfb732074ac29f20afb",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/global.bundle.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.14886299998033792
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/Page-KOPLoadAsset?cid=large-full-bleed-motorsport-speedcat-hamilton-aw21-1",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 1108,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9965663868ccaf07f867cc336f5778e9b1ee3974bd0ea0f547a9d383585c0b5b",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/global.bundle.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.15240699995774776
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/82f140fd-3c88-4ed6-9862-a69db9c79455/4c375a67-e521-4597-93c3-e9aa3fd560de/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 14087,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D994C0D5D0A371",
+          "expires": "Thu, 16 Dec 2021 20:09:56 GMT"
+        },
+        "responseBodyHash": "1255010a92e55c0bc374e627279d586c478c56f932aa5e2af79c5f3c36280688",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js"
+        ],
+        "time": 0.06016200000885874
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/js/widget.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 14212,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "max-age=900, must-revalidate"
+        },
+        "responseBodyHash": "787e030e8ae2abb4ba16fab77cdccbba559a6bbae24c3e5ebb43816c6a82a76f",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/base.bundle.js"
+        ],
+        "time": 0.09168999991379678
+      },
+      {
+        "url": "https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~EEA~others~KOPs~AW21~HOLIDAY~2021~EEA_21AW_PNA_Holiday_Textures__desktop.jpg/fmt/jpg/fmt/png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 16170,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"f827d5bc995e47a6c87c10c4659a9578\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8673140cafcc322e7dc3d9ed368010059adcff87cc0f5c57c9abeb95fbcee1d8",
+        "initiators": [],
+        "time": 0.017366999993100762
+      },
+      {
+        "url": "https://www.mczbf.com/tags/11841/tag.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 8895,
+        "remoteIPAddress": "52.222.138.97",
+        "responseHeaders": {
+          "cache-control": "max-age=1800"
+        },
+        "responseBodyHash": "04f909ccca829eb50c82205a33e623c0e2ad7e3838d43f8deabd9e5e97d9f55d",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-58X7F8K",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-547W3RC&l=dataLayer",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-K8WV5DK"
+        ],
+        "time": 0.04807100002653897
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.25.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 3263,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D98ED30DB4311E"
+        },
+        "responseBodyHash": "72562f00bd821b6edc0368065bf009468955ba01f8ead742d8bbc2470c4358c4",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js"
+        ],
+        "time": 0.023779000039212406
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.25.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 11755,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9957C5B1359BC"
+        },
+        "responseBodyHash": "e4f02e9d367192c2c79c674f41b7eae83bcfe93c4e6fcfc5e7d1e34cfa2b7d00",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js"
+        ],
+        "time": 0.03544300002977252
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.25.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 4402,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": "2ee6fdf3d0f4d826380054030e5a9fd6fc8c451d9fe28123f1d76e632332e659",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js"
+        ],
+        "time": 0.03685499995481223
+      },
+      {
+        "url": "https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~EEA~others~KOPs~AW21~BASKETBALL~RED_BLAST~EEA_21AW_ECOM_MF_BB_MB1_Red-Blast_FullBleedHero_Desktop_1440x500_1.jpg/fmt/jpg/fmt/png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 234356,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"e64bb54c02f87df9906e238b75c3bbc3\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a77ccd2f5e89aa529f1c8a8b35697727dc0dac5c2e56a7e9a4a045e55a39412f",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.08820999995805323
+      },
+      {
+        "url": "https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~EEA~others~KOPs~AW21~MOTORSPORT~SPEEDCAT~EEA_21AW_ECOM_MF_SPEEDCAT_Landing-Page_FullBleedHero_Desktop_1440x550_1-%28fallback-image%29.jpg/fmt/jpg/fmt/png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 108238,
+        "remoteIPAddress": "104.84.233.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, immutable, max-age=31536000",
+          "etag": "\"a6439f89ea8ffb7eca3c4c108120715a\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "73ec1cd7eff60c20d70eceb504d9a51a354817a1f118d0a143d90911a48176df",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.046738999895751476
+      },
+      {
+        "url": "https://www.sjwoe.com/policy",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 414,
+        "remoteIPAddress": "13.227.219.125",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": "4bfe3fd63b2ce813a2e3e1252146acf89e82d30222ca39161cf68086449cd64b",
+        "initiators": [
+          "https://www.mczbf.com/tags/11841/tag.js"
+        ],
+        "time": 0.0431269999826327
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 2589,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "37de4abed74bf3a0b279ddffc9dd0ec549e4ddcaf0856e614362bf66055343a9",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/js/widget.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js"
+        ],
+        "time": 0.03475600003730506
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/css/widget.css?t=1639670996431",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 2159,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000,no-cache, no-store, must-revalidate, pre-check=0, post-check=0,public",
+          "expires": "Fri, 16 Dec 2022 16:09:56 GMT"
+        },
+        "responseBodyHash": "38a4932ef69f2de2422f3f141d92fadaa5c6191a44cdf40d2e03cb8d4eda9245",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/js/widget.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/main.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/js/base.bundle.js"
+        ],
+        "time": 0.060594000038690865
+      },
+      {
+        "url": "https://www.mczbf.com/11841/pageInfo",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "remoteIPAddress": "52.222.138.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store"
+        },
+        "initiators": [
+          "https://www.mczbf.com/tags/11841/tag.js"
+        ]
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-cb48eae2d25974cb9e453b74e43d0225.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 1890,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"cb48eae2d25974cb9e453b74e43d0225\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "479cfe30323366acc7d37e0e35c7a69198d952e7b998f87ec2b1ee5cf6dbf044",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ=="
+        ],
+        "time": 0.053638999932445586
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-2f18249c9a30fc325c9e78e3c52e183c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 23653,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"2f18249c9a30fc325c9e78e3c52e183c\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "1e8d929cef705c6cb650b8309f2f332a3dc5b805b59fa21e18ae8968a248c02a",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ=="
+        ],
+        "time": 0.05612299998756498
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 390743,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"78cfc42ab37c276442ee74fa1de83ad8\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "eaa8f28e29a5b68e248d6a1fb419faf3dcf3f57375d563e0d01f37f94cd4b59c",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ=="
+        ],
+        "time": 0.19073000003118068
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 204906,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"c6158d91586c76ce5d5b75fa0bbf7a82\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "4895a098d71a8be2c68f0b2b35c7ff3f5dc2bfeabd89620829d75744efba2c61",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ=="
+        ],
+        "time": 0.13659900007769465
+      },
+      {
+        "url": "https://eu.puma.com/on/demandware.store/Sites-EU-Site/nl_NL/__Analytics-Start?url=https%3A%2F%2Feu.puma.com%2Fnl%2Fnl%2Fhome&res=800x600&cookie=1&ref=&title=PUMA.com%20%7C%20Kleding%20en%20schoenen%20%7C%20PUMA&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=0&java=0&gears=0&ag=0&dwac=0.039154558776336446&cmpn=&tz=Europe/Berlin&pcc=EUR&pct=&pcat=&dw_dnt=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/nl/nl/home",
+        "status": 200,
+        "size": 131,
+        "remoteIPAddress": "104.17.23.48",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/dwanalytics-21.9.js",
+          "https://eu.puma.com/on/demandware.static/Sites-EU-Site/-/nl_NL/v1639642993796/internal/jscript/dwac-21.7.js"
+        ],
+        "time": 0.13278499990701675
+      },
+      {
+        "url": "https://rts-static-prod.freshworksapi.com/euc/rts-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 25474,
+        "remoteIPAddress": "13.227.219.43",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"596deaf4d67744caa5865bc1dc51a8f4\""
+        },
+        "responseBodyHash": "ee79271766bbba9a34b7449b08dd9c3b75f1b55baf957f242dee6632fa357a25",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js"
+        ],
+        "time": 0.08535399998072535
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/app/services/app/webchat/e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9/config?domain=aHR0cHM6Ly9ldS5wdW1hLmNvbQ",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "status": 200,
+        "size": 2155,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "2f9ffcb7fe9c4e65011cd548ef14177ffa2bebe64bb227a4e7496e31182866e4",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js"
+        ],
+        "time": 0.059757000068202615
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/translations/en-us-28821ce664b923581d789fe132fdfa67.js",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 4326,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://wchat.eu.freshchat.com",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "W/\"28821ce664b923581d789fe132fdfa67\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "4c699c763680db4221468c22d27bd952b645914fbc80c8aee08d528070405048",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js"
+        ],
+        "time": 0.06659600010607392
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/fonts/fs-icons_db9017235f84eecfa2cafef72d487865-1181e40b8546834a9805fdf81df2f865.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-2f18249c9a30fc325c9e78e3c52e183c.css",
+        "status": 200,
+        "size": 5533,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://wchat.eu.freshchat.com",
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"1181e40b8546834a9805fdf81df2f865\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "6da30cf003c391534cf7f26c5f5590a51e0fe67bd882b814aaf6ce24819097ed",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-2f18249c9a30fc325c9e78e3c52e183c.css"
+        ],
+        "time": 0.07622299995273352
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/js/co-browsing.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 10365,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "max-age=900, must-revalidate"
+        },
+        "responseBodyHash": "19cc0e01c4d1befda415ed38015cdd6b4b73ab046d21d9bd0983332a338f7a89",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/js/widget.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js"
+        ],
+        "time": 0.053851000033318996
+      },
+      {
+        "url": "https://assetscdn-wchat.eu.freshchat.com/static/assets/audio/notif.mp3",
+        "method": "GET",
+        "type": "Media",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 206,
+        "size": 4758,
+        "remoteIPAddress": "52.222.138.8",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, no-transform, public",
+          "etag": "\"a529450a7cfb4a60dea41ef294fa90dd\"",
+          "expires": "Thu, 08 Dec 2022 11:56:35 GMT"
+        },
+        "responseBodyHash": "0522ad0149c24834fc8812caa69b5282eef7bd9207735743bef2a72b35ac5e21",
+        "initiators": [],
+        "time": 0.03979099995922297
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/css/cb.css?t=1639670998398",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 1322,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000,no-cache, no-store, must-revalidate, pre-check=0, post-check=0,public",
+          "expires": "Fri, 16 Dec 2022 16:09:58 GMT"
+        },
+        "responseBodyHash": "496f4ec180b45c31ce6fef39717ddf39efb84ce4253b3bebb43841521b8b654a",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/js/co-browsing.js"
+        ],
+        "time": 0.0435740000102669
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/app/services/app/webchat/e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9/user",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "status": 200,
+        "size": 1207,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "02a00e3ef645e0351f654665d42b03388e6a73e0ab4f853c8904faecf322b229",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://wchat.eu.freshchat.com/js/widget.js"
+        ],
+        "time": 0.043699000030756
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/app/services/app/webchat/e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9/widget_info_v2?locales=en-GB,en-GB&platform=web",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "status": 200,
+        "size": 2374,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "405bf170e0e904519e4852b7015cb6acb7906005ea02e42b17c0ce6c84c248f9",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://wchat.eu.freshchat.com/js/widget.js"
+        ],
+        "time": 0.027415000018663704
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/app/services/app/webchat/e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9/faq/category?platform=web&locales=en-GB%2Cen-GB&since=&lastLocaleId=",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/widget/?token=e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9&referrer=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "status": 200,
+        "size": 1303,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "d6e0e283a2ce1a844de1f14694207247d27103aa5686f083bf491b4bd182660b",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://wchat.eu.freshchat.com/js/widget.js"
+        ],
+        "time": 0.04559200000949204
+      },
+      {
+        "url": "https://wchat.eu.freshchat.com/app/services/app/webchat/e9ffd934-fd36-40bd-8bd3-6fbc7f0154b9/user/8709b9ae-5f38-413b-b7b9-516c88590316/activity",
+        "method": "PUT",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/home/406",
+        "status": 200,
+        "size": 1106,
+        "remoteIPAddress": "3.124.112.54",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+        },
+        "responseBodyHash": "f1ea07a1e51a389c8de07120ae5c2e432e9dd8f4fbd6f92489f185b0523a3fd4",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://wchat.eu.freshchat.com/js/widget.js"
+        ],
+        "time": 0.07486099994275719
+      },
+      {
+        "url": "https://fc-euc1-00-pics-bkt-00.s3.amazonaws.com/cbaddb18a3da11c793ce251a2c599c586f20593c30fa40b7acabaeab7d60d73b/f_marketingpicFull/u_8a7f962aabbcf7e76b076e57c9b84dd0310743cf43675dfc3f14c5a870edc123/img_1587127555141.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 16019,
+        "remoteIPAddress": "52.219.171.119",
+        "responseHeaders": {
+          "etag": "\"b1e06dd51578c9ab58a1f6a3ba89b95c\""
+        },
+        "responseBodyHash": "7e5a6f70948e504d18add26038e35c499d195af1ea746860343c325ac4a8b5df",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://wchat.eu.freshchat.com/js/widget.js"
+        ],
+        "time": 0.14972900005523115
+      },
+      {
+        "url": "https://puma.eu.webpush.freshchat.com/cbaddb18a3da11c793ce251a2c599c586f20593c30fa40b7acabaeab7d60d73b/f_marketingpicFull/u_8a7f962aabbcf7e76b076e57c9b84dd0310743cf43675dfc3f14c5a870edc123/img_1587126434636.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://wchat.eu.freshchat.com/",
+        "status": 200,
+        "size": 11205,
+        "remoteIPAddress": "52.222.138.29",
+        "responseHeaders": {
+          "etag": "\"5abedc070d740a4d88db0b9e8e66b7cc\""
+        },
+        "responseBodyHash": "8ed47af1d3ba581a9cdf96360b192d00ed71d69869d0595281c4f924170a7369",
+        "initiators": [
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://wchat.eu.freshchat.com/js/widget.js"
+        ],
+        "time": 0.08666799997445196
+      },
+      {
+        "url": "https://puma.eu.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 6895,
+        "remoteIPAddress": "52.222.138.29",
+        "responseHeaders": {
+          "etag": "W/\"4d98f93ebe4eb8cedbbfdb3004920aeb\""
+        },
+        "responseBodyHash": "05a530dd5d40bf5dbef4e3d5ed6976e9aec1baf49a20be30e07b1608918e3bc3",
+        "initiators": [
+          "https://wchat.eu.freshchat.com/js/widget.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/fc_web_widget-6311dd6a9c47617c1600861431c36351.js",
+          "https://assetscdn-wchat.eu.freshchat.com/static/assets/vendor-9acf8588d31199e9a3bc6d1e440b2045.js"
+        ],
+        "time": 0.1720490000443533
+      },
+      {
+        "url": "blob:https://wchat.eu.freshchat.com/b74c70c6-9967-4f9a-84df-eb543783f7ec",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "f9ad5dbf44764c275ac6c76067b0a3a388cb1a8a20e4e5d2e71d942f032e0c5b",
+        "initiators": [],
+        "time": 0.018755999975837767
+      },
+      {
+        "url": "https://puma.eu.webpush.freshchat.com/fc_logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://puma.eu.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "status": 200,
+        "size": 4094,
+        "remoteIPAddress": "52.222.138.29",
+        "responseHeaders": {
+          "etag": "\"e87df9f10dcf497ae292dc234200465c\""
+        },
+        "responseBodyHash": "7900ac96829056f562537c8aaa0942d379f5b1b0b1861ca86f7160f8c9ebbbb0",
+        "initiators": [
+          "https://puma.eu.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9ldS5wdW1hLmNvbQ=="
+        ],
+        "time": 0.3927100000437349
+      },
+      {
+        "url": "https://puma.eu.webpush.freshchat.com/firebase-sw.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://puma.eu.webpush.freshchat.com/index.html?ref=aHR0cHM6Ly9ldS5wdW1hLmNvbQ==",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.138.29",
+        "responseHeaders": {
+          "etag": "W/\"97306f86a264bc64392ebb65c4058494\""
+        },
+        "responseBodyHash": "5b94608558287dc8ea771820108ef94d8b620ebf734810be4f8b40ef34570742",
+        "initiators": [],
+        "time": 0.3033830000786111
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/37f0a04f-c185-4f14-b87e-1022f8a918d6/da39712a-04ad-45b5-b735-b5cbc1e33335/5be3e6f4-8ad8-4e70-aa32-3d693f085123/2019_PUMA_Logo_Standard-No2_with-Registration_White_LOW-RES.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 17136,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D988CFE304F14D"
+        },
+        "responseBodyHash": "5770b7265b1040aabfde1ffa35f7cce28cc7394db64bbd0798f3af3fa1dd2c0b",
+        "initiators": [],
+        "time": 0.031844999990426004
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/poweredBy_ot_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 1693,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": "49b9b4996d1ff0a8e3de643a0c623255bf631f298f2799b949c29de93926ee7a",
+        "initiators": [],
+        "time": 0.05488900002092123
+      },
+      {
+        "url": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://privacyportal-de.onetrust.com/request/v1/consentreceipts"
+        ],
+        "time": 0.13047599990386516
+      },
+      {
+        "url": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://eu.puma.com/",
+        "status": 200,
+        "size": 1532,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "a618a6d1ca524474cce236b81f3cbe73911dd5182cdbe962f011e7c7a871db4c",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/6.25.0/otBannerSdk.js",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.1994040000718087
+      }
+    ]
+  }
+}

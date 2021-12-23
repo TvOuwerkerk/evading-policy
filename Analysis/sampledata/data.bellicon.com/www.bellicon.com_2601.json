@@ -1,0 +1,1735 @@
+{
+  "initialUrl": "https://www.bellicon.com/",
+  "finalUrl": "https://www.bellicon.com/int_en",
+  "timeout": false,
+  "testStarted": 1639584648954,
+  "testFinished": 1639584664358,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://www.bellicon.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "expires": "Wed, 15 Dec 2021 16:10:49 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bellicon.com/int_en",
+        "initiators": [],
+        "time": 0.26230499998200685
+      },
+      {
+        "url": "https://www.bellicon.com/int_en",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 13506,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {},
+        "responseBodyHash": "fb8af01e943ebcbe371b7eab47f8a21ae61a3c786f525db8de84144f148dbbd3",
+        "redirectedFrom": "https://www.bellicon.com/",
+        "initiators": [],
+        "time": 0.03518700000131503
+      },
+      {
+        "url": "https://use.typekit.net/mgv8ztt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7055,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d1f84c3f0b86b60b2fbc9a6741e7e8747e07b6db804b7117482843b1e61d9724",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.10562300001038238
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/Styles/tinybox/style.css?56b123fe2c2a716eae6735c4cecf36c4",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61791-12e-5b4d7062bd62c-gzip\"",
+          "expires": "Wed, 25 May 2022 12:53:03 GMT"
+        },
+        "responseBodyHash": "b06766e8e1707ef2c267217f04017efc9a5efc20f872814a6801390514732c9b",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.039741999993566424
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/Styles/glyphicons/css/glyphicons.css?3265816acd664d058e4bb83eef90c8fb",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4053,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61783-5b0b-5b4d7062bca74-gzip\"",
+          "expires": "Wed, 25 May 2022 12:53:03 GMT"
+        },
+        "responseBodyHash": "0968e462071f7ca5f2be09503be329cba8af0b17a0b9ccdd907bba2c8b8b182d",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.05046899995068088
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/compiled/css/style-blessed1.css?ab010b150996505f12999482475b0f44",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 32104,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61f3f-2d752-5b4d708064fe6-gzip\"",
+          "expires": "Wed, 25 May 2022 12:53:03 GMT"
+        },
+        "responseBodyHash": "2dcc10cf8ba47130d6f5db83f59266e21c125d480a33be6f9e5ad5b16b4825a8",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.056917999987490475
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/compiled/css/style.css?11989b7668ee2966b6f8fe9174c0853a",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3650,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61f40-4dd7-5b4d708064fe6-gzip\"",
+          "expires": "Wed, 25 May 2022 12:53:03 GMT"
+        },
+        "responseBodyHash": "667d95cf9c74f776611d019e7b042fbb61bcb6573ba2a28c26ba518b04e9a831",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.050792999973054975
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/Scripts/shariff/shariff.min.css?cfe219b4caaf66715c73e3c60d104ee4",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2313,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61763-2751-5b4d7062bc2a4-gzip\"",
+          "expires": "Wed, 25 May 2022 11:58:20 GMT"
+        },
+        "responseBodyHash": "1649a271b3bc982f58803b540fec6b572436fdb6a811c935ad3cd92af45e9bbb",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.04938300000503659
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/Styles/starability-basic.css?848956f8e7546fb163a7c65de2ab3c84",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2937,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e6178d-232d-5b4d7062bd62c-gzip\"",
+          "expires": "Wed, 25 May 2022 12:53:03 GMT"
+        },
+        "responseBodyHash": "f4f299c95591fd219aa00be19dbbf427212b9076967ce1e5206b9c82977b36a1",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.040969999972730875
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/Styles/bellicon/bellicon-neos.css?26ace48ac1c65d7dfecfc3d55e86ff06",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3945,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61780-4cad-5b4d7062bca74-gzip\"",
+          "expires": "Wed, 25 May 2022 12:53:03 GMT"
+        },
+        "responseBodyHash": "df37e1b7a24c782eeedeab58b482ecda27224b351944e26c60f324af60988e34",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.04940299998270348
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/dist/js/bellicon-neos.min.js?05bd01b01e0f0b5c2ac21720432d030e",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 159354,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61f43-82c1e-5b4d708ceaf81-gzip\"",
+          "expires": "Wed, 25 May 2022 12:20:10 GMT"
+        },
+        "responseBodyHash": "76356aaafd7c9460393fbd029e415929c168728cd464f64750ef2deb5419582b",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.08327200001804158
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js?hl=en",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 965,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Wed, 15 Dec 2021 16:10:49 GMT"
+        },
+        "responseBodyHash": "e8c8beff1f477c4908775eda4b334204335f72429e4c9fb561ced2f3a35e7336",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.44726500002434477
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/images/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9423,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"1e617aa-2366-5b4d7062c244c\"",
+          "expires": "Tue, 04 Jan 2022 15:03:14 GMT"
+        },
+        "responseBodyHash": "673c36a344d2af0ca0098d743e91a3920505f96ca263b769f5a6a34d501d3ae4",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41954400000395253
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/b763d7829ecd7828faeb43e62e464cd8dca9427b/bellicon-bestellenV1b.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9973,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23206f2-257d-5add74200c8fd\"",
+          "expires": "Tue, 04 Jan 2022 15:03:05 GMT"
+        },
+        "responseBodyHash": "aad8955a63b0d0abafe101cb36932d08bc925dab43b7a608f8058d2661cd9c00",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.35912500001722947
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/aec8b755a00346d91e928a8e63fbb722e48de16f/Zubeho%CC%88rV2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11936,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2320374-2d3f-5add741eff863\"",
+          "expires": "Tue, 04 Jan 2022 15:03:15 GMT"
+        },
+        "responseBodyHash": "29dfc65147406997aaf8ba2713c61e61ce673d7702f163a1c5d910ea7d13c228",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.415549999976065
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/2ea97b5eae1ee254caea99782f7c681424e6341b/DVDsV1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13425,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"21e0272-3324-5add7410c11d0\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "c2552b19a719f7e7e9b4452ec9a2c75bb1db5b5a1ba264da19cf4d33b7412ff8",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4215609999955632
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/895edc1b340b97b8e2d3f7d3a12f6a9e02330b32/ErsatzteileV3.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10925,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22c041c-2945-5add741ae0202\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "ab385c3d276823159c2ed38e07d516158fca75a18c5053c17a50d26c1a56613f",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.3566850000061095
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/3b5eff543fa8a5cc5cd0a52db389770e1be0c8d7/classic-familie_classic-premium-plus.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 177751,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2200255-2b355-5add74118a097\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "1523405e6b2d226f23dfa9470d4bdf379aac0912dfdacd22cb9b71c96dac4796",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4165589999756776
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/da7211d0a8d245718d47dd2bee071a99b8e561e3/explosion-icon-go-family_04.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35194,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2380600-87f8-5add7423cf305\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "2b3113f8c3cf75a14aa4f122035f0d911a895e21737e1acd5a96a0d988cb45f4",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41578699997626245
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/17ddf89965f99a4ff70699c0c7fc13490cc1180c/bellicon_logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8130,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"21a03c1-1e4e-5add740ee77d7\"",
+          "expires": "Tue, 04 Jan 2022 13:10:25 GMT"
+        },
+        "responseBodyHash": "7938b67e04c24e5fe860377502775caa8bae8f0fd850722a3c4f708b8fd695b7",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41210199997294694
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/c732d96e44f0b92ec1822d4f0aea72d755b06c6d/uebungen-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29621,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23602b0-7255-5add74216b240\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "19a860bb6966131e107c1acec0645b493eebf4cfa6f2bee5feb65d94100e1ff4",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.43647399998735636
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/c079aaace51d546f29e04e139e63c42d54326f52/icon-best-built.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14698,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23405f6-37f5-5add74214358b\"",
+          "expires": "Tue, 04 Jan 2022 15:00:47 GMT"
+        },
+        "responseBodyHash": "502e5df597347b577198798e8d30209bf82159f48cc59da61ca46b1960d25108",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.412121000001207
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/d302d01181c4b2698ca02362ad72a8bebfa06fab/icon-best-bounce.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12524,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2360790-2f98-5add742321da3\"",
+          "expires": "Tue, 04 Jan 2022 15:00:47 GMT"
+        },
+        "responseBodyHash": "7cc631a30bd059c9a7de127981552d78b70e31cc2d570b4976772db4dda9b89a",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.414504999993369
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/773d420412fb58ade85fa0b464f2c5165f2f5bc7/icon-guarantee.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3956,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22806c4-e1c-5add7418bad1f\"",
+          "expires": "Tue, 04 Jan 2022 14:18:38 GMT"
+        },
+        "responseBodyHash": "24a056d63a4322587d6e06f7ce9436e1433caec8e749422103debabd0a4d20c4",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41239300003508106
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/0e9bcdd4595e698b00047879956aba55edd12f97/icon-expert-testimonials.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4386,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"21805d5-fc7-5add740dcb8f6\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "cf4b5ee7a361779dd9610da1312a73a9a30c9500ea947e9917acd126b8ffe2ea",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.40724100003717467
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/487c378a717f248a8fc98d3d1b9d3cee7866f38b/icon-customer-testimonials.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6268,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"222029a-163e-5add741296191\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "84cec27a8db9b726140abaab5e0159b517d4f19b58a10d621349ddaeeea0e84c",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.40779299999121577
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/1077e89500c6802b3f76891c638471817aadd753/icon-media.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10717,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2180648-2788-5add740e8bb1e\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "39715adc15afb7b83103b86160b7061af5eedfdce10534a2670ce587f93b1d13",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4162110000033863
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/0d5f8e544e326df8a743de14c554419ad2b78c78/icon-made-in-germany.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4306,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"218052e-f75-5add740d45c61\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "043055eecf9aee41f378ddbc040dbaa45c3be095a636f44fca6a6c9e9daaf287",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41987300000619143
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/ebc28d8b27828aee6bb5c3058e0874278b6aeade/icon-bellicon-gesundheit.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6795,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23a072c-1924-5add7424a5c8b\"",
+          "expires": "Tue, 04 Jan 2022 15:00:35 GMT"
+        },
+        "responseBodyHash": "2ab78ccd5c1abd979b29baec8c9332e797809d1bafa8da28d1618bb630c7fef5",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.421786000020802
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/bb8a8334f6f5a065d732a251bda397a7f0d251e5/icon-fitness-benefits.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10936,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"234036b-296b-5add7420b5427\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "ea12615bed404f2c451b9ea8f8ab7d8f9d45d2995e274fcbeaf208b06480d502",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4115130000282079
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/dc78da6fef65d687c44ff5e83b4c10c03660e336/icon-studien.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2621,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23806b2-90e-5add7423624de\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "bfac01ca3519fedb145267c47f7bcf49f11b88aaa5d7a807f3261bd80abfd90d",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41572399996221066
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/ff82ae87124c0c8e2656ae1f256844d168cdf68f/blog-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2697,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"1fc0003-939-5b61d09b082dc\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "ea664f82ed181c6ebc8c3b8979ad710c197ae9ee62c73291861395fbecc7925c",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4162650000071153
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/0d7b85dba9abae8bde15fdd1ae7ac3c4593e5d45/icon-bellicon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3470,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2180541-c2c-5add740d448d9\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "6641706c268ca3f685ce4668fdd63af3606a275e78ec62c06ba1485f7f0b3752",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.42605900001944974
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/9ab2102d2c82a9f3e72ef569da7bf51785581842/icon-youtube.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3332,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22e063d-ba8-5add741dc3db5\"",
+          "expires": "Tue, 04 Jan 2022 12:33:22 GMT"
+        },
+        "responseBodyHash": "d2a1ef39370d26d739a54cb441b0e902e4f5e8efbff93217f9fe962ea57ce5b6",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41144899994833395
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/c8c07a5f63eeefd580fd16e7bde501abcea4a234/icon-facebook.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1399,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23603a0-41f-5add742242396\"",
+          "expires": "Tue, 04 Jan 2022 15:18:24 GMT"
+        },
+        "responseBodyHash": "1eee8f38d618541397be44876982777ec8dbb2334a2ad89994c3a6f3e6270e5e",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.41570000001229346
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/aa14806214832ab2b35c7fa41827c0b7c527bac3/icon-twitter.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2754,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"230071a-966-5add741f34fd6\"",
+          "expires": "Tue, 04 Jan 2022 13:00:25 GMT"
+        },
+        "responseBodyHash": "6974f5a7991b58a7b8574bc0821a3a1f93acf9891dac13938f4cd84e4a66bd51",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.49304099997971207
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/2314a32b3167147128d62103ed9db3571e70ee1a/icon-instagram.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3735,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"21c02c4-d3a-5add7410318fc\"",
+          "expires": "Tue, 04 Jan 2022 14:44:29 GMT"
+        },
+        "responseBodyHash": "c97fa438cc39d872f62ff596569d10126824930bf193124caeeeeb283eebb3e8",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4129550000070594
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/d637ba038eb74f34496edb7a6b9b6888e5737886/icon-pinterest.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5290,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23803c9-1343-5add742338cd2\"",
+          "expires": "Tue, 04 Jan 2022 13:00:25 GMT"
+        },
+        "responseBodyHash": "280bf7e1bd6e90b217ab02028082f7bb99b00f657c6dca5ffa34317431641578",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4166480000130832
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/8779a51428655b53c575a305475ffb9f4adc85cc/bellicon-service-standort.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1827,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"220076c-4d4-5add741a2cee1\"",
+          "expires": "Tue, 04 Jan 2022 15:00:30 GMT"
+        },
+        "responseBodyHash": "bee67a27f0e1359db55ca2c9a7e675b642b0ca0d43fc7b0b388753513c9faf99",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4141410000156611
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/40a5f4ce728c55d6fbf6a46249ce636bcda0f784/bellicon-service-bellicon-team.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7881,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2200593-1d72-5add741379e06\"",
+          "expires": "Tue, 04 Jan 2022 15:01:12 GMT"
+        },
+        "responseBodyHash": "8e80c25153affa3c10b4e3e5a77633e23874691a07cc7f8db57abb98a602d317",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5001599999959581
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/66f3ae21a3ee870fe8e56767840297e5f610a6b2/bellicon-course-locations.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3309,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22605b4-a97-5add74178e0b8\"",
+          "expires": "Tue, 04 Jan 2022 14:44:30 GMT"
+        },
+        "responseBodyHash": "1ffd33ed8fd10e109efa372b3576ba1b0c880cf1b307bfffa63fe0cd64372cf7",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4224580000154674
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/47187867e17c762ec4c18d505953edf31eff272f/bellicon-service-kontakt.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1602,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"1ec13ee-3f9-5add7413ada22\"",
+          "expires": "Tue, 04 Jan 2022 13:54:34 GMT"
+        },
+        "responseBodyHash": "738c90509f4bce8912882e81e3cd04aee6ee19602f72771599bbc85c4b1d96f4",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5009299999801442
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/3e79eb72910fd376e8f490805abc33c4609c5492/classic-family.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 110768,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2200bd4-1aed8-5cdd5e5f838d2\"",
+          "expires": "Fri, 31 Dec 2021 12:16:09 GMT"
+        },
+        "responseBodyHash": "30a0c57dc042aaf58a422b005d28bebdd6d4c8c2dfd20f15edbeef0c57979170",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4980670000077225
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/8fd67f33e85358d11a6f05b16831b1c68819ccdb/bellicon-go-family.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 44571,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22c0bf0-ac83-5b44ba4586b20\"",
+          "expires": "Tue, 04 Jan 2022 16:09:35 GMT"
+        },
+        "responseBodyHash": "e4b521bb203a3daa8923513b5f37c7fe049b6d7206d4f4ead312ebc6eacde37a",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.48863199999323115
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/8a2cb9de4592b41ef89e2493c22ed93c708365b1/video-bellicon-trailer-2-minutes.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20929,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22c0493-4f5b-5add741b024df\"",
+          "expires": "Tue, 04 Jan 2022 17:01:13 GMT"
+        },
+        "responseBodyHash": "499f7762d16f9f9df9fb5351d85fbda42944aa9d1c3fc5cd5250cdf4da5ca047",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.49911599996266887
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/78d450c09a3615537a423b11a56a40147225982c/bellicon-helps-to-control-weight.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16090,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"228073d-3d83-5add7419c1c11\"",
+          "expires": "Tue, 04 Jan 2022 14:44:51 GMT"
+        },
+        "responseBodyHash": "692989b8c80e473d5af93595db3df4a564e2a3964523f62857ae46618f84ccd6",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5034379999851808
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/67b78eef309368e86c7c7b7645b7728b12831c29/bellicon-recommended-by-agr.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20039,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22605f0-4cdb-5add74176bddb\"",
+          "expires": "Tue, 04 Jan 2022 15:09:26 GMT"
+        },
+        "responseBodyHash": "00b15c7b79cd71297c83011727f1a7500fc44cfe6892ab99853335427f9109e1",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5041330000385642
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/a918756fea51ba103172acb4037e45e928416ba9/bellicon-best-workout-for-the-elderly.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18088,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23006c4-4533-5add741f10db9\"",
+          "expires": "Tue, 04 Jan 2022 14:44:51 GMT"
+        },
+        "responseBodyHash": "69df6dd9c3fa4c1e951fbe6cdbd1bbb16b639dcfd209fb4aaef8e431a3ce7d3a",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4277579999761656
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/af4e98bd71b2540fd2d9b79108a6af5352cc16ed/400000%2Bvar-EN.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10376,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23203c7-2717-5add741ec6a3f\"",
+          "expires": "Tue, 04 Jan 2022 14:28:36 GMT"
+        },
+        "responseBodyHash": "c527d1a8e08b822c3c1058ed62fe226a3b67968bb1ad9f2e2496c687ffc551d7",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.50084799999604
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/e75701f6ebc4a93c61574ce1016e11b5b8a33c98/0011-colours-variety-diverse-personal-individual.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30187,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23a05ce-7470-5add74244c6e3\"",
+          "expires": "Tue, 04 Jan 2022 16:47:43 GMT"
+        },
+        "responseBodyHash": "e1f00a3b8136d3517c4d1c9458a84b34e23bd8b5d4d5f4b4a7401dce78f34b28",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.42652300000190735
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/a69ed5ae86931d238e4b3200b522cface8cd9ef3/0016-a-bellicon-for-all.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36618,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2300628-8d7d-5add741e18926\"",
+          "expires": "Tue, 04 Jan 2022 14:44:51 GMT"
+        },
+        "responseBodyHash": "1fe28f66986a473e29fa6919565835f95ff764aa43726e64be1d2d0fc821b2a6",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5069570000050589
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/8b9ac07c89b09efbf38aee3746f106b01cd297d8/video-bellicon-needak-cellerciser-comparison.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 46899,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"22c057e-b5a0-5add741ab6ddd\"",
+          "expires": "Tue, 04 Jan 2022 12:55:27 GMT"
+        },
+        "responseBodyHash": "5b5fd9448acde166b9aa618be10e658b116bd4e211ace73e369ec9870883c3f0",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4986009999993257
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/074dc8309f3564612d4227bcc60471c837248c74/0018-bellicon-Premium-black-orange-silver.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38716,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2160afa-94c9-5add740d5f687\"",
+          "expires": "Tue, 04 Jan 2022 14:00:16 GMT"
+        },
+        "responseBodyHash": "ae4404126e7cbc826991194b6c7bfd08a76f9322f2a8b89a1abac2a45e078ac3",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5084640000131913
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/1b709bd52ab2a8e4115a6571929ee4ffb711f7bd/0202-request-free-catalog-trampoline-bellicon.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12259,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"21a0598-2e71-5add740f73de3\"",
+          "expires": "Tue, 04 Jan 2022 14:44:51 GMT"
+        },
+        "responseBodyHash": "793c7d0ff09b7399a58299d6683e7d59f5537e9252140b14589180791dc1d2e4",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.49858000001404434
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/d87efcdaad0e9da9ae14740dacfa722a007ffc3e/which-bellicon-for-me.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9772,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23804f7-24c1-5add7422e02e1\"",
+          "expires": "Tue, 04 Jan 2022 16:20:21 GMT"
+        },
+        "responseBodyHash": "a6cb72b3f73c07a8506aad664ae199867ebcae4544e4e2c8da5a61a693ceb43a",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4975049999775365
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/eda2e4cf2ff997c3efbaf4b14dfe93f643d7bf7c/bellicon-contact.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9588,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"23c0246-2418-5add74241b9a7\"",
+          "expires": "Tue, 04 Jan 2022 15:54:04 GMT"
+        },
+        "responseBodyHash": "4e423fab7cbde35a1d81a6cbb5b824a5cac61ebd76db305f53f2edc16729f364",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.4979169999714941
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/Scripts/shariff/shariff.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10626,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1e61764-8bcf-5b4d7062bc2a4-gzip\"",
+          "expires": "Wed, 25 May 2022 11:58:20 GMT"
+        },
+        "responseBodyHash": "a416e606163097c242c9593534035f306a48b30a453c90c066252b8f2d27bcd7",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.13893399998778477
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/Neos.Neos/JavaScript/LastVisitedNode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"1ec0cb8-9b-59c2e04b5b840-gzip\"",
+          "expires": "Wed, 25 May 2022 12:20:11 GMT"
+        },
+        "responseBodyHash": "199e98c3f7149e92c4e6b09961dbe59e933d7a75da6d05fbd98eb9e59e4902fc",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.48380000004544854
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5434,
+        "remoteIPAddress": "104.16.95.65",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/2021.12.0"
+        },
+        "responseBodyHash": "fd0a1ac929c11b08e819fe4b0a18c5574012c44f09de8987c6be99a0f055a505",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.5850709999795072
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PTHWT3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 77520,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:10:50 GMT"
+        },
+        "responseBodyHash": "3631f4ff8d1fe33e00f98123db2dd7aa5e3ade3ecaefb500eb70ecfe23ce272f",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.3515770000522025
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/fonts/icomoon.woff?-7jg6xw",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 3926,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"1e61f31-1388-5b4d70804f440\""
+        },
+        "responseBodyHash": "3c66bd49050a4bcb5d844d8c63e74d0360bc88da0824ab620379883d0cbe4de3",
+        "initiators": [
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/compiled/css/style-blessed1.css?ab010b150996505f12999482475b0f44"
+        ],
+        "time": 0.23597999999765307
+      },
+      {
+        "url": "https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/l?subset_id=2&fvd=n7&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17998,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"88a7dedfc0149747310b3efb6fa9d3dd028aa51a\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a8e486eb14f0771a54d3f879e8972c937bebe058a9ad15df63a468abe6ab0859",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.40529799996875226
+      },
+      {
+        "url": "https://use.typekit.net/af/c630c3/000000000000000000017098/27/l?subset_id=2&fvd=n3&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18082,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6c78a03f620b128b954ef8cfd53c3f6b37d2c8a0\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6b0e2ff0f2d9e1feecd9f3ef2fcefb7eb5703e0b40179b67245c9798cf0456e1",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.37085900001693517
+      },
+      {
+        "url": "https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?subset_id=2&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18230,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"80373f634ced273d73a193515a03a49a36a20883\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cd667ca79a3e7ff9102aa5e60470f3ab008854f2016a4571b409bb824b300ae6",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.39315000001806766
+      },
+      {
+        "url": "https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/l?subset_id=2&fvd=n6&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18207,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"663a8bb3f605095df3e3511d6bd934eaeef48256\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1dd70359d1a2c3720c996c1388ea01212c726f792b2b4dac68c58f6fface4a2d",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.37042300001485273
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/images/search_icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1069,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"1e617ae-2ad-5b4d7062c244c\"",
+          "expires": "Tue, 04 Jan 2022 15:00:40 GMT"
+        },
+        "responseBodyHash": "cb6957137ed0cda247212ec64f11617ec506a577aa85bb11e325c79b47a94402",
+        "initiators": [
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/compiled/css/style-blessed1.css?ab010b150996505f12999482475b0f44"
+        ],
+        "time": 0.06772200000705197
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/647f0ce9c70afa3ca8f5af5adfe8e0b9c495318b/Weihnachten-banner.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 108564,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"1c00cb7-1a636-5d2174d4fa68d\"",
+          "expires": "Wed, 29 Dec 2021 15:26:48 GMT"
+        },
+        "responseBodyHash": "ccb6a78ff407bdedcb07f6f4e2baaa6fcfa8d35ef82beb93ba3650eefb05465a",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.07397000002674758
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/b0fd627ba0c56cc0b9804b107de90fb397161097/entwurf_christmas_v5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 505335,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"2320bfe-7b271-5d1f11c895808\"",
+          "expires": "Mon, 27 Dec 2021 17:53:02 GMT"
+        },
+        "responseBodyHash": "fa9271fe69fcf70739999d5cd926d9fe83c9a431d4367695e4901b6beb39dd8a",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.1824620000552386
+      },
+      {
+        "url": "https://www.bellicon.com/_Resources/Persistent/0f270006405b23a5851a0c3de9ab1bcf5d059a82/0019-my-bellicon-satisfied-bellicon-owners.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 282102,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "max-age=2419200",
+          "etag": "\"21805f7-44b5c-5add740da0d62\"",
+          "expires": "Tue, 04 Jan 2022 15:00:47 GMT"
+        },
+        "responseBodyHash": "5b269bb92c74ed815781c22bea27d1435e44fef70f3e43bcaae65a571eafe6bb",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.13500399998156354
+      },
+      {
+        "url": "https://www.bellicon.com/api/geoip",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 567,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {},
+        "responseBodyHash": "9db1d1f974f73e3870db409df2f1b1605134093a64a5a5432566ff40c06a8cae",
+        "initiators": [
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/dist/js/bellicon-neos.min.js?05bd01b01e0f0b5c2ac21720432d030e"
+        ],
+        "time": 0.05106299999170005
+      },
+      {
+        "url": "https://www.bellicon.com/shop/int_en/ajaxcart/cart/index/?getBlocks[cart_box_top]=cart_box",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 744,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "PHPSESSID=udshoo3nnj756nap4m411avvlj; expires=Wed, 29-Dec-2021 16:10:50 GMT; Max-Age=1209600; path=/; domain=www.bellicon.com; secure; HttpOnly; SameSite=Lax"
+        },
+        "responseBodyHash": "16cf6d7b64fa76b1a0c3bed268919926b7d48ccf209c5cf6caed0754b79351a6",
+        "initiators": [
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/dist/js/bellicon-neos.min.js?05bd01b01e0f0b5c2ac21720432d030e",
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.15501899999799207
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/rPvs0Nyx3sANE-ZHUN-0nM85/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 138063,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 15:40:05 GMT"
+        },
+        "responseBodyHash": "a1a9d49309a8c024d10745930b6313923ec84e1e0b2fae6b0aa649e93f647172",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js?hl=en"
+        ],
+        "time": 0.10033000004477799
+      },
+      {
+        "url": "https://p.typekit.net/p.gif?s=1&k=mgv8ztt&ht=tk&h=www.bellicon.com&f=6846.6849.6851.6852&a=1977121&js=1.20.0&app=typekit&e=js&_=1639584650852",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 214,
+        "remoteIPAddress": "23.1.124.176",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"61596153-23\""
+        },
+        "responseBodyHash": "566b739e9df5cb4c1ce82485ddedc40350d34248c461513d1c962fa05b93e159",
+        "initiators": [
+          "https://www.bellicon.com/int_en"
+        ],
+        "time": 0.05518500000471249
+      },
+      {
+        "url": "https://consent.cookiebot.com/uc.js?cbid=cda60418-d764-4c04-ab17-6cf2e513524c&culture=en",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28393,
+        "remoteIPAddress": "96.16.53.212",
+        "responseHeaders": {
+          "cache-control": "public, max-age=648",
+          "etag": "\"671f451bf1ecd71:0\"",
+          "expires": "Wed, 15 Dec 2021 16:21:39 GMT"
+        },
+        "responseBodyHash": "8d11314258b6411af1595b1034a2c1810ae01a70ab1451bde06832d8c7478a7a",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PTHWT3"
+        ],
+        "time": 0.11542899999767542
+      },
+      {
+        "url": "https://static.zdassets.com/ekr/snippet.js?key=82a13ca8-d93b-4598-915c-1f4fbe3800fc",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6344,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, s-maxage=60",
+          "etag": "W/\"cc904f41324148b571599b3b02fdec0b\""
+        },
+        "responseBodyHash": "16cc547456ffa0052c3679e6c5ece2e14ad57c92b93562deb7bcb5829b7afcb7",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PTHWT3"
+        ],
+        "time": 0.10514699999475852
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1195,
+        "remoteIPAddress": "23.1.113.133",
+        "responseHeaders": {
+          "cache-control": "max-age=28731998",
+          "etag": "\"b10de1f5f615a79259ac9e34f470ce1d:1615283706.572935\"",
+          "expires": "Sun, 13 Nov 2022 05:17:29 GMT"
+        },
+        "responseBodyHash": "0297ba54fff0a052c5761457790e80dc093b93b152edee473485af46c022ad75",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=cda60418-d764-4c04-ab17-6cf2e513524c&culture=en"
+        ],
+        "time": 0.09854400000767782
+      },
+      {
+        "url": "https://ekr.zdassets.com/compose/82a13ca8-d93b-4598-915c-1f4fbe3800fc",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1062,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public, s-maxage=60, stale-while-revalidate=600, stale-if-error=3600",
+          "etag": "W/\"a038488ef1eeac980498385a677e385c\""
+        },
+        "responseBodyHash": "a038488ef1eeac980498385a677e385ccd6f566fadd316a22f8e694f602320c1",
+        "initiators": [
+          "https://static.zdassets.com/ekr/snippet.js?key=82a13ca8-d93b-4598-915c-1f4fbe3800fc"
+        ],
+        "time": 0.2807749999919906
+      },
+      {
+        "url": "https://www.bellicon.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 224,
+        "remoteIPAddress": "104.21.33.87",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bellicon.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        ],
+        "time": 0.023098999983631074
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71467,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"56b203a47c21abbe753347e92237e952\"",
+          "expires": "Fri, 09 Dec 2022 04:16:37 GMT"
+        },
+        "responseBodyHash": "b007fe3c6c2e8c6abb9e8f4af360fcba1d38bfc891788101671ef78b58ad9737",
+        "initiators": [
+          "https://static.zdassets.com/ekr/snippet.js?key=82a13ca8-d93b-4598-915c-1f4fbe3800fc",
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/dist/js/bellicon-neos.min.js?05bd01b01e0f0b5c2ac21720432d030e"
+        ],
+        "time": 0.053652000031434
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-chat-sdk-58987df92c8073e96c0f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 52981,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"f4e9b6a21f729895e00473e7f3947ed7\"",
+          "expires": "Wed, 16 Nov 2022 04:52:16 GMT"
+        },
+        "responseBodyHash": "a6cd361fc4dd2ddf8db6c3ea7d3e8e62d38832bd9336e595aafa4abcd024b1ce",
+        "initiators": [
+          "https://static.zdassets.com/ekr/snippet.js?key=82a13ca8-d93b-4598-915c-1f4fbe3800fc",
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/dist/js/bellicon-neos.min.js?05bd01b01e0f0b5c2ac21720432d030e"
+        ],
+        "time": 0.06439800001680851
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-talk-sdk-b87d56311b0320842d5d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19932,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"664e2ce728e9ae39d07a85bba41f7988\"",
+          "expires": "Thu, 03 Nov 2022 23:49:37 GMT"
+        },
+        "responseBodyHash": "062997a17d56b44eae8c3bfce5e4b55d86734315a44ec845c963206a99399998",
+        "initiators": [
+          "https://static.zdassets.com/ekr/snippet.js?key=82a13ca8-d93b-4598-915c-1f4fbe3800fc",
+          "https://www.bellicon.com/_Resources/Static/Packages/bellicon.cms/dist/js/bellicon-neos.min.js?05bd01b01e0f0b5c2ac21720432d030e"
+        ],
+        "time": 0.060668000020086765
+      },
+      {
+        "url": "https://belliconsupport.zendesk.com/embeddable/config",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1386,
+        "remoteIPAddress": "104.16.53.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60, stale-while-revalidate=600, stale-if-error=3600",
+          "set-cookie": "__cfruid=6dfdba788f5593bbac096e001e0f4143d23c3af5-1639584651; path=/; domain=.belliconsupport.zendesk.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "16c8b5f20ad4c0b290640642f298c7e91134c36beffe4e012d2a9316c8a4c5ff",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.10437200003070757
+      },
+      {
+        "url": "https://consent.cookiebot.com/cda60418-d764-4c04-ab17-6cf2e513524c/cc.js?renew=false&referer=www.bellicon.com&culture=en&dnt=false&forceshow=false",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 56451,
+        "remoteIPAddress": "96.16.53.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1200"
+        },
+        "responseBodyHash": "876c9ce1d38d6631c270c28c410c8bd276a0295113659c5e5e2ecf918504b57b",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=cda60418-d764-4c04-ab17-6cf2e513524c&culture=en"
+        ],
+        "time": 0.0992800000240095
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 117200,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b9e4aa2f9e863379247f2e69b03fb07a\"",
+          "expires": "Fri, 02 Dec 2022 21:26:36 GMT"
+        },
+        "responseBodyHash": "f42d2283b5b2fa5fc2fbdcdcadb95e6b760e9a13feb37649e55a4aa542127f4f",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.06191200000466779
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-82870-96cb4d98ebf089c1dcf9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23800,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b521b3ddfa4a8f279e831669da2695a5\"",
+          "expires": "Fri, 02 Dec 2022 21:26:36 GMT"
+        },
+        "responseBodyHash": "9b28e96a3701e3f27bae1bc9a8c81bd01fe1c56ec457a6e2894c688b38ca90dc",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.03485599998384714
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 102475,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"a4b9ba5ecea567a4bfe9a1ef104029e2\"",
+          "expires": "Fri, 09 Dec 2022 04:13:17 GMT"
+        },
+        "responseBodyHash": "4337ae373fd11663af457a72f3460841e2e64783ee3b5c3d425cacf94d4a54cf",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.05697400000644848
+      },
+      {
+        "url": "https://belliconsupport.zendesk.com/embeddable_blip?type=analytics&data=eyJhbmFseXRpY3MiOnsidmFsdWUiOnsicmF3Q2xpZW50TG9jYWxlIjoiZW4tR0IiLCJyYXdTZXJ2ZXJMb2NhbGUiOiJkZSIsImNsaWVudExvY2FsZSI6ImVuLWdiIiwic2VydmVyTG9jYWxlIjoiZGUiLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTMuMC40NTc3LjYzIFNhZmFyaS81MzcuMzYiLCJpc01vYmlsZSI6ZmFsc2V9LCJhY3Rpb24iOiJsb2NhbGVNaXNtYXRjaCIsImNhdGVnb3J5IjoibG9jYWxlIn0sImJ1aWQiOiI4OGI3MThjY2JjZTE0MzY5YWRmOTc4MjEzZGEwM2I4ZSIsInN1aWQiOiI3OGUyZGU3NjkzZmM0ZDY3OTEyOTc4NWFkZDZhOTdmMyIsInZlcnNpb24iOiJhZmNjYWFjIiwidGltZXN0YW1wIjoiMjAyMS0xMi0xNVQxNjoxMDo1Mi4zMDdaIiwidXJsIjoiaHR0cHM6Ly93d3cuYmVsbGljb24uY29tL2ludF9lbiJ9",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 506,
+        "remoteIPAddress": "104.16.53.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bellicon.com",
+          "set-cookie": "__cfruid=fe940847e519a59c454fdc73b4430fd8d057b514-1639584652; path=/; domain=.belliconsupport.zendesk.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js"
+        ],
+        "time": 0.05493600002955645
+      },
+      {
+        "url": "https://belliconsupport.zendesk.com/embeddable_blip?type=settings&data=eyJzZXR0aW5ncyI6eyJ3ZWJXaWRnZXQiOnsib2Zmc2V0Ijp7Imhvcml6b250YWwiOiIxMDBweCJ9fX0sImJ1aWQiOiI4OGI3MThjY2JjZTE0MzY5YWRmOTc4MjEzZGEwM2I4ZSIsInN1aWQiOiI3OGUyZGU3NjkzZmM0ZDY3OTEyOTc4NWFkZDZhOTdmMyIsInZlcnNpb24iOiJhZmNjYWFjIiwidGltZXN0YW1wIjoiMjAyMS0xMi0xNVQxNjoxMDo1Mi4zMzdaIiwidXJsIjoiaHR0cHM6Ly93d3cuYmVsbGljb24uY29tL2ludF9lbiJ9",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 299,
+        "remoteIPAddress": "104.16.53.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bellicon.com",
+          "set-cookie": "__cfruid=fe940847e519a59c454fdc73b4430fd8d057b514-1639584652; path=/; domain=.belliconsupport.zendesk.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js"
+        ],
+        "time": 0.05274199997074902
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-locales/classic/de-json-0036f8bdda84bb09b6f3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7035,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ef4f85ab57373490925474ad916b9692\"",
+          "expires": "Thu, 03 Nov 2022 23:47:16 GMT"
+        },
+        "responseBodyHash": "6b04ebbbef82a97db1ae4277ac76b9198412bddfe293526faa939ff8dbb59fa2",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js"
+        ],
+        "time": 0.03850800002692267
+      },
+      {
+        "url": "https://belliconsupport.zendesk.com/embeddable_blip?type=pageView&data=eyJjaGFubmVsIjoid2ViX3dpZGdldCIsInBhZ2VWaWV3Ijp7InJlZmVycmVyIjoiaHR0cHM6Ly93d3cuYmVsbGljb24uY29tL2ludF9lbiIsInRpbWUiOjE1MSwibG9hZFRpbWUiOjUzLjEwMDAwMDAyMzg0MTg2LCJuYXZpZ2F0b3JMYW5ndWFnZSI6ImVuLUdCIiwicGFnZVRpdGxlIjoiYmVsbGljb27CriB8IE9mZmljaWFsIFRyYW1wb2xpbmUgU2hvcCB8IFF1YWxpdHkgUmVib3VuZGVyIC0gYmVsbGljb24uY29tIiwidXNlckFnZW50IjoiTW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzkzLjAuNDU3Ny42MyBTYWZhcmkvNTM3LjM2IiwiaXNNb2JpbGUiOmZhbHNlLCJpc1Jlc3BvbnNpdmUiOnRydWUsInZpZXdwb3J0TWV0YSI6IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBtYXhpbXVtLXNjYWxlPTEsIHVzZXItc2NhbGFibGU9bm8iLCJoZWxwQ2VudGVyRGVkdXAiOmZhbHNlfSwiYnVpZCI6Ijg4YjcxOGNjYmNlMTQzNjlhZGY5NzgyMTNkYTAzYjhlIiwic3VpZCI6Ijc4ZTJkZTc2OTNmYzRkNjc5MTI5Nzg1YWRkNmE5N2YzIiwidmVyc2lvbiI6ImFmY2NhYWMiLCJ0aW1lc3RhbXAiOiIyMDIxLTEyLTE1VDE2OjEwOjUyLjQ1OFoiLCJ1cmwiOiJodHRwczovL3d3dy5iZWxsaWNvbi5jb20vaW50X2VuIn0%3D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 296,
+        "remoteIPAddress": "104.16.53.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bellicon.com",
+          "set-cookie": "__cfruid=fe940847e519a59c454fdc73b4430fd8d057b514-1639584652; path=/; domain=.belliconsupport.zendesk.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js"
+        ],
+        "time": 0.054229000001214445
+      },
+      {
+        "url": "wss://widget-mediator.zopim.com/s/W/ws/hgKGMWjRWf4SlqF8/c/1639584652534",
+        "type": "WebSocket",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-chat-sdk-58987df92c8073e96c0f.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ]
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-chat-incoming-message-notification-bdfd1edd38ba2ec92175.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 950,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"200371227ff3b0fb85badb2d2faef3b5\"",
+          "expires": "Wed, 23 Nov 2022 09:53:25 GMT"
+        },
+        "responseBodyHash": "3a3ab89bc8d4feb680748ba773ff13a07c2db610c1308ec9c12040aa9b65d46b",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-chat-sdk-58987df92c8073e96c0f.js"
+        ],
+        "time": 0.06290499999886379
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/fda6cd35495c75f83508d9d2e77ee33d.mp3",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 20251,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"f11ce9e8f40a392830217253fe75d6de\"",
+          "expires": "Tue, 09 Aug 2022 15:02:06 GMT"
+        },
+        "responseBodyHash": "97e5b0b6cfc2ba9815028429c069631ba12b294aa7419d1ea130accd0adc2d46",
+        "initiators": [],
+        "time": 0.030313000024762005
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584656766&referer=https%3A%2F%2Fwww.bellicon.com%2Fint_en&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=cda60418-d764-4c04-ab17-6cf2e513524c&cbt=leveloptin&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 727,
+        "remoteIPAddress": "96.16.53.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:10:56 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "86053f38aa0a762ebf309aae401eb005b8b010a56adf6134e0cb78a50138b9ee",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=cda60418-d764-4c04-ab17-6cf2e513524c&culture=en",
+          "https://consent.cookiebot.com/cda60418-d764-4c04-ab17-6cf2e513524c/cc.js?renew=false&referer=www.bellicon.com&culture=en&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.05838000000221655
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584656788&referer=https%3A%2F%2Fwww.bellicon.com%2Fint_en&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=cda60418-d764-4c04-ab17-6cf2e513524c&cbt=leveloptin&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 726,
+        "remoteIPAddress": "96.16.53.212",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:10:56 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b08b7e3ddc3d79dae7690de5ea1241260ff04bacdb47155bac54fd6da30b1965",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=cda60418-d764-4c04-ab17-6cf2e513524c&culture=en",
+          "https://consent.cookiebot.com/cda60418-d764-4c04-ab17-6cf2e513524c/cc.js?renew=false&referer=www.bellicon.com&culture=en&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.05440800002543256
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/consentconfig/cda60418-d764-4c04-ab17-6cf2e513524c/settings.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 912,
+        "remoteIPAddress": "23.1.113.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bellicon.com",
+          "cache-control": "max-age=50641",
+          "etag": "\"0b781c63a786a6d7064651a8162a524c:1635435383.153184\"",
+          "expires": "Thu, 16 Dec 2021 06:14:57 GMT"
+        },
+        "responseBodyHash": "3057fe0caba4d5feb1b03b94f13e7401d40bab3c57912c461fdc5cbf92e52947",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js?cbid=cda60418-d764-4c04-ab17-6cf2e513524c&culture=en",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584656766&referer=https%3A%2F%2Fwww.bellicon.com%2Fint_en&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=cda60418-d764-4c04-ab17-6cf2e513524c&cbt=leveloptin&hasdata=true"
+        ],
+        "time": 0.04196299996692687
+      }
+    ]
+  }
+}

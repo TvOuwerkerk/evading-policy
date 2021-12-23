@@ -1,0 +1,668 @@
+{
+  "initialUrl": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+  "finalUrl": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+  "timeout": false,
+  "testStarted": 1640127103578,
+  "testFinished": 1640127118951,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.amazon.ca/links.www.amazon.ca_3fd4.json",
+    "requests": [
+      {
+        "url": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 38280,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "No-cache",
+          "set-cookie": "ap-fid=\"\"; Domain=.amazon.ca; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ap/; Secure\nsession-id=146-1319563-5881043; Domain=.amazon.ca; Expires=Wed, 21-Dec-2022 22:51:43 GMT; Path=/; Secure\nsession-id-time=2270847103l; Domain=.amazon.ca; Expires=Wed, 21-Dec-2022 22:51:43 GMT; Path=/; Secure"
+        },
+        "responseBodyHash": "25c1db7b99fbef674742b7d96683cf1f8ef6ffca53df18fefe871f0f5e46108d",
+        "initiators": [],
+        "time": 0.356370000023162
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/61A6IErPNXL._RC%7C11Fd9tJOdtL.css,11tfezETfFL.css,31Q3id-QR0L.css,31U9HrBLKmL.css_.css?AUIClients/AmazonUI",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 22993,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 03 Jun 2041 10:09:46 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "65e3ba66df0c9c45a17ac62283069d21d5e4a473d649a1d574a562a44f9a09c3",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.01902700000209734
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/01SdjaY0ZsL._RC%7C31jdWD+JB+L.css,41O23DtqM3L.css_.css?AUIClients/AuthenticationPortalAssets",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 7111,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 03 Nov 2041 23:42:24 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "ba49da01868602a45c431e69b0fdbc1a9dde1c9437c009463ae0262f882cf50f",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.014079999993555248
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/11qeL1AgUGL.css?AUIClients/CVFAssets",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 1437,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sat, 06 Apr 2041 20:53:16 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "db428c49699fc9794efcb304924aa4eecc499d357e9c2c54f618f9136301aa03",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.014488999993773177
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fstaticb%26id%3D1QBTX27FP5PAANAQNG8D:0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 150,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.3038630000082776
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/61XKxrBtDVL._RC%7C11Y+5x+kkTL.js,51KMV3Cz2XL.js,31x4ENTlVIL.js,31f4+QIEeqL.js,01N6xzIJxbL.js,518BI433aLL.js,01rpauTep4L.js,31QZSjMuoeL.js,61ofwvddDeL.js,01KsMxlPtzL.js_.js?AUIClients/AmazonUI",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 98832,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Tue, 04 Jun 2041 15:19:40 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "2e04922becc2b9448546193904dfbb0074bd4c6510d6d1ec1d3de67e12af4f59",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.014833999972324818
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/21G215oqvfL._RC%7C21OJDARBhQL.js,218GJg15I8L.js,31lucpmF4CL.js,2119M3Ks9rL.js,51AjK+mcqiL.js_.js?AUIClients/AuthenticationPortalAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 25889,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Fri, 15 Nov 2041 00:00:47 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "d0b04c3918041da7c4f694a519406b0cadefdca7c55e71874ed810544b32afe0",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.01938700000755489
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/01wGDSlxwdL.js?AUIClients/AuthenticationPortalInlineAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 901,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 04 Feb 2041 03:27:27 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "432dff2bd6f663c6151a5947fa318a46463085d4f6e40761450e8b38fd0fe938",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.027214999980060384
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/31TyXYXSSZL.js?AUIClients/CVFAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 5839,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 22:21:26 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "be378b18fc75ebdd6690fd0a9e3df1998d9cc62ab8a93a010fe8e7783a87719c",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.01645600001211278
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/81gLkT0N6tL.js?AUIClients/SiegeClientSideEncryptionAUI",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 97034,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 06 Nov 2041 02:53:20 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "6e6b02c79ac305af5124e8ec5304affce3339512534e3e981d7ddee83a57c503",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.02917699998943135
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/31jdfgcsPAL.js?AUIClients/AmazonUIFormControlsJS",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 4480,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Tue, 20 Aug 2041 18:56:49 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "2e5c4e5dd76d19bd957864a5485880b7dd5381be31835dc30dbb276d82652a89",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.016746999986935407
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/71QCGnDPPDL.js?AUIClients/FWCIMAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 67671,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 28 Nov 2041 12:03:16 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "b232a1cead6d7bee0de39227a5916ea82058f6395748737517ca67127deb43e4",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.02926599999773316
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/71SLENeYBFL.js?AUIClients/ACICAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 37859,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Fri, 06 Dec 2041 02:48:14 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "96077807e83234205ec39bccf8453347a37f0151b37c02f7d7de8e28564ab1a7",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.027459000004455447
+      },
+      {
+        "url": "https://m.media-amazon.com/images/S/sash/mPGmT0r6IeTyIee.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://images-na.ssl-images-amazon.com/",
+        "status": 200,
+        "size": 28566,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 08 Sep 2041 16:02:30 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "e750b4a4a6133c832f36f9d6ec682268342cf2bb0e4b99712e36d5cd6ecfdec3",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/I/61A6IErPNXL._RC%7C11Fd9tJOdtL.css,11tfezETfFL.css,31Q3id-QR0L.css,31U9HrBLKmL.css_.css?AUIClients/AmazonUI#us.not-trident"
+        ],
+        "time": 0.006928999995579943
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adtag=csm&act=ads_",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 587,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Wed, 22 Dec 2021 09:18:36 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "88ea58255d4cd82340f7acaabe0e6a99f195a4dc2ca6ef56ec503d03b331bee5",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.005969000019831583
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?ld&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&sw=800&sh=600&vw=1440&vh=812&m=1&sc=1QBTX27FP5PAANAQNG8D&ue=4&bb=44&cf=93&be=105&fp=93&fcp=93&pc=443&tc=-404&na_=-404&ul_=-1640127104101&_ul=-1640127104101&rd_=-1640127104101&_rd=-1640127104101&fe_=-404&lk_=-402&_lk=-391&co_=-391&_co=-374&sc_=-390&rq_=-374&rs_=-50&_rs=-48&dl_=-42&di_=121&de_=122&_de=122&_dc=443&ld_=443&_ld=-1640127104101&ntd=0&ty=0&rc=0&hob=1&hoe=4&ld=444&t=1640127104545&ctb=1&rt=cf:12-8-3-0-2-8-1__ld:14-8-3-1-3-9-0&csmtags=aui|aui:aui_build_date:3.21.8-2021-12-02|fls-na-amazon-com|adblk_no&viz=visible:3&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 312,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.1310570000205189
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fld%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26sw%3D800%26sh%3D600%26vw%3D1440%26vh%3D812%26m%3D1%26sc%3D1QBTX27FP5PAANAQNG8D%26ue%3D4%26bb%3D44%26cf%3D93%26be%3D105%26fp%3D93%26fcp%3D93%26pc%3D443%26tc%3D-404%26na_%3D-404%26ul_%3D-1640127104101%26_ul%3D-1640127104101%26rd_%3D-1640127104101%26_rd%3D-1640127104101%26fe_%3D-404%26lk_%3D-402%26_lk%3D-391%26co_%3D-391%26_co%3D-374%26sc_%3D-390%26rq_%3D-374%26rs_%3D-50%26_rs%3D-48%26dl_%3D-42%26di_%3D121%26de_%3D122%26_de%3D122%26_dc%3D443%26ld_%3D443%26_ld%3D-1640127104101%26ntd%3D0%26ty%3D0%26rc%3D0%26hob%3D1%26hoe%3D4%26ld%3D444%26t%3D1640127104545%26ctb%3D1%26rt%3Dcf%3A12-8-3-0-2-8-1__ld%3A14-8-3-1-3-9-0%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.21.8-2021-12-02%7Cfls-na-amazon-com%7Cadblk_no%26viz%3Dvisible%3A3%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:447",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.09510900001623668
+      },
+      {
+        "url": "https://unagi.amazon.ca/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 595,
+        "remoteIPAddress": "52.46.136.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.amazon.ca"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.2953419999976177
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 4899,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 19 May 2041 00:35:47 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "0debafeb8c39f3d5cdd9443cd018edee19d76125de4dc4765454f3008cb81a01",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.004227999976137653
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 9670,
+        "remoteIPAddress": "52.222.142.111",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"71efb8dae16bafcf73a6f43b8b15aa72\""
+        },
+        "responseBodyHash": "7264af030077847c4ec8a0fdcaf209fa2a30f231068fbe2f2b30203768d751cf",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.018660000001545995
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?at&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&m=1&sc=csa:lcp&lcp=92&pc=462&at=462&t=1640127104563&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 312,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.11781100000371225
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fat%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26m%3D1%26sc%3Dcsa%3Alcp%26lcp%3D92%26pc%3D462%26at%3D462%26t%3D1640127104563%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:463",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.09807500001625158
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OE/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 204,
+        "size": 165,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.09593999999924563
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?at&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&m=1&sc=csa:vl50&vl50=59&pc=3993&at=3993&t=1640127108094&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 311,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.10579400000278838
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fat%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26m%3D1%26sc%3Dcsa%3Avl50%26vl50%3D59%26pc%3D3993%26at%3D3993%26t%3D1640127108094%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:3994",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.09480699998675846
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?at&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&m=1&sc=csa:vl90&vl90=94&pc=3995&at=3995&t=1640127108096&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 312,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.11907600000267848
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fat%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26m%3D1%26sc%3Dcsa%3Avl90%26vl90%3D94%26pc%3D3995%26at%3D3995%26t%3D1640127108096%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:3995",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.09758600001805462
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?at&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&m=1&sc=csa:vl100&vl100=94&pc=3996&at=3996&t=1640127108097&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 312,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.1285490000154823
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fat%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26m%3D1%26sc%3Dcsa%3Avl100%26vl100%3D94%26pc%3D3996%26at%3D3996%26t%3D1640127108097%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:3996",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.09735599998384714
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?at&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&m=1&sc=csa:si&si=71&pc=3996&at=3996&t=1640127108097&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 312,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.1450440000044182
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fat%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26m%3D1%26sc%3Dcsa%3Asi%26si%3D71%26pc%3D3996%26at%3D3996%26t%3D1640127108097%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:3997",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.09718700000667013
+      },
+      {
+        "url": "https://www.amazon.ca/ap/uedata?at&v=0.220956.0&id=1QBTX27FP5PAANAQNG8D&m=1&sc=csa:atfsi&atfsi=71&pc=3997&at=3997&t=1640127108098&pty=AuthenticationPortal&spty=SignInClaimCollect&pti=undefined&tid=1QBTX27FP5PAANAQNG8D&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+        "status": 204,
+        "size": 312,
+        "remoteIPAddress": "104.84.233.166",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.15193900000303984
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OP/A2EUQ1WTGCTBG2:146-1319563-5881043:1QBTX27FP5PAANAQNG8D$uedata=s:%2Fap%2Fuedata%3Fat%26v%3D0.220956.0%26id%3D1QBTX27FP5PAANAQNG8D%26m%3D1%26sc%3Dcsa%3Aatfsi%26atfsi%3D71%26pc%3D3997%26at%3D3997%26t%3D1640127108098%26pty%3DAuthenticationPortal%26spty%3DSignInClaimCollect%26pti%3Dundefined%26tid%3D1QBTX27FP5PAANAQNG8D%26aftb%3D1:3998",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0",
+          "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics-incremental.min.js"
+        ],
+        "time": 0.0969829999958165
+      },
+      {
+        "url": "https://unagi.amazon.ca/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 200,
+        "size": 595,
+        "remoteIPAddress": "52.46.136.109",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.amazon.ca"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.09914599999319762
+      },
+      {
+        "url": "https://fls-na.amazon.com/1/batch/1/OE/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.amazon.ca/",
+        "status": 204,
+        "size": 165,
+        "remoteIPAddress": "52.6.13.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+          "https://www.amazon.ca/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.ca%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dbd46e7ce-a5ed-492d-a2e5-9ed28f0452f1%26pd_rd_wg%3DurjOw%26pf_rd_r%3DAVRW3SP8EQDRS8G1XCDJ%26pd_rd_w%3DOiVf3%26pd_rd_r%3D5cd7d183-8536-477e-9711-202736e10e62&openid.assoc_handle=caflex&openid.pape.max_auth_age=0"
+        ],
+        "time": 0.09562699997331947
+      }
+    ]
+  }
+}

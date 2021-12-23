@@ -1,0 +1,3722 @@
+{
+  "initialUrl": "https://bonanza.com/",
+  "finalUrl": "https://www.bonanza.com/",
+  "timeout": false,
+  "testStarted": 1640013300664,
+  "testFinished": 1640013318711,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.bonanza.com/links.bonanza.com_4f94.json",
+    "requests": [
+      {
+        "url": "https://bonanza.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "216.168.59.151",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bonanza.com/",
+        "initiators": [],
+        "time": 0.5600239999985206
+      },
+      {
+        "url": "https://www.bonanza.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 25299,
+        "remoteIPAddress": "104.18.18.104",
+        "responseHeaders": {
+          "cache-control": "max-age=0, private, must-revalidate",
+          "set-cookie": "locale=en-US; domain=.bonanza.com; path=/; expires=Tue, 21 Dec 2021 15:15:00 GMT\nintrkvc=1; domain=.bonanza.com; path=/; expires=Thu, 23 Dec 2021 15:15:00 GMT\nintrkrf=Direct; domain=.bonanza.com; path=/; expires=Thu, 23 Dec 2021 15:15:00 GMT\nintrkep=https%3A%2F%2Fwww.bonanza.com%2F; domain=.bonanza.com; path=/; expires=Thu, 23 Dec 2021 15:15:00 GMT\nsource_em=4; domain=.bonanza.com; path=/; expires=Thu, 23 Dec 2021 15:15:00 GMT\nintose=4; domain=.bonanza.com; path=/; expires=Wed, 20 Apr 2022 14:15:00 GMT\nintorf=Direct; domain=.bonanza.com; path=/; expires=Wed, 20 Apr 2022 14:15:00 GMT\nintrkld=1640013300.2561007; domain=.bonanza.com; path=/; expires=Thu, 23 Dec 2021 15:15:00 GMT\npxa=125293882; path=/\n_session_id=14fcf90a9b2bf00f78665f9ee778b427; domain=.bonanza.com; path=/; expires=Fri, 21 Jan 2022 15:15:00 GMT\n__cf_bm=aijNN32ARLJhPImb706SDItjSmKfb.dP5wfhbpkMY3M-1640013302-0-AYFQ1sBkjTkTxwupX3aVd+Sz5ge8S7idizDZJMaLgMjerIT61csqTCSqHm9BX+RIxEksoZPf7d60WvaULA3evM0=; path=/; expires=Mon, 20-Dec-21 15:45:02 GMT; domain=.bonanza.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "9b27d8885804b381c00163400a6d5c98f9801af441e2a824774594722b8c32e2",
+        "redirectedFrom": "https://bonanza.com/",
+        "initiators": [],
+        "time": 0.8968520000016724
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 40018,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"11173af68592d57d91f316ff117594d9\"",
+          "expires": "Thu, 22 Nov 2029 19:12:21 GMT"
+        },
+        "responseBodyHash": "a432c137ac0eba905a2ce558e7cb7157586ebcc28b86b8cefba250d26741c34e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.10423299999820301
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/home_index_css-daad9f30bc71b0cc184de75556300509.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 5525,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"eef2574a04251a722ca587d51f9028ae\"",
+          "expires": "Fri, 14 Dec 2029 17:45:12 GMT"
+        },
+        "responseBodyHash": "aa1f6ee3ad85b59ebe9c27e5df1cd47e85923940216ee3bea41a99e038fa86bb",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.053287999999156455
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/sessions_css-0d71270ed09265d33539f4cfdeb9bbff.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 4672,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ea8e625558846ca381341c2d303cb02b\"",
+          "expires": "Mon, 05 Feb 2029 19:14:46 GMT"
+        },
+        "responseBodyHash": "12945cde69b16cd9304ca9673bfe049578ab684cf9423731d05661af04ea725e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.05405099999916274
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 984,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:15:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d1c3fc6afc4d17048d75663768d4f04b36c04613324bec2ba222f2ef68bef43d",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.02101800000309595
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/global_js-5c93946d17c4a077aad1310cd2376e1b.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 71210,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"1b396d452a5d734b1a90c47522e5c4eb\"",
+          "expires": "Thu, 22 Nov 2029 19:12:10 GMT"
+        },
+        "responseBodyHash": "fc9382c4781ef2149096e8d469cc33848a7fefd4bbb8ac63f772aea1e025b4cc",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.10341300000072806
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/home_index_js-b42a735b3bcd961d936cec7019ba9e31.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 2014,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"17c638d2b8d0931b75da5430f92adde2\"",
+          "expires": "Fri, 10 Dec 2027 22:07:20 GMT"
+        },
+        "responseBodyHash": "6b0046af2ae7e3a1904ee513c08d9f31f14aa56593b18c28b5fc68ab70a308be",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.056529999998019775
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/sessions_js-4cb2bc6e481a364bdfc35956ea962864.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16754,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"3f9f2431bfdafdd20a4861d48f330a6e\"",
+          "expires": "Sat, 03 Jun 2028 16:59:47 GMT"
+        },
+        "responseBodyHash": "65712811603c6bf9d1914210ba2191ad55057292803a4e8561e637087cf141ee",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.08371600000100443
+      },
+      {
+        "url": "https://www.bonanza.com/cdn-cgi/bm/cv/669835187/api.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 9271,
+        "remoteIPAddress": "104.18.18.104",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public"
+        },
+        "responseBodyHash": "0d3118e306c6a26f1d2efcb698984e6922c5e7e155c94a84760e36e5592a3c11",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.29278700000213576
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/header/bonanza_logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 1828,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"b8333c140cfe97cf1c5af0deb4dbf910\"",
+          "expires": "Sat, 18 Nov 2023 20:38:42 GMT"
+        },
+        "responseBodyHash": "5f024a80b62c85bd102eef0ecf5f7e8463fe6d584301d3025702609a242985f4",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.31951999999728287
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/header/bonanza_logo_no_tag_small.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 1081,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a5c3a974843480b0ab9cf05cc101b36a\"",
+          "expires": "Sat, 18 Nov 2023 20:38:44 GMT"
+        },
+        "responseBodyHash": "73ace65c3de741d6a834d80f8f43b2057b8b1da4ec8f3c27fcc28fb13b4a678a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.23422600000048988
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/935296295.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 20040,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a4e7aba59beb26ef59564a0d83a12ad5\"",
+          "expires": "Fri, 14 Dec 2029 19:47:34 GMT"
+        },
+        "responseBodyHash": "832594e4543624f184f898cab7bbac3eb4157f20838e69c9ee50e6489c780494",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.28365800000028685
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/978671969.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 21945,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"27a8e54448495cf6322f79dd19d5b24f\"",
+          "expires": "Fri, 14 Dec 2029 19:47:35 GMT"
+        },
+        "responseBodyHash": "94698b6937dd0fecf61547aa26f8de49b5602ce459d011087d9b1d26bc7efa76",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.2836730000017269
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1159357338.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16828,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"e67d8745a851eeea1d5b8d7c5e81ce86\"",
+          "expires": "Fri, 14 Dec 2029 19:47:37 GMT"
+        },
+        "responseBodyHash": "f7ac2e8ab33e6c53820b59d841397cb4e020ab9ec85537afea6169fddfd24db0",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.3400560000009136
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/810964844.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 9591,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a73adccf67ffbe88c756694ccc37c000\"",
+          "expires": "Fri, 14 Dec 2029 19:47:38 GMT"
+        },
+        "responseBodyHash": "47897ff50989b5c8de09b7a86ccc6fe82878efb46540b4b73cc74b493e0e6a44",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.28354899999976624
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/571200219.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 11269,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ffb3a5ab4bd78e95fac0b0b2a2482378\"",
+          "expires": "Fri, 14 Dec 2029 19:47:39 GMT"
+        },
+        "responseBodyHash": "c78a50703b3fef7a554ea0b7ecfd2f4649278cbdf11dc862beac3992d3839ead",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.28416999999899417
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1154696934.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 43594,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"426ddb0ec4845701c94400c6568b1b55\"",
+          "expires": "Fri, 14 Dec 2029 19:47:41 GMT"
+        },
+        "responseBodyHash": "dd1901f0a5e89556ae82cdf5c8d4c7f63575e5e615b2bf557dc0adaf01980440",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.3201749999971071
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1176023939.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 22221,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a52c935702666730c788c58b1eb2bd28\"",
+          "expires": "Fri, 14 Dec 2029 19:47:43 GMT"
+        },
+        "responseBodyHash": "60f33199d4bd7ad5cd49000fcdc008da2c5e5fe92788e4ae36c799f6bcd1acdb",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.3712530000011611
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/810953255.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8743,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2e658d81605f72a54db22659cf86f048\"",
+          "expires": "Fri, 14 Dec 2029 19:47:44 GMT"
+        },
+        "responseBodyHash": "759dfb3659a4787d5e2a8cf41c6b21b4b3fe78d327a4029a82fb911cf8f12893",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.37205700000049546
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/978678124.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 23591,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"cafddb02b14a726d72a024b9f2027143\"",
+          "expires": "Fri, 14 Dec 2029 19:47:45 GMT"
+        },
+        "responseBodyHash": "5b8bcf2fde7a5418f0436c42bf1bbe5418f6b5a53f3fa186fc6a0a2d59c8a6f7",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.39117800000167335
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/685785391.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 9231,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"c8f2bc1b3bea35e97d34b63e6f362aae\"",
+          "expires": "Sat, 15 Dec 2029 00:43:36 GMT"
+        },
+        "responseBodyHash": "4b9e24145b2a3c7bc5169230818873837e49002e6f7ff015638690ec94418f9f",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.3757149999983085
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/638378274.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 28751,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"dedcf4628b1c9b0a9fc75b220bab0460\"",
+          "expires": "Thu, 29 Nov 2029 19:29:22 GMT"
+        },
+        "responseBodyHash": "2fa2b2102d9544022c507ca10c666793a3f4ac5bf9c1b344caa08a9d2005cb8b",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.38197000000218395
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1166909126.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 18287,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"d8c0f0c550b6fb006beefa1e9687d212\"",
+          "expires": "Thu, 29 Nov 2029 19:29:36 GMT"
+        },
+        "responseBodyHash": "c22efe474aca285dd7ec598b1b1f6ea171bd2a44dd3f2f868569068878ace02b",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.38607800000318093
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1163802438.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14845,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"1683beb17d7e375cc5afde264e85bcf6\"",
+          "expires": "Thu, 29 Nov 2029 19:29:39 GMT"
+        },
+        "responseBodyHash": "b65855e432c469564998d73ae353b24f5358311b09540fc5b7d92ca2a87571ce",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.3923369999974966
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1087385521.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 10104,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"1207dfca80de9bc5187927b1e47384cc\"",
+          "expires": "Thu, 29 Nov 2029 19:29:45 GMT"
+        },
+        "responseBodyHash": "d5643404f5e7fa14ea0c5c8098e4b09372ed046b964bfba316fd502fa355c806",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.39539499999955297
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1087199538.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 23303,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"52f7c2eb48199b5c312c3df073966b0a\"",
+          "expires": "Thu, 29 Nov 2029 19:29:47 GMT"
+        },
+        "responseBodyHash": "630cd2f8d864ed2feb7c450a11d2a3379357f463bcf202b06b8ead9ec5b98b09",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.39632499999788706
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/801371751.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 27601,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"5a4460f3e9bb714a45ffa67b3ed6285a\"",
+          "expires": "Fri, 30 Nov 2029 01:09:43 GMT"
+        },
+        "responseBodyHash": "ac0091124f6c675dee9847566216eaa929f83eb1bba76cdd46a3c07279ac2427",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4054340000002412
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/409943190.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14652,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a9844b3b64bbb49f8f26c360308528fd\"",
+          "expires": "Fri, 30 Nov 2029 01:09:43 GMT"
+        },
+        "responseBodyHash": "111dd805db4b83126d3613dd5e80516291c15a7b49f4fd55d28dccdd21f66fbd",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.406488000000536
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/891963932.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 25878,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"3b9e108281295b2ff1df6b9af9868fc5\"",
+          "expires": "Fri, 30 Nov 2029 01:09:44 GMT"
+        },
+        "responseBodyHash": "606603055282116abd3b6cffabb0c73638c006446cc10170518dfe56aca94f5f",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.41161799999827053
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1166073768.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 18732,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"c72e31c1de1629ba5d9e2fb8722a1ff6\"",
+          "expires": "Fri, 30 Nov 2029 01:09:45 GMT"
+        },
+        "responseBodyHash": "5f8b7560ad1af2b89bc0ef0d34ca0cd2ef8797236db5fb907faac4a05b4c2347",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.41532100000040373
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/922592198.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 11049,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"deef869130c955a89cc89000c85bfc4c\"",
+          "expires": "Fri, 30 Nov 2029 01:09:45 GMT"
+        },
+        "responseBodyHash": "ea77add9cb24ca155bc46ba82607a82f5a1198576450e0eaa51cb231232c8b27",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.41619600000194623
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/416844448.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15524,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"3838662546887e4310381503c5b0dd0c\"",
+          "expires": "Fri, 14 Dec 2029 19:44:58 GMT"
+        },
+        "responseBodyHash": "9681dfb9ba149c1a17482b9151d362112d9a0323eceb16b755c25953867df442",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4171939999978349
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1174404449.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 48974,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"69090bf27c1e3764c85cd17dccb9b5d0\"",
+          "expires": "Fri, 14 Dec 2029 19:44:59 GMT"
+        },
+        "responseBodyHash": "84ae34c656e19d25ac07b051655e04aaa4a4f2c1e4334b99a8e0857f541b6cf7",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.42045599999983096
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1169333432.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 17568,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"24369d91d4cda77e0532fae9edc5d0f7\"",
+          "expires": "Fri, 14 Dec 2029 19:45:00 GMT"
+        },
+        "responseBodyHash": "89156cb01707cc78d0d71e66184d605f656869ff63a1037c25a69b5684f81d86",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4252300000007381
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1126436410.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 40254,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"526e0011233f3891db57b42d43ff4759\"",
+          "expires": "Fri, 14 Dec 2029 19:45:02 GMT"
+        },
+        "responseBodyHash": "984f08ad149790d8336154d415edb7e8fc71b519cbfb66f53ebdd38e4e17e76b",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4708969999992405
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1108726052.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 17577,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"901dd0a3d6f4b553161e4db9a65792da\"",
+          "expires": "Fri, 14 Dec 2029 19:45:04 GMT"
+        },
+        "responseBodyHash": "fce289b0c5e3b4efc4b393eb10e36c8d9145c038607a443ccb12994b52900990",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4713099999971746
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/832348932.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 10348,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"65dbe158b0e1d86a9d340162d749c0bf\"",
+          "expires": "Fri, 14 Dec 2029 19:45:06 GMT"
+        },
+        "responseBodyHash": "1d536cf8b8acd22ec35ea2e8e50623094f31ba717cdd0be5623ec3ade9055b01",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.49092899999959627
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1148613102.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 12522,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"65c09032da828bdf1773af04ed665ba6\"",
+          "expires": "Fri, 14 Dec 2029 19:45:07 GMT"
+        },
+        "responseBodyHash": "8c42b6f296e002b573f220cb2fd206c077f61a00de5dda0bfcddf761e9d48e8c",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.49125399999684305
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1125562122.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 5248,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4e2577e4ffb544a5efcc7acec0d3f690\"",
+          "expires": "Fri, 14 Dec 2029 19:45:09 GMT"
+        },
+        "responseBodyHash": "9a227085ad33e21ea5de5e5ae880a8b303b9ebe5c4781cbfcbb17a14e5d0fc97",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4915800000017043
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1176591454.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16539,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"09c868e31d05ee6542ec4868602372f6\"",
+          "expires": "Fri, 14 Dec 2029 19:45:10 GMT"
+        },
+        "responseBodyHash": "91a9bd81c28ed3579a291f30bb8794c26626cc0c00246d600f1d253c43e30b31",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.4996969999992871
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1092106524.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 5478,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2ae23be3f46e1057364766267c60caa4\"",
+          "expires": "Fri, 14 Dec 2029 19:45:12 GMT"
+        },
+        "responseBodyHash": "d81f6afae53f06348eb8fc3fc293e7cad4173e1dd6269cb716d0efa2f4a712fb",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5050220000011905
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/421348273.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 36136,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"1ba47b91a3b921908a7f1d06838fc17f\"",
+          "expires": "Fri, 14 Dec 2029 19:48:19 GMT"
+        },
+        "responseBodyHash": "c83ec1fbbb7cdad7a1aa32ca716b2f4667ce1934c66c076666f509bd5f72dece",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5611229999994976
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/798392328.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16081,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"27f35c55fb11561ebb172827075f1e37\"",
+          "expires": "Fri, 14 Dec 2029 19:48:21 GMT"
+        },
+        "responseBodyHash": "4ce0983634deffb248616cb7def693e7d71c3a3a8bf951232c317a1269114f59",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5635849999998754
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/957802398.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 27501,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ae1e40e9b653b3aaef30c7c04d93a98a\"",
+          "expires": "Fri, 14 Dec 2029 19:48:22 GMT"
+        },
+        "responseBodyHash": "f90d44ccb6428c130f4011b93c3e1319c3a6b6e7d9a88ac46dbffbae3de630a9",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5643310000014026
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/43751425.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 35549,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2111511a3b19041e41fb2e4cbe881174\"",
+          "expires": "Fri, 14 Dec 2029 19:48:23 GMT"
+        },
+        "responseBodyHash": "c27827f81e41ae33d0d08160b48f04063321cae1d7d1db46f666347da0ba8af0",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5748019999991811
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/421339866.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 42350,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"81d76101b85ea7a927719b4c1831340a\"",
+          "expires": "Fri, 14 Dec 2029 19:48:24 GMT"
+        },
+        "responseBodyHash": "4cceb95baf843f5b3a6aea0cc67e66311f87b72b062e0af1791796e161793a9c",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5802589999984775
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/304909933.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 20222,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"76301b5a3f68fdd88f81fc0d95c3a50d\"",
+          "expires": "Fri, 14 Dec 2029 19:48:25 GMT"
+        },
+        "responseBodyHash": "9b309f4faf2b6352043090f53189dd55dd6af9736a1b20a2a52df6b1c7f4aca4",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5845640000006824
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/491307293.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 50997,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"31516e5349c65c965cd6a988a304e2b8\"",
+          "expires": "Fri, 14 Dec 2029 19:48:27 GMT"
+        },
+        "responseBodyHash": "f0f6c2cdb4583d79c848aa3dde55ec61c1a7ee5ab6fdd6d1ab8f3ae135c9bb2a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.603186000000278
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/682059654.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 17039,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"0b37607a3726158e332292f65a4d8096\"",
+          "expires": "Fri, 14 Dec 2029 19:48:28 GMT"
+        },
+        "responseBodyHash": "7d94e0fcb60f3790dbace6dbb6ee3960b6acc4d78a8a7268017ffa576339f6fd",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6041870000008203
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/929906786.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 11528,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"fddd68071202fc2ac01fc99d64b08dc6\"",
+          "expires": "Fri, 14 Dec 2029 19:48:29 GMT"
+        },
+        "responseBodyHash": "0429ccf990c4871e919090ac3152503f8c6e206bda33f09401fc5dfea3ab1543",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6091180000003078
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/757989921.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 12870,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"fa8dde59384d8c3ecb18eb059dc0ecaa\"",
+          "expires": "Fri, 14 Dec 2029 19:48:30 GMT"
+        },
+        "responseBodyHash": "10d92bf688a1d84b30941c99f694abb5728cf79a1252c422760afcb798fadda8",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6094740000007732
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/507308412.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 27692,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a916dbaab807cf06294b14b4487fb1f3\"",
+          "expires": "Thu, 29 Nov 2029 21:41:39 GMT"
+        },
+        "responseBodyHash": "526b9c818c9a4f62f65ffe101956f71b4d10c745a69ea66c98ca64d1f00e7b3d",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6144940000012866
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1172018675.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 30378,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"9c8521274b412efe9f4caa11ee6c41ba\"",
+          "expires": "Thu, 29 Nov 2029 21:41:41 GMT"
+        },
+        "responseBodyHash": "21a66b9ac9054f8ead1477c8fd930c919a9f7719ba88f44b26aa7de305eaf00a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.615005999999994
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/905282211.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 21861,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ca6cbf1954ffeae90d8bc941617a25b0\"",
+          "expires": "Thu, 29 Nov 2029 21:41:44 GMT"
+        },
+        "responseBodyHash": "f7b8cb6e544a992892f5ee890ecfd6e1886397d461902536c6461033544685ca",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6180830000012065
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/222967259.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 76967,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"45c8611cdad3c145f77f43e63218bd93\"",
+          "expires": "Thu, 29 Nov 2029 21:41:45 GMT"
+        },
+        "responseBodyHash": "a232f7bb3b62ccffe0192804fd0e632446d3a5b8b5398af5d471f8466bae6744",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6256009999997332
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/871936054.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 23325,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"c41be3d2026cfd060611971555a8e0d2\"",
+          "expires": "Thu, 29 Nov 2029 21:41:47 GMT"
+        },
+        "responseBodyHash": "ed5bd13f566519bdb472b67e6021955a908be717d796bb0b5ae01ccd3995eeab",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6224709999987681
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/568237520.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 28285,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"6f0f1e209bd5fbdc058e847599fc0c94\"",
+          "expires": "Thu, 29 Nov 2029 21:41:48 GMT"
+        },
+        "responseBodyHash": "2afea83208797343da0f81ca6444227b76d1dece51cd356e485759fb137e7b44",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6235900000028778
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/986418911.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 20344,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ba394371de474c3fbe62c35e7b0596af\"",
+          "expires": "Thu, 29 Nov 2029 21:41:49 GMT"
+        },
+        "responseBodyHash": "8cd75b997efca9b83a46c515eaf4a831cd917e77a7de635856e2dea79a0bc390",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5933559999975841
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1161408083.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 38517,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"e371b53ec333ecf367a0c45745755e36\"",
+          "expires": "Thu, 29 Nov 2029 21:41:51 GMT"
+        },
+        "responseBodyHash": "1286eaf79e54c7ae01fe42f7b3bda0ae569bfcb5549ad554ffc4acfa50cc8d95",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5957180000004882
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1062651130.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 18639,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"5b92c63ef8f750ada788bfc1aedf65cf\"",
+          "expires": "Thu, 29 Nov 2029 21:41:52 GMT"
+        },
+        "responseBodyHash": "59dab9d6fdbee568ccf7d4820b994e8bf6869efa3f124b97320092da8ad7ff71",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.597857999997359
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/794179700.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 34812,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a65f084097d35d2609ee204998cd259a\"",
+          "expires": "Thu, 29 Nov 2029 21:41:53 GMT"
+        },
+        "responseBodyHash": "e10269adfaa1f76f3bcfc992ebd4c21ff71ca1a2f3e7e66e5f289f3dd078567a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6016920000001846
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1176272137.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14020,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"36a928314591066710eff15ec24c1d07\"",
+          "expires": "Fri, 14 Dec 2029 19:50:05 GMT"
+        },
+        "responseBodyHash": "f8311691aeda3b91dba556744867e2a39527ff4f52a38619cd5390192d7836c3",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6020349999998871
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1175878680.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 9481,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a8dca609912ac68974a8880b51e53a30\"",
+          "expires": "Fri, 14 Dec 2029 19:50:07 GMT"
+        },
+        "responseBodyHash": "0d6c23594d2d62657eb53e0f6e0e1340ffa29edd74c9ca7c7401883c1a5f8c9c",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6023820000009437
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177644094.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 6923,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a793cc4434724919e60d4daf5655f6b9\"",
+          "expires": "Fri, 14 Dec 2029 19:50:08 GMT"
+        },
+        "responseBodyHash": "0e0ee9b70fbb100bc606059094f08d3e92bc61ef6014b0a3f0c943113e83b85d",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6025419999969017
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177605658.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14971,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f73abdcaf292517a083910c09b5d2399\"",
+          "expires": "Fri, 14 Dec 2029 19:50:11 GMT"
+        },
+        "responseBodyHash": "e5ad50c72710bff63897229a7a0a8056ebea76e9b27e1e936a8f1c69074b0888",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6044269999983953
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177602676.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14961,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"536ff02482bab64a33c671af4e6ebc23\"",
+          "expires": "Fri, 14 Dec 2029 19:50:13 GMT"
+        },
+        "responseBodyHash": "78c48d591c409c86632ea57f2cdb517b048ed8d8a8a4bf728e17e621d58abbb0",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6049129999992147
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1176291501.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 17874,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"6cedae0e7c6bf2091948b261bcd0533f\"",
+          "expires": "Fri, 14 Dec 2029 23:43:12 GMT"
+        },
+        "responseBodyHash": "1b2d47f0b3eae0b577c4a8442682709259962b4e01fb4059d06dba19bd04e201",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.605450999999448
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177564233.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14794,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"59bb732471465d6395ce6e1d9b030217\"",
+          "expires": "Fri, 14 Dec 2029 23:43:13 GMT"
+        },
+        "responseBodyHash": "40c04cb7edb3b401206c2e82dd8120f83cac268acc34cc96ca817d8c3de1dd56",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6091989999986254
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177556212.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15340,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"39df02f23ce2670c17e4ecc63b994fbd\"",
+          "expires": "Sat, 15 Dec 2029 00:10:11 GMT"
+        },
+        "responseBodyHash": "b83cdb75959fbeef2ce97ce70c15ab8b12f4898d7cc0662f456fd5d550ecfb88",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6096489999981713
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177605673.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15206,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"96abc70e33b398347d6722f9d33a2af3\"",
+          "expires": "Sat, 15 Dec 2029 03:02:23 GMT"
+        },
+        "responseBodyHash": "99d47538cbaf883eee25c1ed8111a31ad9f81ddb186ffa608db648ce5e4e06f5",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6099470000008296
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1177331249.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 11284,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"0f5dfa1e5b3dbbb2cf606bd2a5a10eac\"",
+          "expires": "Sat, 15 Dec 2029 03:02:24 GMT"
+        },
+        "responseBodyHash": "cb79756fbc42379433ecd11dd94503308f26139df39128ab07840778ff4fab1e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6118910000004689
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1164717379.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 37195,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a2eaa5fa95c17bfb5bf435e0f7da5916\"",
+          "expires": "Sun, 09 Dec 2029 23:43:22 GMT"
+        },
+        "responseBodyHash": "61c7a78f25a12f4ed28d13ea82396ccdae00193609b5392204dc82fc48074742",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6136829999995825
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/909007079.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 6881,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"88ca82f36c3266763c755040789c38db\"",
+          "expires": "Sun, 09 Dec 2029 23:43:23 GMT"
+        },
+        "responseBodyHash": "e75593c3da26f22ac1a120ed1ad365f6bbeb14c5f8cd467ac92319bbf6b7bcea",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6139579999980924
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/611800208.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 13116,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4332b2b23d738537d6b7a3f10f45f748\"",
+          "expires": "Sun, 09 Dec 2029 23:43:24 GMT"
+        },
+        "responseBodyHash": "d0f092fb2bb497730160ef951cdd6a6e283beae1a07096ec801cbb677f7dd96e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6142910000016855
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1159829935.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 23092,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"518e6b7b1732ed6af7759bbe2ef856e7\"",
+          "expires": "Sun, 09 Dec 2029 23:43:49 GMT"
+        },
+        "responseBodyHash": "408fccca44629d4419aa7ef984f4bb9432efb70301352cc66f92819b03ceed12",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6156749999972817
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/363205555.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14905,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"acd831b645730388c62af694db1d9fe3\"",
+          "expires": "Sun, 09 Dec 2029 23:43:25 GMT"
+        },
+        "responseBodyHash": "fe607d246ad9820feedd10082740dead318fb7b87b54dc6c2730265d675c0a60",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.616146000000299
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/940191462.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8655,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"b9d0963b22131ae6f13bb07aaa7053a5\"",
+          "expires": "Sun, 09 Dec 2029 23:43:40 GMT"
+        },
+        "responseBodyHash": "493c7d2f4d02c5b025c005bab90d5cdb1c38b27a8756bf331c4271b5f606457b",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6165710000022955
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/363190971.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15850,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2c20011fbef10809449098790a2a0834\"",
+          "expires": "Sun, 09 Dec 2029 23:43:27 GMT"
+        },
+        "responseBodyHash": "f8a728735bdb48e79037e12d166919c75d8796f9e4f848d4327aa3433965ba3c",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6315749999994296
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1117876633.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 18201,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f867c79c602aaf4d7b30d8c76ae047f2\"",
+          "expires": "Sun, 09 Dec 2029 23:43:52 GMT"
+        },
+        "responseBodyHash": "dcbbfe9977c92c960ce02c588fa3bd4100f1943deab1794362bec6dab22df67a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6319530000000668
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/835894946.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 19340,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"5ff11259a99daa0a520522a11b4ea17a\"",
+          "expires": "Sun, 09 Dec 2029 23:43:28 GMT"
+        },
+        "responseBodyHash": "53dc5ee29265e00d0d18b6fd43ce29bb9de7d2274cd5910f889c98b359b4aa7b",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6323919999995269
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1079222243.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 26573,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"236e8355286455cb2116666b5d081ad5\"",
+          "expires": "Mon, 10 Dec 2029 00:13:52 GMT"
+        },
+        "responseBodyHash": "b449cbcd32fa413133da010aea24e584a6f76217a234bce9e00fc6f617ce14de",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6354000000028464
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/518182979.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 9429,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4b79d5d07369766bcc8c44d7ac33a544\"",
+          "expires": "Fri, 14 Dec 2029 19:59:20 GMT"
+        },
+        "responseBodyHash": "871ce0b2d756909a0dcdabdbd199acaba557f54d654249e1c09a380e2b59122e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6357800000005227
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/243500475.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16000,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"e524d65a405b5c736eb6b47dc6d78f72\"",
+          "expires": "Fri, 14 Dec 2029 19:59:21 GMT"
+        },
+        "responseBodyHash": "75a3c052eb6826709fdf4a0ef17f77f77295e82e8822c06de62fcac9c82edd72",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6397980000001553
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/682139555.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15079,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"41837334df04c94f83a51df7b571792a\"",
+          "expires": "Fri, 14 Dec 2029 19:59:23 GMT"
+        },
+        "responseBodyHash": "a52042b552d62d157f58dad7057d412f37b49e0a7a388526d93cc3a6dc81b5b5",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.640069000000949
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1172318654.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15345,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a961a7c2162b00204d125ab95bbcdefb\"",
+          "expires": "Fri, 14 Dec 2029 19:59:24 GMT"
+        },
+        "responseBodyHash": "f54f3e4d40f021b757595c8357c227b2a0e657750be70ea4370b29246c34f356",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6404580000016722
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1175725534.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8060,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"3e0838d146d9f41eb8b41a41cb9926c1\"",
+          "expires": "Fri, 14 Dec 2029 19:59:26 GMT"
+        },
+        "responseBodyHash": "087997ba449aa200dbf0b680e3cb245f879df423c1425246c7c02e79c7cc4056",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6466299999992771
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/625785237.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8456,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2704c273382511dc4aa8577fec012a13\"",
+          "expires": "Fri, 14 Dec 2029 19:59:28 GMT"
+        },
+        "responseBodyHash": "990c698e10a7f798b633dead485b498df9e8d04fe1bdfd9319e0f7c99825e521",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6470079999999143
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1014713964.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15178,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2ddcd522df11641cbb0af34668987e0f\"",
+          "expires": "Fri, 14 Dec 2029 19:59:29 GMT"
+        },
+        "responseBodyHash": "ee9db6b00d621f652fed1e001b5fc570202caab32c731977af970f1a22da61b5",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6473379999988538
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/96544425.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 59135,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"b5e65e06f6427737fc806db214c8ff62\"",
+          "expires": "Fri, 14 Dec 2029 19:59:30 GMT"
+        },
+        "responseBodyHash": "ab35bba3d3d6320c9208f927d8f1861bfb686a57d619fcfd5b5a984040582688",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6537029999999504
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1175725511.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 7665,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4958083712b6872cd10d177c6697ea4c\"",
+          "expires": "Fri, 14 Dec 2029 19:59:32 GMT"
+        },
+        "responseBodyHash": "540fe9e3280460673f95d5c9d372162e544a231d819204c590e44224e85a2d48",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6540459999996528
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/232811012.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 13597,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f9d60d863ffeeba5f5ae27ef8709fd5c\"",
+          "expires": "Fri, 14 Dec 2029 23:48:13 GMT"
+        },
+        "responseBodyHash": "4db34fe5e138317da9bdd5eafa96bb6449cfe8727837e2bd5605d00a47a6d931",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6543770000025688
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173240803.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8856,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"b4f2df3ec5af18eeb55bfc4a507920fc\"",
+          "expires": "Fri, 14 Dec 2029 19:50:53 GMT"
+        },
+        "responseBodyHash": "d59f9322d6f4193b483f93c7c9882ce1a9d85569768b9256042cf89495f73e68",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6546680000028573
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1171433283.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 114825,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"c209665f55701a31417e86163d4fd7b5\"",
+          "expires": "Fri, 14 Dec 2029 19:50:57 GMT"
+        },
+        "responseBodyHash": "f7818d88ef2e3a0c8064ad39bfe0e003474c0238e31721737d31dc59e519cc8d",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.665407000000414
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1168850987.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 10955,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4330d9bb1a184ed671669ccb14c03090\"",
+          "expires": "Fri, 14 Dec 2029 19:50:58 GMT"
+        },
+        "responseBodyHash": "7d84a9a02426171a19e1ca955da6d44720ea332b5c6a38474ad99a644b8df39f",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6582029999990482
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1169457676.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 10984,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"d3fab1fc1f7e90def541744045c1dd59\"",
+          "expires": "Fri, 14 Dec 2029 19:50:59 GMT"
+        },
+        "responseBodyHash": "1fb5b017e58f78c9726aad076f3d4b3f62654bf033d23796ddfaecebcb280a80",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6585269999995944
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/855986926.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 13807,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a0e2220efeddfa69fd60682661cdbc72\"",
+          "expires": "Fri, 14 Dec 2029 19:51:00 GMT"
+        },
+        "responseBodyHash": "bd6f0da2d27aaac19dbdca6a1215c2902f5305d965205cd0b464450f917e3d30",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6593580000007933
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173759859.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 15507,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"fd8ab2a0671cbae29368257e43da9e61\"",
+          "expires": "Fri, 14 Dec 2029 19:51:01 GMT"
+        },
+        "responseBodyHash": "ef285caa8b76237f3d00a7cbfaaf43b74dbfdee927ebc602559716151bbc86ff",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6597099999999045
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173497996.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 7348,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"72211e45f65675f2f72926b0717b07e2\"",
+          "expires": "Fri, 14 Dec 2029 19:51:01 GMT"
+        },
+        "responseBodyHash": "441e42c05f988a4576039f9ee9ee2eb798aa60e347c4352595d72fa925b48922",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6600480000015523
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1092674763.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 11804,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"539f0dda57b5cccea0d14ada542728fd\"",
+          "expires": "Fri, 14 Dec 2029 21:51:10 GMT"
+        },
+        "responseBodyHash": "44400bbcd13d032c13cbcfe73414f22fdd7214281bfac52499f0e1e51a3591e3",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.664388000001054
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/894868065.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 13771,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"0ed15530c13f5495681ae31a9d0be512\"",
+          "expires": "Fri, 14 Dec 2029 21:51:11 GMT"
+        },
+        "responseBodyHash": "47d619bfa5cb7607ff8d582e4b3982393845ddf37e2016d7acacb8571283762c",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.664719000000332
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/858677001.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 11495,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"3279be228760664e79da9096b984ca2f\"",
+          "expires": "Fri, 14 Dec 2029 21:51:11 GMT"
+        },
+        "responseBodyHash": "61f5aa956811cf586aa03a0916fa93dafd1820997bd00250e4938e7b645fcb7a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6650660000013886
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173769879.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 12864,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"b51aa811011c3cd06f3f11018d43f7c6\"",
+          "expires": "Sun, 09 Dec 2029 23:34:50 GMT"
+        },
+        "responseBodyHash": "6548447b999c584d1fec4da1aeb27110867f0b23b789bc01fe21cc29e9b454cf",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6667079999970156
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173737402.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 12878,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f75a92ca62de40ade91904f9dc734134\"",
+          "expires": "Sun, 09 Dec 2029 23:34:51 GMT"
+        },
+        "responseBodyHash": "fa426ae5f3293cbc6633b4ac681f9d6490f615a36b8e28ab840c0e08c663427a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.667115999996895
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173726471.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 12800,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"79e9197d0c55a8fd046eef38003f6e13\"",
+          "expires": "Sun, 09 Dec 2029 23:34:52 GMT"
+        },
+        "responseBodyHash": "338e333bb47e4022c9b77b9b2781c86a7922db8477981ae06d374c99db206669",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6673989999981131
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173480132.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 10721,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2e8e829f302dcc8f4a1e446c77ff54be\"",
+          "expires": "Sun, 09 Dec 2029 23:34:55 GMT"
+        },
+        "responseBodyHash": "b4ffbb0c57021ad579d1db9ac7be5c907ff0497c096e7ba8ef6bf86c633fa143",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6676640000005136
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173480131.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 9754,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ba2e5fcbf2eca3290f63abc18885c9fb\"",
+          "expires": "Sun, 09 Dec 2029 23:34:56 GMT"
+        },
+        "responseBodyHash": "f4ce6706f3dc0ea8112f3fc9f1fad0e9d967e6f201af215aa5598a954df2524a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6711780000005092
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173032895.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 14152,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4a772fbacb5ef2f54118c1f151ade46b\"",
+          "expires": "Sun, 09 Dec 2029 23:34:56 GMT"
+        },
+        "responseBodyHash": "78baddf6cee3d699dfaa8c7e0da152fe02479bc8445aef86ea4a3a4a8b52e742",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6714790000005451
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173125359.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16471,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a8d75c3cc2f0b55438ea38d8dee0f4a2\"",
+          "expires": "Sun, 09 Dec 2029 23:35:01 GMT"
+        },
+        "responseBodyHash": "607a3b2b58a6832863be13cf22ee320241ec2a9f6f031edde9a92710c8342860",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6719840000005206
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173158773.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8517,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f6acfb83475e240bc9948f1ad3574dc1\"",
+          "expires": "Sun, 09 Dec 2029 23:35:02 GMT"
+        },
+        "responseBodyHash": "08cb3b5a406a96cc4ae2ea087b05fe60e9b08659917b8bce56f9726aba14c650",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6738159999986237
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173251280.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16782,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"39000fdc0e7d73ec23467a684331ed10\"",
+          "expires": "Sun, 09 Dec 2029 23:35:02 GMT"
+        },
+        "responseBodyHash": "34cacb74d01a31f499f0cbb3fe7e3b91ba4ae6cd413e88bcf91f82639868b8bc",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6740260000005946
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1173251278.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16584,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"c1f46195760dc31a59155661d91ecadf\"",
+          "expires": "Sun, 09 Dec 2029 23:35:03 GMT"
+        },
+        "responseBodyHash": "618f1f9ea958859d6368233459d7788e1face8364a78ddf7b9ec1f039b377f42",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6742840000006254
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/150215585.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 17676,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"16e89d061b96546722fdfbcc0fc7fee0\"",
+          "expires": "Fri, 14 Dec 2029 19:59:39 GMT"
+        },
+        "responseBodyHash": "136b0ba6e474a08ab2ef848ee0c2e9a0644b85036454c2f3f17de1aac77c5489",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.676673000001756
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/41092620.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 18875,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"be6998109a52d30046c4e9d06f220eeb\"",
+          "expires": "Fri, 14 Dec 2029 19:59:41 GMT"
+        },
+        "responseBodyHash": "684ee1791de504f1a1c72cb0ec5a1e4afba5e7f88c158e4935762148e808477a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6768620000002556
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1108867583.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 35045,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"38dabf36e1c40b39ed81529d0f5c53d1\"",
+          "expires": "Fri, 14 Dec 2029 19:59:42 GMT"
+        },
+        "responseBodyHash": "c91e007106361ead35253eb084f13c10458006b5a741bb372cbacda0c4936018",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6798290000006091
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1176144800.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 12907,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"03814f1d723f034b5219f6ec6ccc4ab6\"",
+          "expires": "Fri, 14 Dec 2029 19:59:44 GMT"
+        },
+        "responseBodyHash": "1445b3b97c545cf7b8158f941a6506cbce7d6731633bf45b4d5a6a97713b7dde",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.680210000002262
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/104169265.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 29502,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"d9d87f82ee81ab26dc8be46fc363869c\"",
+          "expires": "Fri, 14 Dec 2029 19:59:45 GMT"
+        },
+        "responseBodyHash": "d1cbbbd11b57cd2667f95721c840157fa999afd04bb95d7c5a87a8539f716fe6",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6818330000023707
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/6305703.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 33983,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f227f2753672e015737589208bd53880\"",
+          "expires": "Fri, 14 Dec 2029 19:59:47 GMT"
+        },
+        "responseBodyHash": "917b5d5d4d5ce2a195325dafac8c03b68068a75afb73e194fe4136d35e31e098",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6830530000006547
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/774709626.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 58758,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"b70496f113b74ed4d2ba69653cb3b5d4\"",
+          "expires": "Fri, 14 Dec 2029 19:59:50 GMT"
+        },
+        "responseBodyHash": "e7d0c4a6fdac659a3970c5a4c68c8da4e659823c3c71576eaa30af82721cb13e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6844820000005711
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1174373798.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 19236,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"524a980fd54dfbf949c4c2ccef1808af\"",
+          "expires": "Fri, 14 Dec 2029 19:59:52 GMT"
+        },
+        "responseBodyHash": "f70847775b4819213624dface72d48d12c27edac48b54537b017a7d6a924da9a",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6856240000015532
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1051473397.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 24418,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ae82e7f4c2249f3fb3645c150145319e\"",
+          "expires": "Fri, 14 Dec 2029 19:59:54 GMT"
+        },
+        "responseBodyHash": "bb1213e77d1b67b7e14b414c5816872975db64820fb3119c7a8b54a1b225812c",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6870210000015504
+      },
+      {
+        "url": "https://images.bonanzastatic.com/uploads/home_page_images/1163445586.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 20647,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f0e6c8d0d8f7113b8c46908724e3427a\"",
+          "expires": "Fri, 14 Dec 2029 19:59:55 GMT"
+        },
+        "responseBodyHash": "827cfdc4bf189b9492655c55b70d30fddd8f33772a910dcd42d3cdaeced7ba9e",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6934430000001157
+      },
+      {
+        "url": "https://images.bonanzastatic.com/user_profile_image/afu/user_profile_images/0057/0797/crocus_4_thumb128.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 6006,
+        "remoteIPAddress": "185.172.149.128",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"2943a48b68da55f5d1d1283f53e7de75\"",
+          "expires": "Tue, 23 Apr 2019 14:00:06 GMT"
+        },
+        "responseBodyHash": "2325c75c4fbef566a56713b18ccf8b78b60588101a7fbd2e30648625df2b78dc",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.6944949999997334
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/global_icons/social_media/facebook.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 882,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"0335118edcecd149352f1ddb5e0aa3e6\"",
+          "expires": "Sun, 12 Oct 2025 20:52:35 GMT"
+        },
+        "responseBodyHash": "d4f301648ca4671741fa9a61c65d076f0514fa6bbb58a90ef37abb147d760614",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.1794350000018312
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/global_icons/social_media/twitter.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 934,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"dda20e1a33c8ed198f12a2bc66d8515e\"",
+          "expires": "Sun, 12 Oct 2025 20:52:35 GMT"
+        },
+        "responseBodyHash": "da3376bca43b53fa65f20aff86506420f29791241c58d2bb155d1d5588be1d95",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.17964099999881
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/global_icons/social_media/pinterest.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 963,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"d0cf2bd2ab84122c265b372d10385fc2\"",
+          "expires": "Sun, 12 Oct 2025 20:52:35 GMT"
+        },
+        "responseBodyHash": "59a6eb3233c7e912ed66aa8111cdb3996d2a2cb33e20054bf0e2cce799db96e5",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.17979399999967427
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/global_icons/social_media/instagram.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"f6796153e71e59fe94238bc223ddc4ce\"",
+          "expires": "Sun, 12 Oct 2025 20:52:35 GMT"
+        },
+        "responseBodyHash": "2a573b12f84683b3f68464dac137c209d1aa920e27c6ba86da9635b2f4483a1d",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.17988200000036159
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/retina_js-483e604708473fba148b0d64d253735e.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 1097,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"0923f2b8700f7221c5e3613b1598cee2\"",
+          "expires": "Mon, 15 Mar 2027 17:57:24 GMT"
+        },
+        "responseBodyHash": "88f5ed25e7767e287e0aafc07da476d962bd384ef7e7851150b6049f1968cd99",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.021502999999938766
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 18129,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "5620577396173936331",
+          "expires": "Mon, 20 Dec 2021 15:15:02 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a794323056095d4ae3d4bccb01fdb689b186c5343f70248d41e61e951cf72fb",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.044880000001285225
+      },
+      {
+        "url": "https://www.dwin1.com/6238.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 8416,
+        "remoteIPAddress": "13.227.219.82",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, s-maxage=600",
+          "etag": "W/\"4ab22c3ae3ebc542c89b1b1a5b056efa\""
+        },
+        "responseBodyHash": "2975529b78685dbfd3ec219fde6aef7a7fab65636de4b7c9d3bf7a9b02115b85",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.28519500000038533
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 53617,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"a452f6ab29314ca5d2889acee30adfe8\"",
+          "expires": "Fri, 12 Sep 2025 17:12:09 GMT"
+        },
+        "responseBodyHash": "60b28695cd6ef9a3d6dfe7c544db677a5d3d1b8fdf2e40d3ffc8a36a5fec1941",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.19674200000008568
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 20402,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 17:13:47 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.192735000000539
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/sprites/application-sprite-b98ea840b7ab77f8a3fe62266bda6692272a42f7.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css",
+        "status": 200,
+        "size": 15131,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"313bcc21e8ead564db068ed00ee2d805\"",
+          "expires": "Sat, 06 Feb 2027 19:24:48 GMT"
+        },
+        "responseBodyHash": "ff5e899a68382a01b78f3140faae5574087b6bdcfdf9f3c673f9f702cbe9e588",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css"
+        ],
+        "time": 0.05658600000242586
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/home/snowflake.jpg?1576015459",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css",
+        "status": 200,
+        "size": 12212,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"fc4376fc4be1ca8d1c30f39e44186ea2\"",
+          "expires": "Mon, 04 Dec 2023 21:51:23 GMT"
+        },
+        "responseBodyHash": "31846360e48abae27e26c42d1d77249f47616291da9f15c5f275a854021023b0",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css"
+        ],
+        "time": 0.05628400000205147
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/home/heroes/holiday-table.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 74385,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"beea5fcb53834a6b9c2b37c32e33c9e1\"",
+          "expires": "Thu, 13 Sep 2029 15:51:40 GMT"
+        },
+        "responseBodyHash": "ddef8a93ee3a17c125249d256f50913e8b4581ceb3bf34d85fbf65c212c24682",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.09928199999922072
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/sprites/home-sprite-2779ddbed970669980668e5e90475da7c97cbae2.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.bonanzastatic.com/assets/home_index_css-daad9f30bc71b0cc184de75556300509.gz.css",
+        "status": 200,
+        "size": 19819,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"ad2e393c8e3fc4a788bd834790fa0657\"",
+          "expires": "Sun, 30 Jul 2028 18:21:38 GMT"
+        },
+        "responseBodyHash": "2a882b3ab76e0d79b9736054213a73e011ae9141943ae457aa4e1ae000a6c564",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/home_index_css-daad9f30bc71b0cc184de75556300509.gz.css"
+        ],
+        "time": 0.09017200000016601
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/images/home/bg_thatch.png?1576015459",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.bonanzastatic.com/assets/home_index_css-daad9f30bc71b0cc184de75556300509.gz.css",
+        "status": 200,
+        "size": 28173,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"4ab14c2e2f39701cf8ed7df93433a072\"",
+          "expires": "Sat, 18 Nov 2023 20:39:00 GMT"
+        },
+        "responseBodyHash": "13443f073e8f11cb725043ee2a0bed8c999e7a7d49b446c7c57cc0844b5d97b0",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/home_index_css-daad9f30bc71b0cc184de75556300509.gz.css"
+        ],
+        "time": 0.08829599999808124
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14679,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a8348f300caf3357692ebe284c2ac37964b7b973a357fba3e62e6c68f3ffcda",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+        ],
+        "time": 0.23284399999829475
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css",
+        "status": 200,
+        "size": 77832,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"af7ae505a9eed503f8b8e6982036873e\"",
+          "expires": "Mon, 20 Jan 2025 18:48:11 GMT"
+        },
+        "responseBodyHash": "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/global_css-23237c9d59b2e9334435ab3d594112ba.gz.css"
+        ],
+        "time": 0.22391799999968498
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14294,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 17:59:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a7052e96569aff016ca5ec454bb37f16e620b300956e68f2b2db1bdb9b8e230b",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+        ],
+        "time": 0.23206699999718694
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1040189919/?random=1640013302660&cv=9&fst=1640013302660&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.bonanza.com%2F&tiba=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&hn=www.googleadservices.com&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 1664,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:30:02 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "aaddedd3e027a8420a4202a97ed4762b8a6b93bdd0408839c38d5c4b97ddf7e3",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion.js"
+        ],
+        "time": 0.1587970000000496
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 10971,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=3DFF9C5CAE5268AD360B8D4FAF0B696A; domain=.bing.com; expires=Sat, 14-Jan-2023 15:15:02 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.16198399999848334
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 831,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.24540699999852222
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 26435,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.14217899999857764
+      },
+      {
+        "url": "https://www.paypal.com/tagmanager/pptm.js?id=36377852-baa3-11e7-bd24-a947888e69fc",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 6077,
+        "remoteIPAddress": "151.101.1.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"37f0-fWBoCQOIG1xiARAFuF0gZsB5XWc\"",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "f64f09862099a35a6e4b89f1a50ff0cc24c3e291cf3d563c4032a8aec2aeb4eb",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.1874099999986356
+      },
+      {
+        "url": "https://acsbapp.com/apps/app/assets/js/acsb.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 301,
+        "remoteIPAddress": "161.35.15.77",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://acsbapp.com/apps/app/dist/js/app.js",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.5722849999983737
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/global_lazy_css-60371c2568155e877806674fdb171e43.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 70479,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"7631dee0d90c23601d5c468d97c14153\"",
+          "expires": "Mon, 15 Mar 2027 17:57:38 GMT"
+        },
+        "responseBodyHash": "11a93ea63d4c0ca4b8aab0c4e6e7ddffc432736d797437c93d43c2a30b1aa885",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/global_js-5c93946d17c4a077aad1310cd2376e1b.gz.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.10497100000065984
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/print_css-755a519bd3443cbaf02a814ea8a4dab3.gz.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 730,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"aaf729f3bf6d0b0dd1ead4bb0614988a\"",
+          "expires": "Mon, 15 Mar 2027 17:57:47 GMT"
+        },
+        "responseBodyHash": "1e73082988520e7898b364b0eb481eca587c2cb71a62584990c85f53166c3155",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/global_js-5c93946d17c4a077aad1310cd2376e1b.gz.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.08084300000336953
+      },
+      {
+        "url": "https://assets.bonanzastatic.com/assets/global_lazy_js-cf9a47d3d6522ec7a9716b08070e8ea6.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 28725,
+        "remoteIPAddress": "185.172.149.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=252460800, public",
+          "etag": "\"cda5e8ccfb7e212e4d8cf133ceb70251\"",
+          "expires": "Mon, 15 Mar 2027 17:57:18 GMT"
+        },
+        "responseBodyHash": "3fdd4f0c18b6be7866f299cc10b4c2f0209a7a5a952b4264c12d0e1379cd7ba4",
+        "initiators": [
+          "https://assets.bonanzastatic.com/assets/global_js-5c93946d17c4a077aad1310cd2376e1b.gz.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.08895599999959813
+      },
+      {
+        "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 1635,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Mon, 20 Dec 2021 16:02:09 GMT"
+        },
+        "responseBodyHash": "058ed961bfe422af7bfc65865f4c08531ec8ace995f8a1ec560a46581cb7712c",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.030467999997199513
+      },
+      {
+        "url": "https://acsbapp.com/apps/app/dist/js/app.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 141531,
+        "remoteIPAddress": "161.35.15.77",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=432000 public",
+          "etag": "\"69bbf-61af7566-508a13bdb662711b;br\"",
+          "expires": "Tue, 21 Dec 2021 15:15:03 GMT"
+        },
+        "responseBodyHash": "8c0918b69eaecf7001960fcfae2821980949504700aaff855511608fc62ff502",
+        "redirectedFrom": "https://acsbapp.com/apps/app/assets/js/acsb.js",
+        "initiators": [
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.3316130000021076
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1040189919/?random=1640013302660&cv=9&fst=1640012400000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.bonanza.com%2F&tiba=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&fmt=3&is_vtc=1&random=3089229443&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1040189919/?random=1640013302660&cv=9&fst=1640013302660&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.bonanza.com%2F&tiba=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.024665999997523613
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1040189919/?random=1640013302660&cv=9&fst=1640012400000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.bonanza.com%2F&tiba=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&fmt=3&is_vtc=1&random=3089229443&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1040189919/?random=1640013302660&cv=9&fst=1640013302660&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.bonanza.com%2F&tiba=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.024437999996735016
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/muse.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16791,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"611e7e5f-da2c\""
+        },
+        "responseBodyHash": "129737dfffcc16554dffd7d6dd3a57b6831c96a75d8acec4ea31709555115a53",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=36377852-baa3-11e7-bd24-a947888e69fc"
+        ],
+        "time": 0.02312800000072457
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Athird-party%3Aanalytics%3A%3AFJ2EE2KQGL6Q6-1&page=muse%3Athird-party%3Aanalytics%3A%3AFJ2EE2KQGL6Q6-1%3A%3A%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=36377852-baa3-11e7-bd24-a947888e69fc&fltp=analytics&mrid=FJ2EE2KQGL6Q6&flag_consume=yes&pt=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640013303428&g=0&completeurl=https%3A%2F%2Fwww.bonanza.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 766,
+        "remoteIPAddress": "151.101.65.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:15:03 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734707703%26vteXpYrS%3D1640015103%26vr%3Dd8690ee917d0a982774059b6ffffffff%26vt%3Dd8690ee917d0a982774059b6fffffffe; Expires=Fri, 20 Dec 2024 15:15:03 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dd8690ee917d0a982774059b6ffffffff%26vt%3Dd8690ee917d0a982774059b6fffffffe; Expires=Fri, 20 Dec 2024 15:15:03 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=36377852-baa3-11e7-bd24-a947888e69fc"
+        ],
+        "time": 0.18099199999778648
+      },
+      {
+        "url": "https://www.bonanza.com/cdn-cgi/bm/cv/result?req_id=6c09d2ddac685977",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 204,
+        "size": 322,
+        "remoteIPAddress": "104.18.18.104",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=xE7CJkxVcZ2f3V2xSGAiXZtyIbhSiYuHF.CiPacb18k-1640013303-0-AWBjgR6cSqtbZKl50eGfIJmWYI5SExZNbWtPTwpo/Qkb/KIoFgOCeqQwPhFl8MrgK2/Apv1ugseB4g0rcl3YzkL64xrV/aYLt//hzSLnjyVKD5hDHNx8CU2OzRBI+6ejUf/RTOd/Ele7oEBuWRFHJSKpJMRWwuBAhwuK/wzMItfO; path=/; expires=Mon, 20-Dec-21 15:45:03 GMT; domain=.bonanza.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://www.bonanza.com/cdn-cgi/bm/cv/669835187/api.js"
+        ],
+        "time": 0.014419000002817484
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 19100,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.10384899999917252
+      },
+      {
+        "url": "https://bat.bing.com/p/action/18007489.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 204,
+        "size": 93,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.023311000000830973
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=18007489&Ver=2&mid=d17b1831-4857-42cd-8826-a86161859c0b&sid=9b52f30061a711ec85d937b461ced1f6&vid=9b53281061a711ec9982f5c914c2f7f9&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&p=https%3A%2F%2Fwww.bonanza.com%2F&r=&lt=2024&evt=pageLoad&msclkid=N&sv=1&rn=718584",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 204,
+        "size": 151,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.024457999999867752
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/124768114830763?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 88887,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "24a27d7a757ce8c5781a6b06ec2cf48e8692b3c69717c274d5ee2cf4e15d2c48",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.02843399999983376
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-1649289-6&cid=1881438218.1640013303&jid=1293127573&gjid=1927336001&_gid=1215365539.1640013303&_u=aGBAgAIJAAAAAE~&z=573832507",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 442,
+        "remoteIPAddress": "142.250.145.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bonanza.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.024077999998553423
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=698661924&t=pageview&_s=1&dl=https%3A%2F%2Fwww.bonanza.com%2F&ul=en-us&de=UTF-8&dt=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=aGBAgAIJ~&jid=1293127573&gjid=1927336001&cid=1881438218.1640013303&tid=UA-1649289-6&_gid=1215365539.1640013303&cd1=home_-_index&z=305097565",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.00561799999923096
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/analytics/index.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 16988,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"616f114f-d9ea\""
+        },
+        "responseBodyHash": "12500d956b47de01bfe02a21db437ebbd7b462f54137f0a37b80992df7f5ce59",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://www.paypal.com/tagmanager/pptm.js?id=36377852-baa3-11e7-bd24-a947888e69fc"
+        ],
+        "time": 0.008234999997512205
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1649289-6&cid=1881438218.1640013303&jid=1293127573&_u=aGBAgAIJAAAAAE~&z=830377667",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.033448000001953915
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1649289-6&cid=1881438218.1640013303&jid=1293127573&_u=aGBAgAIJAAAAAE~&z=830377667",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.03417000000263215
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2613002088097&cb=1640013303629",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 856,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bonanza.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "cd80ae8e3e2bda63c74d0584cc96aa28d5a54b7a7384ff046ed4082c3d642f6f",
+        "initiators": [
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.030159999998431886
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613002088097&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.bonanza.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1640013303634",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.029462999998941086
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=124768114830763&ev=PageView&dl=https%3A%2F%2Fwww.bonanza.com%2F&rl=&if=false&ts=1640013303685&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640013303682.278158959&it=1640013303518&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:15:03 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/124768114830763?v=2.9.48&r=stable"
+        ],
+        "time": 0.02048599999761791
+      },
+      {
+        "url": "https://cdn.acsbapp.com/cache/app/bonanza.com/config.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 320,
+        "remoteIPAddress": "208.68.39.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=432000 public",
+          "etag": "\"85-61bf6eed-da79504a00371c4e;;;\"",
+          "expires": "Tue, 21 Dec 2021 15:15:03 GMT"
+        },
+        "responseBodyHash": "b94cae0e9da921ad076666d1f2796c177fc744953db8fdc628ddd098727fbdb7",
+        "initiators": [
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://acsbapp.com/apps/app/assets/js/acsb.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.24768300000141608
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 204,
+        "size": 274,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.036002999997435836
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 4350,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=4f432c7883e92e756b2752bdd1a7ecdb; path=/; expires=Tue, 20 Dec 2022 15:15:03 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZNQVlZNVNEQ2kzWWZmamtnZStyYnhwT3AxTTQ1eFFrNmhmS2IybmsxYmNvM084Zkx1aDVrY0ExOG9tV2dTdE1DL1BiRTNxayswTE1QS0dOS0RHWVZTZTNNRDZmRWQ4OVFmU243MElaR2JoclVyVURNVStlRDlXdzRwVnNDUVhyQyY2R0ptVWJ2RW55c0pUVU5kanV1UFlBTHBGQjA9; path=/; expires=Thu, 15 Dec 2022 15:15:03 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Thu, 15 Dec 2022 15:15:03 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://www.bonanza.com/; path=/; expires=Mon, 20 Dec 2021 15:20:03 GMT; domain=.pinterest.com; secure\n_routing_id=\"05fd9aa6-88b0-409b-a114-5096d2d7b8b2\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "1f59754d31f6e5abf40c96f017986272fad04724f2b213d44573f60b3548c0e0",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js"
+        ],
+        "time": 0.20247899999958463
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/noop.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.paypalobjects.com/muse/analytics/index.html",
+        "status": 200,
+        "size": 202,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "\"60271cd0-12\""
+        },
+        "responseBodyHash": "0739b17b1053de387d55795753300a79626787634f8c909277efff94d0e3f154",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.0051050000001851
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Aoffer%3A%3A%3AFJ2EE2KQGL6Q6-1&page=muse%3Aoffer%3A%3A%3AFJ2EE2KQGL6Q6-1%3A%3AvisitorInfoFlowStarted%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=36377852-baa3-11e7-bd24-a947888e69fc&es=visitorInfoFlowStarted&mrid=FJ2EE2KQGL6Q6&pt=Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640013303807&g=0&completeurl=https%3A%2F%2Fwww.bonanza.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 148,
+        "remoteIPAddress": "151.101.65.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:15:03 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734707703%26vteXpYrS%3D1640015103%26vr%3Dd8690ee917d0a982774059b6ffffffff%26vt%3Dd8690ee917d0a982774059b6fffffffe; Expires=Fri, 20 Dec 2024 15:15:03 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dd8690ee917d0a982774059b6ffffffff%26vt%3Dd8690ee917d0a982774059b6fffffffe; Expires=Fri, 20 Dec 2024 15:15:03 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=36377852-baa3-11e7-bd24-a947888e69fc",
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.173240000000078
+      },
+      {
+        "url": "https://www.paypal.com/targeting/graphql",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.paypalobjects.com/",
+        "status": 200,
+        "size": 2007,
+        "remoteIPAddress": "151.101.1.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypalobjects.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"1b2-/PS+diyVa+hkVHqHyPvvBpCyUf8\"",
+          "set-cookie": "enforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Tue, 20 Dec 2022 15:15:04 GMT; Secure; SameSite=None\nLANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Tue, 21 Dec 2021 00:01:00 GMT; HttpOnly; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDAxMzMwNDIxNiIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=targetingnodeweb; Domain=.paypal.com; Path=/; Expires=Thu, 23 Dec 2021 15:15:04 GMT; HttpOnly; Secure; SameSite=None\nnsid=s%3A8ehymDaQJXGOqb0nLl8qoO7LvCYOZKfo.2inz6PLD5j%2B%2FpLvnog82xmVKgY2Y%2BerAEz7LqC9Oiz4; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg15.slc; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 15:45:04 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734707704%26vteXpYrS%3D1640015104%26vr%3Dd8690ee917d0a982774059b6ffffffff%26vt%3Dd8690ee917d0a982774059b6fffffffe%26vtyp%3D; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:15:04 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd8690ee917d0a982774059b6ffffffff%26vt%3Dd8690ee917d0a982774059b6fffffffe; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:15:04 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9c395f52a69473d2c08f40f88a487ba35f7daac068c1b2101e8c622273a55da0",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.50536700000157
+      },
+      {
+        "url": "https://www.paypal.com/targeting/graphql",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypalobjects.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Tue, 21 Dec 2021 00:00:59 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Tue, 20 Dec 2022 15:15:03 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDAxMzMwMzkxOCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\nnsid=s%3AYmBV9_X5z9b4pqFfT-wU8SLBzEU_ELXg.0iL8JwXG%2Fo7XeZ%2BcjUTn9byX5OdVjp8w%2B5qtAZ2jLro; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg13.slc; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 15:45:03 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734707703%26vteXpYrS%3D1640015103%26vr%3Dd869106117d0ad0489c60db9f6b16a43%26vt%3Dd869106117d0ad0489c60db9f6b16a42%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:15:03 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd869106117d0ad0489c60db9f6b16a43%26vt%3Dd869106117d0ad0489c60db9f6b16a42; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:15:03 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/targeting/graphql"
+        ],
+        "time": 0.1754719999989902
+      },
+      {
+        "url": "https://cdn.acsbapp.com/cache/app/en.build.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 25414,
+        "remoteIPAddress": "208.68.39.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=432000 public",
+          "etag": "\"3a13f-61af758a-8bfbea030268e03e;br\"",
+          "expires": "Tue, 21 Dec 2021 15:15:04 GMT"
+        },
+        "responseBodyHash": "329db9cec00a39bdcfa5c5110bb30d3678e30990fe76755c0996cfd366336281",
+        "initiators": [
+          "https://assets.bonanzastatic.com/javascripts/lib/rollbar.min.js",
+          "https://acsbapp.com/apps/app/assets/js/acsb.js",
+          "https://www.bonanza.com/"
+        ],
+        "time": 0.17149000000063097
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=124768114830763&ev=Microdata&dl=https%3A%2F%2Fwww.bonanza.com%2F&rl=&if=false&ts=1640013305206&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Bonanza%20%3A%3A%20Find%20everything%20but%20the%20ordinary%22%2C%22meta%3Adescription%22%3A%22Shop%20for%20everything%20but%20the%20ordinary.%20More%20than%2025%2C000%20sellers%20offering%20you%20a%20vibrant%20collection%20of%20fashion%2C%20collectibles%2C%20home%20decor%2C%20and%20more.%22%7D&cd[OpenGraph]=%7B%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640013303682.278158959&it=1640013303518&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bonanza.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:15:05 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/124768114830763?v=2.9.48&r=stable"
+        ],
+        "time": 0.0065279999980703
+      }
+    ]
+  }
+}

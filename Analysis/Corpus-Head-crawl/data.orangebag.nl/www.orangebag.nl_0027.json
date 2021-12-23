@@ -1,0 +1,1317 @@
+{
+  "initialUrl": "https://www.orangebag.nl/nl/my%20account/",
+  "finalUrl": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+  "timeout": false,
+  "testStarted": 1640141459126,
+  "testFinished": 1640141475042,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.orangebag.nl/links.www.orangebag.nl_0027.json",
+    "requests": [
+      {
+        "url": "https://www.orangebag.nl/nl/my%20account/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "private,no-cache",
+          "pragma": "no-cache",
+          "set-cookie": ".Stackify.Rum=0a252dd4-c8fa-44a0-9368-3eaf104fa045; path=/; secure; HttpOnly\n.TC8LSESSION=dctkuwfc3fjp4cl1qmek4ifl; path=/; secure; HttpOnly; SameSite=Lax\n.TC8LLANGUAGE=nl; path=/; secure; HttpOnly\n.TC8LBACK=https://www.orangebag.nl/nl/my+account/; expires=Wed, 22-Dec-2021 23:00:00 GMT; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "initiators": [],
+        "time": 0.04002000001491979
+      },
+      {
+        "url": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 7424,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "private,no-cache",
+          "pragma": "no-cache",
+          "set-cookie": ".Stackify.Rum=ecf7c1cd-4f9c-4d55-b0a4-52c236775e2c; path=/; secure; HttpOnly\n.TC8LLANGUAGE=nl; path=/; secure; HttpOnly\n.ASPXBrowserOverride=; expires=Tue, 21-Dec-2021 02:50:59 GMT; path=/; secure; HttpOnly\n__RequestVerificationToken=aYtwqmFGLGJW5kVLdyas4A6CGcn6CRtjc9RJsY4zd085hrz1ELzHjVKKtyKW73XUvk8weQwZ9xf7GRPZY6IoSu6a2kWfFv2VzzNr-Wqfl5Y1; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "a51ff47916f8fded810e213a5e64d60a7666d02dd3d390fb7151e87ade4dd9ab",
+        "redirectedFrom": "https://www.orangebag.nl/nl/my%20account/",
+        "initiators": [],
+        "time": 0.04883099999278784
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic|Open+Sans:300,300italic,400,400italic,600,700&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 1570,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 22 Dec 2021 02:50:59 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3c795aa127b9c37cc9477f9a2a9491a849013b8dbbaf12bab82b920f13ec3b83",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.02156800002558157
+      },
+      {
+        "url": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 42556,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"0d9235386f5d71:0\"",
+          "set-cookie": ".Stackify.Rum=32dbe029-ae4e-4481-a3bf-5f957639d556; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "4a2530f382a2e5a43ee0a52abfe49e619f9493a6d097b9f41859420b89ce7d15",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.0226120000006631
+      },
+      {
+        "url": "https://www.orangebag.nl/Scripts/jquery-3.3.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 39090,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"4f9f4ba158dcd71:0\"",
+          "set-cookie": ".Stackify.Rum=3ccd42c9-d8db-428e-ae8a-70510cb1e09a; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "160a426ff2894252cd7cebbdd6d6b7da8fcd319c65b70468f10b6690c45d02ef",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.05342799998470582
+      },
+      {
+        "url": "https://www.orangebag.nl/Plugins/CookieConsent/cre8ion-cookieconsent-nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200",
+          "etag": "\"bf1e53b19f70d61:0\""
+        },
+        "responseBodyHash": "9529087f69ae3ba5890adf2cf16b70af4899114d4f2e9667fdc0532d63d1ca32",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.00769700002274476
+      },
+      {
+        "url": "https://www.orangebag.nl/Scripts/scripts.min.js?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 94447,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"03059acb9f5d71:0\"",
+          "set-cookie": ".Stackify.Rum=208ffc54-f0f8-4d56-9bb0-888b60978bc8; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "feaaa8d00481b5a7e6f28070a26fd0fc05769c4f92e4ff2163b4a5fe3f676d42",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.03444000001763925
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1068139113",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 40062,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 02:50:59 GMT"
+        },
+        "responseBodyHash": "2e026daf4a1e2e13805f81c240a244997a7b4c99b7aafcb7b2264c2158bf58d4",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.08948800002690405
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 71741,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 02:50:59 GMT"
+        },
+        "responseBodyHash": "68a4fe8679e4b7eba89cfd287f3c82fc252a5805ab33429092ead931a6d62dae",
+        "initiators": [
+          "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f"
+        ],
+        "time": 0.024548000015784055
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 2261,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=5e9b1f98-9aee-4936-81bb-324d6160d180; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "dddc71a6fb06d021d314fd8ed20c9d958387d27fca8a0e8a199fc44547572212",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.013028000015765429
+      },
+      {
+        "url": "https://www.orangebag.nl/images/main-sprite.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 14164,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"d4a93f9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=bd529096-6b39-4c04-9f70-5002268db2a5; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "96068a0e0907b8ab8c471a3eb71120c61452fd8c1e011894e7fc566250c0b7a0",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.013792999990982935
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 40208,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 00:12:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ca24f09b21595b31c499523d7ee078eedf51d34e94ba7de325f469c8e21f6b0a",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic|Open+Sans:300,300italic,400,400italic,600,700&display=swap"
+        ],
+        "time": 0.08657999997376464
+      },
+      {
+        "url": "https://www.orangebag.nl/Plugins/Font-Awesome-4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 72019,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200",
+          "etag": "\"876d459f71dad41:0\""
+        },
+        "responseBodyHash": "9682aff0dfb2932f5273721abd9190df39eeb0f42c37a24566aa4ac5753219c1",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.07831899999291636
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/nl.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 710,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"d4a93f9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=cf7b2ea7-d49e-4865-ab5f-a982f6f439d2; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "893e0888204bcf42070ba5121fb7f146978c3b0a0ff847678600ce2fbaedae10",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.025255999993532896
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/de.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 712,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=8a495000-5e69-4dea-a607-98abc186df09; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "b5c22388d056f4a3f9b7fa038109917346e20cd40650a65fcb9abdb055ea174e",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.029892000020481646
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/be.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=55848cd1-772a-4220-a694-df2fa2040000; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "8d8ef8487638c34a20573f0ee40a17138bbb78bae585c7f75b1ee8e501cf90a7",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.025698999990709126
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/dhl.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 3364,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"7120369f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=ec510018-52ba-4d7c-aa9a-50da16dda9f1; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "4ec0ff9052522893b4d47e45943de28550a1e7da4bc0df38dce7d15e448a2dbd",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.056505999993532896
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/bpost.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 10957,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"e98252b19f70d61:0\"",
+          "set-cookie": ".Stackify.Rum=fd115ff9-dc45-4a36-840e-f18496a4ed4b; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "c13aec2730e6ec8f1e2d85a20dc9da4c474191463f057482f5c865582f75a71a",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.07371400002739392
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/ideal.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 10233,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"7120369f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=1f44f3dc-0a2a-43fb-b555-ed7990c655f8; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "c347aecf4ec9bce5eecdbf18f11541783991e4f193f817104f302b864852542f",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.059247000026516616
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/Mastercard.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 23322,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"c582389f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=ea6e3c13-d917-49e6-a02b-0e23a3f7dcb6; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "9d7d0374050c7e57bd8d5a9aaac9671986abf4166f52e5cc61e7e2d2cc75ec50",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.06251899999915622
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/VISA.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 3483,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=6edb4758-1ed6-47b5-aeb0-532e0532fac3; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "83ca0bd811d0f5e98c18f70d799af6e2b9d3c5ab570485508c0dbde709aa30da",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.05911800000467338
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/Bancontact.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 21606,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"7120369f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=eb332f0b-adcf-43f6-bdb5-9950b794ed04; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "07a337bc1632472bf0b671db3cdb6dc677fecd104f2eb64e44650ad3ea144b4d",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.06715200000326149
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/sofort.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 12609,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=13574b22-b4bd-469c-93bf-9979d510fdbf; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "f9c2f8112983e52e6d17389976c1cc31f113b559e54b04e8b06af536d44efd25",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.0691250000090804
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/crimsontext/v13/wlpogwHKFkZgtmSR3NB0oRJfajhRK_Z_3rhH.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 15626,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 18:40:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "897c223e1b1979d4d07e2a865a12ba09fcdeb69d3a39bf64d2bfc74a4828038e",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic|Open+Sans:300,300italic,400,400italic,600,700&display=swap"
+        ],
+        "time": 0.09481300000334159
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/totop.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 1223,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"d4a93f9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=b87297bf-5527-4f2e-8231-734e9926a1b5; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "ce6a1b87bb14fe4f208880df84178c1e722425f01432ca7ce7ee0547fd985b7c",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.040567000018199906
+      },
+      {
+        "url": "https://player.vimeo.com/api/player.js?_=1640141459455",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 6897,
+        "remoteIPAddress": "151.101.36.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Wed, 22 Dec 2021 03:01:49 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See https://vimeo.com/privacy\""
+        },
+        "responseBodyHash": "81d1eeb980b09409744568d2ed3ca7ff1ee763d6aeb9dc6c66bc845dd3d3bb96",
+        "initiators": [
+          "https://www.orangebag.nl/Scripts/jquery-3.3.1.min.js",
+          "https://www.orangebag.nl/Scripts/scripts.min.js?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.01425600002403371
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 22 Dec 2021 02:50:59 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.018496000004233792
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-YVKXVQZ7B6&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 62884,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 02:50:59 GMT"
+        },
+        "responseBodyHash": "aa3c15f11e4c22723b6332dbc38346ea203b0fb2caa696ebace31f754a54f22b",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ"
+        ],
+        "time": 0.031147000001510605
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 22 Dec 2021 03:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.01280399999814108
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 10963,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=0B1A303D6C2B64A83B5221286D7C6584; domain=.bing.com; expires=Mon, 16-Jan-2023 02:50:59 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.03989099999307655
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 26816,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.024212999996962026
+      },
+      {
+        "url": "https://www.orangebag.nl/nl/mvc/customer/loginheader/?_=1640141459456",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 2461,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "private,no-cache",
+          "pragma": "no-cache",
+          "set-cookie": ".Stackify.Rum=0043503a-f90c-4e6f-bd70-03a41b0576b3; path=/; secure; HttpOnly\n.TC8LLANGUAGE=nl; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "99dc5aa6e9564743751d08fd9c1c700ea7494858ef054c9487fe67eb772ce495",
+        "initiators": [
+          "https://www.orangebag.nl/Scripts/jquery-3.3.1.min.js",
+          "https://www.orangebag.nl/Scripts/scripts.min.js?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.02222700000857003
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/logo_white.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 2957,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=93e888f2-b99a-46df-9582-d34b09ee7cc7; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "c3f7a1a51170d4d56e0b35288f37c65da21e2ac49200bbf87e26cd9fd0b0227e",
+        "initiators": [
+          "https://www.orangebag.nl/Scripts/jquery-3.3.1.min.js",
+          "https://www.orangebag.nl/Scripts/scripts.min.js?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.06643499998608604
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/chevron.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 1258,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"74473d9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=7c358f86-1904-4005-bb5a-fed46ab221dd; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "e6efad9d74d53d9150c627bd6491ccdec9ab7ea3c834eb386bff292504c896ce",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.06472399999620393
+      },
+      {
+        "url": "https://www.orangebag.nl/Images/stars.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 6097,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200,max-age=691200",
+          "etag": "\"d4a93f9f71dad41:0\"",
+          "set-cookie": ".Stackify.Rum=32cd5b60-c973-4f33-b398-705f2481c67d; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "7bdbbc1153228f913dd66db449e3fccd1e813f65be52b31f7559b03052bccba7",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.061359999992419034
+      },
+      {
+        "url": "https://www.orangebag.nl/Plugins/Fontastic/fonts/orangebag.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70",
+        "status": 200,
+        "size": 3667,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "max-age=691200",
+          "etag": "\"876d459f71dad41:0\""
+        },
+        "responseBodyHash": "626ad1f16dca435d35b5a5a5df49b8ea0b25f2b6216ab879ee4aaf9bd946b15d",
+        "initiators": [
+          "https://www.orangebag.nl/Styles/styles.min.css?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.055903000000398606
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068139113/?random=1640141460003&cv=9&fst=1640141460003&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config%3Banonymize_ip%3Dtrue&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 1244,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 22-Dec-2021 03:06:00 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5913616841f11d6fff350fec083eb7a040f830235d1c96ceb4eea5261babf20e",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.02231899998150766
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068139113/?random=1640141460008&cv=9&fst=1640141460008&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Becomm_pagetype%3DVisit&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 1710,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 22-Dec-2021 03:06:00 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "03aa292a12b2185fca48c4e1e97448c1dbd693110362ac7724fa652b5ba9b2c2",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.01836899999761954
+      },
+      {
+        "url": "https://bat.bing.com/p/action/4030434.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 753,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "62edf570b17a78764ba7104d1b03ebab3a1228fc1e6e7610648f8dddf7f12df0",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.1713760000129696
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=4030434&tm=gtm002&Ver=2&mid=8d7d2a70-96bf-429f-a658-c2ab1a805048&sid=fe9424c062d111ec842f1ba7f2e3437a&vid=fe948d5062d111ec927ef361050d8868&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=LOGIN&kw=brands,%20basics,%20designerskleding,%20designers,%20merkkleding,%20schoenen,%20merken,%20kleding,%20mannen,%20vrouwen,%20kinderen,%20online%20shop,%20webshop,%20sale,%20basisshirts,%20ondergoed&p=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&r=&lt=586&evt=pageLoad&msclkid=N&sv=1&rn=407857",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 204,
+        "size": 150,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NNSDFRQ",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.022542999999132007
+      },
+      {
+        "url": "https://www.orangebag.nl/nl/mvc/newsletter/footer/?_=1640141459457",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/nl/mvc/customer/login/?ReturnUrl=%2fnl%2fmy+account%2f",
+        "status": 200,
+        "size": 2984,
+        "remoteIPAddress": "94.75.246.25",
+        "responseHeaders": {
+          "cache-control": "private,no-cache",
+          "pragma": "no-cache",
+          "set-cookie": ".Stackify.Rum=af051f65-c832-4c56-a41c-d35625b03f4c; path=/; secure; HttpOnly\n.TC8LLANGUAGE=nl; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "d9b5c91cdede49f3bab21150adb1aa069db860ae666bcd75e93eb2fc0c6cd2d5",
+        "initiators": [
+          "https://www.orangebag.nl/Scripts/jquery-3.3.1.min.js",
+          "https://www.orangebag.nl/Scripts/scripts.min.js?v=e99b9a463c4443cea983dfc166469563020d7d70"
+        ],
+        "time": 0.019182999996701255
+      },
+      {
+        "url": "https://connect.facebook.net/signals/plugins/identity.js?v=2.9.48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 20694,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "ddbc1a158d7d13b63c0fda8fd2ece421016468e9e88914d2b81d3e8929c19df1",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.0204399999929592
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/707827349628160?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 88902,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "18507b897134e291eda89b6cf78db0ba3f29ae3f225db3df6755ea792d600df2",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.017921999999089167
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=49291713&t=pageview&_s=1&dl=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&ul=en-us&de=UTF-8&dt=LOGIN&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAUABAAAAAC~&jid=1549147670&gjid=259567268&cid=1060334507.1640141460&tid=UA-232881-1&_gid=1569697326.1640141460&_r=1&gtm=2wgc10NNSDFRQ&z=390735332",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.orangebag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01219199999468401
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-YVKXVQZ7B6&gtm=2oec10&_p=49291713&sr=800x600&_gaz=1&ul=en-us&cid=1060334507.1640141460&_s=1&dl=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&dt=LOGIN&sid=1640141459&sct=1&seg=0&en=page_view&_fv=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 204,
+        "size": 348,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.orangebag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-YVKXVQZ7B6&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.02045499999076128
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-YVKXVQZ7B6&cid=1060334507.1640141460&gtm=2oec10&aip=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 204,
+        "size": 348,
+        "remoteIPAddress": "142.250.27.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.orangebag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-YVKXVQZ7B6&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.02602300001308322
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-YVKXVQZ7B6&cid=1060334507.1640141460&gtm=2oec10&aip=1&z=1877966104",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-YVKXVQZ7B6&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=AW-1068139113"
+        ],
+        "time": 0.027879000001121312
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/crimsontext/v13/wlp2gwHKFkZgtmSR3NB0oRJfbwhTIfFd3A.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14339,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 18:09:24 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d4b9cbedca46d9794f50ba83034a7fc656b464ced130df3ceb317762cd86e6e6",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic|Open+Sans:300,300italic,400,400italic,600,700&display=swap"
+        ],
+        "time": 0.09574900000006892
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1068139113/?random=1640141460003&cv=9&fst=1640138400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config%3Banonymize_ip%3Dtrue&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&async=1&fmt=3&is_vtc=1&random=1381861937&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068139113/?random=1640141460003&cv=9&fst=1640141460003&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config%3Banonymize_ip%3Dtrue&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.02090699999826029
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1068139113/?random=1640141460003&cv=9&fst=1640138400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config%3Banonymize_ip%3Dtrue&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&async=1&fmt=3&is_vtc=1&random=1381861937&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068139113/?random=1640141460003&cv=9&fst=1640141460003&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config%3Banonymize_ip%3Dtrue&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.02105199999641627
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-232881-1&cid=1060334507.1640141460&jid=1549147670&gjid=259567268&_gid=1569697326.1640141460&_u=YEBAAUAAAAAAAC~&z=985364179",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 25,
+        "remoteIPAddress": "142.250.27.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.orangebag.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.013783000002149493
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=707827349628160&ev=PageView&dl=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&rl=&if=false&ts=1640141460320&sw=800&sh=600&v=2.9.48&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=30&fbp=fb.1.1640141460318.1068592094&it=1640141460069&coo=false&tm=1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 02:51:00 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/707827349628160?v=2.9.48&r=stable"
+        ],
+        "time": 0.00910599998314865
+      },
+      {
+        "url": "https://f.clarity.ms/s/0.6.31/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 23179,
+        "remoteIPAddress": "20.84.22.197",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "etag": "\"1d7f3ace6a16300\""
+        },
+        "responseBodyHash": "b2d2f11eb78159e31bce4355ffd5e696717de4270a77ba1d2038e066462008ad",
+        "initiators": [
+          "https://bat.bing.com/p/action/4030434.js"
+        ],
+        "time": 0.34948100001201965
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 302,
+        "remoteIPAddress": "52.142.114.2",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=T; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=33A0DEA5612461970715CFB065246F63; domain=.clarity.ms; expires=Mon, 16-Jan-2023 02:51:00 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.bing.com/c.gif?CtsSyncId=44CAE3859E45418AA05ED0BFBC44CAB1&RedC=c.clarity.ms&MXFR=33A0DEA5612461970715CFB065246F63",
+        "initiators": [
+          "https://bat.bing.com/p/action/4030434.js"
+        ],
+        "time": 0.06649399999878369
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1068139113/?random=1640141460008&cv=9&fst=1640138400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view%3Becomm_pagetype%3DVisit&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&async=1&fmt=3&is_vtc=1&random=797906456&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068139113/?random=1640141460008&cv=9&fst=1640141460008&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Becomm_pagetype%3DVisit&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.025878000014927238
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1068139113/?random=1640141460008&cv=9&fst=1640138400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view%3Becomm_pagetype%3DVisit&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&async=1&fmt=3&is_vtc=1&random=797906456&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068139113/?random=1640141460008&cv=9&fst=1640141460008&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Becomm_pagetype%3DVisit&frm=0&url=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&tiba=LOGIN&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.01654199999757111
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-232881-1&cid=1060334507.1640141460&jid=1549147670&_u=YEBAAUAAAAAAAC~&z=228940401",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.022182999993674457
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-232881-1&cid=1060334507.1640141460&jid=1549147670&_u=YEBAAUAAAAAAAC~&z=228940401",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.014320999995106831
+      },
+      {
+        "url": "https://c.bing.com/c.gif?CtsSyncId=44CAE3859E45418AA05ED0BFBC44CAB1&RedC=c.clarity.ms&MXFR=33A0DEA5612461970715CFB065246F63",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 302,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SRM_B=0B1A303D6C2B64A83B5221286D7C6584; domain=c.bing.com; expires=Mon, 16-Jan-2023 02:51:00 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.clarity.ms/c.gif?CtsSyncId=44CAE3859E45418AA05ED0BFBC44CAB1&MUID=0B1A303D6C2B64A83B5221286D7C6584",
+        "redirectedFrom": "https://c.clarity.ms/c.gif",
+        "initiators": [
+          "https://bat.bing.com/p/action/4030434.js"
+        ],
+        "time": 0.029195999988587573
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?CtsSyncId=44CAE3859E45418AA05ED0BFBC44CAB1&MUID=0B1A303D6C2B64A83B5221286D7C6584",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 367,
+        "remoteIPAddress": "52.142.114.2",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "etag": "\"f95a3e4769d2d71:0\"",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=C; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=0B1A303D6C2B64A83B5221286D7C6584; domain=.clarity.ms; expires=Mon, 16-Jan-2023 02:51:00 GMT; path=/; SameSite=None; Secure; Priority=High;\nANONCHK=0; domain=c.clarity.ms; expires=Wed, 22-Dec-2021 03:01:00 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e",
+        "redirectedFrom": "https://c.bing.com/c.gif?CtsSyncId=44CAE3859E45418AA05ED0BFBC44CAB1&RedC=c.clarity.ms&MXFR=33A0DEA5612461970715CFB065246F63",
+        "initiators": [
+          "https://bat.bing.com/p/action/4030434.js"
+        ],
+        "time": 0.018963999988045543
+      },
+      {
+        "url": "https://f.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 204,
+        "size": 71,
+        "remoteIPAddress": "20.84.22.197",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.orangebag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.clarity.ms/s/0.6.31/clarity.js"
+        ],
+        "time": 0.08684499998344108
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=707827349628160&ev=Microdata&dl=https%3A%2F%2Fwww.orangebag.nl%2Fnl%2Fmvc%2Fcustomer%2Flogin%2F%3FReturnUrl%3D%252fnl%252fmy%2Baccount%252f&rl=&if=false&ts=1640141460840&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22LOGIN%22%2C%22meta%3Adescription%22%3A%22Orangebag.nl%2C%20brands%20en%20basics.%20De%20grootste%20online%20fashion%20shop%20met%20uitgebreide%20collecties%20van%20meer%20dan%20honderd%20merken%20voor%20vrouwen%2C%20mannen%20en%20kinderen.%20Gezien%20in%20de%20bladen%2C%20bij%20ons%20te%20vinden.%22%2C%22meta%3Akeywords%22%3A%22brands%2C%20basics%2C%20designerskleding%2C%20designers%2C%20merkkleding%2C%20schoenen%2C%20merken%2C%20kleding%2C%20mannen%2C%20vrouwen%2C%20kinderen%2C%20online%20shop%2C%20webshop%2C%20sale%2C%20basisshirts%2C%20ondergoed%22%7D&cd[OpenGraph]=%7B%7D&cd[Schema.org]=%5B%7B%22dimensions%22%3A%7B%22h%22%3A40%2C%22w%22%3A106%7D%2C%22properties%22%3A%7B%22reviewCount%22%3A%2216344%22%2C%22ratingValue%22%3A%229%2C1%22%2C%22worstRating%22%3A%221%22%2C%22bestRating%22%3A%2210%22%2C%22description%22%3A%22OrangeBag.nl%22%2C%22image%22%3A%22https%3A%2F%2Fwww.orangebag.nl%2FImages%2Flogo_white.png%22%7D%2C%22subscopes%22%3A%5B%7B%22dimensions%22%3A%7B%22h%22%3A0%2C%22w%22%3A0%7D%2C%22properties%22%3A%7B%22name%22%3A%22OrangeBag.nl%22%7D%2C%22subscopes%22%3A%5B%5D%2C%22type%22%3A%22http%3A%2F%2Fschema.org%2FOrganization%22%7D%5D%2C%22type%22%3A%22http%3A%2F%2Fschema.org%2FAggregateRating%22%7D%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=30&fbp=fb.1.1640141460318.1068592094&it=1640141460069&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 200,
+        "size": 90,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 02:51:00 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/707827349628160?v=2.9.48&r=stable"
+        ],
+        "time": 0.0071189999871421605
+      },
+      {
+        "url": "https://f.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.orangebag.nl/",
+        "status": 204,
+        "size": 48,
+        "remoteIPAddress": "20.84.22.197",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.orangebag.nl"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://f.clarity.ms/s/0.6.31/clarity.js",
+          "https://www.orangebag.nl/Scripts/jquery-3.3.1.min.js"
+        ],
+        "time": 0.08456499999738298
+      }
+    ]
+  }
+}

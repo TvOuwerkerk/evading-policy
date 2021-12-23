@@ -1,0 +1,2918 @@
+{
+  "initialUrl": "https://stinegoya.com/",
+  "finalUrl": "https://int.stinegoya.com/?switch=NL",
+  "timeout": false,
+  "testStarted": 1639584443379,
+  "testFinished": 1639584462618,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://stinegoya.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 30888,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:07:24 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:07:24 GMT\ncart_currency=DKK; path=/; expires=Wed, 29 Dec 2021 16:07:24 GMT\n_orig_referrer=; Expires=Wed, 29-Dec-21 16:07:24 GMT; Domain=stinegoya.com; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Wed, 29-Dec-21 16:07:24 GMT; Domain=stinegoya.com; Path=/; HttpOnly; SameSite=Lax\n_y=43f2a28e-5802-40a8-8eff-00d0ef6dde3f; Expires=Thu, 15-Dec-22 16:07:24 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax\n_s=f74a1594-336b-4db6-a912-7128dfb7ed54; Expires=Wed, 15-Dec-21 16:37:24 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax\n_shopify_y=43f2a28e-5802-40a8-8eff-00d0ef6dde3f; Expires=Thu, 15-Dec-22 16:07:24 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax\n_shopify_s=f74a1594-336b-4db6-a912-7128dfb7ed54; Expires=Wed, 15-Dec-21 16:37:24 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "9dc2ed293e955175131162c2d4a1be0d88d37154fea7033e9ceea7de2e2edf2e",
+        "initiators": [],
+        "time": 1.2736690000165254
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/uc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11057,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF1231AB8A3A",
+          "expires": "Wed, 15 Dec 2021 16:12:24 GMT"
+        },
+        "responseBodyHash": "b36ed483507493f95c8dcc25e7811bbf65fff7598403a8c48c65b6f5163be598",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.07262400002218783
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 977,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:07:24 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "02e1588dd517073560dc5ceb9cdf9e743de536b7304d225414a24da3aa2c5aeb",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.09791899996344
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/theme.scss.css?v=12805922252334027295",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 15212,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:24:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1253f1489d82b0e161d7b38b597b6c2c7b685fe4cdbfc00d885047d97435d579",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.07838799996534362
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/main.scss.css?v=3535170811027617696",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7051,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 28 Oct 2022 05:03:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5e6438864114563c767ac9ede94fb4c611b92f96038cc81370cfa1379013cf16",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.07561199995689094
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/vendor.js?v=6286956279384439637",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 52715,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 08:26:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2161edda27301a45d133efdbf2cf007c902d639a381c3bebc986f69c9383be7f",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.0652169999666512
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3050,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.144257000007201
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13023,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.14306900004157797
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/custom.js?v=2114176906082898602",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 173266,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:50:05 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e2c32feb134b2a21a6f95184d977ee2693f4d108c396c90fcc774a7a050a979a",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.585040999983903
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/clientScript.js?v=13464288233549823586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 419,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 11:16:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "11da779191f4f352c30a6b3d8149b5bc6019c9625122d2af8a1dc96dd6a3149a",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.2708299999940209
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/sca.freegift.css?v=11832610752013717118",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7772,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 04:49:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0151d6dbb6d6bdf5ba14f9954f7b9e78e3deca904b0cdcc95f4aaf6104e61da7",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.05101499997545034
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3067,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.06431099999463186
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/sca.freegifts.data.js?v=809577046940245193",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6192,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:24:40 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fa4ee524bbc796f153e5286f6beabfcbc983e45a243e857bcb0d5d74adb7991d",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.06346099998336285
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-861000287",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40102,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:07:25 GMT"
+        },
+        "responseBodyHash": "a4447e0c4fd77361461f4c5ec931894fad8c0ae8ed8d43b6a2241aa0d3377d13",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.3264939999789931
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.29494999995222315
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/goyaholidays-frontpage2_720x.jpg?v=1637922914",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 144692,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 10:35:15 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8a1df7ceb0abc9a2b6d80036c887b953b0520c637db68a0586b2bcabd92a358d",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.265315999975428
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Jasmine_Dress-Dress-SG3941-2001_Flower_Foliage_Gold_540x.jpg?v=1637040617",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 49266,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 07:14:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1bef874571fd0ee9c7ff2c11062521fd2dc43dbaccbd566cecf2b98307d7043d",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.26544899999862537
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Jasmine_Dress-Dress-SG3941-2001_Flower_Foliage_Gold-1_720x.jpg?v=1637040621",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 80353,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 08:33:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "01f59fb4f89792eb9367e921965a198f2737e034e0e6db43479e5c9d6f572268",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.27877400000579655
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Flower_Earring_Single-Accessories-SG4021-1109_Flowers_Lemon_540x.jpg?v=1637041614",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 66644,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:27:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cf81a84c348dc0c5f2ecbf8a5cc2ca1f8cf265c1f8e3e48d2434ea3d76cba099",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.28203899995423853
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Flower_Earring_Single-Accessories-SG4021-1109_Flowers_Lemon-1_720x.jpg?v=1637041617",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20495,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 05:18:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "39a9f49510efeb78982a65baa6b4f30b4d50572b7071d8a9e6dd84d34ab19d3f",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.2781390000018291
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/Ikke-navngivet-14_720x.jpg?v=1635854091",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 152978,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 11:53:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0615682fc7be1f06fb6677808290c372250b3213aaf0e07680d8da59df85d6ef",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.2952960000257008
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/campaign-3_540x.jpg?v=1635854175",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 85263,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 07:43:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ea4ca8ffd20ab5fa67c7d478b64c9007439893c6b2b24b1dc8c8f3abf892197e",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.2864560000016354
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/campaign-9_540x.jpg?v=1635854199",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 81779,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:14:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5c0a134a7495a582b9648fc2c693388e67c722334c0ded20f18b164d78043383",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.2915950000169687
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Adonis_Sweater-Knit-SG3648-1607_Aqua_540x.jpg?v=1636554042",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57473,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 08:43:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ffe2ae134bb8832fc643d8ed0a702f5bb82c79681328345ef80fef0a736e3629",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.29518900002585724
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Adonis_Sweater-Knit-SG3648-1607_Aqua-1_720x.jpg?v=1636554045",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 73235,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 06:00:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2868f04b68b100bdacc20defbb4a9c44bbd836a4cd52c34913d44f909a750c69",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.3093940000399016
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Adonis_Sweater-Knit-SG3648-1562_Sand_Lavender_540x.jpg?v=1636554028",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57776,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 10:20:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "16c98e1897136c7bb123b093f94921795d9a9c9f76ef2f78f5494efb8838158d",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.31145100004505366
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Adonis_Sweater-Knit-SG3648-1562_Sand_Lavender-1_720x.jpg?v=1636554032",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 94293,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 06:19:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0f5e925875ea33079c482f67caefa1b11c92352128bda68f47d06a9f1e5a6647",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.30747199995676056
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Adonis_Sweater-Knit-SG3648-1704_Lime_540x.jpg?v=1636554055",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 59230,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 24 Nov 2022 00:36:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "31013655f6a061572c375dac9431568d03f3f6ffc43497fcf3f440c72b3637a2",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.30870599998161197
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/products/Adonis_Sweater-Knit-SG3648-1704_Lime-1_720x.jpg?v=1636554058",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 62801,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 14:38:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "24c652d9cc351a02d569199e356a30da7ca237c4b26fc9ea22aa200193022d30",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.3120890000136569
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/HOG_LOGO_SIGNUP_720x.png?v=1612294021",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28720,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 05:18:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2ba3ab276ebc1ab70910cc1fce2af5af1731945ec03c2e6fa052980f5194bd5b",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.3131609999691136
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/campaign-4_720x.jpg?v=1635854199",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 218295,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 10:47:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4c50c7749b3bccb0368031bde577f76b8b45487e9a4a08cf9330151ea878a444",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.3188670000527054
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1605,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF1231AA9FF7",
+          "expires": "Wed, 15 Dec 2021 16:12:24 GMT"
+        },
+        "responseBodyHash": "12fe0d2bfe91d982fa77b01d99c873f3fe0d166892f0091220ecfaca420cd35d",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.01955999998608604
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/cookie-data/stinegoya.com/cabl.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 619,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF10A101CD16",
+          "expires": "Wed, 15 Dec 2021 16:12:24 GMT"
+        },
+        "responseBodyHash": "eecfb8f60fa8ec5adfc519ff2da037d50ef930af112a2a45aecb766324150203",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.06919599999673665
+      },
+      {
+        "url": "https://sleeknotecustomerscripts.sleeknote.com/16324.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 430,
+        "remoteIPAddress": "13.227.219.4",
+        "responseHeaders": {
+          "cache-control": "max-age=60",
+          "etag": "\"ac9f02b3a33550e7d565636540428067\""
+        },
+        "responseBodyHash": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.13131099997553974
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16770,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 02 Dec 2022 17:24:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5cbc4d1068a9901f3b7138f4a438e4e70f81564077ac44a8f976e98a2983295c",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.11133699998026714
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2758,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.1048999999766238
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/STINE_GOYA_AW21_FREDERIK_LENTZ_ANDERSEN_WORKING_HOLIDAYS_LOOK_22_240x@2x.jpg?v=1623326986",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 145688,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Mon, 05 Dec 2022 17:11:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9b3add113b4a829934965c0fe4caabb3943d9a24d94fdff0c6ed26c96fc62bd0",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.08066400000825524
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/Ikke-navngivet-14_240x@2x.jpg?v=1635854091",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 56122,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 14:59:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f2507403bb22c3fcff62a798dc4d3f551cc839e3f3637b70133e0c2caae8eb9f",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.07486699998844415
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/Ikke-navngivet-13_86497764-0731-4f10-ac53-449c6d497a0d_240x@2x.jpg?v=1636556364",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 72226,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:06:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4e4c54d2d1dcc45c56add5d664116b9a0921390a1f243109f7ef3ff50f48b12d",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.07154299999820068
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/ico-select.svg?v=15556381834474199855",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 981,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 10:36:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "266563507b047c84716b86311f83861763bd638aaebb457845df00ddc65b4634",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/theme.scss.css?v=12805922252334027295"
+        ],
+        "time": 0.07763799995882437
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/ps22-campaign-trine_2048x.jpg?v=1638535701",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 412556,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 03 Dec 2022 12:48:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3dc21acff4098e8dd36657dd98195013915279747f2bb620701b3681f378a96f",
+        "initiators": [
+          "https://stinegoya.com/"
+        ],
+        "time": 0.07681800000136718
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17571,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 06:39:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "147b8a8e4da6d12e91ddf16244ec6635a6556bdb3a1b7ac116ec7fc5ef51aca5",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.27330300002358854
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcC-wLOj.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18628,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 06:26:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0320e25b09555e74293672363486d23f728fbe83435ef543134831b0cc1eabe2",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.25932399998418987
+      },
+      {
+        "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1552,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=90060",
+          "expires": "Thu, 16 Dec 2021 04:43:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3fc0717924586e955536b5f45abf06ebf3b20209c69061ec876e9df8c3537afc",
+        "initiators": [
+          "webpack:///./src/js/modules/Currency.js?",
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/custom.js?v=2114176906082898602"
+        ],
+        "time": 0.01049699995201081
+      },
+      {
+        "url": "https://api.ipgeolocation.io/ipgeo?apiKey=e3bce784d423408bbc3418d939cf567c&fields=geo,is_eu",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 498,
+        "remoteIPAddress": "104.20.61.122",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://stinegoya.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "webpack:///./src/js/modules/Geolocation.js?",
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/custom.js?v=2114176906082898602"
+        ],
+        "time": 0.08006599999498576
+      },
+      {
+        "url": "https://sleeknotecustomerscripts.sleeknote.com/5077.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1715,
+        "remoteIPAddress": "13.227.219.4",
+        "responseHeaders": {
+          "cache-control": "max-age=60",
+          "etag": "\"df1a4823edc2c58096aced95ee8e5e33\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/clientScript.js?v=13464288233549823586"
+        ],
+        "time": 0.0189319999772124
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/goyaholidays-frontpage2.jpg?v=1637922914",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 398037,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 10:35:15 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/vendor.js?v=6286956279384439637"
+        ],
+        "time": 0.047451999969780445
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1125/8518/files/Ikke-navngivet-14.jpg?v=1635854091",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 465557,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 10:16:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/vendor.js?v=6286956279384439637"
+        ],
+        "time": 0.07092899997951463
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/115f06/stinegoya.com/en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15208,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF10A10D8B91",
+          "expires": "Wed, 15 Dec 2021 16:12:25 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.031592999992426485
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=478356357&t=pageview&_s=1&dl=https%3A%2F%2Fstinegoya.com%2F&ul=en-gb&de=UTF-8&dt=STINE%20GOYA%20OFFICIAL%20ONLINE%20SHOP&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=IEBAAEABAAAAAC~&jid=98634761&gjid=322044180&cid=1124947585.1639584446&tid=UA-27591438-1&_gid=489173005.1639584446&_r=1&_slc=1&z=265822942",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 207,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://stinegoya.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.018325000011827797
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://stinegoya.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.3624739999650046
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1830,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.020646999997552484
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 15 Dec 2021 16:07:26 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-861000287"
+        ],
+        "time": 0.09508100000675768
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-27591438-1&cid=1124947585.1639584446&jid=98634761&gjid=322044180&_gid=489173005.1639584446&_u=IEBAAEAAAAAAAC~&z=1749843708",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 440,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://stinegoya.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.06170099996961653
+      },
+      {
+        "url": "https://int.stinegoya.com/?switch=NL",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 31041,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:07:26 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:07:26 GMT\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:07:26 GMT\n_y=43f2a28e-5802-40a8-8eff-00d0ef6dde3f; Expires=Thu, 15-Dec-22 16:07:26 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax\n_s=f74a1594-336b-4db6-a912-7128dfb7ed54; Expires=Wed, 15-Dec-21 16:37:26 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax\n_shopify_y=43f2a28e-5802-40a8-8eff-00d0ef6dde3f; Expires=Thu, 15-Dec-22 16:07:26 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax\n_shopify_s=f74a1594-336b-4db6-a912-7128dfb7ed54; Expires=Wed, 15-Dec-21 16:37:26 GMT; Domain=stinegoya.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "bc2bed51d7d60ccd6a4942bc4cf62fadf41732f7df48f04e634cb3df8d2d53f9",
+        "initiators": [
+          "webpack:///./src/js/modules/StoreController.js?",
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/1125/8518/t/42/assets/custom.js?v=2114176906082898602"
+        ],
+        "time": 0.32450600003357977
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/core-c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "W/\"d7649e1c2e103b5997dea47f28f2807b\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://sleeknotecustomerscripts.sleeknote.com/5077.js"
+        ],
+        "time": 1.209880999987945
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-27591438-1&cid=1124947585.1639584446&jid=98634761&_u=IEBAAEAAAAAAAC~&z=1975534621",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.0112690000096336
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-27591438-1&cid=1124947585.1639584446&jid=98634761&_u=IEBAAEAAAAAAAC~&z=1975534621",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.01065999997081235
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/uc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF1231AB8A3A",
+          "expires": "Wed, 15 Dec 2021 16:12:24 GMT"
+        },
+        "responseBodyHash": "b36ed483507493f95c8dcc25e7811bbf65fff7598403a8c48c65b6f5163be598",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.0016509999986737967
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:07:24 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "02e1588dd517073560dc5ceb9cdf9e743de536b7304d225414a24da3aa2c5aeb",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.00326700002187863
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/theme.scss.css?v=15750102526547252654",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 15573,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:34:04 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "121fc3e8b47456c97c4aaeee6f39a779950b8bcbb0b4f69fb8ba56395f7360f7",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.016700999985914677
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/main.scss.css?v=3535170811027617696",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7093,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:44:30 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e8ba8695470f793c4fb2b4a0a365638b96473c97c75787e584dd30a398ce2917",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.014227999956347048
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/vendor.js?v=6286956279384439637",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 52666,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 05:48:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "977704a8c20c33e8eef246f7b05d03699ed752137cbfe95ed8c7519f771f175d",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.0222150000045076
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.07902499998454005
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17681,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.09596400003647432
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.1370769999921322
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/custom.js?v=2114176906082898602",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 173231,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:50:25 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "810f34ce8bb8e25ab258c8262f496d18fcdb4f320a4cc931f248757f1f78ac53",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.32189299998572096
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/clientScript.js?v=13464288233549823586",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 502,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 07:19:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "23ffcecb8a710ab1739ee87b9a91c078dacd11cdeeefce5028217efc0daa6621",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.17713599995477125
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/sca.freegift.css?v=11832610752013717118",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7374,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:44:30 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9627c0abbe75c73a28ac1376d0d001781480dd5f7f1d1b3bea4aa3fb3a4370ee",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.01622200000565499
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.0033439999679103494
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/sca.freegifts.data.js?v=809577046940245193",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6218,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 06:43:17 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fa4ee524bbc796f153e5286f6beabfcbc983e45a243e857bcb0d5d74adb7991d",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.01477900001918897
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-861000287",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:07:25 GMT"
+        },
+        "responseBodyHash": "a4447e0c4fd77361461f4c5ec931894fad8c0ae8ed8d43b6a2241aa0d3377d13",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.1417669999646023
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/goyaholidays-frontpage2_720x.jpg?v=1637924482",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 144692,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 11:01:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8a1df7ceb0abc9a2b6d80036c887b953b0520c637db68a0586b2bcabd92a358d",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.19188300002133474
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Jasmine_Dress-Dress-SG3941-2001_Flower_Foliage_Gold_540x.jpg?v=1637040757",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 49326,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 04:25:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1bef874571fd0ee9c7ff2c11062521fd2dc43dbaccbd566cecf2b98307d7043d",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.1920529999770224
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Jasmine_Dress-Dress-SG3941-2001_Flower_Foliage_Gold-1_720x.jpg?v=1637040760",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 80406,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 16 Nov 2022 06:09:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "01f59fb4f89792eb9367e921965a198f2737e034e0e6db43479e5c9d6f572268",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.20532200002344325
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Flower_Earring_Single-Accessories-SG4021-1109_Flowers_Lemon_540x.jpg?v=1637041874",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 66525,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 16 Nov 2022 06:09:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cf81a84c348dc0c5f2ecbf8a5cc2ca1f8cf265c1f8e3e48d2434ea3d76cba099",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.18924199999310076
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Flower_Earring_Single-Accessories-SG4021-1109_Flowers_Lemon-1_720x.jpg?v=1637041877",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20162,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 15:30:03 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "39a9f49510efeb78982a65baa6b4f30b4d50572b7071d8a9e6dd84d34ab19d3f",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.19980699999723583
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/Ikke-navngivet-14_720x.jpg?v=1636546144",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 153050,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 10:59:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0615682fc7be1f06fb6677808290c372250b3213aaf0e07680d8da59df85d6ef",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.22200999996857718
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/campaign-3_540x.jpg?v=1636546145",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 85555,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 09:03:47 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ea4ca8ffd20ab5fa67c7d478b64c9007439893c6b2b24b1dc8c8f3abf892197e",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.22661000001244247
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/campaign-9_540x.jpg?v=1636546144",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 81827,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Tue, 15 Nov 2022 11:40:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5c0a134a7495a582b9648fc2c693388e67c722334c0ded20f18b164d78043383",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.23631000000750646
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Adonis_Sweater-Knit-SG3648-1607_Aqua_540x.jpg?v=1636554044",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57177,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 14:40:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ffe2ae134bb8832fc643d8ed0a702f5bb82c79681328345ef80fef0a736e3629",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.23740099999122322
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Adonis_Sweater-Knit-SG3648-1607_Aqua-1_720x.jpg?v=1636554048",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 72928,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 05:52:33 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2868f04b68b100bdacc20defbb4a9c44bbd836a4cd52c34913d44f909a750c69",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.2491559999762103
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Adonis_Sweater-Knit-SG3648-1562_Sand_Lavender_540x.jpg?v=1636554030",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57479,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 07:36:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "16c98e1897136c7bb123b093f94921795d9a9c9f76ef2f78f5494efb8838158d",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.3492879999685101
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Adonis_Sweater-Knit-SG3648-1562_Sand_Lavender-1_720x.jpg?v=1636554033",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 94503,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 14:40:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0f5e925875ea33079c482f67caefa1b11c92352128bda68f47d06a9f1e5a6647",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.3512050000135787
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Adonis_Sweater-Knit-SG3648-1704_Lime_540x.jpg?v=1636554058",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 59490,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 14:01:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "31013655f6a061572c375dac9431568d03f3f6ffc43497fcf3f440c72b3637a2",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.35102500003995374
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/products/Adonis_Sweater-Knit-SG3648-1704_Lime-1_720x.jpg?v=1636554061",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 62853,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 30 Nov 2022 20:01:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "24c652d9cc351a02d569199e356a30da7ca237c4b26fc9ea22aa200193022d30",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.3523299999651499
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/HOG_LOGO_SIGNUP_720x.png?v=1612294454",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28791,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 06:19:18 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2ba3ab276ebc1ab70910cc1fce2af5af1731945ec03c2e6fa052980f5194bd5b",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.3535869999905117
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/campaign-4_720x.jpg?v=1637924462",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 218525,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 11:01:03 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4c50c7749b3bccb0368031bde577f76b8b45487e9a4a08cf9330151ea878a444",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.3596269999979995
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF1231AA9FF7",
+          "expires": "Wed, 15 Dec 2021 16:12:24 GMT"
+        },
+        "responseBodyHash": "12fe0d2bfe91d982fa77b01d99c873f3fe0d166892f0091220ecfaca420cd35d",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.002286000002641231
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/cookie-data/int.stinegoya.com/cabl.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 388,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF10A101A610",
+          "expires": "Wed, 15 Dec 2021 16:12:27 GMT"
+        },
+        "responseBodyHash": "24f556e3cd1e7a0d098dc03b177fd3ddead8f46a217ecab6f0a6fdaf6d32ce95",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.014919999986886978
+      },
+      {
+        "url": "https://sleeknotecustomerscripts.sleeknote.com/16324.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.4",
+        "responseHeaders": {
+          "cache-control": "max-age=60",
+          "etag": "\"ac9f02b3a33550e7d565636540428067\""
+        },
+        "responseBodyHash": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.020600999996531755
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 02 Dec 2022 17:24:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5cbc4d1068a9901f3b7138f4a438e4e70f81564077ac44a8f976e98a2983295c",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.01786800002446398
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.016605000011622906
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/STINE_GOYA_AW21_FREDERIK_LENTZ_ANDERSEN_WORKING_HOLIDAYS_LOOK_22_240x@2x.jpg?v=1623399369",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 145703,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 10:19:34 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9b3add113b4a829934965c0fe4caabb3943d9a24d94fdff0c6ed26c96fc62bd0",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.21967199997743592
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/Ikke-navngivet-13_240x@2x.jpg?v=1636556955",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 72286,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:22:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4e4c54d2d1dcc45c56add5d664116b9a0921390a1f243109f7ef3ff50f48b12d",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.22044699999969453
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/ico-select.svg?v=15556381834474199855",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 899,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:07:42 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "266563507b047c84716b86311f83861763bd638aaebb457845df00ddc65b4634",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/theme.scss.css?v=15750102526547252654"
+        ],
+        "time": 0.20875900000100955
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/ps22-campaign-trine_2048x.jpg?v=1638536288",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 412606,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 03 Dec 2022 12:58:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3dc21acff4098e8dd36657dd98195013915279747f2bb620701b3681f378a96f",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.24533599999267608
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_2048x.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19465,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d6fb64a6337c115b0d91888a2f846dda5dc8d5abe0e26ac5be7ef0e3568a1156",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.2367460000095889
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 06:39:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "147b8a8e4da6d12e91ddf16244ec6635a6556bdb3a1b7ac116ec7fc5ef51aca5",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.0015330000314861536
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcC-wLOj.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 06:26:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0320e25b09555e74293672363486d23f728fbe83435ef543134831b0cc1eabe2",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.0020210000220686197
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDO-Wyrs.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21203,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 08 Dec 2022 16:49:15 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5ccd770bcc8f952cc9869f3a0adb9c2fb4c024e894c183e63121b98aecbf058a",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.1576840000343509
+      },
+      {
+        "url": "https://shop.app/pay/session?v=1",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1046,
+        "remoteIPAddress": "23.227.38.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"9b5179ea2a77fe69b294fbd2ed504eac\"",
+          "p3p": "CP=\"Not used\"",
+          "set-cookie": "_pay_session=nAjbdxJcupee3yMeFb3w8J0eVy4Z6UZWD9mlNPkZwBWd8h%2FJPaZr6EE4kqxL%2BL7ome8sosTwQgG2YSH9TC8AD6H3b4%2FMd1negmaitKos%2FQv%2Bo6LuOeR3fkLvVUqOUsZBimUyG%2FMmJBWfhUkVq1sb5gMn%2FggxYj9%2BOapRiFQj5PBstJWYkjY8TieoDmsi7f6XAKi8rw%3D%3D--WunljjfkvDtFB2Zo--NJO590ivNVN0w%2Bgk0AKxEg%3D%3D; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "9b5179ea2a77fe69b294fbd2ed504eacbfbe048ede58967b43af2ca537144b1f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208"
+        ],
+        "time": 0.21761200000764802
+      },
+      {
+        "url": "https://cdn.shopify.com/s/javascripts/currencies.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=90060",
+          "expires": "Thu, 16 Dec 2021 04:43:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3fc0717924586e955536b5f45abf06ebf3b20209c69061ec876e9df8c3537afc",
+        "initiators": [
+          "webpack:///./src/js/modules/Currency.js?",
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/custom.js?v=2114176906082898602"
+        ],
+        "time": 0.001609999977517873
+      },
+      {
+        "url": "https://sleeknotecustomerscripts.sleeknote.com/5077.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.4",
+        "responseHeaders": {
+          "cache-control": "max-age=60",
+          "etag": "\"df1a4823edc2c58096aced95ee8e5e33\""
+        },
+        "responseBodyHash": "08de275af88eec3335acb59201aa685220d8eec60a62aa360c5232d621a62501",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/clientScript.js?v=13464288233549823586"
+        ],
+        "time": 0.00133500003721565
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/goyaholidays-frontpage2.jpg?v=1637924482",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 398388,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 11:01:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8f2de7f050bb040098a12c63bf479e2b7d02dabcfbc37513f6cbf8a177429564",
+        "initiators": [
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/vendor.js?v=6286956279384439637"
+        ],
+        "time": 0.060776000027544796
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0506/0729/2568/files/Ikke-navngivet-14.jpg?v=1636546144",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 465224,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 26 Nov 2022 10:59:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d24c94b10472dfa1bc4d62be4be79077e42495f607f4001cc305363ea8b9c3cc",
+        "initiators": [
+          "webpack:///./src/js/entries/custom.js?",
+          "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/vendor.js?v=6286956279384439637"
+        ],
+        "time": 0.11388999997870997
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/115f06/int.stinegoya.com/en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15150,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF10A1177572",
+          "expires": "Wed, 15 Dec 2021 16:12:28 GMT"
+        },
+        "responseBodyHash": "fe130570c64942b43e68d353aad387ce28667bd56e3dfe084a274fcd534b7234",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.04470900003798306
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.11005100002512336
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.0014649999793618917
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 15 Dec 2021 16:07:26 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-861000287"
+        ],
+        "time": 0.0014930000179447234
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861000287/?random=1639584450338&cv=9&fst=1639584450338&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&ref=https%3A%2F%2Fstinegoya.com%2F&tiba=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1705,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 15-Dec-2021 16:22:30 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ff1f204b5205a3a07e414a3d07d6914f0bc039cea9e66374045bd242715a2df2",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-861000287"
+        ],
+        "time": 0.294525999983307
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26434,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.22665299999061972
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.0015879999846220016
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17955,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.018316000001505017
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://int.stinegoya.com/?switch=NL",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.10822799999732524
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://int.stinegoya.com/?switch=NL",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.10791699995752424
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.10827200004132465
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.112410000001546
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1143589454&t=pageview&_s=1&dl=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&dr=https%3A%2F%2Fstinegoya.com%2F&dp=%2F%3Fswitch%3DNL&ul=en-gb&de=UTF-8&dt=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=QCCAgEABB~&jid=&gjid=&cid=1124947585.1639584446&tid=UA-27591438-1&_gid=489173005.1639584446&did=BwiEti&z=128052338",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 132,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.009809999959543347
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/861000287/?random=1639584450338&cv=9&fst=1639584000000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&ref=https%3A%2F%2Fstinegoya.com%2F&tiba=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&async=1&fmt=3&is_vtc=1&random=1272883053&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861000287/?random=1639584450338&cv=9&fst=1639584450338&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&ref=https%3A%2F%2Fstinegoya.com%2F&tiba=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.019082000013440847
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/861000287/?random=1639584450338&cv=9&fst=1639584000000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&ref=https%3A%2F%2Fstinegoya.com%2F&tiba=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&async=1&fmt=3&is_vtc=1&random=1272883053&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/861000287/?random=1639584450338&cv=9&fst=1639584450338&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&ref=https%3A%2F%2Fstinegoya.com%2F&tiba=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.019312000018544495
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/2133571216659668?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89631,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "deaefee85188c030302dd6d914ad3d7665accfecc58b353156d49218725e68b5",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.02891500003170222
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=2133571216659668&ev=PageView&dl=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&rl=https%3A%2F%2Fstinegoya.com%2F&if=false&ts=1639584450772&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=0&o=30&fbp=fb.1.1639584450769.512976228&it=1639584450706&coo=false&eid=bed957c3-25AA-4F07-61D1-AD11430772E4&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:07:30 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/2133571216659668?v=2.9.48&r=stable"
+        ],
+        "time": 0.034779999987222254
+      },
+      {
+        "url": "https://cdn.hextom.com/js/quickannouncementbar.js?shop=stine-goya-int.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11874,
+        "remoteIPAddress": "13.227.219.45",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"23c1a5dd0abf957777cf80df2eb2ef4d\""
+        },
+        "responseBodyHash": "55f8172fdd1cd3682fc4344c6373b6fac9f753cc92df9ca6cb7b902d6473c858",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.05734499997925013
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SxkrvA&shop=stine-goya-int.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1256,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "W/\"2041a5684081f7c16c5ba77436e643c7\""
+        },
+        "responseBodyHash": "8ea9150c6b84d583de835203b1b716212a3d6922ad61ac901bffee2bb65008b6",
+        "initiators": [
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.03929099999368191
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/core-c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "W/\"d7649e1c2e103b5997dea47f28f2807b\""
+        },
+        "responseBodyHash": "a78d5d32869769c6cad7debc594f4f5faa9823317d03faf6ad697f6c60721846",
+        "initiators": [
+          "https://sleeknotecustomerscripts.sleeknote.com/5077.js"
+        ],
+        "time": 0.0013909999979659915
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.81cb2a3e92c390c72917.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7744,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"27a4f59d116a4bfd4934de6ecb83ec74\""
+        },
+        "responseBodyHash": "ccabcd6edc7e565b307d9d58f5c4b72bdd959d5d9f8dda1ad56374acdfb4b555",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SxkrvA&shop=stine-goya-int.myshopify.com"
+        ],
+        "time": 0.050189999979920685
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/static.9af9b8f4e03ba6082067.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5995,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ff2e9f23b437e43d03f544192b1ec858\""
+        },
+        "responseBodyHash": "d7b2e71a0cdaaa1e94c489cad58c05fe14e8ba97d21a84a227b7c39dd0969725",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SxkrvA&shop=stine-goya-int.myshopify.com"
+        ],
+        "time": 0.050101000000722706
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9728,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19a7fdd374429418b6912c2497585cae\""
+        },
+        "responseBodyHash": "3eac6b6ca0df419caa2b1951fef60f59bd036969221bc6d3d9784c5ba5d9a062",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SxkrvA&shop=stine-goya-int.myshopify.com"
+        ],
+        "time": 0.013883000006899238
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 36988,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"1107efbe0d627e184adbc543c1e0557e\""
+        },
+        "responseBodyHash": "926cd716bef3580a1054dc48926320e26816acd6995d28c20a5f85f84ebcdbe5",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.02227900002617389
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33243,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"421af0cf3a8e2d16bcc8b8516eea8a95\""
+        },
+        "responseBodyHash": "3d9cc139a5afab7e08457b6c6912001eb8cc6f782566a24f324447f712cb97db",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js"
+        ],
+        "time": 0.013777000014670193
+      },
+      {
+        "url": "https://qab.hextom.com/qab_get_bars?shop=stine-goya-int.myshopify.com",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1010,
+        "remoteIPAddress": "54.236.206.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "748c815c4af7e24dfdf98fe56aedac4c4aba34b5ec56ac0830f229ca553e85a8",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/s/files/1/0506/0729/2568/t/4/assets/vendor.js?v=6286956279384439637",
+          "https://cdn.hextom.com/js/quickannouncementbar.js?shop=stine-goya-int.myshopify.com"
+        ],
+        "time": 0.41362899995874614
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/c/package-tracker.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5455,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"9296caab49314df91c6f3008d9aae38a\""
+        },
+        "responseBodyHash": "8c775fafe14111988836ec83fa05a3aae27f5c55f9e6d0ca6919b8d82fc0a01d",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js"
+        ],
+        "time": 0.012178999953903258
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8154,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"d123e215c22f63fdd548afb37d23fe33\""
+        },
+        "responseBodyHash": "96c2ba3301e51f0523ec4f0ade5787330f59fb7d2d7b39db06210ba5b90d7641",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js"
+        ],
+        "time": 0.010737000033259392
+      },
+      {
+        "url": "https://analytics.sleeknote.com/?v8=2_pageview&v0=caad561dd573d920cafb6cf16e0eb232&v3=2021-12-15T16%3A07%3A31Z&v6=2021-12-15T16%3A07%3A31Z&v20=true&v25=true&v27=0&s4=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&s9=https%3A&s11=%2F&s12=%3Fswitch%3DNL&s13=&s2=STINE+GOYA+%7C+OFFICIAL+ONLINE+SHOP+%7C+SHOP+NOW&c1=-60&s7=en-GB&v5=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F93.0.4577.63+Safari%2F537.36&v22=chrome&v23=93&v24=mac&v26=desktop&v4=https%3A%2F%2Fstinegoya.com%2F&v21=d04326f3-8c58-4fe0-8dd7-44ad586c5001&s1=5077&s3=int.stinegoya.com",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 229,
+        "remoteIPAddress": "216.239.38.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"23-X71HIiL+uKIs9biqXcW44Tr4jis\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-tracker.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.07140000001527369
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/editorv2/desktoptoggler/d829ab05-a785-44fa-b279-571d87ad8507.html?1639584451051",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3625,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/\"41cee58655a3f387fde6ce84b79d90f5\""
+        },
+        "responseBodyHash": "de79ba9ab2b55a7e42c0ad579ffb31f2e2b73f06126d36e174c565db2875e764",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.05030899995472282
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/c/sleeknote4.css?&1639584451051",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3799,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "W/\"5e67cd5fe7b0ab87f3ee665cb7aa4511\""
+        },
+        "responseBodyHash": "b3ebf43e75e712a6370723d6f4652cec76ebfbac11c67f846612a445364abea1",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.02885399997467175
+      },
+      {
+        "url": "https://images.sleeknote.com/sleeknoteimages/tr:f-png,lo-true/637096849729426755.png",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 638,
+        "remoteIPAddress": "52.222.138.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=15552000, max-age=15552000, must-revalidate",
+          "etag": "W/\"107-m3AkXxMrZF4jb1W8xOSEJw\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a6355d39ffeb0d27a56d81ef98f89dbcf7a0c8d1ad7c1bcec02ff113cd97cc74",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.10553000000072643
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=2133571216659668&ev=Microdata&dl=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&rl=https%3A%2F%2Fstinegoya.com%2F&if=false&ts=1639584451296&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22%5Cn%20%20%20%20%20%20STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW%5Cn%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%5Cn%5Cn%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%5Cn%20%20%20%20%22%2C%22meta%3Adescription%22%3A%22Shop%20online%20from%20the%20biggest%20selection%20of%20STINE%20GOYA%20clothing%2C%20accessories%20and%20footwear.%201-3%20days%20delivery.%20Free%20Shipping%20available.%2014%20days%20of%20return%22%7D&cd[OpenGraph]=%7B%22og%3Asite_name%22%3A%22Stine%20Goya%20%7C%20INT%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fint.stinegoya.com%2F%22%2C%22og%3Atitle%22%3A%22STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Adescription%22%3A%22Shop%20online%20from%20the%20biggest%20selection%20of%20STINE%20GOYA%20clothing%2C%20accessories%20and%20footwear.%201-3%20days%20delivery.%20Free%20Shipping%20available.%2014%20days%20of%20return%22%2C%22og%3Aimage%22%3A%22http%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0506%2F0729%2F2568%2Ffiles%2FSTINE-GOYA-WEBSITE_1200x.jpg%3Fv%3D1625815540%22%2C%22og%3Aimage%3Asecure_url%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0506%2F0729%2F2568%2Ffiles%2FSTINE-GOYA-WEBSITE_1200x.jpg%3Fv%3D1625815540%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=1&o=30&fbp=fb.1.1639584450769.512976228&it=1639584450706&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 147,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:07:31 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/2133571216659668?v=2.9.48&r=stable"
+        ],
+        "time": 0.009131999977398664
+      },
+      {
+        "url": "blob:https://int.stinegoya.com/785e5fc8-f17a-4e50-8971-1e40f8a37cfa",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "a6355d39ffeb0d27a56d81ef98f89dbcf7a0c8d1ad7c1bcec02ff113cd97cc74",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.04599499999312684
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/brandkit/5077/fonts/Franklin.css?1639584451051",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 721,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d8f892f9d214526244861adec34a7050\""
+        },
+        "responseBodyHash": "0244f40013e68e1300827a2ffbc9b62c3fa81a87f92fbda806a33255587b92a7",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.009811000025365502
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,300,700&1639584451051",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 935,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:07:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8ed6a0fee543b3954510b2eebc48bccc3fd2c03fbcdd8e9a14d19475f7a4647e",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.03150100004859269
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,300,700&1639584451051",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 564,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:07:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d1572d9654b3a02eb377518f62a6f2b1fcd8c27af34586b9d79b19348761e6bd",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-notes.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.03143500001169741
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 06:39:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.00025099999038502574
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcC-wLOj.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 06:26:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+        ],
+        "time": 0.0003790000337176025
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/brandkit/5077/fonts/files/Franklin-Gothic.ttf",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 49494,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"936952e9aa54ee36c50407f4847878a7\""
+        },
+        "responseBodyHash": "7bd114fd6457c7d6dfa8f25442e6d3e42e2ad0a85d309cd85c24b56876c152d2",
+        "initiators": [],
+        "time": 0.02953900001011789
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 477,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://int.stinegoya.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://int.stinegoya.com/?switch=NL"
+        ],
+        "time": 0.11133300000801682
+      },
+      {
+        "url": "https://consent.app.cookieinformation.com/api/consent",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.94.134.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://consent.app.cookieinformation.com/api/consent"
+        ],
+        "time": 0.047747000004164875
+      },
+      {
+        "url": "https://consent.app.cookieinformation.com/api/consent",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 133,
+        "remoteIPAddress": "13.94.134.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"33-WDHeUp+sjIVHynovxxUHTUvgjnc\""
+        },
+        "responseBodyHash": "d0c017967f92b900da926022d88cd0ff1fc72d9c069ed5096af20b89477e3bb9",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://policy.app.cookieinformation.com/uc.js",
+          "https://int.stinegoya.com/?switch=NL",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.06317999999737367
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=2133571216659668&ev=SubscribedButtonClick&dl=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&rl=https%3A%2F%2Fstinegoya.com%2F&if=false&ts=1639584454727&cd[buttonFeatures]=%7B%22classList%22%3A%22coi-banner__accept%22%2C%22destination%22%3A%22%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22Accept%20all%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22button%22%2C%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D&cd[buttonText]=Accept%20all&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22%5Cn%20%20%20%20%20%20STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW%5Cn%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%5Cn%5Cn%20%20%20%20%20%20%5Cn%20%20%20%20%20%20%5Cn%20%20%20%20%22%7D&cd[parameters]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=2&o=2078&fbp=fb.1.1639584450769.512976228&it=1639584450706&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 147,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:07:34 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/2133571216659668?v=2.9.48&r=stable",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.010337000014260411
+      },
+      {
+        "url": "https://sleeknotestaticcontent.sleeknote.com/c/badge.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3722,
+        "remoteIPAddress": "13.227.219.44",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "W/\"f49d407d2712a80ea19d77bdd39f7949\""
+        },
+        "responseBodyHash": "6762f02f7981a933cfe7e8fb470198701561f7089a3805e0bd299470fec9e53e",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js"
+        ],
+        "time": 0.010392999975010753
+      },
+      {
+        "url": "https://analytics.sleeknote.com/?v1=d829ab05-a785-44fa-b279-571d87ad8507&v8=3_sleeknote_shown&v9=1_sleeknote_trigger_shown_after&v12=1_Newsletter&v11=false&v13=7&v33=form&v0=caad561dd573d920cafb6cf16e0eb232&v3=2021-12-15T16%3A07%3A37Z&v6=2021-12-15T16%3A07%3A31Z&v20=true&v25=true&v27=7&s4=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&s9=https%3A&s11=%2F&s12=%3Fswitch%3DNL&s13=&s2=STINE+GOYA+%7C+OFFICIAL+ONLINE+SHOP+%7C+SHOP+NOW&c1=-60&s7=en-GB&v5=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F93.0.4577.63+Safari%2F537.36&v22=chrome&v23=93&v24=mac&v26=desktop&v4=https%3A%2F%2Fstinegoya.com%2F&v21=d04326f3-8c58-4fe0-8dd7-44ad586c5001&s1=5077&s3=int.stinegoya.com",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 97,
+        "remoteIPAddress": "216.239.38.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"23-X71HIiL+uKIs9biqXcW44Tr4jis\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-tracker.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.02163899998413399
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1143589454&t=event&ni=1&_s=2&dl=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&dr=https%3A%2F%2Fstinegoya.com%2F&dp=%2F%3Fswitch%3DNL&ul=en-gb&de=UTF-8&dt=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Sleeknote&ea=Sleeknote%20shown&el=d829ab05-a785-44fa-b279-571d87ad8507&_u=SDCAgEABB~&jid=&gjid=&cid=1124947585.1639584446&tid=UA-27591438-1&_gid=489173005.1639584446&did=BwiEti&z=905307129",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 96,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-tracker.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.009001000027637929
+      },
+      {
+        "url": "https://analytics.sleeknote.com/?v1=d829ab05-a785-44fa-b279-571d87ad8507&v8=3_sleeknote_shown&v9=queue&v12=1_Newsletter&v11=false&v13=7&v33=form&v0=caad561dd573d920cafb6cf16e0eb232&v3=2021-12-15T16%3A07%3A37Z&v6=2021-12-15T16%3A07%3A31Z&v20=true&v25=true&v27=7&s4=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&s9=https%3A&s11=%2F&s12=%3Fswitch%3DNL&s13=&s2=STINE+GOYA+%7C+OFFICIAL+ONLINE+SHOP+%7C+SHOP+NOW&c1=-60&s7=en-GB&v5=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F93.0.4577.63+Safari%2F537.36&v22=chrome&v23=93&v24=mac&v26=desktop&v4=https%3A%2F%2Fstinegoya.com%2F&v21=d04326f3-8c58-4fe0-8dd7-44ad586c5001&s1=5077&s3=int.stinegoya.com",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 97,
+        "remoteIPAddress": "216.239.38.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/\"23-X71HIiL+uKIs9biqXcW44Tr4jis\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-tracker.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.025127000000793487
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1143589454&t=event&ni=1&_s=3&dl=https%3A%2F%2Fint.stinegoya.com%2F%3Fswitch%3DNL&dr=https%3A%2F%2Fstinegoya.com%2F&dp=%2F%3Fswitch%3DNL&ul=en-gb&de=UTF-8&dt=STINE%20GOYA%20%7C%20OFFICIAL%20ONLINE%20SHOP%20%7C%20SHOP%20NOW&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Sleeknote&ea=Sleeknote%20shown&el=d829ab05-a785-44fa-b279-571d87ad8507&_u=SDCAgEABB~&jid=&gjid=&cid=1124947585.1639584446&tid=UA-27591438-1&_gid=489173005.1639584446&did=BwiEti&z=212286497",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-tracker.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-core-boot.js",
+          "https://sleeknotestaticcontent.sleeknote.com/c/package-anchored.js",
+          "https://sleeknotestaticcontent.sleeknote.com/core-c.js"
+        ],
+        "time": 0.00773100001970306
+      }
+    ]
+  }
+}

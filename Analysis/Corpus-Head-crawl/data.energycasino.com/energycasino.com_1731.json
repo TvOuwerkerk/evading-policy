@@ -1,0 +1,1541 @@
+{
+  "initialUrl": "https://energycasino.com/en/deposit?bonus_id=6878#action:user.login",
+  "finalUrl": "https://energycasino.com/en/deposit?bonus_id=6878#action:user.login",
+  "timeout": false,
+  "testStarted": 1640109752720,
+  "testFinished": 1640109769167,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.energycasino.com/links.energycasino.com_1731.json",
+    "requests": [
+      {
+        "url": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 6614,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-store",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "exp_tracker=%5B%5D; path=/; HttpOnly; SameSite=Lax\nexp_tracker=%7B%220%22%3A%22deposit%22%2C%22token%22%3A%2214b344f29bee8d75b571ad9c44092334f07c13ae2dd743f59a9a7609b247faf6be7eb573247fbc34becd0eeba7c183a2%22%7D; path=/; HttpOnly; SameSite=Lax\nexp_csrf_token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; HttpOnly; SameSite=Lax\nexp_csrf_token=220307725634fd613aa078b0b3f1c11b393af91e; expires=Tue, 21-Dec-2021 20:02:32 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax"
+        },
+        "responseBodyHash": "9984e2d7edca9fffda05dfefe759f7675e02b74edb86c9613d44fcdbf65d1be3",
+        "initiators": [],
+        "time": 0.1876919999922393
+      },
+      {
+        "url": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 89334,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cf481-5d31a4e6b0c68-gzip\""
+        },
+        "responseBodyHash": "440ff800e6a689f3edda72de6bf8cdd9bd13e87cdff8fffa4dee9598a57d284b",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.02281500000390224
+      },
+      {
+        "url": "https://energycasino.com/assets/images/energychests/icon-energy-chest.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 6954,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"19b1-5ca7213c2094c\""
+        },
+        "responseBodyHash": "07ce7fd2274d9fe0bd6ce0fd025e41489d6a51bbbc8948d15081efbcee0be6b2",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.0333880000107456
+      },
+      {
+        "url": "https://user.energycasino.com/user/get_global_settings/",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 1935,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "set-cookie": "domain_gateways=\"https://energycasino.com/\"; expires=Tue, 21-Dec-2021 19:02:33 GMT; Max-Age=3600; Path=/"
+        },
+        "responseBodyHash": "079b58231ffa41d6df6ad2e2ece6c22c38c134bca85d3b667f26522dab5e40a1",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.05539900000439957
+      },
+      {
+        "url": "https://user.energycasino.com/static/js/init-front-build.js?v=15",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 545973,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "etag": "W/\"61c08b86-23b4df\""
+        },
+        "responseBodyHash": "bd212cd7424fe7e1130d872b994e88a21a0b199d0d9089ff72109604dd9668b1",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.20864799999981187
+      },
+      {
+        "url": "https://energycasino.com/js-bcf/casino/web/bundle/bundle.js?v=93114053c7c210eebbd07cd3e9eb2feb",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 305462,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"11b249-5d1ff472a2b09-gzip\""
+        },
+        "responseBodyHash": "40751f2d65806fa94232c8a5f44440ead95e02960258bf9b5994c34b3c71d4ec",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.11489699999219738
+      },
+      {
+        "url": "https://mpsnare.iesnare.com/snare.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 13622,
+        "remoteIPAddress": "54.216.48.107",
+        "responseHeaders": {
+          "cache-control": "no-cache, private",
+          "expires": "0",
+          "p3p": "CP=\"NON DSP COR CURa\"",
+          "pragma": "no-cache",
+          "set-cookie": "io_token_7c6a6574-f011-4c9a-abdd-9894a102ccef=QngAHbnPmkzFg0nq83uJrwNVqGNKA5U0eE6KHkl+kmY=;Path=/;Expires=Wed, 21-Dec-2022 18:02:33 GMT;Max-Age=31536000;Secure;HttpOnly;SameSite=None"
+        },
+        "responseBodyHash": "ad97ff640e924945fc3a4c1c626fe8186b29a586ec58479c37f4c2a8f86f742f",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.09712900000158697
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 4119,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2d16-5d395cbe62a00-gzip\""
+        },
+        "responseBodyHash": "a2f593a539a49bf0c133a747b58d30964b1b0846c7909cb024154f33be554e43",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.015375000002677552
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 1729,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 21 Dec 2021 18:02:33 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2a7dc0c88d2058b81f83f6c10bca84d5a07de1ab7e7bb65db14f1e079a8dc5cf",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.01934400000027381
+      },
+      {
+        "url": "https://use.typekit.net/qfj0txn.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 867,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9aef58e7aa2ee395d9b16e0310588c79fdc303196ccd31b6028816cc34d36a39",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.046031999998376705
+      },
+      {
+        "url": "https://use.typekit.net/pcu5ohm.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 817,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "275ff3a9808eede9b7e6ad56099637227cabe556920f15b9bfc4a7c7f34c96f2",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.049121000003651716
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=qfj0txn&ht=tk&f=810.26784&a=82544632&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/",
+        "status": 200,
+        "size": 181,
+        "remoteIPAddress": "23.0.250.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"5f4eedac-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/qfj0txn.css"
+        ],
+        "time": 0.038587000002735294
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=pcu5ohm&ht=tk&f=28162&a=82544632&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.typekit.net/",
+        "status": 200,
+        "size": 181,
+        "remoteIPAddress": "23.0.250.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"5f4eedac-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/pcu5ohm.css"
+        ],
+        "time": 0.03487899999890942
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PL74J67",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 55129,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 18:02:33 GMT"
+        },
+        "responseBodyHash": "e54745f5b140e8676fba940ba8841301e2956bb6187e3a9b3d3bf5c099cc29f3",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.026444000002811663
+      },
+      {
+        "url": "https://energycasino.com/assets/images/logo_black.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "status": 200,
+        "size": 4065,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"20b0-5c7137129b0ee-gzip\""
+        },
+        "responseBodyHash": "5d093942f63e476a34053cc4f508db620a16ea47dc249abe0ce07527ededc717",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.005612000008113682
+      },
+      {
+        "url": "https://energycasino.com/assets/images/icons/chevron-left-black.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "status": 200,
+        "size": 615,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"160-5c33a5f8aba80-gzip\""
+        },
+        "responseBodyHash": "dc9b2b87e1785b180bb0e6446b5d267f489e2844e87d3d977afe988f3b8f6983",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.008480999997118488
+      },
+      {
+        "url": "https://energycasino.com/assets/images/icons/spinner-light-gray.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "status": 200,
+        "size": 925,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"40d-5c4f36872bc00-gzip\""
+        },
+        "responseBodyHash": "cdaf5010c0f3a881b3d29ee03d54985439958af389c0b3454a92f6ae1da49aa2",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.020489000002271496
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_c5H3gnD_vx3rCs.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14682,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 17:11:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "afda22b321db413e0d3a0c5bd97ebfd5cd2e56e77fbbd54346561e993edc748b",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        ],
+        "time": 0.06500400000368245
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14026,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 00:06:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a56c88f6f2dea2f9ae32f10ab32b7f66f98a6b72c5ab113b744d26a238257afe",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        ],
+        "time": 0.06577200000174344
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14289,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 23:55:08 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "22fcebf109b2d94c4d396fc895220447c0422ad44807c3d4082eb268e251b2a4",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        ],
+        "time": 0.06699399999342859
+      },
+      {
+        "url": "https://user.energycasino.com/user/check-session/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "set-cookie": "domain_gateways=\"https://energycasino.com/\"; expires=Tue, 21-Dec-2021 19:02:33 GMT; Max-Age=3600; Path=/"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://user.energycasino.com/user/check-session/"
+        ],
+        "time": 0.03672399999049958
+      },
+      {
+        "url": "https://user.energycasino.com/user/check-session/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 403,
+        "size": 427,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "bea5d84ab84d74b390ab9e311a9c0d285fa3ecc0993b146db0827e9223da9060",
+        "initiators": [
+          "https://energycasino.com/js-bcf/casino/web/bundle/bundle.js?v=93114053c7c210eebbd07cd3e9eb2feb"
+        ],
+        "time": 0.07158499999786727
+      },
+      {
+        "url": "https://mpsnare.iesnare.com/script/logo.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 610,
+        "remoteIPAddress": "54.216.48.107",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Wed, 21 Dec 2022 18:02:33 GMT",
+          "p3p": "CP=\"NON DSP COR CURa\""
+        },
+        "responseBodyHash": "0c3393cab47ddb5414d37ee2bf84d08e9b52f0a616a4dea4a22776695bb3ef25",
+        "initiators": [
+          "https://mpsnare.iesnare.com/snare.js"
+        ],
+        "time": 0.021972000002278946
+      },
+      {
+        "url": "https://supportpage.ladesk.com/scripts/track.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 14769,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "max-age=300, public",
+          "etag": "W/\"eac0-5c56c0294cf80\"",
+          "expires": "Wed, 22 Dec 2021 00:01:19 GMT"
+        },
+        "responseBodyHash": "ff3a9b244cc2eb335494bcb48faa93213c17b0ca261ed2b1ae8124b18fa47860",
+        "initiators": [
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.10925199999473989
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/vendor.914600eb286bb2b4b64e.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 24786,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"158d0-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "143950ef07e70a0795bd552a89478a0ba38db7cb7e27b5c56063569a0237b14c",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.014499999990221113
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/530.02f99a9e6d0c8e9754cb.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 8784,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"8ae6-5d3912a1fd080-gzip\""
+        },
+        "responseBodyHash": "4738a1666dab05f460e3372ac287991c3a54fe1e330e5cb7489137da25de6198",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.01813100000435952
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/117.f1d1d90b5eb4cf6c2760.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1272,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"7ea-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "35bd433290492c577bb42c82d821a51a247de633b7ac76b2bc377633f3c2e97f",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.018372000005911104
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/67.41688db619c9a0820c89.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 867,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"37f-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "a3ba4258084365cd22580aefa140072f33250ba11539d7c07fc7b247a9a89f5b",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.018625000011525117
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/582.e093d471c1ff4cd8d8e2.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 2319,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1a47-5d319d7293b40-gzip\""
+        },
+        "responseBodyHash": "21c4141f3a03a0dc89cb2486260f19046d258b42f7e6a0bf800554800ca1787c",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.016887000005226582
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/982.f6d9dbb1fe2dfca7cc9b.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 2237,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"12a6-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "19ba977e5147f33a23d63a738b73e9a0aeb17d3ea4a31fb2e1d8a9209ca60673",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.08566199999768287
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/31.d2fea7347f7db0e67aa4.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 984,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"636-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "9431ca98bbd02d5eabb10dcd6fc290d85a1215944bbb3dbb6e06afa08c491811",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.021655000004102476
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/177.2b9156e711a006ac800c.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1669,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"df3-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "0cd38585f90c5304736b3e28f74252659257a4cef6432b78c49bb98427b31de2",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.021248999997624196
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/526.81a9c6f9661a724dd1e6.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1776,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1040-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "94d5e90fb0ae2f52be4481b1e2e478b1a3020da90c23fb9b0379c2e76a729e3f",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.020067999997991137
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/764.25983ef49cfd2110f106.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1140,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"71a-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "6e7c44ee2a657cc0be4fff71842aab977172efd174e99bddbe084a33e2717d77",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.01991200000338722
+      },
+      {
+        "url": "https://user.energycasino.com/user/info/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 513,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "set-cookie": "csrftoken=a4Xm1fb09GmcKrckMG3EAhA2ZbadTzm6; Domain=.energycasino.com; expires=Tue, 20-Dec-2022 18:02:34 GMT; Max-Age=31449600; Path=/"
+        },
+        "responseBodyHash": "dea47a15d549cec78a40dc0c828ef4bee3d015726148c284c55e5afd871d0f11",
+        "initiators": [
+          "https://energycasino.com/js-bcf/casino/web/bundle/bundle.js?v=93114053c7c210eebbd07cd3e9eb2feb"
+        ],
+        "time": 0.03986299999814946
+      },
+      {
+        "url": "https://user.energycasino.com/user/info/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "set-cookie": "domain_gateways=\"https://energycasino.com/\"; expires=Tue, 21-Dec-2021 19:02:34 GMT; Max-Age=3600; Path=/"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://user.energycasino.com/user/info/"
+        ],
+        "time": -0.024432999998680316
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 21 Dec 2021 19:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PL74J67"
+        ],
+        "time": 0.01372099999571219
+      },
+      {
+        "url": "https://track.adform.net/serving/scripts/trackpoint/async/",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 301,
+        "remoteIPAddress": "37.157.4.23",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://s2.adform.net/banners/scripts/st/trackpoint-async.js",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PL74J67"
+        ],
+        "time": 0.09170699999958742
+      },
+      {
+        "url": "https://user.energycasino.com/user/translations/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "set-cookie": "domain_gateways=\"https://energycasino.com/\"; expires=Tue, 21-Dec-2021 19:02:34 GMT; Max-Age=3600; Path=/"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://user.energycasino.com/user/translations/"
+        ],
+        "time": 0.06424500000139233
+      },
+      {
+        "url": "https://user.energycasino.com/user/translations/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 3971,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "afd20e0fdf0fa9ca89a69274679caf2cd52934a64d92ad2f412a222ebce0f234",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.08641300001181662
+      },
+      {
+        "url": "https://user.energycasino.com/user/check_blog_entries/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 376,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "4fbaee949f589b206cace74bcf5adf1c9b95c65056f7a14d0d99fc3792d40c55",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.3073679999943124
+      },
+      {
+        "url": "https://user.energycasino.com/user/check_blog_entries/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "set-cookie": "domain_gateways=\"https://energycasino.com/\"; expires=Tue, 21-Dec-2021 19:02:34 GMT; Max-Age=3600; Path=/"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://user.energycasino.com/user/check_blog_entries/"
+        ],
+        "time": 0.07034700000076555
+      },
+      {
+        "url": "https://supportpage.ladesk.com/scripts/button.php?ChS=UTF-8&C=Widget&i=b4c236a6&p=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 750,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": ""
+        },
+        "responseBodyHash": "2967e39ec1dd00a374648e1a2353942b67cf60cb205eab2a040755b8c94657bf",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/track.js",
+          "https://energycasino.com/en/deposit?bonus_id=6878"
+        ],
+        "time": 0.028613000002224
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/218.a159edebdeeceb37369d.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1739,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"af3-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "3c6b9a74e53dbb801752c910d5501e8f21c5e34165fa72ea9bea83f4cc7ac031",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25",
+          "https://energycasino.com/assets/js/production/530.02f99a9e6d0c8e9754cb.bundle.js"
+        ],
+        "time": 0.010401999999885447
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/587.5e397b21dfe08e36ac6e.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1468,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"b9b-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "b22998440b3166fff82cff05ea283119794cb265f5baffe4900b535ec8be6e5e",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25",
+          "https://energycasino.com/assets/js/production/530.02f99a9e6d0c8e9754cb.bundle.js"
+        ],
+        "time": 0.009425000011106022
+      },
+      {
+        "url": "https://energycasino.com/assets/js/production/195.3a4ccbfc94dd8d41460b.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 1206,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"6ed-5d28c35d59f00-gzip\""
+        },
+        "responseBodyHash": "b7cb64a07b1b9edbf6350396f3cf125c98efc4fcfb98caf209925fd9d3d94e50",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25",
+          "https://energycasino.com/assets/js/production/526.81a9c6f9661a724dd1e6.bundle.js"
+        ],
+        "time": 0.014731000002939254
+      },
+      {
+        "url": "https://s2.adform.net/banners/scripts/st/trackpoint-async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 29019,
+        "remoteIPAddress": "37.157.5.71",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public\nmax-age=604800",
+          "etag": "W/\"613888ed-13bd1\"",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa TAIa PSAa PSDa OUR LEG NAV INT\""
+        },
+        "responseBodyHash": "0b6ee815005e308fb4ed57e68792ac193f50b8228669a96e74fd143ceb09660e",
+        "redirectedFrom": "https://track.adform.net/serving/scripts/trackpoint/async/",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PL74J67"
+        ],
+        "time": 0.08148500000243075
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1954423273&t=pageview&_s=1&dl=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878&ul=en-us&de=UTF-8&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAEABAAAAAC~&jid=1943513353&gjid=1547565494&cid=173453308.1640109754&tid=UA-38697552-6&_gid=183413251.1640109754&_r=1&gtm=2wgc10PL74J67&z=207913549",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 207,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.008793999993940815
+      },
+      {
+        "url": "https://user.energycasino.com/user/info/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 515,
+        "remoteIPAddress": "52.222.139.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "set-cookie": "csrftoken=a4Xm1fb09GmcKrckMG3EAhA2ZbadTzm6; Domain=.energycasino.com; expires=Tue, 20-Dec-2022 18:02:34 GMT; Max-Age=31449600; Path=/"
+        },
+        "responseBodyHash": "dea47a15d549cec78a40dc0c828ef4bee3d015726148c284c55e5afd871d0f11",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.03306299999530893
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/tables/?country=nl",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://wallet.energycasino.com/api/tables/?country=nl"
+        ],
+        "time": 0.10819899999478366
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/tables/?country=nl",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 6839,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "bc2469940f31c06641a68d82c7ce2dec560e854ab1fce0115d7f1a7ab35a5060",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.14196999999694526
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-38697552-6&cid=173453308.1640109754&jid=1943513353&gjid=1547565494&_gid=183413251.1640109754&_u=YEBAAEAAAAAAAC~&z=985420842",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 442,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03954699999303557
+      },
+      {
+        "url": "https://supportpage.ladesk.com/scripts/generateWidget.php?v=5.23.20.6&t=1640109604&cwid=b4c236a6&cwrt=C&cwt=chat&pt=&ref=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 12048,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "expires": "Sat, 01 Jan 2022 08:00:00 GMT"
+        },
+        "responseBodyHash": "aa8abde8253b17db8967fe2c373d66f82128c24f66d061a047e573e9b2d7d9c5",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/track.js",
+          "https://supportpage.ladesk.com/scripts/button.php?ChS=UTF-8&C=Widget&i=b4c236a6&p=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login"
+        ],
+        "time": 0.08700500000850298
+      },
+      {
+        "url": "https://supportpage.ladesk.com/scripts/generateWidget.php?v=5.23.20.6&t=1640109604&cwid=b4c236a6&cwrt=C&cwt=onlineform&pt=&ref=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 6898,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "expires": "Sat, 01 Jan 2022 08:00:00 GMT"
+        },
+        "responseBodyHash": "57e58ffefbfb963eb52b469362f82cae2808925183a24a8d98575d8785092172",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/track.js",
+          "https://supportpage.ladesk.com/scripts/button.php?ChS=UTF-8&C=Widget&i=b4c236a6&p=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login"
+        ],
+        "time": 0.11495600000489503
+      },
+      {
+        "url": "https://energycasino.com/assets/images/icons/comments.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "status": 200,
+        "size": 813,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"2fe-5bfd657a6a980-gzip\""
+        },
+        "responseBodyHash": "7699c5b1bfed961383e4a737b35552b78af9bf5fb55cea5c477ee2622a50cd02",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.015650999994250014
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/game-collections/all-games/?country=nl&device=desktop",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 80684,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "62185451e399dfdad53a818a18ba5501b8665cce5f0d72428d3ae39282d89e15",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/218.a159edebdeeceb37369d.bundle.js",
+          "https://energycasino.com/assets/js/production/530.02f99a9e6d0c8e9754cb.bundle.js",
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.3183859999990091
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/jackpots-list/?country=nl&currency=EUR",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 1442,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "cda0e7b6dc416e65d22b09c046219d8fb7620917d8580a20db95923d60d478dd",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/218.a159edebdeeceb37369d.bundle.js",
+          "https://energycasino.com/assets/js/production/530.02f99a9e6d0c8e9754cb.bundle.js",
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.03409500000998378
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/tables/?country=nl",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 6848,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "bc2469940f31c06641a68d82c7ce2dec560e854ab1fce0115d7f1a7ab35a5060",
+        "initiators": [
+          "https://energycasino.com/assets/js/production/218.a159edebdeeceb37369d.bundle.js",
+          "https://energycasino.com/assets/js/production/530.02f99a9e6d0c8e9754cb.bundle.js",
+          "https://energycasino.com/assets/js/production/main.bundle.js?v=174.25"
+        ],
+        "time": 0.032008000009227544
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-38697552-6&cid=173453308.1640109754&jid=1943513353&_u=YEBAAEAAAAAAAC~&z=1171292486",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.04941099999996368
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-38697552-6&cid=173453308.1640109754&jid=1943513353&_u=YEBAAEAAAAAAAC~&z=1171292486",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.0519029999995837
+      },
+      {
+        "url": "https://energycasino.com/assets/images/icons/times-black.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "status": 200,
+        "size": 631,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"1d4-5c33a608e20c0-gzip\""
+        },
+        "responseBodyHash": "ad3578aa20307041d2d0ff3aef1bdfba0a5352ce298f96e3dd9a9192079bc6cf",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.011830000003101304
+      },
+      {
+        "url": "https://energycasino.com/assets/images/icons/cookie-bite-light-gray.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/assets/css/main.css?v=35.18.60",
+        "status": 200,
+        "size": 1254,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"669-5c5962a2b0ccd-gzip\""
+        },
+        "responseBodyHash": "77d65a2f4de92c266d100829e78be703d33525ff83db87dd4ab777bab653470a",
+        "initiators": [
+          "https://energycasino.com/assets/css/main.css?v=35.18.60"
+        ],
+        "time": 0.014058999993721955
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/last-winners-list/?format=json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 2197,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "80db4823c41866661d999a39f2319ee7a3b284dbb8eb55c2668609a47e4f5774",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.5427119999949355
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/last-winners-list/?format=json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://wallet.energycasino.com/api/last-winners-list/?format=json"
+        ],
+        "time": 0.017835000006016344
+      },
+      {
+        "url": "https://energycasino.com/en/js/gameresolutions",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 810,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-store",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "exp_tracker=%5B%5D; path=/; HttpOnly; SameSite=Lax\nexp_tracker=%7B%220%22%3A%22js%2Fgameresolutions%22%2C%221%22%3A%22deposit%22%2C%22token%22%3A%22add43618bde9298330f411d82e54616c0857d398b645401f40c3ef49e5725e20f342fd9d39199747d427ffdefacb310a%22%7D; path=/; HttpOnly; SameSite=Lax\nexp_csrf_token=220307725634fd613aa078b0b3f1c11b393af91e; expires=Tue, 21-Dec-2021 20:02:34 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.0815289999882225
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/jackpots-list/?country=nl&currency=",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://wallet.energycasino.com/api/jackpots-list/?country=nl&currency="
+        ],
+        "time": 0.02972099999897182
+      },
+      {
+        "url": "https://wallet.energycasino.com/api/jackpots-list/?country=nl&currency=",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 1419,
+        "remoteIPAddress": "65.9.83.121",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://energycasino.com"
+        },
+        "responseBodyHash": "fc9051b836ec63b1f344eda351a25ffe5037a817c64ef91ad7c31f49b9ec50fb",
+        "initiators": [
+          "https://user.energycasino.com/static/js/init-front-build.js?v=15"
+        ],
+        "time": 0.07257800000661518
+      },
+      {
+        "url": "https://track.adform.net/Serving/TrackPoint/?pm=2002730&ADFPageName=Casino_site_visits&ADFdivider=%7C&ord=243065447023&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 302,
+        "remoteIPAddress": "37.157.4.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, no-transform",
+          "expires": "-1",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa TAIa PSAa PSDa OUR LEG NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "C=1; domain=adform.net; expires=Fri, 21-Jan-2022 18:02:34 GMT; path=/; secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://track.adform.net/Serving/TrackPoint/?CC=1&pm=2002730&ADFPageName=Casino_site_visits&ADFdivider=%7C&ord=243065447023&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "initiators": [
+          "https://track.adform.net/serving/scripts/trackpoint/async/"
+        ],
+        "time": 0.22679600000265054
+      },
+      {
+        "url": "https://supportpage.ladesk.com/scripts/track_visit.php?t=Y&C=Track&B=m2sk6556j7874gqacas99y7rvw8yu&S=t2p0c5tixb12d97ftl07yajgm09az&pt=&url=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login&ref=&sr=800x600&ud=%7B%7D&vn=Y&ci=&jstk=Y",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 525,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": ""
+        },
+        "responseBodyHash": "3d060b56f29d264a7b762f33dbf842c1aba533fab128b968ce139524c4290ac8",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/track.js"
+        ],
+        "time": 0.027933000004850328
+      },
+      {
+        "url": "https://track.adform.net/Serving/TrackPoint/?CC=1&pm=2002730&ADFPageName=Casino_site_visits&ADFdivider=%7C&ord=243065447023&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 765,
+        "remoteIPAddress": "37.157.4.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, no-transform",
+          "expires": "-1",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa TAIa PSAa PSDa OUR LEG NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "uid=6189748596472373878; domain=adform.net; expires=Sat, 19-Feb-2022 18:02:34 GMT; path=/; secure; SameSite=None"
+        },
+        "responseBodyHash": "4d3497526e6e538bd40795d1a6e43f9a9e516853321371d09374c2ba2f708cbe",
+        "redirectedFrom": "https://track.adform.net/Serving/TrackPoint/?pm=2002730&ADFPageName=Casino_site_visits&ADFdivider=%7C&ord=243065447023&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "initiators": [
+          "https://track.adform.net/serving/scripts/trackpoint/async/"
+        ],
+        "time": 0.017792999991797842
+      },
+      {
+        "url": "https://supportpage.ladesk.com/themes/embedded_chat/ascent/chat.css?v=5.23.20.6",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer",
+        "referer": "",
+        "status": 200,
+        "size": 27732,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "W/\"27f47-5c56c034bea80\"",
+          "expires": "Tue, 28 Dec 2021 17:50:25 GMT"
+        },
+        "responseBodyHash": "2412d3f401f4a26b7fc1722e983cb3b6a13a3984fb184cad73bad1fa84bbc65e",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/generateWidget.php?v=5.23.20.6&t=1640109604&cwid=b4c236a6&cwrt=C&cwt=chat&pt=&ref=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login"
+        ],
+        "time": 0.027358000006643124
+      },
+      {
+        "url": "https://supportpage.ladesk.com/themes/contact/ascent/contact.css?v=5.23.20.6",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer",
+        "referer": "",
+        "status": 200,
+        "size": 44100,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "W/\"248e0-5c56c034bea80\"",
+          "expires": "Tue, 28 Dec 2021 17:51:46 GMT"
+        },
+        "responseBodyHash": "5434e8259cf0482ff8ef1dee008b1c9060a63c4875fab29d999ace77c78fb557",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/generateWidget.php?v=5.23.20.6&t=1640109604&cwid=b4c236a6&cwrt=C&cwt=onlineform&pt=&ref=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login"
+        ],
+        "time": 0.05078100001264829
+      },
+      {
+        "url": "https://supportpage.ladesk.com/scripts/file.php?view=Y&file=9730e231531028e2ad9c54dc7b2a7e90",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer",
+        "referer": "",
+        "status": 200,
+        "size": 5083,
+        "remoteIPAddress": "91.201.28.202",
+        "responseHeaders": {
+          "cache-control": "max-age=36000",
+          "expires": "Tue, 21 Dec 21 20:42:26 -0700"
+        },
+        "responseBodyHash": "3d2dd012b05abd51673143122fe414e347fb1bb72458bffc4a1cac1c9902ccb0",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/generateWidget.php?v=5.23.20.6&t=1640109604&cwid=b4c236a6&cwrt=C&cwt=onlineform&pt=&ref=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login"
+        ],
+        "time": 0.047984000004362315
+      },
+      {
+        "url": "https://1-vbus-eu.ladesk.com/5_23_20_6/scripts/lib/bus.html?v=5.23.20.6",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 10697,
+        "remoteIPAddress": "91.201.28.221",
+        "responseHeaders": {
+          "etag": "W/\"60d306ce-86c9\""
+        },
+        "responseBodyHash": "a0d64bfec1d5405f09487a58924f8afd40919c90e32d4d862ea69ffc5d4581d4",
+        "initiators": [
+          "https://supportpage.ladesk.com/scripts/track.js",
+          "https://supportpage.ladesk.com/scripts/track_visit.php?t=Y&C=Track&B=m2sk6556j7874gqacas99y7rvw8yu&S=t2p0c5tixb12d97ftl07yajgm09az&pt=&url=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login&ref=&sr=800x600&ud=%7B%7D&vn=Y&ci=&jstk=Y"
+        ],
+        "time": 0.09128699998836964
+      },
+      {
+        "url": "https://a2.adform.net/Serving/TrackPoint/?pm=2457682&ADFPageName=Casino_site_visits&ADFdivider=%7C&ord=721987730497&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&itm=e30&loc=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/",
+        "status": 200,
+        "size": 600,
+        "remoteIPAddress": "185.167.164.51",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, no-transform",
+          "expires": "-1",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa TAIa PSAa PSDa OUR LEG NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "uid=6189748596472373878; domain=adform.net; expires=Sat, 19-Feb-2022 18:02:34 GMT; path=/; secure; SameSite=None"
+        },
+        "responseBodyHash": "b0dc1a1c96ff65519ccc74789f54d8731c6a950d34fbf3bb405d9d737dfc2cac",
+        "initiators": [
+          "https://track.adform.net/serving/scripts/trackpoint/async/",
+          "https://track.adform.net/Serving/TrackPoint/?pm=2002730&ADFPageName=Casino_site_visits&ADFdivider=%7C&ord=243065447023&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fenergycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login"
+        ],
+        "time": 0.25771700000041164
+      },
+      {
+        "url": "https://energycasino.com/en/json/web-data-user.json?country=nl",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://energycasino.com/en/deposit?bonus_id=6878",
+        "status": 200,
+        "size": 14100,
+        "remoteIPAddress": "52.222.139.82",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-store",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "exp_tracker=%5B%5D; path=/; HttpOnly; SameSite=Lax\nexp_tracker=%7B%220%22%3A%22json%2Fweb-data-user.json%22%2C%221%22%3A%22js%2Fgameresolutions%22%2C%222%22%3A%22deposit%22%2C%22token%22%3A%222fe367564a7188275939d808c848ed2471e4b6a7e132d7a38a378730c37c190bf653818fa367711eb6e0d8ad0b42978c%22%7D; path=/; HttpOnly; SameSite=Lax\nexp_csrf_token=220307725634fd613aa078b0b3f1c11b393af91e; expires=Tue, 21-Dec-2021 20:02:34 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax\nexp_tracker=%7B%220%22%3A%22js%2Fgameresolutions%22%2C%221%22%3A%22deposit%22%2C%22token%22%3A%22add43618bde9298330f411d82e54616c0857d398b645401f40c3ef49e5725e20f342fd9d39199747d427ffdefacb310a%22%7D; path=/; HttpOnly; SameSite=Lax"
+        },
+        "responseBodyHash": "9d093444c1dc6298d51cca29fdfd23e8a9d13e00e5ecea718a10a84454ef2492",
+        "initiators": [
+          "https://energycasino.com/js-bcf/casino/web/bundle/bundle.js?v=93114053c7c210eebbd07cd3e9eb2feb"
+        ],
+        "time": 0.14104600000428036
+      },
+      {
+        "url": "https://1-vbus-eu.ladesk.com/5_23_20_6/u134603_70be/m2sk6556j7874gqacas99y7rvw8yu/event/lp/v2?channels=371f66717a_vb_t2p0c5tixb12d97ftl07yajgm09az&tag=0&time=Tue%2C%2021%20Dec%202021%2013%3A52%3A34%20GMT&eventid=&_=1640109754842",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://1-vbus-eu.ladesk.com/5_23_20_6/scripts/lib/bus.html?v=5.23.20.6",
+        "status": 304,
+        "size": 161,
+        "remoteIPAddress": "91.201.28.221",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://1-vbus-eu.ladesk.com/5_23_20_6/scripts/lib/bus.html?v=5.23.20.6",
+          "https://supportpage.ladesk.com/scripts/track.js",
+          "https://supportpage.ladesk.com/scripts/track_visit.php?t=Y&C=Track&B=m2sk6556j7874gqacas99y7rvw8yu&S=t2p0c5tixb12d97ftl07yajgm09az&pt=&url=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login&ref=&sr=800x600&ud=%7B%7D&vn=Y&ci=&jstk=Y"
+        ],
+        "time": 0.026700000002165325
+      },
+      {
+        "url": "https://1-vbus-eu.ladesk.com/5_23_20_6/u134603_70be/m2sk6556j7874gqacas99y7rvw8yu/event/lp/v2?channels=371f66717a_vb_t2p0c5tixb12d97ftl07yajgm09az&tag=0&time=Tue%2C%2021%20Dec%202021%2013%3A52%3A34%20GMT&eventid=&_=1640109764871",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://1-vbus-eu.ladesk.com/5_23_20_6/scripts/lib/bus.html?v=5.23.20.6",
+        "status": 304,
+        "size": 161,
+        "remoteIPAddress": "91.201.28.221",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "etag": "W/0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://1-vbus-eu.ladesk.com/5_23_20_6/scripts/lib/bus.html?v=5.23.20.6",
+          "https://supportpage.ladesk.com/scripts/track.js",
+          "https://supportpage.ladesk.com/scripts/track_visit.php?t=Y&C=Track&B=m2sk6556j7874gqacas99y7rvw8yu&S=t2p0c5tixb12d97ftl07yajgm09az&pt=&url=__S__energycasino.com%2Fen%2Fdeposit%3Fbonus_id%3D6878%23action%3Auser.login&ref=&sr=800x600&ud=%7B%7D&vn=Y&ci=&jstk=Y"
+        ],
+        "time": 0.027376000012736768
+      }
+    ]
+  }
+}

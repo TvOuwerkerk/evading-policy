@@ -1,0 +1,3875 @@
+{
+  "initialUrl": "https://www.korg.com/",
+  "finalUrl": "https://www.korg.com/us/",
+  "timeout": false,
+  "testStarted": 1640014248397,
+  "testFinished": 1640014269253,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.korg.com/links.www.korg.com_77ea.json",
+    "requests": [
+      {
+        "url": "https://www.korg.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.korg.com/index.php?s=off&u=/",
+        "initiators": [],
+        "time": 0.978077999996458
+      },
+      {
+        "url": "https://www.korg.com/index.php?s=off&u=/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "http://www.korg.com/us/",
+        "redirectedFrom": "https://www.korg.com/",
+        "initiators": [],
+        "time": 0.24682000000029802
+      },
+      {
+        "url": "http://www.korg.com/us/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.korg.com/us/",
+        "redirectedFrom": "https://www.korg.com/index.php?s=off&u=/",
+        "initiators": [],
+        "time": 0.483183000000281
+      },
+      {
+        "url": "https://www.korg.com/us/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 56321,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {},
+        "responseBodyHash": "f9ee4630800988c48775c4b628e3efd58d9df99765c9d4639b763b9c8dac3101",
+        "redirectedFrom": "http://www.korg.com/us/",
+        "initiators": [],
+        "time": 0.7668130000020028
+      },
+      {
+        "url": "https://www.korg.com/global/css/normalize.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 8213,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"12083b-1f10-526819ec68400\""
+        },
+        "responseBodyHash": "0baa2625178bc5ebc538f20e295742058efc73cbb6e517717d6bfa4ce6cc820e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.6931320000003325
+      },
+      {
+        "url": "https://www.korg.com/global/css/global_pc.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 30153,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121b51-74c3-55146ca151eca\""
+        },
+        "responseBodyHash": "515e07f0e916a1dda50b2ee03a7558472b841205531995c571987fd849ed8967",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.931814999999915
+      },
+      {
+        "url": "https://www.korg.com/global/css/modal_pc.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 9861,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"12078e-2580-543f7e4f81540\""
+        },
+        "responseBodyHash": "6fbe91cfdebaf4d56ecc3f4d3a8213c36d7b5faee130d6c6e2440625c5c03cb0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.7043750000011642
+      },
+      {
+        "url": "https://www.korg.com/global/css/top_pc.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 6155,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121f17-1706-535fd12aed900\""
+        },
+        "responseBodyHash": "ec2051ed8a24246804c13cd7c85eb187bb5cc6e0f6f91a64583225e8db808bf9",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.7243490000000747
+      },
+      {
+        "url": "https://www.korg.com/global/js/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 93909,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"12058e-16dc7-4ffd68964a000\""
+        },
+        "responseBodyHash": "32c696facdc745fe3f18c62fc0e8e35dbce7dc26261599ad8feeff2456592680",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.2127020000007178
+      },
+      {
+        "url": "https://www.korg.com/global/js/setting.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 39680,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121f36-99f3-56ea7c8e4ec5b\""
+        },
+        "responseBodyHash": "5d2a36a87f4a1fdcfd2327d12d2648c0580136df79cd016953ff09894e990a7a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.0270759999984875
+      },
+      {
+        "url": "https://www.korg.com/global/js/global_pc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 10283,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"1206f7-271e-535ecafb54600\""
+        },
+        "responseBodyHash": "925d38363a8a8dcf3785b411beaf6a64470b8a60c6262765d885dc2d0c317813",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.9328389999973297
+      },
+      {
+        "url": "https://fast.fonts.net/jsapi/66f1fc9f-f067-4243-95c4-af3b079fba0f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 403,
+        "remoteIPAddress": "104.17.224.78",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=qvRUsEpEAtL9bHvA1NeDBZN0gOpJW8z5uIghe43fK_A-1640014250-0-AUPVCs4R4vycgrBVB08DQ0reilMddRCkFXA6sk5Bm/L254mf3PPYF2Mnm0199xpglNQYGVdg+vwnFc8kqbOl5HQ=; path=/; expires=Mon, 20-Dec-21 16:00:50 GMT; domain=.fonts.net; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.42744200000015553
+      },
+      {
+        "url": "https://www.korg.com/global/js/top.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 3741,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121a9e-d92-535fd0f1b5200\""
+        },
+        "responseBodyHash": "60760996681a7017d4e651f3d9700e6824a4e5ed85e43270533a860cdbc4d23e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.9392800000023271
+      },
+      {
+        "url": "https://www.korg.com/global/images/logo_korg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 4461,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"120520-1066-504539d375880\""
+        },
+        "responseBodyHash": "9273505731ee80badb270202495f30ba761f130ac6a00f3718df3976313de773",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.2878189999973984
+      },
+      {
+        "url": "https://www.korg.com/global/images/icon_list.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 539,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121e95-117-504539d3cb113\""
+        },
+        "responseBodyHash": "8628f7f89002daee238dff83c013dfaaccece024e17f1cac6f5104b080dabffe",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4629039999999804
+      },
+      {
+        "url": "https://www.korg.com/global/images/icon_list_close.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 945,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"120bef-2ad-504539d375880\""
+        },
+        "responseBodyHash": "255104aea97c2867aa49d16cfe4a33091be08f2c12fc29bb6cbda59476e8c5f0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.716948000001139
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f473fa89625a5d2a65b65a5658fd637b.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 231448,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"d0dab6351a969dac593e2032da5e8f88\""
+        },
+        "responseBodyHash": "8ca4cd38cbbd19bdf1b78a1888ead6d9a0c3a3cf47e2ffa6adc46ac6db39359a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5421559999995225
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/c35439323b511dfde8850e08af9eeff2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 193645,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"db3b3e838b64f9f919190e01f3b9fe81\""
+        },
+        "responseBodyHash": "b4fbf4e117c466e2b62d3e473554892df81e2a0db30a48f065a659e67f99e89c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5410379999993893
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/369ece4462d6ad11d70f7ae212385674.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 138852,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"f5a068bf7e202b697894b593c356a39c\""
+        },
+        "responseBodyHash": "3f8c925c282907302ca7d1a0f3f051c1ad86f4a7261675b54e62dbcba8f69b76",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5292960000006133
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7ee2a34ff978c590394feca31c18ccf1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 101909,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"47118151df14ea4a85db0624af12aaa1\""
+        },
+        "responseBodyHash": "1d6b7e8b364b8623920471493db01fb6a4b179a7eddf473e121e194ed19f6194",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5264419999984966
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/fd024f1a33d8fa67a0c7f6b52b6d99ee.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 180929,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"be144d73a901e806fa4ee8c2c83fef31\""
+        },
+        "responseBodyHash": "e4ce6b57e5cfdba88c73b7e17940167873eea22573aeb75d601ba3e9fc5f18c8",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5312560000020312
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/716504b6f62764dccb37735cc4d95124.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 158497,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"8bc5d1a32540b78e54b59f4c0614046e\""
+        },
+        "responseBodyHash": "967a1fc59be28307b2cee3de54cc97da85d6b87710bbbe75143aac298f498007",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5409560000007332
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f652eb0902c3dec7d01c37d5cc322ed8.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 180890,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"b2965293f2f1614008bee5df0c42c63a\""
+        },
+        "responseBodyHash": "2628462bd2922137600d4d39ff2165fcf8ca311c06c09acce60104bffdf02016",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8701440000004368
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/037eebde77ff39eef9d99a6efc21207c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 190404,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"bdbf10dda67f853f7884cd7d826eed1a\""
+        },
+        "responseBodyHash": "5ae2120d2fdc03eeef20183160b9351418d14051ea2a9b1c9cb7282452e14c86",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.713571000000229
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9ef4bade128deb290536f1f24f44b262.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 164134,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0b47a1057b5a06baa1a991b75ab88a9a\""
+        },
+        "responseBodyHash": "79a6e9eb3c503424e62ec89cba6686fbe8b3acbc223b6282293aa85f3fed5c3b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7999870000021474
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/b9ef6afbaae0a20e78d81cfbdd84c8a0.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 281237,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"f1e895ab70fcfeb338e0efac7b9f2620\""
+        },
+        "responseBodyHash": "12c7c9e4546507562b2ca3da4916e0b80b5b6dc523be6d16c3c36bb8a88f81f1",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9712069999986852
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1264b869cb659d3d9364fcc10e21ee8a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 135639,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"350a9b233b160b3385e09977f6f56311\""
+        },
+        "responseBodyHash": "7be341d43fc1840aa97f6c9a4e658716dd80c742919e36ce5f4c94732823215f",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9860829999997804
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7f4e04f8d84148732891bfc281059096.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 187556,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"87be25b812ff344765f461368fd50679\""
+        },
+        "responseBodyHash": "1305e3f1cbebbd78efbab8ddff59876d3a042705b1f31062b18ea4de90f3ac17",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9591350000009697
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/3717d55f08b8cf99acb5cfb604c91f15.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88336,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c90403f2cdff72b09eea444211787f64\""
+        },
+        "responseBodyHash": "a104223cf20515fa7e1e59f2e960a8b1972765f0a8e6d3fe6aadf8c516a1ce9c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.728186000000278
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/8b902df2ad796b6af09a50dd31963a30.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 91388,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"128a3dc966e3e6c5c4fb287e0defa429\""
+        },
+        "responseBodyHash": "334510fdd0a66ee867e963783e6c58c9cc6f8212e329f8fd52f86aa30801142b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7345249999998487
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/e0bf1b8ca1bcbd8a3fcc91b1e827c140.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 207094,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"fb07a0a6b8a95a1ea0170e79f4de1cd4\""
+        },
+        "responseBodyHash": "f0d228c0d5ef6699d5dd8bbe557d03c160d06983d0bda7756751dd0efa2f4455",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8400590000019292
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9e187907ea3629c7740102fb34b93c4d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 121375,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"33077c4f6cf325181336e766af6c0b7e\""
+        },
+        "responseBodyHash": "1e027233389debba35a929940b52bcfecd05c15570cf472852624355485a89c5",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7647199999992154
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/c90bd36accb20ce372232426a50c6c77.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 72058,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"4259f856aa8ff1dc7b5655a9b21f6fdf\""
+        },
+        "responseBodyHash": "fd06bedae8c2d7ecacfbf5dd7d79b5cbd087b1478cd41061e6b587ffe8853eab",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9910739999977523
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/09f32f4cb1824044ec4bfd6043b700f3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 37418,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"11af3339e35bd83619bae2a5b88d165e\""
+        },
+        "responseBodyHash": "53352d504ef717f25360286bffb6c2e433e183e5f595f7b99ec0b383d425eea2",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8359509999972943
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/e278fd1bc615147207346d5f521c1f85.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 121557,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"ca32b1adc179a466e4c40dd9dd2e32ed\""
+        },
+        "responseBodyHash": "021dc72ece399e014f40035a020cda73878210618d6102b8b93a630630c4870a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6738060000025143
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f0f8bcac045a8bc00696fa5843335cd8.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 141530,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0017ff64e66b3611093c53284ddf7227\""
+        },
+        "responseBodyHash": "303290d3f0969aa461f8e14015a9221334e28317fdc3837b053284c8ab2573f4",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6281550000021525
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/831029e442a316d42af633f6cd942727.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 101235,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"2cf30d10b86df63411a8e8a2dd290666\""
+        },
+        "responseBodyHash": "c70a21ca5887f6c418deb86682ea0599d10783782cea7feb441f8a6c3f512e3f",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5654649999996764
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/0dad69068ed57e2aed5e363d7234b533.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 197204,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"4f7ea39c6e1a4e39d468bf5c6b6180ca\""
+        },
+        "responseBodyHash": "0900c1a492fbb2926de1e4693134307b881ff5ea1a2258d84bb9934094789bca",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.0242099999995844
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/0e7ff7b38a522eb21fe99d0271245b61.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 198456,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"d58019e3086b4d52d6aab54dd6803c24\""
+        },
+        "responseBodyHash": "e3829216b412fbdb26d8595e416c9a2dd110da446b886e5ce3eb6122b7ff638f",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9811860000008892
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/a721953eea7d5af02ed9a48a6229df28.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 161295,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"b0769bd2a874d53f836edea458607792\""
+        },
+        "responseBodyHash": "1ad3fa2161806abba418f73387c9792f784f41d2d1b33e7266dbd61baaafaf8c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.638520000000426
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7f45fe16bf080621a30af88e14326b81.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 134746,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"098877d5bd353af972b615db31365bad\""
+        },
+        "responseBodyHash": "379f5be6fb98945205705ba37964254382ca8e68665cdbd23fb4127e8ab3c1f7",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.62325200000123
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/c9ca9334f42034eeaf19cb25757df2fb.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 94282,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"111af35704100ea141c54e43f5742e93\""
+        },
+        "responseBodyHash": "fd241cccd5bad7a4cf3ff18bcd1649ec5260c3961ea7efa81c4c06ef1e4e76b7",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8879290000004403
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f7ebdf77448f321e7584d210752636de.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 98779,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"d1b4e38cedaa17b2eeac6652be8159e6\""
+        },
+        "responseBodyHash": "3e889540892359fada6c77ed1d8e1e5a450d974f267163e5ad0207ba4b350b52",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.564620000001014
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/2f4676a46bb641900c42eb7ec3f068e4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 83094,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"06c5fbdb775881bd478c82ccd00f68aa\""
+        },
+        "responseBodyHash": "6f79764a17e495907d3bdd1c238389f6eb97d55488b20cd38c94b545e12e7011",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.934346000001824
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/36d14b8446b88b8496bf75981ee9b563.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 71736,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"6d5e82cbac49f90aada207301b34e358\""
+        },
+        "responseBodyHash": "3f684a28481a5da995d06116003f2999ffc3beffad5947f535eb33bb60eb5b94",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5648419999997714
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/648aa206f370782b6f155ff711f9cf0a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 94566,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"ac5812c9c562c9e0be4abd380d25d292\""
+        },
+        "responseBodyHash": "d00c2e37099b10180ccc9676441a3c54ecc33cdda78b35ccb9be78ca4e1761af",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6456099999995786
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/3286f12965404bf49a8f309794a021a7.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 90829,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"3cd11977f33fb44ddc81c9b870c806eb\""
+        },
+        "responseBodyHash": "d2510d2f2593cb0ee9cc2ce35314a8b80ec67ad206e65e01e283cad3645b551b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.833371000000625
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/b0857de91f4ce91ba5a7e3150eabad5a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 117631,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"3600821f2918f3ae53bf404b1fb1eebf\""
+        },
+        "responseBodyHash": "bbdf373e33f3cbf54b1ad9e4fe64e6b51ef8dd5fe435a263c978f3cd3d368b3c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6122980000000098
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/af1cd3790362223476116765d4ca2954.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88956,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"5584dd6de99c3a471d14d9f3e40b9ac2\""
+        },
+        "responseBodyHash": "3aba0475fa134b48920b03927bc07174d32fc3e03ecd621df64dbb98a587865d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5780640000011772
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9be1167ce9f1a6a1a84a7a79eb68b8eb.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 156643,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"1bacce242acebace8c43aebbe4065a9f\""
+        },
+        "responseBodyHash": "9d11cb6acbb1de0bdf62098a6d48b04b8e38e51858474fd415af3eeb75743854",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7431390000019746
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/fc25faa6f15756130cc663d654e8add2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 102860,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"5f240ede931f602f42969873b4eae746\""
+        },
+        "responseBodyHash": "42903bee5a345b927adc8b459f5aa67725a6d498f455a6d9db9607c9804319a9",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6564389999984996
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/e6e4170cc59eb01a2e17799b90dc5477.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 108203,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"65c96720fd36ea53ab3e4285309cf514\""
+        },
+        "responseBodyHash": "28541130f0fcc89d76f1261052ecd89965c1b40ffc129a605fcc0611e41d4f60",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9603150000002643
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/bb6e8d14967d376ebd6f795bc98e8d03.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 154320,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0f544a01d4c71daffd1c335bcddbbf13\""
+        },
+        "responseBodyHash": "a002f0b035a1a9d162a660b41199cad26d11b05179473eb8d560b562ec1b7e49",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9393060000002151
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/3d89dd2a118d98b1ec98f311a38d90e7.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 78326,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e070274b9368504a01fae13c8d188f85\""
+        },
+        "responseBodyHash": "d5e11012b0bff58ca1ffb152c36228bd37daf83d74dbfae07e8a19f81e46e395",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.01958200000081
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5e33243a50641682a9dc267524d927d6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 58537,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"1ee780b0d8d55023c78dec882e03ec5e\""
+        },
+        "responseBodyHash": "9cc5a26e599fbfcb258e23b4d84c7e4545966f9ede69d1aaf89314a8853348a3",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.716840000000957
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/2034bc311c12d5604e05027918b25eb2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 92875,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"ff29fe1ed33ec3d8e5b9a568bc649a48\""
+        },
+        "responseBodyHash": "324bc42f8696fe025744996d6f8c16e62134948a42bc87b1cf82f6459dbfab76",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.769004000001587
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/c4131f91eb324159151077b650fa4d10.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 145534,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e4ceacb706c2d5e31e4939da12868775\""
+        },
+        "responseBodyHash": "17e90fde1885efc54b62bbb229dc41a1d1e49885a4892f2f7983063640bfab9b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.916031999997358
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/ec12dcbc5b15958db433d29bdc081415.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 63392,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0305442da1a19c9f64131bf21e481fea\""
+        },
+        "responseBodyHash": "54745996c6a594abd460496ba3345a414e604d86f37db65acd787441284a8e8e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7156230000000505
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/23c00d4d2fd2c026f3b6b9f5bc4add73.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 80839,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"26dea8faf24cc7f3cc89c5a430dd5387\""
+        },
+        "responseBodyHash": "bb30813c5295f378259df05925c09559e46c69b7aace7ce3d63263ad9844adb6",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.813111999999819
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/51ab6048f419745f618933f8279b4ee1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 68569,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"72edd99852d660abfc2cc627ca17b7ea\""
+        },
+        "responseBodyHash": "eadc7c3ab588d32da5a05d819d9ce8a0250d69f843eed581012dfb1901c2349e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6457860000009532
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/dc891fbd411667f5e331b35b7960eb8d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 62717,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"a79477731179b339ce6ba4f972c35fc1\""
+        },
+        "responseBodyHash": "2bd50a94b797bcfa31e364143345e26bab75001556f88495c58e129abdac41d8",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8039150000004156
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5a363186583faad3ec195f2c596ac01a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 80156,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0cb823553ba8ff763aeae0f9f7ec6181\""
+        },
+        "responseBodyHash": "3f553c6c6e9ef06f36bb621554e9c0e7c3a83071a53caa580d699906dc84c204",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6140959999975166
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/ce56db8d8fa230e8674d577ed8042f87.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 97114,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c4641b31341fcf895da277c71528dce6\""
+        },
+        "responseBodyHash": "bbee91aaee5b00ce95fd19e5c742b8a5ddf0eca7bbee4822c177ae6608266b1c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8740430000034394
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/3b3ac3486577da0c15a038cb4291eea1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 105250,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"20c39814ce7b6f9a7a93004437a357d6\""
+        },
+        "responseBodyHash": "3d6a57fd5c88a78d38ced059e78276ae8b62b25715dd34122ac178ac95f5a6cd",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5725170000005164
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/fa16645b872198eb15cce455bd007465.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 121276,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"7a67c557a0ec9ca18ee98dce3d91c8dd\""
+        },
+        "responseBodyHash": "4ae904e4b7aa4f716d018ccb487a3ad4739e62b54b00bf9946203b7ac243f1ae",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7650639999992563
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5b2de1d9562bdca61ab7b7614c8cf00f.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 79031,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"a2de9582db2c72967b14db16a8ff94c6\""
+        },
+        "responseBodyHash": "46db2258b31a7fd8855f9250ee5977e002f3c1167fc92def6c9a75c8630f6976",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6489049999981944
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/62a20e523045d9d99d0c3cbd68a8aa2d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 60304,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"f5931e3df4e549fc6cf349f7cc7731ca\""
+        },
+        "responseBodyHash": "83ab91122184f5eecd993acc298a4f5be2ac455c5c4d6227817f60828ca575a0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7460309999987658
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/0d19a027c6f34d37ecb3c9e29e93b68e.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 96740,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"909e7abd40ce4778174e93a4bd183c85\""
+        },
+        "responseBodyHash": "edc3ea73467a49fbaf943b50e1636c168944550ef7267a0459219fd9021ac18e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5409119999967515
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/ec44b7ee21f49d315d45a6a9804a70a3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 84206,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"06191c91e517888d4667a731ea23a716\""
+        },
+        "responseBodyHash": "5aa2ecfd7d2d7a0e68b971e81c60302f00198d188a262b6ffd02f77648261c62",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6744149999976798
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/a7ee20e8f2e6dc80d062fa5b82569567.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 116559,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"00f76504cb58b0bcc5ab9ded5be6eaa6\""
+        },
+        "responseBodyHash": "ad1fe9a495e2f390a849f93eab398df68e4e6a62529fd8a496822585755a9785",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6895110000004934
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/58185db238a195de37475438286a131a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 138730,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"ba272ddffaab9819e3dd909eeed8784f\""
+        },
+        "responseBodyHash": "b9f7e9be7ff4448f84bf6969cbfb2a92fe77f6793a503f04ed91d9d9ceea0aad",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8318970000000263
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/a03aa5f5e6790978c2b867dd47efd73c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 65054,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"84faef47555a323ecdb50c91dc2cbe3d\""
+        },
+        "responseBodyHash": "7666d7c371745f26c7c1b345185b91fd4b4b7f7234633e0742b95e3ed2267876",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8611689999997907
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/177b4cac65563ff030804ba090139396.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 99116,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"27105181b3e2c61b26b3961f464f06bf\""
+        },
+        "responseBodyHash": "ff3e9d6b02a821b461f37424f81466fa95c57568b466c1e35779f1449b95c74e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7365659999995842
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f46cf4d5c8163c708a31f2b91c240be1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 67852,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"1ad88f119cef4880ae44e60a5338d702\""
+        },
+        "responseBodyHash": "7b595eacfaca9c9aa382d4b8116106ea3fb38bd592fc3d87568f6c6f1de56ae8",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9725650000000314
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/62ead2312bb78a041fdcaf0ac93cc2dc.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 173644,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0ea296b4c286f59e475f8fe93468a301\""
+        },
+        "responseBodyHash": "2b06cd0cf3303bd2f96e978c2d317d56d74b6b014e55daac176196d5f992c57a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.837617000001046
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7bf42b3a58dc34332541851b93dd35e5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 54243,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"2bcbc87de556d56e9a2cb1ce10b02e60\""
+        },
+        "responseBodyHash": "aaedce113aaa9dcf45f3185a0a49b5b62ac55751a28d6da1dabc811a9d64f6ab",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.846215999998094
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/04f0f41620e080f52b3be242c4af17c7.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 222520,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"7bbc2937d65f798c84d12924842a2063\""
+        },
+        "responseBodyHash": "4208b6329c4878d2f653c96f6fb4c105a689b3addfb9ca406d49ccc69e0a6217",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8628849999986414
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f7e92b669166629563219770370dcd44.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 75383,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"7c81743368eb821611750fd926d2ff23\""
+        },
+        "responseBodyHash": "d701c5f2b1b90a48bd743c0d19f38279fbe3375869b002a29726f0fd9132afd4",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5567080000000715
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/fc8cc566c032742ceecc382869931ca7.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 73559,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"eb20f3fcd48b718fed7f310531006aa5\""
+        },
+        "responseBodyHash": "e23ccd0f3debf3c3ef3439ca6943ba685803c587be79fb01509ee1060d0129bf",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8709899999994377
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/601924feca46e20eda92d9248dddd671.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 97051,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"948f6f94f0d5d87480b9127410b96249\""
+        },
+        "responseBodyHash": "6e5a9844c6a26d3836ec672361d7188ea9b4c069d9ff205e6ff2b5dc57c482fe",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7167069999995874
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5f03aa117232b0e03c5445915cc2d4e0.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 76926,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"1ae75f92a42cc633db860ce5694b791a\""
+        },
+        "responseBodyHash": "90699923402db4f991d65aa65708178a27ee6c2d45779c75981753a1b81e0023",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6265290000010282
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/186da5f26f4e0b11ef5e13f017e78faf.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 250231,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"10e73ed7a72aef391596aa76804191ce\""
+        },
+        "responseBodyHash": "078d7335b53ee3edf5faee2b093764fd7b09b89fe06ac2c65cca4fd48c90b292",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9699540000001434
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/38380ac577401ad4ac5eb139911cedd6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 128250,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e89cbd591412b8473742df52376bd598\""
+        },
+        "responseBodyHash": "569914dd8945ea82fc213a92a6f5c960f9fffe227a9bc6ee33f96bcc39c3d70c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5953950000002806
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/4bceb23e6f6d030cb87d40e92255fda2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 99977,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"13a3bc9e5f19cef0187a211ffd3f6ff6\""
+        },
+        "responseBodyHash": "8fbdbf1c59a4e6220115e5e68733e070546eb0182a2c162480dd6b3a4327dff6",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.000942999999097
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/77a634b34d6887449a4a41891fa5727d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 211819,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"fb4a92b4f3f73827343419f6540890e1\""
+        },
+        "responseBodyHash": "c27df756da9efe40037f7e08b304f1495218eb0deafddc1cd8eea04dd6868e2c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5555700000004435
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/69aad8f5220dff7f4003ae073222f3a5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 144815,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"6f50db2d3e539e3b7938c4f9c5d8fb1d\""
+        },
+        "responseBodyHash": "53b680693ecb396d04c0d0e0419216cbd4a1ec73f78275298a70285b0c9ec7af",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.032101999997394
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/61aaa85d39b4ca8cfe52929811c2cabe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 102927,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"448a02bf40aeb3b19ec020749ba959f0\""
+        },
+        "responseBodyHash": "c3a279969ff1f59c6935548e67a8df90b2c9fd02d0bee830fc6a2844721ee7e0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7329649999992398
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1c88a87b4c6b5a82638c050f1675da50.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 167006,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"1d6949636247282c2a32bd5ddbef27a8\""
+        },
+        "responseBodyHash": "89744ca013f3931f456cf6935acad030b02e4b2bec30f993d35a22221901570d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8889249999992899
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/64ab999c93887f5037ace77203de93cb.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 181535,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"70fd41d95534494c529cc80a68998ed4\""
+        },
+        "responseBodyHash": "3b91d37fbc2779c8d87000377cde77f7445df02d7e7c53929eb63deab8b2126c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9365539999998873
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/3b7d84a6d66cb9d3a416f3dae034b666.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 273017,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"7d6f124b92949631f6c5bf6415900625\""
+        },
+        "responseBodyHash": "553cd0a10fa1d6202b954903d3762c89d55840671d333494c08847b5440f4bd2",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.944911000002321
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/cd3707852ba6f3639c5854ee1ac6bed0.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 117859,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c90ac5b6e152e9f2df73cc2fb705e283\""
+        },
+        "responseBodyHash": "43db1ee87042048281abe89686f67394a4a53f48b303c35c8a59a11dbc6d354c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8774239999984275
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/dd25c05a17a6c3dba57b8d0d78766233.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 335927,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"bd6cb8a534e0a4ee55d184389e78434b\""
+        },
+        "responseBodyHash": "89354b77470428e9532051a7c66414be8f3626442c040704a7154363ce804d92",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6968940000006114
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/2e71c431b56f2e0892a73896762fafbd.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 131408,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"f5bd41e99251347d524d59739bb13cdd\""
+        },
+        "responseBodyHash": "c6cfa6c696874ec8958ce377667baca0b79cf2632f1eda8183cd3f673bcd2c07",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.89670599999954
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9126cc39268ceb15c3ab410bf925d1fa.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 66467,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e8e9c4de7593625451b359501dde75de\""
+        },
+        "responseBodyHash": "85dcd5f76a1ca25adae379585fd9c51a90847c2049d9f9df8b425a6e3895c395",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6560590000008233
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/25b927c4b99071da6979daaf58113bea.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 202008,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"29ac4adbfd1c53cc7cf25ddff87a7841\""
+        },
+        "responseBodyHash": "9b42ccc0af12f84253b8ff7d8e239123126e37666eadbcf08d4cf05cd467a034",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6769549999989977
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5e5a6ef0533affd30fca8324ab60681c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 118416,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"554508750bfb8572ccad4217d43aa63c\""
+        },
+        "responseBodyHash": "5c452b5ef78cd41c65a46ba530aeb7f315b86f41ad4dd1b25d85ce51f3c9a17d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6924289999988105
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/a95868e7f28e089e782d5f7ff38934f7.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 76363,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"40372c95e1bbbe37b3369c360a8a77e3\""
+        },
+        "responseBodyHash": "702bb318ba32a0785392607904ee99793d9007c68fc58604c353cf4f004a665a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.003697000000102
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/b4aca02069d01d30efe268acd047657a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 91504,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e4d7d12da08d860cda4018a753f461bc\""
+        },
+        "responseBodyHash": "48f8b0f9444b0dc696909c1be1d776624d45b0eac93353b20fb459cfb2fce560",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.841762000000017
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/d581e61aee3fd5fd88bace29c1adf68a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 137508,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"302b5b8423a4883a3bdcccdfc598ace3\""
+        },
+        "responseBodyHash": "e4295fac4326dca420eec07971d6dc10862c54195fa923c08e7add78bc8b302b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.829901000000973
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9c6b7d011cf588956100245b687677f2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 110761,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"6655aa3f759fd0753fbb7ad434f37dd4\""
+        },
+        "responseBodyHash": "efc8b5117cb782088834dd8b5793fdd9c19eccaaab900cd205f8c47f064647ac",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.0438479999975243
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1ef23df189a0a7255276c80b6efc8df2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 146249,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"756b24c667f14dd2834467932b04122b\""
+        },
+        "responseBodyHash": "579a6f1be8b4c1f26a9fd6ebc8b80019f8c5a6f7634aae31fcb3c4ff46c024c8",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6046859999987646
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/469685e37a8e3461c0818ae2e363cbb5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 168907,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e596df5a0a3eedb38537594c54e466ec\""
+        },
+        "responseBodyHash": "99905907f411aae4d936bf6ba834b431904cbd19efa909788e85a7b73c4bca6b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.023999000000913
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1eb603328473daee0e079386379cc1ff.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 110315,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"1c662d1fb6b5198d7a815f1e63ddb945\""
+        },
+        "responseBodyHash": "7d1a07829e8caae1aa973fa857b78e738d8f2fe06742e3c184eb0ef315ba6752",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7586620000001858
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/0025f2aa83f94bcb1992ec58c72cb77a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 85537,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"49dc47210fa84667a3a343ebdb476508\""
+        },
+        "responseBodyHash": "7cad5d47b5480ab612ad806f37f67c0141bd1a76560dd7c706a76e789fd4b3e4",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.0109770000017306
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9472478445c64fd4fb4ea8be10de565a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 120325,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"3f0721a7c50f8d1c4c78d2461c641fe9\""
+        },
+        "responseBodyHash": "3947d22870a5099f3e95088e795c9c39022c115c0040174dd5e4586453a1fb57",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.872033999999985
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/c74e7a32263cc8ee0f3477b8f3989fec.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 119191,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0241fbe925f95088e12be116284819b7\""
+        },
+        "responseBodyHash": "7e8a55ff4111acc4f42578f21efd623ab775243e337d6ea2560bfb9f55a2484f",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.833281999999599
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f444758c012311ba90757792a5558b24.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 53129,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"77419b36f66630281f7ef58e6d5438c3\""
+        },
+        "responseBodyHash": "2258a8559edeb6609bb1f57e000b6fb7d41e95ac1eed181a21589445abe2920a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6457190000000992
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/12e42c88167d8a2a118063988f2d0886.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 156827,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"48851e988de232501ac0cc146b5d6fdf\""
+        },
+        "responseBodyHash": "3f125be0418ffafecdb3d772b6912cb1888c8abb4ea817b82b26397baa1b1629",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8012940000007802
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/bd6dd51947baead4d558f7d620500519.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 132582,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"da38c4d9af32bcf1b0053df675bfe784\""
+        },
+        "responseBodyHash": "3edf736393180a6ba32dbcb3f1654a44650cde778d704dcb122b1f837ee6e88a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 2.020193999996991
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/4e8ef146fffc0fe1b4d4a76a1c927570.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 213590,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"250b74d98953077f8eb0689b22c9beca\""
+        },
+        "responseBodyHash": "707e00dd0f92599b561e02e3ac32128b5dde243dff0c33e0ad58e4aaa93ddce5",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7163019999970857
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/bfb58fd448e494754283b14ec8d44ed6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 136228,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"741c3a3b263bb776c40867d3e12a9cbd\""
+        },
+        "responseBodyHash": "ac78daccc2e2ebd451c5104590cf4bce287f96aea8b11b343f71e18af874d8f1",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6362200000003213
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9667ce9f528ec77893648b8b954e2c3d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 111182,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"24a2d70ab24344d84eac27ca44837587\""
+        },
+        "responseBodyHash": "a8adb1b10380aa1a2dffff7ccbef1f42dbc0402de7dc0094d34bccf66055037d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8947619999999006
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7eb5489479f45f934cb30e0eaafa7a14.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 97969,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"991749119b89cf9296fb3bf32f3ee3a0\""
+        },
+        "responseBodyHash": "ddccac71e80dc809da1b20292e110725e38e5e5b4490c44f847390b053a01af0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.9135830000013812
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/bd8cc61da5081795b5cd49076139cc41.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 75846,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"371b6c3896fb9e36e53d94389934f731\""
+        },
+        "responseBodyHash": "9f58974386abe562aa45639715169f6890bbc8b2527d62b9ed33538c44ef5fe4",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.552638000001025
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/40c7643af083eea7138c3cad1c142af4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 438375,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c351e3a5976e83a35fea31ab85712f05\""
+        },
+        "responseBodyHash": "85de05fba5771fff497f7217832826613b1df3e36cdfb30830056385b49b93f4",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.733938000001217
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5d99a1c2eac1b5d49f17def7d39a344f.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 108287,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"fc3c50964fd3a3266a8ac05d16edafed\""
+        },
+        "responseBodyHash": "dd428dfdda59812473645ed41eebbeb4b2269fe2ee8c5376c9c2c824699a70c6",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7470130000001518
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/df7bb1c15417c8c634e7bbf03b9ce3d1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 141608,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"bba4bc727cf136f034b91eb07c4aa644\""
+        },
+        "responseBodyHash": "e17b8922dcf47cff9a6010e4ed9c4516952a54612496abe900af92e6f435ce78",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7066019999983837
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/6b17ee775e3e56c79dfb2b96a01635a4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 75434,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"939b7d2f7fbcd47f09d10b17c2ba4226\""
+        },
+        "responseBodyHash": "262d44e86fe0d953b14611863876035d5973ec1fb1a83961c820622dc2b1443c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8103399999999965
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/864d3166319a2c4efb243f381414e626.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 75757,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"cebadccceb057b7506397c13b0c90fff\""
+        },
+        "responseBodyHash": "3f95fba0fba9f772678ffb6bd1a2a687791b2785781dd573a1319d0df335bba0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6283739999998943
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/00d8b68515501ee3c9f3904bb9d1c8a5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 98908,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"36b3ae57f47d18d2b493008a3751a358\""
+        },
+        "responseBodyHash": "81f6a58b4307bd8863ea0e2dcc486515fe1e54d2b81167702a42d7e9d1929810",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5198529999979655
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/4617d993dd327ae07d5ef53b632480b4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 307172,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"9b33fb5ac0176f7d163e74bbe1cf1ec4\""
+        },
+        "responseBodyHash": "720c00d85e2a42145babe789b2ea21753fbc536779845b1d6c32a6e55f9c2c3a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5602819999985513
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/ddd2d220f22774691990289332591972.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 349876,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c3977c6251f9ffc00328987dcebfedb2\""
+        },
+        "responseBodyHash": "204db45e6b866495f9504625d903aac9b1602431a13b7e28433287a4a51b1d8a",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7143529999993916
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1abc8239d9b60caa4570fd4cea7668bc.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 359082,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"8c2659b93c4ff1154b1420f9f1cd709d\""
+        },
+        "responseBodyHash": "4ec313a406924c378120aa022b63206de1d92f48e09187604ddbd6242cc5f8f6",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.623870999999781
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/a002a993bd785610652faf917b6fe6b0.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 279685,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"b819040de2bc59d33a84c43b157c81c4\""
+        },
+        "responseBodyHash": "08fcc9bf33f1fe90f504d3f68ee7861653e658ebc82742476af448e77dae8fb1",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8171820000025036
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/0b0944243b6222ce4e5e094f4559ecfe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 362187,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"92ebd741ebdd1b5c09f70439f84ee402\""
+        },
+        "responseBodyHash": "b1c99f9cd86bce0a57d7d526604f2fe9649082ccb9fb8b970f5239e328e9e3f7",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.411867999999231
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/34ca544d60b8f160636041ea84914cce.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 267294,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"9ec1436fdade7d5079ea84979a333d4c\""
+        },
+        "responseBodyHash": "79df87de2929c120233a7b885c9caab4d41cc727616c193a9333ec955d1ed82e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8122670000011567
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/75762148ae079991289a7f942b51db63.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 228966,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"559faef1858b6e929fe20945c5181bb5\""
+        },
+        "responseBodyHash": "61566b6c4813096ab9795b88172f81b28a22b73e11964da3c020944956b98d01",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5552089999982854
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/93b3abc3e732cd517a437042c7927d92.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 166773,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c71e7b60e80cb2bd5752e323772bd668\""
+        },
+        "responseBodyHash": "52e801a7e5fdc1ce6be43729f1ecb371386155344572928f21c7b0322f7e90c4",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8309690000023693
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7e6c39225aecc1b8b08720f1c8daf6c9.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 143747,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"3b46a2dc7f5718d59b67504bee8e2cea\""
+        },
+        "responseBodyHash": "faf4cf66d12067c31b7be958050e7d1101641cea37eb06ba13dd169f8413d71b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6171940000022005
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/ef4301423015ebaee85acb66dda273cc.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 264517,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"3064492ed649d6de7282459b87f333a8\""
+        },
+        "responseBodyHash": "fa139935042a589dc019802a79c0707123e2fd5d932031a0fa2bb6d6adaf9317",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.3986839999997756
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1a03b864773d24d04012b287cd0692f4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 139888,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"fa237f78e72cb77d007661c576a47a39\""
+        },
+        "responseBodyHash": "e3270586661f45074a958c34171b294384cecb1a7f49c30eec96716db0f50088",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.556232999999338
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/aa721556280d69b2e5303631c913ed2f.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 214243,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"425188aa294dd5cfe99e256d0541278c\""
+        },
+        "responseBodyHash": "221cebf0cdc53b03330740c990a2bea508c3b1abc0364d18f98da7583ee599d6",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4667239999980666
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/dadee005e57c592c521a7b2919d0b66d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 115872,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"c75fe7794d68851af21537f213fbe883\""
+        },
+        "responseBodyHash": "b2a33db6935c94be415d0b7eb3804d29ce5b5e270862f28f61c62cf053c041f6",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5826740000011341
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/893a40be3305cb00c8d0fbbf0870bff3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 106022,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"047ef75e17af15eaf99a6ab513e360a9\""
+        },
+        "responseBodyHash": "bb37bcd25cb06ebca3845178453f4d0e1e99dddfb1b461d3b8b78c7b56bd3abc",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.336580999999569
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/71e99722555cde815b96be41d8b7697c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 120585,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"7b5f0e55dc3a68cd090b7d512b540b82\""
+        },
+        "responseBodyHash": "a9bec0ad487ba7225d6680a5f99067fa1f6a01296124d3e0b939a0755d924b7d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6673899999987043
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f633566318f19aa3f0e5455aecba3ebe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 146951,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"639d1673f985e8b8302eba0abb01fc12\""
+        },
+        "responseBodyHash": "82f898444544cda89202fe567ab8579e84c711917de07489543866009d65b4b2",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4638130000021192
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/44daff4289736e3a31eb6fb78f6662b6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 271099,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"a493e8b35ee52839843f3fb18f9f4ef1\""
+        },
+        "responseBodyHash": "7132cf437a46850119e7359f8204048623cec96fe28148add9aecdadb56092b8",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.682901000000129
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/f89d1ef6c4b3df79349f08c77f3a96b1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 272328,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"b62c2c0c0ca752bfdc36831a4732572f\""
+        },
+        "responseBodyHash": "1ba6388937c5f1913bb7ddd9a15477fa657b1a0782f3e2a9f96e256f16bbb476",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5366329999997106
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/28f228beb11bf3366d99a97271fc2d31.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 180446,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"b05d369598126a1823c3cf72c4f68ff8\""
+        },
+        "responseBodyHash": "d9b4864ce426dcce98bcdbd13a8d0a88aa0faaa8cfdfd4af338a219442005807",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.8298039999972389
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7c19040233cb050ab03d9da70f5d56a9.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 268612,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"df4bb9f88b5dea962d42d9e9417cd725\""
+        },
+        "responseBodyHash": "720cd1b77258a904931b1595fed6f4b6f9a3d9aae071040fc42c075d776570e0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6954050000022107
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/2065111be97d1aaabf8a7fb483ef9b7c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 142844,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"d94d71ec769dccd5309896187ffdf051\""
+        },
+        "responseBodyHash": "07d8ae74b58d1a85a9f1eb51eab9ab7b542af27b00759c03e258e913477c29e0",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7891830000007758
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/4e0f9f2e1f08ff1154ca7660d6763503.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 210494,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"da60e704addd3e7e4666c95ee8117a95\""
+        },
+        "responseBodyHash": "2c09dc85e0d515cb13cf6174b325b55635fbe413b80600cbc88fdd4d11ecbf05",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4354100000018661
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/54d2e9ca5c260047657543d70e1fd274.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 147928,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"4d07af5f513103748de4f848bd8e072f\""
+        },
+        "responseBodyHash": "fc2dc8f6149a5463691844f4c1d62cb09533b6454830c1aa3fe9d2f78ee7565d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4941969999999856
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/9954c2100d7c7421b0e9af714c7d1a2c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 268969,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"be09099502df8ebc38d0411e28a8e437\""
+        },
+        "responseBodyHash": "dc374b8e31acf6b49d2895e9cebeea68f8e1eabaa707e066bdc5e7892e4a070e",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4675419999985024
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/30f676ef5d8f7b1c8b0158ce4129a770.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 393412,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"86d141bfa6a529e6710239bdc1aae210\""
+        },
+        "responseBodyHash": "1b623241ba725b462fd413c9b5fb6e227ae40272554626f41564e977ff6462e5",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7452779999985069
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/710610860d5481b31e0f4a84d97ee9eb.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 272854,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"856198f9f596628c7bd4ac5ea1d9cdd6\""
+        },
+        "responseBodyHash": "4e3d6e66f658e6378d0874b5f1ca7e2ca14682a721f926ef7b9322d078fe5d5d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.834194999999454
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/6a0ae8d5415482043de3053cbc25cb04.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 220448,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"4e81ade29b66b557b64eda09b76bff8f\""
+        },
+        "responseBodyHash": "6bbb119cf24905e2ca3c1c751c3e44eb0d776dc760c3869bb719204f9169229c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.6013359999997192
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/c0c70837ac26b31e4324d7b28fc8e84b.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 252003,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"00c7d506e6d2445a31befbdb2a19366f\""
+        },
+        "responseBodyHash": "91d7c60d30205bc0125cb92dd2d4a2d9e4acac3c719b562fba6bfa680751f61b",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4259730000012496
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/dbf6973fcfa2643dc55850c3cfc6e951.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 137506,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"9d69bd5fe79a293c7393ae88ce1cbea2\""
+        },
+        "responseBodyHash": "6320a4b0cf61ebee0ea3dc296659f7bed89f8bfc09d5703ef0b918d5e2c8a0ac",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4448489999995218
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/41191d87d0a8216ce3abe503bcc67fda.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 380139,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"640da99338400c308a14e21cd82103cf\""
+        },
+        "responseBodyHash": "2dd156261d9fdb11c4f8bcd097412ff27eefbf36d71d11483d6ae4d17925a4a3",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5381209999977727
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/1558e9035f11072ef14c297a1ea84fde.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 246552,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"fbbcb3fcee027b69b807266d21d8c7cf\""
+        },
+        "responseBodyHash": "f1cc0b321a62ad84088fe6811094002fed33f5fd42b286a5a1e42b8b730d3c31",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.83295999999973
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7a1ab575a657aa36522a01fe49f25965.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88956,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"5584dd6de99c3a471d14d9f3e40b9ac2\""
+        },
+        "responseBodyHash": "3aba0475fa134b48920b03927bc07174d32fc3e03ecd621df64dbb98a587865d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.39717500000188
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/50beedc5cee3378cb08c081fe5cac53e.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 267081,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"52dd644b9a87d2fcccb711c7007aca26\""
+        },
+        "responseBodyHash": "ddda1b70cb2531424d47eea443c2dac385a9f2f36b3c510dc4cff0a8b258b70d",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5827400000016496
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/7bd6fbf33be6acf985ebbfefcebc66b9.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 424039,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"202d15d5f3c52dcaaf943d63437afa02\""
+        },
+        "responseBodyHash": "494efa6e9309c487ba16b235bc3744f3582c3517676241ed9cb030d212662a1c",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7517100000004575
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/04e005f1af2f67a8babe8b763654c886.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 128567,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"21c4285919312e4f082d9375af46f085\""
+        },
+        "responseBodyHash": "cc520e3fc9ea9f9b16920c047282ab7a563e857f5ae5f07daba755b67fd57a29",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5879339999992226
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/040c87fc4b13c4e8704976e2aeb13cc9.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 390786,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"85d5805e04acaea714dba2670c7f3a00\""
+        },
+        "responseBodyHash": "ccaa57099d317ecdc17bc80ea5f896de6067153ae408bf367fa0ac921895288f",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.411154000001261
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/eea56b30c64f1866485f9854eaf3f93e.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 425694,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"987660ad27fe54e8ebe0f75239a1a47b\""
+        },
+        "responseBodyHash": "36d428d1bb629450cde661b28089b99671d88b3e77992a69b59511be9af238a1",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5839000000014494
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/635b73d4ba4ce06865a2826f0505eb9c.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 257941,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"0cb0ee65e4d3987c873442ea3b2bcc2c\""
+        },
+        "responseBodyHash": "cf8db1e04b6071992cca7575c927e9a1d5a0fa19726bbfcd9e4b1de69a1c5028",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4591680000012275
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/82780526ff52d54bea11817edac80ed6.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 69118,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"3e853d0c127774ed8c40743350beabad\""
+        },
+        "responseBodyHash": "c28c9a29b31e0675dc910279eacc92a90e67e8347f9463d56c1895a05a2fa8bd",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.4888079999982438
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/572acd4d0553936b1a14196885747094.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 107149,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"09d75d0da84a87040b71e5fbc45813b6\""
+        },
+        "responseBodyHash": "7b850375a00982ded2ddbffcc4d5d90cfdd958f44fb9bc596818de6b1b635b59",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5179859999989276
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/177bee73b10cc11d10d075fd384da298.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 81462,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"9859da99ea25740d7a41f754c3d28d74\""
+        },
+        "responseBodyHash": "834fd86368c393061af5601e25dadf92ed89fa0a96489539d8bac22e8638db95",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.3243990000009944
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/a839c35b61910a6436c61fa72cab691a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 89898,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"e030efa0f139b10b60b6070f9cf9acaa\""
+        },
+        "responseBodyHash": "1339617ec0a7b4e81770dd2ac9875509ffc60a7e8a1732761196eecc47bd35b2",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.566530000000057
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/2e9ab9ca7929ea3f698452fa3c6c545e.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 133392,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"da0f25c0a802d3f6121d5242344cef13\""
+        },
+        "responseBodyHash": "ceaf826a6e5bed45932acca8b4e3a83eb059892c4fb80afec65f434a1512ef47",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.640997000002244
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/b6066a64d30a71eba8bde011f12b21fb.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 31136,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"ef561d51068cad11546d3149af836ccc\""
+        },
+        "responseBodyHash": "63f46c40107ad73ed2aafe0731acc6ff23a1cfe0bcb4c092d3b71e9e6c551bbf",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.7378959999987273
+      },
+      {
+        "url": "https://cdn.korg.com/us/common/images/5581bc046a137e11756cf370fffe6130.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 23737,
+        "remoteIPAddress": "52.222.139.125",
+        "responseHeaders": {
+          "etag": "\"d84fd2b8b69ed2a6a322577567be9d23\""
+        },
+        "responseBodyHash": "a0419bd18c8590e949c4e4b4f62fa09859fa2cf9f3c9cf547e53e6670380b849",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.707008000001224
+      },
+      {
+        "url": "https://www.korg.com/global/images/flag_us.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 1726,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"120bea-5b9-504539d375880\""
+        },
+        "responseBodyHash": "3bbc223490d0f1405873dd9df747bef1539c60ac853093948d3bfa11af5dd499",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 1.5054290000007313
+      },
+      {
+        "url": "https://fast.fonts.net/jsapi/66f1fc9f-f067-4243-95c4-af3b079fba0f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 403,
+        "remoteIPAddress": "104.17.224.78",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.3745539999981702
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 66518,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:30:52 GMT"
+        },
+        "responseBodyHash": "0d154f052ef71f3550e330bea3278460b356c9632f4bcdca8253aecd1585d565",
+        "initiators": [
+          "https://www.korg.com/us/"
+        ],
+        "time": 0.13313999999809312
+      },
+      {
+        "url": "https://www.korg.com/global/images/logo_bg.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/global_pc.css",
+        "status": 200,
+        "size": 480,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121b56-dd-519eebcd89371\""
+        },
+        "responseBodyHash": "f5dd498cbc14f80c2034972488d8e8d48a376690cd55abc24fdee08a73251f85",
+        "initiators": [
+          "https://www.korg.com/global/css/global_pc.css"
+        ],
+        "time": 0.2775069999988773
+      },
+      {
+        "url": "https://www.korg.com/global/images/icon_global.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/global_pc.css",
+        "status": 200,
+        "size": 11006,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121e94-29f7-504539d3cb113\""
+        },
+        "responseBodyHash": "61e2a728f032b12b4d7c0e9d9c00b8d6d129fa589fa41e30a321a0b345cb7367",
+        "initiators": [
+          "https://www.korg.com/global/css/global_pc.css"
+        ],
+        "time": 0.3455309999990277
+      },
+      {
+        "url": "https://www.korg.com/global/images/icon_modal.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/global_pc.css",
+        "status": 200,
+        "size": 3403,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"120513-c46-504539d375880\""
+        },
+        "responseBodyHash": "e6904ae338339b169b4993c8deefca6b410ce6182ecd2608a619dfc1f6e57f14",
+        "initiators": [
+          "https://www.korg.com/global/css/global_pc.css"
+        ],
+        "time": 0.34044100000028266
+      },
+      {
+        "url": "https://www.korg.com/global/images/about_bg.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/global_pc.css",
+        "status": 200,
+        "size": 617,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"120bec-164-504539d375880\""
+        },
+        "responseBodyHash": "90272a9d1a7a92988df0d98307b1fe323a0332442128b5c67f8f6a0fa467dbee",
+        "initiators": [
+          "https://www.korg.com/global/css/global_pc.css"
+        ],
+        "time": 0.34751999999934924
+      },
+      {
+        "url": "https://www.korg.com/global/images/noise.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/top_pc.css",
+        "status": 200,
+        "size": 70569,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121f05-112a1-504539d3f4152\""
+        },
+        "responseBodyHash": "f3cdf0dea5a911eb2872dd14d59037d38f850cb14a1ccca181be81d001d04a4c",
+        "initiators": [
+          "https://www.korg.com/global/css/top_pc.css"
+        ],
+        "time": 0.5850280000013299
+      },
+      {
+        "url": "https://www.korg.com/global/images/modal/sns_instagram.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/modal_pc.css",
+        "status": 200,
+        "size": 1845,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"120575-630-504539d375880\""
+        },
+        "responseBodyHash": "c9bc4bf53143d84a9b357f9660d16e23dab67d289c0bacbb4a089d52df9d00a3",
+        "initiators": [
+          "https://www.korg.com/global/css/modal_pc.css"
+        ],
+        "time": 0.5097219999988738
+      },
+      {
+        "url": "https://www.korg.com/global/images/modal/sns_fb.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/modal_pc.css",
+        "status": 200,
+        "size": 1313,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121eee-41c-504539d3f2212\""
+        },
+        "responseBodyHash": "6f55e8446383663bf58bc5645b66bcb660eb26bcfcf9660c22de8cf04fc750a7",
+        "initiators": [
+          "https://www.korg.com/global/css/modal_pc.css"
+        ],
+        "time": 0.5934559999986959
+      },
+      {
+        "url": "https://www.korg.com/global/images/modal/sns_twitter.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/modal_pc.css",
+        "status": 200,
+        "size": 2068,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121ef9-70f-504539d3f31b2\""
+        },
+        "responseBodyHash": "95ade4b8d2f5faf721bb994a2ba602aeda9aa3aeb464c43580fc418af3eb68e0",
+        "initiators": [
+          "https://www.korg.com/global/css/modal_pc.css"
+        ],
+        "time": 0.5590789999987464
+      },
+      {
+        "url": "https://www.korg.com/global/images/modal/sns_youtube.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/global/css/modal_pc.css",
+        "status": 200,
+        "size": 2583,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"12057f-912-504539d375880\""
+        },
+        "responseBodyHash": "5001556191e74762361f6832855107cd3e9a9f29a5d9e92302ca3b8004688bcc",
+        "initiators": [
+          "https://www.korg.com/global/css/modal_pc.css"
+        ],
+        "time": 0.5703690000009374
+      },
+      {
+        "url": "https://www.korg.com/us/config.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 324,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"a02c6-3c-504539e964c40\""
+        },
+        "responseBodyHash": "9ebe04d97f5327515c94b88a48e056909276135812549dc2451416c6b29b31e7",
+        "initiators": [
+          "https://www.korg.com/global/js/jquery.min.js",
+          "https://www.korg.com/global/js/setting.js"
+        ],
+        "time": 0.5168549999980314
+      },
+      {
+        "url": "https://www.korg.com/global/images/modal/modal_close.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 1024,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121ee7-2fc-504539d3f1272\""
+        },
+        "responseBodyHash": "a326a2d2c87bd319a283c68562b94f741e26d05ffd7e08cc600f5342154b751e",
+        "initiators": [
+          "https://www.korg.com/global/js/jquery.min.js",
+          "https://www.korg.com/global/js/setting.js"
+        ],
+        "time": 0.7285569999985455
+      },
+      {
+        "url": "https://www.korg.com/global/images/load_white.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 3469,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"12051d-c88-504539d375880\""
+        },
+        "responseBodyHash": "2cc058602efe02bb6e527140e68954422f631383715e5875b5175e0d07a457d8",
+        "initiators": [
+          "https://www.korg.com/global/js/jquery.min.js",
+          "https://www.korg.com/global/js/setting.js"
+        ],
+        "time": 0.7079739999971935
+      },
+      {
+        "url": "https://www.korg.com/global/images/btn_pagetop_off.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/us/",
+        "status": 200,
+        "size": 824,
+        "remoteIPAddress": "175.41.250.144",
+        "responseHeaders": {
+          "etag": "\"121e6d-234-504539d3b3a14\""
+        },
+        "responseBodyHash": "c40c94961c39cfdc9d5497a910dceb0eecf1307b37bb87d2391c2d2fb97693f1",
+        "initiators": [
+          "https://www.korg.com/global/js/jquery.min.js",
+          "https://www.korg.com/global/js/global_pc.js"
+        ],
+        "time": 0.6528780000007828
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-1JFWGQH5N5&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 61927,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:30:52 GMT"
+        },
+        "responseBodyHash": "81c81b4ffcdaf3d72415a8e4aac7e1330495bd8f507cee9a352de404b8be5429",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.04075399999783258
+      },
+      {
+        "url": "https://ssl.google-analytics.com/ga.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 17565,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 16:48:31 GMT"
+        },
+        "responseBodyHash": "1259ea99bd76596239bfd3102c679eb0a5052578dc526b0452f4d42f8bcdd45f",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.03942100000131177
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Mon, 20 Dec 2021 15:30:52 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.04859200000282726
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 26816,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.047814999998081475
+      },
+      {
+        "url": "https://secure.quantserve.com/aquant.js?a=p-NWnbTn7fWS2N2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 10115,
+        "remoteIPAddress": "91.228.74.133",
+        "responseHeaders": {
+          "cache-control": "private, max-age=604800",
+          "etag": "\"FMCWFRCBdbNj8Eh2c0G78Q==\"",
+          "expires": "Mon, 27 Dec 2021 15:30:52 GMT"
+        },
+        "responseBodyHash": "487fce51fd801415c362f3f9f2df43c445a4b9ba38f9b6d49dfc898dc85ede94",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.07636899999852176
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1JFWGQH5N5&gtm=2oec10&_p=715165740&sr=800x600&ul=en-us&cid=479432097.1640014253&_s=1&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&dt=KORG%20(USA)&sid=1640014252&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 204,
+        "size": 336,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.korg.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-1JFWGQH5N5&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.027251999999862164
+      },
+      {
+        "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=692163475&utmhn=www.korg.com&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=KORG%20(USA)&utmhid=715165740&utmr=-&utmp=%2Fus%2F&utmht=1640014253367&utmac=UA-47362364-1&utmcc=__utma%3D37975609.479432097.1640014253.1640014253.1640014253.1%3B%2B__utmz%3D37975609.1640014253.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1958209934&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAABAAAE~",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "redirectedTo": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-47362364-1&cid=479432097.1640014253&jid=1958209934&_v=5.7.2&z=692163475",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.15023000000292086
+      },
+      {
+        "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=2&utmn=264513125&utmhn=www.korg.com&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=KORG%20(USA)&utmhid=715165740&utmr=-&utmp=%2Fus%2F&utmht=1640014253384&utmac=UA-47362364-1&utmgtm=2wgc10WVV2P7&utmcc=__utma%3D37975609.479432097.1640014253.1640014253.1640014253.1%3B%2B__utmz%3D37975609.1640014253.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&aip=1&utmjid=336832148&utmredir=1&utmmt=1&utmu=qmAgAABAAAGBAAAAAgABAAAE~",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "redirectedTo": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-47362364-1&cid=479432097.1640014253&jid=336832148&_v=5.7.2&z=264513125",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.14992100000017672
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1029370640/?random=1640014253398&cv=9&fst=1640014253398&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 1623,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:45:53 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1cc99947ed63a7b93d29c4e73fabd4ac33cca26a05d9bf3ecfc9cf7891f00da2",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.022530999998707557
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1012890756/?random=1640014253406&cv=9&fst=1640014253406&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 1161,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:45:53 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d9154c553f0211b8868d3767e607ec1670b9a214d52729331dac08720a28ae3e",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WVV2P7"
+        ],
+        "time": 0.019314000001031673
+      },
+      {
+        "url": "https://rules.quantcount.com/rules-p-NWnbTn7fWS2N2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 1123,
+        "remoteIPAddress": "65.9.83.28",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "W/\"9342f0bae496352528d3c8a005ccd69f\""
+        },
+        "responseBodyHash": "eb21cdab067bf0274eb1e1bd2239e93060fd17e473442418b20d84c8b33daf64",
+        "initiators": [
+          "https://secure.quantserve.com/aquant.js?a=p-NWnbTn7fWS2N2"
+        ],
+        "time": 0.024334000001545064
+      },
+      {
+        "url": "https://connect.facebook.net/signals/plugins/identity.js?v=2.9.48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 20705,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "ddbc1a158d7d13b63c0fda8fd2ece421016468e9e88914d2b81d3e8929c19df1",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.015564000001177192
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/642056560266653?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88886,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "f6ec8e5af0f290bc1c1d5e647086ad95064e702a2e4595fbebb90b77aa11fdc1",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.013716999997996027
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-47362364-1&cid=479432097.1640014253&jid=1958209934&_v=5.7.2&z=692163475",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 430,
+        "remoteIPAddress": "108.177.119.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "redirectedFrom": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=692163475&utmhn=www.korg.com&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=KORG%20(USA)&utmhid=715165740&utmr=-&utmp=%2Fus%2F&utmht=1640014253367&utmac=UA-47362364-1&utmcc=__utma%3D37975609.479432097.1640014253.1640014253.1640014253.1%3B%2B__utmz%3D37975609.1640014253.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1958209934&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAABAAAE~",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.027514999997947598
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-47362364-1&cid=479432097.1640014253&jid=336832148&_v=5.7.2&z=264513125",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 100,
+        "remoteIPAddress": "108.177.119.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "redirectedFrom": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=2&utmn=264513125&utmhn=www.korg.com&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=KORG%20(USA)&utmhid=715165740&utmr=-&utmp=%2Fus%2F&utmht=1640014253384&utmac=UA-47362364-1&utmgtm=2wgc10WVV2P7&utmcc=__utma%3D37975609.479432097.1640014253.1640014253.1640014253.1%3B%2B__utmz%3D37975609.1640014253.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&aip=1&utmjid=336832148&utmredir=1&utmmt=1&utmu=qmAgAABAAAGBAAAAAgABAAAE~",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.027132999999594176
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1029370640/?random=1640014253398&cv=9&fst=1640012400000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&async=1&fmt=3&is_vtc=1&random=2992110670&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1029370640/?random=1640014253398&cv=9&fst=1640014253398&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.02995100000043749
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1029370640/?random=1640014253398&cv=9&fst=1640012400000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&async=1&fmt=3&is_vtc=1&random=2992110670&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1029370640/?random=1640014253398&cv=9&fst=1640014253398&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03020000000105938
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1012890756/?random=1640014253406&cv=9&fst=1640012400000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&async=1&fmt=3&is_vtc=1&random=3295422347&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1012890756/?random=1640014253406&cv=9&fst=1640014253406&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03101299999980256
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1012890756/?random=1640014253406&cv=9&fst=1640012400000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&async=1&fmt=3&is_vtc=1&random=3295422347&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1012890756/?random=1640014253406&cv=9&fst=1640014253406&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.korg.com%2Fus%2F&tiba=KORG%20(USA)&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.022924000000784872
+      },
+      {
+        "url": "https://pixel.quantserve.com/pixel;r=857025298;labels=_fp.event.Default;rf=0;a=p-NWnbTn7fWS2N2;url=https%3A%2F%2Fwww.korg.com%2Fus%2F;uht=2;fpan=1;fpa=P0-1690472407-1640014253636;pbc=;ns=0;ce=1;qjs=1;qv=92a3679b-20211110211611;cm=;gdpr=0;ref=;d=korg.com;je=0;sr=800x600x24;dst=0;et=1640014253636;tzo=0;ogl=title.KORG%20(USA)%2Ctype.website%2Curl.https%3A%2F%2Fwww%252Ekorg%252Ecom%2Fus%2F%2Cimage.%2Fglobal%2Fimages%2Fogp%252Ejpg%2Cdescription.KORG%2Csite_name.KORG%20Global",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 370,
+        "remoteIPAddress": "91.228.74.133",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, proxy-revalidate",
+          "expires": "Fri, 04 Aug 1978 12:00:00 GMT",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAo PSDo OUR SAMa IND COM NAV\"",
+          "pragma": "no-cache",
+          "set-cookie": "mc=61c0a1ad-a0ac8-2e7e1-f0310; expires=Fri, 20-Jan-2023 15:30:53 GMT; path=/; domain=.quantserve.com; SameSite=None; Secure"
+        },
+        "responseBodyHash": "ad1eaeafde714b48cb15678bf92e82cdcb0ba1ca559b69e376639dfbe916fd2e",
+        "initiators": [
+          "https://secure.quantserve.com/aquant.js?a=p-NWnbTn7fWS2N2"
+        ],
+        "time": 0.017678000000159955
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1391427847830832?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88865,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "8b18648cc570f0d7b8ed31c215c0ed44663f387c50c428ce98348d38aab918de",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/642056560266653?v=2.9.48&r=stable"
+        ],
+        "time": 0.013926000003266381
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=642056560266653&ev=PageView&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014253684&sw=800&sh=600&v=2.9.48&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&tm=1&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:53 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/642056560266653?v=2.9.48&r=stable"
+        ],
+        "time": 0.17153500000131316
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/624990474319925?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88886,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "acaf095fc5758eb5d0ae30db02c7d5afe91572cff419c99f1d2f9c6d6250ee23",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1391427847830832?v=2.9.48&r=stable"
+        ],
+        "time": 0.016770999998698244
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=642056560266653&ev=PageView&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014253745&sw=800&sh=600&v=2.9.48&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:53 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1391427847830832?v=2.9.48&r=stable"
+        ],
+        "time": 0.008249000002251705
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1391427847830832&ev=PageView&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014253759&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:53 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1391427847830832?v=2.9.48&r=stable"
+        ],
+        "time": 0.00829399999929592
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=624990474319925&ev=PageView&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014253795&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:53 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/624990474319925?v=2.9.48&r=stable"
+        ],
+        "time": 0.007266000000527129
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=642056560266653&ev=Microdata&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014254210&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22KORG%20(USA)%22%2C%22meta%3Adescription%22%3A%22KORG%22%2C%22meta%3Akeywords%22%3A%22Synthesizer%2CDigital%20Piano%2CSoftware%2CKeyboard%2CDJ%2CProduction%20Tool%2CDigital%20Recorder%2CEffect%2CTuner%2CMetronome%2CMIDI%2CGM%2CGM2%2CDSD%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22KORG%20(USA)%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fwww.korg.com%2Fus%2F%22%2C%22og%3Aimage%22%3A%22%2Fglobal%2Fimages%2Fogp.jpg%22%2C%22og%3Adescription%22%3A%22KORG%22%2C%22og%3Asite_name%22%3A%22KORG%20Global%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22url%22%3A%22http%3A%2F%2Fwww.korg.com%2Fus%2F%22%2C%22%40type%22%3A%22WebSite%22%2C%22description%22%3A%22KORG%22%2C%22image%22%3A%22http%3A%2F%2Fwww.korg.com%2Fglobal%2Fimages%2Fogp.jpg%22%2C%22name%22%3A%22KORG%20(USA)%22%7D%2C%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Organization%22%2C%22name%22%3A%22Korg%22%2C%22url%22%3A%22http%3A%2F%2Fwww.korg.com%22%2C%22sameAs%22%3A%5B%22https%3A%2F%2Fwww.facebook.com%2FKORGusa%3Fref%3Dhl%22%2C%22https%3A%2F%2Ftwitter.com%2Fkorgusa%22%2C%22https%3A%2F%2Finstagram.com%2Fkorgusa%22%2C%22https%3A%2F%2Fwww.youtube.com%2Fuser%2FKorgUSAVideos%22%2C%22https%3A%2F%2Fplus.google.com%2Fb%2F111592479543804579334%2F%22%5D%7D%5D&sw=800&sh=600&v=2.9.48&r=stable&a=tmgoogletagmanager&ec=2&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:54 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/642056560266653?v=2.9.48&r=stable"
+        ],
+        "time": 0.003942999999708263
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1391427847830832&ev=Microdata&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014254262&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22KORG%20(USA)%22%2C%22meta%3Adescription%22%3A%22KORG%22%2C%22meta%3Akeywords%22%3A%22Synthesizer%2CDigital%20Piano%2CSoftware%2CKeyboard%2CDJ%2CProduction%20Tool%2CDigital%20Recorder%2CEffect%2CTuner%2CMetronome%2CMIDI%2CGM%2CGM2%2CDSD%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22KORG%20(USA)%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fwww.korg.com%2Fus%2F%22%2C%22og%3Aimage%22%3A%22%2Fglobal%2Fimages%2Fogp.jpg%22%2C%22og%3Adescription%22%3A%22KORG%22%2C%22og%3Asite_name%22%3A%22KORG%20Global%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22url%22%3A%22http%3A%2F%2Fwww.korg.com%2Fus%2F%22%2C%22%40type%22%3A%22WebSite%22%2C%22description%22%3A%22KORG%22%2C%22image%22%3A%22http%3A%2F%2Fwww.korg.com%2Fglobal%2Fimages%2Fogp.jpg%22%2C%22name%22%3A%22KORG%20(USA)%22%7D%2C%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Organization%22%2C%22name%22%3A%22Korg%22%2C%22url%22%3A%22http%3A%2F%2Fwww.korg.com%22%2C%22sameAs%22%3A%5B%22https%3A%2F%2Fwww.facebook.com%2FKORGusa%3Fref%3Dhl%22%2C%22https%3A%2F%2Ftwitter.com%2Fkorgusa%22%2C%22https%3A%2F%2Finstagram.com%2Fkorgusa%22%2C%22https%3A%2F%2Fwww.youtube.com%2Fuser%2FKorgUSAVideos%22%2C%22https%3A%2F%2Fplus.google.com%2Fb%2F111592479543804579334%2F%22%5D%7D%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:54 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/642056560266653?v=2.9.48&r=stable",
+          "https://connect.facebook.net/signals/config/1391427847830832?v=2.9.48&r=stable"
+        ],
+        "time": 0.004111999998713145
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=624990474319925&ev=Microdata&dl=https%3A%2F%2Fwww.korg.com%2Fus%2F&rl=&if=false&ts=1640014254318&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22KORG%20(USA)%22%2C%22meta%3Adescription%22%3A%22KORG%22%2C%22meta%3Akeywords%22%3A%22Synthesizer%2CDigital%20Piano%2CSoftware%2CKeyboard%2CDJ%2CProduction%20Tool%2CDigital%20Recorder%2CEffect%2CTuner%2CMetronome%2CMIDI%2CGM%2CGM2%2CDSD%22%7D&cd[OpenGraph]=%7B%22og%3Atitle%22%3A%22KORG%20(USA)%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fwww.korg.com%2Fus%2F%22%2C%22og%3Aimage%22%3A%22%2Fglobal%2Fimages%2Fogp.jpg%22%2C%22og%3Adescription%22%3A%22KORG%22%2C%22og%3Asite_name%22%3A%22KORG%20Global%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22url%22%3A%22http%3A%2F%2Fwww.korg.com%2Fus%2F%22%2C%22%40type%22%3A%22WebSite%22%2C%22description%22%3A%22KORG%22%2C%22image%22%3A%22http%3A%2F%2Fwww.korg.com%2Fglobal%2Fimages%2Fogp.jpg%22%2C%22name%22%3A%22KORG%20(USA)%22%7D%2C%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22Organization%22%2C%22name%22%3A%22Korg%22%2C%22url%22%3A%22http%3A%2F%2Fwww.korg.com%22%2C%22sameAs%22%3A%5B%22https%3A%2F%2Fwww.facebook.com%2FKORGusa%3Fref%3Dhl%22%2C%22https%3A%2F%2Ftwitter.com%2Fkorgusa%22%2C%22https%3A%2F%2Finstagram.com%2Fkorgusa%22%2C%22https%3A%2F%2Fwww.youtube.com%2Fuser%2FKorgUSAVideos%22%2C%22https%3A%2F%2Fplus.google.com%2Fb%2F111592479543804579334%2F%22%5D%7D%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640014253681.390464806&it=1640014253435&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.korg.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:30:54 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/642056560266653?v=2.9.48&r=stable",
+          "https://connect.facebook.net/signals/config/624990474319925?v=2.9.48&r=stable"
+        ],
+        "time": 0.004992999998648884
+      }
+    ]
+  }
+}

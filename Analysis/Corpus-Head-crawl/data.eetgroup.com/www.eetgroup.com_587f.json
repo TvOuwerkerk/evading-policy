@@ -1,0 +1,2951 @@
+{
+  "initialUrl": "https://www.eetgroup.com/",
+  "finalUrl": "https://www.eetgroup.com/en-eu",
+  "timeout": false,
+  "testStarted": 1640012783155,
+  "testFinished": 1640012798498,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.eetgroup.com/links.www.eetgroup.com_587f.json",
+    "requests": [
+      {
+        "url": "https://www.eetgroup.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "set-cookie": "ARRAffinity=b87e22f61c3a4153f39fbae48e3460e93d6eb4da5683046396f8740c0456b751;Path=/;HttpOnly;Secure;Domain=www.eetgroup.com\nARRAffinitySameSite=b87e22f61c3a4153f39fbae48e3460e93d6eb4da5683046396f8740c0456b751;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.eetgroup.com/en-eu/",
+        "initiators": [],
+        "time": 0.4072789999991073
+      },
+      {
+        "url": "https://www.eetgroup.com/en-eu/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.eetgroup.com/en-eu",
+        "redirectedFrom": "https://www.eetgroup.com/",
+        "initiators": [],
+        "time": 0.01975300000049174
+      },
+      {
+        "url": "https://www.eetgroup.com/en-eu",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 11790,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {},
+        "responseBodyHash": "3129d3b2c84c40f73aa8eaecc40a19b4c29c796d3fb8d65616d5ddbf1165522a",
+        "redirectedFrom": "https://www.eetgroup.com/en-eu/",
+        "initiators": [],
+        "time": 0.16747600000235252
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/fonts/montserrat-v15-latin-ext_latin-500.efcc6374.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 29556,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47DFB93C\""
+        },
+        "responseBodyHash": "b8f721af124b7eb2444dba61bf527b6a895298d7a545a5da2193b176298b97a0",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.059341000000131316
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/fonts/montserrat-v15-latin-ext_latin-600.c6468b00.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 28903,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D476591FD\""
+        },
+        "responseBodyHash": "7bd63e839d9edc545332dbca079bb9764e3a4c6fa5d4a9d50f8ea28440ad70ec",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.0592720000022382
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/fonts/montserrat-v15-latin-ext_latin-700.49afe094.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 29075,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9493F50D8\""
+        },
+        "responseBodyHash": "c793ceacf4b9d7b70604c7beceb9aa219d9071453e578995dbf9b1bff5add176",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.06507300000157556
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/fonts/montserrat-v15-latin-ext_latin-regular.20f97c00.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 29050,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47562AF3\""
+        },
+        "responseBodyHash": "31af7cac50d5dfdae6f54c480eb1ebd096c4cc3a8a621d14cd653c862bfe26d4",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.06540099999983795
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 131935,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94966821E\""
+        },
+        "responseBodyHash": "cce0aa8e323bed9222d435f8841fdfcff7bfd19d496530651ca6f9eddf6b2351",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.07248000000254251
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/bootstrap.69792cc5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1912,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47E00752\""
+        },
+        "responseBodyHash": "a9277dcd2673891c8248ef6cc51665193fb9cab8586f823056225be9ac897152",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.06640799999877345
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 124717,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D475233ED\""
+        },
+        "responseBodyHash": "a6207e02e48df71cb30ddb601faff9c2a698859319bca81495cdb8e29d4e7732",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.07445599999846308
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-vendors.39280885.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 4037,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D473C6521\""
+        },
+        "responseBodyHash": "2284e017f6de01ab1a1897e77a25c9266948b7b02a09a39efea23149d93391ae",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.04969899999923655
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/app.ef0aa0bb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 16705,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D4740F85B\""
+        },
+        "responseBodyHash": "9b45bebe2ea6e5189e902d84891def4b2190e194e3ffdf4814e24b892742e99b",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.05056500000137021
+      },
+      {
+        "url": "https://www.eetgroup.com/App/Dictionary?siteBaseUrl=/en-eu",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/en-eu",
+        "status": 200,
+        "size": 120109,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {},
+        "responseBodyHash": "06b4f547f979edc153fcb4f5863d1bc5f2daf8f184586bd54c8cf18a1497b9e2",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.6140159999995376
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/basic-blocks.ba9374fd.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1629,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D474F2717\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.09742700000060722
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/brands.9fedb9ab.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 625,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94933E0DA\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10361399999965215
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-03349eb6.92f31103.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 784,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47DF4418\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.0990139999994426
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-0969014d.b527b07c.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1206,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47275999\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10860300000058487
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-13270f6e.3d1c5628.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 570,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47214002\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10422600000310922
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-20487b72.6ff68efe.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1398,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47595ECA\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10683799999969779
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-2b6c1d02.b527b07c.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1206,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94976103E\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11499999999796273
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-3197268a.66ef27d0.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 591,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D4743B712\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10690700000122888
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-362beacd.dd665a8d.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1219,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D4747FC34\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11235799999849405
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-4ad0db08.cfb7e0f1.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 976,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47584D7E\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10779900000125053
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-4edf7292.03d8bf29.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 628,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD949253D09\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10737300000255345
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-51643b08.65f955e4.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1893,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D4732A293\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10642899999947986
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-52720b1e.59ea4be0.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 695,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9497044AF\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10811000000103377
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-5e91f38a.22e5292f.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 974,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94944A745\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11029799999960233
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-7a369c94.03d8bf29.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 606,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47397F65\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.1118720000013127
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-80a072d2.4c1e966a.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 587,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9492D5222\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.10929699999906006
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-85ebf2b4.1c53071a.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2369,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D475651FC\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11999499999728869
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-ad1af4c4.b31c8fde.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2390,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94962B222\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.1193249999996624
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/chunk-add5dc58.7e19401b.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1894,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D4762D347\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11207300000023679
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/myaccount.07404bcc.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 5075,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47362482\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11809100000027684
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/news.eb4b8fc5.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 876,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D475B0C41\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.11830999999801861
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/product-guide.e065b4c2.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1613,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94945436D\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.eetgroup.com/en-eu"
+        ],
+        "time": 0.12003399999957765
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 74833,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:06:24 GMT"
+        },
+        "responseBodyHash": "4b88335f7be7e97b1e794c87b5a7a41192f9aa2fbac36416d4671158f7fc68ee",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/bootstrap.69792cc5.js"
+        ],
+        "time": 0.03708999999798834
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/v-tooltip.f759b2a2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 17136,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9496152CB\""
+        },
+        "responseBodyHash": "f2c469e96dc13446e8abcda1b44d4cde55a88561a63e0bc76735b84ed811906c",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.007636999998794636
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1997,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D474E8AEF\""
+        },
+        "responseBodyHash": "b97a1bbc6dca1ea285a0d5d0243aa59b59aa0674ebd1a62144b10b6b8faa8e51",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.00771300000269548
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-add5dc58.aaf81393.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 4254,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47E3D74C\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.019236000000091735
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-5e91f38a.6eb46518.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 9415,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9496967EA\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.029798999999911757
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 11063,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD949503E4C\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.03461600000082399
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/vee-validate.d2b4c62c.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 12382,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9494F5412\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.031059999997523846
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-362beacd.16f7ef5d.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 15032,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D474D2B8E\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.05725199999869801
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-20487b72.64196620.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 6259,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94960DDB4\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.0331270000024233
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-ad1af4c4.15a8c68b.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 9831,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94975C219\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.037196000001131324
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-0969014d.d27a56cb.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3390,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9493455FB\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.043379999999160646
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-03349eb6.87032609.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2870,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD94976D35F\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.03289700000095763
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-13270f6e.22968743.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2701,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D472B77B1\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.034626000000571366
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-4edf7292.6c5f2502.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3286,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D474C6867\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.052556999999069376
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-ffcb101e.680883f9.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3598,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D4760629C\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.0818859999999404
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-33021848.3c85f19c.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2341,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9496A2B17\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.06323200000042561
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21ab1b.35adcb9c.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 719,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D472473D0\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.06950899999719695
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d0de704.353d3352.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1184,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D47364B87\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.06151599999793689
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d0aed54.0eacf548.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2350,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9495F303D\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.08047999999689637
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/chunk-33021848.3c85f19c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9496A2B17\""
+        },
+        "responseBodyHash": "1bad14525c20ca25ea903eace1599008f8b2402d4f784f42168cc80fa4522c1c",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.08286600000064936
+      },
+      {
+        "url": "https://content.eetgroup.com/en-eu/notifications",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 772,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "set-cookie": "ARRAffinity=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;Secure;Domain=content.eetgroup.com\nARRAffinitySameSite=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;SameSite=None;Secure;Domain=content.eetgroup.com"
+        },
+        "responseBodyHash": "a65a1bf838c9e1ae7d1ea7c61d43a2759292479b288808c0df38273a7a6cc7e1",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.11993200000142679
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Navigation/MegaMenu",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 25234,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "c14a740dc9428a40f9ced56e1b0c820cbf4a524e083fac1de41687957da4aad8",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.11333799999920302
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/BrandLogos",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 7488,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "d8e066e1bbcab31237706b6d306fa227fc91edf76b761758885e9a0a012c347f",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.11570500000016182
+      },
+      {
+        "url": "https://content.eetgroup.com/en-eu/notifications",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "set-cookie": "ARRAffinity=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;Secure;Domain=content.eetgroup.com\nARRAffinitySameSite=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;SameSite=None;Secure;Domain=content.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://content.eetgroup.com/en-eu/notifications"
+        ],
+        "time": 0.06233799999972689
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Navigation/MegaMenu",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Navigation/MegaMenu"
+        ],
+        "time": 0.05554399999891757
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/BrandLogos",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Personalization/BrandLogos"
+        ],
+        "time": 0.05608199999915087
+      },
+      {
+        "url": "https://content.eetgroup.com/en-eu/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "set-cookie": "ARRAffinity=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;Secure;Domain=content.eetgroup.com\nARRAffinitySameSite=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;SameSite=None;Secure;Domain=content.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://content.eetgroup.com/en-eu/"
+        ],
+        "time": 0.007889000000432134
+      },
+      {
+        "url": "https://content.eetgroup.com/en-eu/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1886,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "set-cookie": "ARRAffinity=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;Secure;Domain=content.eetgroup.com\nARRAffinitySameSite=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;SameSite=None;Secure;Domain=content.eetgroup.com"
+        },
+        "responseBodyHash": "ae9282becc702992da3671afe5cf8811de71835ab43d2b1078503fb77bec0685",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.05438200000207871
+      },
+      {
+        "url": "https://assets.eetgroup.com/mKjGrx0pvV0dOTOumGwv34RVH-eKOI94MvM5KWFWrLs.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3874,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"601baa56-2dac\""
+        },
+        "responseBodyHash": "4984fe987e65375169b62f31c7a8a7d86d4525a0618a2adb749d1f38b4a8bbfc",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.031128000002354383
+      },
+      {
+        "url": "https://assets.eetgroup.com/Z_Uv5Eko-SqQB4gh3GOpJPwTkV_NtFBbYpLkt2Ai7BE.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1815,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"60376172-c59\""
+        },
+        "responseBodyHash": "dcad58ca019456a90618792cbb66305d30e2bffede6ea31496dcfb720af8c9bd",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.03126899999915622
+      },
+      {
+        "url": "https://assets.eetgroup.com/hTgGwAyXpo5FEIraw6PeL30ZOKVmNzGXDjn3ZzyWmyw.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2372,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6009cfef-10fe\""
+        },
+        "responseBodyHash": "8e68ce494ea609a9d5b7634f63eaaba5e950a97f3ee7cf9c543264f44e89b478",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.033132000000478
+      },
+      {
+        "url": "https://assets.eetgroup.com/XQtdhYfqiIYuHhZVplJn6FFDsgEESza9J_wECaYpleU.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1978,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6013d347-15d9\""
+        },
+        "responseBodyHash": "56cb8fd3732da5494680235c3a1b38f0d0ac2a079f086fa90a596b7f285e2e79",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.03301800000190269
+      },
+      {
+        "url": "https://assets.eetgroup.com/j0u0QFBGWfESLa_46cTVyu3FFIjmh1wQYkOPbmgBaiY.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 78509,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"61261788-258cb\""
+        },
+        "responseBodyHash": "7b0a54d1754b33326dc2e05e8935fce3659acb8b684ced0e077cd97e1ebf9205",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.04956099999981234
+      },
+      {
+        "url": "https://assets.eetgroup.com/cnjCIYYAyso5ShFjGW8K7b2iavlSVjG0SfrFq0-xi8Y.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 4360,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"60af970a-2ce8\""
+        },
+        "responseBodyHash": "d990e0484a85f2b179d24d5efb8e0bc68f790bb33b0a3942f0f9499af7abbbc2",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.041793000000325264
+      },
+      {
+        "url": "https://assets.eetgroup.com/TFwm5A89X0BMw8hb5NHhJbb2ouJQOX9b64UJG1hn-Xk.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2001,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5f44c020-148a\""
+        },
+        "responseBodyHash": "ae515ee39c73eb221b14e273a9ce630ba5c7632b122d53e39ec77efe0f6adca2",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.046395000001211884
+      },
+      {
+        "url": "https://assets.eetgroup.com/hbUR8oHF0QHtwjfciL-y2GrjDFH7q3Iv42cOawQJbzo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1227,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5ff41b56-89b\""
+        },
+        "responseBodyHash": "06ce277329214d46aebd83c51f5a3d8c16114001de01bdc66ef68905f89e4f35",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.04547399999864865
+      },
+      {
+        "url": "https://assets.eetgroup.com/G0lSX_kV_N4EnOQ0BmzcbfRgobg1BsFAXuhcEApjENw.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1517,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"60a63066-b49\""
+        },
+        "responseBodyHash": "23899e354e5a0a995a4a6f81f139346dc85c34f33301fdeb68d2088c8829f949",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.04491699999925913
+      },
+      {
+        "url": "https://assets.eetgroup.com/3zhYp8j7xD9aIhLnHCf67BjipGKwUTsntljcnNFBw1c.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 4922,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"6012bb29-2cd3\""
+        },
+        "responseBodyHash": "5d4d817dd2573cf72d9ea58b84fce80e3b0df9a3ddf19eceee40cd4d884760ea",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.0442430000002787
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/css/basic-blocks.ba9374fd.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9C07D474F2717\""
+        },
+        "responseBodyHash": "b5b88b2649f7a12c9a043d260e64cc877b9ff3caeafcaee0b3af193683bcc5dc",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.013238999999884982
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD949503E4C\""
+        },
+        "responseBodyHash": "07a0f5b62e62fe586f610b695fff74bfa32c2962fdb0127920fc57922fb30518",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.011483000002044719
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PZXST3BTL2&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 60890,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:06:25 GMT"
+        },
+        "responseBodyHash": "8acf02b8216c5c6e3d67fed18aef788387d3f79ed24681995bb4cb98ca60dbd8",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.012445000000298023
+      },
+      {
+        "url": "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 22309,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200"
+        },
+        "responseBodyHash": "416327a91f0de47b0e8467f853e5791167e78a5063707daeefbd68a53d2fae8e",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.03410400000211666
+      },
+      {
+        "url": "https://l.getsitecontrol.com/y79vldg4.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1085,
+        "remoteIPAddress": "84.17.46.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "873f9e0ff759d4b9d79a3600da302108a81f91d5f915bd0ec3104df0e7303a62",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.02796700000180863
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.02640400000018417
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/uc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 11057,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF1231AB8A3A",
+          "expires": "Mon, 20 Dec 2021 15:11:25 GMT"
+        },
+        "responseBodyHash": "b36ed483507493f95c8dcc25e7811bbf65fff7598403a8c48c65b6f5163be598",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM"
+        ],
+        "time": 0.05044900000211783
+      },
+      {
+        "url": "https://prod-eet-clientresources.azureedge.net/static/js/vee-validate.d2b4c62c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.107.213.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5184000, immutable",
+          "etag": "\"0x8D9BFD9494F5412\""
+        },
+        "responseBodyHash": "38175eaf4bb4c32ac7a3baf3db175cb28d772e68110ea9634dcc2be6d5eedd09",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.002874999998311978
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Sites/SiteOptions",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1316,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "38adabe5948f4986a5150bb7467030e00a789fb58ff8ce5bb64a57a3e918d5dc",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-33021848.3c85f19c.js"
+        ],
+        "time": 0.024655000001075678
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Sites/SiteOptions",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Sites/SiteOptions"
+        ],
+        "time": 0.004331000000092899
+      },
+      {
+        "url": "https://content.eetgroup.com/media/tdblh1o5/icon-linkedin.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1722,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, max-age=31535930",
+          "expires": "Tue, 20 Dec 2022 15:05:15 GMT",
+          "set-cookie": "ARRAffinity=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;Secure;Domain=content.eetgroup.com\nARRAffinitySameSite=91e9fb92eb963b4a96b87b058366e5aaf2509f2958010098f03d851bbdfb562d;Path=/;HttpOnly;SameSite=None;Secure;Domain=content.eetgroup.com"
+        },
+        "responseBodyHash": "5cd3177cc2f60163fb6c6a8dfc2f96cadead422d3d53940f549248354661dd69",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.013538999999582302
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/forwardAdnuntiusPixelRequest",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Personalization/forwardAdnuntiusPixelRequest"
+        ],
+        "time": 0.004429000000527594
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/forwardAdnuntiusPixelRequest",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 30,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.012216999999509426
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/Categories",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Personalization/Categories"
+        ],
+        "time": 0.004461000000446802
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Customer/BrandTiles",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Customer/BrandTiles"
+        ],
+        "time": 0.004790999999386258
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Recommendations/Recommend?displayedAtLocation=Frontpage&intervalDays=1&popularityType=5&categoryId=&productId=&productCount=20&recommendationType=3&allowFillIfNecessary=false&brandId=&hasImages=false&stockFilter=0&showFeedProducts=false",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Recommendations/Recommend?displayedAtLocation=Frontpage&intervalDays=1&popularityType=5&categoryId=&productId=&productCount=20&recommendationType=3&allowFillIfNecessary=false&brandId=&hasImages=false&stockFilter=0&showFeedProducts=false"
+        ],
+        "time": 0.003634999997302657
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/Categories",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3789,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "a00df19437ac1b6a02a09e9758aee1fbcb1088feb81704a3b8a860aacf3808bf",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.04360099999757949
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Customer/BrandTiles",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 553,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "a44cd26bfde8ed6a02c41d725ab5dc378c0bdd84cbeb2f644371192a01390c4e",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.1850769999982731
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Recommendations/Recommend?displayedAtLocation=Frontpage&intervalDays=1&popularityType=5&categoryId=&productId=&productCount=20&recommendationType=3&allowFillIfNecessary=false&brandId=&hasImages=false&stockFilter=0&showFeedProducts=false",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 10098,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "21af7217c5cca71a895a6a601da9a0b0107be03c6130eedb527c591164cfff52",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.05223599999953876
+      },
+      {
+        "url": "https://cms-media.eetgroup.com/1ntm4q3u/productguide.jpg?format=jpg&width=1440&height=480&quality=75&mode=crop&center=0.5,0.5",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 35792,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, max-age=604800",
+          "etag": "\"a6c6a2ecde70d71:0\"",
+          "expires": "Mon, 27 Dec 2021 15:06:26 GMT"
+        },
+        "responseBodyHash": "0560aea644f8a2d84261eb0eb387134e517d15d8e3d3ecc575ecabf4ab976fa1",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.025975000000471482
+      },
+      {
+        "url": "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 37999,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:06:25 GMT"
+        },
+        "responseBodyHash": "4b3e90c020a362413d7ca9ce1a86b39b1b7341ca987b7a61bfdd272a1edc5e46",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03009100000053877
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1606,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9BF1231AA9FF7",
+          "expires": "Mon, 20 Dec 2021 15:11:25 GMT"
+        },
+        "responseBodyHash": "12fe0d2bfe91d982fa77b01d99c873f3fe0d166892f0091220ecfaca420cd35d",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.00746900000012829
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/cookie-data/eetgroup.com/cabl.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 920,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9C32BE368A884",
+          "expires": "Mon, 20 Dec 2021 15:11:25 GMT"
+        },
+        "responseBodyHash": "26b9e52181a8a9c2f7e2071e5c70f2f3dbb7b8502b58c2d5b684975d1190555d",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.01518700000087847
+      },
+      {
+        "url": "https://policy.app.cookieinformation.com/115f06/eetgroup.com/en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 10815,
+        "remoteIPAddress": "152.199.21.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "0x8D9C32BE2586936",
+          "expires": "Mon, 20 Dec 2021 15:11:25 GMT"
+        },
+        "responseBodyHash": "5e2c452a92fb8deb9f9b7c5efebb4ebcfeb9bc61b11680077f78af660d90df49",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js"
+        ],
+        "time": 0.028001000002404908
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PZXST3BTL2&gtm=2oec10&_p=1907736759&sr=800x600&ul=en-us&cid=169529965.1640012785&_s=1&dl=https%3A%2F%2Fwww.eetgroup.com%2Fen-eu&dt=EET%20%3A%20Distributor%20of%20tech%20%26%20IT%20components%20and%20solutions&sid=1640012785&sct=1&seg=0&en=login&_fv=1&_ss=1&ep.method=email&up.company_name=EET%20International&up.customer_id=(not%20set)&up.site_country=eu&up.site_language=en&up.web_user_id=(not%20set)",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.eetgroup.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-PZXST3BTL2&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM"
+        ],
+        "time": 0.009608000000298489
+      },
+      {
+        "url": "https://l.getsitecontrol.com/y79vldg4.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 9581,
+        "remoteIPAddress": "84.17.46.49",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=5"
+        },
+        "responseBodyHash": "a0ec5b1d7eca6838541969cb7f5cb7b0906274339d1a3d89cea756d19459d304",
+        "initiators": [
+          "https://l.getsitecontrol.com/y79vldg4.js"
+        ],
+        "time": 0.4802060000001802
+      },
+      {
+        "url": "https://assets.eetgroup.com/4N0lzisUWee0TmMPHQd-Hnk8whpA96HsoahKegOKbiY.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1583,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"60cc7c05-1035\""
+        },
+        "responseBodyHash": "275f42353b752c22defc9cd5db0091f909c6b2811ae48374262d212ee5ff5cc8",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.0033170000024256296
+      },
+      {
+        "url": "https://assets.eetgroup.com/sFkwJ0PvvGYgc_CZtvhy6n31QTTLbYFgEb-t-Zr_Fgs.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1171,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5f9292f5-6f6\""
+        },
+        "responseBodyHash": "7220c91de8a6b937c198a4a8d41f2325c29bdf2416e018ed363af713c8bb4504",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.005494000000908272
+      },
+      {
+        "url": "https://assets.eetgroup.com/00Yy199lkdPqnl50ZyvwtEt-G0k3iKV30Mr6-t_Wjqs.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1160,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"600fc4b4-750\""
+        },
+        "responseBodyHash": "17509d17187dbb2223916a2978ae28d310d1094038769c381452fcae2cfd7d20",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.004776999998284737
+      },
+      {
+        "url": "https://assets.eetgroup.com/yK-Y5Exz4dCwrgjAMOuFGOK1Oi-2v7nKAXzM0DHx8EU.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 728,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5ff85676-343\""
+        },
+        "responseBodyHash": "8928b9f5c60562158e8572eb79be4799ed8eda308639d8534daf96dcd1e80250",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.004540999998425832
+      },
+      {
+        "url": "https://assets.eetgroup.com/18CkiCCRGB7gxA3y_sflDdY6y1KH2dvjP4OeZQjv_bo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 758,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"60128ac3-3ed\""
+        },
+        "responseBodyHash": "dcb218b1ec361999cd452e32dba08f1b60f8c0b30754682fbc3b9b5ca03ed4af",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.015785999999934575
+      },
+      {
+        "url": "https://c.lytics.io/c/61520d6abd194a0633adfd7bbb2d27be/eetgroup.com_no_hash?_e=pv&_sesstart=1&_tz=0&_ul=en-US&_sz=800x600&contactKey=(not%20set)&webUserId=(not%20set)&customerId=(not%20set)&cultureCountry=eu&cultureLanguage=en&_ts=1640012785316&_nmob=t&_device=desktop&url=www.eetgroup.com%2Fen-eu&_v=3.0.25&_uid=4f92fed0-d7e4-4d9a-a26d-560a09867de1&_getid=t",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 299,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "seerid=4f92fed0-d7e4-4d9a-a26d-560a09867de1; Path=/; Domain=lytics.io; Max-Age=77760000; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.11509700000169687
+      },
+      {
+        "url": "https://c.lytics.io/c/61520d6abd194a0633adfd7bbb2d27be/eetgroup.com_no_hash?_e=pv&_sesstart=1&_tz=0&_ul=en-US&_sz=800x600&pageType=content&_ts=1640012785321&_nmob=t&_device=desktop&url=www.eetgroup.com%2Fen-eu&_v=3.0.25&_uid=4f92fed0-d7e4-4d9a-a26d-560a09867de1&_getid=t",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 537,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "seerid=4f92fed0-d7e4-4d9a-a26d-560a09867de1; Path=/; Domain=lytics.io; Max-Age=77760000; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.1135260000010021
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Trunk.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3614,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED80D36662\""
+        },
+        "responseBodyHash": "4b8ba5c43983096e1ecff710ed2e1f94b38e0f2815d6dbf2f5b8b61717aa16b6",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.07368299999870942
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/3M.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 13142,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED531325B0\""
+        },
+        "responseBodyHash": "a58c7953d06d31468f29fed3d94d84fa6e52048537a909d95f22bfcfa748adac",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.04706400000213762
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/AVer.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 2720,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED40BBC7DC\""
+        },
+        "responseBodyHash": "5598bfb9f8b916767ee50bbcc85712cf798a42d102ab1c6c351a8b9a6315a9bb",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.049339000001054956
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Ubiquiti%20Networks.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3403,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED8185104A\""
+        },
+        "responseBodyHash": "58e93e211ffce6ac1dd55ff92ab3a4a9d88ef71b88594fb4c0fbd721b3d65f5f",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.043979999998555286
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Asus.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 5170,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED3D6243D9\""
+        },
+        "responseBodyHash": "f87a8860db94cc3faed8331255382e21d2fb878eff8a1f94ace206e30f55db58",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.048531000000366475
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Lenovo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 17708,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED8B842FBD\""
+        },
+        "responseBodyHash": "628fca583ed388251aac02817d752d8e9a4a0c0a188e2e92380f11ae0e50d71e",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.05187099999966449
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Gearlab.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 44060,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED537ED03C\""
+        },
+        "responseBodyHash": "87dd7de260b255856dbedbd8a10a98fc91adb99eccefe6494806ed91178ef80b",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.0698210000009567
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Logitech.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 10707,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED3A46D12E\""
+        },
+        "responseBodyHash": "097aa5eeac5cf40c34edaa96b9b19205a5ea968fce8180f814c4c46ceecb7237",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.05598699999973178
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Hewlett%20Packard%20Enterprise.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 20121,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED32DA30CC\""
+        },
+        "responseBodyHash": "50d05837a50832dbb817fd221999faeb69dff68e6f94ef92207f32cac9b1fa3f",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.057894999998097774
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/B-Tech.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 19808,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED4438862D\""
+        },
+        "responseBodyHash": "1a15473dc3f46a1c553aafe7894b68b748587abdf25a91c668c1c9ba15eac3ff",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.07645800000318559
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/MicroConnect.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 4478,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED996B1B49\""
+        },
+        "responseBodyHash": "eb0fc6301a83d180e2a57565a933a1874c1aac9fec735b5c6a10c5937b09768f",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.057009000000107335
+      },
+      {
+        "url": "https://media.eetgroup.com/logos_static/Zebra.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 7366,
+        "remoteIPAddress": "2.19.194.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"0x8D999ED34FA50E7\""
+        },
+        "responseBodyHash": "58a0c4aac9fff2eedba5fd937314827cb0ec87c2c5bcfcf5d35cc24e8b739ce8",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.05705399999715155
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/PersonalizedContent",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 4600,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=68e26d3587c9e4543759274ec6cb4eb322ec377d06adf0b822cdebe3cdb7ea83;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "32cab550d7b03fc67d9f4711751cd3916847d2e6bdad9b71d2ed7c349c8953d1",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.08757800000239513
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/PersonalizedContent",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.eetgroup.com/api/Personalization/PersonalizedContent"
+        ],
+        "time": 0.005934000000706874
+      },
+      {
+        "url": "https://c.lytics.io/api/personalize/61520d6abd194a0633adfd7bbb2d27be/user/_uid/4f92fed0-d7e4-4d9a-a26d-560a09867de1?segments=true&fields=contact_id,customer_id,_uids&mergestate=true&state=%7B%22_uid%22%3A%224f92fed0-d7e4-4d9a-a26d-560a09867de1%22%2C%22_sesstart%22%3A%221%22%2C%22_tz%22%3A0%2C%22_ul%22%3A%22en-US%22%2C%22_sz%22%3A%22800x600%22%2C%22_nmob%22%3A%22t%22%2C%22_device%22%3A%22desktop%22%2C%22url%22%3A%22www.eetgroup.com%2Fen-eu%22%2C%22_v%22%3A%223.0.25%22%7D&ts=1640012785804&callback=u_818878773690911600",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 500,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": ""
+        },
+        "responseBodyHash": "7fea3febb751f8a8442d849fafb4d0deedf2b74f05dab8729cc2283fe879738f",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.14414700000270386
+      },
+      {
+        "url": "https://c.lytics.io/c/61520d6abd194a0633adfd7bbb2d27be/eetgroup.com_no_hash?_sesstart=1&_tz=0&_ul=en-US&_sz=800x600&_ts=1640012785743&_nmob=t&_device=desktop&url=www.eetgroup.com%2Fen-eu&_uid=4f92fed0-d7e4-4d9a-a26d-560a09867de1&_v=3.0.25",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 303,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js"
+        ],
+        "time": 0.11754300000029616
+      },
+      {
+        "url": "https://assets.eetgroup.com/UT9gyQ3WTGP2MGxRWWf0sWGW1E2OWKGmHhRVodia1yY.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 81963,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"5efc61e1-13eb4\""
+        },
+        "responseBodyHash": "574603f30b70135e9bff3953879da4552e2ac69aa7c5f969ae899b02947c80df",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.0075840000026801135
+      },
+      {
+        "url": "https://assets.eetgroup.com/OIlsTeGDPBlgAp8JyasrGJpzOBAxVNuCrlWFpy0s6JQ.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 122172,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"5fad0306-1db96\""
+        },
+        "responseBodyHash": "9c0023bc4dc9dbd69e87bc14a8a2b3da68a704576bb7cd0196c9d976f03c13de",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.009896999999909895
+      },
+      {
+        "url": "https://assets.eetgroup.com/uK5M_5UWZZ0F_KkajDQKl_BJjKIkfhYv2U41cGq5i_o.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 49775,
+        "remoteIPAddress": "195.181.172.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"5efb4317-c113\""
+        },
+        "responseBodyHash": "647166a8e64a2bdf5c4482e6c8ecf530840d0ec8c2f5f59c83ecac158fd15dae",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.010148000001208857
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1907736759&t=pageview&ds=GTM-NX74JTM&_s=1&dl=https%3A%2F%2Fwww.eetgroup.com%2Fen-eu&dh=eu.eetgroup.com&ul=en-us&de=UTF-8&dt=EET%20%3A%20Distributor%20of%20tech%20%26%20IT%20components%20and%20solutions&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=aGDAAEADQAAAAC~&jid=499951240&gjid=712258562&cid=169529965.1640012785&tid=UA-1001635-2&_gid=663101275.1640012785&_r=1&gtm=2wgc10NX74JTM&cd1=(not%20set)&cd2=(not%20set)&cd3=false&cd5=1640012785888.gbrzdbi5&cd6=2021-12-20T15%3A06%3A25.888%2B00%3A00&cd10=content&cd12=en&cd13=eu&cd15=(not%20set)&cd18=(not%20set)&cd4=169529965.1640012785&cd14=pageview&z=2075857958",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.eetgroup.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785"
+        ],
+        "time": 0.007819000002200482
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-1001635-2&cid=169529965.1640012785&jid=499951240&gjid=712258562&_gid=663101275.1640012785&_u=aGDAAEACQAAAAC~&z=1801736377",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 443,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.eetgroup.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785"
+        ],
+        "time": 0.021742000000813277
+      },
+      {
+        "url": "https://s2.getsitecontrol.com/widgets/es6/runtime.97f2895.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 56371,
+        "remoteIPAddress": "84.17.46.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=22809600"
+        },
+        "responseBodyHash": "2ff7449234c567388abd7935b7d67e1049e6031c98afaf3d0c017313766fb8e3",
+        "initiators": [
+          "https://l.getsitecontrol.com/y79vldg4.js"
+        ],
+        "time": 0.026237999998556916
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1001635-2&cid=169529965.1640012785&jid=499951240&_u=aGDAAEACQAAAAC~&z=1728236363",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785"
+        ],
+        "time": 0.0325379999994766
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1001635-2&cid=169529965.1640012785&jid=499951240&_u=aGDAAEACQAAAAC~&z=1728236363",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785"
+        ],
+        "time": 0.03761099999974249
+      },
+      {
+        "url": "https://pop1.getsitecontrol.com/api/v1/events",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 860,
+        "remoteIPAddress": "52.86.134.216",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-cache"
+        },
+        "responseBodyHash": "20ff693fa6f789285ed66136809366de5fc59e9fd08ef79a03cc973f4430cfa0",
+        "initiators": [
+          "https://s2.getsitecontrol.com/widgets/es6/runtime.97f2895.js",
+          "https://l.getsitecontrol.com/y79vldg4.js"
+        ],
+        "time": 0.2575829999987036
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/forwardAdnuntiusPixelRequest",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 28,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=a53a16ff78af55005e5c8c9fc68717042b7c9d8f22930158d1152d1183add9a5;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/basic-blocks.24f25e0d.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-2d21a80f.9eb4b6a7.js"
+        ],
+        "time": 0.0083859999976994
+      },
+      {
+        "url": "https://c.lytics.io/static/pathfora.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 22364,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "cache-control": "max-age=7200"
+        },
+        "responseBodyHash": "1f4f5fdffaf00193968ce7061b79f50ecb891aa19d6303cfca92ee57ef0d5fb7",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://c.lytics.io/api/personalize/61520d6abd194a0633adfd7bbb2d27be/user/_uid/4f92fed0-d7e4-4d9a-a26d-560a09867de1?segments=true&fields=contact_id,customer_id,_uids&mergestate=true&state=%7B%22_uid%22%3A%224f92fed0-d7e4-4d9a-a26d-560a09867de1%22%2C%22_sesstart%22%3A%221%22%2C%22_tz%22%3A0%2C%22_ul%22%3A%22en-US%22%2C%22_sz%22%3A%22800x600%22%2C%22_nmob%22%3A%22t%22%2C%22_device%22%3A%22desktop%22%2C%22url%22%3A%22www.eetgroup.com%2Fen-eu%22%2C%22_v%22%3A%223.0.25%22%7D&ts=1640012785804&callback=u_818878773690911600"
+        ],
+        "time": 0.026798999999300577
+      },
+      {
+        "url": "https://c.lytics.io/static/pathfora.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 3809,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "cache-control": "max-age=7200"
+        },
+        "responseBodyHash": "f155b4555f250e1524df719787be037245690fba6218bb64b0e111f7ccab840b",
+        "initiators": [
+          "https://c.lytics.io/static/pathfora.min.js"
+        ],
+        "time": 0.012360000000626314
+      },
+      {
+        "url": "https://c.lytics.io/api/program/campaign/config/61520d6abd194a0633adfd7bbb2d27be/config.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 682,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200"
+        },
+        "responseBodyHash": "9a3738dd9e1ac2aa73dc0f78218e853d85655926ee3aa3dfab26ee86cd1c16ac",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://c.lytics.io/api/personalize/61520d6abd194a0633adfd7bbb2d27be/user/_uid/4f92fed0-d7e4-4d9a-a26d-560a09867de1?segments=true&fields=contact_id,customer_id,_uids&mergestate=true&state=%7B%22_uid%22%3A%224f92fed0-d7e4-4d9a-a26d-560a09867de1%22%2C%22_sesstart%22%3A%221%22%2C%22_tz%22%3A0%2C%22_ul%22%3A%22en-US%22%2C%22_sz%22%3A%22800x600%22%2C%22_nmob%22%3A%22t%22%2C%22_device%22%3A%22desktop%22%2C%22url%22%3A%22www.eetgroup.com%2Fen-eu%22%2C%22_v%22%3A%223.0.25%22%7D&ts=1640012785804&callback=u_818878773690911600"
+        ],
+        "time": 0.022882000001118286
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/forwardAdnuntiusPixelRequest",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 51,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=5fabee47d0fc063dd2866cbc69579392bf02d35c08d26af538fda05aa30fa96c;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.007777999999234453
+      },
+      {
+        "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 1331,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Mon, 20 Dec 2021 15:44:51 GMT"
+        },
+        "responseBodyHash": "058ed961bfe422af7bfc65865f4c08531ec8ace995f8a1ec560a46581cb7712c",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://www.googletagmanager.com/gtag/js?id=G-PZXST3BTL2&l=dataLayer&cx=c",
+          "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.0045169999975769315
+      },
+      {
+        "url": "https://c.lytics.io/c/61520d6abd194a0633adfd7bbb2d27be/eetgroup.com_no_hash?event=promo_view&lineItemId=cm3gdr8z0rnl5f5f&_ts=1640012786988&_nmob=t&_device=desktop&url=www.eetgroup.com%2Fen-eu&_uid=4f92fed0-d7e4-4d9a-a26d-560a09867de1&_v=3.0.25&_uido=4f92fed0-d7e4-4d9a-a26d-560a09867de1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 444,
+        "remoteIPAddress": "172.67.73.236",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://c.lytics.io/api/tag/61520d6abd194a0633adfd7bbb2d27be/latest.min.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM",
+          "https://www.googletagmanager.com/gtag/js?id=G-PZXST3BTL2&l=dataLayer&cx=c",
+          "https://www.google-analytics.com/gtm/js?id=GTM-P7GPXZ2&t=gtm87&cid=169529965.1640012785",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.11920199999804026
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1907736759&t=event&ni=1&ds=GTM-NX74JTM&_s=1&dl=https%3A%2F%2Fwww.eetgroup.com%2Fen-eu&dh=eu.eetgroup.com&ul=en-us&de=UTF-8&dt=EET%20%3A%20Distributor%20of%20tech%20%26%20IT%20components%20and%20solutions&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=ecommerce&ea=ecom.promoView&_u=aGDAAEALQAAAAC~&jid=&gjid=&cid=169529965.1640012785&tid=UA-1001635-2&_gid=663101275.1640012785&gtm=2wgc10NX74JTM&cd1=(not%20set)&cd2=(not%20set)&cd3=false&cd5=1640012786968.dhvipxs3p&cd6=2021-12-20T15%3A06%3A26.968%2B00%3A00&cd10=content&cd11=campaign_abrands_gdn&cd12=en&cd13=eu&cd15=(not%20set)&cd18=(not%20set)&cd4=169529965.1640012785&cd14=event&promo1nm=cm3gdr8z0rnl5f5f&promo1id=vkv67v6pft25j7nm&promo1cr=personalizedContentHero&z=1643615390",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.0037550000015471596
+      },
+      {
+        "url": "https://api.eetgroup.com/api/Personalization/forwardAdnuntiusPixelRequest",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 28,
+        "remoteIPAddress": "40.113.126.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "ARRAffinity=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;Secure;Domain=api.eetgroup.com\nARRAffinitySameSite=baac66d472b9a4a5f5ad4012f21f60dec486d0140a2bd5f5a262a03bca0873ee;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.eetgroup.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://prod-eet-clientresources.azureedge.net/static/js/chunk-vendors.27a05810.js",
+          "https://prod-eet-clientresources.azureedge.net/static/js/app.755fef71.js"
+        ],
+        "time": 0.007052000000840053
+      },
+      {
+        "url": "https://consent.app.cookieinformation.com/api/consent",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.94.134.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://consent.app.cookieinformation.com/api/consent"
+        ],
+        "time": 0.04077600000164239
+      },
+      {
+        "url": "https://consent.app.cookieinformation.com/api/consent",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 200,
+        "size": 133,
+        "remoteIPAddress": "13.94.134.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"33-WDHeUp+sjIVHynovxxUHTUvgjnc\""
+        },
+        "responseBodyHash": "d0c017967f92b900da926022d88cd0ff1fc72d9c069ed5096af20b89477e3bb9",
+        "initiators": [
+          "https://policy.app.cookieinformation.com/uc.js",
+          "https://www.eetgroup.com/en-eu",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.04951900000014575
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PZXST3BTL2&gtm=2oec10&_p=1907736759&sr=800x600&ul=en-us&cid=169529965.1640012785&dl=https%3A%2F%2Fwww.eetgroup.com%2Fen-eu&dt=EET%20%3A%20Distributor%20of%20tech%20%26%20IT%20components%20and%20solutions&sid=1640012785&sct=1&seg=1&_s=2",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.eetgroup.com/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.eetgroup.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-PZXST3BTL2&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NX74JTM"
+        ],
+        "time": 0.00802800000019488
+      }
+    ]
+  }
+}

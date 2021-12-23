@@ -1,0 +1,989 @@
+{
+  "initialUrl": "https://www.varuvo.nl/clickthrough.php?alias=WK51%20Lou%20Prunel%20chocolade&url=%2Fassortiment%2Fzoeken%2F%3Fq%3Dlou%2Bprunel%26ma%3D1",
+  "finalUrl": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+  "timeout": false,
+  "testStarted": 1640110056488,
+  "testFinished": 1640110073108,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.varuvo.nl/links.www.varuvo.nl_f006.json",
+    "requests": [
+      {
+        "url": "https://www.varuvo.nl/clickthrough.php?alias=WK51%20Lou%20Prunel%20chocolade&url=%2Fassortiment%2Fzoeken%2F%3Fq%3Dlou%2Bprunel%26ma%3D1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "referrer-policy": "same-origin",
+          "set-cookie": "PHPSESSID=fj33q9kmrn6vqae75bvr0hsnvu; path=/; secure; HttpOnly; SameSite=Strict"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "initiators": [],
+        "time": 0.0405309999914607
+      },
+      {
+        "url": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 30813,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "255eee666a5bb7a683c802c817179d06a9725a656ba13d3a630d3848a339ffd0",
+        "redirectedFrom": "https://www.varuvo.nl/clickthrough.php?alias=WK51%20Lou%20Prunel%20chocolade&url=%2Fassortiment%2Fzoeken%2F%3Fq%3Dlou%2Bprunel%26ma%3D1",
+        "initiators": [],
+        "time": 0.2683930000057444
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/style-with-skeleton.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2906,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2a4d-5c79fe7f82892-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "19899b4fe1224eab509be3e9abc629b259dddc236346d68aa7e187ca558511ea",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.009676999994553626
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 34287,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"17b8b-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.0599730000103591
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery-migrate-1.2.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 3592,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1c20-4f0273ede7600-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c4d24f6b27cc7ceea56fbec786bb1f486fdad9a1f998f760f76d1f44671e105c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.047953000001143664
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.watermark.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2332,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"135d-5771af1eb51f3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "37a67731e5d452edb691d4a8cafe39f353bd8bb42dc8b2eb1a2ea9f8e84c9ae7",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.027696000004652888
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/CookieJar.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1819,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"cb4-5c7b52606bd87-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "abfcb4064d03f21c55a859b5f51009e31a2ded58d8ade82f2975f0910aaef2d1",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.08653499999491032
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/I18N.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1178,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"620-5771af1eb51f3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "0d5fd522b768c31376f00ce7adef74a30241d64c64e84103ba7a275b79c3f3d9",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.08677199999510776
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/i18n/nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 708,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"112-5c7b52606cd27-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "4191d29698665d6be2a9a1b2679ebea61ee7ab74a579c0c88e6361fa0a110a1c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.08794399999896996
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/site.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2560,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"12fc-5c7b52606ec67-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e4e127315323a1f9ee2ba98bdb1374c63d537c5efad87161284b41943fac933b",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.10275900000124238
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/ui/themes/custom/jquery-ui-custom.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 8240,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"7b0a-57806d81c7433-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e5be409aa6e31083239d574f3c8ae09238aecd4c76204f0d9f69efa2d528db7d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.050002000003587455
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/ui/jquery-ui.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 68346,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"3dee4-5771ad7522d0e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "5c054e64ac535353f6ad28d4bb7aa7b0f30ffff4d7f4fe36e93b1b5ad7b771ed",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.11483099999895785
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/fancybox/jquery.fancybox.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1934,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"131f-4f0273ede7600-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "968a8e56e4adaf8c135199ebd7f6cc065424ca45974d4dfbeb5607e69fe72fcd",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.04488300000957679
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/fancybox/jquery.fancybox.pack.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 9158,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"5a5f-4f0273ede7600-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "bc50bf49cbe79ee49b4ee8b56f26ff4877bc4945c16f260b1481ba2355c96347",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.10557100000733044
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/qtip2/jquery.qtip.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2657,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"22e8-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "15198b725b28f7edcda54891ee8c164251ef2b175e69591ba468fdeae552a455",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.04878499999176711
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/qtip2/jquery.qtip.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 15938,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"a532-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "a6ed4059bd537f2332f4465144ad1e14318476ad2b5cab66d4a9fe54c3797df7",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.10387600000831299
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/spreadsheet.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1003,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"76c-5599e493dd2c7-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "14b61107ff9dfa9ac8c7b8e596ea4666a2e7e21aa6a75d7886caf583bda0d698",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.05454700000700541
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/product/product.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1145,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"708-5ba252ec6a489-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "3f21f61b7a47407bc43b2be0c362d1ca6698cd54ff860e08823dcaf796666a73",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.057836000007227995
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/imagesloaded.pkgd.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2319,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"15b7-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "f7b3dc94297cd47d4b2195477eff1acd681aa73851590061b58b32fc05a4a007",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.09664099999645259
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/product/product.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2163,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1070-5c7b52606ec67-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "ba520ec27611e5a0f1de4b811f671defc5ceeb8c846b629ea501be9026e21680",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.09740300000703428
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/assortiment/assortiment.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 761,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"25a-57806d7fecaba-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "5ee90e4a088fe666339b3152d23dc5a32d546ea8029ad67dd31ea8974481a91a",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.056704000002355315
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/assortiment/zoeken/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1235,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"811-5b11a7fc69d3c-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "8befa581c1e7c6cafc504739699df1a2e39b4e965c032a809734cee4ae47344f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.06637300000875257
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.cookie.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1204,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"505-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "cec15a7b8154ec3ca9e3969429cbac4d5c829502f1ac2f748304fe781f66611d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.10634300000674557
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/cookiecuttr/cookiecuttr-custom.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1129,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"8e6-5597eb722e6f2-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "47f6d1f55ff87ef2c167e5a66934338e60b5805e9a24c26eb50c9640418bcfc6",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.0731660000019474
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/cookiecuttr/jquery.cookiecuttr.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2151,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1793-5771ad7520dcf-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "013f5b4be588408c415c32abb1a666dd85d38ddf669b4ae488ada060555894aa",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.10056700000131968
+      },
+      {
+        "url": "https://www.varuvo.nl/include/img/flags/nl_checked.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1594,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"470-5771ad7520dcf\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e36308b8948b9518c32c47bdc1833cf8047a6913380e0aec9d5ab8f6d5eea311",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.17948999999498483
+      },
+      {
+        "url": "https://www.varuvo.nl/include/img/flags/fr.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1486,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"404-5771ad7520dcf\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "71b23055bb2ce2096229ca420f20374d41e4de44785799a196faf48edd13515e",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.23162000000593252
+      },
+      {
+        "url": "https://www.varuvo.nl/include/skin/img/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 5048,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"11ed-55903feb3d879\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "1a7a31e3f3b7a5beb6b4039ee8f7cd2b59936aaab49ab86635c0e5abaf0341ea",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.23508099999162368
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/icons/action.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1209,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2f0-4dff85ed8e9c0\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "f0f23ab7ab28a05cc586a3ce9f4c508e2fe75135484fd3644df1a29201fddf23",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.23228999999992084
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/icons/camera-compact.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1180,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2d3-4dff85ed8e9c0\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "be9fc2a09b4d525e5d4a0d0d2ac184a37afceaf3e941176f7738b3c04b6db808",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.23977400000148918
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/icons/i.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 575,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"77-4dff85ed8e9c0\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "5f11c752b8ae439abdc13b28ce1f85229185e810499f08a618b4e717d36c32ba",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.23997400001098868
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/icons/pdf.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1048,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"24f-4dff85ed8e9c0\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "40a26d60d051f45bc0aa3ded1b48e6a438bddfa516a40d369b1c35870cafd228",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.2403690000064671
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/bar/6.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 588,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"84-466873d01f840\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "77a9c6d204f894c4f707fa849dfdeffcb19017a875a6b2a21f056f8c0f149aa6",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.2513299999991432
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/icons/alt.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2012,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"612-5771ad7523cae\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "d93292782a74b6a00bb6380641f1c0576cd1fabc8dd715ff485042dd8e57a52d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.25146200000017416
+      },
+      {
+        "url": "https://www.varuvo.nl/include/icons/16x16/legend.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1136,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2a7-4dff85eba6540\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "ca1103d0d1c27f2881bfd98e8829cfd47277adc4fd851110214f7b20eff15aa3",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.2474520000105258
+      },
+      {
+        "url": "https://www.varuvo.nl/include/icons/16x16/excel.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1069,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"264-4dff85eba6540\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "bdb437082c8dde4db141611788e2dc3a2ec972b4ab7ac70354c62d5b5c406a1d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.2671029999910388
+      },
+      {
+        "url": "https://www.varuvo.nl/include/icons/16x16/printer.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1188,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2db-4af6b5dafb3c0\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "478c6ddd7a4f59e847cbfe3bcdafae5a223623c18e2a8840db03374d7679d10a",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.26561400000355206
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/assortiment/zoeken/index.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 2169,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"10c6-5c7b5260536e7-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "1635714ff64377b5513d8355426779727fdad971b9f52adbe66ed024d411374c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.16979099999298342
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/print.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 622,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"7f-5597eb70f6ec2-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "7ef81d320d50611374d5108c079a18b503672bd9deddee33cf308bd8602fc30f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.265824000001885
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/0800-0967.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 803,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"218-5b5e891ea1f53-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "25f08ff81ca61d51b5f110700e55ba3bc99edd94ac56cab8024d39bdc8094b95",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.07317999999213498
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/0968-1023.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 762,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"19e-5b5e8921e6df3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "374990f622b99592c93e4a5f09a80a0ae5599c16d944f8395837defd09e9a03d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.07258100000035483
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/1024-1279.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 757,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"18e-5b5e859e491d3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "6fbd36d6a359efa7ba584a2035ba52f207ff6a3e0f5ad6606c59e716d4acee9f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.0734599999996135
+      },
+      {
+        "url": "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.16.104.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Tue, 21 Dec 2021 20:18:19 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://static.zdassets.com/ekr/asset_composer.js",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.10779699998965953
+      },
+      {
+        "url": "https://static.zdassets.com/ekr/asset_composer.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 6341,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, s-maxage=60",
+          "etag": "W/\"cc904f41324148b571599b3b02fdec0b\""
+        },
+        "responseBodyHash": "16cc547456ffa0052c3679e6c5ece2e14ad57c92b93562deb7bcb5829b7afcb7",
+        "redirectedFrom": "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.03696900000795722
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.numeric.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 1688,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"c8c-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "582b23bfe562df7ac37a3c5277f0638101739e3ebbf7d74f86d2f8da509c5413",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.0056019999901764095
+      },
+      {
+        "url": "https://www.varuvo.nl/include/product/bar/1.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 566,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"6e-466873d01f840\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "181b31e84a3479334ab120d8cbef3b58a95485071ed3a19168a424c9ac1ea303",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.009129999991273507
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/product/showDetails.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1",
+        "status": 200,
+        "size": 3423,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"219f-5cef512c348de-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "5a2ffdeca0dc12c3851ed38f16173d5be7481aa564f770cb90b0bd2c573050d4",
+        "initiators": [
+          "https://www.varuvo.nl/nl/assortiment/zoeken/?q=lou+prunel&ma=1"
+        ],
+        "time": 0.009055000002263114
+      },
+      {
+        "url": "https://ekr.zdassets.com/compose/zopim_chat/2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 898,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public, s-maxage=60, stale-while-revalidate=600, stale-if-error=3600",
+          "etag": "W/\"e9d01a7ad99186f1a9a6a82323156dd4\""
+        },
+        "responseBodyHash": "e9d01a7ad99186f1a9a6a82323156dd4337e7182d50754b5f64d71af7cbd0e4e",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.21943700000701938
+      },
+      {
+        "url": "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.16.104.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Tue, 21 Dec 2021 22:07:37 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://v2.zopim.com/bin/v/widget_v2.329.js",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.03492299999925308
+      },
+      {
+        "url": "https://v2.zopim.com/bin/v/widget_v2.329.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 249623,
+        "remoteIPAddress": "104.16.104.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "W/\"5ee087b5-102db5\"",
+          "expires": "Fri, 19 Dec 2031 18:07:37 GMT"
+        },
+        "responseBodyHash": "16b857516acd23561758c98ebe75b2a49731a0052fbaffa8918dfe22e8ba3fff",
+        "redirectedFrom": "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.06433700000343379
+      },
+      {
+        "url": "wss://widget-mediator.zopim.com/s/W/ws/9N4piyXU5KvawX5X/c/1640110057865",
+        "type": "WebSocket",
+        "initiators": [
+          "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ]
+      },
+      {
+        "url": "https://v2.zopim.com/lib/20200610.071112/__$$__stringtable_lang_nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2199,
+        "remoteIPAddress": "104.16.104.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "W/\"5ee087b3-1786\"",
+          "expires": "Fri, 19 Dec 2031 18:07:37 GMT"
+        },
+        "responseBodyHash": "520bb68f4006f6aac151578b09e41e429ded957daed4541960bdef94e4690b2c",
+        "initiators": [
+          "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.05631099999300204
+      }
+    ]
+  }
+}

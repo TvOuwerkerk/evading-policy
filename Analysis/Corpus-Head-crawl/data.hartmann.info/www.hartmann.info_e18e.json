@@ -1,0 +1,1164 @@
+{
+  "initialUrl": "https://www.hartmann.info/pl-pl/",
+  "finalUrl": "https://www.hartmann.info/pl-pl/",
+  "timeout": false,
+  "testStarted": 1640126279650,
+  "testFinished": 1640126294682,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.hartmann.info/links.www.hartmann.info_e18e.json",
+    "requests": [
+      {
+        "url": "https://www.hartmann.info/pl-pl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 25086,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "no-cache, no-store",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "hartmann_country#lang=pl-PL; path=/; secure\nASP.NET_SessionId=zqlna5h1ihqpblezkm4wirzr; path=/; secure; HttpOnly; SameSite=Lax\nSC_ANALYTICS_GLOBAL_COOKIE=20aad822d10942fd8332a18a44ff2b59|False; expires=Wed, 21-Dec-2022 22:37:59 GMT; path=/; secure; HttpOnly\ndtCookie=v_4_srv_7_sn_EEA30969FBB4B694A88F6E6826ECE643_perc_100000_ol_0_mul_1_app-3Aff00d28804a12118_0; Path=/; Domain=.hartmann.info; secure\nARRAffinity=fe93d7555140e730a57adee08819d151ef6f2e9107dc113c27ee40a9c8ea4fb8;Path=/;HttpOnly;Secure;Domain=www.hartmann.info\nARRAffinitySameSite=fe93d7555140e730a57adee08819d151ef6f2e9107dc113c27ee40a9c8ea4fb8;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.hartmann.info"
+        },
+        "responseBodyHash": "41ca9b10ec6b8001c65ca4aa898cfa039cce02f8e389bb4fa075f62697fc77ad",
+        "initiators": [],
+        "time": 0.25738100000307895
+      },
+      {
+        "url": "https://www.hartmann.info/ruxitagentjs_ICA2Vfjqru_10229211201102017.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 79547,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "*, http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Tue, 06 Dec 2022 12:24:00 GMT"
+        },
+        "responseBodyHash": "745955fec6f881e63b72f3a75c19581097d3a5339e30d43ed705002fa71acb32",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.05458100000396371
+      },
+      {
+        "url": "https://www.hartmann.info/layouts/system/VisitorIdentification.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 764,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"04243e1459ad51:0\""
+        },
+        "responseBodyHash": "a9133049001fa9f51b85703626ca539d7150c3da3a07739186cd8afe3d94af6a",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.03675300002214499
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 41547,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"73e3b1e82e0d71:0\""
+        },
+        "responseBodyHash": "47d6fda4918476707c1c4792d15280b9134570846a359b5c8d1d14c45b806224",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.05337899998994544
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/modernizr-latest.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 4929,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"31d3d7cc44d6d71:0\""
+        },
+        "responseBodyHash": "4ad54c614f6c5873bb9fc4308307b291fc7788bd5c5615a94447ef971fa1e371",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.04726300001493655
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/skrollr.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 5761,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"fb13e8cc44d6d71:0\""
+        },
+        "responseBodyHash": "73bbd21f84182a709cbb27c0000724d29784e0e023709c1b058c76ef5de70d05",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.03619099999195896
+      },
+      {
+        "url": "https://consent.cookiebot.com/uc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 28389,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "cache-control": "public, max-age=661",
+          "etag": "\"671f451bf1ecd71:0\"",
+          "expires": "Tue, 21 Dec 2021 22:49:01 GMT"
+        },
+        "responseBodyHash": "8d11314258b6411af1595b1034a2c1810ae01a70ab1451bde06832d8c7478a7a",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.09141100000124425
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/common/logos/logo-hartmann.svg?h=40&iar=0&w=92&rev=293ac5455a3046f388c32cbcdea61b5c&hash=AE95218647BD84F0BDE72C87CB67A037",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1150,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000"
+        },
+        "responseBodyHash": "665ecca23724593dcffee33a2f1ea499e1cc8a0f7ece82f693f36d5b488aff5d",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.2026929999992717
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/img/5AD23C92748278785E258ED3194AAE5A-ellipse--dark.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 260,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"fa4680ca44d6d71:0\""
+        },
+        "responseBodyHash": "e0fb64314cee24b3680dcbf8d4f50a482d1cd4eab8e7267c7317c6ab3d2fe354",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.19616699998732656
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 6881,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"3796e0cc44d6d71:0\""
+        },
+        "responseBodyHash": "d5f10f852b112a514a19f2b778eef5d2d1307878757f0a24539c051831cefaf8",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.08187599998200312
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5BPM5BP",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 41998,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Tue, 21 Dec 2021 22:38:00 GMT"
+        },
+        "responseBodyHash": "aad59eeca858b471abfd886ce8f55d3968eb1b4bf84fb42b3df36feb6e9121be",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.03934100002516061
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/Roboto-Latin-Regular.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 15855,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d73321f82e0d71:0\""
+        },
+        "responseBodyHash": "81d931a8c973b5bc8f9ded86a3440bd247a58e592b3897bf755c1a5d8390d763",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.17241600001580082
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/PantonW05-ExtraBold.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 55705,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"36a61aca44d6d71:0:dtagent10227211007093412O6et\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f26b09c73b6ff848504b3534ed150db6f0660b9fbe9730ebf757516651d04e33",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.17515200001071207
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/PantonW05-Regular.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 43730,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"f23916ca44d6d71:0:dtagent10227211007093412O6et\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "374961cd99ca59f7edd7f9b64a3c65ca918e63de9dfbe0d2c0f95460df60c162",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.18511300001409836
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/Roboto-Latin-Medium.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 16317,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"f37647ca44d6d71:0:dtagent10227211007093412O6et\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f58ad0eb6c4bd058c35f29db2a3b3bfa052cd2172267247f5c16a1528aa166e8",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.1697449999919627
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/Roboto-Latin-Bold.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 15993,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"917e3aca44d6d71:0:dtagent10227211007093412O6et\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c039da2477a00e6c4f4f94be655f95caea42d00a877cb37ca92546253c7ed3fc",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.1675649999815505
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/Roboto-Latin-Ext-Regular.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 12003,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"59e740ca44d6d71:0:dtagent10227211007093412O6et\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3f549c85d80220c112db15b76c6e5f30831a3f66a56bc1a763310d12c236f113",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.1502760000003036
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/Roboto-Latin-Ext-Medium.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 11977,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b2984efa7f1d71:0:dtagent10229211201102017i+Tq\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b586a5c44217f287b4be6b32e6663b9d9ed3bf95a2017bffc7bfedc3ddcc89f4",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.14129400000092573
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/fonts/Roboto-Latin-Ext-Bold.woff2?20190723",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 11959,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "\"d5d94bfa7f1d71:0\""
+        },
+        "responseBodyHash": "2c354af75126a63627c9e42ca508ed356b934583caae0cf6faf390d85649aac1",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.13916399999288842
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/seo_article/pieluchy-anatomiczne-dla-doroslych---kto-moze-pomoc-w-ich-doborze.jpg?h=550&iar=0&mw=1050&w=1050&rev=8a0aed1bd1df452aa6d551589dc08bd8&sc_lang=pl-pl&hash=EDE662A522668BAA433D6F837347A2F8",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 115340,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "bfaf5fbcc69046769811a97a0d5d2ce5"
+        },
+        "responseBodyHash": "fe5d9c1ee5986c32d83b7498e2819882f9d57a1ef2e86b1c525884b54c7741e9",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 1.43017300000065
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/seo_article/najlepsze-pieluchomajtki-dla-seniora.jpg?h=264&iar=0&mw=504&w=504&rev=2e9b91a3a4b8416b84b3d2b804865546&sc_lang=pl-pl&hash=1BDF60AEF817C01EC58A51625C0F1403",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 42052,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "7564f8e43e1e4da3bc89fe75a13eaa12"
+        },
+        "responseBodyHash": "fb840b38964f1f70dddcf1ec50fa80d775987a51fe5adfc91a6b649029dde319",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 1.4105030000209808
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/seo_article/pierwsza-pomoc-w-sylwestrowa-noc.jpg?h=264&iar=0&mw=504&w=504&rev=c59f726a6a07443fbdadf921798b6e46&sc_lang=pl-pl&hash=08F0B06E67F348728D51502EBB153555",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 38224,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "6e17b60d19e7418a85fe758af52ae257"
+        },
+        "responseBodyHash": "d57d2c87dfdcac9858963de2c7ff69a5f39ffbe5a75638b40c5d99b7637dfd36",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 1.4098700000031386
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/seo_article/pieluchomajtki-dla-kobiet-mezczyzn-seniorow-i-osob-aktywnych.jpg?h=264&iar=0&mw=504&w=504&rev=b118849429fb4fe9989a4118df5b941e&sc_lang=pl-pl&hash=74E3FDB458291F31A3F24B82EA1D2A89",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 21541,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "6eed3098445c482ea3931c207b038e9a"
+        },
+        "responseBodyHash": "ab47218d8a35e540a994a1fb68050674b880a8c9d3b7ffc65249fdafdbb725e5",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.03718099999241531
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/seo_article/pieluchomajtki-dla-doroslych-pacjentow-ulatwiajace-prace-opiekunom.jpg?h=264&iar=0&mw=504&w=504&rev=a6dde27913b0402eb444dd6d16d77c8e&sc_lang=pl-pl&hash=9DAE14C0BFE660003C557E44EE3C34D4",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 45629,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "27f22d7fedbb4b7d89d080e4de0f031f"
+        },
+        "responseBodyHash": "26cc68ac7d07104b0ddd68e86b71e49c13db535023ed6226a3b42b5a06992c38",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 1.4112219999951776
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/corporate/img/our-values/hartmann-home-ourvalues-megateaser.jpg?h=1300&iar=0&mw=1440&w=1440&rev=fd39404bbcbd46e598685185ec65c93a&hash=0D0390D55792167724D5F830768F10DF",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 173361,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "16917550d3ca439dbd353204213787f8"
+        },
+        "responseBodyHash": "87f1f70663de765ffe7d6440be01c1dbb23cbc392ca7747f8e8951f975b15e87",
+        "initiators": [
+          "https://www.hartmann.info/pl-pl/"
+        ],
+        "time": 0.5219389999983832
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 1164,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "cache-control": "max-age=27425050",
+          "etag": "\"b10de1f5f615a79259ac9e34f470ce1d:1615283706.572935\"",
+          "expires": "Fri, 04 Nov 2022 08:42:10 GMT"
+        },
+        "responseBodyHash": "0297ba54fff0a052c5761457790e80dc093b93b152edee473485af46c022ad75",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js"
+        ],
+        "time": 0.015558999992208555
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 134946,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"d6c174fa7f1d71:0\""
+        },
+        "responseBodyHash": "51e0e63166082baa3851a070166d8908ba7a081ca84b502810f9135ce6245497",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js"
+        ],
+        "time": 0.03744699998060241
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/LanguageSelection.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1691,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"795e82280d5d71:0\""
+        },
+        "responseBodyHash": "e250c9e0280691bc488c46428bc7e1166c7aea3e245e635b55c897903e2760d1",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.032356000010622665
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/StageCarousel.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 2713,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"5e4844fc7f1d71:0\""
+        },
+        "responseBodyHash": "d405eb4931d0137268aef9b667e0dfcbb273f43535e42541bf0ea8f26e97ceb6",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.025107999972533435
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/DivisionFilter.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 2353,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"4c5739fc7f1d71:0\""
+        },
+        "responseBodyHash": "937725771580a20d29199d80bcd13e3c48e8f4f5f83206bf51b69f1f970379e3",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.02444499998819083
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/NewsTeaserGroup.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 2329,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"15d4ee2280d5d71:0\""
+        },
+        "responseBodyHash": "446c7ec85c1ad78814aadf4687527a9359ab08d7cc0e15a28a759eeaae3bf20b",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.028362999990349635
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/teaserWall.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1870,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"f63f411382e0d71:0\""
+        },
+        "responseBodyHash": "a0825cbb5a6247a8893cff3c488da9c61a03504c048b986713feefbc4410dd34",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.01962100001401268
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/SocialShareBar.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 688,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"3837fb2280d5d71:0\""
+        },
+        "responseBodyHash": "fc550039a7fcc596865cea1106e945c3d4a4f7bdb5bbe04d3e7bf0245371dbe2",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.028116000001318753
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/share.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1231,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"2ae9fa2280d5d71:0\""
+        },
+        "responseBodyHash": "8aecae9a2f8130c1f33c4ca6b8b7906ce11ab1c6600640d7a154a93060f043d0",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.0567260000098031
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/masonry.pkgd.min.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 7738,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"733cc82280d5d71:0\""
+        },
+        "responseBodyHash": "7d0ab317f5699019ed6435efd05a55df34babbec9555f438b044b84dc71623a0",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.040573000005679205
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/BaseTeaserGrid.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1413,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"91922cfc7f1d71:0\""
+        },
+        "responseBodyHash": "808d3dbec84f8df2de67fcea092221f6bc5f3858050660acf8d1c444578397b3",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.03222000002278946
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/Tabs.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1262,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"abb8f9cc44d6d71:0\""
+        },
+        "responseBodyHash": "1f471ed89b6bd44ac38ced0be2682e1420dbfe067ea64699d7c5254e11116c84",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.032872999989194795
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/BaseStage.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1297,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"66d7b793e6d71:0\""
+        },
+        "responseBodyHash": "04cd0186a412d445bede6885ce2543edfe12ada909636ce14a488629f8fa6029",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.03398800001014024
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/MobileStage.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 778,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"b8c8e82280d5d71:0\""
+        },
+        "responseBodyHash": "febba98607f6d8942531134f2f795e95ac12694383cc45ce341e59b23966c166",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.03829399999813177
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/truncate.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1618,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"944dccc44d6d71:0\""
+        },
+        "responseBodyHash": "a0411554a08d3b478483d7cd5a118c5291ae6b39cb6bf26b094fd3cf5bf5c3f7",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.0781589999969583
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/modules/Cookie.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 1186,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"394231fc7f1d71:0\""
+        },
+        "responseBodyHash": "09b932ba3aa8e92cd235cc4458a3fd8f38ce1023b398d4e0954805ae030fd3b9",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.055123999976785854
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/jquery.flexslider.min.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 6924,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"45f718fc7f1d71:0\""
+        },
+        "responseBodyHash": "cd3a745dc42a3e3c6217f75ac99d3a0b69be5d6648145a93bd90315f8731199b",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.05496999999741092
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/js/libs/jquery.waitforimages.neveling.js?2021-10-13",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 961,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"ff9bc92280d5d71:0\""
+        },
+        "responseBodyHash": "08813a1ad66b0b6794f207028e4eb252338c7a17a0b9b8ff793315a6da4ddc0e",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/js/libs/22B9075B549166EEA9D9D2D58CA8CA0B-require.js",
+          "https://www.hartmann.info/assets/country/js/9A11E12C3C35D84CA474AB01850579E7-paha-website.js"
+        ],
+        "time": 0.041843999992124736
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/img/svg-inline/icon-direction-prev--light.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 444,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"a7cc50fc7f1d71:0\""
+        },
+        "responseBodyHash": "1064f07400f107457676b9c2443a49901286ffda09ce864690a9e54cd7d9f938",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.037972999998601153
+      },
+      {
+        "url": "https://www.hartmann.info/assets/country/img/svg-inline/icon-direction-next--light.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css",
+        "status": 200,
+        "size": 301,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"ccb556fc7f1d71:0\""
+        },
+        "responseBodyHash": "fc6569a12786832e2c4ea94e0b4b6e10d43d725b38e6bb187845995b13badecb",
+        "initiators": [
+          "https://www.hartmann.info/assets/country/css/99184E0100200218198BEC97A9B69F93-paha-website.css"
+        ],
+        "time": 0.02714600000763312
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/stagaimage_pl/eksperci_leczenia_ran.jpg?h=640&iar=0&mw=1440&w=1440&rev=26750351d6a24517a623caf01d9e846f&sc_lang=pl-pl&hash=3DF566300A4DE914D88BEA1F11661F03",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 129059,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "4151fe2397244d53b900e36f481fc16e"
+        },
+        "responseBodyHash": "f825ef09d92ed27a0efc0ee381e78e52a0011c3ce340f31d26f51fd8660f2010",
+        "initiators": [],
+        "time": 0.2725590000045486
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/stagaimage_pl/risk-prevention.jpg?h=640&iar=0&mw=1440&w=1440&rev=904e12fac7964439af8e01c691f52fca&sc_lang=pl-pl&hash=F27E67E326FDCDCB21597183EF941DCC",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 117629,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "0edf9978b445474e97ca7f83ccd90851"
+        },
+        "responseBodyHash": "7587a2e458fe8459b0ae64878222f7c38c836a3757a184f378d3f166a7800f7e",
+        "initiators": [],
+        "time": 0.27526600001147017
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/stagaimage_pl/leczenie-ran.jpg?h=640&iar=0&mw=1440&w=1440&rev=f3ad57b318e94b9ebac6fae5b7b20c8e&sc_lang=pl-pl&hash=359EEBA5831F05A06CCB5F3AADFBE0A9",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 170776,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "cec0b4b94d744afaa0c505900c7fa884"
+        },
+        "responseBodyHash": "fb74e435bc0922d857e3e8a483a7b4efc2067d0369c48ba5190ff221b0897a39",
+        "initiators": [],
+        "time": 0.27716199998394586
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/stagaimage_pl/osobista-opieka-zdrowotna.jpg?h=640&iar=0&mw=1440&w=1440&rev=97b40d1ee74f44c2bd040bd01f0391d6&sc_lang=pl-pl&hash=2BCBE486E3D243E6BC36AE352A419709",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 163929,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "99510e8e5f664712835960bc8cb4f468"
+        },
+        "responseBodyHash": "57218440cde525d119400e55b0421fd575f8512d857a293384975c3e981db2a0",
+        "initiators": [],
+        "time": 0.24920299998484552
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/stagaimage_pl/inkontynencja.jpg?h=640&iar=0&mw=1440&w=1440&rev=c31651964d0e42b39b760306d3db552c&sc_lang=pl-pl&hash=4A7EA13DAE87D50699FCE17FECCDCB3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 164615,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "66539cd23cda451dbccf02ee93d92a8e"
+        },
+        "responseBodyHash": "6715246e84023257f037754b4e177b4b17563472bb3b037ebeb702e97760cb1f",
+        "initiators": [],
+        "time": 0.2736600000062026
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/paul-hartmann-manufacturing.jpg?h=640&iar=0&mw=1440&w=1440&rev=2adc953237c04a419f54d15dfdc6eb3e&sc_lang=pl-pl&hash=3AC3DA9CD0F694CCE4D7D8048C4E442F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 159321,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "6bc6aec0a97646e6a5e0b8fcd1b800db"
+        },
+        "responseBodyHash": "66186c99da9c8073a5a3dc7dbe1cb8c9401b9125f35741d05745fb96ffddc795",
+        "initiators": [],
+        "time": 0.14153100000112318
+      },
+      {
+        "url": "https://www.hartmann.info/-/media/temporary-media-folder/pl/stagaimage_pl/profilaktyka-zakazen.jpg?h=640&iar=0&mw=1440&w=1440&rev=7607dff82703418593b856a32bd7513b&sc_lang=pl-pl&hash=F92CFBFA5447B2A161EA4882EAF001B9",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 118681,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant",
+          "cache-control": "public, max-age=31536000",
+          "etag": "8eb56931319d454da237b3331e4b3444"
+        },
+        "responseBodyHash": "eebdde3c9a90fd5fde584ca5424d6696db553b277c76b22015b383034993ad3c",
+        "initiators": [],
+        "time": 0.2605389999807812
+      },
+      {
+        "url": "https://consent.cookiebot.com/0b4da1b1-4bd2-4227-863d-2442e651572a/cc.js?renew=false&referer=www.hartmann.info&culture=pl&dnt=false&forceshow=false",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 57503,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1200"
+        },
+        "responseBodyHash": "4bf8556d9fceb08820817ca2d5855a9ee6e71336256229cf8ede778633b5b6ca",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js"
+        ],
+        "time": 0.09606899999198504
+      },
+      {
+        "url": "https://www.hartmann.info/rb_bf25580ieg?type=js3&sn=v_4_srv_7_sn_EEA30969FBB4B694A88F6E6826ECE643_perc_100000_ol_0_mul_1_app-3Aff00d28804a12118_0&svrid=7&flavor=post&vi=MJKCFMHFCVJNTWDMBHVHFPNAUMRPFAMI-0&modifiedSince=1638793414956&rf=https%3A%2F%2Fwww.hartmann.info%2Fpl-pl%2F&bp=3&app=ff00d28804a12118&crc=2220152667&en=xyaj1lts&end=1",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/pl-pl/",
+        "status": 200,
+        "size": 264,
+        "remoteIPAddress": "104.18.11.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "http://salesforce.tenant"
+        },
+        "responseBodyHash": "79e693c58a89ae06c364da09715cea15fd10133a9ae3a2052cb13fbfbddd64a3",
+        "initiators": [
+          "https://www.hartmann.info/ruxitagentjs_ICA2Vfjqru_10229211201102017.js"
+        ],
+        "time": 0.06288599999970756
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640126285430&referer=https%3A%2F%2Fwww.hartmann.info%2Fpl-pl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=0b4da1b1-4bd2-4227-863d-2442e651572a&cbt=leveloptin&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 755,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 21 Dec 2021 22:38:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b55af2fa84dd6cdcb6732a2d5febcf1ee2ca8e166958fbe0a6908154585f05e1",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/0b4da1b1-4bd2-4227-863d-2442e651572a/cc.js?renew=false&referer=www.hartmann.info&culture=pl&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.09341699999640696
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640126285448&referer=https%3A%2F%2Fwww.hartmann.info%2Fpl-pl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=0b4da1b1-4bd2-4227-863d-2442e651572a&cbt=leveloptin&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 754,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Tue, 21 Dec 2021 22:38:05 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f21423c4a42185ec300e3ad5170d1ded8ac877439e2fe8b55398ef666138ba61",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/0b4da1b1-4bd2-4227-863d-2442e651572a/cc.js?renew=false&referer=www.hartmann.info&culture=pl&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.09360500000184402
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/consentconfig/0b4da1b1-4bd2-4227-863d-2442e651572a/settings.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hartmann.info/",
+        "status": 200,
+        "size": 987,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hartmann.info",
+          "cache-control": "max-age=32400",
+          "etag": "\"0d838617d213891fd119c96980277a71:1635954181.940278\"",
+          "expires": "Wed, 22 Dec 2021 07:38:05 GMT"
+        },
+        "responseBodyHash": "0d2af75b0780460aed8682a4ef78f9f4156348951f565283fe7b68a240651038",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1640126285430&referer=https%3A%2F%2Fwww.hartmann.info%2Fpl-pl%2F&dnt=false&method=strict&clp=false&cls=false&clm=false&cbid=0b4da1b1-4bd2-4227-863d-2442e651572a&cbt=leveloptin&hasdata=true"
+        ],
+        "time": 0.006792000000132248
+      }
+    ]
+  }
+}

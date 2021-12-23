@@ -1,0 +1,1791 @@
+{
+  "initialUrl": "https://www.audible.com/",
+  "finalUrl": "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+  "timeout": false,
+  "testStarted": 1639670754592,
+  "testFinished": 1639670768402,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.audible.com\\links.www.audible.com_a441.json",
+    "requests": [
+      {
+        "url": "https://www.audible.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "52.222.140.232",
+        "responseHeaders": {
+          "set-cookie": "ubid-main=131-1574993-0308519; Domain=.audible.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nsession-id=132-4415631-0908856; Domain=.audible.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nsession-id-time=2082787201l; Domain=.audible.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+        "initiators": [],
+        "time": 0.22175599995534867
+      },
+      {
+        "url": "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 101543,
+        "remoteIPAddress": "13.227.217.2",
+        "responseHeaders": {
+          "set-cookie": "ubid-acbuk=257-7420688-0222806; Domain=.audible.co.uk; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nsession-id=258-5880986-9205850; Domain=.audible.co.uk; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nsession-id-time=2082787201l; Domain=.audible.co.uk; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\ncurrentSourceCode=\"AUK30DFT1BkWS0826159058_12/16/2021 16:05\"; Version=1; Domain=.www.audible.co.uk; Max-Age=5184000; Expires=Mon, 14-Feb-2022 16:05:55 GMT; Path=/\noriginalSourceCode=\"AUK30DFT1BkWS0826159058_12/16/2021 16:05\"; Version=1; Domain=.www.audible.co.uk; Max-Age=5184000; Expires=Mon, 14-Feb-2022 16:05:55 GMT; Path=/\nisFirstVisit=false; Expires=Tue, 15-Dec-2026 16:05:55 GMT; Path=/"
+        },
+        "responseBodyHash": "b8aa7ab43832eb9e2c389ce950f62cfeafba2f77f264ec9e12639ba7bf412409",
+        "redirectedFrom": "https://www.audible.com/",
+        "initiators": [],
+        "time": 0.5369829999981448
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/713APhZALIL.css?AUIClients/AudibleBrickCitySkin",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 31659,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 08 Sep 2041 08:58:05 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "9522a91cf4a6d2cc5d5fc3c74f4948ad62e16265e4fe6fdc1b02d0db7b049982",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.07116499997209758
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/11XxUKjdoUL.css?AUIClients/AudibleWebNavigationAssets&SlUBMIBh",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1593,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 24 Jan 2041 22:11:18 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "a92f7c1037387e5a4107affc339ceb27fecd0726eb6330144b7d45ff67b9cc9b",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.07840800005942583
+      },
+      {
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A2I9A3Q2GNFNGQ:258-5880986-9205850:G4DSG9ZEYFRY9C415JFP$uedata=s:%2Fuedata%2Fuedata%3Fstaticb%26id%3DG4DSG9ZEYFRY9C415JFP:0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 150,
+        "remoteIPAddress": "34.247.198.31",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.18549900001380593
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/02/AudibleUK/en_GB/hero_images/UK-2643-AnonHeroBanner-2000x500_V01_V3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 348023,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Thu, 16 Dec 2021 10:27:50 GMT",
+          "timing-allow-origin": "https://www.amazon.co.uk"
+        },
+        "responseBodyHash": "9d6937fb52fcf39cf37b0317f34c61d8ff142a8b21c258e3faac7466001ea1d4",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.12115699995774776
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/02/AudibleUK/en_GB/hero_images/0935-DesktopWeb-Membership-AmazonDTWeb_2000x649_V01.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 151114,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Fri, 17 Dec 2021 07:00:04 GMT",
+          "timing-allow-origin": "https://www.amazon.co.uk"
+        },
+        "responseBodyHash": "3cf4afb7e672637de8df15a2c27a3a7471effcda976c5da9060b7a1f542d4f18",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.09126200003083795
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/02/AudibleUK/en_GB/hero_images/ANON_Prime_HP_1000x150.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 5105,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Thu, 16 Dec 2021 18:51:05 GMT",
+          "timing-allow-origin": "https://www.amazon.co.uk"
+        },
+        "responseBodyHash": "9315218c93cef5de236cbb5bc8203fc0b1e6f29bc669021b7113e0ac1506913d",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.07904500002041459
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/01PIy4uOPtL.css?AUIClients/AudibleWebSearchAssets",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 656,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Tue, 09 Apr 2041 09:39:51 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "173a67c90db48ed6b602aa6b630ca5ec10b156ebd76861ac60004019160a44eb",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.046088999952189624
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/01PEBDqx9wL._RC%7C012TDX1mv5L.css_.css?AUIClients/AudibleWebNotificationAssets",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1218,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 31 Jan 2041 12:29:09 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "5f9421fefec2d4a646cec10743d919c4ed12dbfd7139269be84db25c23be0a22",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.06354699993971735
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/31of0jxSqmL.css?AUIClients/AudibleWebCarouselAssets",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 2497,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Tue, 27 Aug 2041 15:46:28 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "e504c508460ae02cce652202ecae3e3b99143465517879410665abc67850931f",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.06405800010543317
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/017c-E3u2tL.css?AUIClients/AudibleCloudPlayerLauncherAssets",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 541,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Tue, 29 Jan 2041 02:36:15 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "ce98ab80e30d6e9714e108dbadd0237b5837a5e40ec9148449c44c3ce742e744",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.06962800002656877
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/02/AudibleUK/en_GB/hero_images/desktop_banner_spacing_dark.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 732,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Fri, 17 Dec 2021 02:12:36 GMT",
+          "timing-allow-origin": "https://www.amazon.co.uk"
+        },
+        "responseBodyHash": "63ec296c0e1bd14f027b24d7d32336566d4a7f67863a799e8686d1e8e9e7c224",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.0770929999416694
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/G/01/audibleweb/brickcity/1.0/mask._V298585148_.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://images-eu.ssl-images-amazon.com/",
+        "status": 200,
+        "size": 609,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 28 Jan 2041 07:51:27 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "11092ab6b98bd1396783c198abbebd61a4cfd5e0d35bd5cbc98fde8eceb40de2",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/713APhZALIL.css?AUIClients/AudibleBrickCitySkin"
+        ],
+        "time": 0.07556100003421307
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/audibleweb/brickcity/1.0/fonts/icons/brickcity_icons_release_1-0.21._CB494056935_.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://images-eu.ssl-images-amazon.com/",
+        "status": 200,
+        "size": 11875,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 06 Jun 2041 22:48:55 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "a6cc70a20d974512bc6dd2e11b54b2a242f7cb43448f070da2d0829e3e648ad2",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/713APhZALIL.css?AUIClients/AudibleBrickCitySkin"
+        ],
+        "time": 0.12454500002786517
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/audibleweb/fonts/audiblesans/audiblesans-bd._V493226462_.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://images-eu.ssl-images-amazon.com/",
+        "status": 200,
+        "size": 19467,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 23 May 2041 07:41:06 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "6c00dbbc9572eb71915d6d48d0afe2456d2d86622f2ffe09aacff9589bba762f",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/713APhZALIL.css?AUIClients/AudibleBrickCitySkin"
+        ],
+        "time": 0.16622300003655255
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/audibleweb/fonts/audiblesans/audiblesans-rg._V493226456_.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://images-eu.ssl-images-amazon.com/",
+        "status": 200,
+        "size": 19524,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 20 May 2041 21:39:50 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "9b1375e4085bda02f55993ff5816b4e77faa1bdb25f2a36eaa4b8fb0ac6c1b31",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/713APhZALIL.css?AUIClients/AudibleBrickCitySkin"
+        ],
+        "time": 0.12711599993053824
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/audibleweb/arya/navigation/audible_logo_inverse._V517446980_.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 10200,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Fri, 01 Mar 2041 02:22:35 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "3f54c6fa71080e75e665063b6fb5faf6c1900c990e8601edf4c46aa7bab11248",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.017937000025995076
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/41LbzoiRLRL._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 4896,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 16:41:02 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "36a73b03e4c47d9eb8d350fe610f043acf384cf09a0a62a929906b7b4f6028bf",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.015450000064447522
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51wZbV1QeAL._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 6138,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 16:54:51 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "cb74dd18df9a82e6f0ff408310a8b34b32c730424807fe16a1662b2935b05529",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.012868999969214201
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51nmtz21D+L._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 7531,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 28 Nov 2041 14:29:45 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "73539491be85f5f38960077b610cb9f3c1c58bea8aca37c4ac5308439a73c4cb",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.014354999992065132
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51P5z2BbV-S._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 6211,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 16:27:48 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "cc59de58a8c4ff11e2cb9d58e7a94393e22666120c704c96b57d5f3ddd59316b",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.01494500006083399
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51YnBuBOV1L._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 5372,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 28 Nov 2041 02:28:11 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "8418d922214bc1b32067686cfb74c8875b5a77132a489d5464ce2854517ad089",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.014307999983429909
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51KGc0Yxl1L._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 4913,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 16:35:20 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "f8d3e53b1a4b57776cc730f62987152e62ab8a1285b0d523252add83431e0b18",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.014176999917253852
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51vWPVUVKyL._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 6964,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 19:04:42 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "0fd291953e0012f2307fa9f2f700d76f57011b0f25c73987af8de55ad4ec0bde",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.014458000077866018
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51c7xWrMwUL._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 6086,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 05 Dec 2041 22:38:11 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "0ba7d8e50fc45b5d24005479efdba8a1a2023e36776a75973d45e3a844c361ef",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.014675999991595745
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51hnIW7SgML._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 6653,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 16:29:11 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "0fde50eaf15ed33ba5395afd9f58ea08a7f0a1027ae72d068592feb7b6eb7499",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.012875000014901161
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/02/AudibleUK/en_GB/hero_images/0950-Anon-ListenAnytimeBan-Desktop-2000x428_2.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 85050,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Thu, 16 Dec 2021 23:23:59 GMT",
+          "timing-allow-origin": "https://www.amazon.co.uk"
+        },
+        "responseBodyHash": "e1bb08bbbcac64c5739b3964733a7283c1a61cf54f0767449e88b9c3fa316c57",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.03849399997852743
+      },
+      {
+        "url": "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 5190,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 16:45:05 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "57f2a55476f85f34200363e6b90f39a34489d4f59912dc1c901604b66d5b6a49",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.05622699996456504
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics/DTM/dtm_common.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1538,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600,public",
+          "expires": "Thu, 16 Dec 2021 16:26:34 GMT"
+        },
+        "responseBodyHash": "ae409a5f5bd42656655a918aaafd990caaeb6870ed2a52ce7acac524174f277e",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.019419999909587204
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics/Launch/launch-3111109c87da.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 173393,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600,public",
+          "expires": "Thu, 16 Dec 2021 15:59:21 GMT"
+        },
+        "responseBodyHash": "07b43ecf744e970c69d9c93d77c39b20160d5457af68e2e10b46c1500ba981cb",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.12693799997214228
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/61lArHc58dL._RC%7C01yRR0fNbxL.js_.js?AUIClients/AudibleBrickCitySkin&+X+FJldY",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 28807,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 16:20:51 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "7fd761d30a5e77176fbfffe0d39b0263fd162d81c893a077971712ef644ffbe1",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.015535000013187528
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/21x8CqMrgHL.js?AUIClients/AudibleWebNavigationAssets&SlUBMIBh",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 3512,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 27 Oct 2041 15:51:48 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "822b54d14caa1c2948b4957271b57f61cd10b21963d43619fb5b1be83f928be0",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.014032999984920025
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/31k+2Jwl6sL.js?AUIClients/AryaAnalyticsAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 4102,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 05 Jun 2041 15:30:10 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "94f01e025395f330642dcde72abbb13aae7d28bbd2378d5f4bae002f54f8d749",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.013322000042535365
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/11G5wuM2iWL.js?AUIClients/AudibleWebSearchAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1917,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Tue, 18 Dec 2040 15:09:00 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "eefe0ddc77a9722f9db220301a0862103484ca954e182fba23d81a7261f6eb8c",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.01180400000885129
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/61gcbKtCLjL.js?AUIClients/AudibleUIJQuery",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 32910,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Thu, 31 Jan 2041 01:11:00 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "97fe5f11333505003bf232dca7397bc07ddc48c9af336db902ae5b04c9844432",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.017318999976851046
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/01y6g2DAb6L._RC%7C11-xVeViWSL.js_.js?AUIClients/AudibleWebNotificationAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1720,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 28 Jan 2041 21:03:54 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "7fed90a2ff174f10bce4d9cd71c851b548cf809e70325b84c4ab800481006dd5",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.01151199999731034
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/51qaZu+zQWL.js?AUIClients/AudibleWebCarouselAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 13542,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 27 May 2041 00:42:12 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "fd5944cddc12bf7ec6d358b0be99b39ee9a1a1fe1b438d2d33165f01e6a9a6b6",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.015053999959491193
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/11PYwsl+A1L._RC%7C015+r9Ypm1L.js_.js?AUIClients/AudibleCloudPlayerLauncherAssets",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 2333,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Mon, 07 Oct 2041 15:42:37 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "b7cd027d1b5ae72b302eaf14cfa05f7d22777ced63dc56d1b2dc90aa076593cb",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.013676000060513616
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adtag=csm&ad_box_",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 586,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Fri, 17 Dec 2021 00:03:12 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "88ea58255d4cd82340f7acaabe0e6a99f195a4dc2ca6ef56ec503d03b331bee5",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.011132000014185905
+      },
+      {
+        "url": "https://consent.trustarc.com/get?name=crossdomain.html&domain=audiblebannertest.com",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1395,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Sat, 15 Jan 2022 15:36:08 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bd478d1e075f071ca0f0e7f3e27e4c22d27831b23df86dd6d0f7a37c38263b0e",
+        "initiators": [
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.04877100000157952
+      },
+      {
+        "url": "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 24461,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Sat, 15 Jan 2022 15:57:08 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "917cd441969c201fe537f3c3c47a825d2fd9b68535a5873358b630a5c6a25f0d",
+        "initiators": [
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.01682700007222593
+      },
+      {
+        "url": "https://consent.trustarc.com/log?domain=audiblebannertest.com&country=gb&state=&behavior=implied&c=cdc8",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 396,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "cache-control": "private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.10375100001692772
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics-satellitescripts/launch-lib-files/5af1050356e3/c623be25d3a5/5516875c07a7/EX24dc9c746b924a5295f766ce8f169a18-libraryCode_source.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 25054,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000,public",
+          "expires": "Tue, 06 Dec 2022 19:55:45 GMT"
+        },
+        "responseBodyHash": "6d775adeb202be17454713974a63516fc700c36cba9848163673511933ab2108",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics/Launch/launch-3111109c87da.min.js"
+        ],
+        "time": 0.012746999971568584
+      },
+      {
+        "url": "https://www.dwin1.com/8095.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 8437,
+        "remoteIPAddress": "13.227.219.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, s-maxage=600",
+          "etag": "W/\"db54945d2ef22706518d6f888361b13b\""
+        },
+        "responseBodyHash": "4ce4e5a395362c172b6d59e2d0a7becfb9fe8ac397a1aef33233fc1334fdccc3",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics/DTM/dtm_common.js",
+          "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics/Launch/launch-3111109c87da.min.js"
+        ],
+        "time": 0.05833799997344613
+      },
+      {
+        "url": "https://audible.tt.omtrdc.net/rest/v1/delivery?client=audible&sessionId=16c4bbffb18d49b6af0067742eda8f9e&version=2.3.2",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 3776,
+        "remoteIPAddress": "54.170.22.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.audible.co.uk"
+        },
+        "responseBodyHash": "be23ce9111f43b7679842cfc64f467a2ebd3542f3b2ff9fa1d517deff1fd973f",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/S/audible-seo-analytics/Launch/launch-3111109c87da.min.js"
+        ],
+        "time": 0.44356299994979054
+      },
+      {
+        "url": "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 6029,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 16:45:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7f90a6df823c77da4eef9e0be3cd86d5f90cc0a28bdfd67840a324b8b9e30d67",
+        "initiators": [
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.011366999940946698
+      },
+      {
+        "url": "https://consent.trustarc.com/get?name=audiblesans-rg.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 23845,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Sat, 15 Jan 2022 15:46:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bf0a34cd79f6fcd9c58c599adce5e718777c68306d035474d16ed72d8083a8d",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.07123400003183633
+      },
+      {
+        "url": "https://consent.trustarc.com/get?name=audible_logo_only.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 23589,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Sat, 15 Jan 2022 15:40:40 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "183289f10a1a2a2687be1617734e7e8f3029f839855951188451081deeef6be0",
+        "initiators": [
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.012354999897070229
+      },
+      {
+        "url": "https://consent.trustarc.com/bannermsg?action=views&domain=audiblebannertest.com&behavior=implied&country=gb&language=en&rand=0.9586901372110141",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 433,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Thu, 16 Dec 2021 16:05:55 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.044362999964505434
+      },
+      {
+        "url": "https://www.audible.co.uk/uedata/uedata?ld&v=0.217706.0&id=G4DSG9ZEYFRY9C415JFP&sw=800&sh=600&vw=1440&vh=812&m=1&sc=G4DSG9ZEYFRY9C415JFP&ue=8&bb=92&cf=495&be=510&fp=188&fcp=188&pc=1100&tc=-397&na_=-397&ul_=-1639670755141&_ul=-1639670755141&rd_=-1639670755141&_rd=-1639670755141&fe_=-175&lk_=-173&_lk=-143&co_=-143&_co=-103&sc_=-137&rq_=-103&rs_=-46&_rs=362&dl_=-38&di_=552&de_=553&_de=553&_dc=1100&ld_=1100&_ld=-1639670755141&ntd=-1&ty=0&rc=0&hob=2&hoe=9&ld=1114&t=1639670756255&ctb=1&rt=cf:28-2-6-16-5-11-1__ld:47-15-6-19-6-24-1&csmtags=aui|aui:aui_build_date:3.21.5-2021-12-10|fls-eu-amazon-com|adblk_no&viz=visible:7&pty=Gateway&spty=Gateway&pti=undefined&tid=G4DSG9ZEYFRY9C415JFP&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+        "status": 204,
+        "size": 982,
+        "remoteIPAddress": "13.227.217.2",
+        "responseHeaders": {
+          "set-cookie": "session-id=258-5880986-9205850; Domain=.audible.co.uk; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nsession-id-time=2082787201l; Domain=.audible.co.uk; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nsession-token=S2zHdlfUMqCkxijiQRy7+B88uycgTGKLf1vXvZ8Ovxvf4pjjNpofwTDMKNLeqSQn3zeuJKGmxDSv38e8/Ai3zcp5jOTlvhauxI7AmReNJZjAImnD1UEptXhXPKICY8KUaZie8YdEUVWgIS7o4DmqBW2TA+bMznG1BRU23e4lk9EnHly1s12q98oktiuydE82; Domain=.audible.co.uk; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.06016599992290139
+      },
+      {
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A2I9A3Q2GNFNGQ:258-5880986-9205850:G4DSG9ZEYFRY9C415JFP$uedata=s:%2Fuedata%2Fuedata%3Fld%26v%3D0.217706.0%26id%3DG4DSG9ZEYFRY9C415JFP%26sw%3D800%26sh%3D600%26vw%3D1440%26vh%3D812%26m%3D1%26sc%3DG4DSG9ZEYFRY9C415JFP%26ue%3D8%26bb%3D92%26cf%3D495%26be%3D510%26fp%3D188%26fcp%3D188%26pc%3D1100%26tc%3D-397%26na_%3D-397%26ul_%3D-1639670755141%26_ul%3D-1639670755141%26rd_%3D-1639670755141%26_rd%3D-1639670755141%26fe_%3D-175%26lk_%3D-173%26_lk%3D-143%26co_%3D-143%26_co%3D-103%26sc_%3D-137%26rq_%3D-103%26rs_%3D-46%26_rs%3D362%26dl_%3D-38%26di_%3D552%26de_%3D553%26_de%3D553%26_dc%3D1100%26ld_%3D1100%26_ld%3D-1639670755141%26ntd%3D-1%26ty%3D0%26rc%3D0%26hob%3D2%26hoe%3D9%26ld%3D1114%26t%3D1639670756255%26ctb%3D1%26rt%3Dcf%3A28-2-6-16-5-11-1__ld%3A47-15-6-19-6-24-1%26csmtags%3Daui%7Caui%3Aaui_build_date%3A3.21.5-2021-12-10%7Cfls-eu-amazon-com%7Cadblk_no%26viz%3Dvisible%3A7%26pty%3DGateway%26spty%3DGateway%26pti%3Dundefined%26tid%3DG4DSG9ZEYFRY9C415JFP%26aftb%3D1:1118",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "34.247.198.31",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.027891000034287572
+      },
+      {
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A2I9A3Q2GNFNGQ:258-5880986-9205850:G4DSG9ZEYFRY9C415JFP$uedata=s:%2Fuedata%2Fuedata%3Fld%26v%3D0.217706.0%26id%3DG4DSG9ZEYFRY9C415JFP%26sc0%3DcsmCELLSframework%26bb0%3D516%26pc0%3D517%26ld0%3D517%26t0%3D1639670755658%26sc1%3DcsmCELLSpdm%26bb1%3D518%26pc1%3D522%26ld1%3D522%26t1%3D1639670755663%26sc2%3DcsmCELLSvpm%26bb2%3D522%26pc2%3D523%26ld2%3D523%26t2%3D1639670755664%26sc3%3DcsmCELLSfem%26bb3%3D523%26pc3%3D524%26ld3%3D524%26t3%3D1639670755665%26sc4%3Due_sushi_v1%26bb4%3D525%26pc4%3D527%26ld4%3D528%26t4%3D1639670755669%26ctb%3D1:1118",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "34.247.198.31",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.03062800003681332
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 405,
+        "remoteIPAddress": "209.54.180.48",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.3546080000232905
+      },
+      {
+        "url": "https://images-eu.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 4897,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 19 May 2041 00:35:47 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "0debafeb8c39f3d5cdd9443cd018edee19d76125de4dc4765454f3008cb81a01",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.011473999940790236
+      },
+      {
+        "url": "https://www.audible.co.uk/api/prefs/localization",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "13.227.217.2",
+        "responseHeaders": {},
+        "responseBodyHash": "aea8ae6496965ae99f9ad7a66254a6aa0e857656ed60e4023484b7a7b3f747a1",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/61lArHc58dL._RC%7C01yRR0fNbxL.js_.js?AUIClients/AudibleBrickCitySkin&+X+FJldY",
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+          "https://images-eu.ssl-images-amazon.com/images/I/21x8CqMrgHL.js?AUIClients/AudibleWebNavigationAssets&SlUBMIBh"
+        ],
+        "time": 0.045067999977618456
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/510qu7LTvVL._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 4581,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 20:10:05 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "879908cde97620e980fe52f37c1373380518cb1cf1525a475cf00f58f50dc359",
+        "initiators": [],
+        "time": 0.011482000001706183
+      },
+      {
+        "url": "https://m.media-amazon.com/images/I/51x6VjyKroL._SL160_FMwebp_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 4167,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Wed, 27 Nov 2041 19:43:35 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "3baa9cefbac548ddab33fc5e23fbb28e4957884a8164d7437f864e6a4f6deb19",
+        "initiators": [],
+        "time": 0.01210299995727837
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/02/AudibleUK/en_GB/hero_images/0806-Anon-Desktop_3440x2482.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 1872299,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Thu, 16 Dec 2021 18:51:06 GMT",
+          "timing-allow-origin": "https://www.amazon.co.uk"
+        },
+        "responseBodyHash": "50d3064791af547fc444b40a898e22a1850de7c4e0eea4b063ec012d4d4d4222",
+        "initiators": [],
+        "time": 0.12147899996489286
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/audibleweb/fonts/audiblesans/audiblesans-lt._V493226457_.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://images-eu.ssl-images-amazon.com/",
+        "status": 200,
+        "size": 19292,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 26 May 2041 09:35:22 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "71ebe9403188dfee19e8187cc01e8d6cb7b62c15dc064be40dce15fa0812c20b",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/713APhZALIL.css?AUIClients/AudibleBrickCitySkin"
+        ],
+        "time": 0.1022520000115037
+      },
+      {
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 405,
+        "remoteIPAddress": "52.95.127.146",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.20048999995924532
+      },
+      {
+        "url": "https://fls-eu.amazon.com/1/batch/1/OE/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 204,
+        "size": 165,
+        "remoteIPAddress": "34.247.198.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.03123500000219792
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 2541,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"5147-1637823432000\""
+        },
+        "responseBodyHash": "5d59d71fa30604e26c815b2bcfea777bef1564467e2ff9b1b4dc45ca2ee0f6fe",
+        "initiators": [
+          "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq"
+        ],
+        "time": 0.06907399999909103
+      },
+      {
+        "url": "https://consent.trustarc.com/bannermsg?action=moreinfo&domain=audiblebannertest.com&behavior=implied&country=gb&language=en&rand=0.6241822528219996",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 433,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Thu, 16 Dec 2021 16:05:59 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&gtm=1&c=trustarclink&js=nj&noticeType=bb&text=true&country=gb&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.05917800008319318
+      },
+      {
+        "url": "https://consent.trustarc.com/get?name=trustarc_close.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 2466,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Sat, 15 Jan 2022 15:20:55 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "32a7b8274afc7279672377d07d5754cdabcd98e7114c244a2e76b869f6b5607c",
+        "initiators": [
+          "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.020101999980397522
+      },
+      {
+        "url": "https://consent.trustarc.com/noticemsg?action=click&domain=audiblebannertest.com&behavior=implied&country=gb&language=en&rand=0.7513860749918242",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:06:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.0737690000096336
+      },
+      {
+        "url": "https://consent.trustarc.com/noticemsg?action=consent&domain=audiblebannertest.com&behavior=implied&country=gb&language=en&rand=0.7188533881723012",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 504,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 16 Dec 2021 17:06:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://consent.trustarc.com/asset/notice.js/v/v1.7-940",
+          "https://consent.trustarc.com/notice?domain=audiblebannertest.com&country=gb&js=nj2&gtm=1&c=trustarclink&noticeType=bb&text=true&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.08836599998176098
+      },
+      {
+        "url": "https://www.audible.co.uk/uedata/uedata?at&v=0.217706.0&id=G4DSG9ZEYFRY9C415JFP&ctb=1&m=1&sc=G4DSG9ZEYFRY9C415JFP&pc=5536&at=5536&t=1639670760677&pty=Gateway&spty=Gateway&pti=undefined&tid=G4DSG9ZEYFRY9C415JFP&aftb=1&ui=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+        "status": 204,
+        "size": 590,
+        "remoteIPAddress": "13.227.217.2",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.07506699999794364
+      },
+      {
+        "url": "https://fls-eu.amazon.com/1/batch/1/OP/A2I9A3Q2GNFNGQ:258-5880986-9205850:G4DSG9ZEYFRY9C415JFP$uedata=s:%2Fuedata%2Fuedata%3Fat%26v%3D0.217706.0%26id%3DG4DSG9ZEYFRY9C415JFP%26ctb%3D1%26m%3D1%26sc%3DG4DSG9ZEYFRY9C415JFP%26pc%3D5536%26at%3D5536%26t%3D1639670760677%26pty%3DGateway%26spty%3DGateway%26pti%3Dundefined%26tid%3DG4DSG9ZEYFRY9C415JFP%26aftb%3D1%26ui%3D1:5536",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "34.247.198.31",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL=",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.04787800007034093
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 2459,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "W/\"4867-1637823450000\"",
+          "expires": "Thu, 16 Dec 2021 16:05:59 GMT"
+        },
+        "responseBodyHash": "20d7b38e2cdcf2a59983e3d97b5dd384e264c1aa94f827ebfbb61ff847e1b846",
+        "initiators": [
+          "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/"
+        ],
+        "time": 0.058415999985300004
+      },
+      {
+        "url": "https://consent-st.trustarc.com/get?name=combined_static_cm_minified.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/",
+        "status": 200,
+        "size": 5146,
+        "remoteIPAddress": "13.227.219.6",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Thu, 23 Dec 2021 01:09:00 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f1ba71d3bf034aeceecb8895e71a44f4806dbb5bcc44e46fd8fc461a774eb880",
+        "initiators": [
+          "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/"
+        ],
+        "time": 0.07301799999549985
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/images/loading.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 2986,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"2608-1637823432000\""
+        },
+        "responseBodyHash": "ea25c630c8ee147378a8df9db43ff37c181edfadc6b3037df8829a776a0f7357",
+        "initiators": [
+          "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/"
+        ],
+        "time": 0.041960000060498714
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 46680,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"142808-1637823450000\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "f3c2e8f23b95dcc752933e6abe2528f0989a361362fb4621672442d73583e6d2",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.05270200001541525
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/truste",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "edb378ec33f8cd7235d0d1451912782c10e64b73851b8005987dfbb2b24b0a1e",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.05480200005695224
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/truste",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 390,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "40dad270e1ce956298d1b18f7b17ccf358e94ce50951599c545acdf32623a778",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.05376899999100715
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/EuPreferenceManager.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 7138,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "etag": "W/\"28907-1637823432000\"",
+          "expires": "Thu, 16 Dec 2021 16:06:00 GMT"
+        },
+        "responseBodyHash": "75b9505ae007f8cc3bc1c5858b2010548ad36d39f1720b71be444a6238b4b8ba",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.0739680000115186
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/deferredjs/131A1038E691AD295373BB4FDF000271/10.cache.js",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 88403,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"258117-1637823450000\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "c1ce064f8da9b68dda18b8f557cf6bb335df90117d1a4607e8a0b4a3375dfbb5",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.05160600005183369
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/deferredjs/131A1038E691AD295373BB4FDF000271/1.cache.js",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 8071,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"19640-1637823450000\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "13b64eac810929d5c8a140f9a28ebec23c9b985399aa87e63789e68978751d0c",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.0340180000057444
+      },
+      {
+        "url": "https://unagi.amazon.com/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 405,
+        "remoteIPAddress": "209.54.180.48",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.13930699997581542
+      },
+      {
+        "url": "https://prefmgr-cookie.truste-svc.net/cookie_js/cookie_iframe.html?parent=https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https://www.audible.co.uk/ep/privacyfaq&cookieLink=https://www.audible.co.uk/legal/cookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/",
+        "status": 200,
+        "size": 1727,
+        "remoteIPAddress": "34.198.176.1",
+        "responseHeaders": {
+          "etag": "W/\"5014-1597208285000\""
+        },
+        "responseBodyHash": "e5356c4d200584b116d9ac14f89d883b120dbe4d7878914a4fa22358074c74f8",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html"
+        ],
+        "time": 0.35033199994359165
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/truste",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 692,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "45612673e820b392d76a4f850d357ef98e828d04e636b006112da4e75d7842e0",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.04596499993931502
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/truste",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 6521,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "08586984ed0e1691c43b8b8ddd5130e4599848cc07df433a8c91c25c7114dcf7",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.038462000084109604
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/images/trustarc-logo-small.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 4575,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"4197-1637823432000\""
+        },
+        "responseBodyHash": "26d2ab43b077f55073a1c5d6df42f3e886e55cbe9ec253bda1dff563ad8d5e00",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.04377900005783886
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/defaultpreferencemanager/deferredjs/131A1038E691AD295373BB4FDF000271/6.cache.js",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https%3A%2F%2Fwww.audible.co.uk%2Fep%2Fprivacyfaq&cookieLink=https%3A%2F%2Fwww.audible.co.uk%2Flegal%2Fcookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/",
+        "status": 200,
+        "size": 3413,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"7222-1637823450000\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "a339a20fd60063f5026b8d1a650eec285e6e1a80e71bf2cb561bfac8002f3ebe",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.010913999984040856
+      },
+      {
+        "url": "https://consent.trustarc.com/get?name=audible_logo_only.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://consent-pref.trustarc.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "expires": "Sat, 15 Jan 2022 15:40:40 GMT",
+          "pragma": "public",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "183289f10a1a2a2687be1617734e7e8f3029f839855951188451081deeef6be0",
+        "initiators": [
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/131A1038E691AD295373BB4FDF000271.cache.html",
+          "https://consent-pref.trustarc.com/defaultpreferencemanager/defaultpreferencemanager.nocache.js"
+        ],
+        "time": 0.004117000033147633
+      },
+      {
+        "url": "https://consent-pref.trustarc.com/cookie_inneriframe.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://prefmgr-cookie.truste-svc.net/",
+        "status": 200,
+        "size": 1269,
+        "remoteIPAddress": "13.227.219.81",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"2008-1637823432000\""
+        },
+        "responseBodyHash": "a2de091c86c5a7b6dcc572eb6e5a76c2cd72ce27a2042a8dc2974f15b33566ed",
+        "initiators": [
+          "https://prefmgr-cookie.truste-svc.net/cookie_js/cookie_iframe.html?parent=https://consent-pref.trustarc.com/?type=devaudible&site=audiblebannertest.com&action=notice&country=gb&locale=en&behavior=implied&gtm=1&layout=default_eu&privacypolicylink=https://www.audible.co.uk/ep/privacyfaq&cookieLink=https://www.audible.co.uk/legal/cookies-and-advertising&irm=undefined&from=https://consent.trustarc.com/"
+        ],
+        "time": 0.08344999991822988
+      },
+      {
+        "url": "https://fls-eu.amazon.com/1/batch/1/OE/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 204,
+        "size": 165,
+        "remoteIPAddress": "34.247.198.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://images-eu.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.028581999940797687
+      },
+      {
+        "url": "https://unagi-eu.amazon.com/1/events/com.amazon.csm.nexusclient.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.audible.co.uk/",
+        "status": 200,
+        "size": 405,
+        "remoteIPAddress": "52.95.127.146",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.audible.co.uk/?ref=Adbl_ip_rdr_from_US&source_code=AUK30DFT1BkWS0826159058&ipRedirectFrom=US&ipRedirectOriginalURL="
+        ],
+        "time": 0.03984500002115965
+      }
+    ]
+  }
+}

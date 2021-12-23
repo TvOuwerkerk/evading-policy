@@ -1,0 +1,3448 @@
+{
+  "initialUrl": "https://www.ebay.ca/",
+  "finalUrl": "https://www.ebay.ca/",
+  "timeout": false,
+  "testStarted": 1639670922607,
+  "testFinished": 1639670943157,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.ebay.ca\\links.www.ebay.ca_705c.json",
+    "requests": [
+      {
+        "url": "https://www.ebay.ca/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 59185,
+        "remoteIPAddress": "104.84.233.126",
+        "responseHeaders": {
+          "set-cookie": "dp1=bbl/NL657dcb8b^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:43 GMT; Secure\nnonsession=BAQAAAXw0ACieAAaAADMABmOcmAs2NTQyQUEAygAgZX3Li2M0MDBiZmE2MTdkMGE5ZjczNmIyNzBlMWZmZDg5ZjQ4AMsAAWG7a5Mxm7Egj6P2RW/m54BtbVSNI62ylHY*; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:43 GMT; Secure\ns=CgAD4ACBhvLYLYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDjsCAAE; Domain=.ebay.ca; Path=/; HttpOnly; Secure\nebay=%5Esbf%3D%23000000%5E; Domain=.ebay.ca; Path=/; Secure\nak_bmsc=9ADAAA2D12484AC3307590EDECE3C0FD~000000000000000000000000000000~YAAQTaQFF3mu5bN9AQAANMAAxA7PsY95VA4jkPfgVlb/5/QE4i5tl/xz6H+hhge3JaC0Swo1i3toMaEVJQ/8+UTWhKacILeph7O9QdM6YPO1MKgqeehbuuh+AquUjLsYbUE5SdrZEdRiZhGirZBR7fUXDxh6LK5IGi7TZqfRuU3S8NOBsNA3/3Tl56qLxYl++PphG2ogtJ0u5kVnyvpcNu7UpxhHjO83owq382ZOjpkd/69siAGQDAa5uUIIP3ADlZ74uH9G23hFwboxxyKC1bkXQaElmGekqGc50Ao/N2tuFZrcsQR7ZCKwffeaxsc/e5Vm7EsgXAH7DDUJ5nf9Dap7gcMbbMgVt7AewLoZRcUdin9QuipxNMF1eBrZP7EKK7vofTi+ygM=; Domain=.ebay.ca; Path=/; Expires=Thu, 16 Dec 2021 18:08:43 GMT; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "9590ad8dafffab83b00f4e5533dbeef6ee0f64028011957e9686b42d621fead7",
+        "initiators": [],
+        "time": 0.756584000075236
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 280,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0804840000346303
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 14329,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "6ebde324013c9064fa1f7fea98a867aafd0953d8bdd61a0366dc290c343c8fc4",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.07701799995265901
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/inception-OjRHRnch.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 7969,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "20d22ea45aae726ff6978f516cf3206f290789f2a68d677953613e87530e73fb",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.07527399994432926
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/highlnfe-UuNWv_xx.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 11557,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "33625c506abeac15e9ad69ef516f96f81bbdbd366155d1083ba76d868726f6a8",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.07665900001302361
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/makeebayfasterscript-src-scripts-logger-cbdc5549.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2178,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "fc212a15fe880109c6589e401ba12a1e59a289c4a8eb591ba8d8ec35d4cff47c",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.08723099995404482
+      },
+      {
+        "url": "https://www.ebay.com/scl/js/ScandalLoader.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 1133,
+        "remoteIPAddress": "104.84.233.31",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600, stale-while-revalidate=3600",
+          "etag": "W/\"823-17db4b497d0\""
+        },
+        "responseBodyHash": "c0312f52088d36efbcbfb5377d1e86fd8e9f6330bc20650a1dd451550048d148",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.16945799998939037
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/fxxj3ttftm5ltcqnto1o4baovyl.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5021,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "d96d09d862e2ad555e117dd3d80461f84473ac009212a94c8e2a2c1334ddf6f1",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.12639899994246662
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/rs/c/inception-OjRHRnch.css",
+        "status": 200,
+        "size": 22549,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "e65df12aa32341d3c82d426b4730c44fa6d01aaf9f90d56d757acc0df6b7367f",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/inception-OjRHRnch.css"
+        ],
+        "time": 0.10587700002361089
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/b2necmqezm4lllppoiu15ia5gqi.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N",
+        "status": 200,
+        "size": 64359,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "fbb11ec4f795e78423e79aca56be23c3b8b70477f2cda1ce273cc63075a21680",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N"
+        ],
+        "time": 0.03623999992851168
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MzZYNDI=/z/BGEAAOSw8FRZqY4x/$_57.PNG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 200,
+        "size": 1236,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b8f791e71f028666f24cdf6f9e20a9eea6769d65f95f466e459b21bce07e5c68",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-UuNWv_xx.css"
+        ],
+        "time": 0.030794000020250678
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/rs/c/inception-OjRHRnch.css",
+        "status": 200,
+        "size": 22676,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "4956e065eb01c2cd27f00388fdd839cf91a884cda4915d6a5d54eadb0c37f40c",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/inception-OjRHRnch.css"
+        ],
+        "time": 0.10516899998765439
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0014930000761523843
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0013970000436529517
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0013439999893307686
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.001269000000320375
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0013150000013411045
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/inception-6NlhMWD3.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 7642,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "89827e3a30ddfe706afa6b015a76a15e6cb1b94f0fad1127365f5c494b72f76a",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.02417799993418157
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 75662,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "3a3098a7daeaca91daa8279cc1762ac0df7db49ec1dada5a1e4748521ca1a057",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.03292699996381998
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/jquery-KOuBsJce.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 29670,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "c41c48c8589639c6782df6d10ed91bcd3e120ed3181ceb18d6a528c91532e2d2",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.014975000056438148
+      },
+      {
+        "url": "https://rover.ebay.com/roversync/?site=2&stg=1&mpt=1639670923196",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 301,
+        "remoteIPAddress": "209.140.129.82",
+        "responseHeaders": {
+          "cache-control": "private,no-cache,no-store",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI CURa ADMa DEVa PSDo PSAa OUR SAMo IND UNI COM NAV INT STA DEM PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "npii=btguid/c400c44317d0a44d1c635024ff85a56a657dcb8c^cguid/c400c44617d0a44d1c635024ff85a568657dcb8c^;Domain=.ebay.com;Expires=Sat, 16-Dec-2023 16:08:44 GMT;Path=/; Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://rover.ebay.ca/roversync/?site=2&stg=1&cguid=c400c44617d0a44d1c635024ff85a568&mpt=1639670924358",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.6884690000442788
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3474,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "e123f0c91db61c7420316106e7233facfb16217f90c30cbfa837b66a4d4c8ae3",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.020189999951981008
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 7144,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "d1d6596db247ccc2f44ee8e12e07b4289ac682f855ae75e6c52cb2c1109614dd",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.02079900004900992
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/h0uj1osj1y1nlldfgf21ohvmvug.css?proc=DU:N",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 361,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "bac87686be800440c96de28f721557ff32e22dd371f21c38e3f91445cb47a5ab",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.032233000034466386
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 40033,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "3602851e03d230f5be28615691251af6fd012b825e6df9b5b191ca7514283fb4",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.025016000028699636
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/makeebayfasterscript-src-scripts-body-78a2168a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 1822,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "81b9056bc784a4ac2299cb454ba74cc8f1b7732e3a7bfd4f65aec9ba9822686a",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.029731000075116754
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/4tcAAOSw5otgVQ~J/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5274,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "ee3fbe1038b29321b1dfe8ffcef248f75934dda5e59304182795e4f3ecfd1877",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.023296999977901578
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/H24AAOSwl4Vhs7C6/s-l400.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 19855,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "572ca8e342743c285bef9f34ffa741b44c7974c0a5a789a3629f309db92415cb",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.02297100005671382
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/Hb0AAOSwFA9hJ5Bu/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2182,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "e7364a1c3e28ce694f0c0b866204d8d7003c1fea076f753e9d621af06493a850",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.022952000028453767
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/L-4AAOSwxcthtMH-/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3452,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "4097b2ba47b66f2dfd5bec2a144afed66aa41433fbfecefe1c41805f8397d4d0",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.02072899998165667
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/KO8AAOSwza9gyW9m/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4379,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "859b34710134ef72898d77e1445a4c6f434020545f6f76d402a223275f52a058",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.021776000037789345
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/AxYAAOSwIVdeVWZ7/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 6185,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "1f74259d3ed4332b440d5f02b0b3693a86b3bf1c0618fa7ac9f7c60b4550b643",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.019042000058107078
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/zOkAAOSwm69hs7C1/s-l400.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 8212,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "dac53b21fdf6daa2ea78a25b983b27c676b948af23bfb24420e25588af35a381",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.03664299997035414
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/K4EAAOSwj1lfMt6M/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3088,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "a009f7cc87a829a36a40f68e81cc786d8b38c449128d947df6da4eb2e8768e1d",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.06210600002668798
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/o2cAAOSwJ59hs7C3/s-l400.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 13309,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "32d314007ad5b6963617904cc1df1adb11a40ee9db096fdb3eea64c313ac288f",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.03446200001053512
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"31-550c4224c6ca9\"",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "b30bae1919f46cd239008340aaeff1a5be946d5b32e9b72c39851c36a1a9fe9b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.002570000011473894
+      },
+      {
+        "url": "https://ir.ebaystatic.com/pictures/aw/pics/cmp/ds3/sprds3_20.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N",
+        "status": 200,
+        "size": 88095,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"156f6-577489549e7db\"",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "af9728621b942d5c4eebbbcf51317f0eebb2d9c57ec0f1fef7dc804a3602d776",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N"
+        ],
+        "time": 0.012565999990329146
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/acxp0mbuba3zva1qr31idsmitmi.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N",
+        "status": 200,
+        "size": 3617,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:44 GMT"
+        },
+        "responseBodyHash": "ee2e7bd4649178785dbf27c54f72c18530dbaa21afd53cb1109f26d8360b4fc1",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/camavv0wru3rjp3aimk4au501up.css?proc=DU:N"
+        ],
+        "time": 0.010794000001624227
+      },
+      {
+        "url": "https://rover.ebay.ca/roverimp/0/0/9?imp=2046301&trknvp=cp%3D2380057%26ghi%3D98&1639670924440",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 1020,
+        "remoteIPAddress": "209.140.129.66",
+        "responseHeaders": {
+          "etag": "W/\"2a-Mo5HJyGpM0WAHtVTMkDqwtH4SYw\"",
+          "set-cookie": "nonsession=BAQAAAXw0ACieAAaAADMABmOcmA02NTQyQUEAygAgZX3LjWM0MDBiZmE2MTdkMGE5ZjczNmIyNzBlMWZmZDg5ZjQ4AMsAAWG7a5UyvuRKnNMXu7DMgsy0sU1+Fjna6gU*; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; Secure\ns=CgAD4ACBhvLYLYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDjsCAAE; Domain=.ebay.ca; Path=/; HttpOnly; Secure\nebay=%5Esbf%3D%23000000%5E; Domain=.ebay.ca; Path=/; Secure\ndp1=bpbf/%232000200000000000000000639c980d^bl/NL657dcb8d^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/jquery-KOuBsJce.js",
+          "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js"
+        ],
+        "time": 0.5320099999662489
+      },
+      {
+        "url": "https://rover.ebay.ca/roversync/?site=2&stg=1&cguid=c400c44617d0a44d1c635024ff85a568&mpt=1639670924358",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 830,
+        "remoteIPAddress": "209.140.129.66",
+        "responseHeaders": {
+          "cache-control": "private, no-cache",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI CURa ADMa DEVa PSDo PSAa OUR SAMo IND UNI COM NAV INT STA DEM PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "npii=bcguid/c400c44617d0a44d1c635024ff85a568657dcb8d^tguid/c400bfa617d0a9f736b270e1ffd89f48657dcb8d^;Domain=.ebay.ca;Expires=Sat, 16-Dec-2023 16:08:45 GMT;Path=/; Secure;SameSite=None"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "redirectedFrom": "https://rover.ebay.com/roversync/?site=2&stg=1&mpt=1639670923196",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.6748789999401197
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/rMQAAOSwOrdhgadn/s-l960.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 16059,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "e154eb654ea2994f637f38a789c90a3a470e82917009b5078ba86303c73ef650",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.01011500007007271
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/jk0AAOSwRlBhkhLT/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 1455,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:47 GMT"
+        },
+        "responseBodyHash": "e2ae5c953cddfc7cb50b79268444d5562110ed8583d0143a77fa7362fdc90d93",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 2.1539979999652132
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/ndwAAOSwbpRhNv5N/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3309,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "0418a2bf049d29589d6a47b756fb8e48bd8c77e76f959f70295c81c5af6cb480",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.017152999993413687
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/OzsAAOSw4~RhUfVp/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4278,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "2e2db4788b4c8d53704664c299717273149aa3a8936bf238bf77e5fe62e4f904",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.01592699997127056
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/XQoAAOSwt5hYdX~0/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4441,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "4d333ef1d1e18e050bdaceac88d699e9b1b8df552f1fc9c552ac9dbedf7d6d8b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.016951999976299703
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/RfIAAOSw5v5hjZB4/s-l960.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 50792,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "c7cf50f2387fec8d825a913fd69487377a75740935cc0cc701e071bcd4ade60c",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.019983000005595386
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/CasAAOSwZDJhrZ3H/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 9318,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "7f62da0517d60721fd5e7b0067e133f04a98629748489a64fbc5193496c7e4a3",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.03559700003825128
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/WrgAAOSwk~9gWA1S/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 13085,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "c8f83c1ad2484fd7d8fac4eaf5dd8c3286f0a207cca57a2e2e0073349d50a969",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.05416500009596348
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/aFIAAOSwT3hftN6n/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 20432,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "0a6ea5ea7c8e21017f66ce7e0ff522c0519bc8ea374eddd6196f7c907f24234a",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.04764499992597848
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/BjUAAOSwNr1f9oo7/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2532,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "7e652769f48b2ac24e85732d62783fcad84100e1f54dc80c47780c207422a4e7",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.05413100006990135
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/stwAAOSwZzdfq4uE/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2878,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "6194a7253b29d042a9afaa80aa66f6f0b51d5af389610f17fa49ed680cc2b72b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.05819699994754046
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/ZJcAAOSwYxBaCQhw/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2120,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "3f6103baadd9559b50eb1c60df18cd84979b470aebef6b52df8092a9f2adac2b",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.06081699999049306
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/WPcAAOSwZI1e2r4~/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3063,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "9679c842cabbee11fbea1089f36d790ba84fcd82e629d8113a0ae3af10cfeba2",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.05990999995265156
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/9PkAAOSwgsdd1WcC/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4574,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "efe7bc2d93a7f1f615dcfb0ce910f7cb958025d9470a0d90480d7e79be05347d",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0791169999865815
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/SfgAAOSwQYZWxyk9/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3102,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "1871beb602d9cec317d9337c80943853fcbf41c154b42da01d79476b9a60dab0",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.07948900002520531
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/R-IAAOSw~7JcqPKp/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2551,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "749406fd87d7be55cc0cf68f544a106ed7aaabe26c3d98dea3edd798cabcdaf5",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.07210699992720038
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/PKQAAOSwMPxao3X~/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5815,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "6d4683eb5bd4e6aac8d667161a7f91ef616713d60af1139e3af95e67cb37ee6c",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.0824189999839291
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/01kAAOSwpLNYBYS~/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3230,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "511e9634100db8bca8b8421809dda703ac61fd1b89f54f867b0a00d9d5171d6a",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.07879599998705089
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/v48AAOSwmU9eR3zU/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3514,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "fa35635cdc15e18d81a6125a82c6e6b3dc0edd47763ba020ba489dd6bf693437",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.10482499992940575
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/tc0AAOSwi~1hn7z8/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2927,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "58736586eaf822ab2f68f382a9fac859b0535ba28451c13a0f83b09650808b2a",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.10346300003584474
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/IpEAAOSwIOlhRsT3/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4498,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "5682a52a5d2990fa5737e5f34043d8bf289d0d7863def0b439ff8f9781f7d3dc",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.10002200002782047
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/vB0AAOSw70FhcaG3/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4391,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "dbc06f377785b404245fd9dd0c346b945a57103faae47cc63b9e13f453675db4",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.1006869999691844
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/~cIAAOSwH5hhcaG2/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5383,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "fded6279acb47308e08f56bbe35fdc6cb95199525e3236a5ecff7210c6ca8001",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.10094200004823506
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/QkEAAOSwmMZhcaNK/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 8311,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "cc2afaad32d62d4e4dc6f89a46c23916387a0e884fe6aee74a7b230b84abd641",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.12039200006984174
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/fd4AAOSwbyFhgYSz/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5738,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "b0e4065b37e18fb62351fea8e283e3f2f87898a3ababd929b20cc86a0f3e4031",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.1207799999974668
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/nLEAAOSwou9hcaG4/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3206,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "10b5faa240da5b6be57ef1b57d7e49a67c5bf73918460ab6121a591338aa8fca",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.12197800003923476
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/lCMAAOSw4FhhcaG4/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4924,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "9f5983fbeb82e293ce4dd692fe5db1bae3d8a7af70b3aabb8a5043279a07f907",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.12080500007141382
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/PR8AAOSwmMZhcaG3/s-l200.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3169,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "013ec68d820974bb831cb15ccdb2f221af03d9c90651e14c7ad20ada21e6f07f",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.12168699991889298
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/VIEAAOSwnIJhOopr/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 7048,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "80b7c60c8a2f87ee0526231f98fb11169728dc71edd8e1f6a9a5e02b7c250886",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.1448720000917092
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/LxsAAOSws6Jhc3Oe/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2627,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "29a769ef761cc021c8d9f3f332c16d0ffa21de959d5d6d482c92fa22efc0cf79",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.13623800000641495
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/gKEAAOSwmvRheB3j/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2561,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "a28d0722f104b4a5b02ef3c44ff40fba907990e25f2613af3eb5d4ca0ae278a2",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.14073199999984354
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/MhsAAOSwX31gzmbt/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5092,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "4ab4b54afb86bea601e588a3572d16428e4d6d9d4e59cff21dad4b994bf741b5",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.1396679999306798
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/BuQAAOSwOHZhgpG2/s-l225.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 3345,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "1479923b46bb9a5ea666827932218b570d331265da4bc614ac6fd87187056561",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.1376079999608919
+      },
+      {
+        "url": "https://i.ebayimg.com/images/g/9qQAAOSw6N1f84OS/s-l960.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 8492,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "cbf4230c8dc3a0aabc2319d97e6944884927bc5c8d154ee1e4b78bd0eac1ef2e",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.15135499997995794
+      },
+      {
+        "url": "https://ocsrest.ebay.ca/ocsrsapp/o2/inflow/inflowcomponent?input=%7B%22pageId%22%3A2387624%2C%22surveyTitle%22%3A%22Tell%20us%20what%20you%20think%22%2C%22posTop%22%3A504%7D&callback=Inflow.cb",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4975,
+        "remoteIPAddress": "209.140.129.84",
+        "responseHeaders": {
+          "set-cookie": "ebay=%5Esbf%3D%23%5E;Domain=.ebay.ca;Path=/; Secure\ndp1=bpbf/%232000200000000000000000639c980d^u1p/QEBfX0BAX19AQA**657dcb8d^bl/NL657dcb8d^;Domain=.ebay.ca;Expires=Sat, 16-Dec-2023 16:08:45 GMT;Path=/; Secure\ns=CgAD4ACBhvLYNYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDhaJ2Iu;Domain=.ebay.ca;Path=/; Secure; HttpOnly\nnonsession=BAQAAAX2cfVCXAAaAAMoAIGV9y41jNDAwYmZhNjE3ZDBhOWY3MzZiMjcwZTFmZmQ4OWY0OAAzAAZjnJgNNjU0MkFBAMsAAWG7a5UzTUL5TV1ZXdXmgQWdddXWYHNnMA0*;Domain=.ebay.ca;Expires=Sat, 16-Dec-2023 16:08:45 GMT;Path=/; Secure"
+        },
+        "responseBodyHash": "203c77936ed1ff750f84c78e43a5ebac52d7c7a2c3ad856aa927ca2c3a1dff99",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.519088999950327
+      },
+      {
+        "url": "https://cs.ns1p.net/p.js?a=c4cra1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 8947,
+        "remoteIPAddress": "3.66.250.44",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a078ddce2347907542298146c378bd03c10370d1dfe62719e1cea4f470fb0a91",
+        "initiators": [
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.1026609999826178
+      },
+      {
+        "url": "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=1650&di=1650&v=4&enc=UTF-8&cb=window.HL_AD_TRACKING_CALLBACK",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2136,
+        "remoteIPAddress": "209.140.129.69",
+        "responseHeaders": {},
+        "responseBodyHash": "dc7534e5662d20c9133bb0b60d02dc5cd27f84e81bda67b4742c79abe4138866",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.5442520000506192
+      },
+      {
+        "url": "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 13581,
+        "remoteIPAddress": "209.140.129.69",
+        "responseHeaders": {},
+        "responseBodyHash": "d9bbfe7d47b8bc5d136299fe268ebabd6422bda768de325db83ca75fc86fc8c9",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.5478080000029877
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 19473,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "a87cd6aba24ef98fcc1a89dd356f811c67bb90ee6f49f1bdcab655e2104fc1d5",
+        "initiators": [
+          "https://www.ebay.com/scl/js/ScandalLoader.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.039554999908432364
+      },
+      {
+        "url": "https://svcs.ebay.com/delstats/imp/rtm?p=100004&mc=YnM9MTQ2fHQ9Mnx0ZHQ9aWlkOjY2NDczMjYyNzI1MTIxMzYwMzksY2xraWQ6NjY0NzMyNjI3MjUxMjEzNjAzOHxidz1MQVJHRXxwbG10PShjaGFubmVsOm51bGwgY2lkOjM0MTMxIGdiaDogaWlkOjY2NDczMjYyNzI1MTIxMzYwMzkgbWlkOjUwNzQ3IHBhZ2VjaTo1Njk0YjJkMS1kMThjLTQ1MzctOWIzOS1iMWM3YjkwOWJiZjEgcGFyZW50cnE6YzQwMGJmNzkxN2QwYTlmNzM2YjhhNWY1ZmZmMzc2NzEgcGlkOjEwMDAwNCBzaWQ6MzcwIHRpZDo5ZmMzMTk2MC0wZjRkLTRkYzktOTYxNS05NTU4ZDNiNDBjYjMgdHR5cGU6VEVNUExBVEUgdmlkOil8dWw9ZW4tQ0F8Z3VpZD1jNDAwYmZhNjE3ZDBhOWY3MzZiMjcwZTFmZmQ4OWY0OHxtPTUwNzQ3fG1vYnRya0lkPWNlZmY5YjY2LTlkZTEtNGRiOS04MjVkLTdlNDFkOWJjY2I2Y35zQWk2aE04Sm1ZVU5Id1Q4T3ZRR2VMajlqTzRTZVdtUGozUnlTY2lnVGpofkdFbVd6UnRRUlVQT3M3N0FRcWtBNjJYUkJtNFhqZzRNd1BxZEV1eG5hcFp8dWM9MTQ2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 908,
+        "remoteIPAddress": "209.140.129.41",
+        "responseHeaders": {
+          "cache-control": "no-cache, max-age=0",
+          "set-cookie": "ebay=%5Esbf%3D%23%5E;Domain=.ebay.com;Path=/; Secure\ns=CgAD4ACBhvLYNYzQwMGNhMTYxN2QwYTBhNzRmZTRjYjQ0ZmM1OWQ3NDiRl/gf;Domain=.ebay.com;Path=/; Secure; HttpOnly\nnonsession=CgADKACBlfcuNYzQwMGM0NDMxN2QwYTQ0ZDFjNjM1MDI0ZmY4NWE1NmEAywABYbtrlTH/H1qa;Domain=.ebay.com;Expires=Sat, 16-Dec-2023 16:08:45 GMT;Path=/; Secure"
+        },
+        "responseBodyHash": "370dbc0a7e85181d81ecf29999a4782fc0fde9621e538b4d17887e2d1af1522d",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.6256199999479577
+      },
+      {
+        "url": "https://www.ebay.ca/sw.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.84.233.126",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, must-revalidate, max-age=0",
+          "etag": "W/\"1843-A02UevtI/dOjWLkylK3k7TBkq2U\"",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "s=CgAD4ACBhvLYLYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDjsCAAE; Domain=.ebay.ca; Path=/; HttpOnly; Secure\nebay=%5Esbf%3D%23000000%5E; Domain=.ebay.ca; Path=/; Secure\nnonsession=BAQAAAXw0ACieAAaAADMABmOcmA02NTQyQUEAygAgZX3LjWM0MDBiZmE2MTdkMGE5ZjczNmIyNzBlMWZmZDg5ZjQ4AMsAAWG7a5UyvuRKnNMXu7DMgsy0sU1+Fjna6gU*; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; Secure\ndp1=bpbf/%232000200000000000000000639c980d^bl/NL657dcb8d^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; Secure\nnpii=btguid/c400bfa617d0a9f736b270e1ffd89f48657dcb8d^cguid/c400c44617d0a44d1c635024ff85a568657dcb8d^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; SameSite=None; Secure\nak_bmsc=9ADAAA2D12484AC3307590EDECE3C0FD~000000000000000000000000000000~YAAQTaQFF4Ku5bN9AQAAM8kAxA6S58RXdWptRZzKzthMsvyj1cO8gRfLmPDGx1q+lEXRsAhUDW+eEeAiWBB+22TbD833rCgCd8xdDnPx34ipIlP75tJZbpVNooOhUPyi3SM8qX0g2jHpPo8XPqVCpFoM9lj4fowiExAxYfEKI/HlC9nT6NqJZZh9UH7l/hrXJJEigzVIn5OKOziuSV6zCuzuE7n8Y3fSD30sMbHlpeTFUKLOGMj8o5rUJvgAXa2yWBR+QozaBRfEVgnqBGqt/DWogAad/ggAdbMkLIldBseDBiHDNnIS9AsTzhplhgJWyIOg/QK9TIUE07jYdOKm8fZwTrBweRE5PbnJzO+6OiyC+RfCenpGzi3sxixH/Ha40uYB8DFKW2VX/E44oGhR0PmZ; Domain=.ebay.ca; Path=/; Expires=Thu, 16 Dec 2021 18:08:43 GMT; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "31c1cf5c14fd43c11097d3599caadd87f5dca9b7b7d119d5bcac2e0eff9dc7fb",
+        "initiators": [],
+        "time": 0.24513199995271862
+      },
+      {
+        "url": "https://www.ebay.com/blueberry/v1/ads/identity/pixels",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "unsafe-url",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.84.233.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.ebay.com/blueberry/v1/ads/identity/pixels"
+        ],
+        "time": 0.20049099996685982
+      },
+      {
+        "url": "https://www.ebay.com/blueberry/v1/ads/identity/pixels",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2490,
+        "remoteIPAddress": "104.84.233.31",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca",
+          "set-cookie": "ak_bmsc=13B3D73903F9C971D7EB71E7B059076B~000000000000000000000000000000~YAAQZKQFF9aMnZx9AQAAxckAxA5PAx1YIABG0f7RRYbgUQfEFdPIrzlSAbYhq9Tw7KwyVnlF2HkKabU6ZLG4GmSpoXBjfbRWkYGK0Cn1SpkxTjbYi1SjxU/Dhis7tDZktjuSuEn3ZAWGUZ4lf/IVeU9ncZrVz0LA6tvd5LhRobVYOuETzbkcZcgTd21Vp8GenpPt4YCfBN4m2RvaciBRsme65tG+aZuR9JxxE8HRfssP30SU1q62ZnOfXgoxKPdDYaqDMbcuHNJIWG/nlxfw0YVJpd6uzt/rM/CdPBJL9cqJImFes2dxINrobMi5BWO21n8xnQ53yDyqze5MRJFvdsi//70F1Nnz1pFOGfQalJMPk6rNpgY2Q9Ws80FcVs/t/i36yuRJv7ji; Domain=.ebay.com; Path=/; Expires=Thu, 16 Dec 2021 18:08:45 GMT; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "28bcbaf308b749735ae12e8f623979ce1ec599eb0569e3a3ee8553e5fc47d901",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.3813399999635294
+      },
+      {
+        "url": "https://www.googletagservices.com/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 27479,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "\"1072 / 421 of 1000 / last-modified: 1639397097\"",
+          "expires": "Thu, 16 Dec 2021 16:08:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c06177c6d05c0f3eab6348d97829ee87c1de50d771987e3d8afeb3aa90d8fb76",
+        "initiators": [
+          "https://www.ebay.ca/",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.09813500009477139
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:43 GMT"
+        },
+        "responseBodyHash": "d1d6596db247ccc2f44ee8e12e07b4289ac682f855ae75e6c52cb2c1109614dd",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js"
+        ],
+        "time": 0.00040300004184246063
+      },
+      {
+        "url": "https://s.ns1p.net/?v=1619458322&a=c4cra1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 339,
+        "remoteIPAddress": "3.123.204.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "465e5d6684c9142405deddb0230f2cc1bde2f04368e176584899b5e6cc9d8f0f",
+        "initiators": [
+          "https://cs.ns1p.net/p.js?a=c4cra1"
+        ],
+        "time": 0.0665210000006482
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/globalheader_widget_platform__v2-b70676194b.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4934,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "bf2517c67357297de7c1aedc1eefda23335e72f43d5eda9b70156e423b110a6e",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js",
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.01693299994803965
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/v/fu3xj0y0222sdns2ocqkl0t4dak.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 14335,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "768dc3afdeabcf1f6f47c5836293dfbf35b24c06e37ac0652b743dc04e5f8fbb",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js",
+          "https://www.ebay.ca/"
+        ],
+        "time": 0.015534999896772206
+      },
+      {
+        "url": "https://www.ebay.ca/gh/useracquisition?correlation=si%3Dc400bfa617d0a9f736b270e1ffd89f48%2Cc%3D1%2CoperationId%3D2481888%2Ctrk-gflgs%3DQA**&show_optin_banner=true&SSRFallback=3&v=2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 34939,
+        "remoteIPAddress": "104.84.233.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca",
+          "etag": "W/\"1b0b5-bB2T98Od/NT9lhuonmxWDGzv7og\"",
+          "set-cookie": "s=CgAD4ACBhvLYLYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDjsCAAE; Domain=.ebay.ca; Path=/; HttpOnly; Secure\nebay=%5Esbf%3D%23000000%5E; Domain=.ebay.ca; Path=/; Secure\nnonsession=BAQAAAXw0ACieAAaAADMABmOcmA02NTQyQUEAygAgZX3LjWM0MDBiZmE2MTdkMGE5ZjczNmIyNzBlMWZmZDg5ZjQ4AMsAAWG7a5UzkQFLFIjseYyOMr0ukSmZllgfqtc*; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; HttpOnly; Secure\ndp1=bpbf/%232000200000000000000000639c980d^bl/NL657dcb8d^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; HttpOnly; Secure\nnpii=btguid/c400bfa617d0a9f736b270e1ffd89f48657dcb8d^cguid/c400c44617d0a44d1c635024ff85a568657dcb8d^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:45 GMT; HttpOnly; SameSite=None; Secure\nbm_sv=5A47A56B0DC83908ABDE21C198AF1106~RILHpNTptphz4X9hW7boqwqPA3THJL1pGcfpeqID7jetoU4wZdZm+KzTkgFrd6oGZP3hzi2surkmrraJMQAD96fGaSBLy4bv35jrhthS7QfiIuGBx2ExY8sDyM/iej/TkBbddWg0CUW5uS7PKWTMmQ==; Domain=.ebay.ca; Path=/; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "df47f19750ca665af3798f6a6fe67138df74feb7a23dfe223a30b0cd43a40b77",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js",
+          "https://ir.ebaystatic.com/cr/v/c1/globalheader_widget_platform__v2-b70676194b.js"
+        ],
+        "time": 0.3101279999827966
+      },
+      {
+        "url": "https://ir.ebaystatic.com/rs/c/9527tracking/configuration.js?ts=5465569",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 521,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1708151235+br\"",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "db11c12eaaa83b26987683cd0ac6248f86da8257c2664795efa5b9d3a69df9ab",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/fu3xj0y0222sdns2ocqkl0t4dak.js"
+        ],
+        "time": 0.013707000063732266
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 120156,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, immutable, max-age=31536000",
+          "expires": "Thu, 16 Dec 2021 16:08:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d5ae5a515a688823dc98d032242c2ed6f490a74c4281bdd599567898f9fa675",
+        "initiators": [
+          "https://www.googletagservices.com/tag/js/gpt.js"
+        ],
+        "time": 0.07359299995005131
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.ebay.ca",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 730,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3600, stale-while-revalidate=3600",
+          "expires": "Thu, 16 Dec 2021 16:08:45 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 16-Dec-2021 16:23:45 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb3f9743afc02c7f838b77bae602642c1af5d45b0c3528a2cea6c4398df6f547",
+        "initiators": [
+          "https://www.googletagservices.com/tag/js/gpt.js"
+        ],
+        "time": 0.04708000004757196
+      },
+      {
+        "url": "https://fastly-static.ebaycdn.net/images/g/gY4AAOSwNkxa2hpY/s-l500.jpg?t=4pur0l",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 80720,
+        "remoteIPAddress": "151.101.38.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 02 Dec 2022 00:22:48 GMT"
+        },
+        "responseBodyHash": "0f026563c11001301671f33a7c092684b0aa1d5c9736a42b58d8cfce83fef5b2",
+        "initiators": [
+          "https://cs.ns1p.net/p.js?a=c4cra1"
+        ],
+        "time": 0.0762650000397116
+      },
+      {
+        "url": "https://backstory.ebay.ca/customer/v1/bs_img_service?pld=%5B%7B%22guid%22%3A%22c400bfa617d0a9f736b270e1ffd89f48%22%2C%22eventFamily%22%3A%22AUTO_TRACKING%22%2C%22agentVersion%22%3A%222.0.7%22%2C%22trackable%22%3A%7B%22trackableId%22%3A%223b481733-038a-4080-a819-55743a9a0927%22%2C%22parentTrackableId%22%3Anull%2C%22instanceId%22%3A%22https%3A%2F%2Fwww.ebay.ca%2F%22%2C%22screenId%22%3A%22129abe96-b057-441e-9458-98e93dae40cd%22%2C%22description%22%3A%22Electronics%2C%20Cars%2C%20Fashion%2C%20Collectibles%20%26%20More%20%7C%20eBay%22%2C%22entityId%22%3A%222481888%22%2C%22correlationId%22%3A%2270cf3ca8-5e8a-11ec-86ae-b2f05104ae61%22%2C%22entityType%22%3A%22Page%22%7D%2C%22activity%22%3A%7B%22timestamp%22%3A1639670925426%2C%22category%22%3A%22Impression%22%2C%22type%22%3A%22VIEW.PAGE_LOAD%22%2C%22referer%22%3A%22%22%2C%22details%22%3A%7B%22openTime%22%3A%221639670922816%22%2C%22history%22%3A%222%22%2C%22ePageId%22%3A%222481888%22%2C%22nPageId%22%3A%222380057%22%2C%22ciid%22%3A%22AAMAF1tI*%22%7D%2C%22viewportWidth%22%3A1440%2C%22viewportHeight%22%3A812%7D%2C%22context%22%3A%7B%22utcOffset%22%3A-1%2C%22userLang%22%3A%22en-GB%22%2C%22userAgent%22%3A%22Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36%22%2C%22screenWidth%22%3A800%2C%22screenHeight%22%3A600%2C%22others%22%3A%7B%7D%7D%7D%5D&ct=1639670925428",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 487,
+        "remoteIPAddress": "64.4.252.22",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/fu3xj0y0222sdns2ocqkl0t4dak.js"
+        ],
+        "time": 0.6598209999501705
+      },
+      {
+        "url": "https://ocsrest.ebay.ca/ocsrsapp/o2/inflow/inflowcomponent?callback=Inflow.cb&fromGH=true&input=%7B%22pageId%22%3A2380057%2C%22surveyTitle%22%3A%22Tell%20us%20what%20you%20think%22%2C%22posTop%22%3A%22504%22%2C%22gbhEnabled%22%3Afalse%7D",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 4976,
+        "remoteIPAddress": "209.140.129.84",
+        "responseHeaders": {
+          "set-cookie": "ebay=%5Esbf%3D%23%5E;Domain=.ebay.ca;Path=/; Secure\ndp1=bpbf/%232000200000000000000000639c980d^u1p/QEBfX0BAX19AQA**657dcb8d^bl/NL657dcb8d^;Domain=.ebay.ca;Expires=Sat, 16-Dec-2023 16:08:45 GMT;Path=/; Secure\ns=CgAD4ACBhvLYNYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDhaJ2Iu;Domain=.ebay.ca;Path=/; Secure; HttpOnly\nnonsession=BAQAAAX2cfVCXAAaAAMoAIGV9y41jNDAwYmZhNjE3ZDBhOWY3MzZiMjcwZTFmZmQ4OWY0OAAzAAZjnJgNNjU0MkFBAMsAAWG7a5UzTUL5TV1ZXdXmgQWdddXWYHNnMA0*;Domain=.ebay.ca;Expires=Sat, 16-Dec-2023 16:08:45 GMT;Path=/; Secure"
+        },
+        "responseBodyHash": "064634ec3a4a6b84cb6e85bcc1de9bb902056f8e1369af4c28ccbc74c91a814f",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js"
+        ],
+        "time": 0.3820119999581948
+      },
+      {
+        "url": "https://fastly-static.ebaycdn.net/images/g/gY4AAOSwNkxa2hpY/s-l500.jpg?t=f7xltz",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 80460,
+        "remoteIPAddress": "151.101.38.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 02 Dec 2022 00:22:48 GMT"
+        },
+        "responseBodyHash": "0f026563c11001301671f33a7c092684b0aa1d5c9736a42b58d8cfce83fef5b2",
+        "initiators": [
+          "https://cs.ns1p.net/p.js?a=c4cra1"
+        ],
+        "time": 0.014605000033043325
+      },
+      {
+        "url": "https://fastly-static.ebaycdn.net/images/g/gY4AAOSwNkxa2hpY/s-l500.jpg?t=2vac1p",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 80460,
+        "remoteIPAddress": "151.101.38.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "expires": "Fri, 02 Dec 2022 00:22:48 GMT"
+        },
+        "responseBodyHash": "0f026563c11001301671f33a7c092684b0aa1d5c9736a42b58d8cfce83fef5b2",
+        "initiators": [
+          "https://cs.ns1p.net/p.js?a=c4cra1"
+        ],
+        "time": 0.0144960000179708
+      },
+      {
+        "url": "https://adservice.google.nl/adsid/integrator.js?domain=www.ebay.ca",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 792,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657 for more info.\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js"
+        ],
+        "time": 0.056397999986074865
+      },
+      {
+        "url": "https://adservice.google.com/adsid/integrator.js?domain=www.ebay.ca",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 549,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657 for more info.\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js"
+        ],
+        "time": 0.06191299995407462
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=2945346679426931&correlator=1761134991530514&output=ldjh&impl=fif&eid=44756716%2C44755509&vrg=2021120601&ptt=17&sc=1&sfv=1-0-38&ecs=20211216&iu_parts=3841%2Cebay.ca.homepage.cchp%2Ccchp&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=970x30&fsfs=1&prev_scp=ap%3DScandal%26g%3Dc400bfa617d0a9f736b270e1ffd89f48%26us%3D13%26ot%3D1%26pr%3D20%26xp%3D20%26np%3D20%26u%3D21045927fca2434e919f582e2525174f%26ipp%3D0%26iccr%3D0%26gdprUser%3D0%26plmtid%3D100713%26acc%3Dext&cookie_enabled=1&bc=31&abxe=1&lmt=1639670925&dt=1639670925683&dlt=1639670923195&idt=2354&frm=20&biw=1440&bih=812&oid=2&adxs=0&adys=0&adks=2994762464&ucis=1&ifi=1&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&u_tz=60&flash=0&url=https%3A%2F%2Fwww.ebay.ca%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=1440x0&msz=1440x0&ga_vid=390783103.1639670926&ga_sid=1639670926&ga_hid=1794551672&ga_fc=false&fws=0&ohw=0&btvi=0&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 732,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 16-Dec-2021 16:23:45 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c40c956ba285e3deafb965ad9d32ed4c7b89863d338dac848db4252ac5087c4d",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js"
+        ],
+        "time": 0.052257000003010035
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021120601&st=env",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 9015,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "801b071f424a95d2e5ba809d79b461dc216ab679c697631edfd6bf9f7f33ee5c",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js"
+        ],
+        "time": 0.08173299999907613
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 618,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "9dbdf3e086c8ab285f7e043f135249e86ebce0bf69405a3b1235b06178d7bd5e",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.03556900005787611
+      },
+      {
+        "url": "https://b.ns1p.net/?v=1619458322&x=firpho&r=c4cra1,1mml9rq,193b1nh:i5k,21b,24|i5k,23o,f|i5k,245,e",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 204,
+        "size": 151,
+        "remoteIPAddress": "3.123.204.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cs.ns1p.net/p.js?a=c4cra1"
+        ],
+        "time": 0.060757999890483916
+      },
+      {
+        "url": "https://stags.bluekai.com/site/20919?ret=html&limit=4&btp=1&phint=eid%3D1650&phint=tcat%3D&phint=cg%3D0&phint=fm_segment%3D&phint=user_type%3D11&phint=consent%3D0&phint=pageid%3D2380057&phint=test%3Dmadrona1&phint=iid%3D&phint=epid%3D&phint=enccguid%3DAQADAAAAEBaO9AvG7V6WIT6bKE0R%252BF0%253D&phint=site_id%3D2&phint=encguid%3DAQADAAAAMGThYHrcj8AiqSyUakB%252F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%253D%253D&phint=guid%3Dc400bfa617d0a9f736b270e1ffd89f48&phint=item%3D&phint=kw%3D&phint=eem%3d&phint=efn%3d&phint=eln%3d&phint=eph%3d&phint=ege%3d&phint=edob%3d&phint=efm%3d&phint=siteId%3d2&phint=ecguid%3d0&phint=euid%3d&v=2&madrona=1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 1118,
+        "remoteIPAddress": "104.99.233.13",
+        "responseHeaders": {
+          "p3p": "CP=\"NOI DSP COR CUR ADMo DEVo PSAo PSDo OUR SAMo BUS UNI NAV\", policyref=\"http://tags.bluekai.com/w3c/p3p.xml\"",
+          "set-cookie": "bkdc=phx; expires=Tue, 14-Jun-2022 16:08:46 GMT; path=/; domain=.bluekai.com; SameSite=None; Secure\nbkpa=KJh5D5k0QM9DdHo8BDcjcoCms1Db75SotLD7J8YWQn//xKg4k0tSBidJrzL828813NMx3xTzbe0PPnCzos4+cvKhzm5S/9GUSQVw1IcuZWhZYtQSR90/W/Lt13/yS+X0h5JMHSmDjAoOU5c0vsTafPQASjC7NP9kVyLzeDgbp9q9LvxRgq33aJ10pfOLMd+vmVehOtPCsBP2OntMOVgw6L1qONNUN348+5bqyzLuqYKbGULISv2fjt4/zHMCy4Vwb7VN8T471AhLaa2t+y2XXMGZc0Rs4pL/FWw4mw5wtIlsL7i2SoRUnCgAJEXnFbRI3F/XrzsZPNVkH8PyeAe9L9A+9geegJAjbOSQAeaimthr0I6aEHXn7hokIu8OJsYj9LT3vnQY/3G9AQz3Q6nUtqBro0Hl56jpiwhYmAe+brgSIsWrd9UsVXg/; expires=Tue, 14-Jun-2022 16:08:46 GMT; path=/; domain=.bluekai.com; SameSite=None; Secure\nbku=+NW99/8ArtciErGX; expires=Tue, 14-Jun-2022 16:08:46 GMT; path=/; domain=.bluekai.com; SameSite=None; Secure"
+        },
+        "responseBodyHash": "53350525edba0b889e87ea52a16ed843a928a2557e9f8d6747acd7ff991c95c3",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=1650&di=1650&v=4&enc=UTF-8&cb=window.HL_AD_TRACKING_CALLBACK"
+        ],
+        "time": 0.23935899999924004
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/1x1.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 970,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "03136bc42a98bd6c9184a385e68f5c96313fa4ceb6659c68902365c102c90eca",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=1650&di=1650&v=4&enc=UTF-8&cb=window.HL_AD_TRACKING_CALLBACK"
+        ],
+        "time": 0.014472999959252775
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/naQAAOSwhqtdci0f/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 39048,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "13777802b63897e0115e234718f95e082c16c3d4c3792ef29ff7e67392e5955b",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.01601500005926937
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/pRAAAOSwZ8Ng52R6/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 39099,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "4fe4c990546fce9dfd322660b87e8b81b64a2eb6831683e1173b4d28021f2e9a",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.017853999976068735
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/cLkAAOSwoYZhFnI6/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 46313,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "1afac174f6fef0960980b05397adb4ae8ea9ba5b366073d6c83c72e8dbfda88f",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.024317999952472746
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/ArsAAOSwzfddcjED/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 30654,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "5df7e02825c81ab6fc39488348e724d1c2a19e583f53fbaa8c938debe7798642",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.016316999914124608
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/22EAAOSwX89dcivo/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 32734,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "bc550edf952b0094f679731d8beb621b73281c1568c32a31b9a1cbcabb5881f2",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.02505400008521974
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/EjgAAOSwQANdcjAw/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 48350,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "3fab4a07fb0afd6c1a98616fa69a13b86164d9559f8a88e66da8e5ecb7bb1bd8",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.027796000009402633
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/m3IAAOSwLl9dcjBy/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 31105,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "0865045510595b3fc597af6c0f86005eb83435625c873eac124628816710ae89",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.03521599993109703
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/aLMAAOSwnmxdcjC3/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 34218,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "20366c9dabf6478bc87dda51abfa9435e2407d2f85627a8cab2a7c4123e42d6a",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.03205399995204061
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/5KsAAOSwLntgsPPt/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 30945,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "ca834556b70f9fcf814a6c3d4dbbfe08483825df1c73de623942c45b9aae876c",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.039035000023432076
+      },
+      {
+        "url": "https://i.ebayimg.com/00/s/MjcwWDc3MA==/z/WmQAAOSwwbtdci99/$_57.JPG",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 30131,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:45 GMT"
+        },
+        "responseBodyHash": "4d92c129ec733bff269f41149cc0a67e31b5d2944040b08b8528f50ee7d6b68e",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&di=19392:19393:19394:19395:19396:19397:19398:19399:19400:19401:20858&v=4&enc=UTF-8&cb=window.HL_CAT_NAV_RTM_CALLBACK"
+        ],
+        "time": 0.04012000001966953
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/sodar/sodar2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 6891,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1637097310169751\"",
+          "expires": "Thu, 16 Dec 2021 16:08:46 GMT"
+        },
+        "responseBodyHash": "61c32059a5e94075a7ecff678b33907966fc9cfa384daa01aa057f872da14dbb",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js"
+        ],
+        "time": 0.11470400006510317
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/visitorapi.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 19960,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:46 GMT"
+        },
+        "responseBodyHash": "8a287ad8c0349bae9e1a0aebc5310583d9f358aefd26b8c6e9dff3ecf5667df1",
+        "initiators": [
+          "https://www.ebay.ca/",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=1650&di=1650&v=4&enc=UTF-8&cb=window.HL_AD_TRACKING_CALLBACK"
+        ],
+        "time": 0.05676500010304153
+      },
+      {
+        "url": "https://ir.ebaystatic.com/cr/v/c1/adobe_short4.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 511,
+        "remoteIPAddress": "93.184.221.225",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 16:08:46 GMT"
+        },
+        "responseBodyHash": "654f467bf0fe0008b9135522da6000ffe1b3f8558f32747c84093b971fff18f7",
+        "initiators": [
+          "https://www.ebay.ca/",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js",
+          "https://srv.ca.ebayrtm.com/rtm?RtmCmd&a=json&uf=0&g=c400bfa617d0a9f736b270e1ffd89f48&cg=0&c=1H4sIAAAAAAAAAzVPQWrDMBC8%2BxULvSTQyCutJTkpOoQU0pKaHmxoD4WgOCoWcWyRKIT09bVDe9qZYWdn56FqLvDsauAKBAoOOF9gvsgI1kU1Q40Ik6K%2FdNH6Dspou7097aHyRzdNAuXKYBKEJHMbGKEp%2Bh%2FftjaVbPTZ2nexPzdP8NpF18IgwHsJn8Bxy%2BVWT2EZQus%2B3G7jYypJM1Iw2bxUxdsjtP7gYO3qQz%2BFVXPqjy6dE0OWSa2ZIijttz35P1cSuDAiCRlxwzM1AvEPyLhutlqOMBt2ar83lH9dEJEPvw%2FabJg8JyMoR5R6JMMVgTh2EqaJMZwXaXq9Xpnb2RurbTp213cj3RMl41wxrjJGMvkFGf5TCVQBAAA%3D&p=1650&di=1650&v=4&enc=UTF-8&cb=window.HL_AD_TRACKING_CALLBACK"
+        ],
+        "time": 0.062486999901011586
+      },
+      {
+        "url": "https://pages.ebay.com/identity/device/t_n6.html?org_id=usllpic0&session_id=c400c95c17d0ad343c91a2d9ffffda55",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 2093,
+        "remoteIPAddress": "209.140.148.12",
+        "responseHeaders": {
+          "etag": "68c9146961d42022eda35e86a5ef9661"
+        },
+        "responseBodyHash": "99b5b2285a65453132bfa340fefd3147c895d1e8f9d1519489391b964804166a",
+        "initiators": [],
+        "time": 0.6968929999275133
+      },
+      {
+        "url": "https://ib.adnxs.com/getuidnb?https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D220%26tpid%3D%24UID%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 200,
+        "size": 679,
+        "remoteIPAddress": "37.252.172.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "726bd300e2a189de671455eb50152d11182b89667b4b6903bb4fe6abc7c70b58",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.07942799990996718
+      },
+      {
+        "url": "https://d.turn.com/r/dd/id/L21rdC85NS9jaWQvMjg0NDc3MjUvdC8y/url/https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=61&tpid=$!{TURN_UUID}&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 302,
+        "remoteIPAddress": "46.228.164.13",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI CURa DEVa TAIa PSAa PSDa IVAa IVDa OUR IND UNI NAV\"",
+          "pragma": "no-cache",
+          "set-cookie": "uid=9156734155535694553; Domain=.turn.com; Expires=Tue, 14-Jun-2022 16:08:46 GMT; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=61&tpid=9156734155535694553&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.12429700000211596
+      },
+      {
+        "url": "https://pixel-us-west.rubiconproject.com/exchange/sync.php?p=ebay-2&data_provider=200&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 204,
+        "size": 239,
+        "remoteIPAddress": "8.39.36.142",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate",
+          "expires": "0",
+          "p3p": "CP=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.683720999979414
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D29%26tpid%3D%23PM_USER_ID%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 302,
+        "remoteIPAddress": "198.47.127.19",
+        "responseHeaders": {
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "set-cookie": "KTPCACOOKIE=YES; domain=pubmatic.com; path=/; max-age=86400; SameSite=None; secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://image6.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D29%26tpid%3D%23PM_USER_ID%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D&rdf=1",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.09256299992557615
+      },
+      {
+        "url": "https://ssum-sec.casalemedia.com/usermatchredir?s=184094&cb=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D244%26tpid%3D__UID__%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 302,
+        "remoteIPAddress": "104.80.224.240",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:08:46 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR DEVa TAIa OUR BUS UNI\"",
+          "pragma": "no-cache",
+          "set-cookie": "CMID=YbtkjnpMBVVREogPx54HQQAA;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Fri, 16 Dec 2022 16:08:46 GMT\nCMPS=5192;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Wed, 16 Mar 2022 16:08:46 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ssum-sec.casalemedia.com/usermatchredir?cb=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D244%26tpid%3D__UID__%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D&s=184094&C=1",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.09817799995653331
+      },
+      {
+        "url": "https://rtb.openx.net/sync/ebay?r=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D245%26tpid%3D%24%7BUUID%7D%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 200,
+        "size": 351,
+        "remoteIPAddress": "35.227.252.103",
+        "responseHeaders": {
+          "access-control-allow-origin": "null",
+          "cache-control": "private, max-age=0, no-cache, must-revalidate",
+          "p3p": "CP=\"CUR ADM OUR NOR STA NID\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.07498999999370426
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 5219,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 23:57:23 GMT"
+        },
+        "responseBodyHash": "55a119c0394f901a8a297e109c17b5e5402689708b999ab10691c16179f32a4a",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.016244000056758523
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/aframe",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 200,
+        "size": 1173,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Thu, 16 Dec 2021 16:08:46 GMT"
+        },
+        "responseBodyHash": "8c5a4849aa15ef36d2e4ffbfecbedcf0a1e8d65bb2b97c09d030931ff25c0afe",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.05145499994978309
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D29%26tpid%3D%23PM_USER_ID%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D&rdf=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 302,
+        "remoteIPAddress": "198.47.127.19",
+        "responseHeaders": {
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "set-cookie": "KADUSERCOOKIE=8B02C775-7E67-4FD9-87A4-0A8572EFF741; domain=pubmatic.com; path=/; max-age=7776000; SameSite=None; secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=29&tpid=8B02C775-7E67-4FD9-87A4-0A8572EFF741&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB/1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w==",
+        "redirectedFrom": "https://image6.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D29%26tpid%3D%23PM_USER_ID%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.029931000084616244
+      },
+      {
+        "url": "https://ssum-sec.casalemedia.com/usermatchredir?cb=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D244%26tpid%3D__UID__%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D&s=184094&C=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 302,
+        "remoteIPAddress": "104.80.224.240",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Thu, 16 Dec 2021 16:08:46 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR DEVa TAIa OUR BUS UNI\"",
+          "pragma": "no-cache",
+          "set-cookie": "CMID=YbtkjnpMBVVREogPx54HQQAA;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Fri, 16 Dec 2022 16:08:46 GMT\nCMPS=5192;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Wed, 16 Mar 2022 16:08:46 GMT\nCMPRO=1122;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Wed, 16 Mar 2022 16:08:46 GMT\nCMST=YbtkjmG7ZI4A;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Fri, 17 Dec 2021 16:08:46 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=244&tpid=YbtkjnpMBVVREogPx54HQQAABGIAAAIB&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB/1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w==",
+        "redirectedFrom": "https://ssum-sec.casalemedia.com/usermatchredir?s=184094&cb=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D244%26tpid%3D__UID__%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.04316100000869483
+      },
+      {
+        "url": "https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=29&tpid=8B02C775-7E67-4FD9-87A4-0A8572EFF741&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB/1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w==",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 200,
+        "size": 535,
+        "remoteIPAddress": "209.140.129.51",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://image6.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D29%26tpid%3D%23PM_USER_ID%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D&rdf=1",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.4803049999754876
+      },
+      {
+        "url": "https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=61&tpid=9156734155535694553&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 200,
+        "size": 535,
+        "remoteIPAddress": "209.140.129.51",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://d.turn.com/r/dd/id/L21rdC85NS9jaWQvMjg0NDc3MjUvdC8y/url/https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=61&tpid=$!{TURN_UUID}&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.5062189999734983
+      },
+      {
+        "url": "https://www.ebayadservices.com/tpidimporter/v1/import_third_party_id?data_provider=244&tpid=YbtkjnpMBVVREogPx54HQQAABGIAAAIB&enc_guid_uid=AQADAAAAMGThYHrcj8AiqSyUakB/1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w==",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://ir.ebaystatic.com/",
+        "status": 200,
+        "size": 540,
+        "remoteIPAddress": "209.140.129.51",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://ssum-sec.casalemedia.com/usermatchredir?cb=https%3A%2F%2Fwww.ebayadservices.com%2Ftpidimporter%2Fv1%2Fimport_third_party_id%3Fdata_provider%3D244%26tpid%3D__UID__%26enc_guid_uid%3DAQADAAAAMGThYHrcj8AiqSyUakB%2F1j5hNYtaSAXaoFkRRO77huGwEqhtwABjxDFueFAsoojy1w%3D%3D&s=184094&C=1",
+        "initiators": [
+          "https://ir.ebaystatic.com/cr/v/c1/x-frame-11.html",
+          "https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.34.min.js",
+          "https://ir.ebaystatic.com/rs/c/highlnfe-_FXGkvPE.js"
+        ],
+        "time": 0.8225350000429899
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=225&li=gpt_2021120601&jk=2945346679426931&rc=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/aframe",
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.05854999995790422
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tpc.googlesyndication.com/",
+        "status": 200,
+        "size": 13990,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 15:02:40 GMT"
+        },
+        "responseBodyHash": "53f0cf5f2fef7e5a938d553f62eb56266d1ac4e244eb7dcd40630614485fdacd",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html"
+        ],
+        "time": 0.01937500003259629
+      },
+      {
+        "url": "https://www.ebay.ca/gh/dfpsvc?v=2",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 204,
+        "size": 1232,
+        "remoteIPAddress": "104.84.233.126",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.ebay.ca",
+          "etag": "W/\"a-bAsFyilMr4Ra1hIU5PyoyFRunpI\"",
+          "set-cookie": "npii=btguid/c400bfa617d0a9f736b270e1ffd89f48657dcb8e^cguid/c400c44617d0a44d1c635024ff85a568657dcb8e^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:46 GMT; HttpOnly; SameSite=None; Secure\nebay=%5Esbf%3D%23%5E; Domain=.ebay.ca; Path=/; Secure\ndp1=bu1p/QEBfX0BAX19AQA**657dcb8e^pbf/%232000200000000000000000639c980e^bl/NL657dcb8e^; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:46 GMT; HttpOnly; Secure\ns=CgAD4ACBhvLYNYzQwMGJmYTYxN2QwYTlmNzM2YjI3MGUxZmZkODlmNDhaJ2Iu; Domain=.ebay.ca; Path=/; HttpOnly; Secure\nnonsession=BAQAAAXw0ACieAAaAADMABmOcmA42NTQyQUEAygAgZX3LjmM0MDBiZmE2MTdkMGE5ZjczNmIyNzBlMWZmZDg5ZjQ4AMsAAWG7a5Y0LjC52vo0UrpjPoqe8acJB96x/9w*; Domain=.ebay.ca; Path=/; Expires=Sat, 16 Dec 2023 16:08:46 GMT; HttpOnly; Secure"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://ir.ebaystatic.com/rs/v/xleocuuheq2c1fre1xhbrh1ndqj.js",
+          "https://ir.ebaystatic.com/cr/v/c1/globalheader_widget_platform__v2-b70676194b.js"
+        ],
+        "time": 0.2113660000031814
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=225&t=2&li=gpt_2021120601&jk=2945346679426931&bg=!cXKlcjbNAAZKWFskSlg7ACkAdvg8WmfwJMydG4EgMLbPU6fNVEE-bf_jGe0tIp3B385b7QtGp1VGBQIAAAD9UgAAABJoAQcKAFS8Qsl8PCdbkca9AMHEWYKCVktSxj-Y9Yhgci8hcC-W4c4oYzgr5ueKOyxqQYIt4FBNiTO7Y0nWcLbHNR-vnVj6aZtB_fBT3IJaxrxc1ZZYWAvZh0yZAsrG2K6HzxBXyPoNruu1jXh395RJNRXjjM4OwhDZ4RXULuMQV7VAp2v_p3Onq1k4bInnyyNl58-3a2Z-cyE--o1UEYK-g2ped4kB1OFM9uWD7heQBN_XNCzWIDtW9azIxbftIJzdq3okErwNg2OrJ9zCo4stdoBolFXB2Kz52qDbpEFrG576BvPok_a0NjzGAu_o8H1b83xhcMFZUNuBZ4GMFE4y_BA26jyGRgtN5mE6d1JJhoI2G4QTlRBPIGbsr6YvCcelM8kvbW4coINohkhur_Y3RJj-ZMesnnU0LkjkXH7hRxk4p8Z3mr7Zhq55v4PW33HDsUWVPFiOmY0lcIp5tywpbQrhrHyYkIO5aLzG_ScaDNpxndyCGDoDLaeblQkgWGTCZM0bXqeqgP4IBoXQVYoOMjc90ML30h_204cJCbxCaEZPKOwGaMTiO0kPjMQLmjwOFX6p22mMgsdepqM0PUBjnLYdI6jEifabicLofn7WzbJVrw73-2l9vUIMe0QQVkmkkdmPrOO19Cvgg3DHPZdb3gvkNqShnBMrOXTZ6-X4yLQP19jRfF6SgxGYFckBucA7lpEhofVoRlnBmxRZOe7YeQ1lNoGnrJqb475Jwze0_8geUPlbAN7GDK3yWFBp6_gGETdyV0hF9kmSwhJ5YaaXzRMlHEcZD1RsT1osiIXkNaljUJKEYw9cjAgedTL7rfaKHxlydjR4BvrHyNpwkqacb_lK9De1xNUhhmNGmhpBzcqUvP9Kulp19RUVp0Ihrmp-TCsf-obxH5Bd8obfz6kxsuB8yJGyGIeeJltSamZ4q7gGoOIy21E3Wf0RKCJKkvk3C5tztk52_8PzBItcdGEyEddfa-a10cq33tPEySLhzdkyvilko7dfmefffoGqCNSJRoSTpSB3nkssXdDroXkPFlF_BGNaPmDArSAp3JVWTLLr_WoTuSA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "unsafe-url",
+        "referer": "https://www.ebay.ca/",
+        "status": 204,
+        "size": 119,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.05393799999728799
+      },
+      {
+        "url": "https://rover.ebay.com/roverimp/0/0/9?imp=3144444",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 1211,
+        "remoteIPAddress": "209.140.129.82",
+        "responseHeaders": {
+          "etag": "W/\"2a-Mo5HJyGpM0WAHtVTMkDqwtH4SYw\"",
+          "set-cookie": "npii=btguid/c400c44317d0a44d1c635024ff85a56a657dcb8e^cguid/c400c44617d0a44d1c635024ff85a568657dcb8e^; Domain=.ebay.com; Path=/; Expires=Sat, 16 Dec 2023 16:08:46 GMT; SameSite=None; Secure\ndp1=bbl/NL657dcb8e^; Domain=.ebay.com; Path=/; Expires=Sat, 16 Dec 2023 16:08:46 GMT; Secure\nnonsession=BAQAAAXw0ACieAAaAADMABmOcmA42NTQyQUEAygAgZX3LjmM0MDBjNDQzMTdkMGE0NGQxYzYzNTAyNGZmODVhNTZhAMsAAWG7a5Yx8uL+SrdCCC0N2dmGWBHhRhOeSww*; Domain=.ebay.com; Path=/; Expires=Sat, 16 Dec 2023 16:08:46 GMT; Secure\ns=CgAD4ACBhvLYOYzQwMGM0NDMxN2QwYTQ0ZDFjNjM1MDI0ZmY4NWE1NmGE1Cq5; Domain=.ebay.com; Path=/; HttpOnly; Secure\nebay=%5Esbf%3D%23000000%5E; Domain=.ebay.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://pages.ebay.com/identity/device/t_n6.html?org_id=usllpic0&session_id=c400c95c17d0ad343c91a2d9ffffda55"
+        ],
+        "time": 0.19205199996940792
+      },
+      {
+        "url": "https://src.ebay-us.com/u7dtnhhfhf98l0wn.js?spwm3uwmwltk815m=usllpic0&nckgnvwaho1x2jqb=c400c95c17d0ad343c91a2d9ffffda55",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 11265,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "p3p": "CP=IVAa PSAa",
+          "pragma": "no-cache",
+          "set-cookie": "thx_guid=79fe643dcc4b40f9b56e97c388f83210; Max-Age=155520000; Version=1; HttpOnly; Path=/; Secure; SameSite=None;"
+        },
+        "responseBodyHash": "dabff7a1d1111c2dbd60255abddadde1cf6c13d9f77d902248a4db89696a17ed",
+        "initiators": [
+          "https://pages.ebay.com/identity/device/t_n6.html?org_id=usllpic0&session_id=c400c95c17d0ad343c91a2d9ffffda55"
+        ],
+        "time": 0.07963000005111098
+      },
+      {
+        "url": "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 51275,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "730dab004ca9ee6ea2f86a6e06a1efc0044b814a87b52bb3dad1f4fce8570daf",
+        "initiators": [
+          "https://src.ebay-us.com/u7dtnhhfhf98l0wn.js?spwm3uwmwltk815m=usllpic0&nckgnvwaho1x2jqb=c400c95c17d0ad343c91a2d9ffffda55"
+        ],
+        "time": 0.031524999998509884
+      },
+      {
+        "url": "https://src.ebay-us.com/1P02khaHZsBYNmpq?ea1a44eead05ac1d=XxcklpUVwo40fl8cnuU6kyofVwb_bq8knF6eHfPGr06CP22YofatRUYj6dI-vbEi_BL-Nw4a0E-HUG3Q4lrra5qOgs-RQ9w25Zwt-qbW1xjHAVYIiwfQn4Vmtm2s8JoiUCvNjBGlwgwe0scC0mOH3Sq3soZgbsoNpw",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 475,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c",
+        "initiators": [
+          "https://src.ebay-us.com/u7dtnhhfhf98l0wn.js?spwm3uwmwltk815m=usllpic0&nckgnvwaho1x2jqb=c400c95c17d0ad343c91a2d9ffffda55"
+        ],
+        "time": 0.03285299998242408
+      },
+      {
+        "url": "https://h.online-metrix.net/YUCTi3cu6-DSjzh_?7f78115f4feaf6e0=gIj5II7tmYdNfLuGdS5JkAQaNymkuJ2X5M75r8FJomPh78pYGsq73gRLKtXOlk2ODs70lx7LWMkBkJrCLmInkTHtdw5d1IyWFDb_ThnhhmE7yyVfPQzbg9-cdTX-RY8kZyFZ2ji3NNcIiXUhrV3URE1PtZLTpF4lhWbMe02GgsI1RdIH-a6vsu5WQpZI4nAB8NPWW02smVXKrOo",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 14706,
+        "remoteIPAddress": "91.235.132.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "90bc2f769160f2d7e441f55e5456fd74262df0449dbd0ba65aa82496d3e87f47",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.08287800010293722
+      },
+      {
+        "url": "https://src.ebay-us.com/cP0eo_ipDYkxQ0DY?03d3bbfc7af4b755=PvTf6C_aNXbx-lhK9oG_pKSaue4KYd7OrJzr3ulCLJqUXnKB0cktAHofQDVMfcHUeNZBCh22LZ04f9Hm9JMnXPCYgZ9zxmn0b-fV79ed7MKbi81Y1PbcEBFOox_y5B5Dp-w1bmn49YVe9BcnGfSleV1r7qKo8CKaLRfQV-OSoYvZqrp9imunaNuE6zERboN5Z3x2KCQXaN_dFGQ",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 12632,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b3750632f103bfc1a0713e174ffdbaae72dda07c7adb8e32aea0d3e252dda3bd",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.025806999998167157
+      },
+      {
+        "url": "https://src.ebay-us.com/fp/clear.png",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 530,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://pages.ebay.com",
+          "cache-control": "private, must-revalidate, max-age=0",
+          "etag": "f9b328557b464a2f9eb8ca4ccb4ce2d3",
+          "expires": "Tue, 15 Dec 2026 16:08:47 GMT"
+        },
+        "responseBodyHash": "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.03847300005145371
+      },
+      {
+        "url": "https://src.ebay-us.com/jVJ2XIY5BXcMKXKa?1a7dd94ee002e8a3=uhar7sTzr5QDj1yf4pi1Pul7k0dDLq5XcQP9rQnB5r4KpSZNPVcQ8fYQAMye88NgSK0sOxjElpiy_5ZAcU3U7KXO-WCiqJ7yty0gbkq3XUg-DvPB0WP4Ll3eDWHR9GFufGu8q3EDyhiIpTcfQ72tIw&jb=3136266c71693d6439356261663334646731693464673731363a3637646132363b396637643939",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 387,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.02652800001669675
+      },
+      {
+        "url": "https://src.ebay-us.com/jVJ2XIY5BXcMKXKa?1a7dd94ee002e8a3=uhar7sTzr5QDj1yf4pi1Pul7k0dDLq5XcQP9rQnB5r4KpSZNPVcQ8fYQAMye88NgSK0sOxjElpiy_5ZAcU3U7KXO-WCiqJ7yty0gbkq3XUg-DvPB0WP4Ll3eDWHR9GFufGu8q3EDyhiIpTcfQ72tIw&jd=33342626686e746c3d333a353032383337",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 387,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.017353000002913177
+      },
+      {
+        "url": "chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/page_embed_script.js",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FAILED",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.10940399998798966
+      },
+      {
+        "url": "https://src.ebay-us.com/jVJ2XIY5BXcMKXKa?1a7dd94ee002e8a3=uhar7sTzr5QDj1yf4pi1Pul7k0dDLq5XcQP9rQnB5r4KpSZNPVcQ8fYQAMye88NgSK0sOxjElpiy_5ZAcU3U7KXO-WCiqJ7yty0gbkq3XUg-DvPB0WP4Ll3eDWHR9GFufGu8q3EDyhiIpTcfQ72tIw&ja=33383130242e633f3632267a3d363226643f3030307a3638322463643d3830307a363030247b787b3d327830266472723f33243830322c3e32322e3a30302c3632302c302e382c3a30322c3630302e302e322e7363663d3a36246e6a3d68747472732533432d324425304670616767732c676a61792c63676f2730446964656e76697479273a46666574696365253046765d66362e6a74656e2731446f72675f6b642533467d736e6c7269633025303671677b73696d6e576b662731446334303263393561393766306364333433613933633a643964666e64666337352664723f687474727b253141273246253244777575266562637926616327304626706c3f3126706a356231353536393732326360346c37653a36313a3133316463653137393734673f266a683f61303965666431673b343636343a60356436376339383a3639343b3d3032613b266a736f3f576b6c6c6f7771266271603f4168726f6d672532303b3b2668736d753d57696c646d757b266a71627d3f416a706f6d65266c68633d3a2e6e666d3f3826747a663d47777a6f7067253a44436f7174657264636d266d637c68703d3630303364336330606d633030653e616137343030383263643135373c3033666634353838333433663e656163323c66613b366166626435323331313939346124703d706c77676b6c57666c6373605c64636e736521706e7567696c57776b6e666f77735f6f65666b695f706e617167705c64616c736523706c7565616e5d61666f62655f6363706d6a61745c66696e716723706c75676b6e5f7177616369746b6d655e66636c716729706c7767616c5d716a6f636b776376655e64696c716523706c75676b6e5d706d616c726c697b67705c66616c736721706c776f696c5f746c635f706e617b677a5e66636c7b6723726e7567696e5d646576636476705e64616c736523706e776f696e5d737e655d746b657765725c66616c716d21726c7767696e5f686174635666616e736d24677a313d666263666439393a3c3360613b65363439376667676e346563363b313564376661653831303366352e676e5f613d776562656c55676a474c273238332c32273230284f72656e474e2d32324551253230322c302730384368706f656b776f2b576562474e2532304544534e2530304553253030332c38253232284772676c454c25323047532532324f4c514c27323045532732323326302530304b6a706d6f69756d295565624b6b7c5767624969742532325767604f4c414c4744475d6b6c7374616e6165645f637a72637971253342253030475a5c5f626e6566665d6f6b6e6d6178273342253038455a545d636f6c6f705f60776e6665705f60636e645d666c6f6176253342273a304758565f666c6f63745d6064656e66253b402730324558545f76657874777a655d666b6c7465725d616c6b7b6f74706f786b612731422532305545424b4b5c5f4758565f746578767570675766696e746d705d636c69736f74706f7069612d33402530304f45535d656e6765656e765f616c66677a5f75696e76253342273a304d45515f66626f5d72676c6c65725d6d61726f63722533422530304f4551577376616c646172645d64677061766176697e67712731422532304d45535f766d78767570655f666c6d6176273b422530304747515d766578747570655f666e6761765f6e696e6561702531402d32304d455b5d76677a747572655d68616c6457666e6f63742533422732324d4d535f766570767770675f68616c645f666c6d69745d6c6b6e656172273340273a304f4753577467707665785f61707261795d676268656174253342273232554d42474e5f6b6d6e6d705f6275666465725f64646f63742733422532325747404f4c5f616f65727067717365645f76657874777a655d657663253342273232554d42474e5f6b6d6f727065737365665f74657a7c7570655d65746331273340273a305747424f4e5d616d6d707265717365645d7c657a747772655f73317461273b422530305f4740494b545f574540474c5f61676d727267737365645d74677a7c7572675f7b31766127334225323257454245445f66656075675f72676e66677a65725d6966646d273142253230554542474e5764676277675f7368636467707b253340253a32554740474c5f64677074685d7c657a747772652533402530325f454249495c5d554740474c5f64677074685d7c657a747772652533402530325f4542454c57667063755f62756664657273273b42273232574542474e5f6e6d7b655f616f6676677a762533422530305745404349565f554542474c5d6c6d716d5f636d6e7c677a7627334225323257454245445f6f756e74695f64706175333e26676e5f603f363235326532376337616231386367326162633230313060676b633635303164613a6365363133632677676e7e3d456f6d676c652530304b6c6b2e26756764703f456d6f676c652732305375616676536a61646572246361663535303332&jb=333539266e793d4f6f78696c6c61273244372630253030204f63616b6e746f736a253342273a304b6e76656c2532324d63612d32304d532d30325a27323031305d31355f35212530304370706c655565604961742530463d31352c31362532302a4b48544f442530432732306c6969652730384765616b672b2730324368726f6f6525324431332c302c343537372c3631273a3053636669706b2730463533372c3336",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 218,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.07484100002329797
+      },
+      {
+        "url": "https://usllpic0szdtrdkpwtufqlc4zc7vz7jemixqgzg3a1e7863ac6233aacam1.e.aa.online-metrix.net/Z3Z8caOmlmpCmXaw?57092af75f639763=U6uB673EkeaxqyjYgoJohAHgqmjaLNxQP0kh0AvH0PO_3hrLtQW_yJgH1VKSUtoHay7CzdVaigOXEH1behCeJXTdri8Q0WoV1gQn-c8Ziq-l8vrUTtiXgZKRETNBR3EKSGNXVLL0O0a4sHZK6GDCdrCTgqORYf4",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 200,
+        "size": 438,
+        "remoteIPAddress": "91.235.134.131",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.15004199999384582
+      },
+      {
+        "url": "blob:https://pages.ebay.com/d496df6b-7fc9-4d54-b232-2bc352de43db",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.24088699999265373
+      },
+      {
+        "url": "blob:https://pages.ebay.com/efccd258-7071-40ae-a137-fab8ea34ce99",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.24130499991588295
+      },
+      {
+        "url": "blob:https://pages.ebay.com/cfe3b1b9-4307-497a-9e72-7f39217b1267",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.2436089999973774
+      },
+      {
+        "url": "blob:https://pages.ebay.com/8e2d56ec-a256-4b0a-a97d-b7b236683d55",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.24497800006065518
+      },
+      {
+        "url": "blob:https://pages.ebay.com/99a5be29-3440-46ce-a5be-61d64d057f54",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.24734800006262958
+      },
+      {
+        "url": "blob:https://pages.ebay.com/3774a3e8-14ab-45a8-9a31-05874f791f62",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.25132200005464256
+      },
+      {
+        "url": "blob:https://pages.ebay.com/e0c154fa-1b94-4396-87a1-d2a0f15a7150",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.256156999967061
+      },
+      {
+        "url": "blob:https://pages.ebay.com/29349a35-e852-4a15-84de-94b97b177144",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.25989700003992766
+      },
+      {
+        "url": "blob:https://pages.ebay.com/13e3ff8f-948e-45cc-87a0-4b2c27c30494",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.2723790000891313
+      },
+      {
+        "url": "blob:https://pages.ebay.com/298743aa-9ff7-412f-a7d2-3db266683a85",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.28329299995675683
+      },
+      {
+        "url": "blob:https://pages.ebay.com/4dd545d3-a5fc-4c0a-a294-c8050a91294d",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.28733900003135204
+      },
+      {
+        "url": "blob:https://pages.ebay.com/86448550-4270-41c0-868c-0e59c08f173d",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.293868999928236
+      },
+      {
+        "url": "blob:https://pages.ebay.com/cd8db469-826d-4620-92f8-ae2dd5d4ec1c",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.29895700002089143
+      },
+      {
+        "url": "blob:https://pages.ebay.com/a66f3a5e-ec6e-4cd6-b797-544518dda839",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.30115199997089803
+      },
+      {
+        "url": "blob:https://pages.ebay.com/f93432f1-24de-4e75-bfe3-de9639cc7966",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.30931499996222556
+      },
+      {
+        "url": "blob:https://pages.ebay.com/89ea8205-b03a-484e-bacc-3e9ea38169d8",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "65f98f0d90c54d4addc7de4733e2b3d94765f525c2294f2f31eadad7ba604976",
+        "initiators": [],
+        "time": 0.11626100004650652
+      },
+      {
+        "url": "blob:https://pages.ebay.com/516c1950-2e23-4679-afa9-c000cd05fb4b",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "0c5d811cd2054e15b35b3965db8d4feb9bdc6434fc95930e61cbd9023de337a1",
+        "initiators": [],
+        "time": 0.1193529999582097
+      },
+      {
+        "url": "wss://127.0.0.1:5903/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/3774a3e8-14ab-45a8-9a31-05874f791f62"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5901/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/8e2d56ec-a256-4b0a-a97d-b7b236683d55"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5900/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/cfe3b1b9-4307-497a-9e72-7f39217b1267"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:63333/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/efccd258-7071-40ae-a137-fab8ea34ce99"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5902/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/99a5be29-3440-46ce-a5be-61d64d057f54"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5950/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/29349a35-e852-4a15-84de-94b97b177144"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:6040/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/cd8db469-826d-4620-92f8-ae2dd5d4ec1c"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5939/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/298743aa-9ff7-412f-a7d2-3db266683a85"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:3389/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/e0c154fa-1b94-4396-87a1-d2a0f15a7150"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5931/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/13e3ff8f-948e-45cc-87a0-4b2c27c30494"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5944/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/86448550-4270-41c0-868c-0e59c08f173d"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:5279/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/a66f3a5e-ec6e-4cd6-b797-544518dda839"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:6039/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/4dd545d3-a5fc-4c0a-a294-c8050a91294d"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:7070/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/f93432f1-24de-4e75-bfe3-de9639cc7966"
+        ]
+      },
+      {
+        "url": "wss://127.0.0.1:2112/",
+        "type": "WebSocket",
+        "initiators": [
+          "blob:https://pages.ebay.com/89ea8205-b03a-484e-bacc-3e9ea38169d8"
+        ]
+      },
+      {
+        "url": "https://src.ebay-us.com/5CQ-9vtLdRWO6e7r?4202f8d687eb8339=4uwizhK92Rw1wlXpzkFBsN-r46jz8SJ-044iSOB3LmUOd_2cIOtTJb0jExniTIF6zd2zneNxj703vrbKIZgM6NUGg4cyfnZ-f4A6fBHU_b1QX92BJT6iU4ueUWSLSZ0Tc1QMsnput0W0GJ0l5T8oIndl1S3e8kxJUjZgOZQErNSGOpzN3GqUOy0_EPDb7p8uHjdiu-3WoD540w&jf=363134267161645d726c643d7464705f36645e596f476f3971334e4f47705565247369645d6c6176653f313633393437323b3a382671696c5d767b72653d7765603a6563667b6124736b645f6b657b3d31323d393332313b323432353261383636386365316c303030333036303830613a343c386367336c323132333037303336323030323c3564326437323235606536313b343167613d306666663332376433626531346c30603335326631353a37316638326360393e613064343438656360306664306c66343530376138363036353a6a37653a616d3b3b373530616139633836353a6a66643960666261373635313039666164633c3a3536606231363964666131633f267169665f7369673f3332363c303230303f363131303965353236323932313c653b3931393936343b6333633b62613b646c3031363262353139613730626131666162673433336661393b31316634376138303032343431353866396432353c6464313662613865326232366964653730313b643233623739386162373167306163653132383930633431323a65663a306d60663724736966723f30",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 400,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.012228999985381961
+      },
+      {
+        "url": "https://h.online-metrix.net/vJC8xrM32poPL3ba?ccf22bb38eebf05f=f-El8SJHgI-mqKZ24shfKpCT0zYtMAgEnusODgvLz1jetLxKW4FW3__PhurkJZjVAXCpGPyaFIFSMr0RqsvlKDEicqDhv-BuEd-qI2bYg_st-RbF-__F2fdaouI9B3gc3BeM8kxR4FzyZEudWFl8lReFqhlY65i2Iqu8G7GItXUieDNiAYaPbqustJrnyW5AzzNWkyNe2m-33g&jf=363136267161645d726c643d7464705f646664316f634e4e7475697450365948247369645d6c6176653f313633393437323b3a382671696c5d767b72653d7765603a6563667b6124736b645f6b657b3d31323d393332313b323432353261383636386365316c303030333036303830613a343c386367336c323132333037303336323030323c3631666166386333343532613a6539343031303463633461393933316165356e343034373430323832313b366d6166666438356660333638303530643865676e366066673535653936333b603d366663626c336767343736326136353030316d663b613266623463343330613032363a393d303b35366338356336616264316c267169665f7369673f3332363d303230303b363033303263343633626464676d3832653061313766376534326c353630373c663b61663865643937626134606c3733316132346238643860603d38343a3838303033323062653933643939336c6137366163663137323763616e65383338303a336036323037666062323036313667383a61373136613630643061623a653b306461323026736964723d31",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://h.online-metrix.net/YUCTi3cu6-DSjzh_?7f78115f4feaf6e0=gIj5II7tmYdNfLuGdS5JkAQaNymkuJ2X5M75r8FJomPh78pYGsq73gRLKtXOlk2ODs70lx7LWMkBkJrCLmInkTHtdw5d1IyWFDb_ThnhhmE7yyVfPQzbg9-cdTX-RY8kZyFZ2ji3NNcIiXUhrV3URE1PtZLTpF4lhWbMe02GgsI1RdIH-a6vsu5WQpZI4nAB8NPWW02smVXKrOo",
+        "status": 204,
+        "size": 400,
+        "remoteIPAddress": "91.235.132.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.015817000064998865
+      },
+      {
+        "url": "https://src.ebay-us.com/KzXfyK-hXNcdZvdi?1180cde643872243=DU5wfQ71XE0SPrRvqNn9gZQ8ZNUdzG1Y_tuk7tdNPqyA5ZxH7rtEMrG9-ZVBgtoYBowdxU3_CYKONrC0s8C_CRYZIy_QAlzqZo2dDLqqs3Z4vrNgnlWpFzrWwjH9xeNWJiZOvYFek41_lVeclA87w6XB8qquGDhvmALWGn2k05q9HJS2gWD6NUjsegcEXYPBgBlFj3oKN4rbKw&jac=1&je=353826266f6d646a3d2a312c312c332c67333a656166393d37343430323165376134653330386537363136336463603435356933633b336936633a373130626560323566323962616132376434653a642b",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 218,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.010320000001229346
+      },
+      {
+        "url": "https://src.ebay-us.com/jVJ2XIY5BXcMKXKa?1a7dd94ee002e8a3=uhar7sTzr5QDj1yf4pi1Pul7k0dDLq5XcQP9rQnB5r4KpSZNPVcQ8fYQAMye88NgSK0sOxjElpiy_5ZAcU3U7KXO-WCiqJ7yty0gbkq3XUg-DvPB0WP4Ll3eDWHR9GFufGu8q3EDyhiIpTcfQ72tIw&jac=1&je=33373726247f65607276635f65787665706c696c5f6b70353336372c3131362e3336342e313d2675696f3d7765627074615d616e74677266636e5d6f646e7326726d3d79677b2660617673743d7b206c67746d6c2238312632322e20737461747773223a206b68637265696e67227f2663776c683d61656e606367363738363735663032646a6266393533363137343930666a643961363c373260643536343134363965606d6633353b3561623736356330393137",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 387,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.012994999997317791
+      },
+      {
+        "url": "https://src.ebay-us.com/KzXfyK-hXNcdZvdi?1180cde643872243=DU5wfQ71XE0SPrRvqNn9gZQ8ZNUdzG1Y_tuk7tdNPqyA5ZxH7rtEMrG9-ZVBgtoYBowdxU3_CYKONrC0s8C_CRYZIy_QAlzqZo2dDLqqs3Z4vrNgnlWpFzrWwjH9xeNWJiZOvYFek41_lVeclA87w6XB8qquGDhvmALWGn2k05q9HJS2gWD6NUjsegcEXYPBgBlFj3oKN4rbKw&jac=1&je=33343826246062663d3877645f3138636a5d393a70735f3838726b5d313a6c615d313a6c6c57313870615f303a706a5f323865695f333a7b6e5d323863775f313873765f32243632302e3830302c322c322e382c302e3838322e3432302c3830322c3630322432362c30342c313a70745d767a75652e747a77672e64616c73652e66616c716d3a72735d64656661776c762e78726f6f707c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 218,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.010736000025644898
+      },
+      {
+        "url": "https://src.ebay-us.com/KzXfyK-hXNcdZvdi?1180cde643872243=DU5wfQ71XE0SPrRvqNn9gZQ8ZNUdzG1Y_tuk7tdNPqyA5ZxH7rtEMrG9-ZVBgtoYBowdxU3_CYKONrC0s8C_CRYZIy_QAlzqZo2dDLqqs3Z4vrNgnlWpFzrWwjH9xeNWJiZOvYFek41_lVeclA87w6XB8qquGDhvmALWGn2k05q9HJS2gWD6NUjsegcEXYPBgBlFj3oKN4rbKw&je=33353826706c3d247266743d36333133312f393530322c3d3b32322f313530302e3539303325313730322c353930302d333738302c373938312f333730302c333138392d333d30322c373935302d33353232243539313125333732322c3539333b2d313532382c343031392d313532302e373134342f313d32322e343034302d333530302e3d3235392f313530302e373235382d313730382e303333322d31353230",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://pages.ebay.com/",
+        "status": 204,
+        "size": 218,
+        "remoteIPAddress": "185.32.241.65",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://src.ebay-us.com/JtkQUZn1fNLzalZr?65f709a4cb920441=onWRvHy-I4YT-HqjyEF-2X6QyPzQp9tzcf59QmROWOddM6YrtrP_WqZ71DC9Iit6i3ibMaOmcSWQCW8R-c10u99zJ1ud1pu_vnuwNR_odGQ-kwvBQ7zbIFQ0uNmGnXbj1Y8vQDTh3ZLZ8bZOpCGi6RmBOyW0d5RbvovdsQZ9Me0oHxn2JUf7E6dSFXQmkcq4UGlo08HDTAY&jb=37332626687b6f773d55696e646f757324687b6f3d556966666d7571266a7362773d436870676d67266873623d436a726d6f6d253232393b"
+        ],
+        "time": 0.020351000013761222
+      }
+    ]
+  }
+}

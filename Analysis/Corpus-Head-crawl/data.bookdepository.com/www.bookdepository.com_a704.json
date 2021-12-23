@@ -1,0 +1,1047 @@
+{
+  "initialUrl": "https://www.bookdepository.com/basket/addisbn/isbn13/9780571362707",
+  "finalUrl": "https://www.bookdepository.com/basket",
+  "timeout": false,
+  "testStarted": 1640126443594,
+  "testFinished": 1640126461425,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.bookdepository.com/links.www.bookdepository.com_a704.json",
+    "requests": [
+      {
+        "url": "https://www.bookdepository.com/basket/addisbn/isbn13/9780571362707",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "13.227.210.198",
+        "responseHeaders": {
+          "set-cookie": "bd-session-id=258-9584964-1075002; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-id-time=2082787201l; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nENTITY_SESS_ID_UK=9b1832aa08bbcccb966d6665d4f58f75; Domain=bookdepository.com; Path=/; Secure; HttpOnly\nbd-x-main=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-ubid-main=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-session-id=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-session-id-time=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-session-token=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bookdepository.com/basket",
+        "initiators": [],
+        "time": 0.4524270000110846
+      },
+      {
+        "url": "https://www.bookdepository.com/basket",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 42622,
+        "remoteIPAddress": "13.227.210.198",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Sat, 17 Mar 1990 00:00:01 GMT",
+          "set-cookie": "bd-ubid-main=262-4986998-6317969; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-id=258-9584964-1075002; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-id-time=2082787201l; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-x-main=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-ubid-main=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-session-id=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-session-id-time=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure\nbd-session-token=\"\"; Domain=.www.bookdepository.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure"
+        },
+        "responseBodyHash": "5b0fe11b1981387db8011a1f8f69f5edf7aaea107515f046dae2cdc7ecba2f7a",
+        "redirectedFrom": "https://www.bookdepository.com/basket/addisbn/isbn13/9780571362707",
+        "initiators": [],
+        "time": 0.21542900000349618
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/fonts/bdicons.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 5952,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"7022e09549df8b74a11fde4d1835a598\""
+        },
+        "responseBodyHash": "694606296254ecf7076ef22e04590222eb97e2200090d8706a698ce0e5eca713",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.030284999986179173
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 47120,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"7e3379bc15b677cf3f1cac1e8a5b935f\""
+        },
+        "responseBodyHash": "ec1b65036c71b691d499c25ff8cb89da641f88210739f13a9ab1e5a3c07d3466",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.02602900000056252
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 1043,
+        "remoteIPAddress": "142.250.179.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Tue, 21 Dec 2021 22:40:44 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "659bd23b9536225392514a48ac02041284a7675aa9c12bf11d2ac32ccc4e0782",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.02118099998915568
+      },
+      {
+        "url": "https://fls-eu.amazon.co.uk/1/batch/1/OP/AYXWW5ND5JOM8:258-9584964-1075002:7A9RW2WAMMFFWGHXV62J$uedata=s:%2Fuedata%2Fuedata%3Fstaticb%26id%3D7A9RW2WAMMFFWGHXV62J:0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 150,
+        "remoteIPAddress": "34.247.5.5",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.10034500001347624
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 2862,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"c8183fb2566698b693df42c92938fa48\""
+        },
+        "responseBodyHash": "ea33c272b349b796e36d75572f659b743fa97da2b7a01614a51278d45299488e",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.04583200000342913
+      },
+      {
+        "url": "https://www.paypalobjects.com/api/checkout.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 240353,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"611576ae-16d559\""
+        },
+        "responseBodyHash": "911cedca4de02342bd10e87598103fccdb14b5965a91a4b21a1310082e8f9076",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.15503600001102313
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 96258,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"fe3f89b4b6da49c9c8ee682af3167841\""
+        },
+        "responseBodyHash": "28a6d0fcf1aebf594f3b4c5780b5db75fbe0fdca17a75fb388970a6e611ed3e0",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.060492999997222796
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/last-order-icon.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 1199,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"bbd695a45796b8b1fe671df9713da548\""
+        },
+        "responseBodyHash": "05e06268e17394d229b51741bfe09e9156ece53e2645b787dc427ef99d271f12",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.048627000011038035
+      },
+      {
+        "url": "https://www.dwin1.com/5487.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 8467,
+        "remoteIPAddress": "13.227.219.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, s-maxage=600",
+          "etag": "W/\"b391e86e93be391de7a8af575e022dcc\""
+        },
+        "responseBodyHash": "1ecc07f6ef7c40f3c2dad58b25ebdc92c10b54ec2653a0217a29f15f64998b0c",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.06266100000357255
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 21 Dec 2021 23:13:47 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.02535300000454299
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/xmas-background/2019-christmas-bg.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css",
+        "status": 200,
+        "size": 4687,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"4a107d637723c706542aa8eaaf424dd7\""
+        },
+        "responseBodyHash": "a7e645cd863fe336665b21afada0ce4faf50e0d135542f50264e135666f1502b",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css"
+        ],
+        "time": 0.010091000003740191
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/xmas-background/2019-christmas-header-bg.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css",
+        "status": 200,
+        "size": 8795,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"67451b2e581b58f7b020e0f4de0cfb95\""
+        },
+        "responseBodyHash": "64d11420200c363362635e8583290e5c03e68461659d4dee0ddacb719745634d",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css"
+        ],
+        "time": 0.01034300000173971
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/BookDepository/promotions/childrens-gift-guides-header-bg.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://d3ogvdx946i4sr.cloudfront.net/",
+        "status": 200,
+        "size": 39810,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Tue, 21 Dec 2021 16:08:59 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "622342b053eddac39f63494b5fc3a0b9a2f73edbbb04a54e5d72c8a3d60b61ad",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css"
+        ],
+        "time": 0.03021599998464808
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/two-part-banner-free-delivery.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css",
+        "status": 200,
+        "size": 880,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"5a080ca47a724145a5949ea71c4528ba\""
+        },
+        "responseBodyHash": "c140dee5674dc06dcee037a834aaed12914e23baaa759bbb3ddcb3dcb09a105a",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css"
+        ],
+        "time": 0.011777999985497445
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/BookDepository/promotions/childrens-gift-guides-header.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://d3ogvdx946i4sr.cloudfront.net/",
+        "status": 200,
+        "size": 1015441,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Wed, 22 Dec 2021 03:43:46 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "07256919ffb1d1b09beca784ebd5b2b92af9d67956255c9be7a3da62874ff739",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/css/common.css"
+        ],
+        "time": 0.8066510000207927
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11667,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 11:28:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "59a45e3bbb0de00f59259ad27b424b6a8162aed265ba689e14c21e1766067db1",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto"
+        ],
+        "time": 0.06958499999018386
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 6509,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 23:59:18 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "764a077c86d5163244898b0051f9c5570871c93930b6de667a0386816430df45",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto"
+        ],
+        "time": 0.05724200000986457
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 7817,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 18 Dec 2022 10:05:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "12c571a2f6b62d4078e07385bbc6cf7cd40d483ddb835d9c91ca8e3fa442a611",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto"
+        ],
+        "time": 0.05746300000464544
+      },
+      {
+        "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adtag=csm&ad_box_",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 586,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "expires": "Wed, 22 Dec 2021 09:18:36 GMT",
+          "timing-allow-origin": "https://www.amazon.com"
+        },
+        "responseBodyHash": "88ea58255d4cd82340f7acaabe0e6a99f195a4dc2ca6ef56ec503d03b331bee5",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.0077760000131092966
+      },
+      {
+        "url": "https://www.paypal.com/tagmanager/pptm.js?id=www.bookdepository.com&source=checkoutjs&t=xo&v=4.0.331",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 5402,
+        "remoteIPAddress": "151.101.1.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"2f38-JDMl9QCL5m4RLY99VyF7LBb/6MY\"",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "36fb889569aab047217a5f00d75452120ec9495d749fb8921e1c5f2f0bd66355",
+        "initiators": [
+          "https://www.paypalobjects.com/api/checkout.js"
+        ],
+        "time": 0.015744000003905967
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1302942146&t=pageview&_s=1&dl=https%3A%2F%2Fwww.bookdepository.com%2Fbasket&ul=en-us&de=UTF-8&dt=Your%20basket&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=IEAAAAAB~&cid=863738000.1640126445&tid=UA-41807899-1&_gid=525351083.1640126445&cd2=cart&cd3=0.00&z=1226702020",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 193,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.0033659999899100512
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/newsletter-icon.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 1069,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"2c27d4ca18728bc655b355ce0dcc9fc5\""
+        },
+        "responseBodyHash": "f0d9ecb46765cfa88524787a7bff362fa1e1b9f6953fb59e5d603d8b4ee27cb9",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js"
+        ],
+        "time": 0.006129999994300306
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/img/payment-options.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 6605,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"bc3a46831e4726a26e2c29e537df7d59\""
+        },
+        "responseBodyHash": "08827300e16728d7e36e5ba36aa908f60932473c7203ec4b5b7885fe1e72d7d7",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js"
+        ],
+        "time": 0.00427299999864772
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Ageneric%3Aanalytics%3A%3Amerchant&page=muse%3Ageneric%3Aanalytics%3A%3Amerchant%3A%3A%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&fltp=analytics-generic&pt=Your%20basket&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640126445238&g=0&completeurl=https%3A%2F%2Fwww.bookdepository.com%2Fbasket&ru=https%3A%2F%2Fwww.bookdepository.com%2Fbasket&sinfo=%7B%22partners%22%3A%7B%22ecwid%22%3A%7B%7D%2C%22bigCommerce%22%3A%7B%7D%2C%22shopify%22%3A%7B%7D%2C%22wix%22%3A%7B%7D%2C%22bigCartel%22%3A%7B%7D%7D%7D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 764,
+        "remoteIPAddress": "151.101.65.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Tue, 21 Dec 2021 22:40:45 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734820845%26vteXpYrS%3D1640128245%26vr%3Ddf27771c17d0a620b0b1687cffffffff%26vt%3Ddf27771c17d0a620b0b1687cfffffffe; Expires=Sat, 21 Dec 2024 22:40:45 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Ddf27771c17d0a620b0b1687cffffffff%26vt%3Ddf27771c17d0a620b0b1687cfffffffe; Expires=Sat, 21 Dec 2024 22:40:45 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.bookdepository.com&source=checkoutjs&t=xo&v=4.0.331"
+        ],
+        "time": 0.18188799999188632
+      },
+      {
+        "url": "https://www.bookdepository.com/uedata/uedata?ld&v=0.221132.0&id=7A9RW2WAMMFFWGHXV62J&sw=800&sh=600&vw=1440&vh=812&m=1&sc=7A9RW2WAMMFFWGHXV62J&ue=4&bb=49&be=191&fp=120&fcp=120&pc=1074&tc=-665&na_=-665&ul_=-1640126444370&_ul=-1640126444370&rd_=-665&_rd=-213&fe_=-213&lk_=-213&_lk=-213&co_=-213&_co=-213&sc_=-1640126444370&rq_=-211&rs_=-33&_rs=3&dl_=-25&di_=210&de_=210&_de=210&_dc=1074&ld_=1074&_ld=-1640126444370&ntd=0&ty=0&rc=1&hob=2&hoe=5&ld=1076&t=1640126445446&ctb=1&rt=__ld:24-5-3-7-10-8-1&csmtags=fls-eu-amazon-co-uk|adblk_no&viz=visible:4&pty=basket&spty=none&pti=undefined&tid=7A9RW2WAMMFFWGHXV62J&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/basket",
+        "status": 204,
+        "size": 806,
+        "remoteIPAddress": "13.227.210.198",
+        "responseHeaders": {
+          "set-cookie": "bd-session-id=258-9584964-1075002; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-id-time=2082787201l; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-token=uRVsnoSzbOklmpIASIQoy6aGHy3fArQtxaqLIOYxsMe55A6kbUefnQP9nSKteJ2hQR41CyJNXIjCg5t+6tuYeHviyexNeV04OMQLjynJ9FOJgCd9SqIHA6R3kXqa7MXUV1rMwWzWU37wOSmWVnlWLSPaBA5KEwgxyCATvejOZ0cV+BGULeOou/Un4260zQut; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.04137200000695884
+      },
+      {
+        "url": "https://fls-eu.amazon.co.uk/1/batch/1/OP/AYXWW5ND5JOM8:258-9584964-1075002:7A9RW2WAMMFFWGHXV62J$uedata=s:%2Fuedata%2Fuedata%3Fld%26v%3D0.221132.0%26id%3D7A9RW2WAMMFFWGHXV62J%26sw%3D800%26sh%3D600%26vw%3D1440%26vh%3D812%26m%3D1%26sc%3D7A9RW2WAMMFFWGHXV62J%26ue%3D4%26bb%3D49%26be%3D191%26fp%3D120%26fcp%3D120%26pc%3D1074%26tc%3D-665%26na_%3D-665%26ul_%3D-1640126444370%26_ul%3D-1640126444370%26rd_%3D-665%26_rd%3D-213%26fe_%3D-213%26lk_%3D-213%26_lk%3D-213%26co_%3D-213%26_co%3D-213%26sc_%3D-1640126444370%26rq_%3D-211%26rs_%3D-33%26_rs%3D3%26dl_%3D-25%26di_%3D210%26de_%3D210%26_de%3D210%26_dc%3D1074%26ld_%3D1074%26_ld%3D-1640126444370%26ntd%3D0%26ty%3D0%26rc%3D1%26hob%3D2%26hoe%3D5%26ld%3D1076%26t%3D1640126445446%26ctb%3D1%26rt%3D__ld%3A24-5-3-7-10-8-1%26csmtags%3Dfls-eu-amazon-co-uk%7Cadblk_no%26viz%3Dvisible%3A4%26pty%3Dbasket%26spty%3Dnone%26pti%3Dundefined%26tid%3D7A9RW2WAMMFFWGHXV62J%26aftb%3D1:1085",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "34.247.5.5",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.025372000003699213
+      },
+      {
+        "url": "https://fls-eu.amazon.co.uk/1/batch/1/OP/AYXWW5ND5JOM8:258-9584964-1075002:7A9RW2WAMMFFWGHXV62J$uedata=s:%2Fuedata%2Fuedata%3Fld%26v%3D0.221132.0%26id%3D7A9RW2WAMMFFWGHXV62J%26sc0%3Dicons-download%26bb0%3D43%26pc0%3D72%26ld0%3D72%26t0%3D1640126444442%26sc1%3Dfont-download%26bb1%3D44%26pc1%3D72%26ld1%3D72%26t1%3D1640126444442%26sc2%3Dcss-download%26bb2%3D44%26pc2%3D63%26ld2%3D63%26t2%3D1640126444433%26sc3%3Dfirstload-js-download%26bb3%3D179%26pc3%3D834%26ld3%3D834%26t3%3D1640126445204%26sc4%3DcsmCELLSframework%26bb4%3D195%26pc4%3D196%26ld4%3D196%26t4%3D1640126444566%26sc5%3DcsmCELLSpdm%26bb5%3D196%26pc5%3D198%26ld5%3D198%26t5%3D1640126444568%26sc6%3DcsmCELLSvpm%26bb6%3D198%26pc6%3D198%26ld6%3D198%26t6%3D1640126444568%26sc7%3DcsmCELLSfem%26bb7%3D198%26pc7%3D199%26ld7%3D199%26t7%3D1640126444569%26sc8%3Dfirstload-exec%26bb8%3D709%26pc8%3D832%26ld8%3D832%26t8%3D1640126445202%26sc9%3DimagesLazyLoadStart%26pc9%3D832%26ld9%3D832%26t9%3D1640126445202%26ctb%3D1:1085",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "34.247.5.5",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.02374400000553578
+      },
+      {
+        "url": "https://unagi.amazon.co.uk/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 405,
+        "remoteIPAddress": "52.94.223.212",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.bookdepository.com/basket",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js"
+        ],
+        "time": 0.08247299998765811
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 4897,
+        "remoteIPAddress": "13.227.198.86",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=630720000,public",
+          "expires": "Sun, 19 May 2041 00:35:47 GMT",
+          "timing-allow-origin": "https://www.amazon.in, https://www.amazon.com"
+        },
+        "responseBodyHash": "0debafeb8c39f3d5cdd9443cd018edee19d76125de4dc4765454f3008cb81a01",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.006095999997342005
+      },
+      {
+        "url": "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/app.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 90684,
+        "remoteIPAddress": "65.9.84.179",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, no-transform, public",
+          "etag": "\"fb924f0abe19085d68b58cbea1b2ea81\""
+        },
+        "responseBodyHash": "458a471870be7c6f2978e11c592abb8f3af2388dfd7a32a76ee7afd6a3562a99",
+        "initiators": [
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js"
+        ],
+        "time": 0.02032000001054257
+      },
+      {
+        "url": "https://www.bookdepository.com/uedata/uedata?at&v=0.221132.0&id=7A9RW2WAMMFFWGHXV62J&m=1&sc=csa:lcp&lcp=132&pc=1108&at=1109&t=1640126445479&pty=basket&spty=none&pti=undefined&tid=7A9RW2WAMMFFWGHXV62J&aftb=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/basket",
+        "status": 204,
+        "size": 808,
+        "remoteIPAddress": "13.227.210.198",
+        "responseHeaders": {
+          "set-cookie": "bd-session-id=258-9584964-1075002; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-id-time=2082787201l; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/\nbd-session-token=4XFlhIXJdHm+IBz3Ny19zuZXkPZVqjpexfCUu0CK1h16vsFd7FEGDwATf/onYG5FvpxiRFgnl3E8Qu/otZqg2BKS4WA4qzwWlQ7GLCDzHtSrOBWr637VK/t2eNzx3/FcLw/UuQ/qc+3+NDhVU/N/NbP17IU0veZxcu5kWCm2nFp17ay61g9WnX3/ISvysP0H; Domain=bookdepository.com; Expires=Tue, 01-Jan-2036 08:00:01 GMT; Path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.05539699998917058
+      },
+      {
+        "url": "https://fls-eu.amazon.co.uk/1/batch/1/OP/AYXWW5ND5JOM8:258-9584964-1075002:7A9RW2WAMMFFWGHXV62J$uedata=s:%2Fuedata%2Fuedata%3Fat%26v%3D0.221132.0%26id%3D7A9RW2WAMMFFWGHXV62J%26m%3D1%26sc%3Dcsa%3Alcp%26lcp%3D132%26pc%3D1108%26at%3D1109%26t%3D1640126445479%26pty%3Dbasket%26spty%3Dnone%26pti%3Dundefined%26tid%3D7A9RW2WAMMFFWGHXV62J%26aftb%3D1:1109",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "34.247.5.5",
+        "responseHeaders": {},
+        "responseBodyHash": "eb69be7b93584bcd4f54b90cdbee282baea8b34fbf08dcd1d80875ae27601344",
+        "initiators": [
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.03390700000454672
+      },
+      {
+        "url": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 1086,
+        "remoteIPAddress": "151.101.1.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bookdepository.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"32f-vQNPTzttyw/UuyniB/VDKubSzC0\"",
+          "set-cookie": "tsrce=checkoutjs; Domain=.paypal.com; Path=/; Expires=Fri, 24 Dec 2021 22:40:45 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg01.phx; Path=/; Domain=paypal.com; Expires=Tue, 21 Dec 2021 23:10:45 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734820845%26vteXpYrS%3D1640128245%26vr%3Ddf2778f117d0a760db00d65ef58e30ff%26vt%3Ddf2778f117d0a760db00d65ef58e30fe%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 22:40:45 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Ddf2778f117d0a760db00d65ef58e30ff%26vt%3Ddf2778f117d0a760db00d65ef58e30fe; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 22:40:45 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9e939c4dc4e99bba0d16ffdb05c93f7d35a175a72369259c8a4072d0717f6acc",
+        "initiators": [
+          "https://www.paypalobjects.com/api/checkout.js",
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.3908789999841247
+      },
+      {
+        "url": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.1.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bookdepository.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "tsrce=loggernodeweb; Domain=.paypal.com; Path=/; Expires=Fri, 24 Dec 2021 22:40:45 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg01.phx; Path=/; Domain=paypal.com; Expires=Tue, 21 Dec 2021 23:10:45 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734820845%26vteXpYrS%3D1640128245%26vr%3Ddf27782d17d0ad046ae64d05f67b26ac%26vt%3Ddf27782d17d0ad046ae64d05f67b26ab%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 22:40:45 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Ddf27782d17d0ad046ae64d05f67b26ac%26vt%3Ddf27782d17d0ad046ae64d05f67b26ab; Path=/; Domain=paypal.com; Expires=Fri, 20 Dec 2024 22:40:45 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/xoplatform/logger/api/logger"
+        ],
+        "time": 0.1808679999958258
+      },
+      {
+        "url": "https://v2.zopim.com/?2idAW3AKZ28UUWgitXg7WMvt1MrRI4pX",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 302,
+        "remoteIPAddress": "104.16.105.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Wed, 22 Dec 2021 00:35:43 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://static.zdassets.com/ekr/asset_composer.js",
+        "initiators": [
+          "https://www.bookdepository.com/basket",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/app.js",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js"
+        ],
+        "time": 0.03877400001510978
+      },
+      {
+        "url": "https://static.zdassets.com/ekr/asset_composer.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 6343,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, s-maxage=60",
+          "etag": "W/\"cc904f41324148b571599b3b02fdec0b\""
+        },
+        "responseBodyHash": "16cc547456ffa0052c3679e6c5ece2e14ad57c92b93562deb7bcb5829b7afcb7",
+        "redirectedFrom": "https://v2.zopim.com/?2idAW3AKZ28UUWgitXg7WMvt1MrRI4pX",
+        "initiators": [
+          "https://www.bookdepository.com/basket",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/app.js",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/firstload.js"
+        ],
+        "time": 0.04312799999024719
+      },
+      {
+        "url": "https://ekr.zdassets.com/compose/zopim_chat/2idAW3AKZ28UUWgitXg7WMvt1MrRI4pX",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 1008,
+        "remoteIPAddress": "104.18.70.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public, s-maxage=60, stale-while-revalidate=600, stale-if-error=3600",
+          "etag": "W/\"5233fd23ea575885bac6aa005fea2899\""
+        },
+        "responseBodyHash": "5233fd23ea575885bac6aa005fea28994de3673122b72ccb6ed14284efea275e",
+        "initiators": [
+          "https://v2.zopim.com/?2idAW3AKZ28UUWgitXg7WMvt1MrRI4pX"
+        ],
+        "time": 0.2429990000091493
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 71421,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"56b203a47c21abbe753347e92237e952\"",
+          "expires": "Fri, 09 Dec 2022 04:16:37 GMT"
+        },
+        "responseBodyHash": "b007fe3c6c2e8c6abb9e8f4af360fcba1d38bfc891788101671ef78b58ad9737",
+        "initiators": [
+          "https://v2.zopim.com/?2idAW3AKZ28UUWgitXg7WMvt1MrRI4pX",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/app.js"
+        ],
+        "time": 0.032048000022768974
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-chat-sdk-58987df92c8073e96c0f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 53029,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"f4e9b6a21f729895e00473e7f3947ed7\"",
+          "expires": "Wed, 16 Nov 2022 04:52:16 GMT"
+        },
+        "responseBodyHash": "a6cd361fc4dd2ddf8db6c3ea7d3e8e62d38832bd9336e595aafa4abcd024b1ce",
+        "initiators": [
+          "https://v2.zopim.com/?2idAW3AKZ28UUWgitXg7WMvt1MrRI4pX",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/app.js"
+        ],
+        "time": 0.02401700001792051
+      },
+      {
+        "url": "https://bookdepository.zendesk.com/embeddable/config",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 1347,
+        "remoteIPAddress": "104.18.248.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60, stale-while-revalidate=600, stale-if-error=3600",
+          "set-cookie": "__cfruid=3756578f04c037c872f1186b72b7783189820c5f-1640126446; path=/; domain=.bookdepository.zendesk.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "337c905e8496eebe0aa25445d8b5dd0f0cf1f957d2937958683f5c9b992fa8fb",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.05741400000988506
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 117425,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b9e4aa2f9e863379247f2e69b03fb07a\"",
+          "expires": "Fri, 02 Dec 2022 21:26:36 GMT"
+        },
+        "responseBodyHash": "f42d2283b5b2fa5fc2fbdcdcadb95e6b760e9a13feb37649e55a4aa542127f4f",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.028698000009171665
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-82870-96cb4d98ebf089c1dcf9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 23577,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b521b3ddfa4a8f279e831669da2695a5\"",
+          "expires": "Fri, 02 Dec 2022 21:26:36 GMT"
+        },
+        "responseBodyHash": "9b28e96a3701e3f27bae1bc9a8c81bd01fe1c56ec457a6e2894c688b38ca90dc",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.021989000000758097
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 101883,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"a4b9ba5ecea567a4bfe9a1ef104029e2\"",
+          "expires": "Fri, 09 Dec 2022 04:13:17 GMT"
+        },
+        "responseBodyHash": "4337ae373fd11663af457a72f3460841e2e64783ee3b5c3d425cacf94d4a54cf",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ],
+        "time": 0.0326000000059139
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-locales/classic/en-us-json-252dd9c57c7ccd6fb1b5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 6089,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"62379f28b9f6a37d756721716e320007\"",
+          "expires": "Thu, 03 Nov 2022 23:47:28 GMT"
+        },
+        "responseBodyHash": "4c9973e0109dbadad00f38c2cc090f7dfa912ef8c033ac525471d2267f8afdb7",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js"
+        ],
+        "time": 0.017706000013276935
+      },
+      {
+        "url": "https://fls-eu.amazon.co.uk/1/batch/1/OE/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 204,
+        "size": 165,
+        "remoteIPAddress": "34.247.5.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.020767000009072945
+      },
+      {
+        "url": "https://bookdepository.zendesk.com/embeddable_blip?type=pageView&data=eyJjaGFubmVsIjoid2ViX3dpZGdldCIsInBhZ2VWaWV3Ijp7InJlZmVycmVyIjoiaHR0cHM6Ly93d3cuYm9va2RlcG9zaXRvcnkuY29tL2Jhc2tldCIsInRpbWUiOjE2NCwibG9hZFRpbWUiOjMxLjMwMDAwMDAxMTkyMDkzLCJuYXZpZ2F0b3JMYW5ndWFnZSI6ImVuLVVTIiwicGFnZVRpdGxlIjoiWW91ciBiYXNrZXQiLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTMuMC40NTc3LjYzIFNhZmFyaS81MzcuMzYiLCJpc01vYmlsZSI6ZmFsc2UsImlzUmVzcG9uc2l2ZSI6dHJ1ZSwidmlld3BvcnRNZXRhIjoid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIG1heGltdW0tc2NhbGU9MSwgdXNlci1zY2FsYWJsZT0xIiwiaGVscENlbnRlckRlZHVwIjpmYWxzZX0sImJ1aWQiOiI4MDUxMzY1ZjM2YTE0NTA5YTljY2FhYmFiMjZiZjliYiIsInN1aWQiOiI3NzRmOGYzMzUyNzU0MmMwOWFiODVhMWQ2ZDkyMzdkMSIsInZlcnNpb24iOiJhZmNjYWFjIiwidGltZXN0YW1wIjoiMjAyMS0xMi0yMVQyMjo0MDo0Ni42NTRaIiwidXJsIjoiaHR0cHM6Ly93d3cuYm9va2RlcG9zaXRvcnkuY29tL2Jhc2tldCJ9",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 376,
+        "remoteIPAddress": "104.18.248.37",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.bookdepository.com",
+          "set-cookie": "__cfruid=3756578f04c037c872f1186b72b7783189820c5f-1640126446; path=/; domain=.bookdepository.zendesk.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js"
+        ],
+        "time": 0.03339199998299591
+      },
+      {
+        "url": "wss://widget-mediator.zopim.com/s/W/ws/jnAZh7v5780hw-FR/c/1640126446709",
+        "type": "WebSocket",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-chat-sdk-58987df92c8073e96c0f.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js"
+        ]
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/web-widget-chat-incoming-message-notification-bdfd1edd38ba2ec92175.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 727,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"200371227ff3b0fb85badb2d2faef3b5\"",
+          "expires": "Wed, 23 Nov 2022 09:53:25 GMT"
+        },
+        "responseBodyHash": "3a3ab89bc8d4feb680748ba773ff13a07c2db610c1308ec9c12040aa9b65d46b",
+        "initiators": [
+          "https://static.zdassets.com/web_widget/latest/web-widget-framework-31e667ffc2f60b684fb7.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-lazy/web_widget-6c9abda5851231f9c15c.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-87858-cee7f1eb2b6523d204ba.js",
+          "https://static.zdassets.com/web_widget/latest/web-widget-chat-sdk-58987df92c8073e96c0f.js"
+        ],
+        "time": 0.017324999993434176
+      },
+      {
+        "url": "https://static.zdassets.com/web_widget/latest/fda6cd35495c75f83508d9d2e77ee33d.mp3",
+        "method": "GET",
+        "type": "Media",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 206,
+        "size": 20452,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"f11ce9e8f40a392830217253fe75d6de\"",
+          "expires": "Tue, 09 Aug 2022 15:02:06 GMT"
+        },
+        "responseBodyHash": "97e5b0b6cfc2ba9815028429c069631ba12b294aa7419d1ea130accd0adc2d46",
+        "initiators": [],
+        "time": 0.01626500001293607
+      },
+      {
+        "url": "https://unagi.amazon.co.uk/1/events/com.amazon.csm.csa.prod",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 200,
+        "size": 405,
+        "remoteIPAddress": "52.94.223.212",
+        "responseHeaders": {},
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.bookdepository.com/basket",
+          "https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.14/js/app.js"
+        ],
+        "time": 0.029097999999066815
+      },
+      {
+        "url": "https://fls-eu.amazon.co.uk/1/batch/1/OE/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.bookdepository.com/",
+        "status": 204,
+        "size": 165,
+        "remoteIPAddress": "34.247.5.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://images-na.ssl-images-amazon.com/images/I/31YXrY93hfL.js",
+          "https://www.bookdepository.com/basket"
+        ],
+        "time": 0.020554000017000362
+      }
+    ]
+  }
+}

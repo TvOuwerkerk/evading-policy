@@ -1,0 +1,906 @@
+{
+  "initialUrl": "https://www.luckland.com/Help.aspx",
+  "finalUrl": "https://www.luckland.com/info/help/",
+  "timeout": false,
+  "testStarted": 1640139067666,
+  "testFinished": 1640139088398,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.luckland.com/links.www.luckland.com_ac4f.json",
+    "requests": [
+      {
+        "url": "https://www.luckland.com/Help.aspx",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+          "set-cookie": "lastvisit=2021-12-22; expires=Thu, 22-Dec-2022 02:11:07 GMT; Max-Age=31536000; path=/; domain=luckland.com; secure; HttpOnly\nvisits=1; expires=Thu, 22-Dec-2022 02:11:07 GMT; Max-Age=31536000; path=/; domain=luckland.com; secure; HttpOnly\nAB=A; expires=Thu, 23-Dec-2021 02:11:07 GMT; Max-Age=86400; path=/; domain=luckland.com; secure; HttpOnly\nl=en; expires=Fri, 21-Jan-2022 02:11:08 GMT; Max-Age=2592000; path=/; domain=luckland.com; secure; HttpOnly\nlng=ENG; expires=Fri, 21-Jan-2022 02:11:08 GMT; Max-Age=2592000; path=/; domain=luckland.com; secure; HttpOnly\nGameVerticalID=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=luckland.com; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.luckland.com/info/help",
+        "initiators": [],
+        "time": 1.1948400000110269
+      },
+      {
+        "url": "https://www.luckland.com/info/help",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=1",
+          "expires": "Wed, 22 Dec 2021 02:11:10 GMT",
+          "set-cookie": "lastvisit=2021-12-22; expires=Thu, 22-Dec-2022 02:11:09 GMT; Max-Age=31536000; path=/; domain=luckland.com; secure; HttpOnly\nvisits=1; expires=Thu, 22-Dec-2022 02:11:09 GMT; Max-Age=31536000; path=/; domain=luckland.com; secure; HttpOnly\nl=en; expires=Fri, 21-Jan-2022 02:11:09 GMT; Max-Age=2592000; path=/; domain=luckland.com; secure; HttpOnly\nlng=ENG; expires=Fri, 21-Jan-2022 02:11:09 GMT; Max-Age=2592000; path=/; domain=luckland.com; secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.luckland.com/info/help/",
+        "redirectedFrom": "https://www.luckland.com/Help.aspx",
+        "initiators": [],
+        "time": 1.508507999998983
+      },
+      {
+        "url": "https://www.luckland.com/info/help/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 22804,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=1",
+          "expires": "Wed, 22 Dec 2021 02:11:11 GMT",
+          "set-cookie": "lastvisit=2021-12-22; expires=Thu, 22-Dec-2022 02:11:10 GMT; Max-Age=31536000; path=/; domain=luckland.com; secure; HttpOnly\nvisits=1; expires=Thu, 22-Dec-2022 02:11:10 GMT; Max-Age=31536000; path=/; domain=luckland.com; secure; HttpOnly\nl=en; expires=Fri, 21-Jan-2022 02:11:10 GMT; Max-Age=2592000; path=/; domain=luckland.com; secure; HttpOnly\nlng=ENG; expires=Fri, 21-Jan-2022 02:11:10 GMT; Max-Age=2592000; path=/; domain=luckland.com; secure; HttpOnly\nGameVerticalID=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=luckland.com; secure"
+        },
+        "responseBodyHash": "1d1cc2bbda12f56428107ebc4f566185ea63cb1270fe923d9419391f8365d850",
+        "redirectedFrom": "https://www.luckland.com/info/help",
+        "initiators": [],
+        "time": 2.302189999987604
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/uploads/sites/18/2018/11/LL_logo_bigger.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 53489,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=56851",
+          "etag": "\"cef3-5829f376f3840\"",
+          "expires": "Wed, 22 Dec 2021 17:58:43 GMT"
+        },
+        "responseBodyHash": "926eebbda044aa79f4f754b14d025d660cf3792effaceca22ce33b627d0b0488",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.016561999975237995
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/open-sans.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 753,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=56080",
+          "etag": "\"83a-5d275ef6e9ce7\"",
+          "expires": "Wed, 22 Dec 2021 17:45:52 GMT"
+        },
+        "responseBodyHash": "175cce5d7fdc2e28a11d97a0bab34ecda0aebefa984e3ce5770ec888999ae34e",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.04387600001064129
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/themes/AspireLayout/app.style.min.webpack.css?v=1638706505731",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 61532,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=56901",
+          "etag": "\"376b6-5d275f0881c36\"",
+          "expires": "Wed, 22 Dec 2021 17:59:33 GMT"
+        },
+        "responseBodyHash": "b9d03c6562a327a6d3e24b7b23d014a54629d21b849a8bf4b77a078499b6826d",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.02809399997931905
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/themes/AspireLayout/vendor.script.min.webpack.js?v=1638706505731",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 56691,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=56839",
+          "etag": "\"2d70c-5d275f0f8a908\"",
+          "expires": "Wed, 22 Dec 2021 17:58:31 GMT"
+        },
+        "responseBodyHash": "21a4e462e0fabb5307c6876b00e402be22bd6b253303ff827589f570355fffb3",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.03571099997498095
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/themes/AspireLayout/app.script.min.webpack.js?v=1638706505731",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 57344,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=56882",
+          "etag": "\"2a4d0-5d275f0869595\"",
+          "expires": "Wed, 22 Dec 2021 17:59:14 GMT"
+        },
+        "responseBodyHash": "1a1c429ebb14d0d4d28daff490092df8b8d7bca6f26ee8382fe708cf419bf67a",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.03633299999637529
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/data/css/style_155.css?v=1638706505731",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 3970,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=57365",
+          "etag": "\"268d-5d3599c74be80\"",
+          "expires": "Wed, 22 Dec 2021 18:07:17 GMT"
+        },
+        "responseBodyHash": "412f4ffdcae9d854b9685e8d9384b5376b67d5d53c608c6de3b1c1adf62a6133",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.04326400000718422
+      },
+      {
+        "url": "https://gamesrv1.luckland.com/MWC/mwc-app.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 19436,
+        "remoteIPAddress": "95.129.34.30",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "\"032ec62bcedd71:0\""
+        },
+        "responseBodyHash": "34e843b298336b587bcdd6fff5b3c51778e94830070b23556c188d8620745376",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.36877200001617894
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/themes/AspireLayout/preloading.css?v=1638706505731",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 1435,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=53367",
+          "etag": "\"d19-5d275f0f25fa4\"",
+          "expires": "Wed, 22 Dec 2021 17:00:39 GMT"
+        },
+        "responseBodyHash": "bb81f3644fc2fdb8d7b9ed64b99993217e24dd4bd4b0567b844d41dfd079a16c",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.021470999985467643
+      },
+      {
+        "url": "https://cdn.aspireglobal.com/Resources/asg-universal/x.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 1662,
+        "remoteIPAddress": "2.19.195.203",
+        "responseHeaders": {
+          "cache-control": "max-age=1209600",
+          "etag": "\"5445e2064c6d61:0\""
+        },
+        "responseBodyHash": "bcc339ba1292478fa70eb02a0b0903cff29e230dd978b061e13056670c601740",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.08949099999153987
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/themes/AspireLayout/images/ingame/open.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 762,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=56268",
+          "etag": "\"185-5d275f0ac0f70\"",
+          "expires": "Wed, 22 Dec 2021 17:49:00 GMT"
+        },
+        "responseBodyHash": "a003267eb016c4ee9d14f8ea63fa66cabcd19c1d00fe797356fb6f05787f02fe",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.06750600002123974
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/themes/AspireLayout/images/ingame/close.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 632,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=54388",
+          "etag": "\"103-5d275f0ab7330\"",
+          "expires": "Wed, 22 Dec 2021 17:17:40 GMT"
+        },
+        "responseBodyHash": "3e1ce9c011a679c63450667540813b401dfc858c1cc31391784b134073af3e50",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.07193599999300204
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/uploads/sites/18/2020/10/luckland_lobbybanner_1920x304px_welcome_en_eur.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 56425,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=61134",
+          "etag": "\"da6a-5c95299a5b091\"",
+          "expires": "Wed, 22 Dec 2021 19:10:06 GMT"
+        },
+        "responseBodyHash": "3b09593dd03cdc76c9df02e2c596c1645072d65d41aa7556461f046f3e6116dd",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.07960300002014264
+      },
+      {
+        "url": "https://cdn.aspireglobal.com/Brands/Luckland_com/Website/Help/HelpContactUs_ENG.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 9991,
+        "remoteIPAddress": "2.19.195.203",
+        "responseHeaders": {
+          "cache-control": "max-age=1209600",
+          "etag": "\"5b70ffc54c6d61:0\""
+        },
+        "responseBodyHash": "64bbae28aa52acf87516ccf7da44a4a68e3664b4ca59219bd5cbecceaebdb367",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.12195800000336021
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/uploads/sites/18/2020/10/luckland_specialevent_528x355_livedealers_en.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 27301,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=60018",
+          "etag": "\"68ee-5c952998084d8\"",
+          "expires": "Wed, 22 Dec 2021 18:51:30 GMT"
+        },
+        "responseBodyHash": "3f84a65164d7c787d5c4678f494b4779d579acd32c6d141306c4ddebed9cb2c6",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.08440900000277907
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/components/game_improvements/dist/asg-game-improvements.min.js.css?v=1638706505731",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 3193,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=56441",
+          "etag": "\"2ea1-5d275eddb0b3f\"",
+          "expires": "Wed, 22 Dec 2021 17:51:53 GMT"
+        },
+        "responseBodyHash": "276929fd25802b6f2e9f93354a1f0f6a63f9b8161be2319fb3330312d709dd1f",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.06504899999708869
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/components/game_improvements/dist/asg-game-improvements.min.js?v=1638706505731",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 48120,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=56564",
+          "etag": "\"2449d-5d275eddaad7f\"",
+          "expires": "Wed, 22 Dec 2021 17:53:56 GMT"
+        },
+        "responseBodyHash": "7d32d630163f79b2b26e7e39fbab98386bbe51ef2aa4c0ad769e5fb4e87dfe08",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.08238100001472048
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/components/live_casino/dist/asg-live-casino.min.js.css?v=1638706505731",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 1275,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=54489",
+          "etag": "\"7ce-5d275ee280298\"",
+          "expires": "Wed, 22 Dec 2021 17:19:21 GMT"
+        },
+        "responseBodyHash": "29bd61ee2735f7b123269acf7cd1a54f3efe6252400e6895a9451da517f620e3",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.06627700000535697
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/components/live_casino/dist/asg-live-casino.min.js?v=1638706505731",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 47529,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=56603",
+          "etag": "\"23381-5d275ee27a4d7\"",
+          "expires": "Wed, 22 Dec 2021 17:54:35 GMT"
+        },
+        "responseBodyHash": "336f872f6b4c5a3ca294b77cee545fcda07cff5f3f1b8efd532a5dd04d927d8e",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.08512500001234002
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/components/xmas/countdown_strip/assets/js/countdown-strip-ui.js?v=1638706505731",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 1373,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=54157",
+          "etag": "\"f55-5d275ee797e34\"",
+          "expires": "Wed, 22 Dec 2021 17:13:49 GMT"
+        },
+        "responseBodyHash": "25ecbac26bf9885323b9a2894a341106d9719a1cd920224f4993bd6f453fb896",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.06114100001286715
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/components/hide-trustly-payment/index.js?v=1638706505731",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 947,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=55878",
+          "etag": "\"50c-5d275ede943ea\"",
+          "expires": "Wed, 22 Dec 2021 17:42:30 GMT"
+        },
+        "responseBodyHash": "cbec1568bdb51c815747ab74a8d4358569abc871f9bfb52f6041ac844eacfa2c",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.061714000010397285
+      },
+      {
+        "url": "https://www.luckland.com/wp-content/plugins/asg-currencies-replace/assets/js/asg-currencies-replace.min.js?ver=5.8.1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/info/help/",
+        "status": 200,
+        "size": 797,
+        "remoteIPAddress": "2.19.195.211",
+        "responseHeaders": {
+          "cache-control": "max-age=56807",
+          "etag": "\"36e-5cf52c19b4680\"",
+          "expires": "Wed, 22 Dec 2021 17:57:59 GMT"
+        },
+        "responseBodyHash": "fcd1809d8ace97897c02732afe090f46e7577cf9d2c5d9d92fbe29896251c833",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.04265799999120645
+      },
+      {
+        "url": "https://cdn.taboola.com/libtrc/unip/1338332/tfa.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 25443,
+        "remoteIPAddress": "199.232.149.44",
+        "responseHeaders": {
+          "cache-control": "private,max-age=14401",
+          "etag": "\"c614da940215c961c8d470596e62662b\""
+        },
+        "responseBodyHash": "a2959c806d1980b96f1cc5cf85b6b72cc823bd482f3b877235e84b1e4ee62621",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.1573320000024978
+      },
+      {
+        "url": "https://s.go-mpulse.net/boomerang/GSM53-6YHXF-SE8EJ-RXEU2-55P9Q",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 51872,
+        "remoteIPAddress": "23.222.18.199",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "95a439c4e11ace2484e8d42c30ff56cf7db5ea7c6463df9ce2fdafa7f6ccbf54",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.039798000012524426
+      },
+      {
+        "url": "https://cdn.aspireglobal.com/Resources/asg-universal/web-elements/user_icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 441,
+        "remoteIPAddress": "2.19.195.203",
+        "responseHeaders": {
+          "cache-control": "max-age=1209600",
+          "etag": "\"6ef8112064c6d61:0\""
+        },
+        "responseBodyHash": "ad7747ef0efa920a45060ee75a60b86784c347f42f86c64476ca25526e8ec956",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.003511999995680526
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/fonts/Regular/OpenSans-Regular.woff2?v=1.101",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/open-sans.css",
+        "status": 200,
+        "size": 60114,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=56868",
+          "etag": "\"e8d0-5d275ef692e43\"",
+          "expires": "Wed, 22 Dec 2021 17:59:01 GMT"
+        },
+        "responseBodyHash": "b601e6535930ee89d3e1306358b56471095bdcf736c4e28a4503cd1536ba2bf2",
+        "initiators": [
+          "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/open-sans.css"
+        ],
+        "time": 0.0961480000114534
+      },
+      {
+        "url": "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/fonts/Bold/OpenSans-Bold.woff2?v=1.101",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/open-sans.css",
+        "status": 200,
+        "size": 61559,
+        "remoteIPAddress": "104.110.240.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=56868",
+          "etag": "\"ee6c-5d275ef594fb8\"",
+          "expires": "Wed, 22 Dec 2021 17:59:01 GMT"
+        },
+        "responseBodyHash": "2a33de3b119ee0e46ca8819727543f0ba2e75e0c9fde01c48716ba9f2f90f900",
+        "initiators": [
+          "https://fnc.aspireglobal.com/asg-framework/global_plugins/fonts/open-sans-fonts/open-sans.css"
+        ],
+        "time": 0.09104600001592189
+      },
+      {
+        "url": "https://crm-api.aspireglobal.com/js/exponea.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 92620,
+        "remoteIPAddress": "35.241.31.221",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"61ae27c8-16876\"",
+          "expires": "Wed, 22 Dec 2021 03:11:13 GMT"
+        },
+        "responseBodyHash": "879572df06ef9fb4a033389384273cc6d9715a6a6b95770264fc0bc8dea490d9",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://www.luckland.com/wp-content/themes/AspireLayout/app.script.min.webpack.js?v=1638706505731"
+        ],
+        "time": 0.02423300000373274
+      },
+      {
+        "url": "https://crm-api.aspireglobal.com/webxp/script/844ec1cc-0962-11eb-918c-46670b609988/new/modifications.min.js?http-referer=https%3A%2F%2Fwww.luckland.com%2Finfo%2Fhelp%2F&timeout=4000ms",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 20174,
+        "remoteIPAddress": "35.241.31.221",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "e1e47442152b98a5f683b8585bbe0a90fb1b3e07994ac9c6677eda03ea7682db",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://www.luckland.com/wp-content/themes/AspireLayout/app.script.min.webpack.js?v=1638706505731"
+        ],
+        "time": 0.02473699999973178
+      },
+      {
+        "url": "https://trc.taboola.com/1338332/trc/3/json?tim=1640139073279&data=%7B%22id%22%3A312%2C%22ii%22%3A%22%2Finfo%2Fhelp%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A1640139073258%2C%22cv%22%3A%2220211213-1-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.luckland.com%2Finfo%2Fhelp%2F%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dscgoldmarketingservices-lucklandretargeting-sc%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpv%22%3Atrue%2C%22supv%22%3Atrue%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22tim%22%3A1640139073277%2C%22ref%22%3Anull%2C%22item-url%22%3A%22https%3A%2F%2Fwww.luckland.com%2Finfo%2Fhelp%2F%22%2C%22tos%22%3A9%2C%22ssd%22%3A1%2C%22scd%22%3A59%2C%22supv%22%3Atrue%7D%7D&pubit=i",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 1326,
+        "remoteIPAddress": "199.232.149.44",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "p3p": "policyref=\"http://trc.taboola.com/p3p.xml\", CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\""
+        },
+        "responseBodyHash": "d9b3b8f34847fda3aea53c949ff4050d1e0aee6218240dbac9ea0f6e3a35ac38",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://cdn.taboola.com/libtrc/unip/1338332/tfa.js"
+        ],
+        "time": 0.018478999991202727
+      },
+      {
+        "url": "https://crm-api.aspireglobal.com/webxp/projects/844ec1cc-0962-11eb-918c-46670b609988/bundle",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 10273,
+        "remoteIPAddress": "35.241.31.221",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, max-age=0",
+          "etag": "\"539df028781ff354ba7903bc68cca82d26548461a9a09ef2b2f9cf179736cf1a\""
+        },
+        "responseBodyHash": "539df028781ff354ba7903bc68cca82d26548461a9a09ef2b2f9cf179736cf1a",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://crm-api.aspireglobal.com/js/exponea.min.js"
+        ],
+        "time": 0.01313900001696311
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-spa-1212.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 17094,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"8bd93bf0ecb2f4e971a2055a41402bb6\""
+        },
+        "responseBodyHash": "ebfe453394ff1be6ef75d380ab7c5535aea0b51832d045f0d5d0ef7e6535969c",
+        "initiators": [
+          "https://www.luckland.com/info/help/"
+        ],
+        "time": 0.013951000000815839
+      },
+      {
+        "url": "https://bam.nr-data.net/1/4f0d48170f?a=1529922978&v=1212.e95d35c&to=NFMEMURQDRcCUUYPCg0ZMxdfHgoKB1dKSBULRg%3D%3D&rst=5710&ck=0&ref=https://www.luckland.com/info/help/&ap=2196&be=5048&fe=5675&dc=5447&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1640139067774,%22n%22:0,%22r%22:1,%22re%22:2704,%22f%22:2704,%22dn%22:2704,%22dne%22:2704,%22c%22:2704,%22ce%22:2704,%22rq%22:2706,%22rp%22:5004,%22rpe%22:5006,%22dl%22:5012,%22di%22:5230,%22ds%22:5447,%22de%22:5457,%22dc%22:5674,%22l%22:5675,%22le%22:5679%7D,%22navigation%22:%7B%22rc%22:2%7D%7D&fp=5186&fcp=5186&at=GBQHRwxKHhk%3D&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 190,
+        "remoteIPAddress": "162.247.242.18",
+        "responseHeaders": {},
+        "responseBodyHash": "5e864c2e3f674c60970513411eaeeeafd2d615d842e65ec01d09ccfcb4a7b38d",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js"
+        ],
+        "time": 0.3711780000012368
+      },
+      {
+        "url": "https://c.go-mpulse.net/api/config.json?key=GSM53-6YHXF-SE8EJ-RXEU2-55P9Q&d=www.luckland.com&t=5467130&v=1.632.0&if=&sl=0&si=kiy19qe4es-r4hvep&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,LOGN&acao=&ak.ai=574670",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 1077,
+        "remoteIPAddress": "104.85.4.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300, stale-while-revalidate=60, stale-if-error=120",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "090ac9bcc5e1bf017019b6508711461961a75d43f1e339a7d0b3de77fcb2acc1",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/GSM53-6YHXF-SE8EJ-RXEU2-55P9Q"
+        ],
+        "time": 0.03680500001064502
+      },
+      {
+        "url": "https://crm-api.aspireglobal.com/bulk",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 703,
+        "remoteIPAddress": "35.241.31.221",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com",
+          "set-cookie": "xnpe_844ec1cc-0962-11eb-918c-46670b609988=60098996-c3e8-423b-be9f-b499bbc88992; Max-Age=94607999; Secure; SameSite=None"
+        },
+        "responseBodyHash": "cd92e8deccc09511700c562ba415d0c6abacb321761774ea4460cf64e59b77d1",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://crm-api.aspireglobal.com/js/exponea.min.js"
+        ],
+        "time": 0.009390000021085143
+      },
+      {
+        "url": "https://crm-api.aspireglobal.com/managed-tags/show",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 130,
+        "remoteIPAddress": "35.241.31.221",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com"
+        },
+        "responseBodyHash": "9ecc155c1a20b00b0ed06cb25a949c26ede5f170e02ec814bc6d9b444cc65d2d",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://crm-api.aspireglobal.com/js/exponea.min.js"
+        ],
+        "time": 0.01918400000431575
+      },
+      {
+        "url": "https://crm-api.aspireglobal.com/campaigns/banners/show",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 100,
+        "remoteIPAddress": "35.241.31.221",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com"
+        },
+        "responseBodyHash": "9ecc155c1a20b00b0ed06cb25a949c26ede5f170e02ec814bc6d9b444cc65d2d",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://crm-api.aspireglobal.com/js/exponea.min.js"
+        ],
+        "time": 0.02653400000417605
+      },
+      {
+        "url": "https://bam.nr-data.net/events/1/4f0d48170f?a=1529922978&v=1212.e95d35c&to=NFMEMURQDRcCUUYPCg0ZMxdfHgoKB1dKSBULRg%3D%3D&rst=6103&ck=0&ref=https://www.luckland.com/info/help/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 183,
+        "remoteIPAddress": "162.247.242.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js",
+          "https://bam.nr-data.net/1/4f0d48170f?a=1529922978&v=1212.e95d35c&to=NFMEMURQDRcCUUYPCg0ZMxdfHgoKB1dKSBULRg%3D%3D&rst=5710&ck=0&ref=https://www.luckland.com/info/help/&ap=2196&be=5048&fe=5675&dc=5447&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1640139067774,%22n%22:0,%22r%22:1,%22re%22:2704,%22f%22:2704,%22dn%22:2704,%22dne%22:2704,%22c%22:2704,%22ce%22:2704,%22rq%22:2706,%22rp%22:5004,%22rpe%22:5006,%22dl%22:5012,%22di%22:5230,%22ds%22:5447,%22de%22:5457,%22dc%22:5674,%22l%22:5675,%22le%22:5679%7D,%22navigation%22:%7B%22rc%22:2%7D%7D&fp=5186&fcp=5186&at=GBQHRwxKHhk%3D&jsonp=NREUM.setToken"
+        ],
+        "time": 0.09498399999574758
+      },
+      {
+        "url": "https://684dd32b.akstat.io/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 204,
+        "size": 203,
+        "remoteIPAddress": "23.222.18.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 02:11:14 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://s.go-mpulse.net/boomerang/GSM53-6YHXF-SE8EJ-RXEU2-55P9Q"
+        ],
+        "time": 0.1248419999901671
+      },
+      {
+        "url": "https://trc-events.taboola.com/1338332/log/3/unip?en=pre_d_eng_tb&tos=1566&scd=59&ssd=1&est=1640139073266&ver=35&isls=true&src=i&invt=1500&rv=1&tim=1640139074835&vi=1640139073258&ri=38a552c3ed9b1d2fe30b9fa6f79a1490&ref=null&cv=20211213-1-RELEASE&item-url=https%3A%2F%2Fwww.luckland.com%2Finfo%2Fhelp%2F",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 204,
+        "size": 248,
+        "remoteIPAddress": "141.226.228.48",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com",
+          "cache-control": "no-cache",
+          "p3p": "policyref=\"http://trc.taboola.com/p3p.xml\", CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://cdn.taboola.com/libtrc/unip/1338332/tfa.js"
+        ],
+        "time": 0.011008000001311302
+      },
+      {
+        "url": "https://trc-events.taboola.com/1338332/log/3/unip?en=pre_d_eng_tb&tos=4569&scd=59&ssd=1&est=1640139073266&ver=35&isls=true&src=i&invt=3000&rv=1&tim=1640139077838&vi=1640139073258&ri=38a552c3ed9b1d2fe30b9fa6f79a1490&ref=null&cv=20211213-1-RELEASE&item-url=https%3A%2F%2Fwww.luckland.com%2Finfo%2Fhelp%2F",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 204,
+        "size": 247,
+        "remoteIPAddress": "141.226.228.48",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com",
+          "cache-control": "no-cache",
+          "p3p": "policyref=\"http://trc.taboola.com/p3p.xml\", CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://cdn.taboola.com/libtrc/unip/1338332/tfa.js"
+        ],
+        "time": 0.003603000019211322
+      },
+      {
+        "url": "https://bam.nr-data.net/events/1/4f0d48170f?a=1529922978&v=1212.e95d35c&to=NFMEMURQDRcCUUYPCg0ZMxdfHgoKB1dKSBULRg%3D%3D&rst=15709&ck=0&ref=https://www.luckland.com/info/help/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 200,
+        "size": 183,
+        "remoteIPAddress": "162.247.242.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js"
+        ],
+        "time": 0.09353600000031292
+      },
+      {
+        "url": "https://trc-events.taboola.com/1338332/log/3/unip?en=pre_d_eng_tb&tos=10573&scd=59&ssd=1&est=1640139073266&ver=35&isls=true&src=i&invt=6000&rv=1&tim=1640139083842&vi=1640139073258&ri=38a552c3ed9b1d2fe30b9fa6f79a1490&ref=null&cv=20211213-1-RELEASE&item-url=https%3A%2F%2Fwww.luckland.com%2Finfo%2Fhelp%2F",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.luckland.com/",
+        "status": 204,
+        "size": 247,
+        "remoteIPAddress": "141.226.228.48",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.luckland.com",
+          "cache-control": "no-cache",
+          "p3p": "policyref=\"http://trc.taboola.com/p3p.xml\", CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.luckland.com/info/help/",
+          "https://cdn.taboola.com/libtrc/unip/1338332/tfa.js"
+        ],
+        "time": 0.0037069999962113798
+      }
+    ]
+  }
+}

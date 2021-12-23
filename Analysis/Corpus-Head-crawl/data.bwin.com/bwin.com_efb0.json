@@ -1,0 +1,47 @@
+{
+  "initialUrl": "https://bwin.com/",
+  "finalUrl": "https://www.bwin.com/",
+  "timeout": false,
+  "testStarted": 1640014736249,
+  "testFinished": 1640014751053,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.bwin.com/links.bwin.com_efb0.json",
+    "requests": [
+      {
+        "url": "https://bwin.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "195.72.135.91",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "redirex-original=http://bwin.com:80/;Ip=157.245.65.174;Path=/;Domain=.bwin.com;Expires=Mon, 20-Dec-2021 15:43:56 GMT;secure;HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.bwin.com/",
+        "initiators": [],
+        "time": 0.12120999999751803
+      },
+      {
+        "url": "https://www.bwin.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 403,
+        "size": 39457,
+        "remoteIPAddress": "104.16.131.238",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "referrer-policy": "same-origin",
+          "set-cookie": "__cf_bm=LRqDZ.8NsWWv1nxaU_NTrU_CAvF4F1RqQTURrTvOpY0-1640014736-0-AbuWZE/0GsTEgP/zE7d/q05xcWsvDcsbrAkDcSulgObIcNJ4ZiTJVj82nQfsuDqTvDz2GBaNeom+xmGUL9fWMBjd2IEooDa6Ki0e7l3eyfhm; path=/; expires=Mon, 20-Dec-21 16:08:56 GMT; domain=.bwin.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "9de5e3fa4684e698c83fc7595ccca338369716c97f3302d694113888de9f1c07",
+        "redirectedFrom": "https://bwin.com/",
+        "initiators": [],
+        "time": 0.046616999999969266
+      }
+    ]
+  }
+}

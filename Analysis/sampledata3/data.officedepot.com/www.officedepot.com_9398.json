@@ -1,0 +1,51 @@
+{
+  "initialUrl": "https://www.officedepot.com/",
+  "finalUrl": "https://www.officedepot.com/",
+  "timeout": false,
+  "testStarted": 1639671045180,
+  "testFinished": 1639671061323,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.officedepot.com\\links.www.officedepot.com_9398.json",
+    "requests": [
+      {
+        "url": "https://www.officedepot.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 902,
+        "remoteIPAddress": "23.2.175.7",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache",
+          "etag": "\"a3b6a165da7966446af6ad803ca8daa1:1592418221.902223\"",
+          "expires": "Thu, 16 Dec 2021 16:10:46 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7838256ef2e0f980343bbb5b06682c84a31a9ae79334b12f0a477b42b78caaad",
+        "initiators": [],
+        "time": 0.9137270000064746
+      },
+      {
+        "url": "https://media.officedepot.com/image/upload/w_130,h_63,c_fill/assets/OfficeDepot_OfficeMax.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.officedepot.com/",
+        "status": 200,
+        "size": 2827,
+        "remoteIPAddress": "151.101.38.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, no-transform, immutable, max-age=31557600",
+          "etag": "\"7fb7eb07ca223b54e70b7467506c090f\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "df82ce4092a381949cc4609ca85cbf650b1d26de7d46cd8075ffa6661509fa01",
+        "initiators": [
+          "https://www.officedepot.com/"
+        ],
+        "time": 0.09443200007081032
+      }
+    ]
+  }
+}

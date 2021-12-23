@@ -1,0 +1,67 @@
+{
+  "initialUrl": "https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&region=GBR&brand=betfair&entrydomain=betfair.com",
+  "finalUrl": "https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&region=GBR&brand=betfair&entrydomain=betfair.com",
+  "timeout": false,
+  "testStarted": 1640140445672,
+  "testFinished": 1640140460428,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.betfair.com/links.content.betfair.com_468c.json",
+    "requests": [
+      {
+        "url": "https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&region=GBR&brand=betfair&entrydomain=betfair.com",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 403,
+        "size": 1827,
+        "remoteIPAddress": "104.16.118.30",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "60ff13a32d3e56b26f2a32362698b20162d18665e7bc6f4b2e6e68fc51d25c09",
+        "initiators": [],
+        "time": 0.08067599998321384
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 5434,
+        "remoteIPAddress": "104.16.95.65",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/2021.12.0"
+        },
+        "responseBodyHash": "fd0a1ac929c11b08e819fe4b0a18c5574012c44f09de8987c6be99a0f055a505",
+        "initiators": [
+          "https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&region=GBR&brand=betfair&entrydomain=betfair.com"
+        ],
+        "time": 0.07496500000706874
+      },
+      {
+        "url": "https://content.betfair.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&region=GBR&brand=betfair&entrydomain=betfair.com",
+        "status": 200,
+        "size": 225,
+        "remoteIPAddress": "104.16.118.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://content.betfair.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        ],
+        "time": 0.009396999987075105
+      }
+    ]
+  }
+}

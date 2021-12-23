@@ -1,0 +1,571 @@
+{
+  "initialUrl": "https://sports.everygame.eu/en/Account/RedirectUser?url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+  "finalUrl": "https://liveweb.everygame.eu/en/live/overview",
+  "timeout": false,
+  "testStarted": 1640136781391,
+  "testFinished": 1640136800936,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.intertops.eu/links.sports.everygame.eu_25b8.json",
+    "requests": [
+      {
+        "url": "https://sports.everygame.eu/en/Account/RedirectUser?url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": ".ASPXANONYMOUS=bvK7IjioEhMmZORE_Suxao5zG0Gq1A-FFZPQoh2kgCNZODssH7un6RPMQy-g8TLG-NE9HphFppdq_HHs050QzCvP2jAgrNCUaT9uSkY2AOKDYfP6aWp9Wzd0RGYkW8iu7K7iWw2; expires=Tue, 01-Mar-2022 12:13:01 GMT; path=/; secure; HttpOnly; SameSite=None\nlan=en; path=/; secure; HttpOnly; SameSite=None\nASP.NET_SessionId=z4lproqpnckqqi1zmqb001az; path=/; secure; HttpOnly; SameSite=None\nitcktrk=4549775815446; domain=.everygame.eu; expires=Sun, 09-Jun-2024 01:33:01 GMT; path=/; secure; HttpOnly; SameSite=None\nsessionCookiesAllowed=1; path=/; secure; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://liveweb.everygame.eu/en",
+        "initiators": [],
+        "time": 0.2280449999962002
+      },
+      {
+        "url": "https://liveweb.everygame.eu/en",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 122616,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "0fbc2b29c86910fee3c20333d9e4e8115a3fb6776c96db112ee709ea35c1603c",
+        "redirectedFrom": "https://sports.everygame.eu/en/Account/RedirectUser?url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+        "initiators": [],
+        "time": 1.0980409999901894
+      },
+      {
+        "url": "https://liveweb.everygame.eu/en/styles.6df0392c2f97df861153.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 69328,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"26ef66ebc7e6d71:0\"",
+          "expires": "Wed, 22 Dec 2021 02:03:02 GMT"
+        },
+        "responseBodyHash": "aa60aad78b45fd47e369a92fb0ba52ed9528cc2c4773896a52b68bdca8ea5edc",
+        "initiators": [
+          "https://liveweb.everygame.eu/en"
+        ],
+        "time": 0.014235999988159165
+      },
+      {
+        "url": "https://track.everygame.eu/js/container_YHpDxTu6.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 57535,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"30587-5d2006464e481-gzip\"",
+          "expires": "Wed, 22 Dec 2021 02:03:02 GMT"
+        },
+        "responseBodyHash": "fb72d383126148dee40c34174798a683e59104afb0be5b6f59f635b0143767ed",
+        "initiators": [
+          "https://liveweb.everygame.eu/en"
+        ],
+        "time": 0.01978400000371039
+      },
+      {
+        "url": "https://track.intertops.eu/piwik.php?action_name=Live%20Sports%20Betting&idsite=44&rec=1&r=841257&h=1&m=33&s=2&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen&_id=03e27690e70c7c06&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=rrWaZB&pf_net=0&pf_srv=631",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 302,
+        "remoteIPAddress": "104.20.72.182",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://track.everygame.eu/piwik.php?action_name=Live%20Sports%20Betting&idsite=44&rec=1&r=841257&h=1&m=33&s=2&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen&_id=03e27690e70c7c06&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=rrWaZB&pf_net=0&pf_srv=631",
+        "initiators": [
+          "https://track.everygame.eu/js/container_YHpDxTu6.js"
+        ],
+        "time": 0.048455000011017546
+      },
+      {
+        "url": "https://track.intertops.eu/plugins/HeatmapSessionRecording/configs.php?idsite=44&trackerid=H9Tejt&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 302,
+        "remoteIPAddress": "104.20.72.182",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Thu, 01 Jan 1970 00:00:01 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://track.everygame.eu/plugins/HeatmapSessionRecording/configs.php?idsite=44&trackerid=H9Tejt&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+        "initiators": [
+          "https://track.everygame.eu/js/container_YHpDxTu6.js"
+        ],
+        "time": 0.033334000007016584
+      },
+      {
+        "url": "https://track.everygame.eu/piwik.php?action_name=Live%20Sports%20Betting&idsite=44&rec=1&r=841257&h=1&m=33&s=2&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen&_id=03e27690e70c7c06&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=rrWaZB&pf_net=0&pf_srv=631",
+        "method": "GET",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 204,
+        "size": 62,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://track.intertops.eu/piwik.php?action_name=Live%20Sports%20Betting&idsite=44&rec=1&r=841257&h=1&m=33&s=2&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen&_id=03e27690e70c7c06&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=rrWaZB&pf_net=0&pf_srv=631",
+        "initiators": [
+          "https://track.everygame.eu/js/container_YHpDxTu6.js"
+        ],
+        "time": 0.5258439999888651
+      },
+      {
+        "url": "https://track.everygame.eu/plugins/HeatmapSessionRecording/configs.php?idsite=44&trackerid=H9Tejt&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 221,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "7630bca7e2a58a1b81e2bea9b29ca27ad9bd24c59e67599d8ed9542f0915f8fd",
+        "redirectedFrom": "https://track.intertops.eu/plugins/HeatmapSessionRecording/configs.php?idsite=44&trackerid=H9Tejt&url=https%3A%2F%2Fliveweb.everygame.eu%2Fen",
+        "initiators": [
+          "https://track.everygame.eu/js/container_YHpDxTu6.js"
+        ],
+        "time": 0.36441099998774007
+      },
+      {
+        "url": "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 1523,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"e1d24eebc7e6d71:0\"",
+          "expires": "Wed, 22 Dec 2021 02:03:02 GMT"
+        },
+        "responseBodyHash": "cd33449421e8bc4f371178a782170f6f9834c354f548e7bf0ce12e4acc263490",
+        "initiators": [
+          "https://liveweb.everygame.eu/en"
+        ],
+        "time": 0.031361999979708344
+      },
+      {
+        "url": "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 23950,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"f1c33ebc7e6d71:0\"",
+          "expires": "Wed, 22 Dec 2021 02:03:02 GMT"
+        },
+        "responseBodyHash": "bcd68fd145587db7e766fec07f0b5c1fa7c9244c39f8249cc2c59665a9965bc2",
+        "initiators": [
+          "https://liveweb.everygame.eu/en"
+        ],
+        "time": 0.028107000020099804
+      },
+      {
+        "url": "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 350733,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"f89520ebc7e6d71:0\"",
+          "expires": "Wed, 22 Dec 2021 02:03:02 GMT"
+        },
+        "responseBodyHash": "7c9146ee4b89e0ad3d4d3de4d3d346d3afdf49b7a18b701e65f20b5ddd5626a0",
+        "initiators": [
+          "https://liveweb.everygame.eu/en"
+        ],
+        "time": 0.039757999998982996
+      },
+      {
+        "url": "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 75353,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"1cfbeac7e6d71:0\"",
+          "expires": "Wed, 22 Dec 2021 02:03:03 GMT"
+        },
+        "responseBodyHash": "10aea0396d85bc1490eb0035f88be7236933814c0f1e860a81a2a187828a4b86",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js"
+        ],
+        "time": 0.01697900000726804
+      },
+      {
+        "url": "https://everygame.eu/Content/Images/logo_main.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 2518,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "\"021c1ff8fdcd71:0\"",
+          "expires": "Wed, 22 Dec 2021 02:03:03 GMT"
+        },
+        "responseBodyHash": "52ee1d932f4dfd524e266f1fa8362c555f8fc1db40639553cb682ece1be84a10",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/styles.6df0392c2f97df861153.css"
+        ],
+        "time": 0.019421999983023852
+      },
+      {
+        "url": "https://account.everygame.eu/SportsBetting/Api/Account/TryGetBalance",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 545,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://liveweb.everygame.eu",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js"
+        ],
+        "time": 1.3452220000035595
+      },
+      {
+        "url": "https://account.everygame.eu/SportsBetting/Api/Account/TryGetBalance",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.13.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://liveweb.everygame.eu",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://account.everygame.eu/SportsBetting/Api/Account/TryGetBalance"
+        ],
+        "time": 0.6735409999964759
+      },
+      {
+        "url": "https://liveweb.everygame.eu/feed/bettingHub/negotiate?negotiateVersion=1",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 385,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "7f1691064c81ed89f512a8918df698c9fa7f900828514d649fa0847887339436",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ],
+        "time": 0.17034000001149252
+      },
+      {
+        "url": "https://liveweb.everygame.eu/oddsapi/api/betstops",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en",
+        "status": 200,
+        "size": 311,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "855f281c4ecda2ad28c31eba6a4bab6ffe553ac54b496a7c9db0c255e9e8c762",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ],
+        "time": 0.16870599999674596
+      },
+      {
+        "url": "https://liveweb.everygame.eu/oddsapi/api/betevents/liveoverview?culture=en",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en/live/overview",
+        "status": 200,
+        "size": 6554,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "297a48b5bfad0ee5e9430822ab33c5802b4f3e9259b0ca2df3683f06272a43d5",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js"
+        ],
+        "time": 0.19373900000937283
+      },
+      {
+        "url": "wss://liveweb.everygame.eu/feed/bettingHub?id=pZqisNAtxHk-oPtKgKljpA",
+        "type": "WebSocket",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ]
+      },
+      {
+        "url": "https://sbcms.intertops.eu/en/list/sidebar?category=-1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 1371,
+        "remoteIPAddress": "104.20.73.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "20c27796adf309e72b6901a2c206b922=mf4mknujhi1utb3230476dad0a; path=/; HttpOnly"
+        },
+        "responseBodyHash": "169b332d81898f19a35ebc70e264533ed45118453e14f8d6640a7130603c5a5d",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js"
+        ],
+        "time": 0.7920080000185408
+      },
+      {
+        "url": "https://sbcms.intertops.eu/en/list/hero?category=-1&top=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 599,
+        "remoteIPAddress": "104.20.73.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "20c27796adf309e72b6901a2c206b922=hgiua4jng4368t1ji1raheh5cd; path=/; HttpOnly"
+        },
+        "responseBodyHash": "67a06fe616ddac2264f6aeaa119af9b954a802e5631dba22f845555d092cd2c5",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js"
+        ],
+        "time": 0.8990850000118371
+      },
+      {
+        "url": "https://sbcms.intertops.eu/images/promotions/800x325-Basketball.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 46961,
+        "remoteIPAddress": "104.20.72.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"4cce18aabd6fd61:0\""
+        },
+        "responseBodyHash": "e1edfd206e6ce2a071f55d3261dba232b0163745efa910b94c7d28fa5be7d62d",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js",
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js"
+        ],
+        "time": 0.8356069999863394
+      },
+      {
+        "url": "https://sbcms.intertops.eu/images/promotions/800x325-Soccer.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 48746,
+        "remoteIPAddress": "104.20.72.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"887729aabd6fd61:0\""
+        },
+        "responseBodyHash": "d8cd7260193d2c3424732f885912399ba8ea9d5e3e1aa83041c2da13dcce2865",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js",
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js"
+        ],
+        "time": 0.8431470000068657
+      },
+      {
+        "url": "https://sbcms.intertops.eu/images/promotions/800x325-Tennis.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 56841,
+        "remoteIPAddress": "104.20.72.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"fe9b30aabd6fd61:0\""
+        },
+        "responseBodyHash": "ac712be634395214619924099f80dfad9cc8b3a80aab681e4a08d8c5c3d84d0b",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js",
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js"
+        ],
+        "time": 0.842493000003742
+      },
+      {
+        "url": "https://sbcms.intertops.eu/images/live-hero-sport-1920x791.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/",
+        "status": 200,
+        "size": 116738,
+        "remoteIPAddress": "104.20.72.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"6983978818ad61:0\""
+        },
+        "responseBodyHash": "5c37359566f96163d8fd06cbefa61a0ba8c63d9ee08f16f207700c67c935811f",
+        "initiators": [],
+        "time": 1.0218189999868628
+      },
+      {
+        "url": "https://liveweb.everygame.eu/oddsapi/api/markets?culture=en",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en/live/overview",
+        "status": 200,
+        "size": 684,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "be8f1c9350cbc9ff68d8ed79cbf1b57a93ef10ff49a523c0bc643244aa82a1f8",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ],
+        "time": 0.17526699998416007
+      },
+      {
+        "url": "https://liveweb.everygame.eu/oddsapi/api/markets?culture=en",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en/live/overview",
+        "status": 200,
+        "size": 611,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "1e47d0f0fb57d25f8941b28f24e85b887ef9b7bfcb53c1a1442487e64c7ef912",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ],
+        "time": 0.1804520000005141
+      },
+      {
+        "url": "https://liveweb.everygame.eu/oddsapi/api/markets?culture=en",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en/live/overview",
+        "status": 200,
+        "size": 767,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "298cb60f84553eba899d48d53895fa6911ba3c68acbde82742949091fb5469dc",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ],
+        "time": 0.7150360000086948
+      },
+      {
+        "url": "https://liveweb.everygame.eu/oddsapi/api/markets?culture=en",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://liveweb.everygame.eu/en/live/overview",
+        "status": 200,
+        "size": 601,
+        "remoteIPAddress": "104.18.12.25",
+        "responseHeaders": {},
+        "responseBodyHash": "c3cdeba8c7ab9f665870e62684cd7ab6c8c164b260167f11cd48f69a8c705148",
+        "initiators": [
+          "https://liveweb.everygame.eu/en/polyfills-es2015.ae100e8febf1d4b8b691.js",
+          "https://liveweb.everygame.eu/en/main-es2015.d80aed0de771df8bfa37.js",
+          "https://liveweb.everygame.eu/en/runtime-es2015.b340f3897a1e2fab2f53.js",
+          "https://liveweb.everygame.eu/en/5-es2015.209cc9bd52800fabfa0d.js"
+        ],
+        "time": 0.6864570000034291
+      }
+    ]
+  }
+}

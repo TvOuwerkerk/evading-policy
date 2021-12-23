@@ -1,0 +1,46 @@
+{
+  "initialUrl": "https://www.idealo.co.uk/cat/3687/cordless-screwdrivers.html",
+  "finalUrl": "https://www.idealo.co.uk/cat/3687/cordless-screwdrivers.html",
+  "timeout": false,
+  "testStarted": 1640145487672,
+  "testFinished": 1640145502402,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.idealo.co.uk/links.www.idealo.co.uk_e194.json",
+    "requests": [
+      {
+        "url": "https://www.idealo.co.uk/cat/3687/cordless-screwdrivers.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 429,
+        "size": 5741,
+        "remoteIPAddress": "104.110.240.16",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:58:07 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "SSLB=1; path=/; domain=.idealo.co.uk\nipcuid=01niukyb00kxh09xvw; Domain=.idealo.co.uk; Expires=Tue, 22-Mar-2022 03:58:07 GMT; Path=/\nJSESSIONID=8B82AFF31510B3C966327F9C4A8AD35F; Path=/; HttpOnly\nsessionid=6f5b8eb6-6b99-61de-3e48-8903969597c2; expires=Wed, 22-Dec-2021 05:33:07 GMT; path=/; domain=.idealo.co.uk"
+        },
+        "responseBodyHash": "9b33e0d7f800f6946485594da6d7816d5009eb51b33c89beac1abe3957a606e4",
+        "initiators": [],
+        "time": 0.07730000000447035
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PDXTT2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.idealo.co.uk/",
+        "status": 404,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.idealo.co.uk/cat/3687/cordless-screwdrivers.html"
+        ],
+        "time": 0.02322399997501634
+      }
+    ]
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "initialUrl": "https://www.peachpit.com/buy.aspx?isbn=013756533X",
+  "finalUrl": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+  "timeout": false,
+  "testStarted": 1640155807886,
+  "testFinished": 1640155825402,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.peachpit.com/links.www.peachpit.com_218d.json",
+    "requests": [
+      {
+        "url": "https://www.peachpit.com/buy.aspx?isbn=013756533X",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "168.146.67.226",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "session=id=9901b243-a12d-44bb-ae5a-fc920f827614&db=0; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "initiators": [],
+        "time": 0.4406569999991916
+      },
+      {
+        "url": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 12907,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "partner=52; path=/; secure; HttpOnly\nsession=id=4d475de6-11c9-4f7d-bb2c-91db70ad8377&db=1; path=/; secure; HttpOnly\ncart0c42557a-6d9e-486a-84a5-6e48b7a0a318=id=35e99e0b-a85b-4aaa-b03d-0ca95d538d88; expires=Thu, 23-Dec-2021 06:50:08 GMT; path=/; secure; HttpOnly\nautoreg=true; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "a87a1640359a335d577f6fae2732231ff5ef642d1127520555744f6c4c4a487c",
+        "redirectedFrom": "https://www.peachpit.com/buy.aspx?isbn=013756533X",
+        "initiators": [],
+        "time": 1.321661000023596
+      },
+      {
+        "url": "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 81177,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"a0d2458165ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "c2a2d7c9709f980c4d3cf681eb0dc71a3e42d18af94420f9662e32877dac7650",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.278496000013547
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,600",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 1168,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 22 Dec 2021 06:50:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "752a73d4be55c93d9767ae1bd6b9782a62fbe859d01233fb9f8c49733a1af56f",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.021227999997790903
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer",
+        "referer": "",
+        "status": 200,
+        "size": 6332,
+        "remoteIPAddress": "104.16.19.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30672000",
+          "etag": "\"5eb03f26-3c36\"",
+          "expires": "Mon, 12 Dec 2022 06:50:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cf25ec18f223f4c51ce1128a42e644cdc2244d88f89d1a51440d9dbe51f4efe8",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.026966999983415008
+      },
+      {
+        "url": "https://code.jquery.com/jquery-1.12.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 34074,
+        "remoteIPAddress": "69.16.175.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000\npublic",
+          "etag": "W/\"569014b6-17c52\""
+        },
+        "responseBodyHash": "5f1ab65fe2ad6b381a1ae036716475bf78c9b2e309528cf22170c1ddeefddcbf",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.0762080000131391
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/javascript/member.js?v=20211112",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 2288,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"b01e9c8365ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0c937d78565c7860be1fb0f693cb1d2887ec98e26781877c7bf44f2e89203aaa",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.38168200000654906
+      },
+      {
+        "url": "https://code.jquery.com/ui/1.12.0/jquery-ui.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 67870,
+        "remoteIPAddress": "69.16.175.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000\npublic",
+          "etag": "W/\"577fdf87-3ddc9\""
+        },
+        "responseBodyHash": "78613a6e5bab939b078feae691fb0661e2b2671dcce1b1be66517203b2a7b3b1",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.08642899998812936
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/javascript/e-commerce-data-layer.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 8629,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"805d7e8365ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5cc02c1f9e996f40d4c0b8bf5924fa503ccf87c440cccd887ca45339c23cec32",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.38550999999279156
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/javascript/scart.js?v=1.0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 1206,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"a0bba58365ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "357421950ee51d340167f21a67f1e5dc261e3602a77379368fa0ff8ac6b1fa45",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.3843899999919813
+      },
+      {
+        "url": "https://memberservices.informit.com/ShowCover.aspx?isbn=013756533X&type=e&pid=52",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 2850,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "expires": "Tue, 22 Mar 2022 05:50:10 GMT,0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9e345558912d4e7f1edf1db6f23b41054304077bcf270e5a18fb0eb3399583ab",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.5482590000028722
+      },
+      {
+        "url": "https://memberservices.informit.com/ShowCover.asp?isbn=0137565224&type=e",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 301,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://memberservices.informit.com/ShowCover.aspx?isbn=0137565224&type=e",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.5813919999927748
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/javascript/global.js?v=20211112",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 9446,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"a0ab7e8365ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "4e08ce68765b8793a2df7249d8d4bac176465e954b8daea1587dff845acc4d82",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.5363840000063647
+      },
+      {
+        "url": "https://mpsnare.iesnare.com/snare.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 13647,
+        "remoteIPAddress": "54.216.48.107",
+        "responseHeaders": {
+          "cache-control": "no-cache, private",
+          "expires": "0",
+          "p3p": "CP=\"NON DSP COR CURa\"",
+          "pragma": "no-cache",
+          "set-cookie": "io_token_7c6a6574-f011-4c9a-abdd-9894a102ccef=1oiS4GepTRsi+qFMEZA1NgAUI9S0U93d6oWqix3rM4Q=;Path=/;Expires=Thu, 22-Dec-2022 06:50:10 GMT;Max-Age=31536000;Secure;HttpOnly;SameSite=None"
+        },
+        "responseBodyHash": "66e72c7c964b5fde645f20418f73e98cd4946639eb50c64dd6e140c6ea94621f",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.5471030000189785
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/css/print.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 1506,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"d094c58265ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b0cb40f103ac0cf3905ff40176906977a7e78fa5cbdb07b9b4e15455c2289a1b",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.5323560000106227
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 964,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 22 Dec 2021 06:50:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d6be96b111b2ea1f79abb7dd6718739a0dd6762e77dc014ff2fe333b4de742d9",
+        "initiators": [
+          "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112"
+        ],
+        "time": 0.009323000005679205
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 54011,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 06:50:10 GMT"
+        },
+        "responseBodyHash": "d6b10c4f7733af03b23c84cf43e3891dcc85c065b6802dc331f6274d498aef07",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.033300000010058284
+      },
+      {
+        "url": "https://memberservices.informit.com/display/PeachpitPress/images/header/background.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112",
+        "status": 200,
+        "size": 561,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"9033598165ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "bc5054ce6a27faa1f55544e853f6608ac64fe658114cba6a644e5353ba18a32b",
+        "initiators": [
+          "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112"
+        ],
+        "time": 0.30262100000982173
+      },
+      {
+        "url": "https://memberservices.informit.com/display/PeachpitPress/images/header/peachpit.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112",
+        "status": 200,
+        "size": 4573,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"c0a8598165ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9251080b69e5087604cba552d61f01982827325d3f11c01c0a20685a37d10a3e",
+        "initiators": [
+          "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112"
+        ],
+        "time": 0.3850969999912195
+      },
+      {
+        "url": "https://memberservices.informit.com/display/PeachpitPress/images/header/arrow.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112",
+        "status": 200,
+        "size": 552,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"70e5588165ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7118866db5436a75b4041fe1780d4a8e3025d5b66f588b72554b6987823e896d",
+        "initiators": [
+          "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112"
+        ],
+        "time": 0.2560430000012275
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 40208,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 00:12:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ca24f09b21595b31c499523d7ee078eedf51d34e94ba7de325f469c8e21f6b0a",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+        ],
+        "time": 0.09674800001084805
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/fonts/symbolset/ss-standard.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112",
+        "status": 200,
+        "size": 25471,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"8024cc8265ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "caf3c8eb3107aba779a3dac078dda9eed3c193bd14ab14ce5cfadfebdbab5765",
+        "initiators": [
+          "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112"
+        ],
+        "time": 0.24209200000041164
+      },
+      {
+        "url": "https://memberservices.informit.com/display/common/fonts/playfairdisplay/PlayfairDisplay-Regular.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112",
+        "status": 200,
+        "size": 83023,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "etag": "\"80b3c98265ebd71:0\"",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "8dadb2d70e2d66f9f6542051e19069656a729c457a0cee653c985626c3955dfb",
+        "initiators": [
+          "https://memberservices.informit.com/display/PeachpitPress/css/style.css?v=20211112"
+        ],
+        "time": 0.2512939999869559
+      },
+      {
+        "url": "https://memberservices.informit.com/ShowCover.aspx?isbn=0137565224&type=e",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add",
+        "status": 200,
+        "size": 2850,
+        "remoteIPAddress": "168.146.67.232",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "expires": "Tue, 22 Mar 2022 05:50:10 GMT,0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "9e345558912d4e7f1edf1db6f23b41054304077bcf270e5a18fb0eb3399583ab",
+        "redirectedFrom": "https://memberservices.informit.com/ShowCover.asp?isbn=0137565224&type=e",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.20313100001658313
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 22 Dec 2021 06:50:10 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.027805000019725412
+      },
+      {
+        "url": "https://mpsnare.iesnare.com/script/logo.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 610,
+        "remoteIPAddress": "54.216.48.107",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Thu, 22 Dec 2022 06:50:10 GMT",
+          "p3p": "CP=\"NON DSP COR CURa\""
+        },
+        "responseBodyHash": "eacf1cd219d65bba5e5c18f1a50577073d78c386afb2e760108f3fa47a5d3ab8",
+        "initiators": [
+          "https://mpsnare.iesnare.com/snare.js"
+        ],
+        "time": 0.036921999999322
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 22 Dec 2021 07:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.024525999993784353
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1061293489/?random=1640155810562&cv=9&fst=1640155810562&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=google_business_vertical%3Dretail%3Bid%3DThe%20Adobe%20Photoshop%20Lightroom%20Classic%20Book%3Bitem_title%3DShopping%20Cart&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 1298,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 22-Dec-2021 07:05:10 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "54301e2f6398fc077326016f1cf53c915157cdb69bdaad6f429e26ab53ce8618",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.040880999993532896
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1061293489/?random=1640155810568&cv=9&fst=1640155810568&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 1689,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 22-Dec-2021 07:05:10 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "056166e06dea9faa424e5fd5c69265957823d8a550524c0e947d913cadc35211",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.034936999989440665
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=2042838749&t=pageview&_s=1&dl=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&dr=&ul=en-us&de=UTF-8&dt=Peachpit%3A%20Shopping%20Cart&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAEABAAAAAC~&jid=1302934116&gjid=486089297&cid=313174344.1640155811&tid=UA-433761-5&_gid=74804547.1640155811&_r=1&gtm=2wgc10M3NFLWN&z=23377834",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 21,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://memberservices.informit.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.024880999990273267
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1061293489/?random=1640155810562&cv=9&fst=1640152800000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=google_business_vertical%3Dretail%3Bid%3DThe%20Adobe%20Photoshop%20Lightroom%20Classic%20Book%3Bitem_title%3DShopping%20Cart&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&async=1&fmt=3&is_vtc=1&random=320779932&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1061293489/?random=1640155810562&cv=9&fst=1640155810562&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=google_business_vertical%3Dretail%3Bid%3DThe%20Adobe%20Photoshop%20Lightroom%20Classic%20Book%3Bitem_title%3DShopping%20Cart&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.032115999987581745
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1061293489/?random=1640155810562&cv=9&fst=1640152800000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=google_business_vertical%3Dretail%3Bid%3DThe%20Adobe%20Photoshop%20Lightroom%20Classic%20Book%3Bitem_title%3DShopping%20Cart&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&async=1&fmt=3&is_vtc=1&random=320779932&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1061293489/?random=1640155810562&cv=9&fst=1640155810562&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=google_business_vertical%3Dretail%3Bid%3DThe%20Adobe%20Photoshop%20Lightroom%20Classic%20Book%3Bitem_title%3DShopping%20Cart&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03343099998892285
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1061293489/?random=1640155810568&cv=9&fst=1640152800000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&async=1&fmt=3&is_vtc=1&random=3544776852&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1061293489/?random=1640155810568&cv=9&fst=1640155810568&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03252700000302866
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1061293489/?random=1640155810568&cv=9&fst=1640152800000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&async=1&fmt=3&is_vtc=1&random=3544776852&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1061293489/?random=1640155810568&cv=9&fst=1640155810568&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&tiba=Peachpit%3A%20Shopping%20Cart&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03305200001341291
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-1212.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 13277,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"9dfe540eb31e6fc0e0dddd91e3511f68\""
+        },
+        "responseBodyHash": "e8fd6832e13fca9622a46af5fddb394c358ef083d84002896aca34613d77780e",
+        "initiators": [
+          "https://memberservices.informit.com/cart/buy.aspx?isbn=013756533X&partner=52&cmd=add"
+        ],
+        "time": 0.009855000011157244
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=2042838749&t=event&ni=0&_s=1&dl=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&dr=&ul=en-us&de=UTF-8&dt=Peachpit%3A%20Shopping%20Cart&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Scroll%20Depth&ea=25&el=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=313174344.1640155811&tid=UA-433761-5&_gid=74804547.1640155811&gtm=2wgc10M3NFLWN&cd1=GA1.2.313174344.1640155811&z=2057579329",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.005997000000206754
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=2042838749&t=event&ni=0&_s=1&dl=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&dr=&ul=en-us&de=UTF-8&dt=Peachpit%3A%20Shopping%20Cart&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Scroll%20Depth&ea=50&el=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=313174344.1640155811&tid=UA-433761-5&_gid=74804547.1640155811&gtm=2wgc10M3NFLWN&cd1=GA1.2.313174344.1640155811&z=2093071583",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.005323999997926876
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=2042838749&t=event&ni=0&_s=1&dl=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&dr=&ul=en-us&de=UTF-8&dt=Peachpit%3A%20Shopping%20Cart&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Scroll%20Depth&ea=75&el=https%3A%2F%2Fmemberservices.informit.com%2Fcart%2Fbuy.aspx%3Fisbn%3D013756533X%26partner%3D52%26cmd%3Dadd&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=313174344.1640155811&tid=UA-433761-5&_gid=74804547.1640155811&gtm=2wgc10M3NFLWN&cd1=GA1.2.313174344.1640155811&z=1056275130",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M3NFLWN"
+        ],
+        "time": 0.004763999982969835
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/1/d527718953?a=90967274&v=1212.e95d35c&to=bwBbMhBWVkYFV0RbClZKeDUyGFtUFkAfUBBBS1gVEk8%3D&rst=2750&ck=1&ref=https://memberservices.informit.com/cart/buy.aspx&ap=927&be=1823&fe=2652&dc=2484&perf=%7B%22timing%22:%7B%22of%22:1640155808014,%22n%22:0,%22f%22:441,%22dn%22:442,%22dne%22:457,%22c%22:457,%22s%22:578,%22ce%22:706,%22rq%22:706,%22rp%22:1760,%22rpe%22:1763,%22dl%22:1768,%22di%22:2483,%22ds%22:2483,%22de%22:2509,%22dc%22:2651,%22l%22:2651,%22le%22:2653%7D,%22navigation%22:%7B%7D%7D&fp=2330&fcp=2330&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "JSESSIONID=c6cb32783ad6175b; Path=/; Domain=.nr-data.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "dac715f087720dd7ff7067f5d2ec1988851fa93140ae8a9cbfaa15659dd7fd82",
+        "initiators": [
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.13863500001025386
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/d527718953?a=90967274&v=1212.e95d35c&to=bwBbMhBWVkYFV0RbClZKeDUyGFtUFkAfUBBBS1gVEk8%3D&rst=12749&ck=1&ref=https://memberservices.informit.com/cart/buy.aspx",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://memberservices.informit.com/",
+        "status": 200,
+        "size": 515,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://memberservices.informit.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.12844000000040978
+      }
+    ]
+  }
+}

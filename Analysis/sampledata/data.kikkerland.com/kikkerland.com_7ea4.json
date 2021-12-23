@@ -1,0 +1,2198 @@
+{
+  "initialUrl": "https://kikkerland.com/",
+  "finalUrl": "https://kikkerland.com/",
+  "timeout": false,
+  "testStarted": 1639584508070,
+  "testFinished": 1639584527402,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://kikkerland.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 30384,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:08:28 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Wed, 29 Dec 2021 16:08:28 GMT\n_shopify_country=Netherlands; path=/; expires=Wed, 15 Dec 2021 16:38:28 GMT\ncart_currency=USD; path=/; expires=Wed, 29 Dec 2021 16:08:28 GMT\n_orig_referrer=; Expires=Wed, 29-Dec-21 16:08:28 GMT; Domain=kikkerland.com; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Wed, 29-Dec-21 16:08:28 GMT; Domain=kikkerland.com; Path=/; HttpOnly; SameSite=Lax\n_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:28 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:28 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:28 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:28 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "220096db177ef8c753ee153e9362f098c1e341edab856e6454a7c7c572d84671",
+        "initiators": [],
+        "time": 0.6657199999899603
+      },
+      {
+        "url": "https://js.gleam.io/oi-t104phf6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28971,
+        "remoteIPAddress": "94.31.29.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=120, public, s-maxage=3600",
+          "etag": "W/\"1bb7ff18ee41dd7e5b417042f5914696\""
+        },
+        "responseBodyHash": "1bb7ff18ee41dd7e5b417042f591469614bf90838fef5f46563ff2b5614d61f1",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.07203499996103346
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3512,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.04046300001209602
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17653,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.2546800000127405
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12553,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.258622000052128
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/theme.scss.css?v=5979613889879393488",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 35548,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 04:43:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a3c81dff8a39271137632a81e629cbd626eb962e4186c45fede38230a1b9912e",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.04298599995672703
+      },
+      {
+        "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30543,
+        "remoteIPAddress": "69.16.175.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000\npublic",
+          "etag": "W/\"5a637bd4-1538f\""
+        },
+        "responseBodyHash": "160a426ff2894252cd7cebbdd6d6b7da8fcd319c65b70468f10b6690c45d02ef",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.20018799998797476
+      },
+      {
+        "url": "https://www.kikkdata.com/b2b/dependencies/bootstrap/css/bootstrap.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 25836,
+        "remoteIPAddress": "148.72.76.39",
+        "responseHeaders": {
+          "etag": "\"261044-2efbf-59c09aad76636-gzip\""
+        },
+        "responseBodyHash": "52335efd71fbc45078222ce121ae02894f2d7c33c94d21bc82f033c6eb8e10e6",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.5584360000211746
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/css/december.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 670,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"03180ff8105f2ecf3f9c457bfeb8f151\""
+        },
+        "responseBodyHash": "56312cfaf65bafad975f88e42f9e1482214df45e9fc733d22f1b62c408490a99",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.44550500001059845
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1140/3964/files/KIK-logo-2018_Horizontal-cropped_903x189.png?v=1552570693",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9865,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 10:00:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "27960b1d9364648e88abc5a172db4d00b65635631bde6e2b6b71fe7f148a3d3e",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.25496499997098
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/icons-12.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 94322,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"8a9593b2f74f6992f3547687efe16c5e\""
+        },
+        "responseBodyHash": "c51844638192e4edd4bc0da38c3e4bccc2a806d6f47051e495b38a424301ed9a",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.753973999992013
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/icons-13.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 75963,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"820cfb63de46fb474013dad458314c51\""
+        },
+        "responseBodyHash": "ddf28e97848818b65e49baf8be7c00b4226d0ba0b69860889dc0daa2110ab065",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.8449550000368617
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/icons-14.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 83052,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"90bee69c2906ef370522e87657c937cb\""
+        },
+        "responseBodyHash": "13aa81099c322fa03936b5c3d0e2f89361a9684131878619a1474c42207b9357",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.8561459999764338
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Adobe_RGB.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4444460,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"47b9b454c87235006b09ce0493bad20e\""
+        },
+        "responseBodyHash": "c6b02b0ac4709492da0e3c9893e155b7f4dea644a652a0a61c79a4d9bd51823e",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 4.381656000041403
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-11.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1691120,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"38f22b775fc923f604d210c57716353c\""
+        },
+        "responseBodyHash": "54a55f126744aa1f0b5eaaa634f80fc4b5b3c71f181c1e352ede69398c77798b",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 3.140408999985084
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-02.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 395048,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"9724b3a5b73190012dbf000dac02f57b\""
+        },
+        "responseBodyHash": "95f6af6a9913b6fc2f1ace4aa46cd5ffaab95c5b1babb1542554566291f982b7",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.246625000028871
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-03.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 322250,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"c81394e0c6902ce00a36c215e45d5477\""
+        },
+        "responseBodyHash": "b98d73628af726957f303f8464b3092c7c1b78e80cfaaf6c7ae570853b0dbba0",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.3085880000144243
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-04.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 401570,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"1ae127d8da08f560ed92e5a3d83b96c8\""
+        },
+        "responseBodyHash": "13864b6500e78fce357d4e4a5c8e864832881c4b23dd323494ee12bf3574e3c2",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.8974859999725595
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-05.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 517127,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"79960feae0970271e334fd3ff4e9f92a\""
+        },
+        "responseBodyHash": "13a088b6c59fec9eb4bcd4ce8096dd70d36a2e9eb8357937ba9c1ae3a2f16206",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.864447999978438
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-06.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 330713,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"ce328d5128f182de156afe5c9d77b114\""
+        },
+        "responseBodyHash": "6d3aa88de82c6c8f49c247283dc68b45020a271555c1979c8f9e4561f70c3293",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.3578090000082739
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-07.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 405553,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"fdaa267355d9d20fb4e0f173d75949e4\""
+        },
+        "responseBodyHash": "862f1a136cbd2005f4c3adb71082fcece1d641c7d07ce8df2aae39402eecd1e5",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.1804010000196286
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-08.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 516539,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"b46309c3bf3224612d47650b4cc4810e\""
+        },
+        "responseBodyHash": "7e404860f59e94688bbe193282cc898c349f900205700536412f8c9666c19f04",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 2.00674700003583
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-09.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 505142,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"5330f0666819183b698fd573b0c4de7f\""
+        },
+        "responseBodyHash": "7a210f205f907acaa4456d3e2ef232896b875db53b93ed3f3e78df93e0afbfbc",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 1.5754949999973178
+      },
+      {
+        "url": "https://consent.cookiebot.com/uc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28398,
+        "remoteIPAddress": "96.16.53.217",
+        "responseHeaders": {
+          "cache-control": "public, max-age=843",
+          "etag": "\"671f451bf1ecd71:0\"",
+          "expires": "Wed, 15 Dec 2021 16:22:32 GMT"
+        },
+        "responseBodyHash": "8d11314258b6411af1595b1034a2c1810ae01a70ab1451bde06832d8c7478a7a",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.29777199996169657
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/empire.js?v=168271240910000322",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89007,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 04:57:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a537058bcf498c488cffa8c2383b51adb3afb38b3bb4d745b6cbb198416d2ffe",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.25043199997162446
+      },
+      {
+        "url": "https://cdn.codeblackbelt.com/js/modules/also-bought/main.min.js?shop=kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 81654,
+        "remoteIPAddress": "172.67.156.209",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "W/\"4a73b-5d317847c4b00-gzip\"",
+          "expires": "Wed, 15 Dec 2021 16:31:53 GMT"
+        },
+        "responseBodyHash": "eb71f2e8602fcc434834b52a6af4d705340e322709df31b4c5963ee7b49fd96d",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.33611800003563985
+      },
+      {
+        "url": "https://gravity-apps.com/shopify/js/shopify/infinitescroll2632.js?v=a55687c0bba538cfea254c604eb054a4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44285,
+        "remoteIPAddress": "91.109.4.132",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000",
+          "etag": "W/\"616056d6-1c14c\"",
+          "expires": "Fri, 14 Jan 2022 15:08:27 GMT"
+        },
+        "responseBodyHash": "d9f8ee34c3a2b18c3ab997830e54eb4bcee12b7931cf718590473ad802dcf2b4",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.39670400001341477
+      },
+      {
+        "url": "https://js.gleam.io/assets/oi-lead-capture-base-c20af8e805afa8693e441ba4fbc0e82ef4a11ce00c319713cf7a0856780299ee.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3707,
+        "remoteIPAddress": "94.31.29.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"615e797f-4832\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "3f8d07a00500dae45c5fd52be5817b87c5be4e06be729786dab585312cbe5c90",
+        "initiators": [
+          "https://js.gleam.io/oi-t104phf6.js"
+        ],
+        "time": 0.03276600001845509
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 955,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:08:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ec397ee432c5be88b349334133903b16aed4fb525157aea587546d0a4fdb78be",
+        "initiators": [
+          "https://js.gleam.io/assets/oi-lead-capture-base-c20af8e805afa8693e441ba4fbc0e82ef4a11ce00c319713cf7a0856780299ee.css"
+        ],
+        "time": 0.05917800002498552
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16441,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 02 Dec 2022 17:24:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5cbc4d1068a9901f3b7138f4a438e4e70f81564077ac44a8f976e98a2983295c",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.030411000014282763
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2977,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.026553000032436103
+      },
+      {
+        "url": "https://fonts.shopifycdn.com/akko/akko_n4.7ec562d55968dbae5feea97c783d75868b3a1e4b.woff2?h1=a2lra2VybGFuZC5jb20&h2=a2lra2VybGFuZG9yZGVycy5jb20&hmac=4cbfe9e26bec661555dda55c3abbd07e1d9b68e941eff8ef04bdbaca599eba8c",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23494,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2629800, immutable",
+          "etag": "\"3223712cb0e0609116916f76f5775fed\"",
+          "expires": "Fri, 04 Nov 2022 04:11:14 GMT"
+        },
+        "responseBodyHash": "7516a33825343c5b6231726929c58583df590dc679c29b3304fe8bdeac2eb5ab",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/theme.scss.css?v=5979613889879393488"
+        ],
+        "time": 0.08184400002937764
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 475,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.40732800000114366
+      },
+      {
+        "url": "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/assets/Categories-10.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1618718,
+        "remoteIPAddress": "52.216.110.214",
+        "responseHeaders": {
+          "etag": "\"e2ad9f7f8d358de1e04163fe25bde744\""
+        },
+        "responseBodyHash": "f7346c384f984dce7b87dd6bcb7fde2f0d98765499e3764e70913674517e21de",
+        "initiators": [
+          "https://kikk-splashpages.s3.us-east-1.amazonaws.com/december/css/december.css"
+        ],
+        "time": 2.489078000013251
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1164,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "cache-control": "max-age=27966821",
+          "etag": "\"b10de1f5f615a79259ac9e34f470ce1d:1615283706.572935\"",
+          "expires": "Fri, 04 Nov 2022 08:42:10 GMT"
+        },
+        "responseBodyHash": "0297ba54fff0a052c5761457790e80dc093b93b152edee473485af46c022ad75",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js"
+        ],
+        "time": 0.04345700005069375
+      },
+      {
+        "url": "https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4795,
+        "remoteIPAddress": "23.1.116.75",
+        "responseHeaders": {
+          "etag": "\"609c57a1-3041\""
+        },
+        "responseBodyHash": "25178aeef6eb6b83b96f5f2d004eda3bffbb37122de64afbaef7107b384a4132",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.2551499999826774
+      },
+      {
+        "url": "https://call.chatra.io/chatra.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12513,
+        "remoteIPAddress": "104.22.2.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1800",
+          "etag": "W/\"b630-17d5582f6d0\""
+        },
+        "responseBodyHash": "fe3b7237f0255517318dd4e4f5c7069a9906e55f8a955cc7728415505f1b8f82",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.16240900004049763
+      },
+      {
+        "url": "https://acsbapp.com/apps/app/dist/js/app.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 141553,
+        "remoteIPAddress": "206.189.191.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=432000 public",
+          "etag": "\"69bbf-61af7566-80757969a090b3b;br\"",
+          "expires": "Thu, 16 Dec 2021 16:08:30 GMT"
+        },
+        "responseBodyHash": "8c0918b69eaecf7001960fcfae2821980949504700aaff855511608fc62ff502",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.8849219999974594
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2164,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.05328299995744601
+      },
+      {
+        "url": "https://shop.app/pay/session?v=1",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1043,
+        "remoteIPAddress": "23.227.38.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"9b5179ea2a77fe69b294fbd2ed504eac\"",
+          "p3p": "CP=\"Not used\"",
+          "set-cookie": "_pay_session=7fuEcATG6LQz3cKQKziwAOPuFORyUkNEKCagQJ%2BZJRjwPv8PekR1BfokckNJF%2F3E72m0SVBSR6cfU8ttyBSwgnIob%2B%2FA%2Fp3C4DIUwrMIJykLhIo%2BWBNZISs%2FcuW1xNdo6azwMBGOe2Ydcy7qHc5eVKABfevhXav7fYzhCi2mlB4an1XLbICyy1OaVl7eA88av%2Bnryg%3D%3D--H7KKIZTMQSkknfkP--722IYYc0koipwSJ3SAVo0A%3D%3D; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "9b5179ea2a77fe69b294fbd2ed504eacbfbe048ede58967b43af2ca537144b1f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208"
+        ],
+        "time": 0.261398000002373
+      },
+      {
+        "url": "https://chat.chatra.io/?isModern=true",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 897,
+        "remoteIPAddress": "104.22.2.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300, s-maxage=300",
+          "etag": "W/\"appV0.0.1637817224\""
+        },
+        "responseBodyHash": "1bc966568b6abbc7db62deaefab5d10b0bb332931810ce4170fa571bb5bf9f55",
+        "initiators": [
+          "https://call.chatra.io/chatra.js"
+        ],
+        "time": 0.12061099999118596
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26434,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.23468200000934303
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.23268900002585724
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17791,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://kikkerland.com/",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1047340000513941
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://kikkerland.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.12604599999031052
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://kikkerland.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.13064799999119714
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 475,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.12780499999644235
+      },
+      {
+        "url": "https://static.chatra.io/jscss/0f4b36301fb51872f1b179a76dbf2e28b4b4a818.css?meteor_css_resource=true",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 15341,
+        "remoteIPAddress": "104.22.2.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"514df76ab838700823c7e222ed868b78\""
+        },
+        "responseBodyHash": "9735d0a41f5a59d268962a94fda8c90d047fdc9d2409109f29a63e67c56b420f",
+        "initiators": [
+          "https://chat.chatra.io/?isModern=true"
+        ],
+        "time": 0.13412299996707588
+      },
+      {
+        "url": "https://chat.chatra.io/meteor_runtime_config.js?hash=df3e48fece10f7c72ea505a27c2864bfa3b4b7bf",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 606,
+        "remoteIPAddress": "104.22.2.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, s-maxage=31536000",
+          "etag": "W/\"7b6575b0b95ff14c2aabfabf76864edc0f35336d\""
+        },
+        "responseBodyHash": "f00c7de42e3e83cba579637f68de83d8a3258b516d54a36ee7ae1c69de7dd4d0",
+        "initiators": [
+          "https://chat.chatra.io/?isModern=true"
+        ],
+        "time": 0.08584699995117262
+      },
+      {
+        "url": "https://static.chatra.io/jscss/c7d36b48ccd8389f4cd7a76869f8408433152795.js?meteor_js_resource=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 255600,
+        "remoteIPAddress": "104.22.2.142",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"af9037623a4cc35995e410f30b26fbfb\""
+        },
+        "responseBodyHash": "96ae0338d77187fd543a49d040e2b5091a9d83d62aafb844e0eba8d9fc9ecb69",
+        "initiators": [
+          "https://chat.chatra.io/?isModern=true"
+        ],
+        "time": 0.2610080000013113
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1281279999529943
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/695236037820648?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89435,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "204c3c6409f9588dba3c1a7dc6c808cc2b8b867cb9634daac5ca439920d2546c",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.0527270000311546
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-2902153-1&cid=524556321.1639584511&jid=920575859&gjid=209072044&_gid=1728370071.1639584511&_u=YGBAgEABBAAAAE~&z=21144440",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 438,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.10178500000620261
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1827336232&t=pageview&_s=1&dl=https%3A%2F%2Fkikkerland.com%2F&dp=%2F&ul=en-gb&de=UTF-8&dt=Home%20%E2%80%94%20Kikkerland%20Design%20Inc&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YGBAgEABB~&jid=920575859&gjid=209072044&cid=524556321.1639584511&tid=UA-2902153-1&_gid=1728370071.1639584511&did=BwiEti&z=1972622352",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 194,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.04207899997709319
+      },
+      {
+        "url": "https://cdn.acsbapp.com/cache/app/kikkerland.com/config.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 323,
+        "remoteIPAddress": "206.189.187.108",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=432000 public",
+          "etag": "\"88-61b9cef7-8c867a22d6461918;;;\"",
+          "expires": "Thu, 16 Dec 2021 16:08:31 GMT"
+        },
+        "responseBodyHash": "61ab3757693bf177b2780084bf0c8f4d6a53050038b35a2d9b3e4c19acc2f281",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://acsbapp.com/apps/app/dist/js/app.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.36157700000330806
+      },
+      {
+        "url": "https://consent.cookiebot.com/38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045/cc.js?renew=false&referer=kikkerland.com&dnt=false&forceshow=false",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53939,
+        "remoteIPAddress": "96.16.53.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1"
+        },
+        "responseBodyHash": "b659c4d8d298dee79d3d0516d1a7174b7530d6f587a788e63eb2a90e53a255b5",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js"
+        ],
+        "time": 0.14240799995604903
+      },
+      {
+        "url": "https://chat.chatra.io/sockjs/info?cb=2h2j23dzhm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 275,
+        "remoteIPAddress": "104.22.2.142",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, no-transform, must-revalidate, max-age=0"
+        },
+        "responseBodyHash": "d0e6f74706c21edf8eb233a1e72f6795fef0fce272bafb2dd4d380cc4c729225",
+        "initiators": [
+          "https://static.chatra.io/jscss/c7d36b48ccd8389f4cd7a76869f8408433152795.js?meteor_js_resource=true"
+        ],
+        "time": 0.05635099997743964
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=695236037820648&ev=PageView&dl=https%3A%2F%2Fkikkerland.com%2F&rl=&if=false&ts=1639584512049&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=0&o=30&fbp=fb.1.1639584512046.1042200794&it=1639584511076&coo=false&eid=beda3cc6-4D0B-4DF1-0A77-13FAEF463705&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:08:32 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/695236037820648?v=2.9.48&r=stable"
+        ],
+        "time": 0.057560999994166195
+      },
+      {
+        "url": "wss://chat.chatra.io/sockjs/086/7ioh4wa5/websocket",
+        "type": "WebSocket",
+        "initiators": [
+          "https://static.chatra.io/jscss/c7d36b48ccd8389f4cd7a76869f8408433152795.js?meteor_js_resource=true"
+        ]
+      },
+      {
+        "url": "https://cdn.acsbapp.com/cache/app/en.build.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 25414,
+        "remoteIPAddress": "206.189.187.108",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=432000 public",
+          "etag": "\"3a13f-61af758a-7a66a8544140e5f4;br\"",
+          "expires": "Thu, 16 Dec 2021 16:08:32 GMT"
+        },
+        "responseBodyHash": "329db9cec00a39bdcfa5c5110bb30d3678e30990fe76755c0996cfd366336281",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://acsbapp.com/apps/app/dist/js/app.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.2233059999998659
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=695236037820648&ev=Microdata&dl=https%3A%2F%2Fkikkerland.com%2F&rl=&if=false&ts=1639584512644&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Home%20%E2%80%94%20Kikkerland%20Design%20Inc%22%2C%22meta%3Adescription%22%3A%22Kikkerland%20Design%20Inc.%20Where%20creativity%20runs%20rampant%20and%20even%20the%20most%20utilitarian%20gadget%20becomes%20a%20delightful%20discovery!%22%7D&cd[OpenGraph]=%7B%22og%3Asite_name%22%3A%22Kikkerland%20Design%20Inc%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fkikkerland.com%2F%22%2C%22og%3Atitle%22%3A%22Home%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Adescription%22%3A%22Kikkerland%20Design%20Inc.%20Where%20creativity%20runs%20rampant%20and%20even%20the%20most%20utilitarian%20gadget%20becomes%20a%20delightful%20discovery!%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1140%2F3964%2Ffiles%2FICON144X144_1200x1200.png%3Fv%3D1555512005%22%2C%22og%3Aimage%3Asecure_url%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1140%2F3964%2Ffiles%2FICON144X144_1200x1200.png%3Fv%3D1555512005%22%2C%22og%3Aimage%3Awidth%22%3A%221200%22%2C%22og%3Aimage%3Aheight%22%3A%221200%22%2C%22og%3Aimage%3Aalt%22%3A%22%22%2C%22twitter%3Aimage%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1140%2F3964%2Ffiles%2FICON144X144_1200x1200_crop_center.png%3Fv%3D1555512005%22%2C%22twitter%3Aimage%3Awidth%22%3A%221200%22%2C%22twitter%3Aimage%3Aheight%22%3A%221200%22%2C%22twitter%3Aimage%3Aalt%22%3A%22%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22BreadcrumbList%22%2C%22itemListElement%22%3A%5B%5D%7D%2C%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22WebSite%22%2C%22name%22%3A%22Kikkerland%20Design%20Inc%22%2C%22url%22%3A%22https%3A%2F%2Fkikkerland.com%22%7D%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=1&o=30&fbp=fb.1.1639584512046.1042200794&it=1639584511076&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:08:32 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/695236037820648?v=2.9.48&r=stable"
+        ],
+        "time": 0.012102000007871538
+      },
+      {
+        "url": "https://uc.chatra-usercontent.com/ed68d9e1-8376-41c2-893b-a602026a155f/-/crop/448x448/83,0/-/preview/-/resize/200x200/",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12703,
+        "remoteIPAddress": "104.21.74.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30337916",
+          "etag": "\"a3a7eb5165e96b20fec08e52e4aa5286\""
+        },
+        "responseBodyHash": "ba7e1e64e7b721da6aca6544c56c20155f6fec62aa130c33effcd68dd3335b08",
+        "initiators": [
+          "https://static.chatra.io/jscss/c7d36b48ccd8389f4cd7a76869f8408433152795.js?meteor_js_resource=true"
+        ],
+        "time": 0.10626699996646494
+      },
+      {
+        "url": "https://uc.chatra-usercontent.com/bba6fbd6-b977-4b51-8b37-da7f6a66332d/-/crop/456x456/55,1/-/preview/-/resize/200x200/",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5812,
+        "remoteIPAddress": "104.21.74.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=26531654",
+          "etag": "\"cd87068e5be82f6c7f8103c9989020d8\""
+        },
+        "responseBodyHash": "ddf7ac913ca83ff08588b0347bf37e5169a98f498cb684a72d012619c2755fb1",
+        "initiators": [
+          "https://static.chatra.io/jscss/c7d36b48ccd8389f4cd7a76869f8408433152795.js?meteor_js_resource=true"
+        ],
+        "time": 0.12333199998829514
+      },
+      {
+        "url": "https://uc.chatra-usercontent.com/f30beaee-2d24-4065-9f5b-2ec3816569cc/-/crop/369x369/56,0/-/preview/-/resize/200x200/",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10294,
+        "remoteIPAddress": "104.21.74.23",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30637877",
+          "etag": "\"8ddf415f943c1b8cf8390578ce5751e7\""
+        },
+        "responseBodyHash": "0bfce47bc47bded14dfcf4525dec722a725ddaf7df9f9379b78c05e2acdd7f31",
+        "initiators": [
+          "https://static.chatra.io/jscss/c7d36b48ccd8389f4cd7a76869f8408433152795.js?meteor_js_resource=true"
+        ],
+        "time": 0.12137400003848597
+      },
+      {
+        "url": "https://client3.spinasale.com/js/spin-v3.js?shop=kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9366,
+        "remoteIPAddress": "104.26.2.79",
+        "responseHeaders": {
+          "cache-control": "max-age=691200"
+        },
+        "responseBodyHash": "f8ab10cc72084547cc52db503496b01ad951fe3a816c55b74ae07d7b08a4e95d",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.15199600002961233
+      },
+      {
+        "url": "https://img0.socialshopwave.com/ssw-empty.js?shop=kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 346,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.10283199994591996
+      },
+      {
+        "url": "https://instafeed.nfcube.com/cdn/265644b3f295cb5c09bd93ce2d6eaee9.js?shop=kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6340,
+        "remoteIPAddress": "104.21.75.8",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "W/\"614c75b0-4053\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "86fb1f55a4ec86df93dce740aca06e6b2ca35e12757b90b0c473cb3eb98a195e",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.08880600001430139
+      },
+      {
+        "url": "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 35857,
+        "remoteIPAddress": "52.222.138.108",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"246fc-Zzi1NRdqmJnj4iuEgRBN7A\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6474f5cfc053b0dd937d748a04e99e5b2b593d400f163f875bd2c84661c7c013",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.05534399999305606
+      },
+      {
+        "url": "https://cdn.refersion.com/shop.js?key=pub_ae0f88618db630844704&check_token=true&shop=kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42934,
+        "remoteIPAddress": "13.227.219.63",
+        "responseHeaders": {
+          "etag": "\"db8be0f903f8f498590a535a013f6024\""
+        },
+        "responseBodyHash": "eb7709d02784a50e618e459e48ce39323a5ce27f0893659102634461bd4a902b",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.10518399998545647
+      },
+      {
+        "url": "https://gleam.io/me?cb=_app.widget.onUserLocation",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1367,
+        "remoteIPAddress": "172.66.43.179",
+        "responseHeaders": {
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"84980d4ceb7a1d0302fb7ec997593f5b\"",
+          "set-cookie": "XSRF-TOKEN=GF6EOHRyJ7AqbC0PnSbzjCWpW%2F0qJAK%2F9kBzG2V8DvOmZBcx7WcFgewa%2F3EUFALx3MW%2Fcr88EU%2FRjamNpTEf5Q%3D%3D; path=/; SameSite=None; secure\n_app_session=jbqMMnc0HQE%2F%2FHMMNIHuoin0l%2FGl5tYmUCQW0hJ5Li%2ByOgnoCO0FmT0sguGt65wMcQBVLZXU2Lb174p89bKfKN0elb36FyWDasreWMQBmXUM1%2F1wOlQ5ExiUOJb0PPEphdKeJSve8ngV3pPJWixJmmUUHAeYWezRYAJAg7HsEIW%2BuXAKjPOBN7gCA9UpzEzlaG2LTcR8dkO00U1MqggBWssohU0AReO6ocSNXKF6IeSzWTEEmOi4IO%2BfaHAj%2FTQDYagw1CU5aRNqrGQfU9brpURMhFFCJBuVJw%3D%3D--7rC%2BGtFx3X8B2DuV--r0CBlEKCTFREPtk%2FEtETmw%3D%3D; path=/; expires=Wed, 12 Jan 2022 16:08:33 GMT; secure; HttpOnly; SameSite=None\n__cf_bm=2lBC7gZ6oDGPO230BNG700Kvv9d.53AjtRl9Du4NJKM-1639584513-0-ATD1Y3+rC/yBY3BXEb+NOP84z/7DHtXJ+LtRF1pAOuK1qRozCBLYtaiAm+gJqcQR014VlhXAVAH0CDzAnVS8RYk=; path=/; expires=Wed, 15-Dec-21 16:38:33 GMT; domain=.gleam.io; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "84980d4ceb7a1d0302fb7ec997593f5b52e5044ad84a2ab9156fe03601712bd3",
+        "initiators": [
+          "https://js.gleam.io/oi-t104phf6.js"
+        ],
+        "time": 0.3129570000455715
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open%20Sans:400,500,600|ABeeZee:400,500,600|Abel:400,500,600&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 902,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:08:33 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "25edc7d719d58e39bba44de6688cdf6814afa617e02d9cde9a0857224a22feb7",
+        "initiators": [
+          "https://js.gleam.io/oi-t104phf6.js"
+        ],
+        "time": 0.024084000033326447
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34168,
+        "remoteIPAddress": "142.251.39.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Tue, 13 Dec 2022 00:05:42 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "540bc6dec1dd4b92ea4d3fb903f69eabf6d919afd48f4e312b163c28cff0f441",
+        "initiators": [
+          "https://client3.spinasale.com/js/spin-v3.js?shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.17607400001725182
+      },
+      {
+        "url": "https://instafeed.nfcube.com/cdn/instafeed-4.6.1.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3187,
+        "remoteIPAddress": "104.21.75.8",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "W/\"612fbf32-2adb\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "e23d226f52c51d127c91febe3f7dd86d6c0f583d0a99490463cfe1386d34880f",
+        "initiators": [
+          "https://instafeed.nfcube.com/cdn/265644b3f295cb5c09bd93ce2d6eaee9.js?shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.02175899996655062
+      },
+      {
+        "url": "https://pub_ae0f88618db630844704.tracking.refersion.com/r.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1052,
+        "remoteIPAddress": "13.227.219.67",
+        "responseHeaders": {
+          "etag": "\"4ee1a4f461751e9918a36adb0409d3f7\""
+        },
+        "responseBodyHash": "588794e29465c271a0ad76362f89ce1a8c3706e71fa8f906257377dc3bc27270",
+        "initiators": [
+          "https://cdn.refersion.com/shop.js?key=pub_ae0f88618db630844704&check_token=true&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.08276700001442805
+      },
+      {
+        "url": "https://cdn.pushowl.com/config/api/v1/kikkerland-design-inc/subscriber/config/widget/?guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&platform=shopify",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1602,
+        "remoteIPAddress": "52.222.138.108",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=15552000, max-age=15552000, must-revalidate",
+          "etag": "W/\"930-GK0Qf3JGkYD9ZmvqMg+WTA\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1d9f723356dfe08f14240632951244ff12063bb9825be5f8d2dcc3263f0b8cbb",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.038475000008475035
+      },
+      {
+        "url": "https://cdn.pushowl.com/config/api/v1/kikkerland-design-inc/subscriber/config/widget/?guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&platform=shopify",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.138.108",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=15552000, max-age=15552000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn.pushowl.com/config/api/v1/kikkerland-design-inc/subscriber/config/widget/?guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&platform=shopify"
+        ],
+        "time": -0.07531599997309968
+      },
+      {
+        "url": "https://api.pushowl.com/event/v1/events",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.233.50.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.pushowl.com/event/v1/events"
+        ],
+        "time": 0.3125679999939166
+      },
+      {
+        "url": "https://api.pushowl.com/event/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 161,
+        "remoteIPAddress": "34.233.50.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.4210760000278242
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.11682499997550622
+      },
+      {
+        "url": "https://client3.spinasale.com/dependencies/fancybox/spin.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1468,
+        "remoteIPAddress": "104.26.2.79",
+        "responseHeaders": {
+          "cache-control": "max-age=691200"
+        },
+        "responseBodyHash": "e2dc275fd15893a04a4e6dab069c2338bce0529f58e9f62c254808ace963af13",
+        "initiators": [
+          "https://client3.spinasale.com/js/spin-v3.js?shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.026381000003311783
+      },
+      {
+        "url": "https://client3.spinasale.com/modals/jsonV4/kikkerland-design-inc.myshopify.com",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 796,
+        "remoteIPAddress": "104.26.2.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "f7247e1f33f3fbc6b12a54015b33ccf02a3fd4ae3e3c1779653a8d226632be06",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+          "https://client3.spinasale.com/js/spin-v3.js?shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.6435409999685362
+      },
+      {
+        "url": "https://cdn.refersion.com/xdlspma.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2994,
+        "remoteIPAddress": "13.227.219.63",
+        "responseHeaders": {
+          "etag": "\"66303cfc2f88333c918052f78b6d0215\""
+        },
+        "responseBodyHash": "bd3a2ff5820c53c4fba21ec7beb8c3b752875693f720ba4a2e70a35b9d75dbdd",
+        "initiators": [
+          "https://pub_ae0f88618db630844704.tracking.refersion.com/r.html"
+        ],
+        "time": 0.035025999997742474
+      },
+      {
+        "url": "https://tracking.refersion.com/start",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 581,
+        "remoteIPAddress": "104.18.30.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "62ece5269f08f82108fac6423ad582d7bf1634aa4e1171b452d3140c376137bc",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.refersion.com/shop.js?key=pub_ae0f88618db630844704&check_token=true&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.6257449999684468
+      },
+      {
+        "url": "https://tracking.refersion.com/start",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.30.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://tracking.refersion.com/start"
+        ],
+        "time": 0.38975199998822063
+      },
+      {
+        "url": "https://kikkerland.com/cart/update.js",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1649,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "set-cookie": "localization=; path=/; expires=Wed, 29 Dec 2021 16:08:34 GMT; SameSite=Lax\ncart_currency=USD; path=/; expires=Wed, 29 Dec 2021 16:08:34 GMT; SameSite=Lax\ncart=bc336fb312eb29ca28a648726f75455d; path=/; expires=Wed, 29 Dec 2021 16:08:34 GMT; SameSite=Lax\ncart_ts=1639584514; path=/; expires=Wed, 29 Dec 2021 16:08:34 GMT; HttpOnly; SameSite=Lax\ncart_sig=694b984127ad974a85ccf691563c882d; path=/; expires=Wed, 29 Dec 2021 16:08:34 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:08:34 GMT; secure; HttpOnly; SameSite=Lax\ncart_ver=gcp-us-east1%3A1; path=/; expires=Wed, 29 Dec 2021 16:08:34 GMT; HttpOnly; SameSite=Lax\n_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:34 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:34 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:34 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:34 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "203dba79e92d2009685d4721f8f900c90b11515b76285a2c4c3ff790568b8659",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.refersion.com/shop.js?key=pub_ae0f88618db630844704&check_token=true&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.2583730000187643
+      },
+      {
+        "url": "https://tracking.refersion.com/page_view",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 437,
+        "remoteIPAddress": "104.18.30.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "2d5cd6cc374cec933453d3b829b63494ee186d4c164325f3f09426dfa58e9d6c",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.refersion.com/shop.js?key=pub_ae0f88618db630844704&check_token=true&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.7162430000025779
+      },
+      {
+        "url": "https://tracking.refersion.com/page_view",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.30.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://tracking.refersion.com/page_view"
+        ],
+        "time": 0.3280990000348538
+      },
+      {
+        "url": "https://tracking.refersion.com/checkout",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.30.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://tracking.refersion.com/checkout"
+        ],
+        "time": 0.28313699999125674
+      },
+      {
+        "url": "https://tracking.refersion.com/checkout",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 485,
+        "remoteIPAddress": "104.18.30.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "1ca58d6d780f8fbdd2af121054772b6b4ac3eb651a77da20e3f7e73245dc8556",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.refersion.com/shop.js?key=pub_ae0f88618db630844704&check_token=true&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.5247060000547208
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21467,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"5955e926e43d1b4dafdb3011a66e81fe\""
+        },
+        "responseBodyHash": "d38a3dd165df8d7c8d560fbb17234500d447ac6f385e5cf2d8c0f1046a6d39f3",
+        "initiators": [
+          "https://kikkerland.com/"
+        ],
+        "time": 0.05258399999001995
+      },
+      {
+        "url": "https://kikkerland.com/cart.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1436,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:08:35 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Wed, 29 Dec 2021 16:08:35 GMT\ncart_currency=USD; path=/; expires=Wed, 29 Dec 2021 16:08:35 GMT\n_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "203dba79e92d2009685d4721f8f900c90b11515b76285a2c4c3ff790568b8659",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com",
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.18160000001080334
+      },
+      {
+        "url": "https://kikkerland.com/apps/ssw/lite2/user/check",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 971,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "unsafe-url",
+          "set-cookie": "_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:08:35 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Wed, 29 Dec 2021 16:08:35 GMT\n_shopify_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "0ccfd855222c03496e56b191961dec8783b321e6b45aff01892d831b605b0d9d",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/empire.js?v=168271240910000322",
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.5930480000097305
+      },
+      {
+        "url": "https://kikkerland.com/?view=ssw-async",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 9986,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:08:35 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Wed, 29 Dec 2021 16:08:35 GMT\ncart_currency=USD; path=/; expires=Wed, 29 Dec 2021 16:08:35 GMT\n_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_shopify_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:35 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "df770d170c48e905ea418e9bfa6eadbd36d99d02e37bb2bbf5b0b88cb4d9aef8",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com",
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.22168800001963973
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/core-28f5f08a57.critical.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 13716,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"28f5f08a57fd54e760b1472d5e3c0b7a\""
+        },
+        "responseBodyHash": "57be1c49d45348e048366096d5300164b3149e3a37d08b87912dc2a9cbbc73f9",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.011555999983102083
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/socialshopwave-custom.css?v=9140995544434928566",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 980,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 03 Dec 2022 10:53:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2f8af235b6e3d475b38279ce49f37f6d31da4177d2cb8b82dda9b80e285e923a",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.009233999997377396
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/core-e375b9d670.library.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32337,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"e375b9d670798ded5a0300c0e5b17e9c\""
+        },
+        "responseBodyHash": "5540f3c7f55ac12c438c0028a98ce0ca7a69802aa6f7bfb072673eef75b756ec",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.014780999976210296
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/lib-34270a8b40.modal.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2598,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"34270a8b404b23b64dd9347f31684cd7\""
+        },
+        "responseBodyHash": "9c4b162485db02519b9822e30769ecb0982375c68f9c1faa8042265501420b20",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.014537999988533556
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/lib-50cd316593.modal.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1138,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"50cd316593ca0e9af271eeea448d1105\""
+        },
+        "responseBodyHash": "2de7f15ad28e099728707c7b4e633650ce8f5ec1b4e4f68ae0114cc167f05c97",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.014473000017460436
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/login-f63d2e937e.critical.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10498,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"f63d2e937e39423073320ef4c3e69c10\""
+        },
+        "responseBodyHash": "24e367bde18c6644d76df205ba329dd46717897ff9da011a82f6bf01887c1a7b",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.015355999988969415
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/login-c704f6d4ce.critical.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2396,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"c704f6d4ce59754fc4ae33b40b5c6311\""
+        },
+        "responseBodyHash": "19e6c775cfb052284b9972b5e3cef7e7f5ec8ab89c56bc6d4a4118ff5cfd4414",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.01582199998665601
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/review-c89bce2671.critical.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1344,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"c89bce2671a0f489c314076274299e98\""
+        },
+        "responseBodyHash": "c5c5d187db102dac4e8bc83e21f8f52a1c24131998ab13de27c01f844e74c012",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.010256000037770718
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/reward-d9c019b0e4.critical.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1922,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"d9c019b0e46b3fb6f6024fda600c127f\""
+        },
+        "responseBodyHash": "19fd849a2929c427dbc754e016ddb6e52e66bad5c0f324052cc9787d87e652f9",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.010033999977167696
+      },
+      {
+        "url": "https://apis.google.com/js/api:client.js?onload=gwGapiLoad",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6221,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1800, stale-while-revalidate=1800",
+          "etag": "\"943ebe006e22e63c7a558844a75dfc7e\"",
+          "expires": "Wed, 15 Dec 2021 16:08:35 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+          "set-cookie": "NID=511=Cy78H6aYuy_E5_Mh8w67AS8NAInNKrPs4qNH4H7a8yrWYBLX1Z7TPJhbfVgMhkYR-XzM29oex9WcVe2_kqQvEpJLy1gMxhjA9pZ8bwS5PMyMgCJivSCaXn9fMyfTv1d248yCuBtChvoB41fboGR1aRSF19dEji2UHnqjpqGMmsM; expires=Thu, 16-Jun-2022 16:08:35 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c1897390bd2bde59abd3edacfa1293ea8ec2cf1b480beb9557e4a600e5727971",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.05340700002852827
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/lib-cc8b386e93.popover.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2946,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"cc8b386e932529ff0a7fca1e2cd8da78\""
+        },
+        "responseBodyHash": "611a7d2f919c4fe6c5c5fd0ddaa8f2f1b0b92222ae8e84883b1e3398709efc69",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://static.socialshopwave.com/ssw-assets/login-f63d2e937e.critical.js"
+        ],
+        "time": 0.010127000045031309
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/lib-23c0a5ffbe.validate.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6800,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"23c0a5ffbe2081f4dcd4ff6403cc0578\""
+        },
+        "responseBodyHash": "fdea997672513bb137512495ac4d39e59c2375d1403ceee891959c42b3d0c180",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://static.socialshopwave.com/ssw-assets/login-f63d2e937e.critical.js"
+        ],
+        "time": 0.010005999996792525
+      },
+      {
+        "url": "https://fonts.shopifycdn.com/akko/akko_i4.b64269e5c6d95f7d7b0c9f7eac64dd3d0c9bc7dc.woff2?h1=a2lra2VybGFuZC5jb20&h2=a2lra2VybGFuZG9yZGVycy5jb20&hmac=cab623975d7b36c77095da58434484026cacadf6e789fed650c982d36361ec50",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 24653,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2629800, immutable",
+          "etag": "\"a02fb23d86d0aa31b2aaae427a7caf89\"",
+          "expires": "Wed, 23 Nov 2022 03:35:13 GMT"
+        },
+        "responseBodyHash": "651300ce3aaa963b5078f73efd763a210c470a3f725c8f1bbeaffe1f93ef1b1f",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/theme.scss.css?v=5979613889879393488"
+        ],
+        "time": 0.030411000014282763
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/lib-d9e1fefacc.dropdown.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1100,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"d9e1fefacc2a40dd3b514a98f1242d88\""
+        },
+        "responseBodyHash": "a699e0de8d593a15809b16c8a69da09e539d3fc5e932eb8bf8f50453844ed27a",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.010013999999500811
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/lib-21b24ea07f.dropdown.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1217,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"21b24ea07fa9c1065e2fe870cee11bd6\""
+        },
+        "responseBodyHash": "20132c47f6c172b56523b364213de2aca8c2f85a034351272c4a15e5c3b54dd7",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.011066000035498291
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/review-f1ea242161.popup.critical.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1448,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"f1ea242161326af83e4b2caf84be9005\""
+        },
+        "responseBodyHash": "f9230e307d3ec9f5fa882160485d6a2ae9db2e368544b95e909b88322a8a75ab",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://kikkerland.com/"
+        ],
+        "time": 0.01828600000590086
+      },
+      {
+        "url": "https://fonts.shopifycdn.com/akko/akko_n7.1b3a08aace6096ece505e2b8a5470d806ff8e217.woff2?h1=a2lra2VybGFuZC5jb20&h2=a2lra2VybGFuZG9yZGVycy5jb20&hmac=910f4a1af7f23c4863e5f74760a32b49458ba2a9b4ed04d9b6acf4cb92884a06",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23524,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2629800, immutable",
+          "etag": "\"edd2f624c861bf6f6e4651a4b7d3d00d\"",
+          "expires": "Sun, 11 Dec 2022 23:57:14 GMT"
+        },
+        "responseBodyHash": "e07ce2ffaf1898cf481f698f95cffc645cd745227795a19e5e5eb0eff50c6ebd",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/theme.scss.css?v=5979613889879393488"
+        ],
+        "time": 0.03334299998823553
+      },
+      {
+        "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.7Qaqnm_1sO0.O/m=client/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMlhJgy_5nQ_Wt0jHMAZa6UDzBuWQ/cb=gapi.loaded_0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 107475,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 20:01:03 GMT"
+        },
+        "responseBodyHash": "7a58ac7ad95e4483fafdf8e225692f429c70db52e435cd2b37cd085d84f126de",
+        "initiators": [
+          "https://apis.google.com/js/api:client.js?onload=gwGapiLoad"
+        ],
+        "time": 0.026937999995425344
+      },
+      {
+        "url": "https://static.socialshopwave.com/ssw-assets/reward-34e55a9e74.tab.caption.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1397,
+        "remoteIPAddress": "52.222.138.36",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"34e55a9e74038fa07390d0d7214ec848\""
+        },
+        "responseBodyHash": "65907c7f6a3c62acee73a54b6f948fb83b8c18af966746461f3473b8bddcae46",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js",
+          "https://static.socialshopwave.com/ssw-assets/reward-d9c019b0e4.critical.js",
+          "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/empire.js?v=168271240910000322"
+        ],
+        "time": 0.013154000043869019
+      },
+      {
+        "url": "https://kikkerland.com/apps/ssw/lite2/core/widget/index?_sid=7969de0f-570b-70aa-028d-0b625f78af9d&hash_key=61ba13038387c70cd912649d&module=reward&name=rewardTabCaption",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 559,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "unsafe-url",
+          "set-cookie": "_shopify_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:36 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\n_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:36 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\nlocalization=; path=/; expires=Wed, 29 Dec 2021 16:08:36 GMT\n_s=29eff0be-e633-4c2f-b3e7-267263317cb3; Expires=Wed, 15-Dec-21 16:38:36 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:08:36 GMT; secure; HttpOnly\n_shopify_y=21c808a3-9864-404c-a1ca-671e32954a37; Expires=Thu, 15-Dec-22 16:08:36 GMT; Domain=kikkerland.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/s/files/1/1140/3964/t/8/assets/empire.js?v=168271240910000322",
+          "https://static.socialshopwave.com/ssw-assets/reward-d9c019b0e4.critical.js",
+          "https://static.socialshopwave.com/ssw-assets/core-5955e926e4.critical.js"
+        ],
+        "time": 0.5189729999983683
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin-ext",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 775,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:08:36 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "58727b2dbc8a990d69fdf8eb68f22337f737f548834a65bb41e8a89943a320c1",
+        "initiators": [
+          "https://static.socialshopwave.com/ssw-assets/reward-34e55a9e74.tab.caption.css"
+        ],
+        "time": 0.020413999969605356
+      },
+      {
+        "url": "https://api.pushowl.com/event/v1/events",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 161,
+        "remoteIPAddress": "34.233.50.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.10305700002936646
+      },
+      {
+        "url": "https://cdn.pushowl.com/images/tr:cm-pad_resize,w-192,h-192,bg-FFFFFF00/kikkerland-design-inc/default-48711826-237e-4ab5-8925-34861c4c2049-ICON%20X%20png?ik-sdk-version=python-2.2.4&ik-t=9999999999&ik-s=20a4b1da491ed51366d960833a350ed9e1602d09",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7206,
+        "remoteIPAddress": "52.222.138.108",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=15552000, max-age=15552000, must-revalidate",
+          "etag": "W/\"1a8e-mZlpsbAIIB1azo7nusGuhw\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0658e18286e5971ec9e4e92dc2ac8518d30d9fe85b758a20345af772c359a4cd",
+        "initiators": [
+          "https://cdn.pushowl.com/latest/sdks/pushowl-shopify.js?subdomain=kikkerland-design-inc&environment=production&guid=c4dc559f-6c02-4ab8-ab0c-38b5d9401259&shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.011636000010184944
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "status": 200,
+        "size": 106,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.011147999961394817
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584519789&referer=https%3A%2F%2Fkikkerland.com%2F&dnt=false&method=strict&clp=true&cls=true&clm=true&cbid=38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045&cbt=optinout&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 826,
+        "remoteIPAddress": "96.16.53.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:08:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d514602823747a60f9df91d6dd079eb99754ea8cc243f41926f3a5adb14d8c11",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045/cc.js?renew=false&referer=kikkerland.com&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.06832600000780076
+      },
+      {
+        "url": "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584519825&referer=https%3A%2F%2Fkikkerland.com%2F&dnt=false&method=strict&clp=true&cls=true&clm=true&cbid=38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045&cbt=optinout&hasdata=true",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 828,
+        "remoteIPAddress": "96.16.53.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:08:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1a96325e3dc9215161d3a987e95350d35893baafd5505facd6ba1395ceafd00c",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045/cc.js?renew=false&referer=kikkerland.com&dnt=false&forceshow=false",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.05546400003368035
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=695236037820648&ev=SubscribedButtonClick&dl=https%3A%2F%2Fkikkerland.com%2F&rl=&if=false&ts=1639584519825&cd[buttonFeatures]=%7B%22classList%22%3A%22CybotCookiebotDialogBodyButton%22%2C%22destination%22%3A%22https%3A%2F%2Fkikkerland.com%2F%23%22%2C%22id%22%3A%22CybotCookiebotDialogBodyButtonAccept%22%2C%22imageUrl%22%3A%22%22%2C%22innerText%22%3A%22Allow%20Cookies%20From%20All%20Kikkerland%20Websites%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22a%22%2C%22name%22%3A%22%22%7D&cd[buttonText]=Allow%20Cookies%20From%20All%20Kikkerland%20Websites&cd[formFeatures]=%5B%5D&cd[pageFeatures]=%7B%22title%22%3A%22Home%20%E2%80%94%20Kikkerland%20Design%20Inc%22%7D&cd[parameters]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=3&o=30&fbp=fb.1.1639584512046.1042200794&it=1639584511076&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 124,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:08:39 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/695236037820648?v=2.9.48&r=stable",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.009688999969512224
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/consentconfig/38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045/settings.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 292,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://kikkerland.com",
+          "cache-control": "max-age=48068",
+          "etag": "\"4049e5080b9d16723ed80ef6959cd420:1635513920.486025\"",
+          "expires": "Thu, 16 Dec 2021 05:29:47 GMT"
+        },
+        "responseBodyHash": "ad70ef306586cc97ff13bc41fa8f47370524b880704737a34ae7ac15604e89c3",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584519789&referer=https%3A%2F%2Fkikkerland.com%2F&dnt=false&method=strict&clp=true&cls=true&clm=true&cbid=38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045&cbt=optinout&hasdata=true"
+        ],
+        "time": 0.023065000015776604
+      },
+      {
+        "url": "https://consentcdn.cookiebot.com/consentconfig/38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045/state.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 326,
+        "remoteIPAddress": "23.222.36.151",
+        "responseHeaders": {
+          "cache-control": "max-age=47982",
+          "etag": "\"4cb1e9a09e7c990187597facf196a51e:1598571318.425533\"",
+          "expires": "Thu, 16 Dec 2021 05:28:21 GMT"
+        },
+        "responseBodyHash": "4da8b1c2203e3cc65722e9ccc496f397993b2a3e58b3dd770f6c0b7d17190e62",
+        "initiators": [
+          "https://consent.cookiebot.com/uc.js",
+          "https://consent.cookiebot.com/logconsent.ashx?action=accept&nocache=1639584519789&referer=https%3A%2F%2Fkikkerland.com%2F&dnt=false&method=strict&clp=true&cls=true&clm=true&cbid=38cf5f9a-30f6-4bd0-b6e6-9cee3f6ab045&cbt=optinout&hasdata=true"
+        ],
+        "time": 0.009516999998595566
+      },
+      {
+        "url": "https://kikkerland.com/cart.js?_=1639584510237",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 442,
+        "remoteIPAddress": "23.227.38.32",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "203dba79e92d2009685d4721f8f900c90b11515b76285a2c4c3ff790568b8659",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.codeblackbelt.com/js/modules/also-bought/main.min.js?shop=kikkerland-design-inc.myshopify.com"
+        ],
+        "time": 0.032447999983560294
+      }
+    ]
+  }
+}

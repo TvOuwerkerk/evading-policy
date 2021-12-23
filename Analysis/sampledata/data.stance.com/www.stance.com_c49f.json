@@ -1,0 +1,3619 @@
+{
+  "initialUrl": "https://www.stance.com/",
+  "finalUrl": "https://euro.stance.eu.com/",
+  "timeout": false,
+  "testStarted": 1639584401468,
+  "testFinished": 1639584422924,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://www.stance.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 19361,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "dwac_beb5Iiaajkkcaaaadr4mIJdoNQ=eh8zZhmdy3BwY-TZBwQRsvCm4WgjjqZGjmg%3D|dw-only|||USD|false|US%2FPacific|true; Path=/; Secure; SameSite=None\ncqcid=acPPtENhfWVaQFW9xb14uMDNKW; Path=/; Secure; SameSite=None\ncquid=||; Path=/; Secure; SameSite=None\nsid=eh8zZhmdy3BwY-TZBwQRsvCm4WgjjqZGjmg; Path=/; Secure; SameSite=None\ndwanonymous_d31f7e3e4b46549dc0ae1286528ed495=acPPtENhfWVaQFW9xb14uMDNKW; Version=1; Comment=\"Demandware anonymous cookie for site Sites-Stance_US-Site\"; Max-Age=15552000; Expires=Mon, 13-Jun-2022 16:06:41 GMT; Path=/; Secure; SameSite=None\n__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None\ndwsid=TABDOlJoLakrTewMzEaGHca5kTRoe0Cf1UbzV-6aJPWh-rcNmpPf_OlHQ6AtUHajaznf8zVBCDj0BGZBpwODpQ==; path=/; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "3eec11f10ec8a21498e94cd2570b0ae93006336e277ea1c027331657f34a8a4d",
+        "initiators": [],
+        "time": 1.0046030000085011
+      },
+      {
+        "url": "https://stance-prod.digitalcubed.workers.dev/combined-header.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 167096,
+        "remoteIPAddress": "172.67.181.214",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800"
+        },
+        "responseBodyHash": "3a15a9b12eda66f6f2bdf163c950dfeef9477429f2a4100489b47c05899d688d",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.8097730000154115
+      },
+      {
+        "url": "https://www.stance.com/cdn-cgi/bm/cv/669835187/api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9311,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "max-age=604800, public"
+        },
+        "responseBodyHash": "0d3118e306c6a26f1d2efcb698984e6922c5e7e155c94a84760e36e5592a3c11",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.0346070000086911
+      },
+      {
+        "url": "https://www.stance.com/on/demandware.static/-/Library-Sites-StanceSharedLibrary/default/dw55b016a1/2018/welcome-mat/icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2292,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2576276",
+          "expires": "Fri, 14 Jan 2022 11:44:38 GMT"
+        },
+        "responseBodyHash": "ef850f629d5195134ba2f124ec99d76f631d1813aeeb763bffb0f9bffecf615a",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.06797100004041567
+      },
+      {
+        "url": "https://www.stance.com/dw/image/v2/BBBN_PRD/on/demandware.static/-/Library-Sites-StanceSharedLibrary/default/dw420e6341/2021/homepage-banners/holiday-21/Holiday-Hero-2-Desktop.jpg?sw=2000&sh=2000&sm=fit",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 115850,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"17a8bbdc81e02c371c9a9d68ed785f37\"",
+          "expires": "Fri, 14 Jan 2022 16:06:42 GMT"
+        },
+        "responseBodyHash": "c907a3eab24bc08f799bb5ab2e0f088f425bf2fa7bc72513171d211b954ff4f3",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.06692200002726167
+      },
+      {
+        "url": "https://www.stance.com/dw/image/v2/BBBN_PRD/on/demandware.static/-/Library-Sites-StanceSharedLibrary/default/dw70bfa7ac/2021/merch-banners-sp21/ho-21/Wutang_Tile.jpg?sw=800&sh=800&sm=fit",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 45157,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"a9b9743d2d6dd13edc76cf62b622ade7\"",
+          "expires": "Fri, 14 Jan 2022 16:06:42 GMT"
+        },
+        "responseBodyHash": "18263b99142296eb0a1655078852a3ef47cadde0a4c7e37b102eb1a4872635ae",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.06894299999112263
+      },
+      {
+        "url": "https://www.stance.com/dw/image/v2/BBBN_PRD/on/demandware.static/-/Library-Sites-StanceSharedLibrary/default/dw21d16b56/2021/merch-banners-sp21/ho-21/BoxSet-Image.jpg?sw=800&sh=800&sm=fit",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 81811,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"2cfb7c1eeaf20bdb2f0765494dc4e926\"",
+          "expires": "Fri, 14 Jan 2022 16:06:42 GMT"
+        },
+        "responseBodyHash": "fcb1eeaf83bfa5167eaa42c3d6ec6db7964c8b1f22611ec001dcafe70006a69c",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.06635099998675287
+      },
+      {
+        "url": "https://www.stance.com/dw/image/v2/BBBN_PRD/on/demandware.static/-/Library-Sites-StanceSharedLibrary/default/dw2a4bd1d3/2021/CLP/athleisure/Athleisure-PDP-Enhancement-Desktop.jpg?sw=800&sh=800&sm=fit",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57442,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "etag": "\"594d626f909b57cd82729b6ba79db4ca\"",
+          "expires": "Fri, 14 Jan 2022 16:06:42 GMT"
+        },
+        "responseBodyHash": "9850b205499b7645a5aa7f2f3d67ac16c10dc98b48657acb05a03d610f076c6d",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.07393800001591444
+      },
+      {
+        "url": "https://www.stance.com/dw/image/v2/BBBN_PRD/on/demandware.static/-/Library-Sites-StanceSharedLibrary/default/dwa7657c8e/2021/merch-banners-sp21/ho-21/UW-Imag.jpg?sw=800&sh=800&sm=fit",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 66080,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2574069",
+          "etag": "\"95d8c9766c118455f47ae1e936f02235\"",
+          "expires": "Fri, 14 Jan 2022 11:07:51 GMT"
+        },
+        "responseBodyHash": "4d0f01005136b79eac5f525804d42fc33fe3446b1763863b2a60448c41cf6565",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.054942999966442585
+      },
+      {
+        "url": "https://www.stance.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 825,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "max-age=172800\npublic",
+          "etag": "W/\"61b75920-4d7\"",
+          "expires": "Fri, 17 Dec 2021 16:06:42 GMT"
+        },
+        "responseBodyHash": "2595496fe48df6fcf9b1bc57c29a744c121eb4dd11566466bc13d2e52e6bbcc8",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.023488999984692782
+      },
+      {
+        "url": "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4084,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "max-age=172800\npublic",
+          "etag": "W/\"61b75920-302c\"",
+          "expires": "Fri, 17 Dec 2021 16:06:42 GMT"
+        },
+        "responseBodyHash": "ccf00d1923b0131a10e0c6d26f95e5dee6ebf8621a27e83c5a2f68a2e0093142",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.023535000043921173
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5385,
+        "remoteIPAddress": "104.16.94.65",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/2021.10.0"
+        },
+        "responseBodyHash": "5bf0a170ae91f1bb8d0c94381a74ab8b85f938bf31bf18a9c8e3b835250d3be6",
+        "initiators": [
+          "https://www.stance.com/"
+        ],
+        "time": 0.12471800000639632
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=rji5yma&ht=tk&f=6770.19118.19121.19123.19390.19392&a=3356682&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 181,
+        "remoteIPAddress": "23.1.124.176",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"61612117-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://stance-prod.digitalcubed.workers.dev/combined-header.css"
+        ],
+        "time": 0.11270599998533726
+      },
+      {
+        "url": "https://www.stance.com/on/demandware.static/Sites-Stance_US-Site/-/default/v1639573218503/internal/jscript/applepay.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2975,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Thu, 16 Dec 2021 16:06:43 GMT"
+        },
+        "responseBodyHash": "2ad8df0436390cc4a60f3d7cffb9022a4f7689478cac55850b003cb54090ed6a",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.11731699999654666
+      },
+      {
+        "url": "https://www.stance.com/cdn.cquotient.com/js/v2/gretel.min.js?cf_hash=b2413d694a793cf0fc6593b236b3572a4a2fd503",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13165,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "private; max-age=315360000",
+          "etag": "W/\"4fdd1834cd022d3113e766921bac1ba4\"",
+          "expires": "Wed, 15 Dec 2021 20:06:43 GMT"
+        },
+        "responseBodyHash": "6b6b34e69f08fb2fb269c0affa0b91f979eacc9df506d06fcc670e0601f23784",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.12527000001864508
+      },
+      {
+        "url": "https://www.stance.com/on/demandware.static/Sites-Stance_US-Site/-/default/v1639573218503/internal/jscript/dwac-21.7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2085,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Thu, 16 Dec 2021 16:06:43 GMT"
+        },
+        "responseBodyHash": "0acc05529b896335e67451050b9d9353d4cd680a470919fecf91c12ff09196d3",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.12293200002750382
+      },
+      {
+        "url": "https://www.stance.com/on/demandware.static/Sites-Stance_US-Site/-/default/v1639573218503/internal/jscript/dwanalytics-21.9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2784,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Thu, 16 Dec 2021 16:06:43 GMT"
+        },
+        "responseBodyHash": "c1be4481f94f8dbeac0db34fa65981e1211c794231cb7952d7f2d73f73cb6bfe",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.12026900000637397
+      },
+      {
+        "url": "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "private; max-age=315360000",
+          "etag": "W/\"9dbe3c9e69debaea0d43417c085819a0\"",
+          "expires": "Wed, 15 Dec 2021 20:06:43 GMT"
+        },
+        "responseBodyHash": "b1810d597e1e0db60510f0d80d039a854cd497bfeebd90daa24c1ee7c92cdfa2",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.14112799998838454
+      },
+      {
+        "url": "https://stance-prod.digitalcubed.workers.dev/combined-footer.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 246137,
+        "remoteIPAddress": "172.67.181.214",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.7944089999655262
+      },
+      {
+        "url": "https://www.paypal.com/sdk/js?intent=capture&commit=false&disable-funding=paylater,credit,card&client-id=AeFXR5AVtava645ptAxeyPwn--MMZNAfIqUltBA6-otpK4d2g-fLRvNuL1odiGZn8T7G4MT3jx8omNdB",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89605,
+        "remoteIPAddress": "151.101.129.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, s-maxage=10800",
+          "etag": "W/\"1598f-5tPX2NYOjL1NnutcrhUWTG2/mvk\"",
+          "p3p": "true",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "578d63012424fe7bf52843b80fab2c5699035637360314cb0984f00530fdbd3d",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.2298939999891445
+      },
+      {
+        "url": "https://www.stance.com/on/demandware.static/-/Sites-siteCatalog_StanceUS/default/v1639573218503/pwr/engine/js/full.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7532,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591561",
+          "expires": "Fri, 14 Jan 2022 15:59:24 GMT"
+        },
+        "responseBodyHash": "c28a087673fb2382cb8f3a54b744f87527f1cd4445aee4677296a5bc012bbd34",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.17758199997479096
+      },
+      {
+        "url": "https://use.typekit.net/af/5556ca/000000000000000000013635/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 46853,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"592befb19e5018bfef79b540decbb2ad1b190e1d\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "908c1d307c94c701ac0da446f433ac63c6673517175f3f2ced4bc33fd515df0c",
+        "initiators": [
+          "https://stance-prod.digitalcubed.workers.dev/combined-header.css"
+        ],
+        "time": 0.3380760000436567
+      },
+      {
+        "url": "https://use.typekit.net/af/9d033e/000000000000000000013633/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 39131,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c5092d50782bd05a5530355d2cd08a640e91dcff\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "33015354bb1fcb38639971ddee49e030b123bbabc1254af2a0c3d4f5813f3412",
+        "initiators": [
+          "https://stance-prod.digitalcubed.workers.dev/combined-header.css"
+        ],
+        "time": 0.3466539999935776
+      },
+      {
+        "url": "https://use.typekit.net/af/d5c6f3/000000000000000000013742/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 41448,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"0ab63d1c4f2eb7c46ebfb699be3527a49da1f833\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3c6c1f7b0b7a2e5217f2740eecef4893ef7e8d5d9eebb902ee96a8a11e99c4eb",
+        "initiators": [
+          "https://stance-prod.digitalcubed.workers.dev/combined-header.css"
+        ],
+        "time": 0.3266279999515973
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 95024,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:06:44 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.09427499998128042
+      },
+      {
+        "url": "https://www.stance.com/cdn-cgi/bm/cv/result?req_id=6be0ebaf8d5a6b2c",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 302,
+        "remoteIPAddress": "104.18.9.53",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=2AA3b2DHJ0zQXM55.jYEDD_g9c05hPI7FqKy3cGscnI-1639584404-0-ATn/KngvqSajOACPjXqrMXn5rYhBqnDrY4ZCyolgQ/f/SIeqZVj7jeLPLFHwHaOj21/IxIFoWIiwlBfq8r50UpemGvGdq/hdPdSTXHJdkmnHZHf+5cRJMHubPCZMdhRMAg==; path=/; expires=Wed, 15-Dec-21 16:36:44 GMT; domain=.stance.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/bm/cv/669835187/api.js"
+        ],
+        "time": 0.018717999977525324
+      },
+      {
+        "url": "https://ui.powerreviews.com/stable/fulljs/full.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8963,
+        "remoteIPAddress": "52.222.138.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1800,s-maxage=604800000",
+          "etag": "W/\"635e6e8a6b6978d03cffe095942b6b25\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.stance.com/on/demandware.static/-/Sites-siteCatalog_StanceUS/default/v1639573218503/pwr/engine/js/full.js"
+        ],
+        "time": 0.07271699997363612
+      },
+      {
+        "url": "https://www.paypal.com/tagmanager/pptm.js?id=www.stance.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AeFXR5AVtava645ptAxeyPwn--MMZNAfIqUltBA6-otpK4d2g-fLRvNuL1odiGZn8T7G4MT3jx8omNdB&vault=false",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5567,
+        "remoteIPAddress": "151.101.129.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"34d2-TdtwcctvQAcLo6Ssf9DhzMWP7kw\"",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/sdk/js?intent=capture&commit=false&disable-funding=paylater,credit,card&client-id=AeFXR5AVtava645ptAxeyPwn--MMZNAfIqUltBA6-otpK4d2g-fLRvNuL1odiGZn8T7G4MT3jx8omNdB"
+        ],
+        "time": 0.01138899999205023
+      },
+      {
+        "url": "https://bfx-objects.prd.borderfree.com/v1/dist/bfx.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 160068,
+        "remoteIPAddress": "104.19.176.2",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"6d4635d8e871c31cba805a871f1b82ff\"",
+          "expires": "Wed, 15 Dec 2021 17:06:44 GMT",
+          "set-cookie": "__cf_bm=3d97a2b4e92feca66515666c93642f7a57553521-1639584404-0-AWsFC6z2zLQxXAul3I+mT4BzoqFb4fH3ZGU8Qn9aKiRPktmzlVsOpPu6ILVpGr+vu/4GE2jWcDEWotLCzRjAyDQ=; path=/; expires=Wed, 15-Dec-21 16:36:44 GMT; domain=.prd.borderfree.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.12430199998198077
+      },
+      {
+        "url": "https://euro.stance.eu.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 43427,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:06:44 GMT; secure; HttpOnly\n_orig_referrer=https%3A%2F%2Fwww.stance.com%2F; Expires=Wed, 29-Dec-21 16:06:44 GMT; Domain=stance.eu.com; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Wed, 29-Dec-21 16:06:44 GMT; Domain=stance.eu.com; Path=/; HttpOnly; SameSite=Lax\n_y=ab0d6460-cf43-453f-9c4b-88b8966d43d0; Expires=Thu, 15-Dec-22 16:06:44 GMT; Domain=stance.eu.com; Path=/; SameSite=Lax\n_s=533543db-7210-44dd-a9ea-1fb498dac83b; Expires=Wed, 15-Dec-21 16:36:44 GMT; Domain=stance.eu.com; Path=/; SameSite=Lax\n_shopify_y=ab0d6460-cf43-453f-9c4b-88b8966d43d0; Expires=Thu, 15-Dec-22 16:06:44 GMT; Domain=stance.eu.com; Path=/; SameSite=Lax\n_shopify_s=533543db-7210-44dd-a9ea-1fb498dac83b; Expires=Wed, 15-Dec-21 16:36:44 GMT; Domain=stance.eu.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "f59a16c1827b34f75ae09ff4b6c954792406d0dd691faa989ed93d63486f1d26",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.593098999990616
+      },
+      {
+        "url": "https://ui.powerreviews.com/stable-fulljs-version.json",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://ui.powerreviews.com/stable/fulljs/full.js"
+        ],
+        "time": 0.48255100002279505
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/muse.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16735,
+        "remoteIPAddress": "23.222.18.240",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"611e7e5f-da2c\""
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.stance.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AeFXR5AVtava645ptAxeyPwn--MMZNAfIqUltBA6-otpK4d2g-fLRvNuL1odiGZn8T7G4MT3jx8omNdB&vault=false"
+        ],
+        "time": 0.05187500000465661
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Athird-party%3Aanalytics-xo%3A%3AQRPQGV5AKHU28-1&page=muse%3Athird-party%3Aanalytics-xo%3A%3AQRPQGV5AKHU28-1%3A%3A%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=4eb69f95-5cff-40ce-a943-3d43683130a4&fltp=analytics&mrid=QRPQGV5AKHU28&code=CHECKOUT_BUTTON&partner_name=CHECKOUT_BUTTON&flag_consume=yes&pt=Stance.%20Socks%2C%20underwear%20%26%20apparel.%20Feel%20good%2C%20do%20good.&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-GB&e=im&t=1639584404392&g=-60&completeurl=https%3A%2F%2Fwww.stance.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 923,
+        "remoteIPAddress": "23.34.191.26",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 15 Dec 2021 16:06:44 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734278804%26vteXpYrS%3D1639586204%26vr%3Dbed8943917d0a463b8b48cc7ffffffff%26vt%3Dbed8943917d0a463b8b48cc7fffffffe; Expires=Sun, 15 Dec 2024 16:06:44 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dbed8943917d0a463b8b48cc7ffffffff%26vt%3Dbed8943917d0a463b8b48cc7fffffffe; Expires=Sun, 15 Dec 2024 16:06:44 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0010; path=/; domain=.paypal.com; secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.stance.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AeFXR5AVtava645ptAxeyPwn--MMZNAfIqUltBA6-otpK4d2g-fLRvNuL1odiGZn8T7G4MT3jx8omNdB&vault=false"
+        ],
+        "time": 0.23083399998722598
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-WPJP6KT7KJ&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:06:44 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.3643789999769069
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:13:47 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.36012700002174824
+      },
+      {
+        "url": "https://d38xvr37kwwhcm.cloudfront.net/js/grin-sdk.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "etag": "\"1f6c0af887baf74e41d5bc75d3fb2fda\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.3486140000168234
+      },
+      {
+        "url": "https://tag.measured.com/10061/6mau61l/mejord-gear.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "cache-control": "public,max-age=7200",
+          "etag": "W/\"a2c53706dd7eb49a6934d9ac38fe818b\""
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.3444669999880716
+      },
+      {
+        "url": "https://cdn.pdst.fm/ping.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "etag": "\"d001d1c9f5a942fa5524eeacb047e819\"",
+          "expires": "Wed, 15 Dec 2021 16:52:18 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.33235900005092844
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NKM4PK&cv=155&v=3&t=t&pid=102318071&rv=c10&es=1&e=gtm.init_consent&eid=1&tc=177&z=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 128,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.026620999968145043
+      },
+      {
+        "url": "https://www.googletagmanager.com/a?id=GTM-NKM4PK&cv=155&v=3&t=t&pid=102318071&rv=c10&es=1&e=gtm.init&eid=2&tc=177&z=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 54,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NKM4PK"
+        ],
+        "time": 0.02674000000115484
+      },
+      {
+        "url": "https://stance-svg-prod.digitalcubed.workers.dev/combined.svg",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.16006099997321144
+      },
+      {
+        "url": "https://www.stance.com/on/demandware.static/Sites-Stance_US-Site/-/default/v1585915212662/images/interface/ui-overlay-shadow.png",
+        "method": "GET",
+        "type": "Image",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Thu, 16 Dec 2021 16:06:44 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://stance-prod.digitalcubed.workers.dev/combined-header.css"
+        ],
+        "time": 0.09814600000390783
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.5a40dc16890d46e5d7ea.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33"
+        ],
+        "time": 0.05669500003568828
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/static.adecab376633e42a9de3.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33"
+        ],
+        "time": 0.054949000012129545
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33"
+        ],
+        "time": 0.05284400004893541
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sentry.3770b81f534eb4a7afe1.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33"
+        ],
+        "time": 0.05142099998192862
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~signup_forms.b702257b9068c33df04d.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33"
+        ],
+        "time": 0.05199199996422976
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stance.com/static.klaviyo.com/onsite/js/klaviyo.js?company_id=V8BDhb&cf_hash=b9e11fcb191eb0fade7b956afe33c6cb71672d33"
+        ],
+        "time": 0.04989600001135841
+      },
+      {
+        "url": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.129.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.stance.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "tsrce=loggernodeweb; Domain=.paypal.com; Path=/; Expires=Sat, 18 Dec 2021 16:06:44 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg02.phx; Path=/; Domain=paypal.com; Expires=Wed, 15 Dec 2021 16:36:45 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734278804%26vteXpYrS%3D1639586204%26vr%3Dbed895f417d0a7886bf54927f89b6814%26vt%3Dbed895f417d0a7886bf54927f89b6813%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Sat, 14 Dec 2024 16:06:45 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dbed895f417d0a7886bf54927f89b6814%26vt%3Dbed895f417d0a7886bf54927f89b6813; Path=/; Domain=paypal.com; Expires=Sat, 14 Dec 2024 16:06:45 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/xoplatform/logger/api/logger"
+        ],
+        "time": 0.22722800000337884
+      },
+      {
+        "url": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "method": "POST",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.paypal.com/sdk/js?intent=capture&commit=false&disable-funding=paylater,credit,card&client-id=AeFXR5AVtava645ptAxeyPwn--MMZNAfIqUltBA6-otpK4d2g-fLRvNuL1odiGZn8T7G4MT3jx8omNdB",
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.014038999972399324
+      },
+      {
+        "url": "https://www.stance.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597",
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "time": 0.008418000012170523
+      },
+      {
+        "url": "https://www.stance.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "Ping",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.stance.com"
+        },
+        "initiators": [
+          "https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597",
+          "https://www.stance.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ]
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/theme.scss.css?v=13073200321685915172",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 29923,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 09:04:26 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "af9a6e173d57ea8886015d1ab8585d6c9afa27c1ff286fd71d840959da0aceda",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.0635500000207685
+      },
+      {
+        "url": "https://use.typekit.net/fbh2owb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 974,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "33b6fbb3c9e0f21be9c21db970556cb92f88e6c46ac99b0dfc0940a0145f1b3b",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.05226100003346801
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/theme.js?v=1322026728211995055",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26682,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 07:29:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bf087f1b816916bb6944b91d48ad43cbf4bcc243ec1dc3f988405b3a2f7a4c57",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.06710799998836592
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/lazysizes.js?v=9422402313628365795",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7712,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 09:22:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "706f7f07ec70f71c950bc254624750c67a94df2d6dbf309687370dd44cac48c6",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.06114599999273196
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/mp_linkcode.js?3359478253475096116",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1203,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 07:11:50 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f9331f041a5116cdc245cb645fa7471726594f01adfa64e1e635eed8eb697635",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.06389300001319498
+      },
+      {
+        "url": "https://unpkg.com/swiper/swiper-bundle.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 302,
+        "remoteIPAddress": "104.16.126.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=600, max-age=60"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://unpkg.com/swiper@7.3.2/swiper-bundle.css",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.08981199999107048
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64818,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:06:45 GMT"
+        },
+        "responseBodyHash": "c0747f9e3695b78fbd08fa4d74e4769d8c1ac8c89ac383d2a92845a2a2affd63",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.18752899998798966
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/vendor.js?v=1200183919454698418",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 46460,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 10:43:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ae2e89c00cb2ff53727cf246c22d4d4262a1b5dca2a0309965d63d9bef6d5057",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.12163699994562194
+      },
+      {
+        "url": "https://unpkg.com/swiper/swiper-bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "104.16.126.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=600, max-age=60"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://unpkg.com/swiper@7.3.2/swiper-bundle.js",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.046126000001095235
+      },
+      {
+        "url": "https://connect.nosto.com/include/shopify-2121105467",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59364,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public",
+          "etag": "W/\"d9948d07aead44b476c058e76770ae509c4d386c4fc7b993c24df57c6d7d29a0\""
+        },
+        "responseBodyHash": "d9948d07aead44b476c058e76770ae509c4d386c4fc7b993c24df57c6d7d29a0",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.2217979999841191
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3512,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.14943799999309704
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12564,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.15054499998223037
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/boost-pfs-instant-search.css?v=11740703047337985213",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4700,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 05:14:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "47764c13a6d7da2b505d82be854bffce37d45c96e2e3c2720bae04f735cf3569",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.019375999982003123
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/boost-pfs-custom.css?v=8010261707485235828",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6585,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 12:50:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0a2cc7f50c527a1dd2231e436fcf108353b0f088ffff715a209befd27f9bad23",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.020121999958064407
+      },
+      {
+        "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7834,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"158ca99a1f63568e56a39abb980c9aa7\""
+        },
+        "responseBodyHash": "a9ddd05afc7b255840510e1d40fda6304d6dc5695fa2ef4c40424d1507d2cfe3",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.1946790000074543
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/NEW_ARRIVALS_MENS_345x200.jpg?v=1627572129",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16129,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:35:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "85575e1693f8842b2d67fac5e4896350bfbbd59cb86b86cb5dd0a9edf726e204",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.11363400000846013
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/NEW_ARRIVALS_WOMENS_345x200.jpg?v=1627572136",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15626,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:19:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f8008136f3b433cecf50b6c3f45e3c2c1ffb417620c35760a3b3a255bacca43",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.10974200000055134
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/all_gender_gift_guide_tile_1_250x.jpg?v=1636560999",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9022,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 24 Nov 2022 12:25:54 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3e4592cd1fa534ead70083f96412653257aa1c0349d1ebf9ae068bfefae31072",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.1123410000000149
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/UW_250x.jpg?v=1616669431",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7785,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:19:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4d2bebc4c476f02915f565b1760d15b3ab3ba7c9fdf88e970ff17c9100bf2cb9",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.11420200002612546
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/HOODIES_2_67ee6655-56e4-48e8-a395-67810958e590_250x.jpg?v=1627572666",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13697,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 10:43:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1af92ad17ec6a991c94c7925f2ec5bc519cb16884db623fdd63ef1a59b233a01",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.11507100000744686
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/SOCKS-SUBCAT_300x375.jpg?v=1638461598",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15553,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 03 Dec 2022 23:01:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b13649017bec0be223e7c37b954dfea770a405ec784326ae768c1cf8770f9518",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.11694400000851601
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/21_D4_BOXSET_CAT_WS_300x375.jpg?v=1635943107",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16085,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 04:50:50 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dac1aed18365da31875427864e813032a8cc7d1be69473c346319afd3c226096",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.12256500002695248
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/21_D4_HOODIE_CAT_WS_WOMAN_300x375.jpg?v=1635943164",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22879,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:43:34 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3815924389b77ca3ee020616decfba273a95946ff1d10a1c0befab913d9e8a2f",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.11735299997963011
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/21_D4_BEANIE_CAT_WS_300x375.jpg?v=1635943207",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21502,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 06:07:58 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bfecc87db2a8b0f4ecbc6f3b864ad410cec3410aa28ff8c47dce838bd753e1e0",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.120632000034675
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/21_D3_FEAT_UNDERWEAR_300x375.jpg?v=1632328012",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38439,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 07:26:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3871ef374aa0708102ac117d08976352dafc0ee6f81d15e5e11a7f851bae1358",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.12565600004745647
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/21_D3_FEAT_SOLIDS_300x375.jpg?v=1632327998",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20481,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 08:43:03 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "63608b473eff5367d2a7dd14481030846b06b3c4df03b00b68888c6326baf2b9",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.13280899997334927
+      },
+      {
+        "url": "https://vvaststance.mpeasylink.com/mpel/mpel.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2122,
+        "remoteIPAddress": "54.174.50.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"5096-1627916136000\"",
+          "expires": "Thu, 16 Dec 2021 16:06:45 GMT"
+        },
+        "responseBodyHash": "6a53a4b196894afe6fdfa8066d15661096832e954ad3ebe206f8605f816aa39b",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.5180699999909848
+      },
+      {
+        "url": "https://a.klaviyo.com/media/js/onsite/onsite.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 31263,
+        "remoteIPAddress": "104.18.5.166",
+        "responseHeaders": {
+          "cache-control": "max-age=86400\npublic",
+          "etag": "W/\"61b9f4f7-176d9\"",
+          "expires": "Thu, 16 Dec 2021 16:06:45 GMT",
+          "set-cookie": "__cf_bm=8iJWnieMXFOQwvPAhrVd1OpjYIqrYml0fjcLYkNm5Ow-1639584405-0-ARoj4FgVKEE/jwr6Mx5VriNdZP+SZuBW7H7O39KQZD1qiBDWk1k7NDH2KDlfvRq3U4OaRyUfV48aDEd3/hgVqmY=; path=/; expires=Wed, 15-Dec-21 16:36:45 GMT; domain=.klaviyo.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "cc6a07524e88b23ff3141a801d7f5e9d1566dd312a8b64dca06cbfdb8fa6f328",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.2864510000217706
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23149,
+        "remoteIPAddress": "104.16.19.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30672000",
+          "etag": "\"605c4223-f455\"",
+          "expires": "Mon, 05 Dec 2022 16:06:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "dce03f3336254bd93ae523da00dc35de7a9851eb33fb6fbe20d94d4d32612a2a",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.1581630000146106
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8586,
+        "remoteIPAddress": "104.16.19.94",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30672000",
+          "etag": "\"605c4223-5112\"",
+          "expires": "Mon, 05 Dec 2022 16:06:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9b893590eb7c02dc9fc7dd07950cf202466862e15c1de01bf75d80eb564764b5",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.15929400001186877
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/boost-pfs-core-instant-search.js?v=15512475438969289245",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 53683,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 07:10:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "59144134a4e62d271e9cee90d5bf82c7438c712ece836307e1aa24badfcbf0d0",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.134756000014022
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/boost-pfs-instant-search.js?v=16674080522246747681",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 454,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 07:32:53 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "328afac73120b54c18604fcda07526855b3872a2bd5dcfb51fa5a12d5cb1d452",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.12132299999939278
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/boost-pfs-init.js?v=18321486475260673524",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 424,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 05:19:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "364fd16fe4cd71c1005f91f74f27388ead5581691499140f915a40f121c87c8f",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.1216300000087358
+      },
+      {
+        "url": "https://unpkg.com/swiper@7.3.2/swiper-bundle.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4932,
+        "remoteIPAddress": "104.16.126.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"4772-BDOM4QNb0TtN2G8lx6BYbWJocNU\""
+        },
+        "responseBodyHash": "fc3982ea5e559b24321bb7046ff4dc0a388a9a9710cd8fb6d189f2359571b443",
+        "redirectedFrom": "https://unpkg.com/swiper/swiper-bundle.css",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.03678100003162399
+      },
+      {
+        "url": "https://unpkg.com/swiper@7.3.2/swiper-bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 62226,
+        "remoteIPAddress": "104.16.126.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"4e49b-EmRdm8HgZ2v7tCFihjeNnrW/AsU\""
+        },
+        "responseBodyHash": "f2ac03fa96a4b3874d290519c41182658bef2966786bf4909ead2e18f5100273",
+        "redirectedFrom": "https://unpkg.com/swiper/swiper-bundle.js",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.03631900000618771
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=fbh2owb&ht=tk&f=19118.19121.19123.19392&a=12391282&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 181,
+        "remoteIPAddress": "23.1.124.176",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"61612117-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/fbh2owb.css"
+        ],
+        "time": 0.011289999994914979
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16432,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 02 Dec 2022 17:24:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5cbc4d1068a9901f3b7138f4a438e4e70f81564077ac44a8f976e98a2983295c",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.01921200001379475
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2712,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.017178000009153038
+      },
+      {
+        "url": "https://static.klaviyo.com/forms/js/client.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 301,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://static.klaviyo.com/onsite/js/klaviyo.js",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.3347939999657683
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/STANCE-XMAS-STYLES-DESKTOP_300x300.jpg?v=1638462310",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14774,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 02 Dec 2022 16:25:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5da4f0a66d5e4616d8cecdc2f51d449d945cfe3f99643476b2a16356d07d9c23",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.009842999977990985
+      },
+      {
+        "url": "https://use.typekit.net/af/d5c6f3/000000000000000000013742/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"0ab63d1c4f2eb7c46ebfb699be3527a49da1f833\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3c6c1f7b0b7a2e5217f2740eecef4893ef7e8d5d9eebb902ee96a8a11e99c4eb",
+        "initiators": [
+          "https://use.typekit.net/fbh2owb.css"
+        ],
+        "time": 0.0018399999826215208
+      },
+      {
+        "url": "https://use.typekit.net/af/9d033e/000000000000000000013633/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"c5092d50782bd05a5530355d2cd08a640e91dcff\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "33015354bb1fcb38639971ddee49e030b123bbabc1254af2a0c3d4f5813f3412",
+        "initiators": [
+          "https://use.typekit.net/fbh2owb.css"
+        ],
+        "time": 0.002062999992631376
+      },
+      {
+        "url": "https://use.typekit.net/af/5556ca/000000000000000000013635/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"592befb19e5018bfef79b540decbb2ad1b190e1d\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "908c1d307c94c701ac0da446f433ac63c6673517175f3f2ced4bc33fd515df0c",
+        "initiators": [
+          "https://use.typekit.net/fbh2owb.css"
+        ],
+        "time": 0.0033779999939724803
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/HOMEPAGE_MOBILE_8_800x1000.jpg?v=1634302893);",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 148318,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 04:27:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6c2091533bfa9795a2afa93ff840bfde77cbb3e1efda866d0673a59da99cfeb4",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.018561000004410744
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/SOCIAL_NEW3_70d31828-3e3d-402d-b2a5-eaf78c45a19c_800x1000.jpg?v=1638462194);",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 193236,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 02 Dec 2022 16:23:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ea16172f4d7bc7cb777723340a77f2989064da980b0586fdda0c3efe7ae97162",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.02522299997508526
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/Holiday-Launch-Desktop_300x300.jpg?v=1635941567",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9589,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 05:23:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ccbcae8826ed6a0d7e557c58d6b6a5a89a5e1decc54ea20c2969d01107309893",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.02441399998497218
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 921,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "\"1a9a0cb6240ee673608131274b70a1ca\""
+        },
+        "responseBodyHash": "fc531c350bc12c201e5323c9b1ae0a946002d710f14d26ef41b95b7f6681dbb9",
+        "redirectedFrom": "https://static.klaviyo.com/forms/js/client.js",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.008005000010598451
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/index.html?templateId=5613c9cde69ddc09340c6beb&businessunitId=5f8fe8403afacb0001f24bdd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2453,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"d7c7262c00c93428f2217dcc4a510814\""
+        },
+        "responseBodyHash": "3ddf00a7880cbfb43927c27a83df7cd10750bded7eba961f46bbb98e92fdfff8",
+        "initiators": [
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.016937999986112118
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-5GE0TR6RDZ&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61965,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:06:45 GMT"
+        },
+        "responseBodyHash": "0e75c84cf4c570c91e50ed904c3cfe97ae059174035388575c8a6854f6ea9670",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.02361400000518188
+      },
+      {
+        "url": "https://www.gstatic.com/wcm/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1888,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Wed, 15 Dec 2021 16:39:21 GMT"
+        },
+        "responseBodyHash": "9f959aaad80347edc26ed8279c6a68c098efc76876ac2e2f8ccc54b118f197f4",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.039555000024847686
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26434,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.05069500004174188
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10982,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=1829137443D86E101414027A42ED6F10; domain=.bing.com; expires=Mon, 09-Jan-2023 16:06:45 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.06872400001157075
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1374,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.05923099996289238
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 15 Dec 2021 16:06:46 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.08072299999184906
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0253/0446/5454/t/8/assets/ajax-loader.gif?793",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2482,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 17 Nov 2022 01:09:42 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f8a591456abca368d0dbc11113bc28702a3969e22ffa05decdba60ea42911521",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/theme.scss.css?v=13073200321685915172"
+        ],
+        "time": 0.010290000005625188
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/files/STANCE-XMAS-STYLES-DESKTOP_1512x.jpg?v=1638462310",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 261921,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 03 Dec 2022 23:36:08 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0970440b23836032d2d17ba29fd98ef6ce96857b915c8222c282dc631e72bf22",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0021/2110/5467/t/32/assets/lazysizes.js?v=9422402313628365795"
+        ],
+        "time": 0.02897300000768155
+      },
+      {
+        "url": "https://connect.nosto.com/ev1?m=shopify-2121105467&message=%7B%22elements%22%3A%5B%22frontpage-nosto-2%22%2C%22frontpage-nosto-1%22%2C%22frontpage-nosto-2%22%2C%22minicart-nosto-1%22%5D%2C%22referrer%22%3A%22https%3A%2F%2Fwww.stance.com%2F%22%2C%22response_mode%22%3A%22HTML%22%2C%22url%22%3A%22https%3A%2F%2Feuro.stance.eu.com%2F%22%2C%22events%22%3A%5B%5D%2C%22page_type%22%3A%22front%22%2C%22cart%22%3A%5B%5D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3571,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "set-cookie": "NOSTO_ERRORS=; Max-Age=0; Expires=Wed, 15 Dec 2021 16:06:46 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nNOSTO_SESSION=96ae9e4a6227e46df45909539897876ef42b261b-___AT=866d2f3112dad427c5ea20b8b4bd9d23a2feb374&___TS=1639613206170; Max-Age=28800; Expires=Thu, 16 Dec 2021 00:06:46 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nNOSTO_FLASH=; Max-Age=0; Expires=Wed, 15 Dec 2021 16:06:46 GMT; Path=/; Secure; HTTPOnly; SameSite=None"
+        },
+        "responseBodyHash": "a643166552edae6a85438bab49d84be52f73c5b6f8b9098e709d1f2423f0479c",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.1983110000146553
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 477,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.4547779999556951
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1782,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.016217000025790185
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1173,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "W/\"6d4d0b33a7d56a8ec28cfaded30deded\""
+        },
+        "responseBodyHash": "478b54cdd3b36afa7605a86b9e0d947e588bbfafff0ffbb04bd35dbb7ddbdef2",
+        "initiators": [
+          "https://static.klaviyo.com/forms/js/client.js"
+        ],
+        "time": 0.019980000040959567
+      },
+      {
+        "url": "https://vvaststance.mpeasylink.com/mpel/mpel_storage.html?cmd=getpref&href=https%3A%2F%2Feuro.stance.eu.com%2F",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1519,
+        "remoteIPAddress": "54.174.50.57",
+        "responseHeaders": {
+          "etag": "W/\"2762-1627916136000\""
+        },
+        "responseBodyHash": "a0cde7b6fe3a96a34306312aefea360f2a3f222447af991b18c6291f14899767",
+        "initiators": [
+          "https://vvaststance.mpeasylink.com/mpel/mpel.js"
+        ],
+        "time": 0.12173499999335036
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17272,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"fa076c5928c09b2925599a41b8a3bd27\""
+        },
+        "responseBodyHash": "f1c3a57b877111337cd4623d4e5cb0b63d0faa361440c6ae080a29ed0f1c64ad",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/index.html?templateId=5613c9cde69ddc09340c6beb&businessunitId=5f8fe8403afacb0001f24bdd"
+        ],
+        "time": 0.01429299998562783
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-5GE0TR6RDZ&gtm=2oec10&_p=240121628&sr=800x600&_gaz=1&ul=en-gb&cid=55547262.1639584406&_s=1&dl=https%3A%2F%2Feuro.stance.eu.com%2F&dr=https%3A%2F%2Fwww.stance.com%2F&dt=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&sid=1639584405&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 339,
+        "remoteIPAddress": "142.251.39.110",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-5GE0TR6RDZ&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.08288599998923019
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-5GE0TR6RDZ&cid=55547262.1639584406&gtm=2oec10&aip=1",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 348,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-5GE0TR6RDZ&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.09155399998417124
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-5GE0TR6RDZ&cid=55547262.1639584406&gtm=2oec10&aip=1&z=785690183",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-5GE0TR6RDZ&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.09471800003666431
+      },
+      {
+        "url": "https://www.gstatic.com/call-tracking/call-tracking_7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21413,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Mon, 12 Dec 2022 11:07:22 GMT"
+        },
+        "responseBodyHash": "ff2fde453aa6220144126828a284d4cc227479f1fe83beef3a6b6a4504c7e4df",
+        "initiators": [
+          "https://www.gstatic.com/wcm/loader.js"
+        ],
+        "time": 0.02311900001950562
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18927,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.026362999982666224
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/806458656/?random=1639584406253&cv=9&fst=1639584406253&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=3&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&tiba=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1674,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 15-Dec-2021 16:21:46 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b53b4cceebf1328ad18b4f468ae6c0c3dfdda8c363e24979fce2e450ce5f0987",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.05830999999307096
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/420661992827523?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89630,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "0ab91539abcbb7a69468d68d41a4ccadf8e2011d8c219258855b5cd432ad259a",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.17273600003682077
+      },
+      {
+        "url": "https://use.typekit.net/af/d25e62/000000000000000000013630/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 51618,
+        "remoteIPAddress": "104.109.143.72",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"0fe425eb9870e830aec82f5aa62753c6794f865c\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "453adda75845e4367d4af04c9bf07c0738c4a33ee3ed7fc7eb7bad4bcc881504",
+        "initiators": [
+          "https://use.typekit.net/fbh2owb.css"
+        ],
+        "time": 0.20090100000379607
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/M556D17OGG_WHR_9eed67e7-7c63-4fc7-b152-7550c7a9baa4_400x400.jpg?v=1622041383",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16485,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 02 Dec 2022 12:00:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3eeb0a933993478f0399ce84e61f6ca1970932029b5019c16b9ec91a408de1f0",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.019700000004377216
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/M311D14ICO_RED_400x400.jpg?v=1626276190",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15187,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sun, 06 Nov 2022 10:57:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b0b65b06f131d6c6fd501fbd927becfa39ac5cb30736c5fd76387ee6d25b6614",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.0209620000096038
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A558C20FCS_MRN_400x400.png?v=1617975711",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20656,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 10 Nov 2022 18:16:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "daad0cbdb838b6f93c802727b178b0ed82790c086705a77ebfb055f8df53266e",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.02076599997235462
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A558C21NO_BLK_400x400.jpg?v=1626940066",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22892,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 24 Nov 2022 13:37:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e15b5c888ffc9d0f6838a50197ce92133bea21649e0e356ce90b8c2ec58ce20c",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.025080999999772757
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A558B20MAR_BLK_400x400.jpg?v=1608824555",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28977,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 05 Nov 2022 08:00:28 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "93b1263396fa61d52263a29b0e0879646e2c72ade79eb7caca6f82d540955077",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.026073000044561923
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A558C20FCC_NVY_400x400.png?v=1617975972",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 20258,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 07:52:17 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2cce9e6a2ef017d20ede69985646741e2a00903e74ead03a88bca7145a7ac9a7",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.027046000002883375
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A545D21MAN_BLK_400x400.jpg?v=1631806771",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 27454,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 10:51:03 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6859ea09fd97160e3d4703e5e665be861216a472d6072b4286764d459b8c60f7",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.02757000003475696
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A558C20FCB_BLK_400x400.png?v=1617976116",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21238,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:29:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "88e635b628ceaf5a30b1ea713a8087b4594087beead565a902d5b2a96fa348a2",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.02902600000379607
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/A556C20JPK_GRY_400x400.jpg?v=1621440710",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30708,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 29 Oct 2022 10:33:40 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cc874e9a2b2518dcaeaf09d4bb650cbec74b3d37e7afebdd7f1e8913b9e3f42a",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.036900000006426126
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0021/2110/5467/products/M556D17OGG_WHT_d9e06ea3-55c7-498a-9db9-6da03ed7a4aa_400x400.jpg?v=1622041434",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16208,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 08:59:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bc4705471aabff65e19601d73fee38bb8ba8de8679f53e936ad7b34d1eb5b9a9",
+        "initiators": [
+          "https://connect.nosto.com/include/shopify-2121105467"
+        ],
+        "time": 0.02926300000399351
+      },
+      {
+        "url": "https://bat.bing.com/p/action/25061968.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 93,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.04236399999354035
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=25061968&tm=gtm002&Ver=2&mid=d85627b6-10d0-4e9d-9ff1-5f88fd1276f7&sid=00b9f1905dc111ec910481f3e567f45a&vid=00ba8ff05dc111ecb243b92d93e32321&vids=1&pi=842281895&lg=en-GB&sw=800&sh=600&sc=24&tl=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&p=https%3A%2F%2Feuro.stance.eu.com%2F&r=https%3A%2F%2Fwww.stance.com%2F&lt=1483&evt=pageLoad&msclkid=N&sv=1&rn=704142",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 150,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KVC9NGQ"
+        ],
+        "time": 0.04808700003195554
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.46",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:13:47 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.0028729999903589487
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.81cb2a3e92c390c72917.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7996,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"27a4f59d116a4bfd4934de6ecb83ec74\""
+        },
+        "responseBodyHash": "ccabcd6edc7e565b307d9d58f5c4b72bdd959d5d9f8dda1ad56374acdfb4b555",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ"
+        ],
+        "time": 0.058474000019486994
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/static.9af9b8f4e03ba6082067.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5736,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ff2e9f23b437e43d03f544192b1ec858\""
+        },
+        "responseBodyHash": "d7b2e71a0cdaaa1e94c489cad58c05fe14e8ba97d21a84a227b7c39dd0969725",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ"
+        ],
+        "time": 0.059680000005755574
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9724,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19a7fdd374429418b6912c2497585cae\""
+        },
+        "responseBodyHash": "3eac6b6ca0df419caa2b1951fef60f59bd036969221bc6d3d9784c5ba5d9a062",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ"
+        ],
+        "time": 0.05823999998392537
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sentry.3770b81f534eb4a7afe1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14085,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ed55aff052cb09a4e554b42b64e82183\""
+        },
+        "responseBodyHash": "a5053567e6cb48aeb3cde3c48c745ef891dd0ea20ee643561facd301d24c9085",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ"
+        ],
+        "time": 0.09081500000320375
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27063,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"0e519497f81169e35dca8abec3785924\""
+        },
+        "responseBodyHash": "44d13cb119bc33fdec2bde452066cb1c810819d5a66d661c5c70b67a224f6b12",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ"
+        ],
+        "time": 0.12168600002769381
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32446,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19ec8a520fa9c7fb2122c23a63dba632\""
+        },
+        "responseBodyHash": "f284b82c8ebecad1341050d0910a700684c8e2f56c57d4fe92f4757ce6db5907",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ"
+        ],
+        "time": 0.12425500003155321
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17698,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://euro.stance.eu.com/",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.038240999972913414
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://euro.stance.eu.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.12550099997315556
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://euro.stance.eu.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11507399997208267
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 475,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11711499997181818
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/806458656/wcm?cc=ZZ&dn=01243214020&cl=dF6ECNTa7YIBEKCqxoAD&ref=https%3A%2F%2Fwww.stance.com%2F&ct_eid=2",
+        "method": "GET",
+        "type": "XHR",
+        "status": 302,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/attribution/wcm?cc=ZZ&dn=01243214020&cl=dF6ECNTa7YIBEKCqxoAD",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.gstatic.com/call-tracking/call-tracking_7.js"
+        ],
+        "time": 0.21607000002404675
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 475,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1139850000035949
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/806458656/?random=1639584406253&cv=9&fst=1639584000000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=3&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&tiba=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&async=1&fmt=3&is_vtc=1&random=2448732767&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/806458656/?random=1639584406253&cv=9&fst=1639584406253&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=3&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&tiba=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.06737000000430271
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/806458656/?random=1639584406253&cv=9&fst=1639584000000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=3&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&frm=0&url=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&tiba=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&async=1&fmt=3&is_vtc=1&random=2448732767&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 154,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/806458656/?random=1639584406253&cv=9&fst=1639584406253&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=3&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&tiba=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.028618999989703298
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/405796963638333?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89077,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "1e18c6b903dfa591f4e3d08736b4963d2220351db08a3bdd0ebcb9484414b94c",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/420661992827523?v=2.9.48&r=stable"
+        ],
+        "time": 0.4678899999707937
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=420661992827523&ev=PageView&dl=https%3A%2F%2Feuro.stance.eu.com%2F&rl=https%3A%2F%2Fwww.stance.com%2F&if=false&ts=1639584406692&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.2.1639584406690.1147690137&it=1639584406279&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:06:46 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/420661992827523?v=2.9.48&r=stable"
+        ],
+        "time": 0.02990600001066923
+      },
+      {
+        "url": "https://vvaststance.mpeasylink.com/mpel/mpel?href=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&lang=&country=undefined&curr=undefined&region=undefined&osl=en-GB",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1263,
+        "remoteIPAddress": "54.174.50.57",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa OUR IND COM NAV INT STA\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "10586bcb69fc15d8eefb477a27ea55393686e04a7f69d7459865192ad52b84fa",
+        "initiators": [
+          "https://vvaststance.mpeasylink.com/mpel/mpel.js",
+          "https://vvaststance.mpeasylink.com/mpel/mpel_storage.html?cmd=getpref&href=https%3A%2F%2Feuro.stance.eu.com%2F"
+        ],
+        "time": 0.10250400000950322
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2613339251082&pd=%7B%22np%22%3A%22gtm%22%2C%22aem_enabled%22%3Atrue%2C%22gtm_aem_configs%22%3A%5B%22em%22%5D%7D&cb=1639584406734",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 857,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "cd80ae8e3e2bda63c74d0584cc96aa28d5a54b7a7384ff046ed4082c3d642f6f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.0643320000381209
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613339251082&pd=%7B%22np%22%3A%22gtm%22%2C%22aem_enabled%22%3Atrue%2C%22gtm_aem_configs%22%3A%5B%22em%22%5D%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Feuro.stance.eu.com%2F%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.stance.com%2F%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639584406738",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.060071000014431775
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613339251082&pd=%7B%22np%22%3A%22shopify%22%2C%22aem_enabled%22%3Atrue%2C%22gtm_aem_configs%22%3A%5B%22em%22%5D%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Feuro.stance.eu.com%2F%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.stance.com%2F%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639584406739",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.05908100004307926
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22np%22%3A%22shopify%22%7D&tid=2613339251082&pd=%7B%22np%22%3A%22shopify%22%2C%22aem_enabled%22%3Atrue%2C%22gtm_aem_configs%22%3A%5B%22em%22%5D%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Feuro.stance.eu.com%2F%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.stance.com%2F%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639584406740",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 576,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZwekF4Nmk0L0xUQU1oS0VUN3JrVHVtbjl1bHhhbGlJSko1ZnQ2blBhRzZMMldNNGJ6YjdDZFk2dWJHbXd3S1hsL01RREh5ZHdERWp6UndvZ3dCcFJVNm93bDVsRTJFdnlaTzE2ZjM5VWc4bz0mcDZnMWU0b254QmxnMUt6STRleEJuY3JDb3JZPQ==\"; Expires=Thu, 15 Dec 2022 16:06:46 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.06115199998021126
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustbox-data/5613c9cde69ddc09340c6beb?businessUnitId=5f8fe8403afacb0001f24bdd&locale=en-GB&reviewsPerPage=0",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 920,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800",
+          "etag": "\"6faff134898ef58abbbb34096114b7df\""
+        },
+        "responseBodyHash": "d1dfc9ec61e3d7d4651c052a292c09d85fd9e7b820334485de03c5da5ceb468e",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.01446800003759563
+      },
+      {
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-GB&styleHeight=100%25&styleWidth=100%25&theme=light&url=https%3A%2F%2Feuro.stance.eu.com%2F&referrer=https%3A%2F%2Fwww.stance.com%2F&userAgent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36&language=en-GB&platform=Win32&nosettings=1&businessUnitId=5f8fe8403afacb0001f24bdd&widgetId=5613c9cde69ddc09340c6beb",
+        "method": "GET",
+        "type": "XHR",
+        "status": 204,
+        "size": 309,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.055694000038784
+      },
+      {
+        "url": "https://www.google.nl/pagead/attribution/wcm?cc=ZZ&dn=01243214020&cl=dF6ECNTa7YIBEKCqxoAD",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 244,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "null",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d933a98657089095397ca6126d62e3a07c39e70f82b36f8cea002c0ba5bf1e2c",
+        "redirectedFrom": "https://www.googleadservices.com/pagead/conversion/806458656/wcm?cc=ZZ&dn=01243214020&cl=dF6ECNTa7YIBEKCqxoAD&ref=https%3A%2F%2Fwww.stance.com%2F&ct_eid=2",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.gstatic.com/call-tracking/call-tracking_7.js"
+        ],
+        "time": 0.014000000024680048
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-98711017-6&cid=55547262.1639584406&jid=257654695&gjid=717377162&_gid=1785153774.1639584407&_u=YCDAgEABBAAAAE~&z=205470547",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 151,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.020215999975334853
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=240121628&t=pageview&_s=1&dl=https%3A%2F%2Feuro.stance.eu.com%2F&dr=https%3A%2F%2Fwww.stance.com%2F&dp=%2F&ul=en-gb&de=UTF-8&dt=Stance%20Socks%20-%20Uncover%20the%20Uncommon%20%E2%80%93%20Stance%20Europe&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YCDAgEABB~&jid=257654695&gjid=717377162&cid=55547262.1639584406&tid=UA-98711017-6&_gid=1785153774.1639584407&did=BwiEti&z=526778906",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 194,
+        "remoteIPAddress": "142.251.36.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01792300003580749
+      },
+      {
+        "url": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=NAyvCZ",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 371,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10"
+        },
+        "responseBodyHash": "53a85651866852f33fcaf1ee1eff6e5002e8dfe32e4dd49187007b3a7c1367ea",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js"
+        ],
+        "time": 0.12784000003011897
+      },
+      {
+        "url": "https://static-forms.klaviyo.com/forms/api/v5/NAyvCZ/full-forms",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3972,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=5",
+          "etag": "\"6b221ae7c401504f83cd5662021659c3\""
+        },
+        "responseBodyHash": "11bf9ade5025cbdcb612ef6081fb6836906cf7b6dfea5c6f2647214cf0199b16",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js"
+        ],
+        "time": 0.13634099997580051
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 274,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.14908999996259809
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/popup.html?templateId=5613c9cde69ddc09340c6beb&businessunitId=5f8fe8403afacb0001f24bdd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2180,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"f768c43b4da88e81eb80c7f886c6608d\""
+        },
+        "responseBodyHash": "e6bdaef42adb44b5c6515243c85259f12dd24f2038bed02a6a207da2ec6e0972",
+        "initiators": [
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+          "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/main.js"
+        ],
+        "time": 0.023916999984066933
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-98711017-6&cid=55547262.1639584406&jid=257654695&_u=YCDAgEABBAAAAE~&z=513213297",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.037093999970238656
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-98711017-6&cid=55547262.1639584406&jid=257654695&_u=YCDAgEABBAAAAE~&z=513213297",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.03612899995641783
+      },
+      {
+        "url": "https://vvaststance.mpeasylink.com/mpel/mpel_ssd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1636,
+        "remoteIPAddress": "54.174.50.57",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "W/\"3276-1627916136000\"",
+          "expires": "Thu, 16 Dec 2021 16:06:47 GMT"
+        },
+        "responseBodyHash": "b62cc7ffb3e1b7d5764b093b730c09632ef42b8c9f09fd0182ab2276d4079fc1",
+        "initiators": [
+          "https://vvaststance.mpeasylink.com/mpel/mpel?href=https%3A%2F%2Feuro.stance.eu.com%2F&ref=https%3A%2F%2Fwww.stance.com%2F&lang=&country=undefined&curr=undefined&region=undefined&osl=en-GB"
+        ],
+        "time": 0.10213200002908707
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/popup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14987,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"b92f1ada58f5f4a8a85585c629743af2\""
+        },
+        "responseBodyHash": "8cb884c58fced3732d12008c224d126ce59c0971a3b2350afb4393cc832927f0",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5613c9cde69ddc09340c6beb/popup.html?templateId=5613c9cde69ddc09340c6beb&businessunitId=5f8fe8403afacb0001f24bdd"
+        ],
+        "time": 0.016038000001572073
+      },
+      {
+        "url": "https://vvaststance.mpeasylink.com/mpel/mpel_storage.html?cmd=storePref&href=https%3A%2F%2Feuro.stance.eu.com%2F&siteurl=euro.stance.eu.com&lang=en&country=&region=&sitelist=euro.stance.eu.com;fr.stance.eu.com&currency=&nonMP=false&mode=&uuid=b3c50421425849ffa6d649dac9fe645d",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1519,
+        "remoteIPAddress": "54.174.50.57",
+        "responseHeaders": {
+          "etag": "W/\"2762-1627916136000\""
+        },
+        "responseBodyHash": "a0cde7b6fe3a96a34306312aefea360f2a3f222447af991b18c6291f14899767",
+        "initiators": [
+          "https://vvaststance.mpeasylink.com/mpel/mpel_ssd.js"
+        ],
+        "time": 0.09953499998664483
+      },
+      {
+        "url": "https://analytics.convertlanguage.com/el3.gif?ea=none&er=def&d_lang=&d_country=&d_curr=&hn=euro.stance.eu.com&i_lang=en&i_country=&i_curr=&s_bl=en&s_ref=https%3A%2F%2Fwww.stance.com%2F&s_rl=&s_ll=nl&s_geo=nl&s_nl=en-GB&c_lang=&alg_sig=00000&uuid=b3c50421425849ffa6d649dac9fe645d&ua=na&et=2.5&f_lang=&f_country=&f_curr=&hist=&tpl=e_T1L1_v3.11.1.0&url=https%3A%2F%2Feuro.stance.eu.com%2F&",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 687,
+        "remoteIPAddress": "3.130.188.183",
+        "responseHeaders": {
+          "cache-control": "no-cache=\"set-cookie\"",
+          "etag": "\"23-588dc79153f13\"",
+          "set-cookie": "AWSELB=8FD5BF45101FF8449638C87DEF9B977EC6B001A51168B89570FCB6C08D3FF2B26FD90F0B5C2896C03245D4CC5772A83BC7F7438A6AD4A950C17FDBD9B40625B25E60676B4E;PATH=/;MAX-AGE=15\nAWSELBCORS=8FD5BF45101FF8449638C87DEF9B977EC6B001A51168B89570FCB6C08D3FF2B26FD90F0B5C2896C03245D4CC5772A83BC7F7438A6AD4A950C17FDBD9B40625B25E60676B4E;PATH=/;MAX-AGE=15;SECURE;SAMESITE=None"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://vvaststance.mpeasylink.com/mpel/mpel_ssd.js"
+        ],
+        "time": 0.5844880000222474
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=405796963638333&ev=PageView&dl=https%3A%2F%2Feuro.stance.eu.com%2F&rl=https%3A%2F%2Fwww.stance.com%2F&if=false&ts=1639584407197&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=0&o=30&fbp=fb.2.1639584406690.1147690137&it=1639584406279&coo=false&eid=bed8a462-F6F7-42B4-08BB-18C90A9584CA&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 147,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:06:47 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/405796963638333?v=2.9.48&r=stable"
+        ],
+        "time": 0.010276999964844435
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "status": 200,
+        "size": 85,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.008475999988149852
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 4360,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=c36ebf8d667d2835a360b8fec0346463; path=/; expires=Thu, 15 Dec 2022 16:06:47 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZHNCt4WVZQNkJmNjBNU3ZwR2xXdjhtWG5wZ3VvL2cxSzVZTHRBYXBxTDF6M3FFSTZSbUxKdU41VHc4MDVtM1ZOVWNzTXVBTC9RY2plTlFpZG9wVHB6OWswS2UyenlqMEZ3MkEyeTI4d09NQkVkOVptTlFpVDdlMVVTMGRKbnB5eCZRWjNwNlVHSU0yUnAwa3Z3L0dpU1p5aGg1MFU9; path=/; expires=Sat, 10 Dec 2022 16:06:47 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Sat, 10 Dec 2022 16:06:47 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://euro.stance.eu.com/; path=/; expires=Wed, 15 Dec 2021 16:11:47 GMT; domain=.pinterest.com; secure\n_routing_id=\"9f778cde-a585-42ea-b61e-203ed26c2ed8\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "91965ea75b8b79e58ec1f9888e49cc6efffe93478bc1f03431a038d8a5f0f3a3",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.2769829999888316
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/scripts/0083/4266.js?shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2234,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "28218f856bb43ccfd400ed75b4b277ac6dbe3922b2723a1c4d8a8263c4582bfa",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.10135800001444295
+      },
+      {
+        "url": "https://analytics.getshogun.com/collector.js?shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16979,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "3c370d894a4e5946cb161e6603763984c5d7b4f2b80a4ebd0fe9635834a5d558",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.085839000006672
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=NAyvCZ&shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1366,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "W/\"6d4d0b33a7d56a8ec28cfaded30deded\""
+        },
+        "responseBodyHash": "478b54cdd3b36afa7605a86b9e0d947e588bbfafff0ffbb04bd35dbb7ddbdef2",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.014491999987512827
+      },
+      {
+        "url": "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3488,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "24e18e9ce5bd2380dd58a8c0e50a49b621393daa696515fe18c4643ce2150755",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.03338500001700595
+      },
+      {
+        "url": "https://ecommplugins-scripts.trustpilot.com/v2.1/js/header.min.js?settings=eyJrZXkiOiI3VHVuWDVVZ3pzSDVXUmRxIiwicyI6InNrdSJ9&shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2904,
+        "remoteIPAddress": "13.227.219.4",
+        "responseHeaders": {
+          "etag": "W/\"fcf751878790acb5a8c724b84e1b1dd9\""
+        },
+        "responseBodyHash": "85109ca8e82474a223f66c00b480bf8b5cb3bd1cd3b96d8c494093eb52afa914",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.082464000035543
+      },
+      {
+        "url": "https://ecommplugins-trustboxsettings.trustpilot.com/stance-europe-euro.myshopify.com.js?settings=1624271108322&shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 799,
+        "remoteIPAddress": "13.227.219.114",
+        "responseHeaders": {
+          "etag": "\"d340e5252d695081c823b22113af0bac\""
+        },
+        "responseBodyHash": "64dacb0cdeea20ea9171ff0171267709e9094c58e9959e95ed83399621a12ed3",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.08600500004831702
+      },
+      {
+        "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js?shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1199,
+        "remoteIPAddress": "52.222.138.100",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"a8b627afb958156461c3c99288acacf5\""
+        },
+        "responseBodyHash": "2ae052d5fd6e01daee9b546c30e182308a083261ee6a1920c30625a2d81c5a49",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.022233999974559993
+      },
+      {
+        "url": "https://d3410ost8gg4o3.cloudfront.net/static/gdpr-cookie-consent-v2.2.min.js?shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15083,
+        "remoteIPAddress": "52.222.138.77",
+        "responseHeaders": {
+          "etag": "\"c019c2275f4e050a1f3f36031f95cf82\""
+        },
+        "responseBodyHash": "4d5579908204fbb48182402a1cd23888f4575420ef96a6f446fe061ff25323b1",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.09754499996779487
+      },
+      {
+        "url": "https://connect.nosto.com/script/shopify/nosto.js?merchant=shopify-2121105467&shop=stance-europe-euro.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61979,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "cache-control": "max-age=600, public",
+          "etag": "W/\"6766ddd30bb588b213db2490ca69de6e991b9b67beab19166a689229fdf50191\""
+        },
+        "responseBodyHash": "6766ddd30bb588b213db2490ca69de6e991b9b67beab19166a689229fdf50191",
+        "initiators": [
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.024638000002596527
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "status": 200,
+        "size": 31,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.02647500002058223
+      },
+      {
+        "url": "https://invitejs.trustpilot.com/tp.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4059,
+        "remoteIPAddress": "13.227.219.6",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400"
+        },
+        "responseBodyHash": "cf6933876b5f070b095834fc00a61b3fdf5f4717c809bfb237ce4a4f3af80e57",
+        "initiators": [
+          "https://ecommplugins-scripts.trustpilot.com/v2.1/js/header.min.js?settings=eyJrZXkiOiI3VHVuWDVVZ3pzSDVXUmRxIiwicyI6InNrdSJ9&shop=stance-europe-euro.myshopify.com"
+        ],
+        "time": 0.05905999999959022
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/data-scripts/0083/4266.json?t=1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2172,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e34b35f1f6f35f08a17896f1b4e9c455a2724abe01a4d549dd7e2efbb6b82b04",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0083/4266.js?shop=stance-europe-euro.myshopify.com"
+        ],
+        "time": 0.0830520000308752
+      },
+      {
+        "url": "https://gdpr-privacy-policy-assets.s3-us-west-2.amazonaws.com/stance-europe-euro.js?callback=pandectes_gdpr&ts=1639584407",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3557,
+        "remoteIPAddress": "52.218.205.49",
+        "responseHeaders": {
+          "etag": "\"d02846a970739d48d5e6a0b33289152a\""
+        },
+        "responseBodyHash": "557d43d9c9c49e350364ead060b0eea6c300aa845f7747c427b516f15c86a0bf",
+        "initiators": [
+          "https://d3410ost8gg4o3.cloudfront.net/static/gdpr-cookie-consent-v2.2.min.js?shop=stance-europe-euro.myshopify.com"
+        ],
+        "time": 0.6076490000123158
+      },
+      {
+        "url": "https://productreviews.shopifycdn.com/assets/v4/spr-36ddd039ebeda1037e29d170fb1f249ad3ca8fef35f0fcfbe34accc286592f7d.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 8505,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "36ddd039ebeda1037e29d170fb1f249ad3ca8fef35f0fcfbe34accc286592f7d",
+        "initiators": [
+          "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=stance-europe-euro.myshopify.com"
+        ],
+        "time": 0.014128999959211797
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33686,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Thu, 15 Dec 2022 15:36:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "89a15e9c40bc6b14809f236ee8cd3ed1ea42393c1f6ca55c7855cd779b3f922e",
+        "initiators": [
+          "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=stance-europe-euro.myshopify.com"
+        ],
+        "time": 0.05967899999814108
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 23538,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b401d1e804e0a5079603c8f74249ae0e2ec2c797703490f3a0c38079cd989027",
+        "initiators": [
+          "https://script.crazyegg.com/pages/scripts/0083/4266.js?shop=stance-europe-euro.myshopify.com"
+        ],
+        "time": 0.02415000001201406
+      },
+      {
+        "url": "https://script.crazyegg.com/pages/sampling-data-scripts/0083/4266.json?t=455440",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 314,
+        "remoteIPAddress": "104.19.147.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=300, s-maxage=1209600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f647189fab6e97df52a2ee7031c944278a2438b9bbc944eec63544e22050bbac",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.020383000024594367
+      },
+      {
+        "url": "https://pagestates-tracking.crazyegg.com/healthcheck",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 420,
+        "remoteIPAddress": "52.222.138.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d06f04fccf68d0b228a5923187ce1afd\""
+        },
+        "responseBodyHash": "830e67bda2532cd5880ee86e3b33e69721082f8458bb0df0cd4edbb1577fd375",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.08237300004111603
+      },
+      {
+        "url": "https://assets-tracking.crazyegg.com/healthcheck",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 420,
+        "remoteIPAddress": "13.227.219.127",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d06f04fccf68d0b228a5923187ce1afd\""
+        },
+        "responseBodyHash": "830e67bda2532cd5880ee86e3b33e69721082f8458bb0df0cd4edbb1577fd375",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.2534919999889098
+      },
+      {
+        "url": "blob:https://euro.stance.eu.com/bdc70029-99b4-493a-8ed3-62c78c908dcb",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "8ff09cd0ee012fe06ed1b67dc914858cde819f21bb479f629994d9e49f3c0049",
+        "initiators": [],
+        "time": 0.004852999991271645
+      },
+      {
+        "url": "https://tracking.crazyegg.com/clock?t=1639584408520",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 135,
+        "remoteIPAddress": "34.249.212.247",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store"
+        },
+        "responseBodyHash": "d52deef595541a0c4ebe4ffc4f6c1fda2ab9ea34e260cf3f48caab5099a120d9",
+        "initiators": [
+          "https://script.crazyegg.com/pages/versioned/common-scripts/11.1.376.js"
+        ],
+        "time": 0.164163000008557
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://euro.stance.eu.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://euro.stance.eu.com/"
+        ],
+        "time": 0.12176000000908971
+      },
+      {
+        "url": "blob:https://euro.stance.eu.com/d7cd4773-6296-40db-a353-32f02ab85d0b",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "d5df5360850650e6dbe5d1a12372e9bb12bd075bd314a9bcd53a8974a13c4b97",
+        "initiators": [],
+        "time": 0.0014930000179447234
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/10.a5540beb560761e98c07.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 6238,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"d81c579d9d0d515f6b4f9cac22f6df66\""
+        },
+        "responseBodyHash": "060aa039254100972be6df136759368ffcd55ae444e3814d20f3a227a7635e2b",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js"
+        ],
+        "time": 0.01203199999872595
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/styles.491ee6ad1b38c37fd1c3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 591,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"b552682f08c5bf0d01b38a3ea2acf969\""
+        },
+        "responseBodyHash": "18f6835457e4c0628e659f410b3f3762b0b0b8a4eda929e991bfdcf5a293ae4d",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js"
+        ],
+        "time": 0.010762999998405576
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~Render.f4a2f7cb46558f56344b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13359,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"d0d8268e3612519e63d07e7b7ec8e848\""
+        },
+        "responseBodyHash": "73a31a8d1c7bd2fce6e894994762b33618d32dac6c35597a3ce7c4544b81d837",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js"
+        ],
+        "time": 0.012901999987661839
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/Render.d0a731749328d9815d57.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 19274,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"2b7cda6cfd3c0f2e81976483b0babb42\""
+        },
+        "responseBodyHash": "05f3b22ceaf611bcefeb126cb467df29be3a620e1d04b046a0b693f84d75abf9",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js"
+        ],
+        "time": 0.013750999991316348
+      },
+      {
+        "url": "https://telemetrics.klaviyo.com/v1/metric",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 332,
+        "remoteIPAddress": "13.227.219.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+          "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js"
+        ],
+        "time": 0.2705660000210628
+      },
+      {
+        "url": "https://d3k81ch9hvuctc.cloudfront.net/company/NAyvCZ/images/487022df-6914-4d80-86fc-052ab3950e8f.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 175847,
+        "remoteIPAddress": "52.222.138.28",
+        "responseHeaders": {
+          "cache-control": "public,%20max-age=60",
+          "etag": "\"abe49003f90f41c762f814e5e2c6244b\""
+        },
+        "responseBodyHash": "4b9a676c54ecb3e43d42f7f123ee798772a36d9f82a4d43ced24b418184673ed",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/vendors~Render.f4a2f7cb46558f56344b.js",
+          "https://static.klaviyo.com/onsite/js/Render.d0a731749328d9815d57.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js"
+        ],
+        "time": 0.0632200000109151
+      }
+    ]
+  }
+}

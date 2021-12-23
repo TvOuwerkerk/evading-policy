@@ -1,0 +1,70 @@
+{
+  "initialUrl": "https://www.nordstrom.com/",
+  "finalUrl": "https://siteclosed.nordstrom.com/invitation.html",
+  "timeout": false,
+  "testStarted": 1639670737591,
+  "testFinished": 1639670754186,
+  "data": {
+    "links": "Internal links were collected and saved to data\\Corpus-top100-crawl\\data.nordstrom.com\\links.www.nordstrom.com_273f.json",
+    "requests": [
+      {
+        "url": "https://www.nordstrom.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 91927,
+        "remoteIPAddress": "151.101.38.132",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "Ad34bsY56=AMDs_cN9AQAAO27ZGX0dqH5cDH7iVmK8edQ-macjZpASBFWW3HQ7LWtWrf-7|1|0|a83406124b19b2d574fdf2624e9fdafc37e6d1ec; Path=/; Max-Age=31556952; Domain=nordstrom.com; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4c2b86083219d37f5e1aee208c7b8b4b238e4877944d8cd2214c332fc1d2e9ff",
+        "initiators": [],
+        "time": 0.42499500000849366
+      },
+      {
+        "url": "https://www.nordstrom.com/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.nordstrom.com/",
+        "status": 200,
+        "size": 214,
+        "remoteIPAddress": "151.101.38.132",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.nordstrom.com/"
+        ],
+        "time": 0.17749999999068677
+      },
+      {
+        "url": "https://siteclosed.nordstrom.com/invitation.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.nordstrom.com/",
+        "status": 200,
+        "size": 94027,
+        "remoteIPAddress": "151.101.38.132",
+        "responseHeaders": {
+          "etag": "\"b110597997d3f9060d8c9d40014cb0df\""
+        },
+        "responseBodyHash": "efd24b9491a0f59165c6f7f596b2a150aa859d659db2f251dd8c0bb216704c59",
+        "initiators": [
+          "https://www.nordstrom.com/"
+        ],
+        "time": 0.05961699993349612
+      }
+    ]
+  }
+}

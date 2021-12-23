@@ -1,0 +1,2963 @@
+{
+  "initialUrl": "https://www.waves.com/cart?productid=812",
+  "finalUrl": "https://www.waves.com/cart",
+  "timeout": false,
+  "testStarted": 1640144396677,
+  "testFinished": 1640144416346,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.waves.com/links.www.waves.com_d529.json",
+    "requests": [
+      {
+        "url": "https://www.waves.com/cart?productid=812",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private, no-store, must-revalidate",
+          "set-cookie": "waves_abtest_server=%5b%5d; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/; secure\nCMSPreferredCulture=en-US; expires=Thu, 22-Dec-2022 03:39:57 GMT; path=/; secure; HttpOnly\nASP.NET_SessionId=xemjpcg35oll2osg5rvzsnzm; path=/; secure; HttpOnly; SameSite=Lax\nCurrentContact=958b14f1-c432-4435-b0c7-e3b5a5059933; expires=Thu, 10-Dec-2071 03:39:57 GMT; path=/; secure; HttpOnly\nCMSLandingPageLoaded=true; expires=Wed, 22-Dec-2021 03:59:57 GMT; path=/; secure; HttpOnly\nARRAffinity=ff65af957656edaa56e531d6c6097c7d151aeacf50dad58bbf5b489286d2e843;Path=/;HttpOnly;Secure;Domain=www.waves.com\nARRAffinitySameSite=ff65af957656edaa56e531d6c6097c7d151aeacf50dad58bbf5b489286d2e843;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.waves.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.waves.com/cart",
+        "initiators": [],
+        "time": 0.45332800000323914
+      },
+      {
+        "url": "https://www.waves.com/cart",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 115323,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "waves_abtest_server=%5b%5d; expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/; secure\nCMSLandingPageLoaded=true; expires=Wed, 22-Dec-2021 03:59:57 GMT; path=/; secure; HttpOnly\nCMSShoppingCart=572ef975-88ed-423d-ab6f-d29b2892f93c; expires=Thu, 22-Dec-2022 03:39:57 GMT; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "1dc11eb2c4f0cb0460750da066ae5deebeb4fe6bba7bbc50df2602ceb12e4dcd",
+        "redirectedFrom": "https://www.waves.com/cart?productid=812",
+        "initiators": [],
+        "time": 0.6751759999897331
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Droid+Sans:700,400",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 844,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 22 Dec 2021 03:39:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5c1c949b90354f9bcf12fb10b67f5aca8cc4073362b3f71d31e4e0ffda881e15",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.03421300000627525
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 7644,
+        "remoteIPAddress": "104.18.10.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.05338500000652857
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/css/jscssver211/waves.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 89668,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"afe5637b5debd71:0\""
+        },
+        "responseBodyHash": "c31602e885af0c17e965a61e44c3d920c2505b1fab41b1039ff60bab2092b926",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.0741099999868311
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 31746,
+        "remoteIPAddress": "142.251.36.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Sat, 17 Dec 2022 09:32:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.052872000000206754
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 102191,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"d1237b235c3d71:0\""
+        },
+        "responseBodyHash": "33db8a2202d637f6db3e5e7a49637e4eca7015e8a45bcdf1df48bea1825b276b",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.07606200000736862
+      },
+      {
+        "url": "https://js.paymentsos.com/v2/latest/secure-fields.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1824,
+        "remoteIPAddress": "23.62.118.31",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache",
+          "etag": "\"6c46a0d468366172538c0602420ba07c\"",
+          "expires": "Wed, 22 Dec 2021 03:39:57 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1780ee37d014f4366cbe01f1932c07fccd10ced5d06ac870135efff54d2562ca",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.07527599998866208
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 921,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 22 Dec 2021 03:39:57 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fc00f1b66078da6d71f6a0864a05f77121d70904db4c0484027bb36e7510370",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.03289800000493415
+      },
+      {
+        "url": "https://d2e3e4uhhj1lhm.cloudfront.net/dist/special/waves/nwa.gz.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 43166,
+        "remoteIPAddress": "65.9.84.79",
+        "responseHeaders": {
+          "etag": "\"5bb4127bb3682d5bf28cf0a3bf4d5a71\""
+        },
+        "responseBodyHash": "cc9604a68439bad0ba1fa905f5590c84fd9938a03736e9563787f588e40a8a0e",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.23339999999734573
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js?render=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 998,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Wed, 22 Dec 2021 03:39:57 GMT"
+        },
+        "responseBodyHash": "575d0517f6619bbea023e6bc2541c1d169f12c48abdaad760e45f4e3cc0e426f",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.04812099999981001
+      },
+      {
+        "url": "https://www.waves.com/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPvubYE9rBflOuNumloK-teojjVViXOCDUUb7ubekX8EZYvhmw2&t=637453890340000000",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 6542,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Thu, 22 Dec 2022 03:39:22 GMT"
+        },
+        "responseBodyHash": "40732e9dcfa704cf615e4691bb07aecfd1cc5e063220a46e4a7ff6560c77f5db",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.1327760000131093
+      },
+      {
+        "url": "https://www.waves.com/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvj9iGAR4daCvS7qmUCveYcjSMLS65wZli4uhgKm1raP71Ou5wGVtZTylDGMsjymThoa61vUI5-TiYkbnHnER71r3j6mybViI3ZyfawBFUh2a_ICQlx4nGiSdVPeyy6A0lofd1mI1&t=363be08",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 26154,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Thu, 22 Dec 2022 03:39:23 GMT"
+        },
+        "responseBodyHash": "66b804e7a96a87c11e1dd74ea04ac2285df5ad9043f48046c3e5000114d39b1c",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.13457999998354353
+      },
+      {
+        "url": "https://www.waves.com/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OKZFX8Sb4PuFEzG_ZC4dUolSVyYlkBkqUfpQXiQZ-CqCuYzvbu4moApWBJfRDc0n4mKGzWiFrRN7kp0qdqbyqlY79Q8VoVCMlTKFk2P0qDEabHZSqtuIMuQhJoHaO2Q18LGmg4s1&t=363be08",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 10510,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "public",
+          "expires": "Thu, 22 Dec 2022 03:39:23 GMT"
+        },
+        "responseBodyHash": "398cdf1b27ef247e5bc77805f266bb441e60355463fc3d1776f41aae58b08cf1",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.13855900001362897
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/scripts/jscssver113/abtest-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 8100,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"9bea5782d3dad71:0\""
+        },
+        "responseBodyHash": "8cd27fd82ce0d19db6e624fdf9f6398281ee02653256e8b38b04af946ee71742",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.05863099999260157
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/design/common/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1588,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"0f5d9e0a96dd71:0\""
+        },
+        "responseBodyHash": "788f04d7fc0dcf592ff3d9cf16c3e48c785a1e1e8baf07e0e5f551461457bd69",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.20729399999254383
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/design/common/ajax-loader-large.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 7344,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"09b77dea96dd71:0\""
+        },
+        "responseBodyHash": "5377096a544cae6a12886b7090e6743f568847c9373fc32e513b82f1d28d4a86",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.207406000001356
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/scripts/jscssver5/preact-vendors-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 34127,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"019616e996dd71:0\""
+        },
+        "responseBodyHash": "cd2d165dd69a39765d11b079d6e5ccab0b6c1b9dcb9a3b4e341c564d39501030",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.1898829999845475
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/scripts/jscssver2/preact-abtests-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3396,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"39e3ee2d268d71:0\""
+        },
+        "responseBodyHash": "2f3d4149b6f04767be6d897c47653f4a47b850bca7705cb0ad95610e4eb42f81",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.20369200001005083
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/scripts/jscssver79/preact-waves-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 65723,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"29831d3da1f5d71:0\""
+        },
+        "responseBodyHash": "70e4365fd990f6d7467f5210ffd30537ade9e69c5064c384b3a70825f70dda26",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.2140180000278633
+      },
+      {
+        "url": "https://flex-fields.sandbox.splitit.com/css/splitit.flex-fields.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 6088,
+        "remoteIPAddress": "45.60.33.1",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"603490e8-c7e9\"",
+          "set-cookie": "visid_incap_2179264=HamfCGrBQZuhaQiP0/o/Dg2ewmEAAAAAQUIPAAAAAADKUUwmNyoIIv/ZfzijQseB; expires=Wed, 21 Dec 2022 07:38:38 GMT; HttpOnly; path=/; Domain=.sandbox.splitit.com\nincap_ses_451_2179264=ghu2Gd223HoHBaa8l0ZCBg2ewmEAAAAA2Sg+usTf7rWqTvv5TUvfzQ==; path=/; Domain=.sandbox.splitit.com"
+        },
+        "responseBodyHash": "80417ca7299d3025d800aafd7af692cfd691ca4b2c26e4adddd60267f1eddda4",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.2671099999861326
+      },
+      {
+        "url": "https://flex-fields.sandbox.splitit.com/js/dist/splitit.flex-fields.sdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 140883,
+        "remoteIPAddress": "45.60.33.1",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"6087cae4-8c86b\"",
+          "set-cookie": "visid_incap_2179264=HamfCGrBQZuhaQiP0/o/Dg2ewmEAAAAAQUIPAAAAAADKUUwmNyoIIv/ZfzijQseB; expires=Wed, 21 Dec 2022 07:38:38 GMT; HttpOnly; path=/; Domain=.sandbox.splitit.com\nincap_ses_451_2179264=H5QxSkbn22IHBaa8l0ZCBg2ewmEAAAAAfGudIkjo6kPdeAsV1qw3fA==; path=/; Domain=.sandbox.splitit.com"
+        },
+        "responseBodyHash": "8c23c142cc810b3415ae92c595c204b81116165f3af639d52a74f40352747af8",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.34153199999127537
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/scripts/jscssver115/preact-cart-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 180844,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"6cdf397ef5d71:0\""
+        },
+        "responseBodyHash": "f712faefab43ca6cb382ffb3bad79c85572fa48e1763244e5619da438ba18567",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.2263000000093598
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/design/common/ajax-loader.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3734,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"5798d6ce0b6d31:0\""
+        },
+        "responseBodyHash": "2cc058602efe02bb6e527140e68954422f631383715e5875b5175e0d07a457d8",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.20490900002187118
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 138246,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 17:27:56 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js?render=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM"
+        ],
+        "time": 0.05029199999989942
+      },
+      {
+        "url": "https://d.impactradius-event.com/A258477-d5a9-4dd5-ac6f-6e248ce404ee1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 13433,
+        "remoteIPAddress": "35.186.249.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=900,s-maxage=300",
+          "etag": "\"146752a2aade68a51691759d7d8e61a0\"",
+          "expires": "Wed, 22 Dec 2021 03:42:39 GMT"
+        },
+        "responseBodyHash": "6e95d46f62ccbc2e5c24e770d1cffdc6e8d4398a9d1c656ca628f67eed7f86f5",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.04191200001514517
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 58535,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 03:39:58 GMT"
+        },
+        "responseBodyHash": "c800225f362e5a5510f1be8249a7a42d9828177303db0c661090c349bca42061",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.056161000014981255
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11667,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 11:28:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "59a45e3bbb0de00f59259ad27b424b6a8162aed265ba689e14c21e1766067db1",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+        ],
+        "time": 0.09405899999546818
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "status": 200,
+        "size": 77840,
+        "remoteIPAddress": "104.18.10.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc",
+        "initiators": [
+          "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        ],
+        "time": 0.0983270000142511
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11166,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:52:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e042eaddbdd060b9f644b003e399d1509dd02677de03d682e385822c9186930b",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+        ],
+        "time": 0.08593900001142174
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/droidsans/v12/SlGWmQWMvZQIdix7AFxXmMh3eDs1ZyHKpWg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11513,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 17:13:05 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "42d360d29dd5c38b78a9aaa6bf32a16b2d7b548bf680724c0d9e9378eaa9ea55",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Droid+Sans:700,400"
+        ],
+        "time": 0.08679099997971207
+      },
+      {
+        "url": "https://www.waves.com/2code/handlers/account/user-registered-products.ashx",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 621,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "8dc7d7fa52d0feeb66aa50b1e3a851b90d5698ee8aac50812dc5d29ff5f8a5d2",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver79/preact-waves-min.js"
+        ],
+        "time": 0.15286699999705888
+      },
+      {
+        "url": "https://www.waves.com/2code/handlers/products/you-may-also-like.ashx?top=4",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 1269,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "fef50cb17d2cea6f549ae339c0518e20d2d3ab24af7c7e7c7847f3817a60c3a4",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver115/preact-cart-min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver79/preact-waves-min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver5/preact-vendors-min.js"
+        ],
+        "time": 0.17397400000481866
+      },
+      {
+        "url": "https://www.waves.com/2code/handlers/wishlist/wishlist.ashx?type=cart",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 712,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "2de5d78d6ff1ee6955c09077f30c08ca735170119630d03746eb36b7afa176f5",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver115/preact-cart-min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver5/preact-vendors-min.js"
+        ],
+        "time": 0.10364699998172
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/products/bundles/tiny/content-creator-audio-toolkit.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1707,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"e3b8e5f2be18d61:0\""
+        },
+        "responseBodyHash": "301278f9a0e46fbc71b7d49366945135f5fcc652aa905a8a6702760d73482c73",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver5/preact-vendors-min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver115/preact-cart-min.js"
+        ],
+        "time": 0.0251529999950435
+      },
+      {
+        "url": "https://www.waves.com/1lib/images/design/common/ajax-loader-large.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 301,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"09b77dea96dd71:0\""
+        },
+        "responseBodyHash": "5377096a544cae6a12886b7090e6743f568847c9373fc32e513b82f1d28d4a86",
+        "redirectedTo": "https://img.wavescdn.com/1lib/images/design/common/ajax-loader-large.gif",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver5/preact-vendors-min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver115/preact-cart-min.js"
+        ],
+        "time": 1.1594359999871813
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11159,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 22:44:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d8aad1fccae6f4d0aeca72ebd40fda671de68d4e8ec9a627a02980a7d5f7c9a4",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+        ],
+        "time": 0.345846000011079
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11075,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:07:36 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d1a88b314a524ca279fe85d498965bcda9a429d9e6b8d961da1951f116e17a74",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+        ],
+        "time": 0.34589599998435006
+      },
+      {
+        "url": "https://d2e3e4uhhj1lhm.cloudfront.net/dist/special/waves/adapters.js?_=4555957",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1694,
+        "remoteIPAddress": "65.9.84.79",
+        "responseHeaders": {
+          "etag": "W/\"98fd3296c320169918f7c2d22cd5f402\""
+        },
+        "responseBodyHash": "efad8de122bb5c528d483414c76205659215b146bcb7dcf151c4fec136e686a6",
+        "initiators": [
+          "https://d2e3e4uhhj1lhm.cloudfront.net/dist/special/waves/nwa.gz.js"
+        ],
+        "time": 0.003612000000430271
+      },
+      {
+        "url": "https://api1.shoptimally.com/users/get_id/?user_agent=Mozilla%2F5.0+(Macintosh%3B+Intel+Mac+OS+X+10_15_7)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+Chrome%2F93.0.4577.63+Safari%2F537.36&api_key=268c4a7c224044f8b5745c5d887129a1&client_ver=1.6.0",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 327,
+        "remoteIPAddress": "13.92.199.235",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "867476f1eedd2673d4f5f97926b0839c50ad5abf7fdfba0c1114b17154b5a9c7",
+        "initiators": [
+          "https://d2e3e4uhhj1lhm.cloudfront.net/dist/special/waves/nwa.gz.js"
+        ],
+        "time": 0.2811560000118334
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 20228,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "155c602a74b0be245c9d8e220dd8a1872a4e26ba39219b8f7d02289c74b50e32",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js"
+        ],
+        "time": 0.03451199998380616
+      },
+      {
+        "url": "https://www.waves.com/2code/handlers/cart/cart-items.aspx?gaGUID=111&_=1640144397910",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 1680,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "12770f8b304200ee48e525743759edc03f7de3f1e53071d5a4665ff2e41cfd22",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js"
+        ],
+        "time": 0.17055699997581542
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 20402,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 22 Dec 2021 05:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.011854000011226162
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 22 Dec 2021 03:39:58 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.02034700001240708
+      },
+      {
+        "url": "https://www.waves.com/2code/handlers/cart/cart-items.aspx?_=1640144397911",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 1680,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "12770f8b304200ee48e525743759edc03f7de3f1e53071d5a4665ff2e41cfd22",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js"
+        ],
+        "time": 0.6915980000048876
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 302,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 22-Dec-2021 03:54:59 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-user-list/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503&is_vtc=1&random=2457611578",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.1297879999910947
+      },
+      {
+        "url": "https://www.waves.com/2code/Handlers/Account/is-user-auth.ashx?_=1640144397912",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/cart",
+        "status": 200,
+        "size": 613,
+        "remoteIPAddress": "52.224.81.229",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "c94d2d1e042c367052d8ccbea84bacf5d2387d21a3d25b031399ce2d38f6d75e",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js"
+        ],
+        "time": 0.13304600000265054
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/design/common/ajax-loader-large.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"09b77dea96dd71:0\""
+        },
+        "responseBodyHash": "5377096a544cae6a12886b7090e6743f568847c9373fc32e513b82f1d28d4a86",
+        "redirectedFrom": "https://www.waves.com/1lib/images/design/common/ajax-loader-large.gif",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver5/preact-vendors-min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver115/preact-cart-min.js"
+        ],
+        "time": 0.0010440000041853637
+      },
+      {
+        "url": "https://api1.shoptimally.com/users/send_user_data/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.92.199.235",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api1.shoptimally.com/users/send_user_data/"
+        ],
+        "time": 0.08658799997647293
+      },
+      {
+        "url": "https://api1.shoptimally.com/users/send_user_data/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 308,
+        "remoteIPAddress": "13.92.199.235",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8a7b70f84b97f795b3078777b40909a00e43d9d6b885dd00a828903262d39a4e",
+        "initiators": [
+          "https://d2e3e4uhhj1lhm.cloudfront.net/dist/special/waves/nwa.gz.js"
+        ],
+        "time": 0.31885999999940395
+      },
+      {
+        "url": "https://api1.shoptimally.com/users/event/visit_url/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.92.199.235",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api1.shoptimally.com/users/event/visit_url/"
+        ],
+        "time": 0.17459999999846332
+      },
+      {
+        "url": "https://api1.shoptimally.com/users/event/visit_url/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 308,
+        "remoteIPAddress": "13.92.199.235",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8a7b70f84b97f795b3078777b40909a00e43d9d6b885dd00a828903262d39a4e",
+        "initiators": [
+          "https://d2e3e4uhhj1lhm.cloudfront.net/dist/special/waves/nwa.gz.js"
+        ],
+        "time": 0.3325920000206679
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/design/common/ajax-loader-small-2.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1195,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"09b77dea96dd71:0\""
+        },
+        "responseBodyHash": "7a9a457fad2736787a20aac60c6705c01588de58441043ad7c12c14791a88775",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js"
+        ],
+        "time": 0.00447300000814721
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/droidsans/v12/SlGVmQWMvZQIdix7AFxXkHNSbRYXags.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 11263,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 23:54:07 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bb13bd10a736366aa772b4d885f18c3bdb8486afe7f0e4753a1d1b2f4fc0d689",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Droid+Sans:700,400"
+        ],
+        "time": 0.03137300000526011
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503&is_vtc=1&random=2457611578",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/1p-user-list/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503&is_vtc=1&random=2457611578&ipr=y",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.07126100000459701
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/products/plugins/icons/vocal-rider.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3158,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"093b7cbb66dd71:0\""
+        },
+        "responseBodyHash": "1f3066168088f090a400648006a26f9ae21542aaa4dd1e2b3105071d3e3a6d40",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.005990000005112961
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/products/plugins/icons/tune-real-time-v2.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3428,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"03955c9b66dd71:0\""
+        },
+        "responseBodyHash": "b1b240cb251d5c8f9ee9f34a41d4cd5da5db972b4c5485544beb780ddfbb86e2",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.006498000002466142
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/products/plugins/icons/vocal-bender.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 2937,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"5a151bd1235d71:0\""
+        },
+        "responseBodyHash": "b01550dff9fa1a59dfd6aee58df88455c9613d03a8da84798121c942bc80c827",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.007889000000432134
+      },
+      {
+        "url": "https://img.wavescdn.com/1lib/images/products/plugins/icons/ovox-vocal-resynthesis.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 2718,
+        "remoteIPAddress": "52.222.139.80",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"0a49abeb66dd71:0\""
+        },
+        "responseBodyHash": "d10654884603ed744c1ff891b0c5e39d4f8333e91c4ea14df2fbb3d8091dac56",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.006680999998934567
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/871411056/?random=1640144399678&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1277,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9bfa9a17de715eec2fd8795307391bb8fb68f96ae1ea0b813d209074c8c666d8",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.03106499998830259
+      },
+      {
+        "url": "https://871411056.privacysandbox.googleadservices.com/pagead/privacysandbox/conversion/871411056/?random=1640144399678&cv=9&fst=1640144399678&num=1&fmt=3&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.04309200000716373
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503&is_vtc=1&random=2457611578&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://www.google.com/pagead/1p-user-list/871411056/?value=0&guid=ON&script=0&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&random=1640144399503&is_vtc=1&random=2457611578",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.05992299999343231
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 24180,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 12:51:28 GMT"
+        },
+        "responseBodyHash": "f1ac5bc2d2f0c446b2d5bc135db7414a2662ade7b701bc199456d05f51bfc261",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u"
+        ],
+        "time": 0.018401000008452684
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 17:27:56 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u"
+        ],
+        "time": 0.014071999990846962
+      },
+      {
+        "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1331,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Wed, 22 Dec 2021 03:44:51 GMT"
+        },
+        "responseBodyHash": "058ed961bfe422af7bfc65865f4c08531ec8ace995f8a1ec560a46581cb7712c",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01317900000140071
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-9260408-1&cid=440409640.1640144400&jid=1779851809&gjid=1649429816&_gid=1852250067.1640144400&_u=YGBAgAALAAAAAE~&z=1425293497",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 441,
+        "remoteIPAddress": "142.250.27.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.02093199998489581
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=337611456&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.waves.com%2Fcart&ul=en-us&de=UTF-8&dt=Shopping%20Cart%20%7C%20Waves&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=%2Fcart&ea=Consent%20Widget&el=Widget%20Displayed&_u=YGBAgAAL~&jid=1779851809&gjid=1649429816&cid=440409640.1640144400&tid=UA-9260408-1&_gid=1852250067.1640144400&gtm=2wgc10NMNKFR&cd4=https%3A%2F%2Fwww.waves.com%2Fcart%23&z=1711410947",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.005040999996708706
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=D57CYeyGLM2fgQew6Jd4&sscte=1&crd=&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNkisepdIRruRp85MUVQtE04JuE0kKT-2KQ",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 302,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=; domain=.doubleclick.net; path=/; expires=Fri, 01-Aug-2008 22:45:55 GMT; SameSite=none; Secure\nIDE=AHWqTUlZmuevD2ThxEV09H19SzyH_QDOHuA2hV65XjaKmu9spEpnO_SA150bqazv; expires=Mon, 16-Jan-2023 03:39:59 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-conversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=D57CYeyGLM2fgQew6Jd4&cid=CAQSKQCNIrLMrgrn69naJoFZgTWVQQTYNRP5EgqfQZxEq2MhPBIKiqmAAY1a&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNs0vtsO2nRThx9iqDjSpVWsG1ijIv7u6wQ&random=3209945454&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/871411056/?random=1640144399678&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.19397799999569543
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-9260408-1&cid=440409640.1640144400&jid=1779851809&_u=YGBAgAALAAAAAE~&z=739089973",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.012745000014547259
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-9260408-1&cid=440409640.1640144400&jid=1779851809&_u=YGBAgAALAAAAAE~&z=739089973",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01587099998141639
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=337611456&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.waves.com%2Fcart&ul=en-us&de=UTF-8&dt=Shopping%20Cart%20%7C%20Waves&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Enhanced%20Ecommerce&ea=checkout&el=enhancedEcommece%20-%20checkout%20-%20Step%201&_u=aGDAAAALAAAAAG~&jid=716663972&gjid=988621688&cid=440409640.1640144400&tid=UA-9260408-1&_gid=1852250067.1640144400&_r=1&gtm=2wgc10NMNKFR&cm1=179.98&cos=1&col=1&pa=checkout&pr1id=15097166&pr1nm=Content%20Creator%20Audio%20Toolkit&pr1qt=1&pr1pr=179.98&z=897508323",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.008774999994784594
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=337611456&t=pageview&_s=1&dl=https%3A%2F%2Fwww.waves.com%2Fcart&ul=en-us&de=UTF-8&dt=Shopping%20Cart%20%7C%20Waves&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=aGDAgAALAAAAAG~&jid=&gjid=&cid=440409640.1640144400&tid=UA-9260408-1&_gid=1852250067.1640144400&gtm=2wgc10NMNKFR&cg1=cart&cg4=%20-%20&cd3=b705eb6e-5be8-46d1-a9e3-8fbf47be7a04&z=746815821",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.006863999995402992
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=337611456&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.waves.com%2Fcart&ul=en-us&de=UTF-8&dt=Shopping%20Cart%20%7C%20Waves&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=%2Fcart&ea=Top%20Message&el=Message%20Displayed&_u=aGDAgAALAAAAAG~&jid=&gjid=&cid=440409640.1640144400&tid=UA-9260408-1&_gid=1852250067.1640144400&gtm=2wgc10NMNKFR&cg1=cart&cd4=https%3A%2F%2Fwww.waves.com%2Fcart%23&z=531408262",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.0067359999811742455
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css",
+        "status": 200,
+        "size": 2252,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=604800",
+          "expires": "Thu, 23 Dec 2021 04:24:17 GMT"
+        },
+        "responseBodyHash": "602c6728d58cf917a3dd121b624e88072a3f1b7f5413849fbbcf92ce32fe72a2",
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/styles__ltr.css"
+        ],
+        "time": 0.004752000008011237
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 10775,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "526007135db0306094b7b2cc2924c76c5914b3b3aaeb52131a3ddf23ebffac2a",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u"
+        ],
+        "time": 0.08173700000043027
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 10815,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 17:12:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a8d05d99aa04ae149c2bc1a38c8f8a4f4699ddee4dd578aa8bbb9872111db544",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u"
+        ],
+        "time": 0.08282499999040738
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-9260408-1&cid=440409640.1640144400&jid=716663972&gjid=988621688&_gid=1852250067.1640144400&_u=aGDAAAALAAAAAG~&z=1563558298",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 25,
+        "remoteIPAddress": "142.250.27.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.012393000011797994
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=D57CYeyGLM2fgQew6Jd4&cid=CAQSKQCNIrLMrgrn69naJoFZgTWVQQTYNRP5EgqfQZxEq2MhPBIKiqmAAY1a&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNs0vtsO2nRThx9iqDjSpVWsG1ijIv7u6wQ&random=3209945454&resp=GooglemKTybQhCsO",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/1p-conversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=D57CYeyGLM2fgQew6Jd4&cid=CAQSKQCNIrLMrgrn69naJoFZgTWVQQTYNRP5EgqfQZxEq2MhPBIKiqmAAY1a&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNs0vtsO2nRThx9iqDjSpVWsG1ijIv7u6wQ&random=3209945454&resp=GooglemKTybQhCsO&ipr=y&prhg=0",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=D57CYeyGLM2fgQew6Jd4&sscte=1&crd=&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNkisepdIRruRp85MUVQtE04JuE0kKT-2KQ",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/871411056/?random=1640144399678&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03634700001566671
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u",
+        "status": 200,
+        "size": 134,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Wed, 22 Dec 2021 03:40:00 GMT"
+        },
+        "responseBodyHash": "6bfc7f035838df33c0b927be3bc8d8a59d6f055658945c9a17eee1c0d09fb972",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeG-IcUAAAAAIb42eguHdUztlZNcrLPhuk81WSM&co=aHR0cHM6Ly93d3cud2F2ZXMuY29tOjQ0Mw..&hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP&size=invisible&cb=u4rkonm8ny0u"
+        ],
+        "time": 0.012798999989172444
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-9260408-1&cid=440409640.1640144400&jid=716663972&_u=aGDAAAALAAAAAG~&z=1227623261",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.013485000003129244
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-9260408-1&cid=440409640.1640144400&jid=716663972&_u=aGDAAAALAAAAAG~&z=1227623261",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.014190999994752929
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-conversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=D57CYeyGLM2fgQew6Jd4&cid=CAQSKQCNIrLMrgrn69naJoFZgTWVQQTYNRP5EgqfQZxEq2MhPBIKiqmAAY1a&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNs0vtsO2nRThx9iqDjSpVWsG1ijIv7u6wQ&random=3209945454&resp=GooglemKTybQhCsO&ipr=y&prhg=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://www.google.com/pagead/1p-conversion/871411056/?random=1892952547&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=D57CYeyGLM2fgQew6Jd4&cid=CAQSKQCNIrLMrgrn69naJoFZgTWVQQTYNRP5EgqfQZxEq2MhPBIKiqmAAY1a&eitems=ChAIgJOGjgYQvLzhrZmv1u5fEh0AjG9ZNs0vtsO2nRThx9iqDjSpVWsG1ijIv7u6wQ&random=3209945454&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/871411056/?random=1640144399678&cv=9&fst=1640144399678&num=1&value=0&label=Ss7aCInOrtoBEPDawp8D&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=ecomm_prodid%3DCTCRTRATK%3Becomm_pagetype%3Dcart%3Becomm_totalvalue%3D179.98&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&auid=773878273.1640144399&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.01812299998709932
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 21 Dec 2022 17:27:56 GMT"
+        },
+        "responseBodyHash": "de40f8e9a13821460fad3250442ee45458a1073661d67758f325b3a354995dd3",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=VZKEDW9wslPbEc9RmzMqaOAP"
+        ],
+        "time": 0.008537999994587153
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/gjs.aspx?SN=950311404",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1948,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"e3bbed0660e3ccc9\"",
+          "expires": "Thu, 23 Dec 2021 03:40:00 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "14f0b1b9afe2360c7f0708a50fe75db97e78a3eb243344200810e9ef0dbe64e1",
+        "initiators": [
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.05355300000519492
+      },
+      {
+        "url": "https://cdn.livechatinc.com/tracking.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 23988,
+        "remoteIPAddress": "104.110.240.114",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=28800",
+          "etag": "W/\"4c2378f3295ef05819348611928d5cc6\"",
+          "expires": "Wed, 22 Dec 2021 11:40:00 GMT"
+        },
+        "responseBodyHash": "b14adadd97d94aa65355a6400c3b9c608bc2430087587d45af15de8dfa21bc47",
+        "initiators": [
+          "https://www.waves.com/cart"
+        ],
+        "time": 0.012378000013995916
+      },
+      {
+        "url": "https://platform.twitter.com/oct.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 301,
+        "remoteIPAddress": "192.229.233.25",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\""
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://static.ads-twitter.com/oct.js",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.060729999997420236
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 26993,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.05040700000245124
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 10970,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=17516F143B0E608E1A797E013AFB61FA; domain=.bing.com; expires=Mon, 16-Jan-2023 03:40:00 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.06625800000620075
+      },
+      {
+        "url": "https://s.yimg.com/wi/ytc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 6269,
+        "remoteIPAddress": "87.248.116.11",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "\"146f99405588b7446958a732612c901d-df\"",
+          "referrer-policy": "no-referrer-when-downgrade"
+        },
+        "responseBodyHash": "759d6f0c1292d86d24d7abe7ad9a2cd1d86df0041260f98186ccfa26c7daab62",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.0464499999943655
+      },
+      {
+        "url": "https://cdn.feedoptimise.com/fo.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3378,
+        "remoteIPAddress": "172.67.74.20",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=691200, immutable",
+          "etag": "W/\"a17c5af880b892f2521fac1dcaac26ef\"",
+          "expires": "Mon, 27 Dec 2021 09:06:40 GMT"
+        },
+        "responseBodyHash": "d7fdfb242b022e63648728792b272c15c6025c79b8a76f60c76af0012790da0d",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.059716999996453524
+      },
+      {
+        "url": "https://mc.yandex.ru/metrika/tag.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 67816,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"61b9e8e2-1078a\"",
+          "expires": "Wed, 22 Dec 2021 04:40:00 GMT"
+        },
+        "responseBodyHash": "39b61bb2c44b3429206f042c0e70a94c6d592f45fae36b786c66a7920c44ce5a",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.3156559999915771
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5N7F3T1T98720E0E5M0&lib=ttq",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 36267,
+        "remoteIPAddress": "104.110.240.89",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7834930d02299cc017b7ba4ee8e823d43c86515b46a6ce4c967b982c3f8cba14",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.21860399999422953
+      },
+      {
+        "url": "https://api.livechatinc.com/v3.3/customer/action/get_dynamic_configuration?license_id=13200207&url=https%3A%2F%2Fwww.waves.com%2Fcart&channel_type=code&jsonp=__f0ac2yfx52k",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 460,
+        "remoteIPAddress": "104.110.240.19",
+        "responseHeaders": {},
+        "responseBodyHash": "d1d04938db7fbe6fc048315c1bd1003276b3a4ebd8617c3dbb87563fd8b58137",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.5290529999765567
+      },
+      {
+        "url": "https://static.ads-twitter.com/oct.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 5730,
+        "remoteIPAddress": "199.232.148.157",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "etag": "\"8dc11b7ca1d5ed9ec3b1ab1beb621c75+gzip+gzip\"",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\""
+        },
+        "responseBodyHash": "4da3e3aa30b5b06390d7e7e3fcfb16d648909eb429d161c2748bd6d79a7ec5fb",
+        "redirectedFrom": "https://platform.twitter.com/oct.js",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.017163999989861622
+      },
+      {
+        "url": "https://s.yimg.com/wi/config/412842.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 449,
+        "remoteIPAddress": "87.248.116.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=3600",
+          "referrer-policy": "no-referrer-when-downgrade"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://s.yimg.com/wi/ytc.js"
+        ],
+        "time": 0.01219199999468401
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/653677404725827?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 88893,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "0843f75580d5c4ae545188afac391db51ce52f21e3cd53c93e52eaf222f738eb",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.07929199998034164
+      },
+      {
+        "url": "https://sp.analytics.yahoo.com/sp.pl?a=10001669298049&d=Wed%2C%2022%20Dec%202021%2003%3A40%3A00%20GMT&n=0&b=Shopping%20Cart%20%7C%20Waves&.yp=412842&f=https%3A%2F%2Fwww.waves.com%2Fcart&enc=UTF-8&yv=1.10.2&tagmgr=gtm",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "212.82.100.181",
+        "responseHeaders": {
+          "cache-control": "no-cache, private, must-revalidate",
+          "expires": "Wed, 22 Dec 2021 03:40:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "A3=d=AQABBBCewmECEK1SLx17WC5OpOI79_ZKeP8FEgEBAQHvw2HMYQAAAAAA_eMAAA&S=AQAAAkbQ221-dQevbE6b8a3bq-Q; Expires=Thu, 22 Dec 2022 09:40:00 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly\nB=fuu2aupgs57gg&b=3&s=oj; Expires=Thu, 22 Dec 2022 09:40:00 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/"
+        },
+        "responseBodyHash": "f3882f998713d264095c3b132fade64a677f2a51ffc7a1e6703bb76aa210616f",
+        "initiators": [
+          "https://s.yimg.com/wi/ytc.js"
+        ],
+        "time": 0.08652900002198294
+      },
+      {
+        "url": "https://bat.bing.com/p/action/5013830.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 204,
+        "size": 133,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.02445999998599291
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=5013830&Ver=2&mid=13846882-f539-4b00-88a1-b1c7784503ce&sid=d7362a0062d811ecb0467f65c9117d69&vid=d736a4a062d811eca2cc8f094548b720&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=Shopping%20Cart%20%7C%20Waves&p=https%3A%2F%2Fwww.waves.com%2Fcart&r=&lt=3514&evt=pageLoad&msclkid=N&sv=1&rn=846813",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 204,
+        "size": 150,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.029125000000931323
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?type=javascript&version=2.0.4&p_id=Twitter&p_user_id=0&txn_id=nuwyp&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&event_id=f8cdc2b3-7d4e-426c-af26-3def6663102d&tw_document_href=https%3A%2F%2Fwww.waves.com%2Fcart&tpx_cb=twttr.conversion.loadPixels",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 674,
+        "remoteIPAddress": "104.244.42.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "p3p": "CP=\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "personalization_id=\"v1_9rFMVPpwCc+4eh6MXA/U9A==\"; Max-Age=63072000; Expires=Fri, 22 Dec 2023 03:40:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "df3e003cc30e9bdd0313100e8ee5d468070b4b34d11ad355f276a356d4b9c7bf",
+        "initiators": [
+          "https://platform.twitter.com/oct.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.16559700001380406
+      },
+      {
+        "url": "https://t.co/i/adsct?type=javascript&version=2.0.4&p_id=Twitter&p_user_id=0&txn_id=nuwyp&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&event_id=f8cdc2b3-7d4e-426c-af26-3def6663102d&tw_document_href=https%3A%2F%2Fwww.waves.com%2Fcart",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 470,
+        "remoteIPAddress": "104.244.42.69",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "dc500d28bcc2bafb605617bae0d4c34d230c9dcd5ea55990244a073f40a6d488",
+        "initiators": [
+          "https://platform.twitter.com/oct.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.16658300001290627
+      },
+      {
+        "url": "https://nsg.symantec.com/private/rollover/rollover.core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 18687,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "expires": "Thu, 23 Dec 2021 03:40:00 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "9a96ac9d826ae58fbd59cf4ae53965b7d69d43995922da3618178fb965a723c8",
+        "initiators": [
+          "https://nsg.symantec.com/Web/Seal/gjs.aspx?SN=950311404"
+        ],
+        "time": 0.014800000004470348
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=337611456&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.waves.com%2Fcart&ul=en-us&de=UTF-8&dt=Shopping%20Cart%20%7C%20Waves&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Timer%20(ignore%20this%20event)&ea=Timer%20(ignore%20this%20event)&el=Timer%20(ignore%20this%20event)&_u=aHDAgAALAAAAAG~&jid=&gjid=&cid=440409640.1640144400&tid=UA-9260408-1&_gid=1852250067.1640144400&gtm=2wgc10NMNKFR&cg1=cart&cd2=440409640.1640144400&cd3=b705eb6e-5be8-46d1-a9e3-8fbf47be7a04&z=886805456",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR"
+        ],
+        "time": 0.004151000001002103
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=653677404725827&ev=PageView&dl=https%3A%2F%2Fwww.waves.com%2Fcart&rl=&if=false&ts=1640144400632&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640144400626.1097317021&it=1640144400437&coo=false&eid=307bc116-a000-479c-a947-cee68944c926&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 03:40:00 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/653677404725827?v=2.9.48&r=stable"
+        ],
+        "time": 0.010000000009313226
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/ii.aspx?CBF=bs_R.ii&fpc=&TS=af7f8",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 399,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"2aff3130394525f3\"",
+          "expires": "Thu, 23 Dec 2021 03:40:00 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "fd37967db91643008d028bb59f0f568ce9add664c7f46d9673f1b6e401c42e13",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js"
+        ],
+        "time": 0.08696800001780502
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/identify.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 31876,
+        "remoteIPAddress": "104.110.240.89",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b2864c65b32cd25bf64a7eb4fddf486dff821f1924172a0083db962615bd6ce0",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5N7F3T1T98720E0E5M0&lib=ttq"
+        ],
+        "time": 0.10774300000048243
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=C5N7F3T1T98720E0E5M0&hostname=www.waves.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1091,
+        "remoteIPAddress": "104.110.240.89",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "2f851b45a634c24d3906de4e60ed8a8768e84038b1ef39542c247f91583e4709",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5N7F3T1T98720E0E5M0&lib=ttq"
+        ],
+        "time": 0.08542699998361059
+      },
+      {
+        "url": "https://mc.yandex.ru/watch/55982974?wmode=7&page-url=https%3A%2F%2Fwww.waves.com%2Fcart&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3Aykcyjkqfpgygy63o3j%3Afp%3A1326%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A686663053511%3Ahid%3A282459947%3Az%3A0%3Ai%3A20211222034000%3Aet%3A1640144401%3Ac%3A1%3Arn%3A474950573%3Arqn%3A1%3Au%3A1640144401210860032%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640144396788%3Ads%3A0%2C0%2C510%2C163%2C454%2C453%2C1%2C552%2C46%2C3509%2C3509%2C5%2C1525%3Adsn%3A0%2C0%2C510%2C164%2C454%2C454%2C1%2C395%2C47%2C3509%2C3509%2C5%2C1524%3Awv%3A2%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640144401%3At%3AShopping%20Cart%20%7C%20Waves&t=gdpr(14)aw(1)ti(2)",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 302,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Wed, 22-Dec-2021 03:40:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "yandexuid=4396553841640144400; Expires=Thu, 22-Dec-2022 03:40:00 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\nyuidss=4396553841640144400; Expires=Thu, 22-Dec-2022 03:40:00 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure\nyabs-sid=1192021331640144400; Path=/; SameSite=None; Secure\ni=NOZuAzKbpTbn3UFlxmRh4pCYbE8MP1qk/3LeGmUdJXifQE9dxN36GwHQnohs0yy8BiSpWdGBGasrfDV+3+FofN6vaUM=; Expires=Sat, 20-Dec-2031 03:39:56 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None\nymex=1671680400.yrts.1640144400#1671680400.yrtsi.1640144400; Expires=Thu, 22-Dec-2022 03:40:00 GMT; Domain=.yandex.ru; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://mc.yandex.ru/watch/55982974/1?wmode=7&page-url=https%3A%2F%2Fwww.waves.com%2Fcart&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3Aykcyjkqfpgygy63o3j%3Afp%3A1326%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A686663053511%3Ahid%3A282459947%3Az%3A0%3Ai%3A20211222034000%3Aet%3A1640144401%3Ac%3A1%3Arn%3A474950573%3Arqn%3A1%3Au%3A1640144401210860032%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640144396788%3Ads%3A0%2C0%2C510%2C163%2C454%2C453%2C1%2C552%2C46%2C3509%2C3509%2C5%2C1525%3Adsn%3A0%2C0%2C510%2C164%2C454%2C454%2C1%2C395%2C47%2C3509%2C3509%2C5%2C1524%3Awv%3A2%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640144401%3At%3AShopping%20Cart%20%7C%20Waves&t=gdpr%2814%29aw%281%29ti%282%29",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/tag.js"
+        ],
+        "time": 0.06461800000397488
+      },
+      {
+        "url": "https://mc.yandex.ru/metrika/advert.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 112,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"61b9e8e2-2b\"",
+          "expires": "Wed, 22 Dec 2021 04:40:00 GMT"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/tag.js"
+        ],
+        "time": 0.05992599998717196
+      },
+      {
+        "url": "https://api.livechatinc.com/v3.3/customer/action/get_configuration?license_id=13200207&version=101.2.2.754.214.53.14.5.1.1.1.6&group_id=0&jsonp=__lc_static_config",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1719,
+        "remoteIPAddress": "104.110.240.19",
+        "responseHeaders": {
+          "cache-control": "public, max-age=600",
+          "expires": "Wed, 22 Dec 2021 03:50:01 GMT"
+        },
+        "responseBodyHash": "2dd86e516d4f2e714f2e0c9946d1605ee601e798b58ad6dd82c655341bd3a813",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.16018899998744018
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "104.110.240.89",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C5N7F3T1T98720E0E5M0&lib=ttq"
+        ],
+        "time": 0.17087699999683537
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.AltSeal&Elem=_GUARANTEE_SealSpan&SN=buysafeseal_1&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=M&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&I=&TS=de20ea26d3",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1075,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\"",
+          "pragma": "no-cache",
+          "set-cookie": "buySAFE=UniqueID=ca79d208-d04b-4685-b7dc-ea78868bceec_74; expires=Thu, 22-Dec-2022 03:40:00 GMT; path=/"
+        },
+        "responseBodyHash": "c0759a23b08d3997f1be99ce89817b85e64a65879daab17ad95410ef2738dc6f",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/ii.aspx?CBF=bs_R.ii&fpc=&TS=af7f8"
+        ],
+        "time": 0.11420700000599027
+      },
+      {
+        "url": "https://mc.yandex.ru/watch/55982974/1?wmode=7&page-url=https%3A%2F%2Fwww.waves.com%2Fcart&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3Aykcyjkqfpgygy63o3j%3Afp%3A1326%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A686663053511%3Ahid%3A282459947%3Az%3A0%3Ai%3A20211222034000%3Aet%3A1640144401%3Ac%3A1%3Arn%3A474950573%3Arqn%3A1%3Au%3A1640144401210860032%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640144396788%3Ads%3A0%2C0%2C510%2C163%2C454%2C453%2C1%2C552%2C46%2C3509%2C3509%2C5%2C1525%3Adsn%3A0%2C0%2C510%2C164%2C454%2C454%2C1%2C395%2C47%2C3509%2C3509%2C5%2C1524%3Awv%3A2%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640144401%3At%3AShopping%20Cart%20%7C%20Waves&t=gdpr%2814%29aw%281%29ti%282%29",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 485,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Wed, 22-Dec-2021 03:40:01 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1046db3d854b3ab6de60f9601643b5abd6c5a9656a9fedf25a653a977ba64371",
+        "redirectedFrom": "https://mc.yandex.ru/watch/55982974?wmode=7&page-url=https%3A%2F%2Fwww.waves.com%2Fcart&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3Aykcyjkqfpgygy63o3j%3Afp%3A1326%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A0%3Als%3A686663053511%3Ahid%3A282459947%3Az%3A0%3Ai%3A20211222034000%3Aet%3A1640144401%3Ac%3A1%3Arn%3A474950573%3Arqn%3A1%3Au%3A1640144401210860032%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Ans%3A1640144396788%3Ads%3A0%2C0%2C510%2C163%2C454%2C453%2C1%2C552%2C46%2C3509%2C3509%2C5%2C1525%3Adsn%3A0%2C0%2C510%2C164%2C454%2C454%2C1%2C395%2C47%2C3509%2C3509%2C5%2C1524%3Awv%3A2%3Aco%3A0%3Arqnl%3A1%3Ast%3A1640144401%3At%3AShopping%20Cart%20%7C%20Waves&t=gdpr(14)aw(1)ti(2)",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/tag.js"
+        ],
+        "time": 0.06174699999974109
+      },
+      {
+        "url": "https://mc.yandex.ru/watch/55982974/1?page-url=https%3A%2F%2Fwww.waves.com%2Fcart&charset=utf-8&browser-info=pa%3A1%3Aar%3A1%3Agdpr%3A14%3Avf%3Aykcyjkqfpgygy63o3j%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A1%3Als%3A686663053511%3Ahid%3A282459947%3Az%3A0%3Ai%3A20211222034001%3Aet%3A1640144401%3Ac%3A1%3Arn%3A786938521%3Arqn%3A2%3Au%3A1640144401210860032%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Aeu%3A1%3Ans%3A1640144396788%3Awv%3A2%3Aco%3A0%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1640144401&t=gdpr(14)aw(1)lt(178900)ti(2)",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 73,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Wed, 22-Dec-2021 03:40:01 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/tag.js"
+        ],
+        "time": 0.07538999998359941
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/si.aspx?s=950311404&p=11&t=a&TS=af7f8&R=0&x=BLX",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 2115,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"115f852300be1344\"",
+          "expires": "Thu, 23 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "1221ab932e99ffeedc043d4a40ddc61b0cdcaf1b720d7953d2eda6496fee58c4",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.AltSeal&Elem=_GUARANTEE_SealSpan&SN=buysafeseal_1&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=M&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&I=&TS=de20ea26d3"
+        ],
+        "time": 0.0034429999941494316
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/Dynamic.aspx?CBF=bs_R.WriteKickersHTML&Promocode=Kicker%20Custom%201&ifID=Kicker%20Custom%201_1&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&fpc=",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 543,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "cb7e05982feba63e42b159f0c0feb09ee47be91799b92a4c08ba4db72dba238c",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.AltSeal&Elem=_GUARANTEE_SealSpan&SN=buysafeseal_1&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=M&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&I=&TS=de20ea26d3"
+        ],
+        "time": 0.10027399999671616
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/Static.aspx?CBF=bs_R.RollCBF&Type=RO&Promocode=Custom&ifID=Custom&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&TS=af7f8",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 732,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"7a292f33cf0b79a6\"",
+          "expires": "Thu, 23 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "2ce758070a9c9a60b8e37c3934b0a3fd16fcab7e360212806eb15ef00068593b",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.AltSeal&Elem=_GUARANTEE_SealSpan&SN=buysafeseal_1&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=M&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&I=&TS=de20ea26d3"
+        ],
+        "time": 0.09765599999809638
+      },
+      {
+        "url": "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 2169,
+        "remoteIPAddress": "104.110.240.19",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0f3af3f21da8a1c738ace4057a9533270f3710be90ac046448ad92075dac0e2c",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.1455689999856986
+      },
+      {
+        "url": "https://api.livechatinc.com/v3.3/customer/action/get_localization?license_id=13200207&version=ae864b109b85f5ea248e52050fc10cfd_4f6fb8ebe135bbf60aac1d40601a1d31&language=en&group_id=0&jsonp=__lc_localization",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3960,
+        "remoteIPAddress": "104.110.240.19",
+        "responseHeaders": {
+          "cache-control": "public, max-age=600",
+          "expires": "Wed, 22 Dec 2021 03:50:01 GMT"
+        },
+        "responseBodyHash": "a1ecf72778ceb36f43d81852588c06aa50f746067201d2a88e688107e92a9f03",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.13934600001084618
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=653677404725827&ev=Microdata&dl=https%3A%2F%2Fwww.waves.com%2Fcart&rl=&if=false&ts=1640144401203&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Shopping%20Cart%20%7C%20Waves%22%7D&cd[OpenGraph]=%7B%22twitter%3Aaccount_id%22%3A%2218161913%22%2C%22og%3Asite_name%22%3A%22waves.com%22%2C%22og%3Alocale%22%3A%22en_us%22%2C%22og%3Atitle%22%3A%22Shopping%20Cart%20%7C%20Waves%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fwww.waves.com%2Fcart%22%2C%22og%3Adescription%22%3A%22%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fimg.wavescdn.com%2F1lib%2Fimages%2Flogos%2Fwaves-logo.jpg%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22https%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22BreadcrumbList%22%2C%22itemListElement%22%3A%5B%7B%22%40type%22%3A%22ListItem%22%2C%22position%22%3A1%2C%22name%22%3A%22Waves%22%2C%22item%22%3A%22https%3A%2F%2Fwww.waves.com%2F%22%7D%2C%7B%22%40type%22%3A%22ListItem%22%2C%22position%22%3A2%2C%22name%22%3A%22Shopping%20Cart%22%2C%22item%22%3A%22https%3A%2F%2Fwww.waves.com%2Fcart%22%7D%5D%7D%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640144400626.1097317021&it=1640144400437&coo=false&es=automatic&tm=3&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/653677404725827?v=2.9.48&r=stable"
+        ],
+        "time": 0.008230999985244125
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=337611456&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.waves.com%2Fcart&ul=en-us&de=UTF-8&dt=Shopping%20Cart%20%7C%20Waves&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=AB%20test%20started&ea=User%20Entered%20Test&el=Norton%20Test%20-Variation%3DVariation&_u=aHDAgAALAAAAAG~&jid=&gjid=&cid=440409640.1640144400&tid=UA-9260408-1&_gid=1852250067.1640144400&gtm=2wgc10NMNKFR&cg1=cart&cd20=Norton%20Test%20-%20Variation%3D%20Variation&z=1829792249",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://mc.yandex.ru/metrika/tag.js",
+          "https://nsg.symantec.com/Web/Seal/gjs.aspx?SN=950311404",
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.AltSeal&Elem=_GUARANTEE_SealSpan&SN=buysafeseal_1&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=M&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&I=&TS=de20ea26d3"
+        ],
+        "time": 0.004579999978886917
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.trcFn&Elem=old_set_cookie&SN=name&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsrc%3Dold_set_cookie%3Bname%3Dname%3Bsno%3Da&I=&TS=de20ea27c4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1061,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\"",
+          "pragma": "no-cache",
+          "set-cookie": "buySAFE=UniqueID=e4090838-9d49-463b-94f3-27d841188c63_74; expires=Thu, 22-Dec-2022 03:40:01 GMT; path=/"
+        },
+        "responseBodyHash": "8c3427640859d8f4c6bb15fbbe75d3630fd75aea12faf0db8fb0a23151cd6dc5",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/gjs.aspx?SN=950311404",
+          "https://nsg.symantec.com/Web/Seal/AltSealInfo.aspx?Info=1&PR=&CBF=bs_R.AltSeal&Elem=_GUARANTEE_SealSpan&SN=buysafeseal_1&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&S=Large&T=M&MSPHASH=&fpc=&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&I=&TS=de20ea26d3"
+        ],
+        "time": 0.0928820000262931
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/si.aspx?s=950311404&p=11&t=a&TS=af7f8&R=1&x=BLX",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 6478,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"bfae588a4e7be895\"",
+          "expires": "Thu, 23 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "1bd084cbfd5420b47caabb38389522ed4509d1c50c7a4fa6dfa45c469ee039d8",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/Static.aspx?CBF=bs_R.RollCBF&Type=RO&Promocode=Custom&ifID=Custom&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&TS=af7f8"
+        ],
+        "time": 0.011601999984122813
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/si.aspx?s=950311404&p=11&t=a&TS=af7f8&R=0&x=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 3237,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"0a77a00d45dc9d6b\"",
+          "expires": "Thu, 23 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "032467cea6030ed0188cbcb33231c9606045f3ba16e48a4de73f1277c9e0cc7d",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/Dynamic.aspx?CBF=bs_R.WriteKickersHTML&Promocode=Kicker%20Custom%201&ifID=Kicker%20Custom%201_1&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&fpc="
+        ],
+        "time": 0.1057520000031218
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/Static.aspx?CBF=bs_R.RollCBF&Type=RO&Promocode=Kicker_Custom_1&ifID=Kicker_Custom_1&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&TS=af7f8",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 703,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"0be876e2d2b52b00\"",
+          "expires": "Thu, 23 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "bafc205de8b962023668a1b5edb90890f03d8892c3900432c2e31bf111d6a5ae",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/Dynamic.aspx?CBF=bs_R.WriteKickersHTML&Promocode=Kicker%20Custom%201&ifID=Kicker%20Custom%201_1&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&fpc="
+        ],
+        "time": 0.09888899998622946
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 719,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 22 Dec 2021 03:40:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "030f0f994a6147596ceec7f5c6964c4ce869919ee0e552794a16cfb7d272559f",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.033793000009609386
+      },
+      {
+        "url": "https://cdn.livechatinc.com/widget/static/js/0.77395a24.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 66383,
+        "remoteIPAddress": "104.110.240.114",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"5dffe850244072bb87fb0b6df6a1a1ee\"",
+          "expires": "Thu, 22 Dec 2022 03:40:01 GMT"
+        },
+        "responseBodyHash": "1354e81a328cd0b4195375f0ff0e5f657303cdd8372412c8868d64a795531d24",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.01772299999720417
+      },
+      {
+        "url": "https://cdn.livechatinc.com/widget/static/js/2.aab3dddc.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 63241,
+        "remoteIPAddress": "104.110.240.114",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"560c5ba50d408841ad5c93f5150ffa26\"",
+          "expires": "Thu, 22 Dec 2022 03:40:01 GMT"
+        },
+        "responseBodyHash": "03d4d7722e03c9d7618355d577f0b4bfe2e864ffe7c1ce5680a0000c15d14c00",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.024302999983774498
+      },
+      {
+        "url": "https://cdn.livechatinc.com/widget/static/js/iframe.73fbf127.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 120712,
+        "remoteIPAddress": "104.110.240.114",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"287034136884f096ed7347d77c0a6462\"",
+          "expires": "Thu, 22 Dec 2022 03:40:01 GMT"
+        },
+        "responseBodyHash": "90bd0a0fed95c111e2075ddf1eefa88ea998edb25a90c879a07ed105ecb01b86",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.040754999994533136
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 10319,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:47:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f74e1b926fa6e226daa2130b10da4e6ae18dcbc0afddf157d06f0eb76e0f4583",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext&display=swap"
+        ],
+        "time": 0.17742100000032224
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVZNyBx2pqPA.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 10143,
+        "remoteIPAddress": "216.58.208.99",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:57:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fdccc1f660818886f24a7cfd42eb0cd0b6f0bd280960a058f1735cddeb0362e",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext&display=swap"
+        ],
+        "time": 0.17741500001284294
+      },
+      {
+        "url": "https://nsg.symantec.com/Web/Seal/si.aspx?s=950311404&p=11&t=a&TS=af7f8&R=1&x=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 5613,
+        "remoteIPAddress": "23.222.58.78",
+        "responseHeaders": {
+          "cache-control": "private, max-age=86400",
+          "etag": "\"fd9e3e6516eebba1\"",
+          "expires": "Thu, 23 Dec 2021 03:40:01 GMT",
+          "p3p": "CP=\"ALL DSP COR CUR ADM DEV TAI PSA PSD IVA IVD CONo HIS OUR SAMi LEG UNI NAV\""
+        },
+        "responseBodyHash": "60581458e48f68db3e18d47f04368fdf4a2f199c4cf8151f98a1f376ec49c531",
+        "initiators": [
+          "https://nsg.symantec.com/private/rollover/rollover.core.js",
+          "https://nsg.symantec.com/Web/Seal/Static.aspx?CBF=bs_R.RollCBF&Type=RO&Promocode=Kicker_Custom_1&ifID=Kicker_Custom_1&DP=br%3DChrome%3Bvr%3D93.0.4577.63%3Bos%3DLinux%3Bsno%3Da&HASH=fLVQ2Vvcs25wgQbb8EBWckemHW4McszULAldzyTE%2B0LZpV7WWeCbagcNEJIkX%2BhHs5GiU%2Fh9LQY2uer4uVsmcw%3D%3D&TS=af7f8"
+        ],
+        "time": 0.3431609999970533
+      },
+      {
+        "url": "wss://api.livechatinc.com/v3.3/customer/rtm/ws?license_id=13200207",
+        "type": "WebSocket",
+        "initiators": [
+          "https://cdn.livechatinc.com/widget/static/js/iframe.73fbf127.chunk.js",
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ]
+      },
+      {
+        "url": "https://accounts.livechatinc.com/customer/token",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 1150,
+        "remoteIPAddress": "104.110.240.19",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://secure.livechatinc.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "__lc_cid=4dc2f44c-a81b-40f1-60eb-f48bf5ef438a; Path=/v2/customer/token; Domain=accounts.livechatinc.com; Expires=Fri, 22 Dec 2023 03:40:01 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__lc_cst=4d73bb2c49d92af7e3f47db008bf6c0dac948dd17da972f360647ac58b0a4c1bd807b9b4eac0c739d765c6ce35e6dbd27b6666849507b19877efa9a9abf6; Path=/v2/customer/token; Domain=accounts.livechatinc.com; Expires=Fri, 22 Dec 2023 03:40:01 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__lc_cid=4dc2f44c-a81b-40f1-60eb-f48bf5ef438a; Path=/customer/token; Domain=accounts.livechatinc.com; Expires=Fri, 22 Dec 2023 03:40:01 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__lc_cst=4d73bb2c49d92af7e3f47db008bf6c0dac948dd17da972f360647ac58b0a4c1bd807b9b4eac0c739d765c6ce35e6dbd27b6666849507b19877efa9a9abf6; Path=/customer/token; Domain=accounts.livechatinc.com; Expires=Fri, 22 Dec 2023 03:40:01 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__oauth_redirect_detector=counter=1&t=1640144431&tag=ac262d709607dcff9ce7d2e7f34c030847efc01a; Path=/; Expires=Wed, 22 Dec 2021 03:40:31 GMT; HttpOnly"
+        },
+        "responseBodyHash": "ec4e2d417bd13ceac60547b4aafa65a0037b76884e31250f9de9c432bd5e8c1a",
+        "initiators": [
+          "https://cdn.livechatinc.com/widget/static/js/0.77395a24.chunk.js",
+          "https://cdn.livechatinc.com/widget/static/js/iframe.73fbf127.chunk.js",
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=13200207&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.14591600000858307
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=653677404725827&ev=5seconds&dl=https%3A%2F%2Fwww.waves.com%2Fcart&rl=&if=false&ts=1640144403789&sw=800&sh=600&v=2.9.48&r=stable&ec=2&o=30&fbp=fb.1.1640144400626.1097317021&it=1640144400437&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 03:40:03 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://mc.yandex.ru/metrika/tag.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.0033629999961704016
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1640144403796&cv=9&fst=1640144403796&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=Seconds%3D5&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1040,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "186921a4df8940edf5196707a2446dcbf1e5ec748568ed7faa1a2457abb39e71",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://mc.yandex.ru/metrika/tag.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.02074999999604188
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/871411056/?random=1640144403796&cv=9&fst=1640142000000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=Seconds%3D5&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&async=1&fmt=3&is_vtc=1&random=3034959599&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1640144403796&cv=9&fst=1640144403796&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=Seconds%3D5&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.012268999998923391
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/871411056/?random=1640144403796&cv=9&fst=1640142000000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=Seconds%3D5&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&async=1&fmt=3&is_vtc=1&random=3034959599&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1640144403796&cv=9&fst=1640144403796&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=Seconds%3D5&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.012524999998277053
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=653677404725827&ev=10seconds&dl=https%3A%2F%2Fwww.waves.com%2Fcart&rl=&if=false&ts=1640144408809&sw=800&sh=600&v=2.9.48&r=stable&ec=3&o=30&fbp=fb.1.1640144400626.1097317021&it=1640144400437&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 03:40:08 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://mc.yandex.ru/metrika/tag.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.015773999999510124
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1640144408818&cv=9&fst=1640144408818&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=Seconds%3D10&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 1040,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ade74300e9992371f1ffbb52ea4b39dfbb0ef44da6114f46cf9acf91d5fa24f1",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-NMNKFR",
+          "https://mc.yandex.ru/metrika/tag.js",
+          "https://img.wavescdn.com/1lib/scripts/jscssver200/waves-min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ],
+        "time": 0.028381999989505857
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/871411056/?random=1640144408818&cv=9&fst=1640142000000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=Seconds%3D10&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&async=1&fmt=3&is_vtc=1&random=1592755139&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1640144408818&cv=9&fst=1640144408818&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=Seconds%3D10&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.011788000003434718
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/871411056/?random=1640144408818&cv=9&fst=1640142000000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=Seconds%3D10&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&async=1&fmt=3&is_vtc=1&random=1592755139&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871411056/?random=1640144408818&cv=9&fst=1640144408818&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=Seconds%3D10&frm=0&url=https%3A%2F%2Fwww.waves.com%2Fcart&tiba=Shopping%20Cart%20%7C%20Waves&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.010268000012729317
+      },
+      {
+        "url": "https://mc.yandex.ru/watch/55982974?page-url=https%3A%2F%2Fwww.waves.com%2Fcart&charset=utf-8&browser-info=nb%3A1%3Acl%3A158%3Aar%3A1%3Agdpr%3A14%3Avf%3Aykcyjkqfpgygy63o3j%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A720%3Acn%3A1%3Adp%3A1%3Als%3A686663053511%3Ahid%3A282459947%3Az%3A0%3Ai%3A20211222034015%3Aet%3A1640144416%3Ac%3A1%3Arn%3A857023254%3Arqn%3A3%3Au%3A1640144401210860032%3Aw%3A1440x812%3As%3A800x600x24%3Ask%3A1%3Aeu%3A1%3Ans%3A1640144396788%3Awv%3A2%3Aco%3A0%3Aadb%3A2%3Arqnl%3A1%3Ast%3A1640144416&t=gdpr(14)aw(1)lt(201800)ti(0)&force-urlencoded=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.waves.com/",
+        "status": 200,
+        "size": 145,
+        "remoteIPAddress": "93.158.134.119",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.waves.com",
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Wed, 22-Dec-2021 03:40:15 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://mc.yandex.ru/metrika/tag.js"
+        ],
+        "time": 0.06364599999506027
+      }
+    ]
+  }
+}

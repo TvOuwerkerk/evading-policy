@@ -1,0 +1,3379 @@
+{
+  "initialUrl": "https://www.beginningboutique.com.au/",
+  "finalUrl": "https://www.beginningboutique.com.au/",
+  "timeout": false,
+  "testStarted": 1639584546167,
+  "testFinished": 1639584569028,
+  "data": {
+    "links": "No internal links were collected",
+    "requests": [
+      {
+        "url": "https://www.beginningboutique.com.au/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 54711,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:06 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:06 GMT\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:06 GMT\n_orig_referrer=; Expires=Wed, 29-Dec-21 16:09:06 GMT; Domain=beginningboutique.com.au; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Wed, 29-Dec-21 16:09:06 GMT; Domain=beginningboutique.com.au; Path=/; HttpOnly; SameSite=Lax\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:06 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:06 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:06 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:06 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "7eb2a63561ece2472b27a3cd744e19edec31aa78440c7cf6243ead40e2a7ca48",
+        "initiators": [],
+        "time": 0.6250989999971353
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.css?cache=5422332&v=9463507131284057914",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 55454,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 25 Nov 2022 04:34:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ef6b7b699002882240da2ec783c89507aa170c5338915923263a2f98b0c8fbf8",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.042575999977998435
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 109439,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:02:25 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "89c2b66cc6fca19f9a6fda624977d7095087391e00f52155e902c65aa0c864a3",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.0586660000262782
+      },
+      {
+        "url": "https://triplewhale-pixel.web.app/triplepx.txt?-18218",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4935,
+        "remoteIPAddress": "199.36.158.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "etag": "\"de16576c20b08024d792e8a8a4c79d7f5517d3633babda85c676f7c072ea21ae-br\""
+        },
+        "responseBodyHash": "b939dfda08123af8a050743eeb68c41639034f160c7856dcae45eaf6953f73c2",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.04391299997223541
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3512,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.029495000024326146
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17629,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.030888999986927956
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12553,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.04881299997214228
+      },
+      {
+        "url": "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 85114,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "W/\"e4d922f9c96a6c742ea680c60b87d9f2\""
+        },
+        "responseBodyHash": "8422efe12d58303b94b9b6ae5759c60cb22582c1f8be952f4cd1f067c5d0138f",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.22941400000127032
+      },
+      {
+        "url": "https://cdn-widgetsrepository.yotpo.com/v1/loader/yK2V2eA3XT9R2hSRP7m-ng",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39787,
+        "remoteIPAddress": "2.20.160.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "916a322ba359cb484926625b7204e2b6897a3fee158d16c709e94af32e651db8",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.12191799998981878
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.js?cache=22086&v=15198972517511795151",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 313053,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 02:13:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6aea1590eea8974ef4d6c751932b58c5173fc61b94de0651da1ddbadccabb1eb",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.16115599998738617
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16425,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 02 Dec 2022 17:24:23 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5cbc4d1068a9901f3b7138f4a438e4e70f81564077ac44a8f976e98a2983295c",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.014995999983511865
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3083,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.013922000012826174
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/futuraptbook.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29920,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Mon, 14 Nov 2022 16:31:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a54ec440cf926fb20016dfd8d9d98c5c3ea26455f03335c30a400bdf4f465a72",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.css?cache=5422332&v=9463507131284057914"
+        ],
+        "time": 0.06971700000576675
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/Rewards_2.png?v=1635137450",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3697,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 28 Oct 2022 05:47:38 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb363ca29cda344356d03b9b2a8e28cf7dfaed03eed616638b1cd411143f7464",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.011514000012539327
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/Referral_2.png?v=1635137450",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4529,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 05:48:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6a25d112ddd0e91f03c30a3b34a10232c185677aeaa34d86f173b3cb4177ec97",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.0119210000266321
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/hero-desktop_copy_8572c656-e991-4714-9020-d081d822307e_2000x.jpg?v=1639344272",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 103285,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Mon, 12 Dec 2022 21:24:33 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f0522bb90bf497c122f1d584de9ffebea7860c997fafe6a847fd8320e9d9975b",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.015765000018291175
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/AU_NEW_2bdb61f1-73cf-44aa-96e7-9b81dbf70d6a_1000x.jpg?v=1639518675",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 222721,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 14 Dec 2022 21:51:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e871ae58e3066a103faf52e00ffe7399974f6c9b91ce4a9cb43794c2a8bb006e",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.034226999967359006
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/AU_Dresses_9d11d0d0-e7ac-4ef4-a311-4d2d33470f1c_1000x.jpg?v=1639518707",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 194683,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 14 Dec 2022 21:51:49 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "43e09796da6b195668460623cf76b38719d6b09e9d8295a967e7ac6b69c2b564",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.01944599999114871
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/AU_US_SNDYS_800x.jpg?v=1639086452",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 156485,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 09 Dec 2022 21:47:33 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "07e5375ae52ad39e963c5f45770595cca05df89ffc44e528cb504e7e9e461e85",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.04198899999028072
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/GWP-web_AUNZ_cb78bfda-963e-436e-bcc0-bb60694c94df_800x.jpg?v=1638750849",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 60205,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Tue, 06 Dec 2022 00:34:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "449f2a3d5fefb788f6e76ef0fefc8a03315af888ea3a0d937a4ffb694cc544b5",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.04611900000600144
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/AU_Corsets_800x.jpg?v=1639086485",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 109699,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 09 Dec 2022 21:48:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6ce726a523f6ee7710655145759b58efc454bf0846f5616109c10175c251bdc3",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.05074500001501292
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/fs.slider.v2.5.js?v=16403728567887248628",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25989,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 23 Nov 2022 09:06:40 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8cc3af4ef7f82f78fdab19444992e0daf4767052707be9bc0dc80d450029c6cf",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.05165600002510473
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/futuraptmed.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30408,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 05:20:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "19e3ebe4c0461c2d70a37feb1c2c5f2c16d5718314c9d7d50c6f897616cda03f",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.css?cache=5422332&v=9463507131284057914"
+        ],
+        "time": 0.0787879999843426
+      },
+      {
+        "url": "https://dhv2ziothpgrr.cloudfront.net/18135/form_55405.js?ver=1628485219",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54071,
+        "remoteIPAddress": "13.227.220.130",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"e43bf9dbb266b727c209767dd0fed7b5\""
+        },
+        "responseBodyHash": "e1cf1eeb92a222e5c7ca034741a568a66e5c66ebc0812554f5b2fb14f16e4a9c",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.06934599997475743
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/ajax-cart.js?v=3701339349404549730",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4197,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sun, 20 Nov 2022 20:24:26 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9b0b41163bdea3ca07a88f189c9ce2c5711ab4c9e7001c24b98a22fb6cabf521",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.01051200000802055
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/ajax-cart-gwp.js?v=4944432399930622503",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1516,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 01 Dec 2022 10:37:17 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b36accdb917786c03085323e54b0e3d75b2474a1353417ba40b2692c352db398",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.0110199999762699
+      },
+      {
+        "url": "https://config.gorgias.io/production/lrg3N7AL832DnR8K/chat/ldzOw7J49K6oL59m.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10415,
+        "remoteIPAddress": "151.101.38.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=300",
+          "etag": "\"ae598d40b4aec7631747736e75f16e5f\"",
+          "expires": "Wed, 23 Nov 2022 02:39:25 GMT"
+        },
+        "responseBodyHash": "8ef6b094d162c757863ffc25d13f7506dbe92a3bec0b1541ae0e3f17e722df62",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.06467599997995421
+      },
+      {
+        "url": "https://d3hw6dc1ow8pp2.cloudfront.net/styles/main.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 19509,
+        "remoteIPAddress": "52.222.137.98",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"6489164c85a21a3be1ac88478a69d286\""
+        },
+        "responseBodyHash": "7bb61b4b1a9aadf25c42aabae7dbf5bbc9f0123b2e275518d94b3bc56c22c0da",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.0874879999901168
+      },
+      {
+        "url": "https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=10801",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1046,
+        "remoteIPAddress": "104.18.28.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400, s-max-age=31536000",
+          "etag": "W/\"2df-aFa9ZRTyf8OkRdf/NeXw1dzr9a8\"",
+          "referrer-policy": "no-referrer"
+        },
+        "responseBodyHash": "b0e70f07d74e6de65113146a5a6ca6ee2e6cc6c85761f84a3f8df7e29b44aee8",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.0644919999758713
+      },
+      {
+        "url": "https://unpkg.com/@loophq/onstore-sdk@latest/dist/loop-onstore-sdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "104.16.126.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=600, max-age=60"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://unpkg.com/@loophq/onstore-sdk@1.0.9/dist/loop-onstore-sdk.js",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.1969299999764189
+      },
+      {
+        "url": "https://www.googleoptimize.com/optimize.js?id=GTM-WMMQSTK",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40165,
+        "remoteIPAddress": "142.251.36.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:09:07 GMT"
+        },
+        "responseBodyHash": "a5b639a88526be6b549aeed48db10cf7e0181d80760da8e02ec17d3fb4e1118c",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.05591100000310689
+      },
+      {
+        "url": "https://3wpxet.xyz/conf/sound.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 806,
+        "remoteIPAddress": "66.228.53.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=315360001, s-maxage=315360001",
+          "etag": "76db8e5fb6bf01bebcaf0d9dd28ccc7e"
+        },
+        "responseBodyHash": "5e10eec0f4a6fad5728baa8f0c1a160d12f8241f30759c8d1e2f77a1433a702a",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.379590000025928
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 485,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js"
+        ],
+        "time": 0.3519189999788068
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/futuraptdemi.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30543,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 24 Nov 2022 16:29:31 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7881ca9e6a0f983059ce4c3792e839bbb5399a56e8e878b8778b0a40b8b4f544",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.css?cache=5422332&v=9463507131284057914"
+        ],
+        "time": 0.09697099996265024
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/futuraptheavy.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30265,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 02 Nov 2022 19:56:11 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4e7f9bee2c25b9fdf6e3ea18a142b3c800e6eee1802469ca2947e8eb2fc3c1d0",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.css?cache=5422332&v=9463507131284057914"
+        ],
+        "time": 0.0986780000384897
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/futuraptlight.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30106,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 26 Oct 2022 09:49:59 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "89e171b9daf6d25d7d504c4feb0dfad964aaf0b38e57a25c501944cc1ebeb4af",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/theme.css?cache=5422332&v=9463507131284057914"
+        ],
+        "time": 0.11318400001619011
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/Global_banner-download_app-desktop_2000x.jpg?v=1628730693",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 60915,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 06:13:05 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4062b2cc171258e18462f32ca10a60da2970e1d13c4bdaf6d9c3cb519ba43229",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.02221199998166412
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/Collection_banner_desktop_17edb511-996c-4978-b555-268855cd14e2_2000x.jpg?v=1636668452",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 58287,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 05:51:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "102c7ea296269a1394e19d42c868101b58e5dfcaebc0cb0459f4abdbec4f5d6b",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.02494600001955405
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0217/9066/files/BD_website_marketing_banner_afterpay_desktop_2x_cff75fbe-7225-4953-857c-23fe2629cc79_2000x.jpg?v=1608672504",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13717,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 05:24:03 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "249e221a1a60e6101bb10cbc1593399971ac375022d062627917cd236b06fc7d",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.022507999965455383
+      },
+      {
+        "url": "https://p.yotpo.com/js/bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14273,
+        "remoteIPAddress": "18.135.246.145",
+        "responseHeaders": {
+          "cache-control": "max-age=86400\nprivate",
+          "etag": "W/\"611407ec-a96b\"",
+          "expires": "Thu, 16 Dec 2021 16:09:07 GMT"
+        },
+        "responseBodyHash": "34677893e517cafd730303991928856dea0f7563b13692bb80380f26a71c49a6",
+        "initiators": [
+          "https://cdn-widgetsrepository.yotpo.com/v1/loader/yK2V2eA3XT9R2hSRP7m-ng"
+        ],
+        "time": 0.12579099996946752
+      },
+      {
+        "url": "https://cdn-widget-assets.yotpo.com/widgets-initializer/app.v0.0.42-2673.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8604,
+        "remoteIPAddress": "2.20.160.75",
+        "responseHeaders": {
+          "cache-control": "max-age=7960969",
+          "etag": "\"159abe855ef1924f2032833495ff921f\""
+        },
+        "responseBodyHash": "07323a01c0b955284041a6a883e72d6453c8904d37c42543eefe643389782aba",
+        "initiators": [
+          "https://cdn-widgetsrepository.yotpo.com/v1/loader/yK2V2eA3XT9R2hSRP7m-ng"
+        ],
+        "time": 0.026883999991696328
+      },
+      {
+        "url": "https://unpkg.com/@loophq/onstore-sdk@1.0.9/dist/loop-onstore-sdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16260,
+        "remoteIPAddress": "104.16.126.175",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b075-ZDPHTV1gI86R7rryPtcb4aHID98\""
+        },
+        "responseBodyHash": "61f22f4fcb3beaf7ceed8d48827a9b505351ca31318ba468ec98e33f190f7e6c",
+        "redirectedFrom": "https://unpkg.com/@loophq/onstore-sdk@latest/dist/loop-onstore-sdk.js",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.03231199999572709
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1374,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.06702799996128306
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M9RGQDG",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 55763,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:09:07 GMT"
+        },
+        "responseBodyHash": "ffae8f12bd505228fb9e0c06ee87d7787bd119b4b422ff0f6c133b1226dfc0fa",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.06909499998437241
+      },
+      {
+        "url": "https://sc-static.net/scevent.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7336,
+        "remoteIPAddress": "52.222.138.5",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, s-maxage=0, max-age=600",
+          "set-cookie": "X-AB=0d6e407936704bd380072f5891d28b0e;max-age=86400;expires=Thu, 16 Dec 2021 14:58:57 GMT;Path=/scevent.min.js; Secure; SameSite=None"
+        },
+        "responseBodyHash": "37bfde005f97cbf893b9d27e0d87c5cb11342bb0bd744b28f646cc2c06f08c8d",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.07445700000971556
+      },
+      {
+        "url": "https://dov7r31oq5dkj.cloudfront.net/c1d07359-8270-4a03-9ec6-534ada6f3c55/widget-style-customisations.css?v=125052be-a613-450c-a889-019384b3cd67",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2158,
+        "remoteIPAddress": "13.227.220.19",
+        "responseHeaders": {
+          "etag": "W/\"bc2282154ba579e868ddae5d81fdd0da\""
+        },
+        "responseBodyHash": "8a26ab77032201f424260d809d7e47088384f2c2da865129d56cf79f9b616dac",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.07554899994283915
+      },
+      {
+        "url": "https://static.hotjar.com/c/hotjar-962660.js?sv=6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2369,
+        "remoteIPAddress": "52.222.138.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "etag": "W/0b2d4a0f23e0c590ff749a3cc2af7656"
+        },
+        "responseBodyHash": "4ac8b32b8784e435b9c198903ce5968bd676cfa7aad45983344f9034e3920a78",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.04408199997851625
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1793,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.010140999977011234
+      },
+      {
+        "url": "https://shop.app/pay/session?v=1",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1055,
+        "remoteIPAddress": "23.227.38.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"9b5179ea2a77fe69b294fbd2ed504eac\"",
+          "p3p": "CP=\"Not used\"",
+          "set-cookie": "_pay_session=dtvp5xvwZXBZ4PayfvEYEQu%2BXUVnzl9U972HEVknhCZ2sWoyAzjN40h4tD3RYLHr1EE%2BvVx%2FPny19JUJv3gyuHws4YjRkrI9Ho9IFJ6sJLMYqJwHNQf9ZSpJJ2Zp3v3ulUBEd9G%2FJKPUMrOUCehHO2%2B%2FSPr7GNWa77rRn%2Fr3QNO3FZlH2DB0eTgmHDw9tjBDldXt5w%3D%3D--2w5LnU48P8PzqeFt--Hg2aO2Tug2NPw4mmTF7Z7A%3D%3D; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "9b5179ea2a77fe69b294fbd2ed504eacbfbe048ede58967b43af2ca537144b1f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208"
+        ],
+        "time": 0.1826289999880828
+      },
+      {
+        "url": "https://cdn.searchspring.net/ajax_search/sites/s7e03x/js/angular.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11782,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300",
+          "etag": "\"e90898494cd7e59c19cb648c02ee70ac\""
+        },
+        "responseBodyHash": "87845e2a71287923d41cb43c5c7a44b795f0604a1d2db4b1b14b651285ad9c07",
+        "initiators": [
+          "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x"
+        ],
+        "time": 0.0236610000138171
+      },
+      {
+        "url": "https://foursixty.com/media/styles/embed/slider_v2_5.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 11142,
+        "remoteIPAddress": "157.230.200.6",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"61803e40-a4eb\"",
+          "expires": "Thu, 16 Dec 2021 16:09:08 GMT"
+        },
+        "responseBodyHash": "17a2d7758897d062bc5614cc9944686eaafb245da487d185c6922b6fff11ce18",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/fs.slider.v2.5.js?v=16403728567887248628"
+        ],
+        "time": 0.3326000000233762
+      },
+      {
+        "url": "https://foursixty.com/api/v2/beginningboutique/timeline/?pagination_type=cursor&page_size=25&format=json&page=1&use_stored_image_url=true",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 42675,
+        "remoteIPAddress": "157.230.200.6",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age = 7200.000"
+        },
+        "responseBodyHash": "e8b033a700c0e0d4a3aca23d9d6bfe4a19f29ef7cc49d5a470352a052f9801be",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/fs.slider.v2.5.js?v=16403728567887248628"
+        ],
+        "time": 0.4349159999983385
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Work+Sans:lighter,normal,bold;%7CLato:lighter,normal,bold;",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1087,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:09:08 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0eee87c16af16636731914b204bb51902bca052e5d4db46791902a1d0a819197",
+        "initiators": [
+          "https://dhv2ziothpgrr.cloudfront.net/18135/form_55405.js?ver=1628485219"
+        ],
+        "time": 0.07254900003317744
+      },
+      {
+        "url": "https://subscription-forms.smsbump.com/quick-subscribe-check",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 236,
+        "remoteIPAddress": "23.22.238.150",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "c24494148670dde111675abd6e8aefcdd729ae6d2fbce83eca915da559e03e69",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://dhv2ziothpgrr.cloudfront.net/18135/form_55405.js?ver=1628485219"
+        ],
+        "time": 0.4508870000136085
+      },
+      {
+        "url": "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=80973b9f&applicationId=10801",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 117766,
+        "remoteIPAddress": "104.18.28.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000, s-max-age=31536000",
+          "etag": "W/\"5c66e-miqBeyeTIrlavpVnOtSdZsTB7LQ\"",
+          "referrer-policy": "no-referrer"
+        },
+        "responseBodyHash": "32a1be59fd6f8d660bc5ed907b9d52087965db98bce137450ccf11ef8eb178ce",
+        "initiators": [
+          "https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=10801"
+        ],
+        "time": 0.08987299998989329
+      },
+      {
+        "url": "https://cdn-widget-assets.yotpo.com/widget-referred-friend/app.v0.1.3-2761.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 109660,
+        "remoteIPAddress": "2.20.160.75",
+        "responseHeaders": {
+          "cache-control": "max-age=9845171",
+          "etag": "\"f7458ffdf72f7e2331be85298b97a7ca\""
+        },
+        "responseBodyHash": "12ea5c865a956d4e73fcc520019b8db9e50a1b8c47e65044e50a51a46bc7b5b1",
+        "initiators": [
+          "https://cdn-widget-assets.yotpo.com/widgets-initializer/app.v0.0.42-2673.js",
+          "https://cdn-widgetsrepository.yotpo.com/v1/loader/yK2V2eA3XT9R2hSRP7m-ng"
+        ],
+        "time": 0.08237999997800216
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/cart/update.js?r=2.3005959868",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1375,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "cart=8d7d1b688ddcc00bbd4acceccf06f958; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT; SameSite=Lax\ncart_ts=1639584548; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT; HttpOnly; SameSite=Lax\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT; SameSite=Lax\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT; SameSite=Lax\ncart_sig=fe17e1280352fc80fb4b14b9c3e5bff1; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:08 GMT; secure; HttpOnly; SameSite=Lax\ncart_ver=gcp-us-central1%3A2; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT; HttpOnly; SameSite=Lax\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "0fa7d2de039acb07851c2629715dfaddd6035c8f732e004edf544f6f7f214fae",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.3588539999909699
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/cart.js?r=2.3007606021",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 919,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:08 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:08 GMT\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:08 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "ea10471d9f9256b087eede92472bd3c40d16f4f8c1c33e75359923281a8a57c9",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.19960500003071502
+      },
+      {
+        "url": "https://asia.creativecdn.com/tags?type=script&id=pr_5OYLlUBYmf7r5bKSAupn_home",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "103.132.192.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "p3p": "CP=\"NON DSP COR CURa PSA PSD OUR BUS NAV STA\"",
+          "set-cookie": "u=G5oUj6iVsC53sPUdspuf;Path=/;Domain=.creativecdn.com;Expires=Thu, 15-Dec-2022 16:09:08 GMT;Max-Age=31536000;Secure;SameSite=None\nts=1639584548;Path=/;Domain=.creativecdn.com;Expires=Thu, 15-Dec-2022 16:09:08 GMT;Max-Age=31536000;Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://asia.creativecdn.com/tags?type=script&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1",
+        "initiators": [
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439"
+        ],
+        "time": 0.7876899999682792
+      },
+      {
+        "url": "https://ipapi.co/jsonp/?key=4edadf2edba204c0718d774606ba94594e7151d6&callback=jQuery341012106173684808974_1639584546998&_=1639584546999",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 932,
+        "remoteIPAddress": "172.67.69.226",
+        "responseHeaders": {},
+        "responseBodyHash": "f171682a0696a9c7b8e9e5ba4be61848201f73cbe90996cb135f6dc5eb9f908f",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439",
+          "webpack-internal:///320"
+        ],
+        "time": 0.2951410000096075
+      },
+      {
+        "url": "https://get.geojs.io/v1/ip/country.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 830,
+        "remoteIPAddress": "172.67.70.233",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate, private, max-age=0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "561406a5d81bda9315720182b638fa6e51735678e6815c8002590c2a1152e434",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "webpack-internal:///320",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208",
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439"
+        ],
+        "time": 0.08961799996905029
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18927,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.027406000008340925
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/worksans/v13/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 49124,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 20:34:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f14c83fbb5b3e3df8bbea1435977f895c5817f96a3017b5421e10e15a72a95a7",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Work+Sans:lighter,normal,bold;%7CLato:lighter,normal,bold;"
+        ],
+        "time": 0.39308599999640137
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 14162,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a8348f300caf3357692ebe284c2ac37964b7b973a357fba3e62e6c68f3ffcda",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Work+Sans:lighter,normal,bold;%7CLato:lighter,normal,bold;"
+        ],
+        "time": 0.3929430000134744
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 15 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M9RGQDG"
+        ],
+        "time": 0.0398020000429824
+      },
+      {
+        "url": "https://assets.gorgias.chat/8d33c931ad9da0c180c44a00db108362dcb7dce8/static/js/linkifyjs-html.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 12843,
+        "remoteIPAddress": "104.18.28.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"8b37e187469625b8329867aa3f6b5a27\"",
+          "expires": "Wed, 15 Dec 2021 20:09:08 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=80973b9f&applicationId=10801"
+        ],
+        "time": 0.03871300001628697
+      },
+      {
+        "url": "https://assets.gorgias.chat/8d33c931ad9da0c180c44a00db108362dcb7dce8/static/js/gcmw.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 116146,
+        "remoteIPAddress": "104.18.28.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"c4893b7f955f2def581f7940c3d20564\"",
+          "expires": "Wed, 15 Dec 2021 20:09:08 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=80973b9f&applicationId=10801"
+        ],
+        "time": 0.07294599997112527
+      },
+      {
+        "url": "https://loyalty.yotpo.com/api/public/v1/campaigns?guid=yK2V2eA3XT9R2hSRP7m-ng&merchant_id=84694&campaign_types[]=ReferralCampaign",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1131,
+        "remoteIPAddress": "107.22.13.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"b529539bb7735bf30ae2ded815bec140\"",
+          "referrer-policy": "strict-origin"
+        },
+        "responseBodyHash": "b529539bb7735bf30ae2ded815bec1404e7b176d21f0f3b3ef641f37cc8be145",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn-widget-assets.yotpo.com/widget-referred-friend/app.v0.1.3-2761.js",
+          "https://cdn-widget-assets.yotpo.com/widgets-initializer/app.v0.0.42-2673.js",
+          "https://cdn-widgetsrepository.yotpo.com/v1/loader/yK2V2eA3XT9R2hSRP7m-ng"
+        ],
+        "time": 0.42888900003163144
+      },
+      {
+        "url": "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 61482,
+        "remoteIPAddress": "13.227.219.3",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"7a85a2a595def8796a50e919e49cda7a\""
+        },
+        "responseBodyHash": "2a76024584e2692938f4dd0feb5b77e96a0bdc93d8661f8c855a7546125552f7",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-962660.js?sv=6"
+        ],
+        "time": 0.059458999952767044
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/cart.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1335,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:09 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:09 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:09 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:09 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:09 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "0fa7d2de039acb07851c2629715dfaddd6035c8f732e004edf544f6f7f214fae",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.16538299998501316
+      },
+      {
+        "url": "https://assets.gorgias.chat/8d33c931ad9da0c180c44a00db108362dcb7dce8/static/media/notification-chat.97cd95d2.mp3",
+        "method": "GET",
+        "type": "Media",
+        "status": 206,
+        "size": 3972,
+        "remoteIPAddress": "104.18.28.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "\"97cd95d28b187ffc0c8455c08a688eef\"",
+          "expires": "Wed, 15 Dec 2021 20:09:09 GMT"
+        },
+        "responseBodyHash": "df918aab93efb49d6f0c83c372bfbd7ef839a18f86631a6ab9b561f873f60669",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.037197999947238714
+      },
+      {
+        "url": "https://asia.creativecdn.com/tags?type=script&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 963,
+        "remoteIPAddress": "103.132.192.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "69785a24ff9e1031026ab0cc6f3e44d9f8d77b69358a2e9a656db7512472a8b1",
+        "redirectedFrom": "https://asia.creativecdn.com/tags?type=script&id=pr_5OYLlUBYmf7r5bKSAupn_home",
+        "initiators": [
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439"
+        ],
+        "time": 0.16922099998919293
+      },
+      {
+        "url": "https://assets.gorgias.chat/8d33c931ad9da0c180c44a00db108362dcb7dce8/static/js/campaigns.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10409,
+        "remoteIPAddress": "104.18.28.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"4b9c0c1f8e4567243e85c658a023ec9a\"",
+          "expires": "Wed, 15 Dec 2021 20:09:09 GMT"
+        },
+        "responseBodyHash": "c952609e3bcfc3e0c38973890203d8257843fac06bf0a9127e6e0f0217dd8276",
+        "initiators": [
+          "https://config.gorgias.chat/gorgias-chat-bundle.js?rev=80973b9f&applicationId=10801"
+        ],
+        "time": 0.031221000012010336
+      },
+      {
+        "url": "https://p.yotpo.com/i?e=se&se_ca=referred-friend&se_ac=shown&se_la=layout&se_va=yK2V2eA3XT9R2hSRP7m-ng&cx=eyJzZXNzaW9uX2lkIjoiOTdkN2Q0YzktOGE2Ni00MTc5LTk1M2UtZDAzY2M0NTQ0ZDA2Iiwic2VxdWVuY2UiOiIwIiwid2lkZ2V0X2luc3RhbmNlX2lkIjoiNTI4NDciLCJpbnN0YW5jZV92ZXJzaW9uX2lkIjoiMTExNzY0NSIsImlzX21vYmlsZSI6ZmFsc2V9&dtm=1639584549069&tid=156569&vp=1440x812&ds=1440x4406&vid=1&duid=b8313aa6599f86a8&p=web&tv=js-0.13.4&fp=918107160&aid=onsite_v3&lang=en-GB&cs=UTF-8&tz=Europe%2FBerlin&res=800x600&cd=24&cookie=1&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 402,
+        "remoteIPAddress": "18.135.246.145",
+        "responseHeaders": {
+          "cache-control": "max-age=86400\nprivate",
+          "expires": "Thu, 16 Dec 2021 16:09:09 GMT",
+          "set-cookie": "pixel=95833815-ada3-47a1-4020-e6a8be742aff; Path=/; Domain=yotpo.com; Max-Age=31536000; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://p.yotpo.com/js/bundle.js",
+          "https://cdn-widget-assets.yotpo.com/widget-referred-friend/app.v0.1.3-2761.js"
+        ],
+        "time": 0.025913999998010695
+      },
+      {
+        "url": "https://tr.snapchat.com/collector/is_enabled?pids=d7bc986c-7896-46bc-95f7-cbc19f1c5821",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 313,
+        "remoteIPAddress": "35.186.226.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "90ac8c2a4d6d044a0afa40b9b3497bef6dd4f89375fe7f724f0d3716d343683f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://sc-static.net/scevent.min.js"
+        ],
+        "time": 0.06468000001041219
+      },
+      {
+        "url": "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 1485,
+        "remoteIPAddress": "13.227.219.104",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"6215abf691a11c2f451680e635d30daa\""
+        },
+        "responseBodyHash": "d39c7ff4103007338040282460b2eb0e5adadd9fb80f986fb4c8a3d41785a6ca",
+        "initiators": [
+          "https://static.hotjar.com/c/hotjar-962660.js?sv=6"
+        ],
+        "time": 0.07292800000868738
+      },
+      {
+        "url": "https://tr.snapchat.com/cm/i?pid=d7bc986c-7896-46bc-95f7-cbc19f1c5821",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 241,
+        "remoteIPAddress": "35.186.226.184",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.06772300001466647
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26434,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.050367999996524304
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-876869404",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51323,
+        "remoteIPAddress": "142.251.36.40",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 15 Dec 2021 16:09:09 GMT"
+        },
+        "responseBodyHash": "4f133026e71d45918f699442376e44cb657ff72731aaf22dc4dc9a2162acb7f0",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.027448999986518174
+      },
+      {
+        "url": "https://cdn.searchspring.net/search/v3/lts/modules/autocomplete2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9162,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "W/\"7e73dffaef8e33e57c4b7a05e3c50d33\""
+        },
+        "responseBodyHash": "6bad618d8faa3a5d1392b43d46a9b8a1f7a603b1a8ef67a13c25fbca4ec091c1",
+        "initiators": [
+          "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x",
+          "https://cdn.searchspring.net/ajax_search/sites/s7e03x/js/angular.js"
+        ],
+        "time": 0.013490999990608543
+      },
+      {
+        "url": "https://cdn.searchspring.net/search/v3/lts/modules/facet-slider.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7068,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "W/\"fe7e0d7797bf2b4556d76a74f1d6bb35\""
+        },
+        "responseBodyHash": "c53f8ec2ae1ad57cbd05210f72fbe3b3f2cc023a9e99629fdc659ffa0ccd8239",
+        "initiators": [
+          "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x",
+          "https://cdn.searchspring.net/ajax_search/sites/s7e03x/js/angular.js"
+        ],
+        "time": 0.0186709999688901
+      },
+      {
+        "url": "https://cdn.searchspring.net/search/v3/lts/modules/slideout.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3959,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "W/\"57d06085c3cc16b55d1deadc1d55639e\""
+        },
+        "responseBodyHash": "c41204f04764686e915b15afb912fdabbbe35fc64e5248bb37ec74eb4584c1a2",
+        "initiators": [
+          "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x",
+          "https://cdn.searchspring.net/ajax_search/sites/s7e03x/js/angular.js"
+        ],
+        "time": 0.021216000022832304
+      },
+      {
+        "url": "https://sqs-webhooks.smsbump.com/forms-analytics",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "52.205.53.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://sqs-webhooks.smsbump.com/forms-analytics"
+        ],
+        "time": 0.3193360000150278
+      },
+      {
+        "url": "https://sqs-webhooks.smsbump.com/forms-analytics",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 534,
+        "remoteIPAddress": "52.205.53.217",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "cdf74056baf961a522381b738c58a66cd952de624ec457c2949e64bd340bba4b",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://dhv2ziothpgrr.cloudfront.net/18135/form_55405.js?ver=1628485219"
+        ],
+        "time": 0.44294999999692664
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2612912583055&pd=%7B%22em%22%3A%22e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855%22%7D&cb=1639584549584",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 864,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "bf6ab7885cc175f2d6614a7c19f77d6300a452a10e356e5d5a27e104183a69d9",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.07675499998731539
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2612912583055&pd=%7B%22em%22%3A%22e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.beginningboutique.com.au%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639584549588",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.07045699999434873
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=pagevisit&tid=2612912583055&pd=%7B%22em%22%3A%22e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.beginningboutique.com.au%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1639584549589",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 579,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSZjK1B4R3JYWTRpN3JxTUErTithUDRiYlNOdGFXc1c4OVlDNWxBSjJETXVGNWExOWF2by9tS2hEbVdTeU55TUxnOUtUN01xZHYzSGVySitsTXl1MkJ6ZThUbmdZSW5EdmRMWlFNamJWQUdZQT0mZFA4OWcyMlFteXE5R0p4UE5HNDlkNHcrOW5BPQ==\"; Expires=Thu, 15 Dec 2022 16:09:09 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.06924400001298636
+      },
+      {
+        "url": "https://tr.snapchat.com/p",
+        "method": "POST",
+        "type": "Document",
+        "status": 200,
+        "size": 210,
+        "remoteIPAddress": "35.186.226.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-transform",
+          "set-cookie": "sc_at=v2|H4sIAAAAAAAAAA3GwQ0AIQgEwIpIRFZYypGoVVD83bxmwLXUpiRoAjv/wkv0kXF31DzsVrdcxEL2+AAakl0wMgAAAA==;SameSite=None;Version=1;Comment=;Domain=.snapchat.com;Path=/;Max-Age=33696000;Secure"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.026540999999269843
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17676,
+        "remoteIPAddress": "151.101.1.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.010246999969240278
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 484,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1124590000254102
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 484,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11381199996685609
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 484,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11128400004236028
+      },
+      {
+        "url": "https://triplewhale-pixel.web.app/trek/add?r=2.3004572779",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "199.36.158.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://triplewhale-pixel.web.app/trek/add?r=2.3004572779"
+        ],
+        "time": 0.20065800001611933
+      },
+      {
+        "url": "https://triplewhale-pixel.web.app/trek/add?r=2.3004572779",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 264,
+        "remoteIPAddress": "199.36.158.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "private",
+          "etag": "W/\"8-Nv24HbD1i+MHVjOdNPLzttklKUw\""
+        },
+        "responseBodyHash": "39f94024cbcf740958d8bb6e25095e33ee260776744698ff4e0d43a4454bf72f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.3864239999675192
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/cart/update.js?r=2.3001133817",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1828,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "localization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT; SameSite=Lax\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT; SameSite=Lax\ncart=8d7d1b688ddcc00bbd4acceccf06f958; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT; SameSite=Lax\ncart_ts=1639584550; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT; HttpOnly; SameSite=Lax\ncart_sig=b64dfea25a5c20be7fc2bb980d92d71a; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:10 GMT; secure; HttpOnly; SameSite=Lax\ncart_ver=gcp-us-central1%3A3; path=/; expires=Wed, 29 Dec 2021 16:09:09 GMT; HttpOnly; SameSite=Lax\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:10 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:10 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:10 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:10 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "7d4f097f42d8b17bb59ed097b3857103438f32f061f3c18c68fe2803841fa364",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.4812989999772981
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1743062597&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.beginningboutique.com.au%2F&ul=en-gb&de=UTF-8&dt=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=Web%20Vitals&ea=FCP&el=v2-1639584548648-7651527664975&ev=859&_u=YEBAAEABAAAAAC~&jid=1580232322&gjid=1879980179&cid=952572275.1639584550&tid=UA-19569478-1&_gid=2083698367.1639584550&_r=1&gtm=2wgc10M9RGQDG&did=BwiEti&z=489218230",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 216,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.036256999999750406
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-19569478-1&cid=952572275.1639584550&jid=1375006782&gjid=1798508394&_gid=2083698367.1639584550&_u=YGDAgEABBAAAAG~&z=487097679",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 451,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.07133500004420057
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1743062597&t=pageview&_s=1&dl=https%3A%2F%2Fwww.beginningboutique.com.au%2F&dp=%2F&ul=en-gb&de=UTF-8&dt=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YGDAgEABBAAAAC~&jid=1375006782&gjid=1798508394&cid=952572275.1639584550&tid=UA-19569478-1&_gid=2083698367.1639584550&did=BwiEti&z=1162216126",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 132,
+        "remoteIPAddress": "142.250.179.206",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.027338000014424324
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 484,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.7670270940c20eb4e559cbc3354c220e1be00c62.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11576299997977912
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 274,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.12425100000109524
+      },
+      {
+        "url": "https://asia.creativecdn.com/tags?type=iframe&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 554,
+        "remoteIPAddress": "103.132.192.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6f67c6521351a3bac7fcfbd6ca96e73cdbf154b51b91d97f7437db398276e02e",
+        "initiators": [
+          "https://asia.creativecdn.com/tags?type=script&id=pr_5OYLlUBYmf7r5bKSAupn_home"
+        ],
+        "time": 0.17889700003433973
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-19569478-1&cid=952572275.1639584550&jid=1375006782&_u=YGDAgEABBAAAAG~&z=2125642768",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.0759230000548996
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-19569478-1&cid=952572275.1639584550&jid=1375006782&_u=YGDAgEABBAAAAG~&z=2125642768",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.07604600000195205
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/645919598848356?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 89669,
+        "remoteIPAddress": "31.13.64.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "1ec184a338080d7ba756f90f54e89c8b1dc96a9cac36dcac5f468c0b2b18c962",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.22325800004182383
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-19569478-1&cid=952572275.1639584550&jid=1580232322&gjid=1879980179&_gid=2083698367.1639584550&_u=YEBAAEAAAAAAAC~&z=1092217566",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 70,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.015934999973978847
+      },
+      {
+        "url": "https://cdn.searchspring.net/search/v3/lts/modules/spatial-navigation.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1875,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "W/\"f09033df9e6c8e402927839aebed94e7\""
+        },
+        "responseBodyHash": "be535ea59f5950223e23ad83eb03351c5508274b83291f8be7bb1482f2a3f830",
+        "initiators": [
+          "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x",
+          "https://cdn.searchspring.net/search/v3/lts/modules/autocomplete2.js"
+        ],
+        "time": 0.01240400003734976
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Wed, 15 Dec 2021 16:09:10 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-876869404"
+        ],
+        "time": 0.06368299998575822
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-19569478-1&cid=952572275.1639584550&jid=1580232322&_u=YEBAAEAAAAAAAC~&z=263718269",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.02725099999224767
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-19569478-1&cid=952572275.1639584550&jid=1580232322&_u=YEBAAEAAAAAAAC~&z=263718269",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 107,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.03540399996563792
+      },
+      {
+        "url": "https://in.hotjar.com/api/v2/client/sites/962660/visit-data?sv=6",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 330,
+        "remoteIPAddress": "54.75.159.38",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "76b02ad3175d73ab8a2ad49f261a9efbec46287fde4cbfd613f7b75a020dae28",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://script.hotjar.com/modules.cbd9b920d05cd9e47f57.js",
+          "https://vars.hotjar.com/box-a1ae2079824d1c48aa9ce06efb256f18.html",
+          "https://static.hotjar.com/c/hotjar-962660.js?sv=6"
+        ],
+        "time": 0.106255000049714
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&google_hm=RzVvVWo2aVZzQzUzc1BVZHNwdWY%3D&pi=adx&tdc=sin&chain=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Wed, 15-Dec-2021 16:24:10 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm=&google_sc=&google_ula=5153224&google_hm=RzVvVWo2aVZzQzUzc1BVZHNwdWY%3D&pi=adx&tdc=sin&chain=&google_tc=",
+        "initiators": [
+          "https://asia.creativecdn.com/tags?type=iframe&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1"
+        ],
+        "time": 0.09304700000211596
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=645919598848356&ev=PageView&dl=https%3A%2F%2Fwww.beginningboutique.com.au%2F&rl=&if=false&ts=1639584550350&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=0&o=30&fbp=fb.2.1639584550343.2053733807&it=1639584550071&coo=false&eid=bedad7ef-842D-46FB-4BE0-C1985E8E42CF&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:09:10 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/645919598848356?v=2.9.48&r=stable"
+        ],
+        "time": 0.037392000027466565
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm=&google_sc=&google_ula=5153224&google_hm=RzVvVWo2aVZzQzUzc1BVZHNwdWY%3D&pi=adx&tdc=sin&chain=&google_tc=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "IDE=AHWqTUnJqjaQ6WLfeoIvYtt2mbzd1N6XX92-t64BPbaiK9NVJFUEwiN72N2Menv4twA; expires=Mon, 09-Jan-2023 16:09:10 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.creativecdn.com/adx/cm?v=2&pi=adx&tdc=sin&chain=&google_gid=CAESEKVukNmN3VCB6q2r1waF9uk&google_cver=1&google_ula=5153224,0",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&google_hm=RzVvVWo2aVZzQzUzc1BVZHNwdWY%3D&pi=adx&tdc=sin&chain=",
+        "initiators": [
+          "https://asia.creativecdn.com/tags?type=iframe&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1"
+        ],
+        "time": 0.04788199998438358
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/876869404/?random=1639584550402&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1335,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bb4334f2555b763c53a42af8927a531f76d363dcf1e4bc5f9c5c46c0a7e1bdc0",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-876869404"
+        ],
+        "time": 0.024812000046949834
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1639584550426&cv=9&fst=1639584550426&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Doptimize.callback&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1818,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=; domain=.doubleclick.net; path=/; expires=Fri, 01-Aug-2008 22:45:55 GMT; SameSite=none; Secure\nIDE=AHWqTUlx9FHeqgafadmUmXlj-gviQDwJ2FRlOsh0HXiWEH9eSRgdjAx-_PJjIE5R; expires=Mon, 09-Jan-2023 16:09:10 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1fb30c9aabc45125a694b48299f58a224f19280f7f9d56a6e1c3e6d4e928058e",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-876869404"
+        ],
+        "time": 0.05565500003285706
+      },
+      {
+        "url": "https://876869404.privacysandbox.googleadservices.com/pagead/privacysandbox/conversion/876869404/?random=1639584550402&cv=9&fst=1639584550402&num=1&fmt=3&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-876869404"
+        ],
+        "time": 0.0820720000192523
+      },
+      {
+        "url": "https://cm.creativecdn.com/adx/cm?v=2&pi=adx&tdc=sin&chain=&google_gid=CAESEKVukNmN3VCB6q2r1waF9uk&google_cver=1&google_ula=5153224,0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "185.184.8.65",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://sin.creativecdn.com/adx/cm?v=2&pi=adx&tdc=sin&chain=&google_gid=CAESEKVukNmN3VCB6q2r1waF9uk&google_cver=1&google_ula=5153224,0",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm=&google_sc=&google_ula=5153224&google_hm=RzVvVWo2aVZzQzUzc1BVZHNwdWY%3D&pi=adx&tdc=sin&chain=&google_tc=",
+        "initiators": [
+          "https://asia.creativecdn.com/tags?type=iframe&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1"
+        ],
+        "time": 0.04314900003373623
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&sscte=1&crd=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-conversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&cid=CAQSKQCNIrLMgcbXN5dTpvMUfV1hiKSkPHeDXVyUlbLnderLjbrsUOFBhwq4&random=3584435278&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/876869404/?random=1639584550402&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.08927299996139482
+      },
+      {
+        "url": "https://sin.creativecdn.com/adx/cm?v=2&pi=adx&tdc=sin&chain=&google_gid=CAESEKVukNmN3VCB6q2r1waF9uk&google_cver=1&google_ula=5153224,0",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 243,
+        "remoteIPAddress": "103.132.192.30",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://cm.creativecdn.com/adx/cm?v=2&pi=adx&tdc=sin&chain=&google_gid=CAESEKVukNmN3VCB6q2r1waF9uk&google_cver=1&google_ula=5153224,0",
+        "initiators": [
+          "https://asia.creativecdn.com/tags?type=iframe&id=pr_5OYLlUBYmf7r5bKSAupn_home&tc=1"
+        ],
+        "time": 0.19467699999222532
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/876869404/?random=1639584550426&cv=9&fst=1639584000000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Doptimize.callback&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&async=1&fmt=3&is_vtc=1&random=423033559&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 154,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1639584550426&cv=9&fst=1639584550426&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Doptimize.callback&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.03308099997229874
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/876869404/?random=1639584550426&cv=9&fst=1639584000000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Doptimize.callback&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&async=1&fmt=3&is_vtc=1&random=423033559&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 154,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1639584550426&cv=9&fst=1639584550426&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Doptimize.callback&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.031607999990228564
+      },
+      {
+        "url": "https://cdn.searchspring.net/ajax_search/sites/s7e03x/css/s7e03x.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 5540,
+        "remoteIPAddress": "52.222.138.27",
+        "responseHeaders": {
+          "cache-control": "public, max-age=300",
+          "etag": "\"7008a7004442cceac659f13e0ecf84b7\""
+        },
+        "responseBodyHash": "14e8cfe729f4824c3a28f5a782ea05a7482e3f3f461f799754dc84e56f1ade4b",
+        "initiators": [
+          "https://cdn.searchspring.net/search/v3/lts/searchspring.catalog.js?s7e03x",
+          "https://cdn.searchspring.net/search/v3/lts/modules/autocomplete2.js",
+          "https://cdn.searchspring.net/search/v3/lts/modules/spatial-navigation.js"
+        ],
+        "time": 0.023785000026691705
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&cid=CAQSKQCNIrLMgcbXN5dTpvMUfV1hiKSkPHeDXVyUlbLnderLjbrsUOFBhwq4&random=3584435278&resp=GooglemKTybQhCsO",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/1p-conversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&cid=CAQSKQCNIrLMgcbXN5dTpvMUfV1hiKSkPHeDXVyUlbLnderLjbrsUOFBhwq4&random=3584435278&resp=GooglemKTybQhCsO&ipr=y&prhg=0",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&sscte=1&crd=",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/876869404/?random=1639584550402&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.05438700004015118
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-conversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&cid=CAQSKQCNIrLMgcbXN5dTpvMUfV1hiKSkPHeDXVyUlbLnderLjbrsUOFBhwq4&random=3584435278&resp=GooglemKTybQhCsO&ipr=y&prhg=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://www.google.com/pagead/1p-conversion/876869404/?random=1173148884&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=JhO6Yc6rG7vKx_APvsKG4A4&cid=CAQSKQCNIrLMgcbXN5dTpvMUfV1hiKSkPHeDXVyUlbLnderLjbrsUOFBhwq4&random=3584435278&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/876869404/?random=1639584550402&cv=9&fst=1639584550402&num=1&label=DAXSCODcnfQBEJzuj6ID&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view%3Bpage_path%3D%2F%3Bpage_title%3DBeginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&auid=217089409.1639584549&capi=1&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.024494999961461872
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 4355,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=6138d3901bfc335940ee0d2d0041f406; path=/; expires=Thu, 15 Dec 2022 16:09:10 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZ0bkpFcENkS3lKc0hPb1lqRjlpSEVLdjI0RmJzQytXbU9XbTVtZWN2U2huTGkxMC9MUklVQVhScWhVUE1WMmlweVZ6Sit0TjR5YjdZYitQSFJmMFozKzRML2R4ekw3OHczVnlrby9qTEl3MEJYY0dIbE1lbGoybjFncm5SYkdsYyZ2dTVsZGMyTlRWZmNYTlgvNTVreXJjSXBWTUE9; path=/; expires=Sat, 10 Dec 2022 16:09:10 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Sat, 10 Dec 2022 16:09:10 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://www.beginningboutique.com.au/; path=/; expires=Wed, 15 Dec 2021 16:14:10 GMT; domain=.pinterest.com; secure\n_routing_id=\"2fbec241-f187-47e4-ad48-24e538174ac6\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "4f9fb86d4c1f4570844896303d42fdf0f631400ee1a6a4eb6f988feb3df6d116",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.2855529999942519
+      },
+      {
+        "url": "https://d3hw6dc1ow8pp2.cloudfront.net/reviewsWidget.min.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 76415,
+        "remoteIPAddress": "52.222.137.98",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"7d60928d96b242cb845a50eb3787382f\""
+        },
+        "responseBodyHash": "75ff10e7de1d3f11326c4f4643e0e66e07edb47ab1187a64464709c27aa1553a",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.028289000038057566
+      },
+      {
+        "url": "https://tag.rmp.rakuten.com/115459.ct.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26114,
+        "remoteIPAddress": "34.102.147.248",
+        "responseHeaders": {
+          "cache-control": "max-age=86400"
+        },
+        "responseBodyHash": "4cccbf11c35287d74ca9444982cd2b141ac5a3e61f5421cc3637370559a78074",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.1516389999887906
+      },
+      {
+        "url": "https://swymv3premium-01.azureedge.net/code/swym-shopify.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 56085,
+        "remoteIPAddress": "13.107.246.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8D9BE2EB98F3703"
+        },
+        "responseBodyHash": "58e852582efe5c384092d8286b625db936b1097d3279f36d21ac451c2c277f22",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.09172399999806657
+      },
+      {
+        "url": "https://swymv3premium-01.azureedge.net/code/swym_fb_pixel.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1022,
+        "remoteIPAddress": "13.107.246.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8D9BE2EB562544D"
+        },
+        "responseBodyHash": "7d3ecf730a4d6baac447343b455c4225bdcd9c5e6de88fb007f10610bcdaca29",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.08042199996998534
+      },
+      {
+        "url": "https://app.backinstock.org/widget/7596_1623971216.js?v=6&shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26030,
+        "remoteIPAddress": "172.67.210.248",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629746",
+          "etag": "W/\"be66660ed6649939d38098a76a38e49e\"",
+          "p3p": "CP=\"Not used\"",
+          "referrer-policy": "strict-origin-when-cross-origin"
+        },
+        "responseBodyHash": "45dffe4d63212b410caa5b65d9e0fb70abdac3642afab3d5505aa59cccb00333",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.14567900000838563
+      },
+      {
+        "url": "https://cdn-loyalty.yotpo.com/loader/yK2V2eA3XT9R2hSRP7m-ng.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21924,
+        "remoteIPAddress": "2.20.160.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, must-revalidate, max-age=0",
+          "etag": "W/\"df324b6a66533166a4029e905f5dc5bd\"",
+          "referrer-policy": "strict-origin"
+        },
+        "responseBodyHash": "df324b6a66533166a4029e905f5dc5bd12d079d6f29336b7a67a7872e364a50e",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.07591699995100498
+      },
+      {
+        "url": "https://cdn.tapcart.com/mobile-download-banner/banner-min.js?marketingCopy=DOWNLOAD+OUR+APP+NOW!&ctaEvent=get&title=Beginning+Boutique&androidLive=true&iosLive=true&appStoreId=1575380254&playStoreId=co.tapcart.app.id_M4Rz36xyOy&shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4481,
+        "remoteIPAddress": "35.227.237.110",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"ea841c153d565985907f8d12822ce9f8\"",
+          "expires": "Thu, 08 Dec 2022 17:01:27 GMT"
+        },
+        "responseBodyHash": "9fba94128c36ca879552c84b21b16976507cef6de579f62f53e93f993f976b4c",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.07686400000238791
+      },
+      {
+        "url": "https://d18eg7dreypte5.cloudfront.net/browse-abandonment/browse_abandonment.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12979,
+        "remoteIPAddress": "13.227.220.109",
+        "responseHeaders": {
+          "etag": "W/\"f5adc1bbe444f6334a6ee43aad20b5e5\""
+        },
+        "responseBodyHash": "cc1060c2f9ca3a01ccbe99aa8f1e0650066193f13186a87abfed5e0fe3ec974c",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.13341199996648356
+      },
+      {
+        "url": "https://d18eg7dreypte5.cloudfront.net/scripts/integrations/subscription.js?shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1525,
+        "remoteIPAddress": "13.227.220.109",
+        "responseHeaders": {
+          "etag": "W/\"9afc64bf9a82135c9f4fb79a72834846\""
+        },
+        "responseBodyHash": "fb1fc708d9c54651820ce458eaf87eb3b9651342d20a505ebfe6a3321b083e7c",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.12386299995705485
+      },
+      {
+        "url": "https://connect.nosto.com/script/shopify/nosto.js?merchant=shopify-2179066&shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63441,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "cache-control": "max-age=600, public",
+          "etag": "W/\"52994a833f9f06fedb8b71d6e63baab6e3a78c850a9a00eec54b2f4d088e245a\""
+        },
+        "responseBodyHash": "52994a833f9f06fedb8b71d6e63baab6e3a78c850a9a00eec54b2f4d088e245a",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.14993100002175197
+      },
+      {
+        "url": "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30272,
+        "remoteIPAddress": "104.21.83.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "W/\"61b94f1e-1ee8a\"",
+          "expires": "Fri, 14 Jan 2022 07:36:26 GMT"
+        },
+        "responseBodyHash": "27ca661481ee365720c03ab1f1afa708e811573bb38234ee749a77052d331648",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.32022500003222376
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1387,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "W/\"4a31c5fbc6c1a2e702195df037ecd563\""
+        },
+        "responseBodyHash": "ba26e47e9c40b556b38e01b1e52e1248d1d6586f00575f96b25ddf5a70209cd1",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.34509999997681007
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/stub-v2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1200,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=10800",
+          "etag": "\"61b9c235-3b1\"",
+          "expires": "Wed, 15 Dec 2021 19:09:10 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "ab0bd19ed5ad90fb72819af221441e8a88091304b4d41b247b0dced128798935",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.3065879999776371
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/iubenda_cs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 494,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=10800",
+          "etag": "\"61b9c232-f0\"",
+          "expires": "Wed, 15 Dec 2021 19:09:10 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "cc224bea4ec61a0548b77bfd8a858ac4148db71769a1ce65274010ad39cc913f",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.3044470000313595
+      },
+      {
+        "url": "https://cdn.iubenda.com/cons/iubenda_cons.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 388,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=10800",
+          "etag": "\"61b9c23d-85\"",
+          "expires": "Wed, 15 Dec 2021 19:09:10 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "93007f0f69e24280eedfdab3b7fd635bc10cf73c9b76de83b841115af9857a55",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.3031220000120811
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17707,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "5620577396173936331",
+          "expires": "Wed, 15 Dec 2021 16:09:10 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a794323056095d4ae3d4bccb01fdb689b186c5343f70248d41e61e951cf72fb",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.0538679999881424
+      },
+      {
+        "url": "https://connect.nosto.com/include/shopify-2179066",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 60740,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public",
+          "etag": "W/\"c49e0fbd6d92187b6bea367084c52e2b69027c8c6d84999c084f2d80c02aa0fa\""
+        },
+        "responseBodyHash": "c49e0fbd6d92187b6bea367084c52e2b69027c8c6d84999c084f2d80c02aa0fa",
+        "initiators": [
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.31299200002104044
+      },
+      {
+        "url": "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 196494,
+        "remoteIPAddress": "192.229.233.223",
+        "responseHeaders": {
+          "etag": "\"1d4143c7fa005439f9a1d5df09cd1c60+gzip\""
+        },
+        "responseBodyHash": "6e4218838e9584443232c143c67173b30af0cf69195977417476cf03c282dd74",
+        "initiators": [
+          "https://cdn-loyalty.yotpo.com/loader/yK2V2eA3XT9R2hSRP7m-ng.js?shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.32260700000915676
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=645919598848356&ev=Microdata&dl=https%3A%2F%2Fwww.beginningboutique.com.au%2F&rl=&if=false&ts=1639584550945&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22%5Cn%20%20%20%20Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination%5Cn%20%20%20%20%5Cn%20%20%20%20%5Cn%20%20%20%20%5Cn%22%2C%22meta%3Adescription%22%3A%22Discover%20the%20latest%20fashion%20trends%20and%20view%20our%20exclusive%20range%20with%C2%A0Beginning%20Boutique.%20Shop%20online%20today%20with%20free%20delivery%20for%20orders%20over%20%2450!%22%7D&cd[OpenGraph]=%7B%22og%3Asite_name%22%3A%22Beginning%20Boutique%22%2C%22og%3Aurl%22%3A%22https%3A%2F%2Fwww.beginningboutique.com.au%2F%22%2C%22og%3Atitle%22%3A%22Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Adescription%22%3A%22Discover%20the%20latest%20fashion%20trends%20and%20view%20our%20exclusive%20range%20with%C2%A0Beginning%20Boutique.%20Shop%20online%20today%20with%20free%20delivery%20for%20orders%20over%20%2450!%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0217%2F9066%2Ffiles%2Flogo-a_1c279435-3fd1-40e6-8b73-144879d0e68e.png%3Fheight%3D628%26pad_color%3Dfff%26v%3D1502929036%26width%3D1200%22%2C%22og%3Aimage%3Asecure_url%22%3A%22https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0217%2F9066%2Ffiles%2Flogo-a_1c279435-3fd1-40e6-8b73-144879d0e68e.png%3Fheight%3D628%26pad_color%3Dfff%26v%3D1502929036%26width%3D1200%22%2C%22og%3Aimage%3Awidth%22%3A%221200%22%2C%22og%3Aimage%3Aheight%22%3A%22628%22%7D&cd[Schema.org]=%5B%7B%22dimensions%22%3A%7B%22h%22%3A38%2C%22w%22%3A675%7D%2C%22properties%22%3A%7B%22url%22%3A%22%2F%22%7D%2C%22subscopes%22%3A%5B%5D%2C%22type%22%3A%22http%3A%2F%2Fschema.org%2FOrganization%22%7D%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&a=shopify&ec=1&o=30&fbp=fb.2.1639584550343.2053733807&it=1639584550071&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 15 Dec 2021 16:09:10 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/645919598848356?v=2.9.48&r=stable"
+        ],
+        "time": 0.08079700003145263
+      },
+      {
+        "url": "https://swymstore-v3premium-01.swymrelay.com/api/v3/provider/checkAndGet?pid=KBbu8DqcVXyOVDSdXgqAqnnTW%2B6qyvTmbR0%2Fc9FRljs%3D",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 1713,
+        "remoteIPAddress": "51.143.115.61",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "369576334d46e5ccfb90df69d7f937635b415ff947fc0756e04dd1888390450b",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://swymv3premium-01.azureedge.net/code/swym-shopify.js?shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.5868710000067949
+      },
+      {
+        "url": "https://web-tracker.smsbump.com/customer",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.231.179.78",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://web-tracker.smsbump.com/customer"
+        ],
+        "time": 0.34127899998566136
+      },
+      {
+        "url": "https://web-tracker.smsbump.com/customer",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 200,
+        "size": 350,
+        "remoteIPAddress": "3.231.179.78",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "6bd276db481e0ea3542339ff5b1255b91632ab34b6c5e57b048d160f966b386b",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://d18eg7dreypte5.cloudfront.net/browse-abandonment/browse_abandonment.js?shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.5301100000506267
+      },
+      {
+        "url": "https://connect.nosto.com/ev1?m=shopify-2179066&message=%7B%22elements%22%3A%5B%22frontpage-nosto-1%22%2C%22frontpage-nosto-2%22%2C%22homepage-2-block-container%22%2C%22homepage-3-image-block%22%5D%2C%22response_mode%22%3A%22HTML%22%2C%22url%22%3A%22https%3A%2F%2Fwww.beginningboutique.com.au%2F%22%2C%22events%22%3A%5B%5D%2C%22page_type%22%3A%22front%22%2C%22current_variant_id%22%3A%22EUR%22%2C%22cart%22%3A%5B%5D%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 7400,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "set-cookie": "NOSTO_ERRORS=; Max-Age=0; Expires=Wed, 15 Dec 2021 16:09:11 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nNOSTO_SESSION=61fcc0c218618a807e1f0f435bb6fe8c6b1521f2-___AT=8232112e7fcc958935fa2a08acfe3c0948a81a65&___TS=1639613351374; Max-Age=28800; Expires=Thu, 16 Dec 2021 00:09:11 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nNOSTO_FLASH=; Max-Age=0; Expires=Wed, 15 Dec 2021 16:09:11 GMT; Path=/; Secure; HTTPOnly; SameSite=None"
+        },
+        "responseBodyHash": "00d7ec36151c3ee6563e442a68d3a4b968ac8b41aa8d8065d42d211052305190",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://connect.nosto.com/script/shopify/nosto.js?merchant=shopify-2179066&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.22403100004885346
+      },
+      {
+        "url": "https://fpcdn.me/sdk/common/js/firebase-edited2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 109599,
+        "remoteIPAddress": "104.21.83.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2592000",
+          "etag": "W/\"5eba83e7-57467\"",
+          "expires": "Sat, 25 Dec 2021 11:05:35 GMT"
+        },
+        "responseBodyHash": "da48e0aeecefe64e5d782e2cfb221501cf94babe30ab42e257a436491d23a95d",
+        "initiators": [
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.051946999970823526
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.81cb2a3e92c390c72917.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7996,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"27a4f59d116a4bfd4934de6ecb83ec74\""
+        },
+        "responseBodyHash": "ccabcd6edc7e565b307d9d58f5c4b72bdd959d5d9f8dda1ad56374acdfb4b555",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF"
+        ],
+        "time": 0.09832799999276176
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/static.9af9b8f4e03ba6082067.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5736,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ff2e9f23b437e43d03f544192b1ec858\""
+        },
+        "responseBodyHash": "d7b2e71a0cdaaa1e94c489cad58c05fe14e8ba97d21a84a227b7c39dd0969725",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF"
+        ],
+        "time": 0.09599499998148531
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9683,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19a7fdd374429418b6912c2497585cae\""
+        },
+        "responseBodyHash": "3eac6b6ca0df419caa2b1951fef60f59bd036969221bc6d3d9784c5ba5d9a062",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF"
+        ],
+        "time": 0.05529300001217052
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sentry.3770b81f534eb4a7afe1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14194,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ed55aff052cb09a4e554b42b64e82183\""
+        },
+        "responseBodyHash": "a5053567e6cb48aeb3cde3c48c745ef891dd0ea20ee643561facd301d24c9085",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF"
+        ],
+        "time": 0.03985899995313957
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26937,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"0e519497f81169e35dca8abec3785924\""
+        },
+        "responseBodyHash": "44d13cb119bc33fdec2bde452066cb1c810819d5a66d661c5c70b67a224f6b12",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF"
+        ],
+        "time": 0.036854000005405396
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32496,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19ec8a520fa9c7fb2122c23a63dba632\""
+        },
+        "responseBodyHash": "f284b82c8ebecad1341050d0910a700684c8e2f56c57d4fe92f4757ce6db5907",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PuQauF"
+        ],
+        "time": 0.040410000015981495
+      },
+      {
+        "url": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.2/core-en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 57347,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=31536000",
+          "etag": "\"61b9c224-de70\"",
+          "expires": "Thu, 15 Dec 2022 16:09:11 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "b6408557fc9502a14356b5709d7ef7121a8f38cbc6d44d39002b3dbaf5d78a22",
+        "initiators": [
+          "https://cdn.iubenda.com/cs/iubenda_cs.js"
+        ],
+        "time": 0.05022500001359731
+      },
+      {
+        "url": "https://cdn.iubenda.com/cons/iubenda_cons/core-6fc7ad0dbc3a432b631386b0b3fba898.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6488,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=31536000",
+          "etag": "\"61b9c23e-184d\"",
+          "expires": "Thu, 15 Dec 2022 16:09:11 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "0fd0f2f1f7f02ce9eca49b4a4072b16b7f126d511fa90f45d0228006cbbd2370",
+        "initiators": [
+          "https://cdn.iubenda.com/cons/iubenda_cons.js"
+        ],
+        "time": 0.0519510000012815
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1639584551433&cv=9&fst=1639584551433&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&hn=www.googleadservices.com&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1124,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9dbf23d69ef5ce3b402e46153eac463153f95a470278dee278a98dc607f9a9c5",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion.js"
+        ],
+        "time": 0.03399800002807751
+      },
+      {
+        "url": "https://consent.linksynergy.com/consent/v3/p?rmch=cs&domain=www.beginningboutique.com.au&sought=false&tp=gdpr&attr_sid=115459&aff_mid=40501&purposes=&vendors=&ext_id=4c230499-1e9c-4f13-8f19-72fa0de51ee7",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 336,
+        "remoteIPAddress": "34.98.67.3",
+        "responseHeaders": {
+          "set-cookie": "rmuid=22f6bbaa-5478-47f7-bc6a-f3f6fb33721c; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:09:11 GMT; Secure; SameSite=None\nicts=2021-12-15T16:09:11Z; Path=/; Domain=linksynergy.com; Expires=Thu, 15 Dec 2022 16:09:11 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+        "initiators": [
+          "https://tag.rmp.rakuten.com/115459.ct.js?shop=beginningboutique.myshopify.com",
+          "https://cdn.iubenda.com/cs/tcf/stub-v2.js"
+        ],
+        "time": 0.05009299999801442
+      },
+      {
+        "url": "https://swymv3premium-01.azureedge.net/code/v3/apps.bundle.js?v=3.0.6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 54957,
+        "remoteIPAddress": "13.107.246.67",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "0x8D9BE2EBB3BE5CB"
+        },
+        "responseBodyHash": "6c8e387509e054760f60edc42df459827d28a8d0b24161ab22b987ef2516f117",
+        "initiators": [
+          "https://swymv3premium-01.azureedge.net/code/swym-shopify.js?shop=beginningboutique.myshopify.com",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.015110999986063689
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/cart.js",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1377,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:11 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:11 GMT\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:11 GMT\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "7d4f097f42d8b17bb59ed097b3857103438f32f061f3c18c68fe2803841fa364",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js"
+        ],
+        "time": 0.16041899996344
+      },
+      {
+        "url": "https://connect.nosto.com/cmp-mapping/collections?m=shopify-2179066&cid=61ba13271daafb6d814c0a66&fs=&preview=false",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 888,
+        "remoteIPAddress": "52.222.138.50",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=60",
+          "set-cookie": "NOSTO_ERRORS=; Max-Age=0; Expires=Wed, 15 Dec 2021 16:09:12 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nNOSTO_SESSION=b07b2e3dc487612208f4a056c286f54217737f7d-___AT=49b7bba3e98726f90a9987aba504715f66828935&___TS=1639613352208; Max-Age=28800; Expires=Thu, 16 Dec 2021 00:09:12 GMT; Path=/; Secure; HTTPOnly; SameSite=None\nNOSTO_FLASH=; Max-Age=0; Expires=Wed, 15 Dec 2021 16:09:12 GMT; Path=/; Secure; HTTPOnly; SameSite=None"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://connect.nosto.com/script/shopify/nosto.js?merchant=shopify-2179066&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.12734800000907853
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/cart.js",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 697,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:12 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:12 GMT\ncart_currency=EUR; path=/; expires=Wed, 29 Dec 2021 16:09:12 GMT\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "7d4f097f42d8b17bb59ed097b3857103438f32f061f3c18c68fe2803841fa364",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.17826199997216463
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/876869404/?random=1639584551433&cv=9&fst=1639584000000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&fmt=3&is_vtc=1&random=2029559282&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1639584551433&cv=9&fst=1639584551433&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.028863999992609024
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/876869404/?random=1639584551433&cv=9&fst=1639584000000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&fmt=3&is_vtc=1&random=2029559282&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 108,
+        "remoteIPAddress": "142.250.179.195",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/876869404/?random=1639584551433&cv=9&fst=1639584551433&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=60&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beginningboutique.com.au%2F&tiba=Beginning%20Boutique%3A%20Australia%27s%20Leading%20Fashion%20Destination&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.029165999963879585
+      },
+      {
+        "url": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=PuQauF",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 797,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10"
+        },
+        "responseBodyHash": "820d90007ff0622abb948ebe5e317b354c46a03675e0bb9e15e40655b427be28",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js"
+        ],
+        "time": 0.06694399996194988
+      },
+      {
+        "url": "https://static-forms.klaviyo.com/forms/api/v5/PuQauF/full-forms",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 19803,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=5",
+          "etag": "\"6293a6cb25c6c373bbf5a3b74632d0f7\""
+        },
+        "responseBodyHash": "e49674a1d1ae446b827866d7372d08b6853da4acced36996aadeba058f59d9e3",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.03d136975d58cbec14e2.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.9a569768d6c84e6273b8.js"
+        ],
+        "time": 0.0689470000215806
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/versions/tcf-v2-0.14.1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21746,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=31536000",
+          "etag": "\"61b9c237-53c2\"",
+          "expires": "Thu, 15 Dec 2022 16:09:12 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "2f5523b90125cc9c533e8bdc56b5e6048348f7d37eec0df45588cdbb7d431b2b",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.2/core-en.js"
+        ],
+        "time": 0.021150999993551522
+      },
+      {
+        "url": "https://www.iubenda.com/cookie-solution/confs/js/40491763.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 481,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"61924cb9-66\"",
+          "expires": "Thu, 16 Dec 2021 16:09:12 GMT"
+        },
+        "responseBodyHash": "28b6383cc17b7b01324720cadd9a2d6b3f59f6d39137143908c796e3a5cc1378",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.2/core-en.js"
+        ],
+        "time": 0.033430000010412186
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/apps/loggedincustomer",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 901,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:13 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:13 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:12 GMT\n_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:13 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:12 GMT; secure; HttpOnly\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:13 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+          "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js"
+        ],
+        "time": 0.6003860000055283
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue:ital,wght@0,400&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lato:ital,wght@0,400&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1754,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:09:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5242c3efa1a71e911d5d7bcdd43d640f249d7c2e1b12d72c156db0d76370a557",
+        "initiators": [
+          "about:client"
+        ],
+        "time": 0.01956599997356534
+      },
+      {
+        "url": "https://www.beginningboutique.com.au/apps/firepush/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/worker.js?v=106",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "cache-control": "max-age=5\npublic",
+          "etag": "W/\"61b94f1e-2904\"",
+          "expires": "Wed, 15 Dec 2021 16:09:18 GMT",
+          "set-cookie": "_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Thu, 15 Dec 2022 16:09:12 GMT; secure; HttpOnly\nlocalization=NL; path=/; expires=Wed, 29 Dec 2021 16:09:12 GMT\n_shopify_s=2abd584c-e712-4fb8-a081-7e9e2573aad3; Expires=Wed, 15-Dec-21 16:39:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax\n_shopify_y=824b6cf6-14e6-49dd-acdd-c439cc160bfe; Expires=Thu, 15-Dec-22 16:09:12 GMT; Domain=beginningboutique.com.au; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "e5e951282e558dbba79a513aabff27a5180150216407f2c001a38467189d01ee",
+        "initiators": [],
+        "time": 0.5377650000154972
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/v2/vendorlist.121.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 26147,
+        "remoteIPAddress": "184.50.168.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=10800",
+          "etag": "\"61b9c23e-64e8\"",
+          "expires": "Wed, 15 Dec 2021 19:09:12 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "c08375f6d819c07e5004d990eba11dde67465454e90ca85d35051309ba8e0ac4",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+          "https://swymv3premium-01.azureedge.net/code/swym-shopify.js?shop=beginningboutique.myshopify.com",
+          "https://cdn.iubenda.com/cs/tcf/versions/tcf-v2-0.14.1.js",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.2/core-en.js"
+        ],
+        "time": 0.041138999979011714
+      },
+      {
+        "url": "https://cdn-swell-assets.yotpo.com/bootstrap.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 17196,
+        "remoteIPAddress": "192.229.233.223",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"ac7e8e8ff20e7d843326d71a28ecb087+gzip\""
+        },
+        "responseBodyHash": "d85fdb38867dbfd85d49d3711045f03ba72cccfc3217003f911b34d18a05d580",
+        "initiators": [
+          "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js",
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.009963000018615276
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7644,
+        "remoteIPAddress": "104.18.10.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+        "initiators": [
+          "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js",
+          "https://www.beginningboutique.com.au/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.05663299997104332
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open%20Sans:300,400,700,bold,normal",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 807,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:09:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "33fc744a303bc9ebbd46fb2f5b8da956c41bcbe4ec2d01ee17404b25b3f1a287",
+        "initiators": [
+          "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.015459999965969473
+      },
+      {
+        "url": "https://hits-i.iubenda.com/write?db=hits1",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 409,
+        "remoteIPAddress": "46.101.132.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+          "https://swymv3premium-01.azureedge.net/code/swym-shopify.js?shop=beginningboutique.myshopify.com",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.2/core-en.js"
+        ],
+        "time": 0.15400200005387887
+      },
+      {
+        "url": "https://hits-i.iubenda.com/write?db=hits1",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "46.101.132.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://hits-i.iubenda.com/write?db=hits1"
+        ],
+        "time": 0.10608500003581867
+      },
+      {
+        "url": "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/manifest.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 669,
+        "remoteIPAddress": "104.21.83.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1800",
+          "etag": "\"61b94f1e-27\"",
+          "expires": "Wed, 15 Dec 2021 16:39:13 GMT"
+        },
+        "responseBodyHash": "1467fbcfb81778fa597c544382b257148d57fd0c62e20036a8def3e3cb048c28",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://swymv3premium-01.azureedge.net/code/swym-shopify.js?shop=beginningboutique.myshopify.com",
+          "https://fpcdn.me/sdk/common/js/firebase-edited2.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com",
+          "https://cdn.shopify.com/s/files/1/0217/9066/t/16/assets/vendor.min.js?v=10412630324613752439"
+        ],
+        "time": 0.4343920000246726
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open%20Sans:300,400,700,bold,normal",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.217.168.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Wed, 15 Dec 2021 16:09:13 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "33fc744a303bc9ebbd46fb2f5b8da956c41bcbe4ec2d01ee17404b25b3f1a287",
+        "initiators": [
+          "https://cdn-swell-assets.yotpo.com/app.v1.0.358.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://fpcdn.me/sdk/shopify/170721022407b6x9puzruyma2nthxf6n/shopify.min.js?v=1639534382.4092&shop=beginningboutique.myshopify.com"
+        ],
+        "time": 0.0004799999878741801
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 484,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beginningboutique.com.au"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://www.beginningboutique.com.au/"
+        ],
+        "time": 0.10972500004572794
+      }
+    ]
+  }
+}

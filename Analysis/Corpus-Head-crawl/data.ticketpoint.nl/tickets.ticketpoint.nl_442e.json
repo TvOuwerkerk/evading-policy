@@ -1,0 +1,473 @@
+{
+  "initialUrl": "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6",
+  "finalUrl": "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6#!/addtickets",
+  "timeout": false,
+  "testStarted": 1640155632856,
+  "testFinished": 1640155649280,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.ticketpoint.nl/links.tickets.ticketpoint.nl_442e.json",
+    "requests": [
+      {
+        "url": "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 109864,
+        "remoteIPAddress": "83.137.196.77",
+        "responseHeaders": {
+          "cache-control": "no-cache, private",
+          "set-cookie": "tmorder_-kCMXqviCpM=hz4fahRoVp70mroSA0ggx2VNUFzuMIlhj67VdGbu3C1MWdwDwHd1z4N_yk_Jt1nx5Z83IMuWQobIsK56CTzjLOogkI9ct_JIZuAoN8XGJUX4pNlNsU4mFTsSvXrBMctE07602rP9vuw; path=/; secure; samesite=none\nSERVERID=ticketmatic; path=/"
+        },
+        "responseBodyHash": "af4caa63b7958f022680e41b8dfa6ebe45eb94ee99cd81a93d5eb8155c75c37a",
+        "initiators": [],
+        "time": 0.74705800000811
+      },
+      {
+        "url": "https://use.fontawesome.com/releases/v5.6.3/css/all.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 12472,
+        "remoteIPAddress": "172.67.214.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "W/\"dc93d584e41f8417f6b7163320d34329\""
+        },
+        "responseBodyHash": "481a0574246e281316ffa0e15399bf5388bb81ae550ce0401a0353b6bb2d1e5a",
+        "initiators": [
+          "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6"
+        ],
+        "time": 0.04212399999960326
+      },
+      {
+        "url": "https://apps.ticketmatic.com/obj/filestore/prod/10010/skins/skin10000.css?v=20211221090607",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 24014,
+        "remoteIPAddress": "54.229.94.203",
+        "responseHeaders": {
+          "cache-control": "max-age=3600\npublic",
+          "etag": "W/\"15c9962027fd38f17cf381197d996b03\"",
+          "expires": "Wed, 22 Dec 2021 07:47:13 GMT"
+        },
+        "responseBodyHash": "9601a572a5065527d10755b48a987c75c37d077c73463ccf50fafb5ae2b32025",
+        "initiators": [
+          "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6"
+        ],
+        "time": 0.14141599999857135
+      },
+      {
+        "url": "https://apps.ticketmatic.com/js/d90554b1.scripts.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 262647,
+        "remoteIPAddress": "54.229.94.203",
+        "responseHeaders": {
+          "etag": "\"61baf933-40011\""
+        },
+        "responseBodyHash": "f97c6fa28c16b13f2d7757a41609f60cb1e798868f2b26a319f13045136a07f1",
+        "initiators": [
+          "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6"
+        ],
+        "time": 0.14159000001382083
+      },
+      {
+        "url": "https://ticketpoint.nl/wp-content/uploads/2017/01/TPlogo.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 2989,
+        "remoteIPAddress": "83.137.196.77",
+        "responseHeaders": {
+          "expires": "Thu, 21 Apr 2022 06:47:13 GMT"
+        },
+        "responseBodyHash": "dc60728060d1f244eaac7803668a0ef3c7f37205f298a5597df4be9cc88f0fb3",
+        "initiators": [
+          "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6"
+        ],
+        "time": 0.20348099997499958
+      },
+      {
+        "url": "https://ticketpoint.nl/wp-content/uploads/2017/02/payments.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 8335,
+        "remoteIPAddress": "83.137.196.77",
+        "responseHeaders": {
+          "expires": "Thu, 21 Apr 2022 06:47:13 GMT"
+        },
+        "responseBodyHash": "230231b11a6165b7f9ad24bb1c4ab83215655d076fae74d014a3e1dd335be157",
+        "initiators": [
+          "https://tickets.ticketpoint.nl/widgets/ticketpoint/addtickets?event=15152&skinid=10000&returnurl=https%3A%2F%2Fticketpoint.nl%2Fbedankt-voor-je-bestelling%2F&l=nl&edit=yes&flow=checkout&reservemoretickets=yes&oncompletion=return&accesskey=875a70c761901f3f07fa2962&signature=2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6"
+        ],
+        "time": 0.18175399999017827
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5NHX62",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 40258,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 06:47:14 GMT"
+        },
+        "responseBodyHash": "3811c37d1d9bf263cb829f9dcda7d2085cb37b03427934daffe3183324800eb4",
+        "initiators": [
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.02842600000440143
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KV952R",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 48312,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Wed, 22 Dec 2021 06:47:14 GMT"
+        },
+        "responseBodyHash": "d061bade19881a2fd73edcb7351c2ee6636e1c12f273655dee4dbbfc13a8e100",
+        "initiators": [
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.03945799998473376
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 26829,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.014208999986294657
+      },
+      {
+        "url": "https://ticketpoint.nl/wp-content/uploads/2017/02/locatie.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://apps.ticketmatic.com/",
+        "status": 200,
+        "size": 816,
+        "remoteIPAddress": "83.137.196.77",
+        "responseHeaders": {
+          "expires": "Thu, 21 Apr 2022 06:47:14 GMT"
+        },
+        "responseBodyHash": "b2c758033d42462e8f4a78ae9e5f928ebbb398db97b2ba435aa0ce0869b4e381",
+        "initiators": [
+          "https://apps.ticketmatic.com/obj/filestore/prod/10010/skins/skin10000.css?v=20211221090607"
+        ],
+        "time": 0.024355000001378357
+      },
+      {
+        "url": "https://ticketpoint.nl/wp-content/uploads/2017/02/datum.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://apps.ticketmatic.com/",
+        "status": 200,
+        "size": 1025,
+        "remoteIPAddress": "83.137.196.77",
+        "responseHeaders": {
+          "expires": "Thu, 21 Apr 2022 06:47:14 GMT"
+        },
+        "responseBodyHash": "c52849c68bc4a972b841606e1872eeb9c8f8887f010c423c74f3cb8cae7c2c26",
+        "initiators": [
+          "https://apps.ticketmatic.com/obj/filestore/prod/10010/skins/skin10000.css?v=20211221090607"
+        ],
+        "time": 0.022203999978955835
+      },
+      {
+        "url": "https://ticketpoint.nl/wp-content/uploads/2017/02/time.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://apps.ticketmatic.com/",
+        "status": 200,
+        "size": 1471,
+        "remoteIPAddress": "83.137.196.77",
+        "responseHeaders": {
+          "expires": "Thu, 21 Apr 2022 06:47:14 GMT"
+        },
+        "responseBodyHash": "600d404b739bdfa3b9ee51c01d183080a4e97c6734268b8fed52118ab31ce50f",
+        "initiators": [
+          "https://apps.ticketmatic.com/obj/filestore/prod/10010/skins/skin10000.css?v=20211221090607"
+        ],
+        "time": 0.026297999982489273
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Wed, 22 Dec 2021 07:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-5NHX62",
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.01345900000887923
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1518566408439658?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 89706,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "68b8e8c81364ef96db60bedf354344a32be7df92d19dae914ac06be71bd010df",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.056832000002032146
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=168215142&t=pageview&_s=1&dl=https%3A%2F%2Ftickets.ticketpoint.nl%2Fwidgets%2Fticketpoint%2Faddtickets%3Fevent%3D15152%26skinid%3D10000%26returnurl%3Dhttps%253A%252F%252Fticketpoint.nl%252Fbedankt-voor-je-bestelling%252F%26l%3Dnl%26edit%3Dyes%26flow%3Dcheckout%26reservemoretickets%3Dyes%26oncompletion%3Dreturn%26accesskey%3D875a70c761901f3f07fa2962%26signature%3D2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6&ul=en-us&de=UTF-8&dt=Kies%20tickets%20-%20Ticketpoint&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAAABAAAAAC~&jid=1266381036&gjid=318007207&cid=60078827.1640155634&tid=UA-36890527-6&_gid=996298198.1640155634&_r=1&gtm=2wgc105NHX62&cd1=Ticketpoint&z=1609404846",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 21,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://tickets.ticketpoint.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.013968999992357567
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=168215142&t=pageview&_s=1&dl=https%3A%2F%2Ftickets.ticketpoint.nl%2Fwidgets%2Fticketpoint%2Faddtickets%3Fevent%3D15152%26skinid%3D10000%26returnurl%3Dhttps%253A%252F%252Fticketpoint.nl%252Fbedankt-voor-je-bestelling%252F%26l%3Dnl%26edit%3Dyes%26flow%3Dcheckout%26reservemoretickets%3Dyes%26oncompletion%3Dreturn%26accesskey%3D875a70c761901f3f07fa2962%26signature%3D2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6&ul=en-us&de=UTF-8&dt=Kies%20tickets%20-%20Ticketpoint&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEDAAEABAAAAAC~&jid=988834001&gjid=1233739983&cid=60078827.1640155634&tid=UA-8112288-9&_gid=996298198.1640155634&_r=1&gtm=2wgc10KV952R&z=423073304",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://tickets.ticketpoint.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.015809000004082918
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=168215142&t=pageview&_s=1&dl=https%3A%2F%2Ftickets.ticketpoint.nl%2Fwidgets%2Fticketpoint%2Faddtickets%3Fevent%3D15152%26skinid%3D10000%26returnurl%3Dhttps%253A%252F%252Fticketpoint.nl%252Fbedankt-voor-je-bestelling%252F%26l%3Dnl%26edit%3Dyes%26flow%3Dcheckout%26reservemoretickets%3Dyes%26oncompletion%3Dreturn%26accesskey%3D875a70c761901f3f07fa2962%26signature%3D2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6&ul=en-us&de=UTF-8&dt=Kies%20tickets%20-%20Ticketpoint&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEDAAAABAAAAAC~&jid=&gjid=&cid=60078827.1640155634&tid=UA-36890527-6&_gid=996298198.1640155634&gtm=2wgc105NHX62&cd1=Ticketpoint&z=1177083058",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01288399999612011
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-8112288-9&cid=60078827.1640155634&jid=988834001&gjid=1233739983&_gid=996298198.1640155634&_u=YEDAAEABAAAAAC~&z=1536324689",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 446,
+        "remoteIPAddress": "142.250.145.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://tickets.ticketpoint.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.02314099998329766
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1518566408439658&ev=PageView&dl=https%3A%2F%2Ftickets.ticketpoint.nl%2Fwidgets%2Fticketpoint%2Faddtickets%3Fevent%3D15152%26skinid%3D10000%26returnurl%3Dhttps%253A%252F%252Fticketpoint.nl%252Fbedankt-voor-je-bestelling%252F%26l%3Dnl%26edit%3Dyes%26flow%3Dcheckout%26reservemoretickets%3Dyes%26oncompletion%3Dreturn%26accesskey%3D875a70c761901f3f07fa2962%26signature%3D2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6%23!%2Faddtickets&rl=&if=false&ts=1640155634553&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640155634550.329046306&it=1640155634398&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 06:47:14 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1518566408439658?v=2.9.48&r=stable"
+        ],
+        "time": 0.011096999980509281
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1518566408439658&ev=ViewContent&dl=https%3A%2F%2Ftickets.ticketpoint.nl%2Fwidgets%2Fticketpoint%2Faddtickets%3Fevent%3D15152%26skinid%3D10000%26returnurl%3Dhttps%253A%252F%252Fticketpoint.nl%252Fbedankt-voor-je-bestelling%252F%26l%3Dnl%26edit%3Dyes%26flow%3Dcheckout%26reservemoretickets%3Dyes%26oncompletion%3Dreturn%26accesskey%3D875a70c761901f3f07fa2962%26signature%3D2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6%23!%2Faddtickets&rl=&if=false&ts=1640155634572&cd[content_ids]=%5B%22885568292058%22%5D&cd[content_type]=product_group&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640155634550.329046306&it=1640155634398&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 101,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 06:47:14 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1518566408439658?v=2.9.48&r=stable"
+        ],
+        "time": 0.0116779999807477
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-8112288-9&cid=60078827.1640155634&jid=988834001&_u=YEDAAEABAAAAAC~&z=407496212",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.02907199997571297
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-8112288-9&cid=60078827.1640155634&jid=988834001&_u=YEDAAEABAAAAAC~&z=407496212",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.025015999999595806
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1518566408439658&ev=Microdata&dl=https%3A%2F%2Ftickets.ticketpoint.nl%2Fwidgets%2Fticketpoint%2Faddtickets%3Fevent%3D15152%26skinid%3D10000%26returnurl%3Dhttps%253A%252F%252Fticketpoint.nl%252Fbedankt-voor-je-bestelling%252F%26l%3Dnl%26edit%3Dyes%26flow%3Dcheckout%26reservemoretickets%3Dyes%26oncompletion%3Dreturn%26accesskey%3D875a70c761901f3f07fa2962%26signature%3D2acf9de857b814a8c67a69a4ee17d129853cd6e823ff1a7bdc5593e38d04ade6%23!%2Faddtickets&rl=&if=false&ts=1640155636073&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Kies%20tickets%20-%20Ticketpoint%22%2C%22meta%3Adescription%22%3A%22%22%7D&cd[OpenGraph]=%7B%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=2&o=30&fbp=fb.1.1640155634550.329046306&it=1640155634398&coo=false&es=automatic&tm=3&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tickets.ticketpoint.nl/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "31.13.64.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Wed, 22 Dec 2021 06:47:16 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1518566408439658?v=2.9.48&r=stable",
+          "https://apps.ticketmatic.com/js/d90554b1.scripts.js"
+        ],
+        "time": 0.006898999999975786
+      }
+    ]
+  }
+}

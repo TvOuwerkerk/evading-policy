@@ -1,0 +1,3559 @@
+{
+  "initialUrl": "https://www.hemmings.com/",
+  "finalUrl": "https://www.hemmings.com/",
+  "timeout": false,
+  "testStarted": 1640013279838,
+  "testFinished": 1640013299622,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.hemmings.com/links.www.hemmings.com_a129.json",
+    "requests": [
+      {
+        "url": "https://www.hemmings.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 541,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "set-cookie": "visid_incap_984766=bxB0ilYMQ9eY2MuDpu8vPd+dwGEAAAAAQUIPAAAAAACIi203np3dRcABL+gxrtI3; expires=Mon, 19 Dec 2022 23:45:20 GMT; HttpOnly; path=/; Domain=.hemmings.com\nincap_ses_766_984766=kk4aWzB3g0mRGcZtc2GhCt+dwGEAAAAAY7Wwyto4uw89AVzqVj3A6w==; path=/; Domain=.hemmings.com"
+        },
+        "responseBodyHash": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+        "initiators": [],
+        "time": 0.03192000000126427
+      },
+      {
+        "url": "https://www.hemmings.com/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 27252,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "0640e9065468186ada7b655bb485cb595508b43529a08e9c0cd7c266dc1bce15",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.013867999998183222
+      },
+      {
+        "url": "https://www.hemmings.com/_Incapsula_Resource?SWHANEDL=8460478016970851287,16593065801552003408,10340584244211543154,56130",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.hemmings.com/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3"
+        ],
+        "time": 0.005689000001439126
+      },
+      {
+        "url": "https://www.hemmings.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 153982,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, private",
+          "set-cookie": "AWSALB=B9eyjn19eOY1U4WzUShfipi6Dx8FkqikWdUyuO5BC1DGHbf7SHP8DQYfgol8GGI6qxNNhbmmJ5z1IqMzbRePni/PaPoZvZVKCijp3VtJG5SpfXLSxt9dz9rPqTxW; Expires=Mon, 27 Dec 2021 15:14:40 GMT; Path=/\nAWSALBCORS=B9eyjn19eOY1U4WzUShfipi6Dx8FkqikWdUyuO5BC1DGHbf7SHP8DQYfgol8GGI6qxNNhbmmJ5z1IqMzbRePni/PaPoZvZVKCijp3VtJG5SpfXLSxt9dz9rPqTxW; Expires=Mon, 27 Dec 2021 15:14:40 GMT; Path=/; SameSite=None; Secure\nU=265009604661c09de06a4fd7cf4092; expires=Tue, 20-Dec-2022 15:14:40 GMT; Max-Age=31536000; path=/; domain=.hemmings.com; secure; samesite=none\nXSRF-TOKEN=eyJpdiI6ImZscmlZcUNwNEYxdUNySkxOQThqakE9PSIsInZhbHVlIjoiY25tdFpnYXdBYUFDNFJpZlBkOERhUzV3eDgrT1ZDZk1acG14aFE5SlArRzVpMkpxV05veGRta2NNdFpYb1BsaEJSU3VvT2tSRHd5VGttT2JsckQ2RFJBV2NDZFNEaTRuUm1oT1p6NURldkhBc0NlQXV2cVdKUmRrekJPaUp0aXAiLCJtYWMiOiJmN2YwMzJhMjhiZmFiOWFiNWU0NTdiMzczMGU4OWQ3MzMyMTUxNTUyMzE2OGQzNDUyM2FmM2ZhNDVhYzdlNGI5In0%3D; expires=Mon, 20-Dec-2021 17:14:40 GMT; Max-Age=7200; path=/; domain=.hemmings.com\nhemmings_session=eyJpdiI6ImlMOUc0NXdyQU1kdktKQWRpS1ZrY3c9PSIsInZhbHVlIjoiQjNHZ1VQZkh3YVZQS1wvSGFzK09OT3BwbnNoTjJoUEJGWmJjcXFZWWNGd0pOUmYzMU42U09CblFOV29WXC9lTXFVeUJcL0hoZXJzaUJHdmtPSmlFMjdNbjVNV1ZzUkJBQnIxVkZGR0Nmd3QwWEN0SEZ3aXE3bk1qVGVpbXFpWHhuYnMiLCJtYWMiOiIyZWMwZmRkMGU5ZGI1ZjBmOTg0ODdmMDQ3NzJhODVlOTdmNjk0Y2M1OGI3NTEwYjIxZTk0YzY5MmY2MDE4ZjEwIn0%3D; expires=Mon, 20-Dec-2021 17:14:40 GMT; Max-Age=7200; path=/; domain=.hemmings.com; httponly\nnlbi_984766=BcIIXrfTjweGx7dC0qfirAAAAAB+WnLzcmIq8PyHDI/JDp2l; path=/; Domain=.hemmings.com"
+        },
+        "responseBodyHash": "25a28ba04bd4ff8e0eaf9d9ab0514e8833fd4633917974b081c50db417189df5",
+        "initiators": [
+          "https://www.hemmings.com/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3"
+        ],
+        "time": 0.7112919999999576
+      },
+      {
+        "url": "https://www.hemmings.com/_Incapsula_Resource?SWKMTFSR=1&e=0.6687828471185682",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.hemmings.com/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3"
+        ],
+        "time": 0.003515000000334112
+      },
+      {
+        "url": "https://www.hemmings.com/_Incapsula_Resource?ES2LURCT=67&t=78&d=complete%20(s%3A2%2Cc%3A16%2Cr%3A528)",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "set-cookie": "___utmvc=a; Max-Age=0; path=/; expires=Sat, 18 Dec 2021 23:39:10 GMT"
+        },
+        "initiators": []
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 7126,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D9C17FDD6FB88D"
+        },
+        "responseBodyHash": "4d2a74d8b25e1ccd4b1294b0b937804bc24aeea7f46edad3f3c1f91604d2708c",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.02426000000195927
+      },
+      {
+        "url": "https://cdn.cookielaw.org/opt-out/otCCPAiab.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 6293,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400"
+        },
+        "responseBodyHash": "b53a8679f64261d270c8e531fe1e2b8e463f3592155dcf4c2dbc5deeab2f3b63",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.02531700000326964
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/css/app.818560083453cc75479b.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 9306,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"a9f7-5d0850c3b6480-gzip\"",
+          "expires": "Fri, 12 Nov 2021 15:52:49 GMT"
+        },
+        "responseBodyHash": "8b8da178adfb6de4202aa90db440e09629a9150f91928eb4d583b42f2f797679",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.036271999997552484
+      },
+      {
+        "url": "https://www.googleoptimize.com/optimize.js?id=GTM-PS2G2BS",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 35357,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:14:40 GMT"
+        },
+        "responseBodyHash": "f041c984ffdf867f73cc34744310248f3c05cbcbb031831ea441f7aeb9f11026",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.01939000000129454
+      },
+      {
+        "url": "https://s.ntv.io/serve/load.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 117203,
+        "remoteIPAddress": "92.122.253.191",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "etag": "\"0de0bc397fd51514098ef13d672152b4\""
+        },
+        "responseBodyHash": "3e6aee43ce232f5c967d532d699c8dd2366873b4a61a6d6cbebb3606174a4a61",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.09220600000116974
+      },
+      {
+        "url": "https://native.sharethrough.com/assets/sfp.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 79460,
+        "remoteIPAddress": "13.227.219.36",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"8cbc5500390b69de95f2432467acd845\"",
+          "expires": "Fri, 17 Dec 2021 00:47:00 GMT"
+        },
+        "responseBodyHash": "12f305b6fd7dde3edde8c9175c8d1574d9433d38b687df438285222dd6f47da3",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.08543500000087079
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3680,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"15b1-5d335daf88200-gzip\"",
+          "expires": "Fri, 17 Dec 2021 13:22:22 GMT"
+        },
+        "responseBodyHash": "544f785d1a2010bc829067463508fd2ba5732d8de0dc7a6e1b374db14f49f6f9",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.1054020000010496
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/680cd702-c81e-4d94-8e9b-df40ac1d7800/680cd702-c81e-4d94-8e9b-df40ac1d7800.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1922,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D91C704B98F32D",
+          "expires": "Mon, 20 Dec 2021 19:14:40 GMT"
+        },
+        "responseBodyHash": "65a12ac19c9b2e0d6da4a3b0deb3da74ba3123dc4762707f7c7eef65192747a8",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.02885000000242144
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location/dnsfeed",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 393,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {},
+        "responseBodyHash": "9cee9705c0c1aeba2dac9c00ca094d87ec9cb4a26da040d50603e8ebc8fa3d62",
+        "initiators": [
+          "https://cdn.cookielaw.org/opt-out/otCCPAiab.js"
+        ],
+        "time": 0.09964300000137882
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://assets.hemmings.com/",
+        "status": 200,
+        "size": 988,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:14:40 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bbc383ff40c47696b02817a2a862a0aa35d74c2a52662b91d2de03baaec3eaf7",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/css/app.818560083453cc75479b.css"
+        ],
+        "time": 0.01685900000302354
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 223,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {},
+        "responseBodyHash": "b47fbb15b82c9c2b3099a23ec79c680183bc5aafe7c990cd1d11044331c4b4ce",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.06965499999932945
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 67722,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:14:40 GMT"
+        },
+        "responseBodyHash": "fca058e760243c81caa8c5ea1231be16fe6fa43bf66675f493f2214b245eea67",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.06650900000022375
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/worksans/v13/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 49125,
+        "remoteIPAddress": "172.217.168.195",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 20:34:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f14c83fbb5b3e3df8bbea1435977f895c5817f96a3017b5421e10e15a72a95a7",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700"
+        ],
+        "time": 0.07723600000099395
+      },
+      {
+        "url": "https://jadserve.postrelease.com/t?ntv_url=https%3A%2F%2Fwww.hemmings.com%2F&prx_referrer=https%3A%2F%2Fwww.hemmings.com%2F&ntv_mvi",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 628,
+        "remoteIPAddress": "75.101.244.20",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+          "expires": "Mon, 1 Jan 1990 12:00:00 GMT",
+          "p3p": "CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "opt_out=1; Domain=.postrelease.com; Expires=Tue, 20-Dec-2022 15:14:41 GMT; Path=/; Secure; SameSite=None;"
+        },
+        "responseBodyHash": "27cc0e8dc99a025baebe35f39e7f67bc8893e3b1fc09f3a6b7edaf8c1a1cc857",
+        "initiators": [
+          "https://s.ntv.io/serve/load.js"
+        ],
+        "time": 0.2684030000018538
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 79943,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D89735260901BC"
+        },
+        "responseBodyHash": "7a23e0e46e16f067271bc79c92a917c13769848457d16cdf109e4dc04c687e8f",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.016675999999279156
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 20402,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 17:13:47 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.012256000001798384
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/680cd702-c81e-4d94-8e9b-df40ac1d7800/0d628bb8-83c0-41cb-84f8-d1726d60c24b/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 26786,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D91C70548ED6BB",
+          "expires": "Mon, 20 Dec 2021 19:14:41 GMT"
+        },
+        "responseBodyHash": "75c6e74bbad7a7a10a7c2c15041a58fe4fdc384d31c8099623b6fa81db410e93",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js"
+        ],
+        "time": 0.03383899999971618
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 240745,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b6035-5d2a7631141c0-gzip\"",
+          "expires": "Fri, 10 Dec 2021 13:21:30 GMT"
+        },
+        "responseBodyHash": "0f6f3aca78b469700c596efa375ce06f0fcc1c190af348ebd089be71318e4a6e",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.08508100000108243
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 27228,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1a18d-5d2bd7704abc0-gzip\"",
+          "expires": "Fri, 10 Dec 2021 21:59:29 GMT"
+        },
+        "responseBodyHash": "6bdd44c695f4875962b7e95373e40cb9b07231f645705035b1379994df118a9c",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.015386999999464024
+      },
+      {
+        "url": "https://www.hemmings.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1623288560",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 21454,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store"
+        },
+        "responseBodyHash": "9893e734c8ba88f87953eb1e98a4b1fa6c9e04f06e0e415f3456c6a00128f31f",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.017339000001811655
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.10.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3634,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D89735209A34D6"
+        },
+        "responseBodyHash": "8cdca3b36914e8a3f56390da71389944579faaae82704e53bd66f9c0387502f6",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js"
+        ],
+        "time": 0.030087999999523163
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/6.10.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 11504,
+        "remoteIPAddress": "104.16.148.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=14400",
+          "etag": "0x8D89735220FDD9F"
+        },
+        "responseBodyHash": "3b27f686e9c39188ff63e191cc3efb6500a6c6d06f2d1d2ec27ceb623a2ecacc",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js"
+        ],
+        "time": 0.030742999999347376
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1433103522&t=pageview&_s=1&dl=https%3A%2F%2Fwww.hemmings.com%2F&ul=en-us&de=UTF-8&dt=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAEABAAAAAC~&jid=1592418906&gjid=1162952349&cid=678630062.1640013281&tid=UA-7879432-1&_gid=747385295.1640013281&_r=1&gtm=2wgc10MXKXHNX&cd5=not%20logged%20in&z=1014381239",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 208,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.00948200000129873
+      },
+      {
+        "url": "https://10973364.fls.doubleclick.net/activityi;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=1821996598.1640013281;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://10973364.fls.doubleclick.net/activityi;dc_pre=CPrwt8jV8vQCFeIX0wodKgoAvw;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=1821996598.1640013281;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googleoptimize.com/optimize.js?id=GTM-PS2G2BS",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.04293600000164588
+      },
+      {
+        "url": "https://10973364.fls.doubleclick.net/activityi;register_conversion=1;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=1821996598.1640013281;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:29:41 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googleoptimize.com/optimize.js?id=GTM-PS2G2BS",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.03557599999840022
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 10971,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=07A634E6ECCF6A38352225F5ED4B6BBC; domain=.bing.com; expires=Sat, 14-Jan-2023 15:14:41 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.060349999999743886
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 39614,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:14:41 GMT"
+        },
+        "responseBodyHash": "9f63ab0eca2b5f9c76704060ef53bf598871e3e130125e0e16519d13b680d5e8",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.02852100000018254
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-7879432-1&cid=678630062.1640013281&jid=1592418906&gjid=1162952349&_gid=747385295.1640013281&_u=YEBAAEAAAAAAAC~&z=554581621",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 443,
+        "remoteIPAddress": "142.250.145.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.02976699999999255
+      },
+      {
+        "url": "https://10973364.fls.doubleclick.net/activityi;dc_pre=CPrwt8jV8vQCFeIX0wodKgoAvw;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=1821996598.1640013281;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "about:blank",
+        "status": 200,
+        "size": 377,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:14:41 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "IDE=AHWqTUmKH4Vl3zWKMts7AmYkGiSH7KopLJuO4TnJwyLyneRAYz9SJdqi5zs6OjvehXA; expires=Sat, 14-Jan-2023 15:14:41 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fbe31a5d4980c28aaa431621599f97a7ce3389f23e4e2c4b38c500d4f338a15e",
+        "redirectedFrom": "https://10973364.fls.doubleclick.net/activityi;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=1821996598.1640013281;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googleoptimize.com/optimize.js?id=GTM-PS2G2BS",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.05303599999751896
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 27479,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "etag": "\"1076 / 118 of 1000 / last-modified: 1639397097\"",
+          "expires": "Mon, 20 Dec 2021 15:14:41 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c06177c6d05c0f3eab6348d97829ee87c1de50d771987e3d8afeb3aa90d8fb76",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js"
+        ],
+        "time": 0.03151399999842397
+      },
+      {
+        "url": "https://www.hemmings.com/_Incapsula_Resource?SWKMTFSR=1&e=0.7457364026773856",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 81,
+        "remoteIPAddress": "107.154.113.172",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "set-cookie": "___utmvc=a; Max-Age=0; path=/; expires=Sat, 18 Dec 2021 23:39:10 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.hemmings.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1623288560"
+        ],
+        "time": 0.003869000000122469
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-7879432-1&cid=678630062.1640013281&jid=1592418906&_u=YEBAAEAAAAAAAC~&z=1615518727",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.03720200000316254
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-7879432-1&cid=678630062.1640013281&jid=1592418906&_u=YEBAAEAAAAAAAC~&z=1615518727",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.03989999999976135
+      },
+      {
+        "url": "https://assets.hemmings.com/api/navigation",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://assets.hemmings.com/api/navigation"
+        ],
+        "time": 0.028139000001829118
+      },
+      {
+        "url": "https://cdn.lr-ingest.io/logger-1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 160870,
+        "remoteIPAddress": "104.21.50.127",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"ab2558356f44feb914a6985eeb5b61afb9a8585d2d886b04046f4da52b77f919\""
+        },
+        "responseBodyHash": "456f1df1b670b8fff60d0828464790c58897057d26e989112e89086827c76234",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.40545600000041304
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/122.079d1696439677d642a0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2554,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"13b7-5d335daf88200-gzip\"",
+          "expires": "Fri, 17 Dec 2021 13:23:31 GMT"
+        },
+        "responseBodyHash": "9703a99474d4135937afa0d6d2579b01c1e3163d68828af42fda18dc57d3dd21",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.024842000002536224
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/21.5bd37b72aa5cd3d20f52.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2205,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1720-5d1f42c005d00-gzip\"",
+          "expires": "Wed, 01 Dec 2021 12:40:24 GMT"
+        },
+        "responseBodyHash": "6b1d73477895dd9ae6012308adee7ce69460c34007aa6c7399f1ebc0fc9c4c7d",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.036908000001858454
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/0.dc4c917b3daa37f95c7b.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 7489,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"5765-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:57:24 GMT"
+        },
+        "responseBodyHash": "60c05af1d9d6bc78319eda10ea60f3098577d14affe533d455a94d8c192afbff",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.02143399999840767
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/1.ede09ed10fcb33b30c18.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 115965,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"54e0e-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:57:24 GMT"
+        },
+        "responseBodyHash": "d47314413472fd1bb1abf4e28f013e2409135620088221240ed2ca4f65863eca",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.05554800000027171
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/2.56f088923e37f92416e3.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 4502,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"2c4e-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:57:25 GMT"
+        },
+        "responseBodyHash": "fdceb23df7fd188f0b984513061f10eddd57d117f4bf16b10393037638be156b",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.034510000001318986
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/5.745fee890097accb60fe.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 8492,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"6469-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:50 GMT"
+        },
+        "responseBodyHash": "ef1a39431f6cb9085a9b8c079e5d58e6ff96f0ec40a800d9eaf468ec3005e0d4",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.07190500000069733
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/80.797a9e316bef2e411d8d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 5770,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3914-5d0850c3b6480-gzip\"",
+          "expires": "Fri, 12 Nov 2021 15:55:35 GMT"
+        },
+        "responseBodyHash": "1bc93e7ea43a4a6dfe4764084506efdb66875d0c018b3d9d16b107eea5b9b084",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03508700000020326
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/19.ecee7ee07043561212d0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1649,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"b3b-5cffb18996400-gzip\"",
+          "expires": "Fri, 05 Nov 2021 20:18:03 GMT"
+        },
+        "responseBodyHash": "f13fa7655a8b27efdc40126d4c24252c07eb7cd67eaecaa381478607d3e94a4a",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03259799999796087
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/84.97e9a4c4ff6dc3d125b7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2004,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"1096-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:02 GMT"
+        },
+        "responseBodyHash": "bc6e51f0111fdbf6cd602c40bcb3131058a6e5577fca573f06558fcc4b22958e",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03785800000332529
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/82.e921cb78175bfa4b7bab.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 4629,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"28c1-5d0850c3b6480-gzip\"",
+          "expires": "Fri, 12 Nov 2021 15:55:35 GMT"
+        },
+        "responseBodyHash": "5874b4d6d7b04cd639d0f752197e891d0f57e89885e70551772b2a542b24af40",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03714100000070175
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/83.4e7bfa83be8b6bcb8ece.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2005,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"fcc-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:02 GMT"
+        },
+        "responseBodyHash": "6dbfa70cc979a6604e3c82b4da3ce5129e7108eefbeb3b5a1333373c44ad3dc1",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.034715999998297775
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/28.01edbd380b0c1c98a94c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1519,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"af9-5d2a7631141c0-gzip\"",
+          "expires": "Fri, 10 Dec 2021 13:22:45 GMT"
+        },
+        "responseBodyHash": "46c77869003ee63aac34765fb838e6f7da80bb3ad502e8dd06570ec58e399b32",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03407100000185892
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/81.4757a7d86e6d9632ef45.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2445,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"12f5-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:02 GMT"
+        },
+        "responseBodyHash": "5cedd678f719925296fd2f30f75a1668e3e37d50f944b615de33119e05f0202b",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.034875999997893814
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/86.8605420cdce98c8c5076.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1381,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"721-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:02 GMT"
+        },
+        "responseBodyHash": "b550e73dec3f3e20770d9ca00e02d54697843a1d4eeb69ccb65b0cd49f2f3a6d",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03467099999761558
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/85.3039f27b321325638cd8.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 4343,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"3bc9-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:02 GMT"
+        },
+        "responseBodyHash": "975b05cbba4176e384dce549974726552e3fd13d8b749cc731e5e7db29b6ebc6",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.035039999998843996
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/106.6458a5f3f362d686d288.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1734,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"105e-5d2a7631141c0-gzip\"",
+          "expires": "Fri, 10 Dec 2021 13:22:45 GMT"
+        },
+        "responseBodyHash": "1bbe7a5e5b267d71e5e7f63c93ed19125c7337aea84cc234d6e2a3f0bc4a06de",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03530699999828357
+      },
+      {
+        "url": "https://assets.hemmings.com/stories-dist/js/22.72d40f61a95e258581e0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3644,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"24c8-5cfedc3ef6c40-gzip\"",
+          "expires": "Fri, 05 Nov 2021 16:58:02 GMT"
+        },
+        "responseBodyHash": "d47eb8a08331fceb31eb2c92998791a98b763e4b3b57abc71c765eb1585395a3",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js"
+        ],
+        "time": 0.03539000000091619
+      },
+      {
+        "url": "https://assets.hemmings.com/api/navigation",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1579,
+        "remoteIPAddress": "13.227.219.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "c9dc1d4b86d23fa5eb061c7e994ac9eca46f42a9db70c34c08aa538f5afbde96",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.03830300000117859
+      },
+      {
+        "url": "https://ak.sail-horizon.com/spm/spm.v1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 44222,
+        "remoteIPAddress": "65.9.83.59",
+        "responseHeaders": {
+          "cache-control": "max-age=600; must-revalidate",
+          "etag": "W/\"b22b4f4738e8722be1636447be239da2\""
+        },
+        "responseBodyHash": "d06ae5e97e495832fc4526c3e93d7e9440f1faf5f77669b41678c9d564a25faf",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.03631099999984144
+      },
+      {
+        "url": "https://jadserve.postrelease.com/trk.gif?ntv_at=394&ntv_usid=2571016&ntv_pl=840720&prx_referrer=https%3A%2F%2Fwww.hemmings.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 426,
+        "remoteIPAddress": "75.101.244.20",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate\npost-check=0, pre-check=0",
+          "expires": "Mon, 1 Jan 1990 12:00:00 GMT",
+          "p3p": "CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "opt_out=1; Domain=.postrelease.com; Expires=Tue, 20-Dec-2022 15:14:41 GMT; Path=/; Secure; SameSite=None;"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "initiators": [
+          "https://s.ntv.io/serve/load.js",
+          "https://jadserve.postrelease.com/t?ntv_url=https%3A%2F%2Fwww.hemmings.com%2F&prx_referrer=https%3A%2F%2Fwww.hemmings.com%2F&ntv_mvi"
+        ],
+        "time": 0.156369000000268
+      },
+      {
+        "url": "https://bat.bing.com/p/action/11042581.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 204,
+        "size": 134,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.023712000001978595
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=11042581&Ver=2&mid=4db4ebf7-ad9e-42de-94f1-2e240aa7df75&sid=8e69c6a061a711ecbcfb63e25e9e319a&vid=8e6a19e061a711ec9d0ec766fc017975&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&p=https%3A%2F%2Fwww.hemmings.com%2F&r=https%3A%2F%2Fwww.hemmings.com%2F&lt=1070&evt=pageLoad&msclkid=N&sv=1&rn=594317",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 204,
+        "size": 151,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.021065000000817236
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Mon, 20 Dec 2021 15:14:41 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.04333200000110082
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 26435,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.0127070000016829
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/Sell-It-Promo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 228434,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"8ff6d95d24f0508ec63ffe2f5906c042\""
+        },
+        "responseBodyHash": "53f2ffd1c5de535be845d66538dd2d43466250ab37c3ffd2885ccd6a98eff452",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.04707399999824702
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/Subscribe-Now-Promo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 153349,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "etag": "\"dffb23cda5e5ccb0615f9bd11789929d\""
+        },
+        "responseBodyHash": "95a4f2c9230661c176f85532abf817d1433dcf7e9d6887a97387336816d79a15",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.04331900000033784
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/MusclepaloozaEvent.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 37608,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"c2dc75195833c6509a85a1a210fe8277\""
+        },
+        "responseBodyHash": "737b2967fa9c78e99d57fe3060ebeba34e26e080f71a46f7e32ccc854a910934",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.038517000000865664
+      },
+      {
+        "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CPrwt8jV8vQCFeIX0wodKgoAvw;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=*;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://10973364.fls.doubleclick.net/",
+        "status": 200,
+        "size": 494,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://10973364.fls.doubleclick.net/activityi;dc_pre=CPrwt8jV8vQCFeIX0wodKgoAvw;src=10973364;type=remar0;cat=allpa0;ord=3388830231882;gtm=2wgc10;auiddc=1821996598.1640013281;u2=undefined;u6=undefined;u1=undefined;u3=https%3A%2F%2Fwww.hemmings.com%2F;ps=1;~oref=https%3A%2F%2Fwww.hemmings.com%2F?"
+        ],
+        "time": 0.033043999999790685
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/categories/truck.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3438,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"d4d94dacc5e2686ba4ddf5cff70bd106\""
+        },
+        "responseBodyHash": "06b61d345e8608c798e2830c22c2dfe63189d27f7824fa7c559a4082aa984fa2",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.013624999999592546
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/categories/sport.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3274,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"f36004ccc300741ab22b9272049c9d64\""
+        },
+        "responseBodyHash": "c6c2261dee2f2eec033a0fd9bad17b9a445940b5f6cbaa2a112f90c895abfc1d",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.017276000002311775
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/categories/muscle.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2789,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"b1826ef5ddb40bb6ae6feaaf7d510761\""
+        },
+        "responseBodyHash": "f13b397b49bc1eb1840168b5e8d0f0567e50a4bacca66584f2fb52abafa00514",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.01281100000051083
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/categories/classic.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3318,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"4e024ee38b81706de5577eec70c7d140\""
+        },
+        "responseBodyHash": "78d5eb3abecfd3afe5560b5999b834261c5a86d49f477a5498d06ff5d4450cbf",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.013509000000340166
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/categories/motorcycle.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3020,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"8588c7c53fdb9d85d4b8cc90167ff191\""
+        },
+        "responseBodyHash": "24bc6fd317605f88aa03f9880450e37c54dfa88e8bb1c37bd88e3d4aa6aae6fa",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.014037000000826083
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/categories/rod.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2782,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"d6d38748b2a455b8fe55a3e89dad9b69\""
+        },
+        "responseBodyHash": "0e3b3ecf3528fa75e0991fa7d6ed5a2a171dd26b9cde62fcb85794e0e8ed7457",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.014334999999846332
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/search-bar-mustang-bg.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 496637,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"013c59a5c914244780dbdf43ed2bfc8b\""
+        },
+        "responseBodyHash": "06205fe0483ce559dbc00ef21b710161474c92a06783d46e5f3cc68f59dbc485",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.03445999999894411
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/chevy-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 28814,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"d08fd7b19df5691424dbe21b55e536bd\""
+        },
+        "responseBodyHash": "3d709625ae34d5e7062e938eadbd6a27f8b503cae8364d7cbee3f329d2c33f45",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.007300000001123408
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/ford-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 35003,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"5392886af31bc969e9346d287c432bc4\""
+        },
+        "responseBodyHash": "8885cea7f8386ee9629c012bf3874f8b8d93735a398274125c4cc1aac5ae3f69",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.01004800000009709
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/porsche-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 20180,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"9463fe411d3ebe9e9ea7dc4c1818ab66\""
+        },
+        "responseBodyHash": "37b9d7621d8d61df042a5ca94e0aa7905795c6ba617c36617d33f85482ab948f",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.01115100000242819
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/pontiac-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 14401,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"0e7b9a8c8c792acf2106b9cecfa88a3c\""
+        },
+        "responseBodyHash": "2f17e8b1741ec01bcfbf6898af677c0f54bb944a411bcc04291f22db19c2000a",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.013889999998355052
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/dodge-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 10758,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"8d4cf78299f9e930da51b6914c7e1226\""
+        },
+        "responseBodyHash": "2adabde3138055d4c19976069c935f0ec4b3497664103206474c93b5b85746bd",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.023073000000294996
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/mercedes-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 18332,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"048c3cc71b678c1aae707a15ab73f518\""
+        },
+        "responseBodyHash": "d16c78c16ae369bd417e09da053d7438afcc505108c8ee27c778f922d3bff98a",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.02752400000099442
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/plymouth-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 16027,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"3b9dcc1cfa769c6a27f0dc057cb59eff\""
+        },
+        "responseBodyHash": "77dc08e6444c986ff910212a4b3dadcde426181c75537b3e3d071fa990f6e845",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.02602900000056252
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/cadillac-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 33466,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"7a248476f55da66d11a0157f73a70897\""
+        },
+        "responseBodyHash": "6611ae29a052ef4f06af560806f6bf75306339ac72e5ffa1ed3ba024a81d7cb2",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.02617600000303355
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/buick-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 54417,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"71080aaae0870ece7657995e7a44e337\""
+        },
+        "responseBodyHash": "85026d05b55087a44c7474c328c14d770693b81bbe22ad6195da27425d256268",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.022410999998101033
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/makes/oldsmobile-modern.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 29738,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"0c77dc4bc80a8277886fd4202fd0449d\""
+        },
+        "responseBodyHash": "c38201c4b867cd66a0cadb832f1a2f66810de18339bdc7eeb954b383ab1931c4",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.027957999998761807
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/hmn_tb3/car.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 113828,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"5b7b00d3efda6bc09ded1f6e259e925f\""
+        },
+        "responseBodyHash": "6e0c59846cd2d26732e6476866ec2f2762329c61fd2e56ed4b8a053c5e3aed94",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.010728999997809296
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/tb3/hemmings-motor-news.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 45889,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "etag": "\"82ccbdfe19637162c3e079d666de1e74\""
+        },
+        "responseBodyHash": "b3cf02c873f4a703282ee7a75fbb626c48e241575f8f83a018506d22c27cc20b",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.006440000001020962
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/tb3/muscle-machines.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 45026,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "etag": "\"d8824028f375ff1b59f79866a9825ce9\""
+        },
+        "responseBodyHash": "6ff8101f32335fded3258bb57330a8d17845fb4a3ca37cffe84e798f537eaa25",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.0076640000006591436
+      },
+      {
+        "url": "https://hmnimages.hemmings.com/tb3/classic-car.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 48430,
+        "remoteIPAddress": "52.222.139.15",
+        "responseHeaders": {
+          "etag": "\"c5de765000b8bad605f402f4b0b4c7ae\""
+        },
+        "responseBodyHash": "109e24beba4ac0ff196c027f0a7ed6434fcda7b68a044689caf2996f1b26dbee",
+        "initiators": [
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.007592000001750421
+      },
+      {
+        "url": "https://thumbor-production-auction.hemmings.com/900x507/730668/a53d3cf6-49a9-48de-965e-ce25d71b771e.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 120786,
+        "remoteIPAddress": "65.9.83.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"fde2e401d91910266ecded4b9ed24246562b1edf\"",
+          "expires": "Tue, 21 Dec 2021 13:59:13 GMT"
+        },
+        "responseBodyHash": "9284225bdacb092b0985276e190369af19cf6a2e6f063f13e0cae1ac36db151e",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.04449899999963236
+      },
+      {
+        "url": "https://thumbor-production-auction.hemmings.com/900x507/726026/dsc01571-hero.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 74447,
+        "remoteIPAddress": "65.9.83.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"b7072fe79966e2faa31a75140532f3cc9a6c9211\"",
+          "expires": "Mon, 20 Dec 2021 17:48:42 GMT"
+        },
+        "responseBodyHash": "c749ec76d27be588787d7ac9320cbc65fb530b982f05ac3b84f79e4242d6e5d8",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.03833400000075926
+      },
+      {
+        "url": "https://thumbor-production-auction.hemmings.com/900x507/731311/83949846hero.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 132075,
+        "remoteIPAddress": "65.9.83.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"4be9c35b6f3eae8d70cc0753262e1c8e6420025d\"",
+          "expires": "Tue, 21 Dec 2021 13:59:08 GMT"
+        },
+        "responseBodyHash": "e54047252b60da3449af3e481198bde3a30f8ead453425dab426322d88c40243",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.05064000000129454
+      },
+      {
+        "url": "https://thumbor-production-auction.hemmings.com/900x507/729651/84104188hero.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 120681,
+        "remoteIPAddress": "65.9.83.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"9c02d91469a4272aece23ac694f023609c6144d6\"",
+          "expires": "Tue, 21 Dec 2021 05:39:01 GMT"
+        },
+        "responseBodyHash": "ddc2bb32cc131bebdf767a4c7e8a107f570c66dc2b2bf38d00f6d81c39c5bf8c",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.040899999999965075
+      },
+      {
+        "url": "https://image.hmn.com/0TTuR-LrF5PvD4pKnm5i6ChD2zg=/900x0/uimage/83583836.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 116021,
+        "remoteIPAddress": "65.9.83.51",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"61af0cad76f164c577cc6364ff8487491f9492fb\"",
+          "expires": "Tue, 21 Dec 2021 12:35:05 GMT"
+        },
+        "responseBodyHash": "7e32607724e999736006dca19ee1413d4a4560c4cc8c658f87a93f6b537f75c5",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.03712699999960023
+      },
+      {
+        "url": "https://thumbor-production-auction.hemmings.com/900x507/728793/3884f492-3723-45aa-b4cb-c84230d4949e-2.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 119845,
+        "remoteIPAddress": "65.9.83.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"514d65b41adfa769e0950ecc1e4bd92220e05666\"",
+          "expires": "Mon, 20 Dec 2021 18:49:59 GMT"
+        },
+        "responseBodyHash": "184c49d29cb7d3f1ac4a2823cdf5ca014167965722019cfa083fbe82a6fb4aff",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.04338400000051479
+      },
+      {
+        "url": "https://thumbor-production-auction.hemmings.com/900x507/729147/img-9262.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 90182,
+        "remoteIPAddress": "65.9.83.33",
+        "responseHeaders": {
+          "cache-control": "max-age=86400,public",
+          "etag": "\"f3af40c98eb992c5c10b271415a4b9d44ea423e2\"",
+          "expires": "Tue, 21 Dec 2021 13:59:13 GMT"
+        },
+        "responseBodyHash": "2b323d29cae9d76e4b71fe314132c8017b083c985907ddf2b0ae28a0242827b5",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.04002799999943818
+      },
+      {
+        "url": "https://api.sail-personalize.com/v1/personalize/simple?pageviews=1&isMobile=0",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2013,
+        "remoteIPAddress": "99.83.154.140",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d320a978ba89e689b66f1c7782b5dd0484596c3481f136c5f61c7689786dd6bf",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://ak.sail-horizon.com/spm/spm.v1.min.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.35629100000005565
+      },
+      {
+        "url": "https://api.sail-personalize.com/v1/personalize/simple?pageviews=1&isMobile=0",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "99.83.154.140",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.sail-personalize.com/v1/personalize/simple?pageviews=1&isMobile=0"
+        ],
+        "time": 0.2592049999984738
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 119533,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private, immutable, max-age=31536000",
+          "expires": "Mon, 20 Dec 2021 15:14:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2d5ae5a515a688823dc98d032242c2ed6f490a74c4281bdd599567898f9fa675",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        ],
+        "time": 0.02119700000184821
+      },
+      {
+        "url": "blob:https://www.hemmings.com/393a1318-d683-45ba-8305-d5126f1eacce",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "62111f74a6686b65c203930b9c42d0b5bdbfd3f6584508a2119cfe278fa82b85",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.05827599999975064
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/344954763/?random=1640013283387&cv=9&fst=1640013283387&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&tiba=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&hn=www.googleadservices.com&us_privacy=1---&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1397,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fd9e583b26829d9f31870e87a3182e62716658b7aec085abe60ff5333e5cece7",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.04184199999872362
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1503647406349127?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 88957,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "78eaeb3048fc5a375128391d2bc0e2d6befed8e2f87eed25061b865eb6cc8df5",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.01089999999749125
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/344954763/?random=1640013283387&cv=9&fst=1640012400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&tiba=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&async=1&fmt=3&is_vtc=1&random=3171308336&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/344954763/?random=1640013283387&cv=9&fst=1640013283387&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&tiba=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&hn=www.googleadservices.com&us_privacy=1---&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.02667199999996228
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/344954763/?random=1640013283387&cv=9&fst=1640012400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&tiba=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&async=1&fmt=3&is_vtc=1&random=3171308336&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/344954763/?random=1640013283387&cv=9&fst=1640013283387&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dgtag.config&frm=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&tiba=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&hn=www.googleadservices.com&us_privacy=1---&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.020584000001690583
+      },
+      {
+        "url": "https://b4c1b1258c786412e03bb6307f043bc1.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 3674,
+        "remoteIPAddress": "142.250.179.129",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 15:14:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a73730123a43c3040d889aaee11ec35094277ce5f778076b262c23a293870adb",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js"
+        ],
+        "time": 0.025811999999859836
+      },
+      {
+        "url": "https://adservice.google.nl/adsid/integrator.js?domain=www.hemmings.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 792,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657 for more info.\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.0199030000003404
+      },
+      {
+        "url": "https://adservice.google.com/adsid/integrator.js?domain=www.hemmings.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 122,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657 for more info.\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.01550399999905494
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=274772360809688&correlator=3343264039221334&output=ldjh&impl=fifs&vrg=2021120601&ptt=17&us_privacy=1---&sc=1&sfv=1-0-38&ecs=20211220&iu_parts=5361%2Cspn.hemmings%2Chome&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=970x250%7C728x90&prev_scp=pos%3Dleaderboard&cust_params=env%3Dproduction&cookie_enabled=1&bc=31&abxe=1&lmt=1640013283&dt=1640013283720&dlt=1640013280587&idt=2992&frm=20&biw=1440&bih=812&oid=2&adxs=120&adys=417&adks=3831936149&ucis=1&ifi=1&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&flash=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=1200x0&msz=1200x0&ga_vid=678630062.1640013281&ga_sid=1640013284&ga_hid=1433103522&ga_fc=true&fws=4&ohw=1440&btvi=0&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 11213,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0733891bb7e3ba2ab8e8ae0e6706bb403bc69930e3a344367be320d39b3a8b34",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.9830399999991641
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=274772360809688&correlator=3343264039221334&output=ldjh&impl=fifs&vrg=2021120601&ptt=17&us_privacy=1---&sc=1&sfv=1-0-38&ecs=20211220&iu_parts=5361%2Cspn.hemmings%2Chome&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=970x250%7C728x90&prev_scp=pos%3Dfollowboard&cust_params=env%3Dproduction&cookie_enabled=1&bc=31&abxe=1&lmt=1640013283&dt=1640013283730&dlt=1640013280587&idt=2992&frm=20&biw=1440&bih=812&oid=2&adxs=120&adys=1772&adks=3831785132&ucis=2&ifi=2&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&flash=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=1200x0&msz=1200x0&ga_vid=678630062.1640013281&ga_sid=1640013284&ga_hid=1433103522&ga_fc=true&fws=4&ohw=1440&btvi=1&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 17932,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3eb0d6dc22b905747c0f191ec5bf7f952405fb9f6b3549b2c1fd97eae65d20c4",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.3552120000022114
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=274772360809688&correlator=3343264039221334&output=ldjh&impl=fifs&vrg=2021120601&ptt=17&us_privacy=1---&sc=1&sfv=1-0-38&ecs=20211220&iu_parts=5361%2Cspn.hemmings%2Chome&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=970x250%7C728x90&prev_scp=pos%3Driver&cust_params=env%3Dproduction&cookie_enabled=1&bc=31&abxe=1&lmt=1640013283&dt=1640013283733&dlt=1640013280587&idt=2992&frm=20&biw=1440&bih=812&oid=2&adxs=120&adys=4094&adks=3872412778&ucis=3&ifi=3&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&flash=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=1200x0&msz=1200x0&ga_vid=678630062.1640013281&ga_sid=1640013284&ga_hid=1433103522&ga_fc=true&fws=4&ohw=1440&btvi=2&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 17875,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a62cfa3d237aa4335acec436d1ce49cdd798b4eee626c282c92cbdf171a3d3d1",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.6554499999983818
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=274772360809688&correlator=3343264039221334&output=ldjh&impl=fifs&vrg=2021120601&ptt=17&us_privacy=1---&sc=1&sfv=1-0-38&ecs=20211220&iu_parts=5361%2Cspn.hemmings%2Chome&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=970x250%7C728x90&prev_scp=pos%3Driver&cust_params=env%3Dproduction&cookie_enabled=1&bc=31&abxe=1&lmt=1640013283&dt=1640013283737&dlt=1640013280587&idt=2992&frm=20&biw=1440&bih=812&oid=2&adxs=120&adys=5388&adks=3833488411&ucis=4&ifi=4&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&flash=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=1200x0&msz=1200x0&ga_vid=678630062.1640013281&ga_sid=1640013284&ga_hid=1433103522&ga_fc=true&fws=4&ohw=1440&btvi=3&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 17837,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c4ba7350b2de606ab5699310546a1f274e9c2586d78073f24dda2b95a0ec5ac9",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 1.3143459999992047
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=274772360809688&correlator=3343264039221334&output=ldjh&impl=fifs&vrg=2021120601&ptt=17&us_privacy=1---&sc=1&sfv=1-0-38&ecs=20211220&iu_parts=5361%2Cspn.hemmings%2Chome&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=320x50&fluid=height&prev_scp=pos%3Dnative_home&cust_params=env%3Dproduction&cookie_enabled=1&bc=31&abxe=1&lmt=1640013283&dt=1640013283741&dlt=1640013280587&idt=2992&frm=20&biw=1440&bih=812&oid=2&adxs=120&adys=6692&adks=3208673936&ucis=5&ifi=5&u_his=2&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_sd=1&flash=0&url=https%3A%2F%2Fwww.hemmings.com%2F&ref=https%3A%2F%2Fwww.hemmings.com%2F&vis=1&dmc=8&scr_x=0&scr_y=0&psz=1200x0&msz=1200x0&ga_vid=678630062.1640013281&ga_sid=1640013284&ga_hid=1433103522&ga_fc=true&fws=4&ohw=1440&btvi=4&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0.&nvt=2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 250,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "13337eeae9285c3e2a6813b5b274b30cb7f97a0215530c04425467deaf3e050b",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 1.3103510000000824
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1503647406349127&ev=PageView&dl=https%3A%2F%2Fwww.hemmings.com%2F&rl=https%3A%2F%2Fwww.hemmings.com%2F&if=false&ts=1640013283836&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640013283833.1824498269&it=1640013283418&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:14:43 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1503647406349127?v=2.9.48&r=stable"
+        ],
+        "time": 0.008938000002672197
+      },
+      {
+        "url": "https://overlay-track.sailthru.cloud/v1/overlay/view",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.218.147.22",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://overlay-track.sailthru.cloud/v1/overlay/view"
+        ],
+        "time": 0.35863700000118115
+      },
+      {
+        "url": "https://overlay-track.sailthru.cloud/v1/overlay/view",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 422,
+        "remoteIPAddress": "3.218.147.22",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "5f4871b277dbebec4d8490673a48154537dc6f1969140f67c333e85704b50564",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://ak.sail-horizon.com/spm/spm.v1.min.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://assets.hemmings.com/stories-dist/js/120.a81192b603618128080a.js",
+          "https://assets.hemmings.com/stories-dist/js/manifest.2ee28bb31ebfbc135ba1.js"
+        ],
+        "time": 0.4513829999996233
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-1212.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 13276,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"9dfe540eb31e6fc0e0dddd91e3511f68\""
+        },
+        "responseBodyHash": "e8fd6832e13fca9622a46af5fddb394c358ef083d84002896aca34613d77780e",
+        "initiators": [
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.011505999998917105
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021120601&st=env",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 9065,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0c7b890288210b9e37aee2443800cdc1a856c3aed1899545a18230983b62f33f",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.031058000000484753
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/1/bb2afd3557?a=591838392&v=1212.e95d35c&to=ZwRVMRQFXkRQABYLXl5OdgYSDV9ZHgsND1Q%3D&rst=3878&ck=1&ref=https://www.hemmings.com/&ap=49&be=580&fe=3855&dc=1067&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1640013280074,%22n%22:0,%22u%22:511,%22ue%22:512,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:3,%22rp%22:505,%22rpe%22:712,%22dl%22:513,%22di%22:1066,%22ds%22:1067,%22de%22:1070,%22dc%22:3855,%22l%22:3855,%22le%22:3860%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&fp=674&fcp=674&at=S0NWR1wfTUo%3D&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "JSESSIONID=913928d2d98aad43; Path=/; Domain=.nr-data.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "dac715f087720dd7ff7067f5d2ec1988851fa93140ae8a9cbfaa15659dd7fd82",
+        "initiators": [
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.8386890000001586
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/sodar/sodar2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 6891,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1637097310169751\"",
+          "expires": "Mon, 20 Dec 2021 15:14:43 GMT"
+        },
+        "responseBodyHash": "61c32059a5e94075a7ecff678b33907966fc9cfa384daa01aa057f872da14dbb",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.020242999999027234
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 5071,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 23:57:23 GMT"
+        },
+        "responseBodyHash": "55a119c0394f901a8a297e109c17b5e5402689708b999ab10691c16179f32a4a",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.015800000001036096
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/aframe",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 533,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "private, max-age=300",
+          "expires": "Mon, 20 Dec 2021 15:14:44 GMT"
+        },
+        "responseBodyHash": "d981acacdfea89fe9240055a1638d1add8961af3630a0b185d4dcb979ff0fb98",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.01458200000342913
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=225&li=gpt_2021120601&jk=274772360809688&rc=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.google.com/",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.google.com/recaptcha/api2/aframe",
+          "https://tpc.googlesyndication.com/sodar/sodar2.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.056316999998671236
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://tpc.googlesyndication.com/",
+        "status": 200,
+        "size": 13603,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 19:51:05 GMT"
+        },
+        "responseBodyHash": "53f0cf5f2fef7e5a938d553f62eb56266d1ac4e244eb7dcd40630614485fdacd",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html"
+        ],
+        "time": 0.006440000001020962
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsscVWGPi86jAphUTaes01-C--Ylgw1gCrOBdICcYWLnKGF2Zfo7qYyyHgmEJ8Hzfwcs-Cd1OzGjWn2wXCjVrFtsg4vCU5-Yv5OtYymqsYkSVSM6_GB2el418MzhPjktqSoTTCmRairbxm7LurAcLPZ1CsMYZy556O6dfRTsNmN8k0YfkNjaEMM5smcarEBK6mLxJOiY7Thu8ercG-HCYWejn8ewERCF9LErl54uKBrnZcBmGjqLeuILO8yBNau5jpM9EkUNmiAjAzLHVjrYVpqMW_6jQsKBb3GMd-NFqAuQGGwd8zVfa8OklRXGAz8&sig=Cg0ArKJSzPR9e8quMPJGEAE&uach_m=[UACH]&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.08808900000076392
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/js/r20211207/r20110914/abg_lite_fy2019.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 7903,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1209600",
+          "etag": "5333878705136318229",
+          "expires": "Mon, 03 Jan 2022 15:13:51 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d9955b485ec10339d863941175c02572657bf9d4f6c5fa2e5603e7d803c1b8cf",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.006414000003132969
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/js/r20211207/r20110914/client/window_focus_fy2019.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1359,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1209600",
+          "etag": "3351516697335751560",
+          "expires": "Mon, 03 Jan 2022 15:13:22 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "36eb26e781bd5df368210633ce1197df38df32820e93c18e48afb04ad1cea627",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.007729000000836095
+      },
+      {
+        "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 37961,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1638461285297402\"",
+          "expires": "Mon, 20 Dec 2021 15:14:44 GMT"
+        },
+        "responseBodyHash": "87f7f86b17eacf56e623a69be05e5f5487470d6b30347efe12742aefa3f5af48",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.04756199999974342
+      },
+      {
+        "url": "https://www.google.com/ads/measurement/l?ebcid=ALh7CaRjfzNYqHMHxo5P6iIoCj8o0Lxeq1J7Fk6eUaPLtBXpRInFDbpKG9yrIC3JlhWM1rvCvXb6",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.01720700000078068
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/simgad/15422243355148040269",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 339116,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 16 Dec 2022 11:57:16 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fd22841f03c2a865c84199a0edfc924db0d4d86b7a8d2f7f80aabe6fc6767cab",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.026792999997269362
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1433103522&t=event&ni=False&_s=1&dl=https%3A%2F%2Fwww.hemmings.com%2F&ul=en-us&de=UTF-8&dt=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=GPT&ea=slotLoaded&el=home%20followboard&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=678630062.1640013281&tid=UA-7879432-1&_gid=747385295.1640013281&gtm=2wgc10MXKXHNX&cd5=not%20logged%20in&z=1270344794",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.005643999997118954
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjst8u6hdKp5F-GEDU1Dc28HCuAaTgkD_Z1w5t5JoxkqFNk0XyGdy-n-Xiz52g3mXhx_Brgiz3JGtcNAnQR3G26N2nSke1R5IlJA3ENgbEpA38mZNBDFkcotOx1XKSqAHeBfVQzHQilfUQ8wlT46xRbucXftWzC68bMQ0a32R-1r8MsSJdqFOVnq7c9R1OhE2izzlgw0i8NLDl-G1h-WKIAbZ4jYp6bPUctIJsXXsgm3r4bRpHxPEzGcKl1R_hEMvAGX01REnWgUfl5gi1hFa7jdbhymTSaWAPoN_AUS8EBlADv4lnVW3T90_rz0JpPYsWg&sig=Cg0ArKJSzLaioLINZfoSEAE&uach_m=[UACH]&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "expires": "Mon, 20 Dec 2021 15:14:44 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:29:44 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+        ],
+        "time": 0.18011900000055903
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjst8o6Vku9LJt9XLZADKYynfiCLZDd_7X-bxS3RgUz4PirHBYxxBfsQc3WeO2_GAH5kpsmW26OJRrtO-BwCnYSFXpCCbAglFatnIqKU1qUE9cUptMvnT5cNQ-mf3lB1SLrrERYuJOgPRTdib4vmgWATTSwcQafwY-dBwT9Y89m8sOKPkprzLgxy-gVjOXNFI3Urgzi_pqCnId9oiMaN0GkaYZWkQbXeX5vyRadJkRKM7UTxywGrKINAsr1Dv0JPu3aly3PF9kMUl4Yv9wZ6x4eONApCVGs8Ray4UMn6sOVfXmIRQ7IufTVXvkX2fGv0&sig=Cg0ArKJSzJ9ZYi9rIqUpEAE&uach_m=[UACH]&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.09805400000186637
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/js/r20211207/r20110914/abg_lite_fy2019.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1209600",
+          "etag": "5333878705136318229",
+          "expires": "Mon, 03 Jan 2022 15:13:51 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d9955b485ec10339d863941175c02572657bf9d4f6c5fa2e5603e7d803c1b8cf",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.00037399999928311445
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/js/r20211207/r20110914/client/window_focus_fy2019.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1209600",
+          "etag": "3351516697335751560",
+          "expires": "Mon, 03 Jan 2022 15:13:22 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "36eb26e781bd5df368210633ce1197df38df32820e93c18e48afb04ad1cea627",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.0003949999991164077
+      },
+      {
+        "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1638461285297402\"",
+          "expires": "Mon, 20 Dec 2021 15:14:44 GMT"
+        },
+        "responseBodyHash": "87f7f86b17eacf56e623a69be05e5f5487470d6b30347efe12742aefa3f5af48",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.000459999999293359
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/simgad/5865912382977022035",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 288294,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 04:03:59 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4953a76a8099b7e308da74f53571e1d72f19e773f0186f33fc0c64f3183dcf46",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.01897399999870686
+      },
+      {
+        "url": "https://www.google.com/ads/measurement/l?ebcid=ALh7CaQ4WPJhohHg8yZawZbbrIabJbtcAAKHkmVXQyuycCStuerxG5KjpOHaa0wmaqUs4qlDDG-n",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.018262999998114537
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1433103522&t=event&ni=False&_s=1&dl=https%3A%2F%2Fwww.hemmings.com%2F&ul=en-us&de=UTF-8&dt=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=GPT&ea=slotLoaded&el=home%20river&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=678630062.1640013281&tid=UA-7879432-1&_gid=747385295.1640013281&gtm=2wgc10MXKXHNX&cd5=not%20logged%20in&z=221264248",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 54,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.012346999999863328
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 18,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.011937999999645399
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjstSV22E042prmidIwTOMi7ZMtLmuiumZOovgf0fCdmyx1zodpWttdMUrJceaIekAr9Twifq6Lj_QkRCMA1wJc7lVcUa9Ya2T6Q4fxg8Y2oCLYfaNyYbNEfJqwO60vHm3_mCjKrzHhmDNctgnYwtkf4sB2lyvtX87TtmVpA65oRaNXGFXBB6fwQhUiJnDfb0AJvVa0aE45kVNOWRj3rMS2tOJ9Ad1YP3nrccUVUS1VOy1oZp6m_YDL_gOZ7iUF9GgVgIS5iWqeKcYllOHcM-328J_8JXtps4unCP-lwJRpyyOQNw6DC9fjyNF3CCFg4Erw&sig=Cg0ArKJSzC9u7M4A1y9NEAE&uach_m=[UACH]&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0%3D&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "expires": "Mon, 20 Dec 2021 15:14:44 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:29:44 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.029622999998537125
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=225&t=2&li=gpt_2021120601&jk=274772360809688&bg=!6uml6a3NAAZKWFskSlg7ACkAdvg8WrAoFLRiN7kVkdELg70mRgkeqtqgb1C329xbrPrIdnfdsi0bzgIAAAJNUgAAAA5oAQcKAJjX9NMRijaLdQ-wsE0zCniLVIo_Fn2vE4Zwz7lk0EOqWCOJEazgguWZQa8hNftSIbQuwCRSX2b8aKRPoIyw7Pcn7p4nM9-JDbnYeuHRHq4imIV4Fs-uXi8wfGNgMGV9nUoAa_A7hkKPIDQzAL7eL8YmEygxAqDrHU-JkRFYx08NtJQYtxthH4udmHGFg27b89CLdKrxt3J7ZZkCynh_f2gTc3gsE8Ll1Ym6gm-SFWFmdyVVp9Sbn1F-9tg-ncdiPyR983nSycu7pgOY_HRe79XxXq1QefJf3KIz_bgLCYvLYKVFtfWlb-pMuOe7rgDR2T9Zoq8QqnbSZlY9GlsyYB1XoEytNQn4kssc1gYduJohwJKriPW2kRE1EHGwNPjhWL4SMRnMYwnqa5w6YV6HL1DlItI9dgtaS-JYX-JrXKHQzAeSdAQdfJaumXNpZicgTS8bCAIh7La18cfY1TFy_rL5eb5bb6tQBIoJ03bXN27uMGpIjROS6Axs6QVPQJjHJp5KdWOpQcjv5lgSzNCX2j5W4Smt0M__MIpef5yzSTYvR_HLKXQowBJPCzj5ypqCzAXJmfzACipskRmYfrsXYE4x1hTtRn2NDRxAyJskC8rLzd6w6hwGRga5RKq90bG11RePc0Sa6uGJ-1OFlz9LTvyOAtZ4oR57ntLuiBMiDGFRErFKGfMYNacRfRAFVCaKupYgS5aWoFHfwF2HZC08O4sa8w0FDBrNLnCgyliS7DFG-RsVH1oq-4Wzmaeh-MvsfsXlVsX1HtPrDqFpanAQFu6pQ5Ho2bprG9gyqDUI0fA49iPkgTJQZ-zrKQ6a_8wDfpIqAwCG1aCCUhzxAxwfXSZ3tOhCf5cw2L54u_Kf0MYYi34z-x3ePPyLatRiTeq2My9wKjAqr-byCJ0RH7uWdz-mtor84DrAvgRudPIt2wJ4MJr_ZPKUP1og3RkdqvafatP8cUw4Y6_4pR73b100hoH2TNt2Kw6ntNR_j2d2hj8K_JJ3T_wW4Jp2T2VY9ZBlWxSKBnxVoqt-c8AHgpLrzISuABQGARTUPdFH-Pynw-8aiPP8gE55mHuCgl_TnDTgOeay21KVGphcus7TXLk1PWFgG3BDnJn6VUL8qabh5B8S3tOivy1hpVJc9GjsLrLXsrmK7af_Vw",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 204,
+        "size": 20,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://tpc.googlesyndication.com/sodar/sodar2.js"
+        ],
+        "time": 0.02258599999913713
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.mjs",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 56728,
+        "remoteIPAddress": "216.58.214.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"11dee2040f5fc1d7\"",
+          "expires": "Sat, 17 Dec 2022 11:52:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "98ba8f881333898d751dabe4f8b4cacc4489a9f5b6b4fd1fc67c571dbfec95cf",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.17475399999966612
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012111011823000/v0/amp-ad-exit-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 5075,
+        "remoteIPAddress": "216.58.214.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"858600ba27ef7413\"",
+          "expires": "Sat, 17 Dec 2022 11:52:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "65f6185cfe1cf88fa7981160dd6fa443e111887215b72953718ea70f8e2ba9f2",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.05849299999681534
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012111011823000/v0/amp-analytics-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 28648,
+        "remoteIPAddress": "216.58.214.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"a64e482645fd262b\"",
+          "expires": "Sat, 17 Dec 2022 11:52:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9e97fc43ecd2f16948c3a8d2de65e0e5483db4ed5ab174058c178ca1c8665d0b",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.17155199999979232
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012111011823000/v0/amp-fit-text-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 1815,
+        "remoteIPAddress": "216.58.214.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cb4f0e89d7d37d9b\"",
+          "expires": "Sat, 17 Dec 2022 11:52:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3d76ab4ac854cafef51bbbb5177ea75816df90e3c775294991a016404f2b6bb5",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.057672000002639834
+      },
+      {
+        "url": "https://cdn.ampproject.org/rtv/012111011823000/v0/amp-form-0.1.mjs",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 12910,
+        "remoteIPAddress": "216.58.214.1",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"f02165e023e70703\"",
+          "expires": "Sat, 17 Dec 2022 11:52:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9a630b852e94f20cb8140704fd830bf40bfea0a2effaa67d06a0eadafbf3d508",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.05898700000034296
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/simgad/1610826904949206908?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4ql0wttvAqWVa8decNP952FrZad5bQ",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 97378,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 17:55:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "98d2244f108f305dd3d077b3b2a6ea396e017f08786b5b78ab881da2b4765983",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.156872999999905
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/images/adchoices/en.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 2526,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "14819457070020093239",
+          "expires": "Mon, 20 Dec 2021 22:52:04 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "977f67184e360fe54b9eb9433de5ea2f058c982bf221a8640f4536fc88cfc977",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.15473600000041188
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 319,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "etag": "426692510519060060",
+          "expires": "Tue, 21 Dec 2021 02:47:58 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "39e2a9312259676064765f51493491de18c2d3b1146852a15fcfc4555506f6e5",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.03429800000230898
+      },
+      {
+        "url": "https://www.google.com/ads/measurement/l?ebcid=ALh7CaSCUn_cECGAZtN-JZTTm2uR7DMzDmii2yGrmrM3x6ltHzDa0-R1nLYDnGNNUPrqPO-ayLjg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.04708499999833293
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/adview?ai=CPMIQ5J3AYb2GGIHGx_APxZGr2A6RjMb3ZMPLm9GGD93ZHhABIOju_R9gkYSThfwXoAHNqNfVA8gBAuACAKgDAcgDCKoE5AFP0KFAEviGIN_LGY3ttGwiSU5RlS0HQpFb5HznSYv4SL910CuThc1HPvSs-ebaGvyJCGPr69zfcpbCIvMfu7cois29GXkk2Vs1BvJ79X5uzhgXtLWUVlUr9F8-4iErjC45xJDR4F6v5GgcWz3YxcXmt9POYkziq2AoBxRR6lwJ6cuvBKtspp3fheLQAFa57hTbGNqZai10CTCkjBegCFkEi8HKaarWlNCTik0gIUsv07APFbYNeRYZb7kupWaFFV2clnfooNgEOXsH5cJK66pmiaIE9dfafAKlb7dcNLM3mZxPjQTABKmOstjDA-AEAZIFBAgEGAGSBQQIBRgEoAYCgAeb16gqqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgH1ckbqAemvhvYBwHyBwQQmKBG0ggJCIDhgHAQARgdgAoDyAsB2BMN0BUBmBYBgBcBshceChwIABIUcHViLTI3MDU5MzUzNzk1MjgwNzQYuNIV&sigh=BvkQiXTSxME&uach_m=[UACH]&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.15108699999836972
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1433103522&t=event&ni=False&_s=1&dl=https%3A%2F%2Fwww.hemmings.com%2F&ul=en-us&de=UTF-8&dt=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=GPT&ea=slotLoaded&el=home%20leaderboard&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=678630062.1640013281&tid=UA-7879432-1&_gid=747385295.1640013281&gtm=2wgc10MXKXHNX&cd5=not%20logged%20in&z=1058640930",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.13619699999981094
+      },
+      {
+        "url": "https://www.google.com/pagead/drt/ui",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://googleads.g.doubleclick.net/pagead/drt/si?st=NO_DATA",
+        "initiators": [
+          "https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.mjs"
+        ],
+        "time": 0.16887400000268826
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuDeRjeSRIS-xyOoZWt2hzGdzDdxgqPSU_JCY29U6W_miRy3uINYi1edQpg3s5Kn2m9xgEk9MAuHoIZNwRzQ9ScibY8Ca9S47CF85tAdpV2d2P2dp5YtqufqhkuDJ5fB3ilBp90Yt2buqDNNR_k2P9SUxtmEwIESD69RaaBwv1KINXy6znrew-iMLG4XCJ6H1fCr3ANpzW1XHqeqCwhZF4f1dOBRxKoWJJ9EyLn1GJn9fF5GwiBom3UpPqsHpHimq6TmZslYEImAEaYi7SGK-lvM_g8vi43-B7M-AaYtrY0Qu78Y9vrDVaKDVtyZyI&sig=Cg0ArKJSzJ5kNuGK2bmQEAE&uach_m=[UACH]&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.11604799999986426
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/js/r20211207/r20110914/abg_lite_fy2019.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1209600",
+          "etag": "5333878705136318229",
+          "expires": "Mon, 03 Jan 2022 15:13:51 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d9955b485ec10339d863941175c02572657bf9d4f6c5fa2e5603e7d803c1b8cf",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.00034899999809567817
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/pagead/js/r20211207/r20110914/client/window_focus_fy2019.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1209600",
+          "etag": "3351516697335751560",
+          "expires": "Mon, 03 Jan 2022 15:13:22 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "36eb26e781bd5df368210633ce1197df38df32820e93c18e48afb04ad1cea627",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.0005559999990509823
+      },
+      {
+        "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "etag": "\"1638461285297402\"",
+          "expires": "Mon, 20 Dec 2021 15:14:44 GMT"
+        },
+        "responseBodyHash": "87f7f86b17eacf56e623a69be05e5f5487470d6b30347efe12742aefa3f5af48",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.00038999999742372893
+      },
+      {
+        "url": "https://tpc.googlesyndication.com/simgad/8758405044929656471",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 299196,
+        "remoteIPAddress": "216.58.208.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 10:29:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "48decfb984c569bfeb566433cb53adbaa7632bb089dcb927dcdf73d079908573",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.014523000001645414
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1433103522&t=event&ni=False&_s=1&dl=https%3A%2F%2Fwww.hemmings.com%2F&ul=en-us&de=UTF-8&dt=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=GPT&ea=slotLoaded&el=home%20river&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=678630062.1640013281&tid=UA-7879432-1&_gid=747385295.1640013281&gtm=2wgc10MXKXHNX&cd5=not%20logged%20in&z=1227256716",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.003519999998388812
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/drt/si?st=NO_DATA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Mon, 20 Dec 2021 15:14:45 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "DSID=NO_DATA; expires=Mon, 20-Dec-2021 16:14:45 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.google.com/pagead/drt/ui",
+        "initiators": [
+          "https://cdn.ampproject.org/rtv/012111011823000/amp4ads-v0.mjs"
+        ],
+        "time": 0.032997999998769956
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsudqeWPgechJ9cpw7h3qer4tl5wZYLhBvyVfmw6qx1F6AFwMiiL36gezc4zAj-8PEEWFI47TP0tEv4UaCErKdvdD6ti2z8ddmqZNdjfyptwsnzJLI836zhqvGk8V--kO17Yu6b94CSgW_OmobnGlSeR8t3dV8_dr7ksX0dhOIPw0BlmYo9tkev-e6gAmwYu7jVf2K9ZqmC8GtGrlHlL4B_ohaCuxS5xIRmXIunDeCaJzyXGQetCn7XNi-o_cVJsX4bNX5Wm8RcYui0hMk-ix8fftF-c2usb5N8gmgBRQpblwTI97T8VMwDThWQ95RJ7IA&sig=Cg0ArKJSzD51I92yQ3czEAE&uach_m=[UACH]&uach=WyIiLCIiLCIiLCIiLCIiLFtdLG51bGwsbnVsbCwiIl0%3D&adurl=",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private",
+          "expires": "Mon, 20 Dec 2021 15:14:45 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:29:45 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js"
+        ],
+        "time": 0.033929999997781124
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1433103522&t=event&ni=False&_s=1&dl=https%3A%2F%2Fwww.hemmings.com%2F&ul=en-us&de=UTF-8&dt=Classic%20Cars%20and%20Parts%20for%20Sale%20%7C%20Hemmings%20Motor%20News&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=GPT&ea=impressionViewable&el=home%20leaderboard&_u=aEDAAEABAAAAAC~&jid=&gjid=&cid=678630062.1640013281&tid=UA-7879432-1&_gid=747385295.1640013281&gtm=2wgc10MXKXHNX&cd5=not%20logged%20in&z=1915866214",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MXKXHNX",
+          "https://www.googletagmanager.com/gtag/js?id=AW-344954763",
+          "https://assets.hemmings.com/stories-dist/js/18.05d9885932ce43d7303c.js",
+          "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021120601.js",
+          "https://www.hemmings.com/"
+        ],
+        "time": 0.003426999999646796
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsvCOXCJPzbyH0Mh7-wOfe75V7BylyEasqH6iaSYaEY6fLHjwxB9D3H48nRGPTvJF9e621wYE2imAjzRYOpeW7h6sehajFjx9HNKtiRpCLbUWIYCjMUbtg&sai=AMfl-YTuE2EMQMGgurxeC00qL5PI0quBt0EC5qZL519zG4IVKtaopzuifyL7UVSA8IsKzGM-nMzeEM7wDiy0yow_Om3EJz7Ul5d_F_FnOd9ZKDCUVcG1Zzw05vsy1T_C&sig=Cg0ArKJSzG5tOLMq_fycEAE&cid=CAASPeRoHzamsmsIOLLHuyigCq0TWjy1JiX7kDyIJBz0NcMEHE2iVyJLCME570L-yAivQDLvWg0H5N8-58bD364&id=ampim&o=235,417&d=970,250&ss=800,600&bs=1440,812&mcvt=1000&mtos=0,0,0,1000,1000&tos=0,0,0,1000,0&tfs=262&tls=1262&g=100&h=100&tt=1262&r=v&avms=ampa&uap=&uapv=&uaa=&uam=&uafv=&uab=&adk=3831936149",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [],
+        "time": 0.020163000001048204
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/bb2afd3557?a=591838392&v=1212.e95d35c&to=ZwRVMRQFXkRQABYLXl5OdgYSDV9ZHgsND1Q%3D&rst=13878&ck=1&ref=https://www.hemmings.com/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hemmings.com/",
+        "status": 200,
+        "size": 504,
+        "remoteIPAddress": "162.247.243.147",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.hemmings.com"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.hemmings.com/",
+          "https://js-agent.newrelic.com/nr-1212.min.js"
+        ],
+        "time": 0.5102960000003804
+      }
+    ]
+  }
+}

@@ -1,0 +1,3519 @@
+{
+  "initialUrl": "https://www.skagen.com/",
+  "finalUrl": "https://www.skagen.com/en-us/",
+  "timeout": false,
+  "testStarted": 1640014729816,
+  "testFinished": 1640014749974,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.skagen.com/links.www.skagen.com_44ef.json",
+    "requests": [
+      {
+        "url": "https://www.skagen.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "set-cookie": "AKA_A2=A; expires=Mon, 20-Dec-2021 16:38:49 GMT; path=/; domain=skagen.com; secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.skagen.com/en-us/",
+        "initiators": [],
+        "time": 0.030043000002478948
+      },
+      {
+        "url": "https://www.skagen.com/en-us/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 22950,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin",
+          "set-cookie": "dwac_7c3bd7416c912bde26033e4af9=GO1XYuRzzg6ZogtKxt4GAa0wC42onA-QPqs%3D|dw-only|||USD|false|US%2FCentral|true; Path=/; Secure; SameSite=None\ncqcid=bcRjjhnL8SZpfZtoXvGFL6Sa5s; Path=/; Secure; SameSite=None\ncquid=||; Path=/; Secure; SameSite=None\ndwanonymous_dbd21b2783871959dfb36fb164c9d608=bcRjjhnL8SZpfZtoXvGFL6Sa5s; Version=1; Comment=\"Demandware anonymous cookie for site Sites-skagen-us-Site\"; Max-Age=15552000; Expires=Sat, 18-Jun-2022 15:38:50 GMT; Path=/; Secure; SameSite=None\nsid=GO1XYuRzzg6ZogtKxt4GAa0wC42onA-QPqs; Path=/; Secure; SameSite=None\n__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None\ndwsid=TLnftlX5BwGk4z_nspvit_lkg1kZFsafA-rtm0mraAr8g5ybnuNQU-qEN0Dvgj2iz_PjWAMqwCWN1wtlmKQg0w==; path=/; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "d4244a9e6506f902337ccf3d5fdd08363be207b564574d10adb7b4ef73ee45f7",
+        "redirectedFrom": "https://www.skagen.com/",
+        "initiators": [],
+        "time": 0.7836929999975837
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/worksans/v13/QGYsz_wNahGAdqQ43Rh_fKDp.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 49133,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 22:05:18 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4b342afd1d8fca8af8177babd1505e0660e3cb3418622e93962493e4ba35dce2",
+        "initiators": [],
+        "time": 0.015164000000368105
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/spectral/v7/rnCt-xNNww_2s0amA9M8onrmTA.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 22979,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:46:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cae50ce57c19d3f820476ad805d2ea39b70a841d0775cf7d36801a72a1d4c4b2",
+        "initiators": [],
+        "time": 0.014441000002989313
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 156079,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591997",
+          "expires": "Wed, 19 Jan 2022 15:38:47 GMT"
+        },
+        "responseBodyHash": "8aa0a25ae7d95bf4d56f7f17dad554c56b22e14f7573077aca247a7daca9c5ad",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.2964429999992717
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 70897,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591997",
+          "expires": "Wed, 19 Jan 2022 15:38:48 GMT"
+        },
+        "responseBodyHash": "b4faad9ca5e3dcfdf9db33fade265158fc2204dd08e1c487673a424f74163dba",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.3219779999999446
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/lib/jquery.zoom.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1625,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591999",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "6ce0c7f629cf153f77723cb3e570c6c1c91a04e303ac3c2b7dd60f565594d879",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.5863270000008924
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/productTile.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 40830,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591961",
+          "expires": "Wed, 19 Jan 2022 15:38:12 GMT"
+        },
+        "responseBodyHash": "23e58fc9a4907fab794ac21036766e41b9b0bbd89aadc578d5a3c0c2e46ba6e4",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.6125940000019909
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 58165,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "9d18b119444967a74e4c623520b0d232d1f66c5e33f5f1426290fc8a91bfb39e",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.2969149999989895
+      },
+      {
+        "url": "https://use.typekit.net/akt1zlq.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1013,
+        "remoteIPAddress": "92.123.77.16",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=600, stale-while-revalidate=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fbf7b57395fab038efe9219eb21f4feadcd2a4894447897dd5c2540ed8cd460",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.026487999999517342
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw491c1c0b/images/svg-icons/logo-xl.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1656,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591999",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "40c623624315059c6e4e8d2a812849583921e795155997a282348cb12a6d7348",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.5943489999990561
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw4b1069ea/images/svg-icons/close-circle.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 697,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "90e1c8f657f83a2e380cacbbf0b65c9bbf1dfa9b55da94f5228fe201525d118d",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.6026989999991201
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dwe0bb1904/images/svg-icons/customer.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 831,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "2cac1cd99fe9b5ba5ddf76fb55d13e819fae0e9f9a3225819ae8f0e3a458a0b4",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.6209459999990941
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw31b225bb/images/svg-icons/bag-empty.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 890,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591999",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "2e687f8c35bf3bd39d544d3b529e3384351936acf0075d26dec7a538bbdb0bcf",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.6077509999995527
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw7da1e12f/images/svg-icons/menu.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 595,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "ceb10b9473721352452394ab02e24bc5b2e32e9ff528c5ccf1a2a5a9b1019cee",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.6452509999980975
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw29fec308/images/svg-icons/left-carousel-arrow.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "826a043cc1d66ce5ca2b97e72a4a5f889b67693de135390e8fcfbd4a82edc566",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.8526400000009744
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw6daaebd5/images/svg-icons/close.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 621,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "18a90c51a5a33e52de8cf1c67365e409299a4533c7998f3d65211c9b7d9a9432",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.8489809999991849
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dwd6730d0e/images/svg-icons/right-carousel-arrow.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 617,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "a5d8cf287dc633b6933ce16d12f87b19005929a719371b22787a72474c2c6b96",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.8733479999973497
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw188ccd0b/2021/SU21/set_0422_naturals/topnav/4.22_Top_Nav_OurMission_Mobile_600x321.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 29640,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=1397970",
+          "expires": "Wed, 05 Jan 2022 19:58:21 GMT"
+        },
+        "responseBodyHash": "eec95dc91e139f2585117b3c80faa1c14d5d33c3c975894477ddc3b6430a3ba6",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.47890600000027916
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dwaa28da7d/images/svg-icons/arrow-down.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 600,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591999",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "a43f1350bd55e07aa95bf1e73f7f0c76ab17334ba971b40a1e573f848509fd9f",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.8984369999998307
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw8c8dfaff/images/svg-icons/search-desktop.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 713,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "2d22aad5c7f6317ac059a7ced7c409acaf55944be65b339d4f02cd7092985aa7",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.9040229999991425
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/default/dw9c689174/images/svg-icons/right-arrow-footer.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 734,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "4e7c9a6ddaef2ed437c97d3e1ef54eaf6545115e4b79cc6356c379e87c56b4f4",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.8980240000018966
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/custom/lib/jquery/jquery-3.1.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 30641,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591997",
+          "expires": "Wed, 19 Jan 2022 15:38:48 GMT"
+        },
+        "responseBodyHash": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.5245240000003832
+      },
+      {
+        "url": "https://www.paypalobjects.com/api/checkout.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 240704,
+        "remoteIPAddress": "23.222.18.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"611576ae-16d559\"",
+          "expires": "Tue, 21 Dec 2021 15:38:51 GMT"
+        },
+        "responseBodyHash": "911cedca4de02342bd10e87598103fccdb14b5965a91a4b21a1310082e8f9076",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.5849980000020878
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/custom/cybersource-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 3152,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591996",
+          "expires": "Wed, 19 Jan 2022 15:38:47 GMT"
+        },
+        "responseBodyHash": "d4b6457e3acee1ca02ea7373de136c3d661d9af633cecd0a7ffdade47289976e",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.5371050000030664
+      },
+      {
+        "url": "https://www.paypal.com/sdk/js?client-id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&components=messages&commit=false",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 75090,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, s-maxage=10800",
+          "etag": "W/\"120e8-ytsviLDecZ7IR5B3paeJvTDOrpg\"",
+          "p3p": "true",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "e7aa017212e928a8f8564d6414d19fda071649ae3a599f7a1177451e2c05284a",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.41708599999765283
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/internal/jscript/dwanalytics-21.9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 3005,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591999",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "c1be4481f94f8dbeac0db34fa65981e1211c794231cb7952d7f2d73f73cb6bfe",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.7307049999981245
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/internal/jscript/dwac-21.7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 2369,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591999",
+          "expires": "Wed, 19 Jan 2022 15:38:50 GMT"
+        },
+        "responseBodyHash": "0acc05529b896335e67451050b9d9353d4cd680a470919fecf91c12ff09196d3",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.9053789999998116
+      },
+      {
+        "url": "https://cdn.cquotient.com/js/v2/gretel.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 12577,
+        "remoteIPAddress": "13.227.217.143",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"4fdd1834cd022d3113e766921bac1ba4\""
+        },
+        "responseBodyHash": "6b6b34e69f08fb2fb269c0affa0b91f979eacc9df506d06fcc670e0601f23784",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.4047290000016801
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/internal/jscript/applepay.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 2966,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2591996",
+          "expires": "Wed, 19 Jan 2022 15:38:47 GMT"
+        },
+        "responseBodyHash": "2ad8df0436390cc4a60f3d7cffb9022a4f7689478cac55850b003cb54090ed6a",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.7294729999994161
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 579,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:38:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "adc69592a51c96482488785e7c5cf25ccf6a6eb3dba66e8fb3cd45288ab0a23f",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.031235999998898478
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,400;1,700&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1038,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:38:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "16f075afdf28f8d95337bfc09e4255071426a9b6cbb0aaceb76752657814d590",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.02994300000136718
+      },
+      {
+        "url": "https://edge.curalate.com/sites/skagen-o6gioq/site/latest/site.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 24716,
+        "remoteIPAddress": "104.18.26.211",
+        "responseHeaders": {
+          "cache-control": "max-age=1800,s-maxage=1800",
+          "etag": "W/\"719bac84c5bdb0c6d624001d195b332c\""
+        },
+        "responseBodyHash": "fcbc5ca9f7f73f6bd9a5d27ab7058511657773575be191c058873992bb87c432",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.08150300000124844
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=akt1zlq&ht=tk&f=17001.17005.22622.22658.25627&a=9130409&app=typekit&e=css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://use.typekit.net/",
+        "status": 200,
+        "size": 181,
+        "remoteIPAddress": "23.34.180.224",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=604800",
+          "etag": "\"5f4eed7f-5\""
+        },
+        "responseBodyHash": "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb",
+        "initiators": [
+          "https://use.typekit.net/akt1zlq.css"
+        ],
+        "time": 0.04820299999846611
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 974,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6deb61a987307a78456201e3380ba600bf4140de0d7f427dfe7825668f2d5108",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js"
+        ],
+        "time": 0.053421000000525964
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 93942,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:38:51 GMT"
+        },
+        "responseBodyHash": "427aec474f0eca20c6f18242fe939f932f6cb6317dda90eda803a0a80e7ce385",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.04287100000146893
+      },
+      {
+        "url": "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 50675,
+        "remoteIPAddress": "23.66.20.172",
+        "responseHeaders": {
+          "cache-control": "max-age=604800",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "09ebd7f407439990aac227e70da23e1a819e8e30282928e324370805f480bec4",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.041378999998414656
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/fonts/flags/4x3/us.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css",
+        "status": 200,
+        "size": 1061,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "f7ef77307be298fb111639ebcf8c3be24da30ce5b76fa1d7ca3f3a9089a79c05",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.28136000000085915
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/images/svg-icons/arrow-down.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css",
+        "status": 200,
+        "size": 601,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "a43f1350bd55e07aa95bf1e73f7f0c76ab17334ba971b40a1e573f848509fd9f",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.4441079999996873
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/worksans/v13/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 48608,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 20:34:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f14c83fbb5b3e3df8bbea1435977f895c5817f96a3017b5421e10e15a72a95a7",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+        ],
+        "time": 0.1470999999983178
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/spectral/v7/rnCt-xNNww_2s0amA9M8onrmTNmnUHo.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14890,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 23:56:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "546eaccda1676e4855f05a10ca23028338807b5f877d42b87afac30db47e24fd",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,400;1,700&display=swap"
+        ],
+        "time": 0.13994699999966542
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw717a3835/2021/HO21/set_1201_global/1201_hp/D1.1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 469907,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829319",
+          "expires": "Thu, 30 Dec 2021 06:00:50 GMT"
+        },
+        "responseBodyHash": "46cbd654c56082fbfd71332e32a8a1f16bf1ac2f7c47f55c887c9f4c75848641",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.058252999999240274
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw539d11b1/2021/HO21/set_1201_global/1201_hp/D1.2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 581846,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829204",
+          "expires": "Thu, 30 Dec 2021 05:58:55 GMT"
+        },
+        "responseBodyHash": "ea173b08bb5b90e6faa92aa0587928e1fecc017af88b58b439727e2160d59e19",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.15579600000273786
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw406b4e49/2021/HO21/set_1201_global/1201_hp/Illust_1_desktop.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 12966,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829210",
+          "expires": "Thu, 30 Dec 2021 05:59:01 GMT"
+        },
+        "responseBodyHash": "edf031abaddf89868b44d9826af2aa04f4c7c62c0350cf17387af812edca1c0a",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.046920000000682194
+      },
+      {
+        "url": "https://fossil.scene7.com/is/content/FossilPartners/bgvideos/Skagen/HO21/Luxe/SKG4372566_12-1_Luxe_HP_Mobile_video-med.mp4",
+        "method": "GET",
+        "type": "Media",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 206,
+        "remoteIPAddress": "92.122.254.235",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "expires": "Tue, 21 Dec 2021 14:13:24 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 1.3100300000005518
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/images/svg-icons/right-carousel-arrow.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css",
+        "status": 200,
+        "size": 617,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2592000",
+          "expires": "Wed, 19 Jan 2022 15:38:51 GMT"
+        },
+        "responseBodyHash": "a5d8cf287dc633b6933ce16d12f87b19005929a719371b22787a72474c2c6b96",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.18924999999944703
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css",
+        "status": 200,
+        "size": 77778,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2585548",
+          "expires": "Wed, 19 Jan 2022 13:51:19 GMT"
+        },
+        "responseBodyHash": "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.31235600000218255
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw35505bca/2021/HO21/set_1201_global/1201_hp/D2.1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 298067,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829146",
+          "expires": "Thu, 30 Dec 2021 05:57:57 GMT"
+        },
+        "responseBodyHash": "095f36d6311b01520b0e2334cab66bff2283e02512322fecf49af689a958cbd9",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.032143999997060746
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw7db5325d/2021/HO21/set_1201_global/1201_hp/D2.2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 999864,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829308",
+          "expires": "Thu, 30 Dec 2021 06:00:39 GMT"
+        },
+        "responseBodyHash": "d700ad31e7f136f5df8e1925e8ac31349c94ca00bb85d89927caaafe77d64cfd",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 1.8606500000023516
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwb998050f/2021/HO21/set_1201_global/1201_hp/Illust_2_desktop.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 12116,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829182",
+          "expires": "Thu, 30 Dec 2021 05:58:33 GMT"
+        },
+        "responseBodyHash": "294f60a8f813312d95d74193ad42083536506fb4c9801557cad7d2bf6895588a",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.04533400000218535
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwc5e91032/2021/HO21/set_1201_global/1201_hp/Icon_desktop.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1936,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829253",
+          "expires": "Thu, 30 Dec 2021 05:59:44 GMT"
+        },
+        "responseBodyHash": "ced7c4c1caad5f5b9086024a8c4a4c116835c403527a6a73561b2a65b0fd9064",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.05518899999879068
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwfb867cab/2021/HO21/set_1201_global/1201_hp/D3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 200173,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829338",
+          "expires": "Thu, 30 Dec 2021 06:01:09 GMT"
+        },
+        "responseBodyHash": "5e42e9121f4f9c83fbeee6cd53caff70d8ac3114aa93c24d4025ab3e55c23b8f",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.07746100000076694
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw406594fd/2021/HO21/set_1201_global/1201_hp/D4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 418748,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829251",
+          "expires": "Thu, 30 Dec 2021 05:59:42 GMT"
+        },
+        "responseBodyHash": "fe8effc2c4fcdcee96679a5750a763cc645a3f3632712f3c13b72e139e99eec8",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.10184799999842653
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw5a87d80c/2021/HO21/set_1201_global/1201_hp/D5.1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 407914,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829345",
+          "expires": "Thu, 30 Dec 2021 06:01:16 GMT"
+        },
+        "responseBodyHash": "db94c38a532ee19a8874bbf9ccfd830eba1f117bc1f4ff87896a0b519bb2076a",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.12527500000214786
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw9725ad63/2021/HO21/set_1201_global/1201_hp/D5.2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 361592,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829297",
+          "expires": "Thu, 30 Dec 2021 06:00:28 GMT"
+        },
+        "responseBodyHash": "c28b7197da54ea488baed82832d499017f036a39fd860a62427264e1bbc634e5",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.1429470000002766
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwe0cc4d84/2021/HO21/set_1201_global/1201_hp/D6.1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 21014,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829608",
+          "expires": "Thu, 30 Dec 2021 06:05:39 GMT"
+        },
+        "responseBodyHash": "f372e0e727deeb9565c41ec89fbfad1d8fc5c3eb8c7aad21f9396ea4206c2dd5",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.10977400000047055
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwea527a3a/2021/HO21/set_1201_global/1201_hp/D6.2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 14402,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829275",
+          "expires": "Thu, 30 Dec 2021 06:00:06 GMT"
+        },
+        "responseBodyHash": "768f63362e14b0803046d120afc7868ad9b1d96537bcd773dcc10e1514b83ceb",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.12318899999809219
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwfb8e96b8/2021/HO21/set_1201_global/1201_hp/D6.3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 15365,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829366",
+          "expires": "Thu, 30 Dec 2021 06:01:37 GMT"
+        },
+        "responseBodyHash": "35b93fe25692d9390b249d57219c72db414f0ad872fc1476b71ec9609a3ffc7c",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.14301500000146916
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw877a8607/2021/HO21/set_1201_global/1201_hp/D7.1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 196782,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829465",
+          "expires": "Thu, 30 Dec 2021 06:03:16 GMT"
+        },
+        "responseBodyHash": "541f2bf97bf64922e3452280a7a75dbdb0a73425055dfa83faacd21850de82e2",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.15559099999882164
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw40b22295/2021/HO21/set_1201_global/1201_hp/D7.2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 304778,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829177",
+          "expires": "Thu, 30 Dec 2021 05:58:28 GMT"
+        },
+        "responseBodyHash": "6f3e53138539ea942ec9236e4c6996f703200858abd8fb8274fe3d2f252d06c3",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.1752940000005765
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dwcc3be7d3/2021/HO21/set_1201_global/1201_hp/Illust_3_desktop.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 6676,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829312",
+          "expires": "Thu, 30 Dec 2021 06:00:43 GMT"
+        },
+        "responseBodyHash": "a4b74c6e3c904b97a0e5cb37361d1ecc949a09ebf1818c00751fa1ec92e70845",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.17663200000242796
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw05f28a36/2021/HO21/set_1201_global/1201_hp/D8.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 69099,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=1523790",
+          "expires": "Fri, 07 Jan 2022 06:55:21 GMT"
+        },
+        "responseBodyHash": "a7ae5f70823cb8bec4cffbf8c56f6f27a8a677bb3b2066b304549510415325ed",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.2138310000009369
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/default/dw06e384c8/2021/HO21/set_1201_global/1201_hp/D9.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 88554,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=829386",
+          "expires": "Thu, 30 Dec 2021 06:01:57 GMT"
+        },
+        "responseBodyHash": "4bd6d55701723b3a961268b4ac5f030cec50ec96662b68e4d32214cbf68851c1",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.2350250000017695
+      },
+      {
+        "url": "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&source=checkoutjs&t=xo&v=4.0.331",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 5109,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"2f38-JDMl9QCL5m4RLY99VyF7LBb/6MY\"",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "36fb889569aab047217a5f00d75452120ec9495d749fb8921e1c5f2f0bd66355",
+        "initiators": [
+          "https://www.paypalobjects.com/api/checkout.js"
+        ],
+        "time": 0.004755999998451443
+      },
+      {
+        "url": "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&comp=messages&vault=false",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 5500,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"34e8-tsor7c+0MJuhxMeFo3BGPwFdTKc\"",
+          "set-cookie": "x-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "fd52f95c248ac83fcc8cd51a460f3ce440426cff67f42f3557dbc61c1010f241",
+        "initiators": [
+          "https://www.paypal.com/sdk/js?client-id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&components=messages&commit=false"
+        ],
+        "time": 0.005665000000590226
+      },
+      {
+        "url": "https://edge.curalate.com/sites/skagen-o6gioq/experiences/custom-square-grid-1606843385366/latest/experience.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 164009,
+        "remoteIPAddress": "104.18.26.211",
+        "responseHeaders": {
+          "cache-control": "max-age=1800,s-maxage=1800",
+          "etag": "W/\"5ceb0ed2b30539d333bf1a0d8b2eb042\""
+        },
+        "responseBodyHash": "38548b869041c36d7242d5f70eb9ca7479a6096660b8e1c96afa029760e719cb",
+        "initiators": [
+          "webpack:///./src/utils/bootloaderUtils.ts?",
+          "webpack:///./src/bootloader.ts?"
+        ],
+        "time": 0.6845699999976205
+      },
+      {
+        "url": "https://5676500.fls.doubleclick.net/activityi;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://5676500.fls.doubleclick.net/activityi;dc_pre=CKHdqvza8vQCFeET0wod9J4Iuw;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.03690600000118138
+      },
+      {
+        "url": "https://5676500.fls.doubleclick.net/activityi;dc_pre=CKHdqvza8vQCFeET0wod9J4Iuw;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin",
+        "referer": "about:blank",
+        "status": 200,
+        "size": 451,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:53:52 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1739c736cf213c69098a6410e6ed968abf736fbc20a4e6f53c9812c30031167e",
+        "redirectedFrom": "https://5676500.fls.doubleclick.net/activityi;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.029963999997562496
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-VSQ1562PXC&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 62076,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:38:52 GMT"
+        },
+        "responseBodyHash": "152dd80736a89c6b81edd02bcf7f924b8ea2ec47f48470be216226160d981c76",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.025659000002633547
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.014749999998457497
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 26829,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.013136999998096144
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 10970,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=0834C0B19FC06E06007AD1A29E356FF7; domain=.bing.com; expires=Sat, 14-Jan-2023 15:38:52 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.04928999999901862
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Mon, 20 Dec 2021 15:38:52 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.02186500000243541
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TQ45R7H&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 29706,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:38:52 GMT"
+        },
+        "responseBodyHash": "bcf07bb4198461e605337be291a54f5007624f715e76b45c57aee8586cc4ebcb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.01981800000066869
+      },
+      {
+        "url": "https://universal.iperceptions.com/wrapper.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 3844,
+        "remoteIPAddress": "52.222.139.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "962d83de183651c6c15d9dce622d311455a9e6bd8cf09dd1cbf9ec3a3892a1ab",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.043345999998564366
+      },
+      {
+        "url": "https://7326845.collect.igodigital.com/collect.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 2522,
+        "remoteIPAddress": "52.86.94.111",
+        "responseHeaders": {},
+        "responseBodyHash": "4611c34378b1bbbee8890a472c6390137ce8841041a646f0bdc58cf9180eb18a",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.25680999999894993
+      },
+      {
+        "url": "https://cdn.krxd.net/controltag/vp8domozn.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 5139,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "etag": "\"517d4dfdfc11ad3a484ca5a33257984fe992cdcf\""
+        },
+        "responseBodyHash": "ae845c661d67931a0def7b1c25c61c7803944619201a6e69bd2a55ee0c51af47",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.019511999998940155
+      },
+      {
+        "url": "https://cdnssl.clicktale.net/www14/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 52811,
+        "remoteIPAddress": "23.66.22.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"349afe103fb96cc3951aa18359eac468\"",
+          "expires": "Mon, 20 Dec 2021 15:48:52 GMT"
+        },
+        "responseBodyHash": "3f6b89113014d6420918c3acefe5325b5cb8da7b4272e6b4342b4985f24f752b",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.032616000000416534
+      },
+      {
+        "url": "https://5676500.fls.doubleclick.net/activityi;register_conversion=1;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.102",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:53:52 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.026646000002074288
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.store/Sites-skagen-us-Site/en_US/EmailSignUp-GetContent?cid=email_sign_up_modal",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1565,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin",
+          "set-cookie": "__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "b6e41b110c4d18c4afef36d008715dac7ff8b96855d2f298386797e58e8068f5",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.5296779999989667
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/images/svg-icons/close-circle.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css",
+        "status": 200,
+        "size": 697,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Mon, 20 Dec 2021 19:38:52 GMT"
+        },
+        "responseBodyHash": "90e1c8f657f83a2e380cacbbf0b65c9bbf1dfa9b55da94f5228fe201525d118d",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/css/global.css"
+        ],
+        "time": 0.19670899999982794
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.store/Sites-skagen-us-Site/en_US/ChatAgent-Configs",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1553,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin",
+          "set-cookie": "__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "15801836dad543d60ca6dbe05edd0c9a9d378d59b28f796216add88f3edf97cd",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.5147839999990538
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 437,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b37c9a1011c09e4f1465f05ebc2372642eb8ca09f1b4b3042fa21a58b97e0a75",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js"
+        ],
+        "time": 0.05794199999945704
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Ageneric%3Aanalytics%3A%3Amerchant&page=muse%3Ageneric%3Aanalytics%3A%3Amerchant%3A%3A%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&fltp=analytics-generic&pt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640014732588&g=0&completeurl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&ru=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&sinfo=%7B%22partners%22%3A%7B%22ecwid%22%3A%7B%7D%2C%22bigCommerce%22%3A%7B%7D%2C%22shopify%22%3A%7B%7D%2C%22wix%22%3A%7B%7D%2C%22bigCartel%22%3A%7B%7D%7D%7D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 766,
+        "remoteIPAddress": "151.101.129.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:38:52 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734709132%26vteXpYrS%3D1640016532%26vr%3Dd87edd9917d0a8a001f3dbf3ffffffff%26vt%3Dd87edd9917d0a8a001f3dbf3fffffffe; Expires=Fri, 20 Dec 2024 15:38:52 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dd87edd9917d0a8a001f3dbf3ffffffff%26vt%3Dd87edd9917d0a8a001f3dbf3fffffffe; Expires=Fri, 20 Dec 2024 15:38:52 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&source=checkoutjs&t=xo&v=4.0.331"
+        ],
+        "time": 0.18156900000030873
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.store/Sites-skagen-us-Site/en_US/Session-SetCurrentTime",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 723,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin",
+          "set-cookie": "__cq_dnt=0; Path=/; Secure; SameSite=None\ndw_dnt=0; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1120fae682a3bae1623f2f9db9ff0ddddda144643152d45973626ed92e432fe1",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.5146329999988666
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/muse.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 16735,
+        "remoteIPAddress": "23.222.18.240",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"611e7e5f-da2c\""
+        },
+        "responseBodyHash": "129737dfffcc16554dffd7d6dd3a57b6831c96a75d8acec4ea31709555115a53",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&comp=messages&vault=false"
+        ],
+        "time": 0.06581800000276417
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Athird-party%3Aanalytics-xo%3A%3AUJ79NPES7ND2A-1&page=muse%3Athird-party%3Aanalytics-xo%3A%3AUJ79NPES7ND2A-1%3A%3A%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=36e7872b-3ce6-4cde-a282-3767c5b77475&fltp=analytics&mrid=UJ79NPES7ND2A&code=CHECKOUT_BUTTON&partner_name=CHECKOUT_BUTTON&flag_consume=yes&pt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640014732751&g=0&completeurl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 446,
+        "remoteIPAddress": "151.101.129.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:38:52 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734709132%26vteXpYrS%3D1640016532%26vr%3Dd87ede2917d0a46299b0ec95ffffffff%26vt%3Dd87ede2917d0a46299b0ec95fffffffe; Expires=Fri, 20 Dec 2024 15:38:52 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dd87ede2917d0a46299b0ec95ffffffff%26vt%3Dd87ede2917d0a46299b0ec95fffffffe; Expires=Fri, 20 Dec 2024 15:38:52 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&comp=messages&vault=false"
+        ],
+        "time": 0.1717769999995653
+      },
+      {
+        "url": "https://nova.collect.igodigital.com/c2/7326845/track_page_view?payload=%7B%22title%22%3A%22Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More%22%2C%22url%22%3A%22https%3A%2F%2Fwww.skagen.com%2Fen-us%2F%22%2C%22referrer%22%3A%22%22%2C%22user_info%22%3A%7B%22email%22%3A%22%22%2C%22details%22%3A%7B%22localeID%22%3A%22en_US%22%7D%7D%7D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 403,
+        "size": 355,
+        "remoteIPAddress": "52.86.94.111",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://7326845.collect.igodigital.com/collect.js"
+        ],
+        "time": 0.11650999999983469
+      },
+      {
+        "url": "https://edge.curalate.com/v1/media/umAYsbLSwYbtRLpk?appId=curalate&locale=en-us&limit=4&sort=Latest&fpcuid=4a0247c9-2d1e-448a-9064-4e0ed672dcea&rid=58cf37bb-628c-4ab2-9154-ebf77ac3a77d",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 3029,
+        "remoteIPAddress": "104.18.26.211",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "public, max-age=1800",
+          "expires": "Mon, 20 Dec 2021 16:08:53 GMT",
+          "set-cookie": "cuid=dc904ad5-719f-407d-a669-431ebffec161; Expires=Tue, 20 Dec 2022 15:38:53 GMT; Path=/; Domain=.curalate.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "731e57ea3d4bc34875ac21993a93239b909835f611a0734693ebb3f811d2d602",
+        "initiators": [
+          "https://edge.curalate.com/sites/skagen-o6gioq/experiences/custom-square-grid-1606843385366/latest/experience.min.js",
+          "webpack:///./src/bootloader.ts?"
+        ],
+        "time": 0.033132000000478
+      },
+      {
+        "url": "https://adservice.google.com/ddm/fls/i/dc_pre=CKHdqvza8vQCFeET0wod9J4Iuw;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://5676500.fls.doubleclick.net/",
+        "status": 200,
+        "size": 895,
+        "remoteIPAddress": "142.250.179.162",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9a93bc0f6a2ef6b4ad1bbd70913c24508884e3335debbd338a4e9ab41c2fb3f1",
+        "initiators": [
+          "https://5676500.fls.doubleclick.net/activityi;dc_pre=CKHdqvza8vQCFeET0wod9J4Iuw;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F?"
+        ],
+        "time": 0.03396900000007008
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1743777712531631?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 88928,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "9bafdef52c9c3ebad07d25c2e27f102355f49a7e8ed6dd7a042a90e2a412ec57",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.16858599999977741
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=1839855329&t=pageview&_s=1&dl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&ul=en-us&de=UTF-8&dt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAEABAAAAAC~&jid=159463986&gjid=157812186&cid=1839334353.1640014733&tid=UA-139471838-2&_gid=1892112753.1640014733&_r=1&gtm=2wgc10WSDDB4T&cd4=GTM-WSDDB4T%3A271&cd6=abzM8SCo45mYsXlfkHHlRRWMjh&cd7=false&cd15=home&cd16=skagen&cd17=us&cd27=en_US&cd38=nam&cd44=false&cd45=false&cd46=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36&cd49=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&cm4=0&cm5=0&z=498360089",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01144399999975576
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070298686/?random=1640014733100&cv=9&fst=1640014733100&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&tiba=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1811,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=; domain=.doubleclick.net; path=/; expires=Fri, 01-Aug-2008 22:45:55 GMT; SameSite=none; Secure\nIDE=AHWqTUl6gDy_gEf157qkTzL8c_qhzHgs8_6OtWcTfI7L5rSKD65CwiTb3Ixl2EzQ; expires=Sat, 14-Jan-2023 15:38:53 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6059d8d26a52c8c21923af2bfa7a80a06dac4b0b923cabe2135f4d53cf40c265",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.02995100000043749
+      },
+      {
+        "url": "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 84853,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"a1705c5ac5f06cf0c202ff70908fc042\"",
+          "expires": "Thu, 31 Jul 2031 12:06:16 GMT"
+        },
+        "responseBodyHash": "58d6350da5588a52d6baa4efc27a3362b4ee69dba3504fc762f934d7bb5d0bc4",
+        "initiators": [
+          "https://cdn.krxd.net/controltag/vp8domozn.js"
+        ],
+        "time": 0.011088999999628868
+      },
+      {
+        "url": "https://fossil-group-gtm-parent.uc.r.appspot.com/g/collect?v=2&tid=G-VSQ1562PXC&gtm=2oec10&_p=1839855329&sr=800x600&ul=en&cid=1839334353.1640014733&_fplc=0&_s=1&dl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&dt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&sid=1640014732&sct=1&seg=0&en=page_view&_fv=1&_ss=1&ep.site=skagen&ep.region=nam&ep.country=us&ep.client_container_id_and_version=GTM-WSDDB4T%3A271&ep.clicktale_uid=&ep.page_type=home&up.customer_id=abzM8SCo45mYsXlfkHHlRRWMjh&up.debug_mode=false&richsstsse",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 673,
+        "remoteIPAddress": "142.250.179.180",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "no-cache",
+          "set-cookie": "FPLC=jw029ED3JF45jUKV9BKDEIVjnT7509OsIklrVyS%2FO%2Bv1298I8ze88Ouv95Mvv9hLraKvQwt4v05eU0kh5XgRxmLTTTmV%2FFNeKs3dm1cDIgsxBWl4Kyh1PcdvnxPtpg%3D%3D; Max-Age=72000; Domain=skagen.com; Path=/; Secure\nFPID=FPID2.2.Cf5Zt5nJ9eMt2Ma3gF%2BklvuUmim44qguNXvvAiA%2BM5M%3D.1640014733; Max-Age=63072000; Domain=skagen.com; Path=/; SameSite=strict; Secure; HttpOnly"
+        },
+        "responseBodyHash": "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-VSQ1562PXC&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.14899999999761349
+      },
+      {
+        "url": "https://cdnssl.clicktale.net/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 8315,
+        "remoteIPAddress": "23.66.22.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600",
+          "etag": "\"d9b102fe9c30384fd54a2e8b49fa075a\"",
+          "expires": "Mon, 20 Dec 2021 15:48:53 GMT"
+        },
+        "responseBodyHash": "6cf0e636b826d4e4502891c8391c7db09ff87fbeb7280ea3e3d928bf161a3b13",
+        "initiators": [
+          "https://cdnssl.clicktale.net/www14/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js"
+        ],
+        "time": 0.005516999997780658
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 9459,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:53 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:53 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:53 GMT; Max-Age=31536000\nBrowserId=78y_DmGqEey2CmkQtp3Unw; domain=.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:53 GMT; Max-Age=31536000\nBrowserId_sec=78y_DmGqEey2CmkQtp3Unw; domain=.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:53 GMT; Max-Age=31536000; secure; SameSite=None"
+        },
+        "responseBodyHash": "afff91115a935910e7686546c509ab6fd037b0bd70cf980d6b4e7555c00bb915",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.4690789999986009
+      },
+      {
+        "url": "https://p.cquotient.com/pebble?tla=bcmd-skagen-us&activityType=viewPage&callback=CQuotient._act_callback0&cookieId=bcRjjhnL8SZpfZtoXvGFL6Sa5s&realm=BCMD&siteId=skagen-us&instanceType=prd&marketingCloudStoreID=7326845&referrer=&currentLocation=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&ls=true&_=1640014733304&v=v2.34.2&fbPixelId=__UNKNOWN__&json=%7B%22cookieId%22%3A%22bcRjjhnL8SZpfZtoXvGFL6Sa5s%22%2C%22realm%22%3A%22BCMD%22%2C%22siteId%22%3A%22skagen-us%22%2C%22instanceType%22%3A%22prd%22%2C%22marketingCloudStoreID%22%3A%5B%227326845%22%5D%2C%22referrer%22%3A%22%22%2C%22currentLocation%22%3A%22https%3A%2F%2Fwww.skagen.com%2Fen-us%2F%22%2C%22ls%22%3Atrue%2C%22_%22%3A1640014733304%2C%22v%22%3A%22v2.34.2%22%2C%22fbPixelId%22%3A%22__UNKNOWN__%22%7D",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 554,
+        "remoteIPAddress": "52.213.44.204",
+        "responseHeaders": {
+          "etag": "W/\"fc-X7KoTccbmGR2SDw09JZaAno/Jwc\"",
+          "set-cookie": "uuid=bcRjjhnL8SZpfZtoXvGFL6Sa5s; Max-Age=34128000; Domain=.cquotient.com; Path=/; Expires=Thu, 19 Jan 2023 15:38:53 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "11ec5c1197b2f5135334eb08ef564902f0a6402a6028a8716b9d66f54470eb39",
+        "initiators": [
+          "https://cdn.cquotient.com/js/v2/gretel.min.js"
+        ],
+        "time": 0.10299200000008568
+      },
+      {
+        "url": "https://bat.bing.com/p/action/22013978.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 133,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.02769800000169198
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=22013978&tm=gtm002&Ver=2&mid=687244be-02a6-42af-bdaf-8055b6cfc5d8&sid=ef9260c061aa11ec8bba59f18a34421c&vid=ef92aba061aa11eca4ed0977cdb96eb2&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=Skagen%20-%20Discover%20Sleek,%20Minimalist%20Watches,%20Jewelry%20%26%20More&p=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&r=&lt=1978&evt=pageLoad&msclkid=N&sv=1&rn=671013",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 150,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.023959000001923414
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=22013978&tm=gtm002&Ver=2&mid=687244be-02a6-42af-bdaf-8055b6cfc5d8&sid=ef9260c061aa11ec8bba59f18a34421c&vid=ef92aba061aa11eca4ed0977cdb96eb2&vids=0&pagetype=home&en=Y&evt=custom&msclkid=N&rn=652527",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 95,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WSDDB4T"
+        ],
+        "time": 0.026814000000740634
+      },
+      {
+        "url": "blob:https://www.skagen.com/30b66fd6-e9de-403b-b086-e6dc2b0bae5c",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "abb913acee7cb90f9cb6e66abbb6414168c46b3df970983b4b4ba1dd292e5809",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.020714999998745043
+      },
+      {
+        "url": "https://c.go-mpulse.net/api/config.json?key=6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ&d=www.skagen.com&t=5466716&v=1.720.0&sl=0&si=7eda276d-a27c-4c77-a431-73340a63dc3d-r4f7gq&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=651336",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1655,
+        "remoteIPAddress": "92.122.254.189",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300, stale-while-revalidate=60, stale-if-error=120",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a044aa89e152aafa1750c3930fe8283f02f708f816b20ec2f7503666335bcd0d",
+        "initiators": [
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.05902799999967101
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js"
+        ],
+        "time": 0.0417699999998149
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/analytics/index.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 17002,
+        "remoteIPAddress": "23.222.18.240",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "W/\"615f30da-d785\""
+        },
+        "responseBodyHash": "c0e569d3993695c0e411ee26f081e4ad040383c7e473c265fc86408bafa980f2",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&comp=messages&vault=false"
+        ],
+        "time": 0.02680999999938649
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-139471838-2&cid=1839334353.1640014733&jid=159463986&gjid=157812186&_gid=1892112753.1640014733&_u=YEBAAEAAAAAAAC~&z=1042812029",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 442,
+        "remoteIPAddress": "108.177.119.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.037178999999014195
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&aip=1&a=1839855329&t=event&ni=1&_s=2&dl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&ul=en-us&de=UTF-8&dt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=curalate.fanreel.skagen&ea=reel.impression&el=v1%3Arid%3D58cf37bb-628c-4ab2-9154-ebf77ac3a77d%26dt%3DHomepage&_u=aHBAAEABAAAAAC~&jid=&gjid=&cid=1839334353.1640014733&tid=UA-139471838-2&_gid=1892112753.1640014733&gtm=2wgc10WSDDB4T&cd4=GTM-WSDDB4T%3A271&cd6=abzM8SCo45mYsXlfkHHlRRWMjh&cd7=false&cd15=home&cd16=skagen&cd17=us&cd27=en_US&cd38=nam&cd44=false&cd45=false&cd46=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36&cd49=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&cm4=0&cm5=0&z=248868238",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.0036809999983233865
+      },
+      {
+        "url": "https://edge.curalate.com/api/v1/metrics/experience/skagen/events.png?xp=custom-homepage-custom-square-grid-1606843385366&rid=58cf37bb-628c-4ab2-9154-ebf77ac3a77d&fpcuid=4a0247c9-2d1e-448a-9064-4e0ed672dcea&e=t%3Api%7Cts%3A1640014733419%7Cdt%3AHomepage&cache=_9e56775f-aae2-41a7-ae17-bdb8681822f9",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 348,
+        "remoteIPAddress": "104.18.26.211",
+        "responseHeaders": {},
+        "responseBodyHash": "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57",
+        "initiators": [
+          "https://www.skagen.com/en-us/"
+        ],
+        "time": 0.12353999999686494
+      },
+      {
+        "url": "https://adservice.google.nl/ddm/fls/i/dc_pre=CKHdqvza8vQCFeET0wod9J4Iuw;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://adservice.google.com/",
+        "status": 200,
+        "size": 870,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:38:53 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "05978957c6c8b028f2785dc77271c286bfac76e30b7bcd7e835c2927fbe897cf",
+        "initiators": [
+          "https://adservice.google.com/ddm/fls/i/dc_pre=CKHdqvza8vQCFeET0wod9J4Iuw;src=5676500;type=skage0;cat=undefined;ord=1404147718564;gtm=2wgc10;auiddc=1209151582.1640014732;u1=undefined;u2=undefined;u3=undefined;u4=undefined;u5=undefined;u6=home;u7=www.skagen.com%2Fen-us%2F;u8=undefined;u9=undefined;ps=1;~oref=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F"
+        ],
+        "time": 0.04487400000289199
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1070298686/?random=1640014733100&cv=9&fst=1640012400000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&tiba=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&async=1&fmt=3&is_vtc=1&random=2424984500&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070298686/?random=1640014733100&cv=9&fst=1640014733100&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&tiba=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.032594000000244705
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1070298686/?random=1640014733100&cv=9&fst=1640012400000&num=1&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&tiba=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&async=1&fmt=3&is_vtc=1&random=2424984500&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1070298686/?random=1640014733100&cv=9&fst=1640014733100&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&tiba=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.04061999999976251
+      },
+      {
+        "url": "https://cdnssl.clicktale.net/pcc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js?DeploymentConfigName=Release_20211027&Version=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 17706,
+        "remoteIPAddress": "23.66.22.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "\"22e4ae95c630b37b949083de777f618d\"",
+          "expires": "Tue, 20 Dec 2022 15:38:53 GMT"
+        },
+        "responseBodyHash": "cdf06a0e207400fad6073694a3b89450330e8f905097b8ecdbdbbf68c3cde744",
+        "initiators": [
+          "https://cdnssl.clicktale.net/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js"
+        ],
+        "time": 0.010897000000113621
+      },
+      {
+        "url": "https://cdnssl.clicktale.net/www/latest-WR110.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 17047,
+        "remoteIPAddress": "23.66.22.252",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"b6871fe481a03fe28ed1b21d4f4a5c78\"",
+          "expires": "Tue, 21 Dec 2021 15:38:53 GMT"
+        },
+        "responseBodyHash": "ef407a53748bd41172cd96a7c2ff92bf591efcc8efa37943c8f65c1845369c4a",
+        "initiators": [
+          "https://cdnssl.clicktale.net/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js"
+        ],
+        "time": 0.00879700000223238
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1743777712531631&ev=PageView&dl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&rl=&if=false&ts=1640014733590&cd[eventID]=PageView&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=29&fbp=fb.1.1640014733587.791998111&it=1640014733039&coo=false&tm=1&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:38:53 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1743777712531631?v=2.9.48&r=stable"
+        ],
+        "time": 0.015899000001809327
+      },
+      {
+        "url": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 826,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"3d2100fd7107262ecb55ce6847f01fa5\"",
+          "expires": "Fri, 19 Feb 2027 17:50:50 GMT",
+          "p3p": "policyref=\"https://cdn.krxd.net/kruxcontent/p3p.xml\", CP=\"NON DSP COR NID OUR DEL SAM OTR UNR COM NAV INT DEM CNT STA PRE LOC OTC\""
+        },
+        "responseBodyHash": "3bcfa04dbc2db44af54bd72a0f7b98912368f16f525729a1b9b673f62ca7e5c9",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://cdn.krxd.net/controltag/vp8domozn.js"
+        ],
+        "time": 0.005544999999983702
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-139471838-2&cid=1839334353.1640014733&jid=159463986&_u=YEBAAEAAAAAAAC~&z=447371612",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03672799999912968
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-139471838-2&cid=1839334353.1640014733&jid=159463986&_u=YEBAAEAAAAAAAC~&z=447371612",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 63,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03253299999778392
+      },
+      {
+        "url": "https://consumer.krxd.net/consent/get/3c7b3998-a4be-4985-b56f-fcb48a18c872?idt=device&dt=kxcookie&callback=Krux.ns.skagenamer.kxjsonp_consent_get_0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 429,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=1800"
+        },
+        "responseBodyHash": "ceb056cedbbbbe724a9fa932240f98e975c8985c83ee92af348abc808e6e9642",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://cdn.krxd.net/controltag/vp8domozn.js"
+        ],
+        "time": 0.032993000000715256
+      },
+      {
+        "url": "https://cdn.krxd.net/controltag/vp8domozn.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "etag": "\"517d4dfdfc11ad3a484ca5a33257984fe992cdcf\""
+        },
+        "responseBodyHash": "ae845c661d67931a0def7b1c25c61c7803944619201a6e69bd2a55ee0c51af47",
+        "initiators": [
+          "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html"
+        ],
+        "time": 0.0033610000027692877
+      },
+      {
+        "url": "https://www.paypalobjects.com/muse/noop.js",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.paypalobjects.com/muse/analytics/index.html",
+        "status": 200,
+        "size": 352,
+        "remoteIPAddress": "23.222.18.240",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"60271cd0-12\"",
+          "expires": "Mon, 20 Dec 2021 15:38:54 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0739b17b1053de387d55795753300a79626787634f8c909277efff94d0e3f154",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.20018999999956577
+      },
+      {
+        "url": "https://ing-district.clicktale.net/ctn_v2/auth/?pid=25454&as=1&1427651194&subsid=232898&msgsize=120",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 413,
+        "remoteIPAddress": "3.95.48.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com"
+        },
+        "responseBodyHash": "870f244b98a84f1bcce2c203f8ffa38625ef5cc619e88faa12bcc9ab647c9af5",
+        "initiators": [
+          "https://cdnssl.clicktale.net/www/latest-WR110.js",
+          "https://cdnssl.clicktale.net/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js"
+        ],
+        "time": 0.2697989999978745
+      },
+      {
+        "url": "https://c.clicktale.net/pageview?pid=2499&uu=d4ecdecc-337c-aaa4-d2e6-c2d3e90c8040&sn=1&lv=1640014733&lhd=1640014733&hd=1640014733&pn=1&re=1&dw=1440&dh=11445&ww=1440&wh=812&sw=800&sh=600&dr=&url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&uc=1&la=en-US&v=11.6.3&r=014669",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 320,
+        "remoteIPAddress": "34.251.34.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Sun, 24 Oct 1982 23:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdnssl.clicktale.net/www14/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js",
+          "https://cdnssl.clicktale.net/www/latest-WR110.js",
+          "https://cdnssl.clicktale.net/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js"
+        ],
+        "time": 0.06968899999992573
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Aoffer%3A%3A%3AUJ79NPES7ND2A-1&page=muse%3Aoffer%3A%3A%3AUJ79NPES7ND2A-1%3A%3AvisitorInfoFlowStarted%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=36e7872b-3ce6-4cde-a282-3767c5b77475&es=visitorInfoFlowStarted&mrid=UJ79NPES7ND2A&code=CHECKOUT_BUTTON&partner_name=CHECKOUT_BUTTON&pt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640014733879&g=0&completeurl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 490,
+        "remoteIPAddress": "151.101.129.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:38:53 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734709133%26vteXpYrS%3D1640016533%26vr%3Dd87ede2917d0a46299b0ec95ffffffff%26vt%3Dd87ede2917d0a46299b0ec95fffffffe; Expires=Fri, 20 Dec 2024 15:38:53 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dd87ede2917d0a46299b0ec95ffffffff%26vt%3Dd87ede2917d0a46299b0ec95fffffffe; Expires=Fri, 20 Dec 2024 15:38:53 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&comp=messages&vault=false",
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.19451999999728287
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/common.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 2187,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "a743cabdf56f0bec67d35ef5435b030a7ef10a02f41153403fbc77c79724ade5",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.21127699999851757
+      },
+      {
+        "url": "https://c.clicktale.net/pageEvent?value=MIewdgZglg5gXAAgEoFMA2KCGBnFB9AJgAYCBGUkgdiAAA%3D%3D&isETR=false&isCustomHashId=false&v=11.6.3&pid=2499&uu=d4ecdecc-337c-aaa4-d2e6-c2d3e90c8040&sn=1&pn=1&r=510440",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 319,
+        "remoteIPAddress": "34.251.34.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Sun, 24 Oct 1982 23:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdnssl.clicktale.net/www14/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://cdnssl.clicktale.net/www/latest-WR110.js",
+          "https://cdnssl.clicktale.net/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js"
+        ],
+        "time": 0.044797999998991145
+      },
+      {
+        "url": "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "\"a1705c5ac5f06cf0c202ff70908fc042\"",
+          "expires": "Thu, 31 Jul 2031 12:06:16 GMT"
+        },
+        "responseBodyHash": "58d6350da5588a52d6baa4efc27a3362b4ee69dba3504fc762f934d7bb5d0bc4",
+        "initiators": [
+          "https://cdn.krxd.net/controltag/vp8domozn.js"
+        ],
+        "time": 0.007937999998830492
+      },
+      {
+        "url": "https://consumer.krxd.net/consent/get/3c7b3998-a4be-4985-b56f-fcb48a18c872?idt=device&dt=kxcookie&callback=Krux.ns.skagenamer.kxjsonp_consent_get_0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://cdn.krxd.net/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=1800"
+        },
+        "responseBodyHash": "ceb056cedbbbbe724a9fa932240f98e975c8985c83ee92af348abc808e6e9642",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://cdn.krxd.net/controltag/vp8domozn.js"
+        ],
+        "time": 0.0020709999989776406
+      },
+      {
+        "url": "https://www.paypal.com/targeting/graphql",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.paypalobjects.com/",
+        "status": 200,
+        "size": 2199,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypalobjects.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"1b3-62yWx3LlYmxx7IGzBZgbwtd41Hs\"",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Tue, 21 Dec 2021 00:24:50 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Tue, 20 Dec 2022 15:38:54 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDAxNDczNDM5NSIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=targetingnodeweb; Domain=.paypal.com; Path=/; Expires=Thu, 23 Dec 2021 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nnsid=s%3AvpxMa33k512qv9SaRb7kk0w1FSV22Wbm.UbwZ7SV80A7TFnJs6QNE%2BBcVh6f8KCcMSwKiqytYqaE; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg02.phx; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 16:08:54 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734709134%26vteXpYrS%3D1640016534%26vr%3Dd87ede2917d0a46299b0ec95ffffffff%26vt%3Dd87ede2917d0a46299b0ec95fffffffe%26vtyp%3D; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd87ede2917d0a46299b0ec95ffffffff%26vt%3Dd87ede2917d0a46299b0ec95fffffffe; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9da372b292f5d01d6c2c09ebb2479dad2afd0b5d14b8220201ab5be384248abd",
+        "initiators": [
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.4440649999996822
+      },
+      {
+        "url": "https://www.paypal.com/targeting/graphql",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.paypalobjects.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Tue, 21 Dec 2021 00:24:50 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=ccpa; Max-Age=31536000; Domain=.paypal.com; Path=/; Expires=Tue, 20 Dec 2022 15:38:54 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDAxNDczNDEzNyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\nnsid=s%3AqFhSej3KoOrM_6yVx061AuYwp1zyTTBW.EwZJFG5qw3vX72LT6EuOlkZnfpQkRgPtz5%2FcfhwuQrY; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg15.slc; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 16:08:54 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734709134%26vteXpYrS%3D1640016534%26vr%3Dd87ee32b17d0ad045c06d534f6b03b30%26vt%3Dd87ee32b17d0ad045c06d534f6b03b2f%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd87ee32b17d0ad045c06d534f6b03b30%26vt%3Dd87ee32b17d0ad045c06d534f6b03b2f; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/targeting/graphql"
+        ],
+        "time": 0.17535700000007637
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 4823,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "721f2d2fe18f13edc2ae51c1918c1b0a2d7b668318c559310ab35fa22363fdad",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.08734800000092946
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 6571,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "a1186fc137bb42d3bcaace62718d533a37817301f66c2733edd02bc350c077ae",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.17289900000105263
+      },
+      {
+        "url": "https://universal.iperceptions.com/iFrame.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1399,
+        "remoteIPAddress": "52.222.139.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=7200"
+        },
+        "responseBodyHash": "7d0bae598799d3c42ca5d7d7c8a8b79b67de62afe2e9d3dcee258328e40f39eb",
+        "initiators": [
+          "https://universal.iperceptions.com/wrapper.js"
+        ],
+        "time": 0.007874999999330612
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "01f5a67caa33661cd1698afb1a912b91d9eddc962c2d78307b3b32a5453214e4",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.08847799999784911
+      },
+      {
+        "url": "https://beacon.krxd.net/optout_check?callback=Krux.ns.skagenamer.kxjsonp_optOutCheck",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 243,
+        "remoteIPAddress": "52.209.141.115",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, s-max-age=0"
+        },
+        "responseBodyHash": "15e740299ad28189cb8ff30d2520aa2c2dcc3c3da668924fb8c6ae6d650abacd",
+        "initiators": [
+          "https://cdn.krxd.net/ctjs/controltag.js.a1705c5ac5f06cf0c202ff70908fc042",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://cdn.krxd.net/controltag/vp8domozn.js"
+        ],
+        "time": 0.06554599999799393
+      },
+      {
+        "url": "https://c.clicktale.net/pageEvent?value=EwDgjGwAxgbEAA%3D%3D&isETR=false&isCustomHashId=false&v=11.6.3&pid=2499&uu=d4ecdecc-337c-aaa4-d2e6-c2d3e90c8040&sn=1&pn=1&r=855860",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 319,
+        "remoteIPAddress": "34.251.34.100",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "expires": "Sun, 24 Oct 1982 23:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdnssl.clicktale.net/www14/ptc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js",
+          "https://cdnssl.clicktale.net/www/latest-WR110.js",
+          "https://cdnssl.clicktale.net/pcc/d25ea77f-2d38-4796-bfb4-93027c8e5907.js?DeploymentConfigName=Release_20211027&Version=4",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.020421000001078937
+      },
+      {
+        "url": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 1224,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "W/\"33d-OolJ+eZP8sgIGL1fdsUBFLWctOw\"",
+          "set-cookie": "tsrce=loggernodeweb; Domain=.paypal.com; Path=/; Expires=Thu, 23 Dec 2021 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg01.phx; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 16:08:54 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734709134%26vteXpYrS%3D1640016534%26vr%3Dd87ee56a17d0a7a068df5e97f7d07b17%26vt%3Dd87ee56a17d0a7a068df5e97f7d07b16%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd87ee56a17d0a7a068df5e97f7d07b17%26vt%3Dd87ee56a17d0a7a068df5e97f7d07b16; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "2e203b3750e7602aad2dbc152513894023b6e6839fb74505819b0259624c3426",
+        "initiators": [
+          "https://www.paypal.com/sdk/js?client-id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&components=messages&commit=false",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.3721320000004198
+      },
+      {
+        "url": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "tsrce=loggernodeweb; Domain=.paypal.com; Path=/; Expires=Thu, 23 Dec 2021 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg13.slc; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 16:08:54 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734709134%26vteXpYrS%3D1640016534%26vr%3Dd87ee4b017d0a271308e9b6ef5cb4e5a%26vt%3Dd87ee4b017d0a271308e9b6ef5cb4e59%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd87ee4b017d0a271308e9b6ef5cb4e5a%26vt%3Dd87ee4b017d0a271308e9b6ef5cb4e59; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:38:54 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/xoplatform/logger/api/logger"
+        ],
+        "time": 0.1908709999988787
+      },
+      {
+        "url": "https://684dd32d.akstat.io/",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 355,
+        "remoteIPAddress": "23.222.18.199",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:38:54 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.07354399999894667
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/",
+        "status": 200,
+        "size": 2616,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "5b17ce347efa0486b6770c9c170cccd5a5f75018bceb99048daddbe1c6fa0be9",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/"
+        ],
+        "time": 0.08757499999774154
+      },
+      {
+        "url": "https://t.paypal.com/ts?pgrp=muse%3Aoffer%3A%3A%3AUJ79NPES7ND2A-1&page=muse%3Aoffer%3A%3A%3AUJ79NPES7ND2A-1%3A%3AvisitorInfo%3A&tsrce=tagmanagernodeweb&comp=tagmanagernodeweb&sub_component=analytics&s=ci&item=36e7872b-3ce6-4cde-a282-3767c5b77475&es=visitorInfo&mrid=UJ79NPES7ND2A&code=CHECKOUT_BUTTON&partner_name=CHECKOUT_BUTTON&pt=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&dh=600&dw=800&bh=812&bw=1440&cd=24&sh=600&sw=800&v=NA&rosetta_language=en-US&e=im&t=1640014734489&g=0&completeurl=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "151.101.129.35",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:38:54 GMT",
+          "p3p": "policyref=\"https://t.paypal.com/w3c/p3p.xml\",CP=\"CAO IND OUR SAM UNI STA COR COM\"",
+          "pragma": "no-cache",
+          "set-cookie": "ts=vreXpYrS%3D1734709134%26vteXpYrS%3D1640016534%26vr%3Dd87ee4f017d0a89941b324efffffffff%26vt%3Dd87ee4f017d0a89941b324effffffffe; Expires=Fri, 20 Dec 2024 15:38:54 GMT; Domain=.paypal.com; Path=/; Secure; HttpOnly; SameSite=None\nts_c=vr%3Dd87ee4f017d0a89941b324efffffffff%26vt%3Dd87ee4f017d0a89941b324effffffffe; Expires=Fri, 20 Dec 2024 15:38:54 GMT; Domain=.paypal.com; Path=/; Secure; SameSite=None\nx-cdn=0030; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b",
+        "initiators": [
+          "https://www.paypal.com/tagmanager/pptm.js?id=www.skagen.com&t=xo&v=5.0.271&source=payments_sdk&client_id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&comp=messages&vault=false",
+          "https://www.paypalobjects.com/muse/muse.js",
+          "https://www.paypalobjects.com/muse/analytics/index.html"
+        ],
+        "time": 0.16098499999861815
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/session.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/",
+        "status": 200,
+        "size": 1580,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "fa305b054bf6a60bd1a87abbca8f52553bbb54e6e8929564c704b85313d23790",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js"
+        ],
+        "time": 0.08819999999832362
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/broadcast.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/",
+        "status": 200,
+        "size": 1591,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "ecb244f676677252c58d2eccb58f1b0b87b5dd6baab45d29d46dba74c823b7f2",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js"
+        ],
+        "time": 0.09836299999733455
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/chasitor.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/",
+        "status": 200,
+        "size": 5829,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "dc1ec9e02f7fd28a008997a1e9ef0360dba6866fe21e7553cee19ad23c41901e",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.0992340000011609
+      },
+      {
+        "url": "https://d.la1-c2-ia5.salesforceliveagent.com/chat/rest/EmbeddedService/EmbeddedServiceConfig.jsonp?Settings.prefix=EmbeddedService&org_id=00D6g000008LGWF&EmbeddedServiceConfig.configName=E_Comm_Chat_Team&callback=embedded_svc.liveAgentAPI.handleChatSettings&version=48&EmbeddedServiceConfig.language=en_US",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 557,
+        "remoteIPAddress": "13.110.67.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "X-Salesforce-CHAT=!Bpxya5wRH8/iZOxjQaVpK6TpM9g8qUrz9NsZK9edk+hp/vn8itTzrdsunNpAbKzQLtkXlypf/8XE4ks=; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": "cbaa9a5a40a87941fe82a196ffc3cd4d1acd804b1dfbb704cbecbf0905363366",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/common.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.44604099999924074
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/invite.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 5290,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "98efd9f1b80ef8fb38694de1212745a8067a60f027cb87b08f4ed8920a72aa82",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/common.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.10665199999857577
+      },
+      {
+        "url": "https://api.iperceptions.com/InviteTriggers",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.138.200.61",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.iperceptions.com/InviteTriggers"
+        ],
+        "time": 0.08132599999953527
+      },
+      {
+        "url": "https://api.iperceptions.com/InviteTriggers",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 305,
+        "remoteIPAddress": "52.138.200.61",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "983cfea9ecee7e34efbf35e614ff77cd7812fad7bd13a4f5e6824d6a5333836a",
+        "initiators": [
+          "https://universal.iperceptions.com/wrapper.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.10301500000059605
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/filetransfer.esw.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin-when-cross-origin",
+        "referer": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.html?parent=https://www.skagen.com/en-us/",
+        "status": 200,
+        "size": 1042,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "34172e3b2c0f93498a2730933bc90740b38178cf10bd81b3164289d0445644a9",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/chasitor.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.09885099999883096
+      },
+      {
+        "url": "https://d.la1-c2-ia5.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?Settings.prefix=Visitor&Settings.buttonIds=[5736g000000kBcA]&Settings.updateBreadcrumb=1&callback=embedded_svc.liveAgentAPI.connection.handlePing&deployment_id=5726g000000kBbb&org_id=00D6g000008LGWF&version=48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 558,
+        "remoteIPAddress": "13.110.67.55",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "X-Salesforce-CHAT=!tcLIzlw56E3aKt5jQaVpK6TpM9g8qXa7zK0WXyx52n81lUX6YWLxnx0pEYqTOuRgCLhzBhwmjLeMNQ8=; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": "5917692af10d53a4fd6e5d25d15072486a6c95348cff677586fcb99b806c4fd6",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/common.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.3411309999974037
+      },
+      {
+        "url": "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/inert.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 3281,
+        "remoteIPAddress": "13.110.57.80",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:38:54 GMT",
+          "referrer-policy": "origin-when-cross-origin",
+          "set-cookie": "CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000\nLSKey-c$CookieConsentPolicy=0:1; domain=fossil2020.my.salesforce.com; path=/; expires=Tue, 20-Dec-2022 15:38:54 GMT; Max-Age=31536000"
+        },
+        "responseBodyHash": "12834f596f899e7e17cc2a4a76a1ee77ea0f1ebbfb61e8a33dafe426327c71a3",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/common.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/frame/session.esw.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/eswFrame.min.js",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/js/main.js"
+        ],
+        "time": 0.092279000000417
+      },
+      {
+        "url": "https://universal.iperceptions.com/core/IpEngine_v78.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 4417,
+        "remoteIPAddress": "52.222.139.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "70dc97a60ab824c4b4f362341733bde439ac6bd7534d2b5b193fbd37d9413ea6",
+        "initiators": [
+          "https://universal.iperceptions.com/wrapper.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.007137000000511762
+      },
+      {
+        "url": "https://sd.iperceptions.com/ius-359cd6b861125d638f6cea04ffb14739/34224_637745791988048742",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 3836,
+        "remoteIPAddress": "65.9.83.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "x-ms-blob-cache-control: public, max-age=900",
+          "etag": "0x8D9BA6B3CA5FCD0"
+        },
+        "responseBodyHash": "d27da900ca05b8a65dd659757c56f46caf76ad2bc00cd183b97794d28d0582f3",
+        "initiators": [
+          "https://universal.iperceptions.com/wrapper.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.03789400000096066
+      },
+      {
+        "url": "https://sd.iperceptions.com/ius-359cd6b861125d638f6cea04ffb14739/125090_637389080261057174",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 6565,
+        "remoteIPAddress": "65.9.83.79",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "x-ms-blob-cache-control: public, max-age=900",
+          "etag": "0x8D875FDD0BE4DA4"
+        },
+        "responseBodyHash": "92d11b4769387b3d2a838142bd7b596fedc1f0573eca5af2befd51511b216cd7",
+        "initiators": [
+          "https://universal.iperceptions.com/wrapper.js",
+          "https://universal.iperceptions.com/core/IpEngine_v78.0.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.04939300000114599
+      },
+      {
+        "url": "https://www.skagen.com/on/demandware.store/Sites-skagen-us-Site/en_US/__Analytics-Start?url=https%3A%2F%2Fwww.skagen.com%2Fen-us%2F&res=800x600&cookie=1&ref=&title=Skagen%20-%20Discover%20Sleek%2C%20Minimalist%20Watches%2C%20Jewelry%20%26%20More&pdf=0&qt=0&realp=0&wma=0&dir=0&fla=0&java=0&gears=0&ag=0&dwac=0.12576172978898104&cmpn=&tz=US/Central&pcc=USD&pct=&pcat=&dw_dnt=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 411,
+        "remoteIPAddress": "23.2.220.144",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/internal/jscript/dwanalytics-21.9.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://www.skagen.com/on/demandware.static/Sites-skagen-us-Site/-/en_US/v1639983246472/internal/jscript/dwac-21.7.js"
+        ],
+        "time": 0.4939220000014757
+      },
+      {
+        "url": "https://d.la2-c2-ia4.salesforceliveagent.com/chat/rest/EmbeddedService/EmbeddedServiceConfig.jsonp?Settings.prefix=EmbeddedService&org_id=00D6g000008LGWF&EmbeddedServiceConfig.configName=E_Comm_Chat_Team&callback=embedded_svc.liveAgentAPI.handleChatSettings&version=48&EmbeddedServiceConfig.language=en_US",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 4547,
+        "remoteIPAddress": "13.110.58.112",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "X-Salesforce-CHAT=!xowtaaQ8INdXIn1y9ack2a9GvwqR0d4MAfabkFHQ4ylegTzwcWkkOcfYRN8C2tskBnWV28DT3aSshg==; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": "7ce3f9091b3fa717b29cd946f0ae81d17f6e57beb7580853cd10e2824c18bb18",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/utils/common.min.js",
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://d.la1-c2-ia5.salesforceliveagent.com/chat/rest/EmbeddedService/EmbeddedServiceConfig.jsonp?Settings.prefix=EmbeddedService&org_id=00D6g000008LGWF&EmbeddedServiceConfig.configName=E_Comm_Chat_Team&callback=embedded_svc.liveAgentAPI.handleChatSettings&version=48&EmbeddedServiceConfig.language=en_US"
+        ],
+        "time": 0.44685300000128336
+      },
+      {
+        "url": "https://d.la2-c2-ia4.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?Settings.prefix=Visitor&Settings.buttonIds=[5736g000000kBcA]&Settings.updateBreadcrumb=1&callback=embedded_svc.liveAgentAPI.connection.handlePing&deployment_id=5726g000000kBbb&org_id=00D6g000008LGWF&version=48",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 677,
+        "remoteIPAddress": "13.110.58.112",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "X-Salesforce-CHAT=!9NwwHEC3F2xYtpRy9ack2a9GvwqR0QWoULU0HNgMelb3+cwo8ZImIH2SXP6JBvmiAIE1jsMdrl9Ykg==; path=/; Httponly; Secure"
+        },
+        "responseBodyHash": "04bce7512948d34632c63543573c994ca068b746a213b3bd7f283cec7a805095",
+        "initiators": [
+          "https://fossil2020.my.salesforce.com/embeddedservice/5.0/client/liveagent.esw.min.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ",
+          "https://d.la1-c2-ia5.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?Settings.prefix=Visitor&Settings.buttonIds=[5736g000000kBcA]&Settings.updateBreadcrumb=1&callback=embedded_svc.liveAgentAPI.connection.handlePing&deployment_id=5726g000000kBbb&org_id=00D6g000008LGWF&version=48"
+        ],
+        "time": 0.4545509999989008
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 437,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b6345d0bd8cfd8e5bb3eca344c9cf7a0c6db3054d5465c3c3aafb159a48d7861",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.03232199999911245
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.03383200000098441
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.0330309999990277
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.0591999999996915
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.2632660000017495
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.035579999999754364
+      },
+      {
+        "url": "https://www.paypal.com/credit-presentment/log",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 204,
+        "size": 927,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Tue, 21 Dec 2021 00:24:58 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDAxNDc0MjEyMyIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=crcpresentmentnodeweb; Domain=.paypal.com; Path=/; Expires=Thu, 23 Dec 2021 15:39:02 GMT; HttpOnly; Secure; SameSite=None\nl7_az=dcg02.phx; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 16:09:02 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734709142%26vteXpYrS%3D1640016542%26vr%3Dd87ee4f017d0a89941b324efffffffff%26vt%3Dd87ee4f017d0a89941b324effffffffe%26vtyp%3D; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:39:02 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd87ee4f017d0a89941b324efffffffff%26vt%3Dd87ee4f017d0a89941b324effffffffe; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:39:02 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.paypal.com/sdk/js?client-id=AZstBThQRU60A06nTysGCOZGkJ53Ya1xar1oF9Jg6Kv_zxyDHBmiNp5_fe7iWXpKawcy2-1wejlef-FV&components=messages&commit=false",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.40226199999960954
+      },
+      {
+        "url": "https://www.paypal.com/credit-presentment/log",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "151.101.65.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "set-cookie": "LANG=en_US%3BUS; Max-Age=31556; Domain=.paypal.com; Path=/; Expires=Tue, 21 Dec 2021 00:24:57 GMT; HttpOnly; Secure; SameSite=None\nenforce_policy=; Domain=.paypal.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; SameSite=None\nx-pp-s=eyJ0IjoiMTY0MDAxNDc0MTkxNCIsImwiOiIwIiwibSI6IjAifQ; Domain=.paypal.com; Path=/; HttpOnly; Secure; SameSite=None\ntsrce=crcpresentmentnodeweb; Domain=.paypal.com; Path=/; Expires=Thu, 23 Dec 2021 15:39:01 GMT; HttpOnly; Secure; SameSite=None\nnsid=s%3AkWybErGv9YEps2IZpM6Y2_0rDVP1kslv.ORTjFuCZF1BGBFQaynGJLaaay09M5MjgRUfhCPTnrsc; Path=/; HttpOnly; Secure; SameSite=None\nl7_az=dcg01.phx; Path=/; Domain=paypal.com; Expires=Mon, 20 Dec 2021 16:09:01 GMT; HttpOnly; Secure; SameSite=None\nts=vreXpYrS%3D1734709141%26vteXpYrS%3D1640016541%26vr%3Dd87f018c17d0a1f1ca29596bf5d75bcd%26vt%3Dd87f018c17d0a1f1ca29596bf5d75bcc%26vtyp%3Dnew; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:39:01 GMT; HttpOnly; Secure; SameSite=None\nts_c=vr%3Dd87f018c17d0a1f1ca29596bf5d75bcd%26vt%3Dd87f018c17d0a1f1ca29596bf5d75bcc; Path=/; Domain=paypal.com; Expires=Thu, 19 Dec 2024 15:39:01 GMT; Secure; SameSite=None\nx-cdn=0003; Domain=paypal.com; Path=/; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://www.paypal.com/credit-presentment/log"
+        ],
+        "time": 0.19659099999989849
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.035020999999687774
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.028494999998656567
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.02890300000217394
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.1272370000006049
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.043627999999444
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.06133699999918463
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.045090999999956694
+      },
+      {
+        "url": "https://collector-pxpk2hhs0y.px-cloud.net/api/v2/collector",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin",
+        "referer": "https://www.skagen.com/",
+        "status": 200,
+        "size": 35,
+        "remoteIPAddress": "35.186.220.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.skagen.com",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1066c86165eb47cacbc55a34aa66bae28955f7deed5926249030f98b70af8031",
+        "initiators": [
+          "https://www.skagen.com/on/demandware.static/-/Library-Sites-SkagenSharedLibrary/en_US/v1639983246472/init.js",
+          "https://s2.go-mpulse.net/boomerang/6YVNP-D5G46-ZJSZL-3BEUU-B8GSQ"
+        ],
+        "time": 0.03422600000340026
+      }
+    ]
+  }
+}

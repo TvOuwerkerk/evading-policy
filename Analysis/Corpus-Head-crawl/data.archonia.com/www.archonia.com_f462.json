@@ -1,0 +1,560 @@
+{
+  "initialUrl": "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc",
+  "finalUrl": "https://www.archonia.com/en-us/search?q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&sort=inserted_timestamp_desc",
+  "timeout": false,
+  "testStarted": 1640103549036,
+  "testFinished": 1640103565023,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.archonia.com/links.www.archonia.com_f462.json",
+    "requests": [
+      {
+        "url": "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 17651,
+        "remoteIPAddress": "18.184.174.231",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "archonia_com_shop=ja3ppcc56eppdoah37to52pin0; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "0c9b64f823309b0011acfb43f6f0fe89c18e82074c8576a67e564305b8e05eb7",
+        "initiators": [],
+        "time": 0.4701889999996638
+      },
+      {
+        "url": "https://cdn.archonia.com/shop/theme/2021/css/shop.min.eb786042.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 28842,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"eb78604246c897cb97df41491d982b7e\""
+        },
+        "responseBodyHash": "9ab12524695a17bcc5f16cc039fbfc2b44bfd85fca9415f1841a55ba527a14a7",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.06944300000031944
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 7644,
+        "remoteIPAddress": "104.18.10.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.043147999997017905
+      },
+      {
+        "url": "https://cdn.archonia.com/shop/test-home/misc/archonia-no-cats-transparant_short6.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 8724,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "etag": "\"889c8c736289d3c4dfd1c003b523e6ff\""
+        },
+        "responseBodyHash": "7f6c99cd55a4da5658d73dbe4988594cc8ec1cff343b678bdba0911c9ad16ed2",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.04892400000244379
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086112-1-1-primary1/eminence-in-shadow-vol-04-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 26978,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"146b2b428fe3441ab8319af8e8795cdf\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1862a208fcd564b276edcd50bb3807105f37868a80b16837ad6f4fb48782d5df",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.04311199999938253
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086106-1-1-primary1/baccano-vol-19-light-novel-hc.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 27003,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"042c392ac9953cd083a3405c3a72f78c\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "3132900569309617fb25b23badd12ae6aacc48847c29d742974eb0204d3890dd",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.05387499999778811
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086104-1-1-primary1/your-forma-vol-01-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 25581,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"a41a3ec364bd1a630ddcbaa91ee5d9ab\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "0aea6d175f1cedf2e347569d6df6bfc9829a72ca113c71dd8d55784f0cf9f40a",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.05287800000223797
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086102-1-1-primary1/wandering-witch-the-journey-of-elaina-vol-08-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 20116,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"fc48d977ec62ba044ecd508a9cb8fb4c\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "2b9368137d75c3a9f4a3a9726f279c6058e6824d21bed7bec3a1c41202415fab",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.0605409999989206
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086100-1-1-primary1/the-genius-princes-guide-to-raising-a-nation-out-of-debt-hey-how-about-treason-vol-09-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 29603,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"78efd62715dc9990b41d9b0296d93925\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "ce436ae9ee6ef645be84492b99ad26ce36bd751198f14caaf0bd4aeb9255c7d3",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.054027999998652376
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086098-2-1-primary1/sword-art-online-progressive-vol-07-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 27928,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"389ec7157f4c1acb7b59b51fa9336b85\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "d44f62ce85fd035ee7a7cb71cf6a0372c6f1d0f90c2556301c677e46b95be8bf",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.06678400000964757
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086096-1-1-primary1/spy-classroom-vol-03-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 19116,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"1ab7abbf4034ae68dbea4a23a4948748\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "a3cec5b848cd0d06aefd7fc4de622107bf05c538e89907de25ee7f2e2271ae1a",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.06687999999849126
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086094-2-1-primary1/sasaki-and-pichan-vol-01-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 28372,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"87c5cd083449a1e8f94d2ae486bdeb6d\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "51666121992dce80b4c4cb7086ecf2ef02f9b074daff65d4e863ccfbc4070cc7",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.06707800000731368
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086092-1-1-primary1/no-game-no-life-vol-11-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 30596,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"9006f3790e67d9ff75a04dd767bacd22\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "bbbd97f4bc147bdda2a0c5e6c92ab95d6826175793e13ae0812cb474654bae68",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.06951999999000691
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086090-1-1-primary1/my-happy-marriage-vol-02-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 24630,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"7ab9d22ee939815597d68c4c36de432a\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "61603da77380ae338bca3aba2a0a18ed8df0ac44e05ff7a30a8b2a410fe7e4b2",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.06991500000003725
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086088-1-1-primary1/magical-girl-raising-project-vol-13-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 28469,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"7e537eabcefe3c1890d1ada175e3fe88\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "af6bfcf9daa7ffba40cc62e12dfb0e605d0a735e87e4c06a75df55f098e0bfd3",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.07140899999649264
+      },
+      {
+        "url": "https://cdn.archonia.com/images/1-104086084-1-1-primary1/ive-been-killing-slimes-for-300-years-vol-12-light-novel.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 27410,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "\"e139da0decfb79b392f3cc9d3bbb0898\"",
+          "expires": "Fri, 09 Dec 2022 17:06:39 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "557782faf59b3b2d03aa86950cec1d9ba84a67a1a2db33ef1a5dfd9c730bc866",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.07205000000249129
+      },
+      {
+        "url": "https://cdn.archonia.com/shop/theme/2021/js/shop.min.d63736de.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 73609,
+        "remoteIPAddress": "13.227.219.17",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"d63736deb034c88e82df91e83828e74d\""
+        },
+        "responseBodyHash": "f9f7a382628dda4b301cc0039c680ffe99be19754b1a9393dcea526f0380255e",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.032080999997560866
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/iubenda_cs.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 494,
+        "remoteIPAddress": "23.0.213.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=10800",
+          "etag": "\"61c1f516-f0\"",
+          "expires": "Tue, 21 Dec 2021 19:19:09 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "4cff43223d00d1c834631d1b56edd58c52ecb577dcd0bce3faa3ab5336f907cf",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.035308000005898066
+      },
+      {
+        "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "status": 200,
+        "size": 77907,
+        "remoteIPAddress": "104.18.10.207",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31919000",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc",
+        "initiators": [
+          "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        ],
+        "time": 0.16345699998782948
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 21 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.archonia.com/en-us/search?qf%5B0%5D=8&qf%5B1%5D=21&qf%5B2%5D=3009&q-availability%5B0%5D=2&q-availability%5B1%5D=8&q-availability%5B2%5D=5&sort=inserted_timestamp_desc"
+        ],
+        "time": 0.03530599999066908
+      },
+      {
+        "url": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.3/core-en.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 57405,
+        "remoteIPAddress": "23.0.213.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, must-revalidate, proxy-revalidate, max-age=31536000",
+          "etag": "\"61c1f50a-deaa\"",
+          "expires": "Wed, 21 Dec 2022 16:19:09 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\""
+        },
+        "responseBodyHash": "99fc46d4cf337bf0f597dd7ef7f511f75da248feab32f0e3f8d7d9bacde7ea92",
+        "initiators": [
+          "https://cdn.iubenda.com/cs/iubenda_cs.js"
+        ],
+        "time": 0.01638000000093598
+      },
+      {
+        "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 1331,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Tue, 21 Dec 2021 16:44:51 GMT"
+        },
+        "responseBodyHash": "058ed961bfe422af7bfc65865f4c08531ec8ace995f8a1ec560a46581cb7712c",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.014509000000543892
+      },
+      {
+        "url": "https://www.iubenda.com/cookie-solution/confs/js/98173168.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 472,
+        "remoteIPAddress": "23.0.213.39",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "\"61c1c0bb-5e\"",
+          "expires": "Wed, 22 Dec 2021 16:19:10 GMT"
+        },
+        "responseBodyHash": "bf4a6b8d595af4b8e60eefd71065a2af2511f9bd4cd08ef8472cfa884ffd710e",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.3/core-en.js"
+        ],
+        "time": 0.014951999997720122
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-6852967-3&cid=1530534777.1640103550&jid=793601004&gjid=591693028&_gid=771313877.1640103550&_u=aGBAgEIJAAAAAE~&z=407730472",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 440,
+        "remoteIPAddress": "142.250.145.155",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.archonia.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.019727000006241724
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=2115060497&t=pageview&_s=1&dl=https%3A%2F%2Fwww.archonia.com%2Fen-us%2Fsearch%3Fq-availability%255B0%255D%3D2%26q-availability%255B1%255D%3D8%26q-availability%255B2%255D%3D5%26qf%255B0%255D%3D8%26qf%255B1%255D%3D21%26qf%255B2%255D%3D3009%26sort%3Dinserted_timestamp_desc&ul=en-us&de=UTF-8&dt=Your%20Favourite%20Online%20Anime%20And%20Manga%20Store%20-%20Archonia.com&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=aGBAgEIJ~&jid=793601004&gjid=591693028&cid=1530534777.1640103550&tid=UA-6852967-3&_gid=771313877.1640103550&z=2023056832",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.google-analytics.com/plugins/ua/ec.js"
+        ],
+        "time": 0.0034700000105658546
+      },
+      {
+        "url": "https://hits-i.iubenda.com/write?db=hits1",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.archonia.com/",
+        "status": 204,
+        "size": 401,
+        "remoteIPAddress": "178.62.192.243",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.archonia.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.35.3/core-en.js"
+        ],
+        "time": 0.03632400000060443
+      },
+      {
+        "url": "https://hits-i.iubenda.com/write?db=hits1",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "178.62.192.243",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://hits-i.iubenda.com/write?db=hits1"
+        ],
+        "time": 0.015063999991980381
+      }
+    ]
+  }
+}

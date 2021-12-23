@@ -1,0 +1,2101 @@
+{
+  "initialUrl": "https://www.numisbids.com/r.php?e=8077",
+  "finalUrl": "https://www.numisbids.com/n.php?p=sale&sid=5303",
+  "timeout": false,
+  "testStarted": 1640099573119,
+  "testFinished": 1640099590153,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.numisbids.com/links.www.numisbids.com_f348.json",
+    "requests": [
+      {
+        "url": "https://www.numisbids.com/r.php?e=8077",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.numisbids.com/n.php?p=sale&sid=5303",
+        "initiators": [],
+        "time": 0.2681239999947138
+      },
+      {
+        "url": "https://www.numisbids.com/n.php?p=sale&sid=5303",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 10376,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "set-cookie": "PHPSESSID=kt5bejm507bt6t2i18kb524lkr; path=/"
+        },
+        "responseBodyHash": "edb0c6e012f93f321932b14a2f6dc78e04cca3b2d25a872e488b4a7bd2cbcd82",
+        "redirectedFrom": "https://www.numisbids.com/r.php?e=8077",
+        "initiators": [],
+        "time": 0.11161799999536015
+      },
+      {
+        "url": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 9260,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"pub1633011696;gz\"",
+          "expires": "Tue, 21 Dec 2021 15:42:53 GMT"
+        },
+        "responseBodyHash": "ab6bf9ef2edb319dd95a04fde4379f51b224af32ddcf06fd99ee8a330cf91586",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.0815569999977015
+      },
+      {
+        "url": "https://www.numisbids.com/includes/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 33508,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"16eac-50de2605c8780-gzip\""
+        },
+        "responseBodyHash": "88171413fc76dda23ab32baa17b11e4fff89141c633ece737852445f1ba6c1bd",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.23801399998774286
+      },
+      {
+        "url": "https://www.numisbids.com/min/b=includes&f=fslightbox.js,jquery.colorbox-min.js,jquery.jshowoff.min.js,jquery.countdown.plugin.min.js,jquery.countdown.min.js,jquery-ui.min.js,jquery.ui.totop.min.js,styling.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 46412,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "cache-control": "max-age=1800",
+          "etag": "\"pub1631568513;gz\"",
+          "expires": "Tue, 21 Dec 2021 15:42:53 GMT"
+        },
+        "responseBodyHash": "2677ff5081f52fbba6389c473ad7e0f3bf9133c83b44a758be1e5543f39b122d",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.3842880000011064
+      },
+      {
+        "url": "https://www.numisbids.com/images/header.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 6971,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"1a9a-547dafc3f4200-gzip\""
+        },
+        "responseBodyHash": "fa98047a403d62f1dcac63a24ee3941caead13875d64e139cf71d3b74ceb62a8",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.31833900000492577
+      },
+      {
+        "url": "https://www.numisbids.com/images/bidlist.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 1500,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"465-59fbad122f1a1-gzip\""
+        },
+        "responseBodyHash": "1063c16be4dfd1d6b354f9cb90cce1626761f1556380aeffa97b5fcc3e6b25bd",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.39779400000406895
+      },
+      {
+        "url": "https://www.numisbids.com/images/logo/auroralogo.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 8654,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"20ae-5bcb64dc2cc43-gzip\""
+        },
+        "responseBodyHash": "7e8c5fdc97bc073335cdf6824b7ccf75bdb9475f563239fbb3f26e0b35edc457",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.4653249999973923
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00001.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17841,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"44ae-5d2a77137a11d-gzip\""
+        },
+        "responseBodyHash": "cf5ea1e77fc049413ef6772f47dea5a7d5e11d6def31ae29457ce135bbf6101c",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.48194599999987986
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00002.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18434,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4751-5d2a771386c3d-gzip\""
+        },
+        "responseBodyHash": "5ed5bcc896f3d972b8ef6483969390458fb8b405f87836e9fe814d77c0f2ba9c",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.5862469999992754
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00003.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18366,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"46ca-5d2a771393f2d-gzip\""
+        },
+        "responseBodyHash": "10da7be969d964759d99cec047a5c12f52a2fe1ccead0b6c0e484a2746d3bc5a",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.5445509999990463
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00004.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19719,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c37-5d2a7713a1605-gzip\""
+        },
+        "responseBodyHash": "0c4398ebe6367e0c83ef99c3f0c61e5a90f43e059fe69142927eed64c3a16497",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.5613920000032522
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00005.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 20212,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4e14-5d2a7713aecdd-gzip\""
+        },
+        "responseBodyHash": "536313050d763c34da1c110a6ddb0388773323b841349b091b9e394f16a7f151",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.6374490000016522
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00006.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18665,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"47f4-5d2a7713ba08d-gzip\""
+        },
+        "responseBodyHash": "5dbc3f3475d7ca776894d7ec69ad6560e30435a60aac73e2506356a6bbfee1d8",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.7176809999946272
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00007.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19786,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c65-5d2a7713c7765-gzip\""
+        },
+        "responseBodyHash": "3e6832875b147a20eec66aa3d25bd4bb73e940701d7141e37ab5ded238256f29",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.7191349999920931
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00008.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18550,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4786-5d2a7713d4a55-gzip\""
+        },
+        "responseBodyHash": "65a58a236583abab864ae974551e5a80eec75be108652d2ba8dc686fdc301b18",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.8140399999974761
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00009.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19297,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4a66-5d2a7713e1d45-gzip\""
+        },
+        "responseBodyHash": "7b8c23c975d2ceda181f97c68e4213e95fdd6843698ff3ce83079ab4139b41c2",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.816064999991795
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00010.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16666,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4013-5d2a7713ee865-gzip\""
+        },
+        "responseBodyHash": "11ef7b44e5c79bd10e08792a34f7ee3bcddbd3681337d01a3624b01a7e30b564",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.7452209999901243
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00011.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19238,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4a3a-5d2a7713fbf3d-gzip\""
+        },
+        "responseBodyHash": "3f636cdaed34f0b3281dda9461d3e808dec52f519404480c7dfb8b91840534c8",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.7556230000045616
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00012.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18544,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4778-5d2a77140922d-gzip\""
+        },
+        "responseBodyHash": "bc763e362d960fd3a43832b87910583ee2f27352bb6e65465234e66c15d64e9f",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.8015229999873554
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00013.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18990,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4963-5d2a771415965-gzip\""
+        },
+        "responseBodyHash": "b5a21ae66d019d20d7cc5aae72035281a72a71ded33d19d65b034c4d4f2bdac3",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.799788999996963
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00014.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19770,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c48-5d2a771422c55-gzip\""
+        },
+        "responseBodyHash": "3b84607f995cc50c69a8be6aece8704cd81786c318a3dae7c1fbff2ed7582303",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.8255059999937657
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00015.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 20193,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4df2-5d2a77142fb5d-gzip\""
+        },
+        "responseBodyHash": "28656f59d285385995849077e3460f7c020cce7a30dd19903f4bf59baf8caa61",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.837109000000055
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00016.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 20258,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4e17-5d2a77143ce4d-gzip\""
+        },
+        "responseBodyHash": "17447020d265e7c27370da5db2867ae1eb038d50385b437eb376700e2746ca74",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.8844430000026478
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00017.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17000,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"416b-5d2a77144996d-gzip\""
+        },
+        "responseBodyHash": "6799ff41fa5c7311bdb5911ec54d798aed0e76e14a232f0597b28b89d4055130",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.8839159999915864
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00018.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18607,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"47cc-5d2a771456875-gzip\""
+        },
+        "responseBodyHash": "e38a42f4aea85b6823e8ca23c591b3443c81a5693b321ba204745ef10279fb3c",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.8932219999987865
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00019.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 20927,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"510a-5d2a771463f4d-gzip\""
+        },
+        "responseBodyHash": "d1b3c5f8a4e13d28d660103ce9b1fff77b0c35c2f8175e86fbe586647e669a08",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.896097999997437
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00020.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17791,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4479-5d2a771470e55-gzip\""
+        },
+        "responseBodyHash": "3935eabce6e1b952db58bb484b2b3252660212d40621bbfc285b755d45818132",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9055430000007618
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00021.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19840,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4cba-5d2a77147dd5e-gzip\""
+        },
+        "responseBodyHash": "98b4454c341daf6b07d480cb0cbbae55819f60ab6ae54cf7468416681656e491",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9186850000114646
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00022.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 20504,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4f19-5d2a77148ac66-gzip\""
+        },
+        "responseBodyHash": "1ef5e1113631cb98aae0efae07d8858e523f0f5f10379a178462d97c28ef41b5",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9653499999985797
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00023.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18652,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"47e5-5d2a771497b6e-gzip\""
+        },
+        "responseBodyHash": "897acba53a4b278e9551649c462abc5ee8499e8957ceffb95256ee0aca475057",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9647839999961434
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00024.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 21601,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"536a-5d2a7714a4e5e-gzip\""
+        },
+        "responseBodyHash": "07ce90576c6bddbe521bdd194e8f08f983250a0ecb71d4fef5b92e965b2f8781",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9749220000085188
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00025.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18360,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"46f4-5d2a7714b214e-gzip\""
+        },
+        "responseBodyHash": "f380cd680447ad33f0436f7c9f63f8b420ded8e9093fc72a54c56aba52576737",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.976741000005859
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00026.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18749,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4860-5d2a7714bf056-gzip\""
+        },
+        "responseBodyHash": "63d8fb2397682ed8f7fd1d2d826a29c0b5c4a78cb6ae50732b30d6df71fbd2ad",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9855269999970915
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00027.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19908,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4cf5-5d2a7714cc346-gzip\""
+        },
+        "responseBodyHash": "92a35e08c6564f5b26fbddca3766da618d70e0292fa6d5a3a36a8027bc3ec27d",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.9997489999950631
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00028.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18099,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"45eb-5d2a7714d9636-gzip\""
+        },
+        "responseBodyHash": "51f1a022782e184ecac059b00b827d1a7926c4ec40cd6e9b8f3595d847fb4c9b",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.0459039999986999
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00029.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18365,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"46c2-5d2a7714e6926-gzip\""
+        },
+        "responseBodyHash": "d81b69cf2ed27901e7fe764d413338ce3155643cc7fb836035a9a8e4dcab0808",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.045287000000826
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00030.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 21436,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"52c2-5d2a7714f382e-gzip\""
+        },
+        "responseBodyHash": "a4e61bb96053e5406bf151ca2cddb446ce8d92d8de05f66e49134208f5ec121d",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.054894000000786
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00031.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17849,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4504-5d2a771500b1e-gzip\""
+        },
+        "responseBodyHash": "d31095e81363cb5f0a1c59d1054e3aa26cf73148387b5076bebd7834816aabd6",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.0567520000040531
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00032.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18229,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4640-5d2a77150de0e-gzip\""
+        },
+        "responseBodyHash": "4c7f84b6539f7d6efab2ffa6086bb9e88a375c97aac8b270427b7854f3d71747",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.065056999999797
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00033.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17507,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"43ab-5d2a77151b0fe-gzip\""
+        },
+        "responseBodyHash": "efcc6ec249c8ce3de30cf110b099ba4ce8a69d981bc6ff27c92280f01c2767ad",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.0810659999988275
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00034.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19714,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c03-5d2a771528fa6-gzip\""
+        },
+        "responseBodyHash": "35ffb5e14fc6c56bdec2997b2fd0aa9825de358db809ff7b09b826c01db637dd",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.1277280000067549
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00035.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17261,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"42a4-5d2a771535eae-gzip\""
+        },
+        "responseBodyHash": "c280294eac449e193f279b39256277f3d9009ff9c7e78beae39693ff2927701e",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.1264500000106636
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00036.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18222,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4634-5d2a7715425e6-gzip\""
+        },
+        "responseBodyHash": "a8dd7e81d92ec9509c51d72cc1fe0ebb174e47f3c7b4406045e9bd675e002e8b",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.1355800000019372
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00037.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17265,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"427d-5d2a77154ed1e-gzip\""
+        },
+        "responseBodyHash": "a1f06f4073e395b023d6941998c24de9fd8d70f6649af5bb288d3a4ef203d345",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.1364170000015292
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00038.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19061,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"49ad-5d2a77155b456-gzip\""
+        },
+        "responseBodyHash": "89d010f7b8e81cde166f0134a0fb8db3fc9e5de84fa8292cb8a596ec2d13c422",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.1447279999993043
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00039.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17228,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"42a3-5d2a771567b8e-gzip\""
+        },
+        "responseBodyHash": "f35a99fde6697b46571b8aa554f893387fc2e2f024878e8756a8f831a58692f5",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.158041000002413
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00040.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19227,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4a21-5d2a771574a96-gzip\""
+        },
+        "responseBodyHash": "5e45b700c7e2592f930b1b0e55ab6c8d6ce2200d9e0f8258a5e6e69bf8f1ada5",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2048369999974966
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00041.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19737,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c35-5d2a77158199e-gzip\""
+        },
+        "responseBodyHash": "04980885f810799bc3dcc3e461ad7f02a95a8a0d16f7f54b3024658681aaac5b",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.203851999991457
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00042.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18037,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4586-5d2a77158ec8e-gzip\""
+        },
+        "responseBodyHash": "fd6607603c06ee3d0090bb2e91e58793dfc74bc5249455558967620e4a079c2d",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2132669999991776
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00043.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16974,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4173-5d2a77159bb96-gzip\""
+        },
+        "responseBodyHash": "304175725efd1b695a27d7919aab4b8519612ea10700d68d802ed73b424a9c8e",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2122070000041276
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00044.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19136,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"49d1-5d2a7715a8e86-gzip\""
+        },
+        "responseBodyHash": "64cb645561cf5ec3435c2fd6d089036ec387923be706255dd0a912b78f942568",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2203220000083093
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00045.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18877,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"48d2-5d2a7715b6176-gzip\""
+        },
+        "responseBodyHash": "5566727bd7affe6d85da7cb516e14fd8d3708b1fd381bed86a94bf7b80cb2578",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2388999999966472
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00046.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19293,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4a63-5d2a7715c28ae-gzip\""
+        },
+        "responseBodyHash": "7959dececbb964e84e8733a5ffd38796ad21b5783036f8c1734ad0934319406b",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2871300000115298
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00047.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19981,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4d21-5d2a7715d036e-gzip\""
+        },
+        "responseBodyHash": "a36e92066456bd16c5effd3a6d9ef8137c5a73ae05406fbe7823b1897b92c510",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2858419999975013
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00048.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19705,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c40-5d2a7715dce8e-gzip\""
+        },
+        "responseBodyHash": "0e311d371a616fa671338393cd0d28f67d414de53dbb6e232d0d11e6b768dafe",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2941220000066096
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00049.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18708,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4848-5d2a7715ea566-gzip\""
+        },
+        "responseBodyHash": "181b7f1c0a7a4b2f712fb712bd6008cfdb0b3930dc216a5f47c2e9269b83d914",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.2930669999914244
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00050.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18421,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4708-5d2a7715f746e-gzip\""
+        },
+        "responseBodyHash": "95203c26cf521d68d9d7ce769bb7492474cf0e5d8215d2bc3bfeb5a75fbc0e26",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.3006840000016382
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00051.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18313,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"46ca-5d2a77160475e-gzip\""
+        },
+        "responseBodyHash": "441d7b302c171d936f913571ff26aebeccee26cf6b1732787897bc4b83ba9fc1",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.320663999998942
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00052.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17996,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"457a-5d2a771611666-gzip\""
+        },
+        "responseBodyHash": "fde534c218627ac6bb14a900cb687c807d872bb002e9bbe413057dc0c7010930",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.3689000000013039
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00053.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18520,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4766-5d2a77161e956-gzip\""
+        },
+        "responseBodyHash": "c3e25d80beaf5aa263291940e2a81826dba4a4f9e38bf5983872d84a7237064b",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.3672240000014426
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00054.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19075,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"49a0-5d2a77162bc46-gzip\""
+        },
+        "responseBodyHash": "f6831eb4ed97624adad258a2c7f6810f50fbb4daa7c3f641806e133e4ab879fa",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.3757599999953527
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00055.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19766,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4c73-5d2a771638b4e-gzip\""
+        },
+        "responseBodyHash": "22d6399b465e0596abc2a89a861c1f0e561046d1387d0f2ae22caaa14a60b9c7",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.3745720000006258
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00056.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19152,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"49d5-5d2a771645e3e-gzip\""
+        },
+        "responseBodyHash": "1eb4b98a89d64d40740e39c616b2f94678b762851495b73fb8377936f2b32ed4",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.3801859999948647
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00057.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18215,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4662-5d2a771652576-gzip\""
+        },
+        "responseBodyHash": "e42bb10e1b2d7846b781dc328611d654860371bae82f57edb3c8a0e555c9d8c9",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.4027599999972153
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00058.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18253,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4695-5d2a77165ecae-gzip\""
+        },
+        "responseBodyHash": "d18d220b0d54bfc093aa41004344f568c5408db1ddc8f143b013362008c43cf3",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.450075000000652
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00059.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17658,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"443d-5d2a77166b7ce-gzip\""
+        },
+        "responseBodyHash": "a99df79d09fc4afd2a2b993caf959f2bb6dd156d9ad1dd765dd9d471fd26aab8",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.4494730000005802
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00060.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17799,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4497-5d2a771678abe-gzip\""
+        },
+        "responseBodyHash": "d9da90745eb40d1868c3b8fb4717a501229194118f68e7c543a70d532acc98d4",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.4564140000002226
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00061.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18674,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4806-5d2a771685dae-gzip\""
+        },
+        "responseBodyHash": "1614c640b66273c493f07ec8dca7499d602b763dfe098f9e620efabb80317252",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.4556390000070678
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00062.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16457,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"3f62-5d2a7716928ce-gzip\""
+        },
+        "responseBodyHash": "9a8f34f5b7730ac85d4e9a48e65ff5a31c5439c16b266a9edf74431626f86422",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.460456000000704
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00063.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 15866,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"3cf4-5d2a77169f3ee-gzip\""
+        },
+        "responseBodyHash": "2aaaf17190f88327f33ac27324dde800e0c334f0647d55c1d69e0ee1e235eb04",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.4824340000050142
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00064.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18894,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"48e3-5d2a7716ad296-gzip\""
+        },
+        "responseBodyHash": "450ecff8d9acea419426a646a470f0bd8696325e477ae7482dbdbbd3769c8f6f",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.5317919999943115
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00065.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16215,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"3e49-5d2a7716b95e6-gzip\""
+        },
+        "responseBodyHash": "41f062345f77a4426d01484fcd049b91e247fb5a085af411a45a37660855e5bb",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.5308530000038445
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00066.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16863,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4115-5d2a7716c64ee-gzip\""
+        },
+        "responseBodyHash": "d5faeec546a265db07824c7031f3d444163f2090cf01c7debbcc2920a52d340d",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.5385220000025583
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00067.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17994,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4560-5d2a7716d3bc6-gzip\""
+        },
+        "responseBodyHash": "9d980a9739dddcbc3014b37702f9102a077870ec24c5a7cf31bffaa3e56a08ed",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.5380050000094343
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00068.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16196,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"3e7f-5d2a7716e02fe-gzip\""
+        },
+        "responseBodyHash": "3443d239c31a9e3c40a2ffe9d75640bc1600ea00b2fee4d0458605bf45735ea6",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.5410139999876264
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00069.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18468,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4736-5d2a7716ed9d6-gzip\""
+        },
+        "responseBodyHash": "901ffb852940be7a8b8274e7c197ce9329d240c98709cad640b02c3966b02de0",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.563931999990018
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00070.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18876,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"48b8-5d2a7716facc6-gzip\""
+        },
+        "responseBodyHash": "442526ab060448baca799c3617d558eb7696ff89d316d03f5bf5bc3927e92493",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.613217000005534
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00071.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18723,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4831-5d2a771707bce-gzip\""
+        },
+        "responseBodyHash": "582dd0f133b321465b965e6e62fae91767c7f0e6f0681459d9bd93a355a53004",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.6125630000024103
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00072.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18079,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"45b2-5d2a771714ad6-gzip\""
+        },
+        "responseBodyHash": "34e58bd8246807678b4dcf53afda4f67b15a6748c6befb505edeafbd966f23d9",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.6235759999981383
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00073.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18413,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4700-5d2a7717215f6-gzip\""
+        },
+        "responseBodyHash": "3d2d14c4e232fcc0bdc08639d47fd69857aeed6ec1bba4a55204499e3d86bf5c",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.6229690000036499
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00074.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18085,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"45ab-5d2a77172e116-gzip\""
+        },
+        "responseBodyHash": "98aae1f1bba7750da58a31d3a69fc57459a0300ccfb5ddd81e1a48699cfd3c13",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.6234570000087842
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00075.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18958,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4925-5d2a77173b406-gzip\""
+        },
+        "responseBodyHash": "aafadde04339523083014adae8ca4306e5b46a33d562a2de41c381ecc76824e3",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.6459759999997914
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00076.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17372,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"42d9-5d2a77174830e-gzip\""
+        },
+        "responseBodyHash": "00c2d300ccef1784f3347b17abfc5846517ef035047762492cceeb4f2b703fb9",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.694751000002725
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00077.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18982,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4938-5d2a771755216-gzip\""
+        },
+        "responseBodyHash": "22e686c285b3b39fb3596e7bedf4f9137dc918c011ccf3ea97f68a4c1aea32c7",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.6939180000044871
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00078.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19329,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4a9b-5d2a771762506-gzip\""
+        },
+        "responseBodyHash": "928e2245b355076cd450b4f2e79384a236e90cf22a8cf7d9204b6f51330e5b92",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7068209999997634
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00079.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16614,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4023-5d2a77176f026-gzip\""
+        },
+        "responseBodyHash": "7973ba6fbfd57e460b30a76da042689dd8883a336940d824f51b83ce64763720",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7062370000057854
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00080.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 15933,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"3d78-5d2a77177bb46-gzip\""
+        },
+        "responseBodyHash": "90bee79a9e7d875a61fa4fae5e9b1f082f0b4b5f596ad4ecb0202fcfaaa996a6",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7053779999987455
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00081.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 13931,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"354c-5d2a771787aae-gzip\""
+        },
+        "responseBodyHash": "d47cf21e00d34d4fe995fd94f28e0d642c798021a09e01201869324e60724815",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7265540000080364
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00082.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18061,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"45b4-5d2a7717945ce-gzip\""
+        },
+        "responseBodyHash": "beb188e75ea97f7712b2c00b0506d718a850a79351bd9827bd3f1ddc76148d8c",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7757679999922402
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00083.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17516,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4383-5d2a7717a14d6-gzip\""
+        },
+        "responseBodyHash": "9b2800b7464345d05ecb82404b9b20969fa9f31b3f74a670419017eae067df70",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7686499999981606
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00084.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18099,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"45e1-5d2a7717adff6-gzip\""
+        },
+        "responseBodyHash": "8e663dcdcc4f286aba839095ac417af275be9636f0f29c597e85ab130a259640",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7833580000005895
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00085.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17897,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4513-5d2a7717bab16-gzip\""
+        },
+        "responseBodyHash": "fd8da638e1b885b8a8d0d6f5e7679b98084d7a1e6757880870e269f07bdfd7e1",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7825000000011642
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00086.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 21969,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"54f1-5d2a7717c7e06-gzip\""
+        },
+        "responseBodyHash": "aa9d1198b8a9fdd70976893f8529c6f892371eb8fa5beb627309fc520f813e21",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.7816909999964992
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00087.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 22579,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"575a-5d2a7717d50f6-gzip\""
+        },
+        "responseBodyHash": "a3c9bd244c429b25d65c3f1d43ec2ecd7b108c0702f265ee151884f1b797c08d",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.8013860000064597
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00088.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18090,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"45a5-5d2a7717e1c16-gzip\""
+        },
+        "responseBodyHash": "67f1ca20b7ed5cb20be7b14cad6f14d1fe8263236b8ea74032c8cc261f6791c5",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.851329999990412
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00089.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18878,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"48c2-5d2a7717ee736-gzip\""
+        },
+        "responseBodyHash": "c0e980749bd5022a42ca7d8f8433cc88f2f1bed7853e16f4e604ff50da606c9f",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.850631000008434
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00090.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16299,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"3eba-5d2a7717faa86-gzip\""
+        },
+        "responseBodyHash": "13b8ad6284a1f22f4b70f2e185abf6b42d55d15a4c0097adb03e118722f2e325",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.8676310000009835
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00091.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17157,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4242-5d2a771806dd7-gzip\""
+        },
+        "responseBodyHash": "7419be56d86004ed29cff8af70efa9b8a141f9e3e158520c5c9b451de9e5deba",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.8666769999981625
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00092.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17050,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"41c1-5d2a7718138f7-gzip\""
+        },
+        "responseBodyHash": "1a69642f6f93e49d2b87176c8b00d5660531f1e327345e5dc6f9a4ea0a95b3ee",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.8660369999997783
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00093.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 16986,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"418f-5d2a77182002f-gzip\""
+        },
+        "responseBodyHash": "66f5a816ae1f8b1f83cd2c6136fae2da6e86d7638d78cac05889653fe5ecd6c4",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.8822539999964647
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00094.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18579,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"47db-5d2a77182cb4f-gzip\""
+        },
+        "responseBodyHash": "8181ee2469ac5c1928d7a71836e25590fec8b7a530557f735a3b964d0924fa3c",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.9327480000065407
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00095.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17848,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"44be-5d2a771838e9f-gzip\""
+        },
+        "responseBodyHash": "66e58bb7deb6860d5eaa4c0be2bf62a503b92aec048c816a8b74145d4f97719e",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.932159000003594
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00096.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 19967,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4d14-5d2a7718459bf-gzip\""
+        },
+        "responseBodyHash": "45cb3638a9321741bc8adb58a9484f6abda4529dfffe64f4d317e4113249829a",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.9517480000067735
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00097.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17456,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"433e-5d2a7718520f7-gzip\""
+        },
+        "responseBodyHash": "ded6806663eecdf8bf1c41892a3529f4989871473e610bad10df455ba4d7d459",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.9510110000119312
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00098.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17263,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4296-5d2a77185e05f-gzip\""
+        },
+        "responseBodyHash": "1530f6338222838188a6ea0e5c8ece3d4961c0f628abec3e60c00e2e857765dd",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.9489980000071228
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00099.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17085,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"41bd-5d2a77186ab7f-gzip\""
+        },
+        "responseBodyHash": "3d4b06c8126686da57036a9e6017cc7f59f5be4ec9e264dc0535da7cc7ec0d21",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 1.9627499999915017
+      },
+      {
+        "url": "https://www.numisbids.com/sales/hosted/aurora/024/thumb00100.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 18253,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"4690-5d2a77187769f-gzip\""
+        },
+        "responseBodyHash": "cfbfbf89e431705812dbe1f5e5deaf8564ac28d6421c0e027dfeebfcf7f0c191",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 2.013532999990275
+      },
+      {
+        "url": "https://ssl.google-analytics.com/ga.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 17565,
+        "remoteIPAddress": "142.250.179.200",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Tue, 21 Dec 2021 16:48:31 GMT"
+        },
+        "responseBodyHash": "1259ea99bd76596239bfd3102c679eb0a5052578dc526b0452f4d42f8bcdd45f",
+        "initiators": [
+          "https://www.numisbids.com/n.php?p=sale&sid=5303"
+        ],
+        "time": 0.04181500000413507
+      },
+      {
+        "url": "https://www.numisbids.com/images/search.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "status": 200,
+        "size": 2788,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"96d-59fba242d53c5-gzip\""
+        },
+        "responseBodyHash": "869f82b2460999cc54b691650d634236e649aab55ef6ba5ef1a2794a145ffd45",
+        "initiators": [
+          "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css"
+        ],
+        "time": 0.18768200000340585
+      },
+      {
+        "url": "https://www.numisbids.com/images/external_link.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "status": 200,
+        "size": 546,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"b4-4c7335e86e180-gzip\""
+        },
+        "responseBodyHash": "686816b1b3d4b26f4c2963f80efb01f4d86830e51d7bd5d06457e5af0d1a27eb",
+        "initiators": [
+          "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css"
+        ],
+        "time": 1.5881479999952717
+      },
+      {
+        "url": "https://www.numisbids.com/images/colorbox/controls.png?1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "status": 200,
+        "size": 2054,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"68f-5c10d1db5af2b-gzip\""
+        },
+        "responseBodyHash": "34822bcb8ece22eb14967f17d36712d725edff72d3aa246ab46d218d99e621da",
+        "initiators": [
+          "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css"
+        ],
+        "time": 0.1022030000021914
+      },
+      {
+        "url": "https://www.numisbids.com/images/colorbox/border.png?1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"8f-5c10d1db5becb-gzip\""
+        },
+        "responseBodyHash": "abd15458963164e1ac97a2e27454e7f0e73bfb1e8da902d5c0d3577498948553",
+        "initiators": [
+          "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css"
+        ],
+        "time": 0.1076009999960661
+      },
+      {
+        "url": "https://www.numisbids.com/images/colorbox/loading_background.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "status": 200,
+        "size": 516,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"9d-4c7335e9623c0-gzip\""
+        },
+        "responseBodyHash": "59fbf136ad408490b60ab1a37bb0195e8deb576293da4a52467485275fbebb4d",
+        "initiators": [
+          "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css"
+        ],
+        "time": 0.1023529999947641
+      },
+      {
+        "url": "https://www.numisbids.com/images/colorbox/loading.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css",
+        "status": 200,
+        "size": 7622,
+        "remoteIPAddress": "107.191.33.43",
+        "responseHeaders": {
+          "etag": "\"24d3-4c7335ea56600-gzip\""
+        },
+        "responseBodyHash": "5563e4daed91cc7b95fa55afcad448e1bc70a92acecc0335029e2f56069c74f2",
+        "initiators": [
+          "https://www.numisbids.com/min/b=css&f=style.css,colorbox.css,jshowoff.css,jquery.countdown.css,jquery-ui.css"
+        ],
+        "time": 0.11431599999195896
+      },
+      {
+        "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=1208437230&utmhn=www.numisbids.com&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=NumisBids%3A%20Aurora%20S.p.a.%20Online%20Auction%2024%20(11%20Jan%202022)&utmhid=39915967&utmr=-&utmp=%2Fn.php%3Fp%3Dsale%26sid%3D5303&utmht=1640099574321&utmac=UA-30128932-1&utmcc=__utma%3D31383712.449925084.1640099574.1640099574.1640099574.1%3B%2B__utmz%3D31383712.1640099574.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1025711708&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "origin",
+        "referer": "https://www.numisbids.com/",
+        "status": 200,
+        "size": 197,
+        "remoteIPAddress": "142.250.179.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.01045999999041669
+      }
+    ]
+  }
+}

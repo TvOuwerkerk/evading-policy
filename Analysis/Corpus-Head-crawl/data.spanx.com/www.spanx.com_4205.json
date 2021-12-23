@@ -1,0 +1,3219 @@
+{
+  "initialUrl": "https://www.spanx.com/",
+  "finalUrl": "https://spanx.com/",
+  "timeout": false,
+  "testStarted": 1640012646422,
+  "testFinished": 1640012666409,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.spanx.com/links.www.spanx.com_4205.json",
+    "requests": [
+      {
+        "url": "https://www.spanx.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://spanx.com/",
+        "initiators": [],
+        "time": 0.17542500000126893
+      },
+      {
+        "url": "https://spanx.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 67212,
+        "remoteIPAddress": "23.227.38.65",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Tue, 20 Dec 2022 15:04:06 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Mon, 03 Jan 2022 15:04:06 GMT\n_shopify_country=Netherlands; path=/; expires=Mon, 20 Dec 2021 15:34:06 GMT\ncart_currency=USD; path=/; expires=Mon, 03 Jan 2022 15:04:06 GMT\n_orig_referrer=; Expires=Mon, 03-Jan-22 15:04:06 GMT; Domain=spanx.com; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Mon, 03-Jan-22 15:04:06 GMT; Domain=spanx.com; Path=/; HttpOnly; SameSite=Lax\n_y=6bbabf9c-98b2-4826-89db-06c5bcada06a; Expires=Tue, 20-Dec-22 15:04:06 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_s=7e8324e3-281e-4029-9e97-386aa0a8f915; Expires=Mon, 20-Dec-21 15:34:06 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_shopify_y=6bbabf9c-98b2-4826-89db-06c5bcada06a; Expires=Tue, 20-Dec-22 15:04:06 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_shopify_s=7e8324e3-281e-4029-9e97-386aa0a8f915; Expires=Mon, 20-Dec-21 15:34:06 GMT; Domain=spanx.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "0bdd10310139214cf32be44250ede9b537699ba3abfc9798b068989bf41d7200",
+        "redirectedFrom": "https://www.spanx.com/",
+        "initiators": [],
+        "time": 0.3444999999992433
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/bva.css?v=7688267157652161746",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 24965,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "844b4aeaf646aa2c8841731c1604f950715380d65aa595e0fd47391c7f4ec1f4",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.016181999999389518
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/bva-app.css?v=7270574520434279463",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 5346,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ae5b4c983e26ed34b6aae8d69ed86ca0ccab2cea2a0f7c8dbdfe8396c633dcc4",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.0130460000000312
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/historical.css?v=9785828505738510672",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1330,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "39d6f7e2eb3a950274a682e04562f240ecfa9f8b88e14c172ea60e321c316509",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.011811000000307104
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_config.js?33937",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 404,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.08768399999826215
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_dependency_font-awesome-4-4-0.min.css?v=3658377772475384753",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 5247,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eb7910f47e75835a6def4a40ee5a62a216fcc0a8169964d3c89ee3c1f54981d8",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.019817000000330154
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_externals.js?v=18163320936351528016",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 89521,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "676b874cad5c711c0d8b10c12232ac9e4aaf9a6d27afd0fbb9ee621382b00498",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.03685799999948358
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_init.js?v=13637171995359801302",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1227,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2fb5afb0b86b10ee149e5987eedee2723ae750711dcf5b7fc300d2fd74e01b06",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.01954699999987497
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_analytics.js?v=18366654641778002270",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 976,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "88cfbb25d26bbb0a64be9720503f1faf98e261336d9cbbd2cd2deb6aee7ab5f1",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.13119299999743816
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_translations.js?v=16032233844084835009",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 855,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1af3a0e99a76cb0b27384e2b579c7855930aa6358fafab14696900c90823f36d",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1314089999978023
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_helpers.js?v=18104154860996021200",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1435,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "296e8ce9d91f12883e0b58302e27d5c90515f3e88ecb23605eb487ced3c4948e",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.13159199999790872
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_autocomplete.js?v=367702621401392986",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 2486,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fdce193e07e96847c98aa6bb84d90d9e07941963d118b1352d3fde1f3bc10634",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1318570000003092
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_facets.js?v=10092834031812212097",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1607,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4dc64e481bd0ffd0dff38c05a36258132aa7a00f24b542b5beba4a4cb57060af",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.14688100000057602
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_sort_orders.js?v=6623712566040538010",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 623,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d422eac32d7da918c716cafc14368eb8ee1ccd521ee9eef514928a850f7ca9ea",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.13197700000091572
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/algolia_instant_search.js?v=10356259940525682450",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3963,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e953f1d5df83cea80db9947a19413e70cddf280a356740c8eda8ec9c1c50d344",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1645250000001397
+      },
+      {
+        "url": "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 37081,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:04:07 GMT"
+        },
+        "responseBodyHash": "845ff4ab4aef2780f1186ee9cae547cb5ec388b518cfd4df27e2b9a8d3c04a96",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.032748999998148065
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3089,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.14866000000256463
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 17658,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.14882399999987683
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 13075,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1470709999994142
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/logo-black.svg?v=14051593184112591537",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3100,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2a557fefcb7644e73deb5e8ce091d3b3e78b4639d2dd256799a11ab99b9cb081",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1549010000017006
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/Backgroundholiday-2437_1440x.jpg?v=1636127914",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 203554,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b0dff412523c3ac9de2551ad0c2b5a94fcecf00e8134400f0996e577f5cff0bf",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1582989999988058
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/Imagefauxleather_900x.jpg?v=1638306340",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 170638,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1dd6b4cc68276f83a31df514c0f49a3e5d83ef2070fd14eaba982d02ccbf2560",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.15780400000221562
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/MicrosoftTeams-image_1440x.jpg?v=1631639295",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 93263,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "56ba19a70fe81068eebcf9bfd2e416ca87afcf06f289323b3284e19ea5d1ecc5",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.16184599999905913
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/shapewearmobile_900x.jpg?v=1638304928",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 72011,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a111e2473bf1aed6aaa614a53204121d490759459baff59e03ce413d72c92e14",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.13344300000244402
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/jogger_280x.jpg?v=1638305691",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 21806,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c32ae722e2ec684f5fc620cfe2519b0a65497657865fe5ccaa0b8e1393a19a9b",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1594939999995404
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/hiriseflare_e0be9e47-7e05-4f71-9cb9-00598c7ee426_280x.jpg?v=1638305768",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 18654,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e56d13953eda602996f914bb50a03380670e341cf4a835c6f07972ad13f62f14",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.15971800000261283
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/4pocket_280x.jpg?v=1638305795",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 10760,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3395cfb109d5b5ddec8b5636238efc56ef11c8d39b271f11582db20591d9c2b2",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.16047599999728845
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/slimstraight_280x.jpg?v=1638305828",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 13121,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7c3713bb450bcce58786fe736c8114249478595e5a1bd1e661305f5f041e1c73",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1606339999998454
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/flaremidnight_disco.jpg?v=1639426135",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 162703,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9d10d2402f3d3cd3399fa0147d62866e5f53c853d892590a3a8d713f18fa4ac7",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.16464600000108476
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/DrapeFrontJacket_FC.jpg?v=1633474961",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 120198,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "04ef09c9db1d5ee114db2bc526a679bcfacf7373d24959a4e68ed8806300d128",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.17151199999716482
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/logo.svg?v=1621543703",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3481,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d64db45470a770f3a78df09dbf0fe7ae716713d818feec382566850b21ce7552",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1657469999991008
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 238882,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c625f8fc575d949abca9fac7997481bacd939e3cdb492bda642063d5277cc3a3",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.13788900000145077
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 48594,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3ab76ff48a893574e6fc08184bc5f1da0a0e9936f4aa64ea394d024df22d45f4",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.13745399999970687
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/widget.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1346,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, s-maxage=60",
+          "etag": "\"f17adce36cc3ee03bc8f96db7e2cb82c\""
+        },
+        "responseBodyHash": "238dde81d7b69ac265d46e5e44b6e05e0c08a927605c065d16d97d896fa85b08",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.18963000000076136
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/search-insights@1.6.3",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3416,
+        "remoteIPAddress": "151.101.37.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"29f5-epVuMwoQc7mmtrXEmCW42U/Ue7s\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f2bdde53691eb4a8c2f9fe7d78063a7a3c12b203e3358e426b5cadebb9f3d933",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.12411399999837158
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 82702,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:04:07 GMT"
+        },
+        "responseBodyHash": "6049df5b642729e9f0d9398cdd09f8b00f0d31f4b161f2e9cce567d197516e1f",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.14039299999785726
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 16436,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:30:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f8bab8aa4042ca7b45b599e7d4e496146ebf1b45aabb8ff96ad79393ebd10840",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.06671199999982491
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3127,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.09759900000062771
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/mainimage_0d5e154e-2357-46a2-9029-cd4852765f24_560x.jpg?v=1638305668",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 90625,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "847751873bb7aa48a1b591520c3215fe482a995af2a13510729e8fbdd926d69f",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.06977600000027451
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/Brandon-Grotesque-Medium.woff2?v=2996497667519399753",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 50694,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e5dc88a780b9408640884b80ff40304580fd830bcdb019c424c78780a329f6f8",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.11367299999983516
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/Brandon-Grotesque-Bold.woff2?v=15183407090679471192",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 50721,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0251098f38619b9ba50e9228add89f7728e9d0e5fd4d58fc7e53a7ac6ac0089a",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.1271359999991546
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/Brandon-Grotesque-Regular.woff2?v=7652337013311529298",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 49521,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "31d9657b45e2b8c2c2e5d546511d103eb15898f3f6e77d511bf8cc1b535d325d",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.11707499999829452
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/BodoniModa.ttf?v=2437642369514535783",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 71256,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b92dda6f3acdeab6a76de06337756095943d0e8c1931d6157f4965230089927c",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.12434700000085286
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/Brandon-Grotesque-Black.woff2?v=7637692501525801277",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 50736,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "be8c8c9d968d79d011dd7f57a969ad14b29460bcc6cfd51da8fda0ca0989ef30",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.12754599999971106
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/SuomiHand-Script.ttf?v=12294307619683140817",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 297072,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1bf58bc0022800637cdebf34a0497f212c24fbc4f65bc5744e5f459ea3c2d54b",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.34453100000246195
+      },
+      {
+        "url": "https://spanx.com/cart.js?q=1640012647518",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 867,
+        "remoteIPAddress": "23.227.38.65",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Tue, 20 Dec 2022 15:04:07 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Mon, 03 Jan 2022 15:04:07 GMT\ncart_currency=USD; path=/; expires=Mon, 03 Jan 2022 15:04:07 GMT\n_y=6bbabf9c-98b2-4826-89db-06c5bcada06a; Expires=Tue, 20-Dec-22 15:04:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_s=7e8324e3-281e-4029-9e97-386aa0a8f915; Expires=Mon, 20-Dec-21 15:34:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_shopify_y=6bbabf9c-98b2-4826-89db-06c5bcada06a; Expires=Tue, 20-Dec-22 15:04:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_shopify_s=7e8324e3-281e-4029-9e97-386aa0a8f915; Expires=Mon, 20-Dec-21 15:34:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "dc454fad487be825d32aa80abc50c6190b5754839c14717fee7aa20c686e899a",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.1475270000009914
+      },
+      {
+        "url": "https://spanx.com/cart?view=json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 785,
+        "remoteIPAddress": "23.227.38.65",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Tue, 20 Dec 2022 15:04:07 GMT; secure; HttpOnly\nlocalization=; path=/; expires=Mon, 03 Jan 2022 15:04:07 GMT\ncart_currency=USD; path=/; expires=Mon, 03 Jan 2022 15:04:07 GMT\n_y=6bbabf9c-98b2-4826-89db-06c5bcada06a; Expires=Tue, 20-Dec-22 15:04:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_s=7e8324e3-281e-4029-9e97-386aa0a8f915; Expires=Mon, 20-Dec-21 15:34:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_shopify_y=6bbabf9c-98b2-4826-89db-06c5bcada06a; Expires=Tue, 20-Dec-22 15:04:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax\n_shopify_s=7e8324e3-281e-4029-9e97-386aa0a8f915; Expires=Mon, 20-Dec-21 15:34:07 GMT; Domain=spanx.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.14905800000269664
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/hiriseflare_shopsatbuckhead.jpg?v=1638304734",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 64269,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ec1beffb42e5278ffdddd3ae89a13d7732c816f5b1b98fde7fea175a2bc260d4",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.012393000000884058
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/AnkleSkinny_Midnight_FC.jpg?v=1635250268",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 110329,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "67a2ce529209d2992f05d54fc67f4900424d3486fd4f413584ac153f6512f2e9",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.01639699999941513
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/leatherlikeskinny2.jpg?v=1638304677",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 74950,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "30c816c831aabcc3cdbba86c55fca9621916704ca5b3c2547e0aebfea4703965",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.018452000000252156
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/Rectangle_122flarejean1.jpg?v=1638304469",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 57077,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5d264b31485ad1895a86d2ab9b2e9b023b8550387209bdd15b7c7e9708be2231",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.026368999999249354
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/lamn_seamless_camo.jpg?v=1638299904",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 76703,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a8ccd7033767df025de18dc439660b6fc4b3375eebb923c842384ed3ce6d7410",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.020529999997961568
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/Screen_Shot_2021-11-01_at_3.05.42_PM.png?v=1635793549",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 137222,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ed76eefc273ab0a87f8a593739f8f1121f9c66d8b54e409afe86b356864ddcfc",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.0680419999989681
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/blackvelvet2.jpg?v=1638304606",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 62697,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2bf94971c4bbe7e76e58ea67456faa3632eb87cd5ea611fb55a53d1993be2bf1",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.06742300000041723
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/OncoreHWMTShort_Carousel_ea779cca-1312-47c5-aa8b-6823800a5ead.jpg?v=1638300822",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 124352,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a1b552dceb8e801e31e165febe7ef2bdca6f78a59064d8af9e883090c6bd9a2b",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.0698130000018864
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/SYFStraplessBodysuit_Carousel_d82505cd-ab71-4666-b62c-b8a83e61ba3b.jpg?v=1638300906",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 53537,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e9467f5335ecb21e95880e5b45f039ad43abda79c7830e72e85fa4f14986e43b",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.06997000000046683
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/Thinstincts2.0MidThighShort_Carousel_8e74b6c1-ed13-47b8-86fc-e79e30a0a3de.jpg?v=1638300956",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 65735,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bddfc48ce4f4ac0ae3e8cf998a64ed512c6c54efaceafbb6e022527af019b356",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.07062199999927543
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/oncore_open_bust_mid_thigh_bodysuit.jpg?v=1638305273",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 87657,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "49e4b65235b78391e510f80e5f2a75325292e8c57cf44bf6f4860e68e600e5e8",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.0747140000021318
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0549/4895/4134/files/SYFPlungeBodysuit_Carousel.jpg?v=1638301062",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 87535,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ab8564a514dbef58b9913681ebeda1025daed2e27c5480310edaafbf469590d2",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.07570800000030431
+      },
+      {
+        "url": "https://wqd8kyms9k-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(4.10.2)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.24.2)%3B%20Vue%20(2.6.12)%3B%20Vue%20InstantSearch%20(3.7.0)%3B%20JS%20Helper%20(3.5.3)&x-algolia-api-key=687b22f1fc501ef1533c9f0af690bcff&x-algolia-application-id=WQD8KYMS9K",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 8006,
+        "remoteIPAddress": "108.59.4.75",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c8d3accbfb184e5e6fef50aa2e2b1b3342fd680d9b8d6e1437d40049eb04b67b",
+        "initiators": [
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/vendors-main.js?v=7825730338267366546",
+          "https://cdn.shopify.com/s/files/1/0549/4895/4134/t/3/assets/main.js?v=10336742755620077855"
+        ],
+        "time": 0.34564599999794154
+      },
+      {
+        "url": "https://sdk-cdn.optimove.net/websdk/sdk-v2.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 18801,
+        "remoteIPAddress": "35.201.79.141",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600,no-transform",
+          "etag": "\"32e7b92e30d55aaa71ebb289dbb451f4\""
+        },
+        "responseBodyHash": "ebeed78ba24420daa810ade37b69c3300abb7b317afe5767d03e0e82876b3c40",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.07506400000056601
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/widget-api.55050e71ee29340ed55a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 11491,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=34149600, s-maxage=34149600",
+          "etag": "W/\"88614dde01d2a23c2216012e280f031f\""
+        },
+        "responseBodyHash": "e3e938c8e57334693545feb49f3d79e581a54ae32790735ff3eb2b09039713e0",
+        "initiators": [
+          "https://cdn.kustomerapp.com/chat-web/widget.js"
+        ],
+        "time": 0.0043700000023818575
+      },
+      {
+        "url": "https://shop.app/pay/session?v=1",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1045,
+        "remoteIPAddress": "23.227.38.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"9b5179ea2a77fe69b294fbd2ed504eac\"",
+          "p3p": "CP=\"Not used\"",
+          "set-cookie": "_pay_session=8aUribnPnVnxd9uqlTkc%2FTQrBswloMxVA0mLiz3gL8rk%2FvF9vHTtk2jnQKYvBkAMuTUPlKgWQFk7EFBEkxw1DtMfLXTj%2FZ3I4hcmoGjeJGiMUY22ozNpYqashnxhf%2B8MTGg%2FeGhbhmghFo7uF6p4QToJRwXbIPPghifjT61ASQEq3JOETSUrLH2i0c3JKHDBPQ4hPw%3D%3D--p1BAlmr990TtxW53--4nlDRsjK72J1RNSh3dXAbA%3D%3D; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": "9b5179ea2a77fe69b294fbd2ed504eacbfbe048ede58967b43af2ca537144b1f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208"
+        ],
+        "time": 0.16652500000054715
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 472,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js"
+        ],
+        "time": 0.329901000000973
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1785,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js"
+        ],
+        "time": 0.005934000000706874
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 20221,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5"
+        ],
+        "time": 0.0054679999993823
+      },
+      {
+        "url": "https://edge.fullstory.com/s/fs.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 67967,
+        "remoteIPAddress": "35.201.112.186",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600,no-transform",
+          "etag": "\"ae62e8f5c7c7587ea691afdd7b461301\"",
+          "expires": "Mon, 20 Dec 2021 15:19:31 GMT"
+        },
+        "responseBodyHash": "50a5284de7a0b6a18645b623fe7cd7b193ed75387dc21eeb7b8527775fecae24",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5"
+        ],
+        "time": 0.021992000001773704
+      },
+      {
+        "url": "https://js.adsrvr.org/up_loader.1.1.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 2410,
+        "remoteIPAddress": "13.227.222.181",
+        "responseHeaders": {
+          "etag": "W/\"98d98b3499058b76d58073cf8ede2f10\""
+        },
+        "responseBodyHash": "ee3a7301fe1e0c0f6bf6acff0d7a8d107f5cb3f62a2566740c0416d8e61f00b9",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5"
+        ],
+        "time": 0.027372000000468688
+      },
+      {
+        "url": "https://sdk-cdn.optimove.net/webconfig/018da21db84a4080f8dee9d15975fed26143c8009bb619b518d48a7e47770256/web-configuration.1.0.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 5811,
+        "remoteIPAddress": "35.201.79.141",
+        "responseHeaders": {
+          "cache-control": "public,max-age=300,no-transform",
+          "etag": "\"fefc9f26a77a9d3a8fa77050ee462a64\""
+        },
+        "responseBodyHash": "06a49d7e364f88b44c58ab2a2d040f6ca3cd263d498b7f7a16887a61e2b7aac0",
+        "initiators": [
+          "https://sdk-cdn.optimove.net/websdk/sdk-v2.0.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.12797599999976228
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-59904014-4&cid=1141028105.1640012648&jid=1256254034&gjid=55051905&_gid=1612233210.1640012648&_u=YGBAgEABAAAAAE~&z=1740935260",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 438,
+        "remoteIPAddress": "108.177.119.156",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.026523000000452157
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=152167002&t=pageview&_s=1&dl=https%3A%2F%2Fspanx.com%2F&ul=en-us&de=UTF-8&dt=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YGBAgEAB~&jid=1256254034&gjid=55051905&cid=1141028105.1640012648&tid=UA-59904014-4&_gid=1612233210.1640012648&gtm=2wgc10P42L4G5&cd55=1141028105.1640012648&z=1584296388",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.017496999997092644
+      },
+      {
+        "url": "https://rs.fullstory.com/rec/page",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1477,
+        "remoteIPAddress": "35.186.194.58",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "381cc4c0fecfa6bf9bb1618b2a5d424ab3c6dd8782986d50cf925a179d82b3d6",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js"
+        ],
+        "time": 0.2997830000022077
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 18099,
+        "remoteIPAddress": "151.101.193.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://spanx.com/",
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.004850000001169974
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 470,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://spanx.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1101699999999255
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://spanx.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11319899999944028
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11096999999790569
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1208,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, s-maxage=60",
+          "etag": "\"780c4061e22b52fdba5de7c3f39d4fcb\""
+        },
+        "responseBodyHash": "c01ff8149168e515c74df61731dbd3c4118b52d68115d2dab8883293e30abb28",
+        "initiators": [
+          "about:srcdoc"
+        ],
+        "time": 0.02746399999887217
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/widget-main.a8beeeb49e5deb162bc6.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 82032,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=34149600, s-maxage=34149600",
+          "etag": "W/\"8c4ca93423f47601980a57682fa54891\""
+        },
+        "responseBodyHash": "5647bc086979e022525b460c0cbdb61d94b251c2df86d4c66318377e214c9f68",
+        "initiators": [
+          "about:srcdoc"
+        ],
+        "time": 0.03335499999957392
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-59904014-4&cid=1141028105.1640012648&jid=1256254034&_u=YGBAgEABAAAAAE~&z=2103329075",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.048228999999992084
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-59904014-4&cid=1141028105.1640012648&jid=1256254034&_u=YGBAgEABAAAAAE~&z=2103329075",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.045966000001499197
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1106900000013411
+      },
+      {
+        "url": "https://sdkuaservice.optimove.net/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 502,
+        "remoteIPAddress": "34.102.240.186",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "ad8cc310f5910c46a1825028d7af0c012c54006fadb412ac80540350dccec902",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://sdk-cdn.optimove.net/websdk/sdk-v2.0.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.12287299999661627
+      },
+      {
+        "url": "https://stream-559.optimove.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 165,
+        "remoteIPAddress": "34.107.182.216",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"31-C+VMHq0Hn/Jl40lcb/PCFtQikgw\""
+        },
+        "responseBodyHash": "40b59e1877fafc88802f9061cd0abebe954e4c53398cb0af5e09bca5d0126849",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://sdk-cdn.optimove.net/websdk/sdk-v2.0.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.2469679999994696
+      },
+      {
+        "url": "https://stream-559.optimove.net/",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.107.182.216",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://stream-559.optimove.net/"
+        ],
+        "time": 0.11157800000000861
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-api.502386bf6f3f74d9a2bf.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 9545,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=34149600, s-maxage=34149600",
+          "etag": "W/\"4d96dc10f86c6fd12162e54228acd985\""
+        },
+        "responseBodyHash": "fdec575a1287c46394011e2e87775ee34af0a6cf7574d8f090e018f44bea1302",
+        "initiators": [
+          "https://cdn.kustomerapp.com/chat-web/core.js"
+        ],
+        "time": 0.005253999999695225
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-main.001be00872006bede1f7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 36508,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=34149600, s-maxage=34149600",
+          "etag": "W/\"e7b7850273056e0d3ef69460a4b7fbaf\""
+        },
+        "responseBodyHash": "a794a707ffb925e10665a758313c9b002c64aa659a399881317030019554805c",
+        "initiators": [
+          "about:srcdoc"
+        ],
+        "time": 0.0049760000001697335
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/p/v2/chat/brands/601d9965a64ecfddfc572328/settings",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://spanx.api.kustomerapp.com/p/v2/chat/brands/601d9965a64ecfddfc572328/settings"
+        ],
+        "time": 0.1112810000013269
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/p/v1/schedules/default?include=holidays",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://spanx.api.kustomerapp.com/p/v1/schedules/default?include=holidays"
+        ],
+        "time": 0.11074200000075507
+      },
+      {
+        "url": "https://insight.adsrvr.org/track/up?adv=vdrk936&ref=https%3A%2F%2Fspanx.com%2F&upid=bk94izp&upv=1.1.0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 182,
+        "remoteIPAddress": "3.33.220.150",
+        "responseHeaders": {
+          "cache-control": "private,no-cache, must-revalidate",
+          "p3p": "CP=\"NOI DSP COR CUR ADMo DEVo PSAo PSDo OUR SAMo BUS UNI NAV\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://js.adsrvr.org/up_loader.1.1.0.js"
+        ],
+        "time": 0.08313000000271131
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/p/v2/chat/brands/601d9965a64ecfddfc572328/settings",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1536,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "max-age=0,s-maxage=600,public",
+          "etag": "W/\"83c-Cb5+HDloEVZnDkyn4W3c/hJ9Ok8\""
+        },
+        "responseBodyHash": "f1acb207771c0bf941868a9d7af9f34c66cbb79552825a571ee3a104ad13ca2f",
+        "initiators": [
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-main.001be00872006bede1f7.js",
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-api.502386bf6f3f74d9a2bf.js"
+        ],
+        "time": 0.22035200000027544
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/p/v1/schedules/default?include=holidays",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 894,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "no-cache,private",
+          "etag": "W/\"445-J7m6gVUaSGygaBdyL3PZnTmbx4g\""
+        },
+        "responseBodyHash": "6d1678ed31e00101df4da0595b38972be22d41a331ba1bc95e6bf142c5b308a1",
+        "initiators": [
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-main.001be00872006bede1f7.js",
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-api.502386bf6f3f74d9a2bf.js"
+        ],
+        "time": 0.2103369999967981
+      },
+      {
+        "url": "https://static.fbot.me/shopify/friendbuy-shopify.js?merchantId=edeba4b0-672d-48a4-bd79-48491169aad3&shop=spanx-com.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 2501,
+        "remoteIPAddress": "52.222.139.53",
+        "responseHeaders": {
+          "etag": "W/\"9e39d1b322e48b3ac0d6c84166c89087\""
+        },
+        "responseBodyHash": "98a1c2ff2b8e59ab060a282df6b70fbc21740086a74171c492e48779a3b643d3",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.032811999997647945
+      },
+      {
+        "url": "https://d275fvz7g8rvo.cloudfront.net/spanx-com.myshopify.com/online_store_script.js?shop=spanx-com.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1548,
+        "remoteIPAddress": "13.227.220.143",
+        "responseHeaders": {
+          "etag": "\"2e9070620bd13e7171eff1d13b81d59d\""
+        },
+        "responseBodyHash": "a550ae1f242ccbca1c375f20a9d7a5052473583e440a326ab70e77f5f8e4ecc8",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.03411899999991874
+      },
+      {
+        "url": "https://cdn.attn.tv/spanx/dtag.js?shop=spanx-com.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 375,
+        "remoteIPAddress": "13.227.219.65",
+        "responseHeaders": {
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e\""
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.030610000001615845
+      },
+      {
+        "url": "https://app.backinstock.org/widget/42418_1633021094.js?v=5&shop=spanx-com.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 18557,
+        "remoteIPAddress": "104.21.61.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2629746",
+          "etag": "W/\"5dd948ec8ae8055973fdefc0a1372e6f\"",
+          "p3p": "CP=\"Not used\"",
+          "referrer-policy": "strict-origin-when-cross-origin"
+        },
+        "responseBodyHash": "78699a896a7cf957e3edebdaa67ef01b691b298e004c442d62a7cab98941af52",
+        "initiators": [
+          "https://spanx.com/"
+        ],
+        "time": 0.042901000000711065
+      },
+      {
+        "url": "https://11071249.fls.doubleclick.net/activityi;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=2145187977.1640012649;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.198",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://11071249.fls.doubleclick.net/activityi;dc_pre=CPi17JrT8vQCFQmEGwodG0QHBQ;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=2145187977.1640012649;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.032935000002908055
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "216.58.214.2",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Mon, 20 Dec 2021 15:04:08 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.03752800000074785
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 10961,
+        "remoteIPAddress": "204.79.197.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=1D41CE85D7D862983770DF96D62D6348; domain=.bing.com; expires=Sat, 14-Jan-2023 15:04:08 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.06122500000128639
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.11904800000047544
+      },
+      {
+        "url": "https://data.rci.eggplant.cloud/rci.core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 27017,
+        "remoteIPAddress": "52.222.139.96",
+        "responseHeaders": {
+          "etag": "\"5b0ef79735f1315c101a2697789ca57e\""
+        },
+        "responseBodyHash": "ff546350a2012c3d733997c863a2a945310a266910172eb8c552a63879fa4137",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.03708300000289455
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 27032,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.018960000001243316
+      },
+      {
+        "url": "https://dispawsusva.inmoment.com/intercept/v1/init/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1298,
+        "remoteIPAddress": "52.40.201.177",
+        "responseHeaders": {
+          "cache-control": "public, max-age=21600"
+        },
+        "responseBodyHash": "ed02602edcb10c7c637638ae87e4c69d515dcd46434138701c1596aded2c0123",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.6550779999997758
+      },
+      {
+        "url": "https://11071249.fls.doubleclick.net/activityi;register_conversion=1;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=2145187977.1640012649;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F?",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.250.179.198",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:19:08 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.009444999999686843
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=152167002&t=event&ni=1&_s=1&dl=https%3A%2F%2Fspanx.com%2F&ul=en-us&de=UTF-8&dt=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=user&ea=log%20in%20status%20check&el=https%3A%2F%2Fspanx.com%2F&_u=aGDAgEABAAAAAE~&jid=&gjid=&cid=1141028105.1640012648&tid=UA-59904014-4&_gid=1612233210.1640012648&gtm=2wgc10P42L4G5&cd55=1141028105.1640012648&cd4=Logged%20Out&cd16=index&cd17=&z=1805251600",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.003907999998773448
+      },
+      {
+        "url": "https://11071249.fls.doubleclick.net/activityi;dc_pre=CPi17JrT8vQCFQmEGwodG0QHBQ;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=2145187977.1640012649;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F?",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "about:blank",
+        "status": 200,
+        "size": 357,
+        "remoteIPAddress": "142.250.179.198",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:04:08 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "set-cookie": "IDE=AHWqTUnn3qlMObcOdOLUa4eCOI2QeH4h64ZMJ4D4VxgPeTw60GSvPAP5aMElzmW4NCc; expires=Sat, 14-Jan-2023 15:04:08 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fe8286dcd4900d52f452b835b3a460493d441d5c33f4bb61c102c9272e71cef8",
+        "redirectedFrom": "https://11071249.fls.doubleclick.net/activityi;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=2145187977.1640012649;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F?",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.023685999996814644
+      },
+      {
+        "url": "https://rs.fullstory.com/rec/integrations?OrgId=FD0RB",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1807,
+        "remoteIPAddress": "35.186.194.58",
+        "responseHeaders": {},
+        "responseBodyHash": "121b2d4aa69e8b57ff20cc40b9ce42527f8507564da85565682b924229242d0e",
+        "initiators": [
+          "https://edge.fullstory.com/s/fs.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.10210400000141817
+      },
+      {
+        "url": "https://static.fbot.me/friendbuy.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 76093,
+        "remoteIPAddress": "52.222.139.53",
+        "responseHeaders": {
+          "cache-control": "max-age=300",
+          "etag": "W/\"5f6ed02b4f3a8f1440fa7d7453a0c7f3\""
+        },
+        "responseBodyHash": "04c7bb3c7412aa2fa5b288c5e94c8ba25d122d25eadfa92ebb502dbedda7f704",
+        "initiators": [
+          "https://static.fbot.me/shopify/friendbuy-shopify.js?merchantId=edeba4b0-672d-48a4-bd79-48491169aad3&shop=spanx-com.myshopify.com"
+        ],
+        "time": 0.010868999997910578
+      },
+      {
+        "url": "https://campaign.fbot.me/edeba4b0-672d-48a4-bd79-48491169aad3/campaigns.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 172276,
+        "remoteIPAddress": "65.9.83.71",
+        "responseHeaders": {
+          "cache-control": "max-age=30",
+          "etag": "W/\"e2096a39891cf5a12c8599bdc8506c0e\""
+        },
+        "responseBodyHash": "9b7e9722630b9e4c5ab8023e999b33ad60278cceecadc7cf98536dc53310c695",
+        "initiators": [
+          "https://static.fbot.me/shopify/friendbuy-shopify.js?merchantId=edeba4b0-672d-48a4-bd79-48491169aad3&shop=spanx-com.myshopify.com"
+        ],
+        "time": 0.23557100000107312
+      },
+      {
+        "url": "https://stream-559.optimove.net/",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 139,
+        "remoteIPAddress": "34.107.182.216",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"31-E6MZgIeiqasq++gY5LRhJzueRc4\""
+        },
+        "responseBodyHash": "eafd5af7c780a5c77225e9f25895424b01682c63c6d152d13e35b3e04b6a3025",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://sdk-cdn.optimove.net/websdk/sdk-v2.0.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.12254000000029919
+      },
+      {
+        "url": "https://gcm.optimove.events/setCookie?optimove_id=undefined",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 173,
+        "remoteIPAddress": "35.201.65.24",
+        "responseHeaders": {
+          "set-cookie": "optimove_id=undefined; path=/; expires=Tue, 20 Dec 2022 15:04:08 GMT; domain=gcm.optimove.events; samesite=none; secure; httponly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.12362900000152877
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=optimove_dmp&google_cm&tenant_id=68fec512-3864-43d4-904e-f0a0a5518183",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 302,
+        "remoteIPAddress": "216.58.208.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://gcm.optimove.events/?tenant_id=68fec512-3864-43d4-904e-f0a0a5518183&google_gid=CAESEEQh8QracZ0YQbAqI8cmlv8&google_cver=1",
+        "initiators": [],
+        "time": 0.0998890000009851
+      },
+      {
+        "url": "https://edge.fullstory.com/s/fs.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.201.112.186",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600,no-transform",
+          "etag": "\"ae62e8f5c7c7587ea691afdd7b461301\"",
+          "expires": "Mon, 20 Dec 2021 15:19:31 GMT"
+        },
+        "responseBodyHash": "50a5284de7a0b6a18645b623fe7cd7b193ed75387dc21eeb7b8527775fecae24",
+        "initiators": [
+          "https://edge.fullstory.com/s/fs.js"
+        ],
+        "time": 0.000787000000855187
+      },
+      {
+        "url": "https://rs.fullstory.com/rec/bundle?OrgId=FD0RB&UserId=4737481033801728&SessionId=5915755342618624&PageId=5747771393335296&Seq=1&PageStart=1640012648470&PrevBundleTime=0&LastActivity=506&IsNewSession=true",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "35.186.194.58",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "068be1698dfcec0bb09fc603aff3a81ee9ed7da665a983bb8feea9a7b57cb0d9",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js"
+        ],
+        "time": 0.3406490000015765
+      },
+      {
+        "url": "https://utt.impactcdn.com/A2632809-efae-4c7e-a686-8521fb53b19d1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 13633,
+        "remoteIPAddress": "35.186.249.72",
+        "responseHeaders": {
+          "cache-control": "public,max-age=900,s-maxage=300",
+          "etag": "\"132bcc933e69bfb46a239871739a97fb\"",
+          "expires": "Mon, 20 Dec 2021 15:09:09 GMT"
+        },
+        "responseBodyHash": "433a694dfc161806c700e6abe66b1a86b1ea0929a6a1cbf82df8177f39a7828e",
+        "initiators": [
+          "https://d275fvz7g8rvo.cloudfront.net/spanx-com.myshopify.com/online_store_script.js?shop=spanx-com.myshopify.com"
+        ],
+        "time": 0.1291060000003199
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1850640735166026?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 88960,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "8a508ddf393c75e4958a4d01913dcbe5f91c43ed406e045d9e29e4534abd8610",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.24927300000126706
+      },
+      {
+        "url": "https://gcm.optimove.events/?tenant_id=68fec512-3864-43d4-904e-f0a0a5518183&google_gid=CAESEEQh8QracZ0YQbAqI8cmlv8&google_cver=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 38,
+        "remoteIPAddress": "35.201.65.24",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=optimove_dmp&google_cm&tenant_id=68fec512-3864-43d4-904e-f0a0a5518183",
+        "initiators": [],
+        "time": 0.10724800000025425
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/812940769/?random=1640012648989&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1276,
+        "remoteIPAddress": "216.58.214.2",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "289dba3ca6c3c6e4a915b9fa76787d8cd7dab15af638e030eb7c747c6f07630d",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.02412900000126683
+      },
+      {
+        "url": "https://812940769.privacysandbox.googleadservices.com/pagead/privacysandbox/conversion/812940769/?random=1640012648989&cv=9&fst=1640012648989&num=1&fmt=3&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.02159899999969639
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 19101,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.27830099999846425
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/c/v1/tracking/tokens/current",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 201,
+        "size": 1741,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "no-cache,private",
+          "etag": "W/\"38d-uDpYL8CpynrP1m26q9aVJMOa52c\"",
+          "set-cookie": "x-kustomer-tracking-token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzA5YjY5ZWEwMjc3MDAxYTY1ZDgxZSIsIm9yZyI6IjYwMWQ5OTVlN2Y4ZDg5ZjU1ODllOGQ2NCIsInZlcmlmaWVkIjpmYWxzZSwiZXhwIjoxNjQyNjA0NjQ4LCJhdWQiOiJ1cm46Y29uc3VtZXIiLCJpc3MiOiJ1cm46YXBpIn0.vl8QqPgqHHLhXMP9QarfZFpWYMpEj-UR7kSWJNRSUME; Path=/; Expires=Wed, 19 Jan 2022 15:04:09 GMT; HttpOnly; Secure"
+        },
+        "responseBodyHash": "99472d640365e3b27306b4a36532ed2c53b1f3c7096b1501b143a9830aabc886",
+        "initiators": [
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-main.001be00872006bede1f7.js",
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-api.502386bf6f3f74d9a2bf.js",
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/widget-main.a8beeeb49e5deb162bc6.js"
+        ],
+        "time": 0.19331000000238419
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/c/v1/tracking/tokens/current",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://spanx.api.kustomerapp.com/c/v1/tracking/tokens/current"
+        ],
+        "time": 0.09102599999823724
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=152167002&t=event&ni=1&_s=2&dl=https%3A%2F%2Fspanx.com%2F&ul=en-us&de=UTF-8&dt=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&sd=24-bit&sr=800x600&vp=1440x812&je=0&ec=FullStory&_u=aHDAgEABAAAAAE~&jid=&gjid=&cid=1141028105.1640012648&tid=UA-59904014-4&_gid=1612233210.1640012648&gtm=2wgc10P42L4G5&cd55=1141028105.1640012648&cd2=https%3A%2F%2Fapp.fullstory.com%2Fui%2FFD0RB%2Fsession%2F4737481033801728%3A5915755342618624&z=584157899",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://rs.fullstory.com/rec/integrations?OrgId=FD0RB"
+        ],
+        "time": 0.005720999997720355
+      },
+      {
+        "url": "https://adservice.google.com/ddm/fls/z/dc_pre=CPi17JrT8vQCFQmEGwodG0QHBQ;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=*;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://11071249.fls.doubleclick.net/",
+        "status": 200,
+        "size": 494,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://11071249.fls.doubleclick.net/activityi;dc_pre=CPi17JrT8vQCFQmEGwodG0QHBQ;src=11071249;type=cm_wp0;cat=cm_wp0;ord=5968031133521;gtm=2wgc10;auiddc=2145187977.1640012649;u21=https%3A%2F%2Fspanx.com%2F;ps=1;~oref=https%3A%2F%2Fspanx.com%2F?"
+        ],
+        "time": 0.04983400000128313
+      },
+      {
+        "url": "https://bat.bing.com/p/action/26000567.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 111,
+        "remoteIPAddress": "204.79.197.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.022240999998757616
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=26000567&tm=gtm002&Ver=2&mid=5d7fecee-4287-4be8-b15a-c1cd98d0b77a&sid=153e3c3061a611ecaca7f94286a42e73&vid=153e8f2061a611ec9a79312f02129418&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings,%20Denim,%20Shapewear,%20Bras,%20Lingerie%20%E2%80%93%20Spanx&p=https%3A%2F%2Fspanx.com%2F&r=&lt=2024&evt=pageLoad&msclkid=N&sv=1&rn=596888",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 149,
+        "remoteIPAddress": "204.79.197.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-P42L4G5",
+          "https://www.googleoptimize.com/optimize.js?id=OPT-5Z2RSVV"
+        ],
+        "time": 0.021049999999377178
+      },
+      {
+        "url": "https://data.rci.eggplant.cloud/9DE43F28-2574-1F81-AF70-4D5F5198046E/nccrum.config.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1634,
+        "remoteIPAddress": "52.222.139.96",
+        "responseHeaders": {
+          "etag": "\"08f0d2b9d733c166407d59c0b51fc2b3\""
+        },
+        "responseBodyHash": "5d6d7662c55a592a61d3c095272ecbbfcd8bacbc14f72f66bdadfa422bf04f0f",
+        "initiators": [
+          "https://data.rci.eggplant.cloud/rci.core.js"
+        ],
+        "time": 0.006894999998621643
+      },
+      {
+        "url": "https://public.fbot.me/events/edeba4b0-672d-48a4-bd79-48491169aad3/profile/xhr",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "3.211.77.250",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://public.fbot.me/events/edeba4b0-672d-48a4-bd79-48491169aad3/profile/xhr"
+        ],
+        "time": 0.26505700000052457
+      },
+      {
+        "url": "https://public.fbot.me/events/edeba4b0-672d-48a4-bd79-48491169aad3/profile/xhr",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 721,
+        "remoteIPAddress": "3.211.77.250",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "globalId=5e77d347-0e3b-4419-ae8e-c351b47831b8; Max-Age=315360000; Domain=.fbot.me; Path=/; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "982642234326b9243e4387ef4f5d0b5ccbfe7db5d2ce3d2ff24dd54d1f4defd3",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://static.fbot.me/friendbuy.js"
+        ],
+        "time": 0.48362799999813433
+      },
+      {
+        "url": "https://realtime-559.optimove.net/reportEvent",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.102.245.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://realtime-559.optimove.net/reportEvent"
+        ],
+        "time": 0.10866499999974621
+      },
+      {
+        "url": "https://realtime-559.optimove.net/reportEvent",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 187,
+        "remoteIPAddress": "34.102.245.172",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "14811480475c2171ce84c472a6d16a5355ce92a03e8955814fde8827e8a34d55",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://sdk-cdn.optimove.net/websdk/sdk-v2.0.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.21667000000161352
+      },
+      {
+        "url": "https://spanx.sjv.io/xc/2636788/975075/12885",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 746,
+        "remoteIPAddress": "35.227.211.136",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 20 Dec 2021 15:04:09 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"ALL BUS LEG DSP COR ADM CUR DEV PSA OUR NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "brwsr=1569718a-61a6-11ec-92b4-97043536c348; Domain=.sjv.io; Path=/; Secure; Max-Age=62208000; Expires=Sun, 10 Dec 2023 15:04:09 GMT; HttpOnly; SameSite=None\nirld=LR7-2c8yAd1gzVzXwoj2KPSsXU%3AFVmTyuoVEES7eXTTwZ01si; Path=/; Secure; Max-Age=15552000; Expires=Sat, 18 Jun 2022 15:04:09 GMT; HttpOnly; SameSite=None\nirtps=1; Domain=.sjv.io; Path=/; Secure; Max-Age=86400; Expires=Tue, 21 Dec 2021 15:04:09 GMT; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "7af145b77af4d413338c161a24a2540f9ee417fe153285cb2c4c8e4d3fe2f21b",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://utt.impactcdn.com/A2632809-efae-4c7e-a686-8521fb53b19d1.js"
+        ],
+        "time": 0.04904499999975087
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=aZvAYaWgAajVx_APv9megAY&sscte=1&crd=CNPgGw&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPa1XUqaIcRYyFavowTNt_Hn21raugLGbBU",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.com/pagead/1p-conversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=CNPgGw&is_vtc=1&ocp_id=aZvAYaWgAajVx_APv9megAY&cid=CAQSKQCNIrLM6acoy_bqJCeSQ3PG40bHMFYv2NRa8Z_RS8990VgJo0J7jT29&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPboN2-yMSS46XhqB1v2R8H8bZZdua5j8Uk&random=2069451265&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/812940769/?random=1640012648989&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.08830999999918276
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1850640735166026&ev=PageView&dl=https%3A%2F%2Fspanx.com%2F&rl=&if=false&ts=1640012649331&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640012649328.2089824868&it=1640012648949&coo=false&exp=p1&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:04:09 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1850640735166026?v=2.9.48&r=stable"
+        ],
+        "time": 0.01134499999898253
+      },
+      {
+        "url": "https://www.ojrq.net/p/?return=&cid=12885&tpsync=no",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 416,
+        "remoteIPAddress": "34.95.127.121",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "expires": "Mon, 20 Dec 2021 15:04:09 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"ALL BUS LEG DSP COR ADM CUR DEV PSA OUR NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "brwsr=156f3e04-61a6-11ec-bf66-71991f65daf5; Domain=.ojrq.net; Path=/; Secure; Max-Age=62208000; Expires=Sun, 10 Dec 2023 15:04:09 GMT; HttpOnly; SameSite=None"
+        },
+        "responseBodyHash": "a407cc9d0d4c17d53f865ffa6392c139f94fa206a7352ca6cba08373023c031f",
+        "initiators": [
+          "https://utt.impactcdn.com/A2632809-efae-4c7e-a686-8521fb53b19d1.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js"
+        ],
+        "time": 0.022301000000879867
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/c/v2/chat/sessions?page=1&pageSize=100",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 656,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "no-cache,private",
+          "etag": "W/\"b1-K9N5m51KLdtTI5spVCtX1VPfujQ\""
+        },
+        "responseBodyHash": "95eb6582621ae24bf4f6f8ff0eeca62330159437097e64947d9bdfceae31a499",
+        "initiators": [
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-main.001be00872006bede1f7.js",
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/core-api.502386bf6f3f74d9a2bf.js",
+          "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/widget-main.a8beeeb49e5deb162bc6.js"
+        ],
+        "time": 0.4424100000032922
+      },
+      {
+        "url": "https://spanx.api.kustomerapp.com/c/v2/chat/sessions?page=1&pageSize=100",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "65.9.83.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://spanx.api.kustomerapp.com/c/v2/chat/sessions?page=1&pageSize=100"
+        ],
+        "time": 0.09185499999875901
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2620573200126&pd=%7B%22np%22%3A%22gtm%22%2C%22em%22%3A%2284983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec%22%2C%22gtm_aem_configs%22%3A%5B%22em%22%5D%7D&cb=1640012649374",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 853,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "cd80ae8e3e2bda63c74d0584cc96aa28d5a54b7a7384ff046ed4082c3d642f6f",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.02951499999835505
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2620573200126&pd=%7B%22np%22%3A%22gtm%22%2C%22em%22%3A%2284983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec%22%2C%22gtm_aem_configs%22%3A%5B%22em%22%5D%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fspanx.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1640012649379",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.029918000000179745
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=CNPgGw&is_vtc=1&ocp_id=aZvAYaWgAajVx_APv9megAY&cid=CAQSKQCNIrLM6acoy_bqJCeSQ3PG40bHMFYv2NRa8Z_RS8990VgJo0J7jT29&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPboN2-yMSS46XhqB1v2R8H8bZZdua5j8Uk&random=2069451265&resp=GooglemKTybQhCsO",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 302,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.google.nl/pagead/1p-conversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=CNPgGw&is_vtc=1&ocp_id=aZvAYaWgAajVx_APv9megAY&cid=CAQSKQCNIrLM6acoy_bqJCeSQ3PG40bHMFYv2NRa8Z_RS8990VgJo0J7jT29&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPboN2-yMSS46XhqB1v2R8H8bZZdua5j8Uk&random=2069451265&resp=GooglemKTybQhCsO&ipr=y&prhg=0",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=aZvAYaWgAajVx_APv9megAY&sscte=1&crd=CNPgGw&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPa1XUqaIcRYyFavowTNt_Hn21raugLGbBU",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/812940769/?random=1640012648989&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.0356530000026396
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 4350,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=5802e325619e8724a07b5cc5b9c44c2b; path=/; expires=Tue, 20 Dec 2022 15:04:09 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZzUDdiVlhoTVZJNmNsZ0dYY1JFYzcyTGlEalpoMjM3R3YxTGtycmRWWTBJVUV4bFY2NnpUcjNEakh6Tm1yRVRaTHVsWDBIMFJsaWFVV05NNzUwVDR0aFBVYXBUQUlETzRXWVV0bjJKOFBka1BiY0lFdXFnUy92SzVxRk1uQXFTayZna2lQZXZidC9NUk5zWm9xZUxqRXNSVDNXeVk9; path=/; expires=Thu, 15 Dec 2022 15:04:09 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Thu, 15 Dec 2022 15:04:09 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://spanx.com/; path=/; expires=Mon, 20 Dec 2021 15:09:09 GMT; domain=.pinterest.com; secure\n_routing_id=\"6bd664f5-ccae-431e-b7f7-f85c24106988\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "652515693f87c6d7728a143b218fcb723874a83a4df0f863bae968992c87ba11",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.2190790000022389
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 275,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.03879600000072969
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-conversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=CNPgGw&is_vtc=1&ocp_id=aZvAYaWgAajVx_APv9megAY&cid=CAQSKQCNIrLM6acoy_bqJCeSQ3PG40bHMFYv2NRa8Z_RS8990VgJo0J7jT29&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPboN2-yMSS46XhqB1v2R8H8bZZdua5j8Uk&random=2069451265&resp=GooglemKTybQhCsO&ipr=y&prhg=0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://www.google.com/pagead/1p-conversion/812940769/?random=818192229&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=CNPgGw&is_vtc=1&ocp_id=aZvAYaWgAajVx_APv9megAY&cid=CAQSKQCNIrLM6acoy_bqJCeSQ3PG40bHMFYv2NRa8Z_RS8990VgJo0J7jT29&eitems=ChEIgPCAjgYQjemNn9nEi6_pARIdAKG2xPboN2-yMSS46XhqB1v2R8H8bZZdua5j8Uk&random=2069451265&resp=GooglemKTybQhCsO",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion/812940769/?random=1640012648989&cv=9&fst=1640012648989&num=1&value=0&label=s0aVCLXM8X4Q4fvRgwM&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2wgc10&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fspanx.com%2F&tiba=SPANX%20by%20Sara%20Blakely%20%7C%20Leggings%2C%20Denim%2C%20Shapewear%2C%20Bras%2C%20Lingerie%20%E2%80%93%20Spanx&auid=2145187977.1640012649&capi=1&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.023600999997142935
+      },
+      {
+        "url": "https://intercept-client.inmoment.com/intercept-client-v1.17.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 44027,
+        "remoteIPAddress": "65.9.83.56",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"7891b2410bc2afe06b3d3948c4b447f5\""
+        },
+        "responseBodyHash": "7ffd9394641d05e2ad4e1004d0fa2503505a257fb7fba8d64c13179e555be01c",
+        "initiators": [
+          "https://dispawsusva.inmoment.com/intercept/v1/init/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false"
+        ],
+        "time": 0.0385759999990114
+      },
+      {
+        "url": "https://dispawsusva.inmoment.com/intercept/v1/customJS/2460/Qav9AceEtDT9itfS4ZQrSQ==?loadTestCustomJS=false",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1717,
+        "remoteIPAddress": "52.40.201.177",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=21600"
+        },
+        "responseBodyHash": "2b5cd001a7397a03b26751a0460144ac2bea26db9aa94dc480c4b7f2f71d3fa0",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://intercept-client.inmoment.com/intercept-client-v1.17.0.js",
+          "https://dispawsusva.inmoment.com/intercept/v1/init/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false"
+        ],
+        "time": 0.6123230000011972
+      },
+      {
+        "url": "https://cdn.kustomerhostedcontent.com/media/601d995e7f8d89f5589e8d64/e67604bea26177492285c43a7325efcd.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 3283,
+        "remoteIPAddress": "65.9.83.79",
+        "responseHeaders": {
+          "etag": "\"c14885763a578e02283b81e14eff35c1\""
+        },
+        "responseBodyHash": "a55e9b161f0de08cb7a0c254799a3a3034b3495b655c4ad9ad0ecb7d507353b1",
+        "initiators": [],
+        "time": 0.03878900000199792
+      },
+      {
+        "url": "https://cdn.kustomerapp.com/chat-web/release-v0.1.205/78b8005afdf9889508069be3bb379096.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 18121,
+        "remoteIPAddress": "65.9.83.11",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=34149600, s-maxage=34149600",
+          "etag": "\"c3324198775d8474b13dc7ccbde51778\""
+        },
+        "responseBodyHash": "a9d85862ab1c583233c0e94d77e9136c66c0be2bf5e699272ff6ed1f23dd209b",
+        "initiators": [],
+        "time": 0.017349000001559034
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 18,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [],
+        "time": 0.006990999998379266
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.1057199999995646
+      },
+      {
+        "url": "https://beacon.rci.eggplant.cloud/api/Beacon",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 481,
+        "remoteIPAddress": "52.49.224.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://spanx.com/"
+        ],
+        "time": 0.08378799999991315
+      },
+      {
+        "url": "https://dispawsusva.inmoment.com/intercept/v1/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false&cacheKey=st9Nmm6oHQtPq6vGNyL5nA",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 1526,
+        "remoteIPAddress": "52.40.201.177",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=3600"
+        },
+        "responseBodyHash": "17000e6772860cb69713ea5d6048faf2327c439e7d2c98cb4b61ed91b3fde2e0",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://intercept-client.inmoment.com/intercept-client-v1.17.0.js",
+          "https://dispawsusva.inmoment.com/intercept/v1/init/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false"
+        ],
+        "time": 0.1590150000010908
+      },
+      {
+        "url": "https://media.fbot-sandbox.me/d02fb8c3-671c-461c-8ae0-b22759afd1ea/media/Montserrat.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 19687,
+        "remoteIPAddress": "13.227.219.105",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"bc3aa95dca08f5fee5291e34959c27bc\""
+        },
+        "responseBodyHash": "d109d2663d3381af49cb672689e27be667a5c925728f53beeeb7f30f106b921c",
+        "initiators": [],
+        "time": 0.03872399999818299
+      },
+      {
+        "url": "https://dispawsusva.inmoment.com/intercept/v1/log",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "52.40.201.177",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://dispawsusva.inmoment.com/intercept/v1/log"
+        ],
+        "time": 0.15374599999995553
+      },
+      {
+        "url": "https://dispawsusva.inmoment.com/intercept/v1/log",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 297,
+        "remoteIPAddress": "52.40.201.177",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://intercept-client.inmoment.com/intercept-client-v1.17.0.js",
+          "https://dispawsusva.inmoment.com/intercept/v1/init/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false"
+        ],
+        "time": 0.326204000000871
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://data.rci.eggplant.cloud/9DE43F28-2574-1F81-AF70-4D5F5198046E/nccrum.config.js"
+        ],
+        "time": 0.10766399999920395
+      },
+      {
+        "url": "https://beacon.rci.eggplant.cloud/api/Beacon",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 204,
+        "size": 481,
+        "remoteIPAddress": "52.49.224.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://data.rci.eggplant.cloud/9DE43F28-2574-1F81-AF70-4D5F5198046E/nccrum.config.js"
+        ],
+        "time": 0.0215040000002773
+      },
+      {
+        "url": "https://static-friendbuy-com.s3.amazonaws.com/widget/friendbuy/Widget/CloseOut-glow.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 60648,
+        "remoteIPAddress": "52.219.112.146",
+        "responseHeaders": {
+          "etag": "\"8fea8c432d6b234fa64da8fb7b80b1a3\""
+        },
+        "responseBodyHash": "b0ed0b822daff85df5ea02565d5f1e57fddee37a70ac8563025806da9917b7de",
+        "initiators": [
+          "https://intercept-client.inmoment.com/intercept-client-v1.17.0.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js",
+          "https://dispawsusva.inmoment.com/intercept/v1/init/2460/Qav9AceEtDT9itfS4ZQrSQ==?testing=false"
+        ],
+        "time": 0.942522999997891
+      },
+      {
+        "url": "https://rs.fullstory.com/rec/bundle?OrgId=FD0RB&UserId=4737481033801728&SessionId=5915755342618624&PageId=5747771393335296&Seq=2&PageStart=1640012648470&PrevBundleTime=1640012649071&LastActivity=4033&IsNewSession=true",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "35.186.194.58",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "d4c0426e1751863a359b588e7bb56745d96b90306fb955098eb32c883ce53729",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js"
+        ],
+        "time": 0.23492199999964214
+      },
+      {
+        "url": "https://rs.fullstory.com/rec/bundle?OrgId=FD0RB&UserId=4737481033801728&SessionId=5915755342618624&PageId=5747771393335296&Seq=3&PageStart=1640012648470&PrevBundleTime=1640012654090&LastActivity=9030&IsNewSession=true",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://spanx.com/",
+        "status": 200,
+        "size": 88,
+        "remoteIPAddress": "35.186.194.58",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://spanx.com"
+        },
+        "responseBodyHash": "1f30895946e4acbbab389a223baafa9a4b6032a740d23a0340252cf048d49c88",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://edge.fullstory.com/s/fs.js"
+        ],
+        "time": 0.1891589999977441
+      }
+    ]
+  }
+}
