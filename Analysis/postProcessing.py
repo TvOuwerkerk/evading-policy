@@ -7,6 +7,19 @@ import base64
 from tqdm import tqdm
 
 DATA_PATH = os.path.join('Corpus-Head-crawl')
+UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
+SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
+                 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
+
+
+def is_request_url_third_party(page_url: str, alternate_page_url: str, request_url: str):
+    split_request_url = parse.urlsplit(request_url)
+    if page_url == split_request_url.netloc or alternate_page_url == split_request_url.netloc:
+        return False
+    # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
+    if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == page_url:
+        return False
+    return True
 
 
 def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
@@ -71,7 +84,7 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
     return ''
 
 
-def check_url_leakage(leaked_url, alternate_leaked_url, target_url):
+def check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: str):
     """
     Check whether (part of) a given URL is leaked in the target URL
     :param leaked_url: URL which is potentially (partially) leaked
@@ -83,11 +96,7 @@ def check_url_leakage(leaked_url, alternate_leaked_url, target_url):
     redirected_domain = parse.urlsplit(alternate_leaked_url).netloc
 
     # If the current request is to a 1st party domain, skip it
-    split_request_url = parse.urlsplit(target_url)
-    if crawled_domain == split_request_url.netloc or redirected_domain == split_request_url.netloc:
-        return None
-    # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
-    if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == crawled_domain:
+    if not is_request_url_third_party(crawled_domain, redirected_domain, target_url):
         return None
 
     # Check if (parts of) the crawled url appear in the request url
@@ -101,6 +110,25 @@ def check_url_leakage(leaked_url, alternate_leaked_url, target_url):
                           'part-found': check.split('-')[0],
                           'encoding': encoding}
         return request_result
+    return None
+
+
+def check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: dict):
+    # If the current request is to a 1st party domain, skip it
+    if not is_request_url_third_party(page_url, alternate_page_url, request_data['url']):
+        return None
+    request_result = {'request-url': request_data['url'],
+                      'referrer-policy': '',
+                      'confirmed-by-response': False}
+    if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
+        if request_data['responseHeaders']['referrer-policy'] in UNSAFE_POLICIES:
+            request_result['referrer-policy'] = request_data['responseHeaders']['referrer-policy']
+            request_result['confirmed-by-response'] = True
+            return request_result
+    if 'referrerPolicy' in request_data:
+        if request_data['referrerPolicy'] in UNSAFE_POLICIES:
+            request_result['referrer-policy'] = request_data['referrerPolicy']
+            return request_result
     return None
 
 
@@ -145,20 +173,27 @@ def find_cmp_occurrences_in_logs():
     return cmp_occurrences
 
 
-def get_request_info(request_data, file_results):
+def get_request_info(request_data, file_results, request_source, alt_request_source):
     request_url = request_data['url']
 
-    if request_url == crawled_url or request_url == strip_fragment(crawled_url):
+    # If we hold the main request to the crawled url, set check if page-wide policy is set
+    if request_url == request_source or request_url == strip_fragment(request_source):
         if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
             referrer_policy = request_data['responseHeaders']['referrer-policy']
             file_results['referrer-policy'] = referrer_policy
-            file_results['referrer-policy-set']: True
+            file_results['referrer-policy-set'] = True
         else:
             file_results['referrer-policy'] = request_data['referrerPolicy']
 
-    result = check_url_leakage(crawled_url, redirected_url, request_url)
-    if result is not None:
-        file_results['request-leakage'].append(result)
+    leakage_result = check_url_leakage(request_source, alt_request_source, request_url)
+    if leakage_result is not None:
+        file_results['request-leakage'].append(leakage_result)
+
+    unsafe_result = check_unsafe_policy(request_source, alt_request_source, request_data)
+    if unsafe_result is not None:
+        file_results['unsafe-outbound'].append(unsafe_result)
+
+    return file_results
 
 
 def strip_fragment(url: str):
@@ -200,7 +235,11 @@ for directory in directories_progress:
                            'referrer-policy': '',
                            'referrer-policy-set': False,
                            'CMP-encountered': '',
-                           'request-leakage': []}
+                           'request-leakage': [],
+                           'unsafe-outbound': []}
+
+            if parse.urlsplit(crawled_url).netloc != parse.urlsplit(redirected_url).netloc:
+                continue
 
             if crawled_url != redirected_url:
                 file_output['redirected-url'] = redirected_url
@@ -209,7 +248,7 @@ for directory in directories_progress:
                 file_output['CMP-encountered'] = cmp_lookup[crawled_url]
 
             for request in requests:
-                get_request_info(request, file_output)
+                file_output = get_request_info(request, file_output, crawled_url, redirected_url)
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
