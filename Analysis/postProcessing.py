@@ -118,17 +118,18 @@ def check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: di
     if not is_request_url_third_party(page_url, alternate_page_url, request_data['url']):
         return None
     request_result = {'request-url': request_data['url'],
-                      'referrer-policy': '',
-                      'confirmed-by-response': False}
-    if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
-        if request_data['responseHeaders']['referrer-policy'] in UNSAFE_POLICIES:
-            request_result['referrer-policy'] = request_data['responseHeaders']['referrer-policy']
-            request_result['confirmed-by-response'] = True
-            return request_result
-    if 'referrerPolicy' in request_data:
-        if request_data['referrerPolicy'] in UNSAFE_POLICIES:
-            request_result['referrer-policy'] = request_data['referrerPolicy']
-            return request_result
+                      'request-referrer-policy': ''}
+    request_policy = request_data['referrerPolicy']
+    if (request_policy == 'no-referrer-when-downgrade' and parse.urlparse(request_data['url']).scheme == 'http')\
+            or request_policy == 'unsafe-ur':
+        request_result['referrer-policy'] = request_policy
+        if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
+            response_policy = request_data['responseHeaders']['referrer-policy']
+            if response_policy == request_policy:
+                request_result['equal-to-response'] = True
+            else:
+                request_result['equal-to-response'] = False
+        return request_result
     return None
 
 
