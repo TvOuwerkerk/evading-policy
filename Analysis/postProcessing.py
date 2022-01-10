@@ -5,8 +5,10 @@ import urllib.parse as parse
 import hashlib
 import base64
 from tqdm import tqdm
+from sanityCheck import SanityCheck
+import fileUtils
 
-DATA_PATH = os.path.join('Corpus-Head-crawl')
+DATA_PATH = os.path.join('Corpus-crawl')
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
 SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
                  'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
@@ -68,8 +70,7 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
     encodings.append(encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
     encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
-    encodings.append(
-        encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
+    encodings.append(encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
 
     for dictionary in encodings:
         search_dict.update(dictionary)
@@ -133,34 +134,8 @@ def check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: di
     return None
 
 
-def save_data_to_admin(file_data, admin_directory):
-    """
-    Saves given data to the admin-file found in the given directory
-    :param admin_directory: directory in which admin-file is located
-    :param file_data: data that needs to be added to results object in admin-file
-    :return: None
-    """
-    admin_file_path = glob.glob(os.path.join(admin_directory, 'admin.*.json'))[0]
-    with open(admin_file_path, 'r+', encoding='utf-8') as admin:
-        admin_data = json.load(admin)
-        try:
-            admin_data['results'].append(file_data)
-        except KeyError:
-            admin_data['results'] = []
-            admin_data['results'].append(file_data)
-        admin.seek(0)
-        json.dump(admin_data, admin, indent=4)
-        admin.truncate()
-
-
-def file_is_crawled_data(filename: str):
-    return not (filename.startswith(os.path.join(directory_path, 'links'))
-                or filename.startswith(os.path.join(directory_path, 'admin'))
-                or filename.startswith(os.path.join(directory_path, 'metadata')))
-
-
 def find_cmp_occurrences_in_logs():
-    log_files = glob.glob(os.path.join(DATA_PATH, '*.log'))
+    log_files = fileUtils.get_log_files(DATA_PATH)
     cmp_occurrences = {}
     for log_file in log_files:
         with open(log_file, 'r', encoding='utf-8') as log_inp:
@@ -180,7 +155,6 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
     Sets 'referrer-policy' and 'referrer-policy-set' fields if this request is made to (alt_)request_source
     Adds request to 'request-leakage' list if this request leaked info on the (alt_)request_source
     Adds request to 'unsafe-outbound' list of request was made to third party using an unsafe referrer-policy
-    Prints a message if the request's referrer-policy differs from its response's referrer-policy
     :param request_data: dictionary containing the data of the request
     :param file_results: dictionary to which data about the request must be saved
     :param request_source: url from which the request was made
@@ -244,32 +218,45 @@ def strip_scheme_and_fragment(url: str):
 
 
 # Find all directories which have data saved to them
-data_directories = [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
+data_directories = fileUtils.get_data_dirs(DATA_PATH)
 files = []
-directories_progress = tqdm(data_directories)
-cmp_lookup = find_cmp_occurrences_in_logs()
-for directory in directories_progress:
+cmp_lookup_dict = find_cmp_occurrences_in_logs()
+sanity_check = SanityCheck()
+for directory in tqdm(data_directories):
+    sanity_check.incr_nr_dirs()
     # Create object to save results into
     results = []
     # Find all .json files that contain crawled data
     directory_path = os.path.join(DATA_PATH, directory)
-    files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if file_is_crawled_data(x)]
+    files = fileUtils.get_data_files(directory_path)
+    sanity_check.add_to_page_counts(len(files))
+
+    with open(glob.glob(os.path.join(directory_path, 'admin.*.json'))[0], 'r', encoding='utf-8') as admin_file:
+        nr_visited = len(list(json.load(admin_file)['visited']))
+        sanity_check.add_to_results_ratio(len(files), nr_visited)
+
     for file in files:
         with open(file, 'r', encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
             data: dict = json.load(data_file)
 
             # Get the requests gathered and url visited
-            requests = list(data['data']['requests'])
+            try:
+                requests = list(data['data']['requests'])
+                if len(requests) == 0:
+                    raise KeyError
+            except KeyError:
+                sanity_check.incr_requestless()
+                continue
             crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
             redirected_url = data['finalUrl']
             # Create file_output object, containing all results that need to be saved to the admin-file later
             file_output = {'crawled-url': crawled_url,
+                           'CMP-encountered': '',
                            'redirected-url': '',
                            'referrer-policy': '',
                            'referrer-policy-set': False,
                            'policies-used': {},
-                           'CMP-encountered': '',
                            'request-leakage': [],
                            'unsafe-outbound': [],
                            'downgrade-policy': []}
@@ -280,14 +267,18 @@ for directory in directories_progress:
             if crawled_url != redirected_url:
                 file_output['redirected-url'] = redirected_url
 
-            if crawled_url in cmp_lookup:
-                file_output['CMP-encountered'] = cmp_lookup[crawled_url]
+            if crawled_url in cmp_lookup_dict:
+                file_output['CMP-encountered'] = cmp_lookup_dict[crawled_url]
 
             for request in requests:
                 if request['type'] == 'WebSocket':
                     continue
-                file_output = get_request_info(request, file_output, crawled_url, redirected_url)
+                # file_output = get_request_info(request, file_output, crawled_url, redirected_url)
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
-            save_data_to_admin(file_output, directory_path)
+            # save_data_to_admin(file_output, directory_path)
+print(sanity_check)
+
+# TODO: consider cases where browser uses less strict policy than response indicates?
+# TODO: count policies used only for 3rd-party requests? Wouldn't overcount unsafe policies if these are only applied to first party
