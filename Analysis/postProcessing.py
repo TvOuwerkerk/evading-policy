@@ -1,6 +1,5 @@
 import json
-import os
-import glob
+import os.path
 import urllib.parse as parse
 import hashlib
 import base64
@@ -224,18 +223,21 @@ cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
 for directory in tqdm(data_directories):
     sanity_check.incr_nr_dirs()
-    # Create object to save results into
-    results = []
     # Find all .json files that contain crawled data
     directory_path = os.path.join(DATA_PATH, directory)
     files = fileUtils.get_data_files(directory_path)
     sanity_check.add_to_page_counts(len(files))
 
-    with open(glob.glob(os.path.join(directory_path, 'admin.*.json'))[0], 'r', encoding='utf-8') as admin_file:
+    with open(fileUtils.get_admin_file(directory_path), 'r', encoding='utf-8') as admin_file:
         nr_visited = len(list(json.load(admin_file)['visited']))
         sanity_check.add_to_results_ratio(len(files), nr_visited)
 
     for file in files:
+        dir_name = os.path.split(directory)[1].strip('data').strip('.')
+        # If the filename does not include the domain in the data folder name, it was redirected and should be ignored
+        if dir_name not in os.path.split(file)[1]:
+            sanity_check.incr_nr_redirects()
+            continue
         with open(file, 'r', encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
             data: dict = json.load(data_file)
@@ -250,6 +252,10 @@ for directory in tqdm(data_directories):
                 continue
             crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
             redirected_url = data['finalUrl']
+            if parse.urlparse(crawled_url).netloc != parse.urlparse(redirected_url).netloc:
+                # If this file contains data on a domain outside the crawled domain, ignore the file.
+                sanity_check.incr_nr_redirects()
+                continue
             # Create file_output object, containing all results that need to be saved to the admin-file later
             file_output = {'crawled-url': crawled_url,
                            'CMP-encountered': '',

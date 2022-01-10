@@ -3,6 +3,12 @@ import os
 import json
 
 
+def get_corpus():
+    corpus_path = glob.glob('Corpus')[0]
+    with open(corpus_path, 'r') as corpus:
+        return corpus.readlines()
+
+
 def get_data_dirs(data_path):
     """
     Get a list of 'data.*' folders located in the folder pointed to by data_path
@@ -52,4 +58,3 @@ def save_data_to_admin(file_data, admin_directory):
         admin.seek(0)
         json.dump(admin_data, admin, indent=4)
         admin.truncate()
-
