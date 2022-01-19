@@ -1,6 +1,28 @@
 import glob
 import os
 import json
+import csv
+
+
+DATA_PATH = os.path.join('Corpus-crawl')
+CSV_RESULTS_FILE = os.path.join('results.csv')
+TRANCO_LIST_FILE = os.path.join('Tranco-P99J-202107.csv')
+
+
+def get_data_path():
+    return DATA_PATH
+
+
+def get_csv_results_file():
+    return CSV_RESULTS_FILE
+
+
+def get_tranco_ranking():
+    with open(TRANCO_LIST_FILE, 'r') as tranco:
+        output = []
+        for row in csv.reader(tranco):
+            output.append(row[0])
+        return output
 
 
 def get_corpus():
