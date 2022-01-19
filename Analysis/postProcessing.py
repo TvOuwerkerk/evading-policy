@@ -1,26 +1,32 @@
+import csv
 import json
 import os.path
 import urllib.parse as parse
 import hashlib
 import base64
+import tld
 from tqdm import tqdm
 from sanityCheck import SanityCheck
 import fileUtils
 
-DATA_PATH = os.path.join('Corpus-crawl')
+DATA_PATH = fileUtils.get_data_path()
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
 SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
                  'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
+RESULTS_CSV = fileUtils.get_csv_results_file()
+TRANCO_RANKING = fileUtils.get_tranco_ranking()
 
 
 def is_request_url_third_party(page_url: str, alternate_page_url: str, request_url: str):
-    split_request_url = parse.urlsplit(request_url)
-    if page_url == split_request_url.netloc or alternate_page_url == split_request_url.netloc:
+    if request_url.startswith('blob:'):
+        request_url = request_url[5:]
+    try:
+        request_fld = tld.get_fld(request_url, fix_protocol=True)
+        if request_fld in [tld.get_fld(page_url, fix_protocol=True), tld.get_fld(alternate_page_url, fix_protocol=True)]:
+            return False
+        return True
+    except Exception:
         return False
-    # Same thing, but urllib has trouble dealing with 'blob:' urls, so we check for that case here
-    if split_request_url.netloc == '' and parse.urlsplit(split_request_url.path).netloc == page_url:
-        return False
-    return True
 
 
 def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
@@ -120,8 +126,8 @@ def check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: di
     request_result = {'request-url': request_data['url'],
                       'request-referrer-policy': ''}
     request_policy = request_data['referrerPolicy']
-    if (request_policy == 'no-referrer-when-downgrade' and parse.urlparse(request_data['url']).scheme == 'http')\
-            or request_policy == 'unsafe-ur':
+    if (request_policy == 'no-referrer-when-downgrade' and parse.urlparse(request_data['url']).scheme == 'http') \
+            or request_policy == 'unsafe-url':
         request_result['referrer-policy'] = request_policy
         if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
             response_policy = request_data['responseHeaders']['referrer-policy']
@@ -171,7 +177,7 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
         response_ref_policy = ''
 
     # If we hold the main request to the crawled url, set check if page-wide policy is set
-    if request_url == request_source or request_url == strip_fragment(request_source)\
+    if request_url == request_source or request_url == strip_fragment(request_source) \
             or request_url == alt_request_source or request_url == strip_fragment(alt_request_source):
         if response_ref_policy:
             file_results['referrer-policy'] = response_ref_policy
@@ -216,12 +222,24 @@ def strip_scheme_and_fragment(url: str):
     return strip_scheme(strip_fragment(url))
 
 
+def get_domain_rank(domain: str):
+    try:
+        return TRANCO_RANKING.index(domain)
+    except ValueError:
+        return -1
+
+
 # Find all directories which have data saved to them
 data_directories = fileUtils.get_data_dirs(DATA_PATH)
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
 for directory in tqdm(data_directories):
+    dir_name = os.path.split(directory)[1][5:]
+    csv_results_row = [dir_name, get_domain_rank(dir_name), None]
+    policies_on_domain = set()
+    leakage_to_domains = set()
     sanity_check.incr_nr_dirs()
+
     # Find all .json files that contain crawled data
     directory_path = os.path.join(DATA_PATH, directory)
     files = fileUtils.get_data_files(directory_path)
@@ -233,7 +251,6 @@ for directory in tqdm(data_directories):
 
     for file in files:
         sanity_check.incr_nr_pages()
-        dir_name = os.path.split(directory)[1].strip('data').strip('.')
         # If the filename does not include the domain in the data folder name, it was redirected and should be ignored
         if dir_name not in os.path.split(file)[1]:
             sanity_check.incr_nr_redirects()
@@ -251,10 +268,10 @@ for directory in tqdm(data_directories):
                 sanity_check.incr_requestless()
                 continue
             crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
-            redirected_url = data['finalUrl']
+            final_url = data['finalUrl']
 
             # If this file contains data on a domain outside the intended domain, ignore the file.
-            if parse.urlparse(crawled_url).netloc != parse.urlparse(redirected_url).netloc:
+            if tld.get_fld(crawled_url) != tld.get_fld(final_url):
                 sanity_check.incr_nr_redirects()
                 continue
 
@@ -269,20 +286,29 @@ for directory in tqdm(data_directories):
                            'unsafe-outbound': [],
                            'downgrade-policy': []}
 
-            if crawled_url != redirected_url:
-                file_output['redirected-url'] = redirected_url
+            if crawled_url != final_url:
+                file_output['redirected-url'] = final_url
 
-            if crawled_url in cmp_lookup_dict:
-                file_output['CMP-encountered'] = cmp_lookup_dict[crawled_url]
+            if final_url in cmp_lookup_dict:
+                file_output['CMP-encountered'] = cmp_lookup_dict[final_url]
+                # If a CMP was not already set for this domain, set it now
+                if csv_results_row[2] is None: csv_results_row[2] = cmp_lookup_dict[final_url]
 
             for request in requests:
                 if request['type'] == 'WebSocket':
                     continue
-                file_output = get_request_info(request, file_output, crawled_url, redirected_url)
+                file_output = get_request_info(request, file_output, crawled_url, final_url)
+
+            for k in file_output['policies-used'].keys(): policies_on_domain.add(k)
+            for i in file_output['request-leakage']: leakage_to_domains.add(tld.get_fld(i['request-url']))
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
             fileUtils.save_data_to_admin(file_output, directory_path)
-print(sanity_check)
 
-# TODO: consider cases where browser uses less strict policy than response indicates?
+    csv_results_row.append(list(policies_on_domain))  # Add list of used policies on this domain to result entry
+    csv_results_row.append(list(leakage_to_domains))  # Add list of domains being leaked to on this domain to result
+    with open(RESULTS_CSV, 'a', newline='') as results_csv:
+        results_writer = csv.writer(results_csv)
+        results_writer.writerow(csv_results_row)  # When done with this data folder, add its results to results file
+print(sanity_check)
