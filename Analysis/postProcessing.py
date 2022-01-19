@@ -8,6 +8,7 @@ import tld
 from tqdm import tqdm
 from sanityCheck import SanityCheck
 import fileUtils
+import validators
 
 DATA_PATH = fileUtils.get_data_path()
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
@@ -269,6 +270,11 @@ for directory in tqdm(data_directories):
                 continue
             crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
             final_url = data['finalUrl']
+
+            # If the page visited did not end up at a valid url, skip this entry
+            if not validators.url(final_url):
+                sanity_check.incr_nr_invalid_urls()
+                continue
 
             # If this file contains data on a domain outside the intended domain, ignore the file.
             if tld.get_fld(crawled_url) != tld.get_fld(final_url):
