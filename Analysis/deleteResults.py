@@ -3,8 +3,8 @@ import os
 from tqdm import tqdm
 import fileUtils
 
-
-DATA_PATH = os.path.join('Corpus-crawl')
+DATA_PATH = fileUtils.get_data_path()
+RESULTS_CSV = fileUtils.get_csv_results_file()
 
 data_directories = fileUtils.get_data_dirs(DATA_PATH)
 for directory in tqdm(data_directories):
@@ -19,3 +19,4 @@ for directory in tqdm(data_directories):
         admin.seek(0)
         json.dump(admin_data, admin, indent=4)
         admin.truncate()
+open(RESULTS_CSV, 'w').close()
