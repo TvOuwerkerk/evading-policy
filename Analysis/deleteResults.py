@@ -4,7 +4,7 @@ from tqdm import tqdm
 import fileUtils
 
 
-DATA_PATH = os.path.join('Corpus-Head-crawl')
+DATA_PATH = os.path.join('Corpus-crawl')
 
 data_directories = fileUtils.get_data_dirs(DATA_PATH)
 for directory in tqdm(data_directories):

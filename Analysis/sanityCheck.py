@@ -31,9 +31,10 @@ class ResultsRatio:
 
 
 class SanityCheck(object):
-    def __init__(self, nr_dirs=0, nr_redirects=0, page_counts=PageCounts(), requestless_data=0,
+    def __init__(self, nr_dirs=0, nr_pages=0, nr_redirects=0, page_counts=PageCounts(), requestless_data=0,
                  results_visited_ratio=ResultsRatio()):
         self.nr_dirs = nr_dirs
+        self.nr_pages = nr_pages
         self.nr_redirects = nr_redirects
         self.page_counts = page_counts
         self.requestless_data = requestless_data
@@ -41,13 +42,14 @@ class SanityCheck(object):
 
     def __str__(self):
         return f'Number of data directories: {self.nr_dirs}\n' \
+               f'Number of pages: {self.nr_pages}\n' \
                f'Number of pages redirected to outside domain: {self.nr_redirects}\n'\
-               f'Summary of #pages visited:\n' \
-               f'\t=0 : {self.page_counts.equals_zero}\n' \
-               f'\t<21: {self.page_counts.less_than_21}\n' \
-               f'\t=21: {self.page_counts.equals_21}\n' \
-               f'\t>21: {self.page_counts.greater_than_21}\n' \
                f'Number of data-files without requests: {self.requestless_data} \n' \
+               f'Summary of #pages visited:\n' \
+               f'\t=0/1: {self.page_counts.equals_zero}\n' \
+               f'\t<21 : {self.page_counts.less_than_21}\n' \
+               f'\t=21 : {self.page_counts.equals_21}\n' \
+               f'\t>21 : {self.page_counts.greater_than_21}\n' \
                f'Summary of visited/results ratio: \n' \
                f'\t #results < #visited: {self.results_visited_ratio.fewer_results}\n' \
                f'\t #results > #visited: {self.results_visited_ratio.more_results}\n'
@@ -55,13 +57,16 @@ class SanityCheck(object):
     def incr_nr_dirs(self):
         self.nr_dirs += 1
 
+    def incr_nr_pages(self):
+        self.nr_pages += 1
+
     def incr_nr_redirects(self):
         self.nr_redirects += 1
 
     def add_to_page_counts(self, page_count: int):
         if page_count < 0:
-            raise ValueError
-        if page_count == 0:
+            raise ValueError('page count cannot be negative')
+        if page_count in [0, 1]:
             self.page_counts.incr_equals_0()
         elif page_count < 21:
             self.page_counts.incr_less_than_21()

@@ -218,7 +218,6 @@ def strip_scheme_and_fragment(url: str):
 
 # Find all directories which have data saved to them
 data_directories = fileUtils.get_data_dirs(DATA_PATH)
-files = []
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
 for directory in tqdm(data_directories):
@@ -233,6 +232,7 @@ for directory in tqdm(data_directories):
         sanity_check.add_to_results_ratio(len(files), nr_visited)
 
     for file in files:
+        sanity_check.incr_nr_pages()
         dir_name = os.path.split(directory)[1].strip('data').strip('.')
         # If the filename does not include the domain in the data folder name, it was redirected and should be ignored
         if dir_name not in os.path.split(file)[1]:
@@ -252,10 +252,12 @@ for directory in tqdm(data_directories):
                 continue
             crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
             redirected_url = data['finalUrl']
+
+            # If this file contains data on a domain outside the intended domain, ignore the file.
             if parse.urlparse(crawled_url).netloc != parse.urlparse(redirected_url).netloc:
-                # If this file contains data on a domain outside the crawled domain, ignore the file.
                 sanity_check.incr_nr_redirects()
                 continue
+
             # Create file_output object, containing all results that need to be saved to the admin-file later
             file_output = {'crawled-url': crawled_url,
                            'CMP-encountered': '',
@@ -267,9 +269,6 @@ for directory in tqdm(data_directories):
                            'unsafe-outbound': [],
                            'downgrade-policy': []}
 
-            if parse.urlsplit(crawled_url).netloc != parse.urlsplit(redirected_url).netloc:
-                continue
-
             if crawled_url != redirected_url:
                 file_output['redirected-url'] = redirected_url
 
@@ -279,12 +278,11 @@ for directory in tqdm(data_directories):
             for request in requests:
                 if request['type'] == 'WebSocket':
                     continue
-                # file_output = get_request_info(request, file_output, crawled_url, redirected_url)
+                file_output = get_request_info(request, file_output, crawled_url, redirected_url)
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
-            # save_data_to_admin(file_output, directory_path)
+            fileUtils.save_data_to_admin(file_output, directory_path)
 print(sanity_check)
 
 # TODO: consider cases where browser uses less strict policy than response indicates?
-# TODO: count policies used only for 3rd-party requests? Wouldn't overcount unsafe policies if these are only applied to first party
