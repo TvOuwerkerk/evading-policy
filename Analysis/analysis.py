@@ -1,6 +1,5 @@
 import itertools
 import json
-import urllib.parse
 import urllib.parse as parse
 import os.path
 import re
@@ -9,18 +8,41 @@ from tqdm import tqdm
 from pprint import pprint
 import fileUtils
 
-DATA_PATH = '.\\Corpus-crawl'
+# CONSTANTS
+DATA_PATH = fileUtils.get_data_path()
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
 SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
                  'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
 
+# INIT
+no_results = 0
+no_results_list = []
+summary_counters = {'leakage': 0, 'sets-policy': 0, 'unsafe-policy': 0, 'circumvention': 0,
+                    'policies-used': {}, 'leaked-to': {}}
+data_directories = fileUtils.get_data_dirs(DATA_PATH)
 
-def get_results_data(data: dict):
+
+def get_results_data_from_admin(data: dict):
     try:
         results_data = data['results']
         return results_data
     except KeyError:
         return None
+
+
+def get_crawled_url_from_results(result):
+    try:
+        url = result['redirected-url']
+    except KeyError:
+        url = result['crawled-url']
+    return url
+
+
+def url_is_netloc_only(url):
+    parsed_url = parse.urlparse(url)
+    if parsed_url.path in ['', '/'] and parsed_url.query == '' and parsed_url.fragment == '':
+        return True
+    return False
 
 
 def report_on_nr_visited(nr_visited, report_domain):
@@ -36,8 +58,7 @@ def report_on_nr_visited(nr_visited, report_domain):
 def report_on_unsafe_policy(result, report_domain):
     ref_pol = result['referrer-policy']
     if ref_pol in UNSAFE_POLICIES:
-        # TODO For large sets, it is better to forego printing
-        # print(f'{report_domain} uses unsafe referrer-policy {ref_pol}')
+        # print(f'{report_domain} uses unsafe referrer-policy {ref_pol}') TODO
         return True
     return False
 
@@ -76,57 +97,45 @@ def update_leakage_domains(leakage_domains: set, leakage_dict: dict):
     return leakage_dict
 
 
+# TODO: handle logging/reporting of outliers
 # TODO: split code into functions for better readability of main code
-# TODO: consider leakage from non-front page URLs as more interesting printable result
 # TODO: split reporting unsafe global policies from reporting on unsafe request-specific policies
-
-# TODO: leakage to paypal in admin.1upkeyboards, first request, is not reported on
-summary_counters = {'leakage': 0, 'sets-policy': 0, 'unsafe-policy': 0, 'circumvention': 0,
-                    'policies-used': {}, 'leaked-to': {}}
-
-data_directories = fileUtils.get_data_dirs(DATA_PATH)
-no_results = 0
-no_results_list = []
+# TODO: import ranked Tranco list + create function to find position for given url
 for directory in tqdm(data_directories):
     directory_path = os.path.join(DATA_PATH, directory)
     admin_file_path = fileUtils.get_admin_file(directory_path)
     unsafe_policy_on_domain = False
-    # TODO: count cases where policy was set through http
-    domain_circumvents_policy = False
+    domain_circumvents_policy = False  # TODO: count cases where policy was set through http
     encountered_policies = set()
     encountered_leakage = set()
 
     with open(admin_file_path, 'r') as admin:
-        admin_data = json.load(admin)
         # Get results of all pages on this domain, continue if this fails
-        results = get_results_data(admin_data)
+        results = get_results_data_from_admin(json.load(admin))
         if not results:
-            # TODO: figure out causes for no results -> redirects on initial landing cause 0 usable results
-            # print(f'Error: No results in: {admin_file_path}')
+            # print(f'Error: No results in: {admin_file_path}') TODO
             no_results += 1
             no_results_list.append(os.path.split(admin_file_path)[1])
             continue
-        # TODO: handle logging/reporting of outliers
-        # report_on_nr_visited(len(results), os.path.split(admin_file_path)[1])
+        # report_on_nr_visited(len(results), os.path.split(admin_file_path)[1]) TODO
 
         # Consider results of all crawled pages on this domain
         for r in results:
             # Skip cases where the crawled url has no interesting parts to detect as leakage
-            parsed_url = parse.urlparse(r['crawled-url'])
-            if parsed_url.path in ['', '/'] and parsed_url.query == '' and parsed_url.fragment == '':
+            crawled_url = get_crawled_url_from_results(r)
+            if url_is_netloc_only(crawled_url):
                 continue
-            crawled_domain = parsed_url.netloc
+
             try:
                 referrer_policy = r['referrer-policy']
-                for x in re.split(r'[,|\n| ]', referrer_policy):
+                for x in re.split(r'[,\n ]', referrer_policy):
                     encountered_policies.add(x)
             except KeyError:
-                # TODO: handle logging/reporting of outliers
-                # print(f'No referrer-policy found for page: {r["crawled-url"]}')
+                # print(f'No referrer-policy found for page: {r["crawled-url"]}') TODO
                 continue
 
             # If the crawled page uses a referrer-policy that has not been seen on this domain, check if it's unsafe
-            unsafe_policy_on_domain = report_on_unsafe_policy(r, crawled_domain)
+            unsafe_policy_on_domain = report_on_unsafe_policy(r, tld.get_fld(crawled_url))
 
             # If the crawled page uses a safe referrer-policy, there's a chance this is being circumvented
             if referrer_policy in SAFE_POLICIES and 'request-leakage' in r:
@@ -143,13 +152,11 @@ for directory in tqdm(data_directories):
                 # If we encountered any leakage on this specific page, print accordingly
                 if current_leakage:
                     domain_circumvents_policy = True
-                    # TODO: handle logging/reporting of specific results
-                    # print(f'{crawled_domain} circumvents policy \"{referrer_policy}\" and leaks to:')
+                    # print(f'{crawled_domain} circumvents policy \"{referrer_policy}\" and leaks to:') TODO
                     for leak in current_leakage:
                         if not leak.startswith('www'):
                             leak = f'www.{leak}'
-                        # TODO: handle logging/reporting of specific results
-                        # print(f'\t{leak}')
+                        # print(f'\t{leak}') TODO
 
         update_summary_count(encountered_leakage, unsafe_policy_on_domain, domain_circumvents_policy)
         summary_counters['policies-used'] = update_policies_used(encountered_policies,
@@ -158,7 +165,7 @@ for directory in tqdm(data_directories):
 
 print('=== SUMMARY ===')
 print(f'Admin files without results: {no_results}')
-print(no_results_list)
+# print(no_results_list)
 print('')
 print(f'Domains counted: {len(data_directories)}')
 print(f'Encountered leakages: {summary_counters["leakage"]}')
@@ -173,4 +180,4 @@ leak_dict_length = len(summary_counters['leaked-to'])
 print(f'Domains leaked to on circumvention: ({leak_dict_length})')
 sliced_dictionary = dict(itertools.islice(sort_dict(summary_counters['leaked-to']).items(),
                                           leak_dict_length - 20, leak_dict_length))
-pprint(sliced_dictionary, sort_dicts=False)
+# pprint(sliced_dictionary, sort_dicts=False)
