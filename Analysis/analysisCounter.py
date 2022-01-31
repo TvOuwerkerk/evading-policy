@@ -49,6 +49,8 @@ class AnalysisCounter:
             for x in bucket_item[1].items():
                 output_string += f'\t{x[0]}: {x[1]} ({round(x[1]/sum(bucket_item[1].values())*100, 1)}%),\n'
 
+        return output_string
+
     def incr_counters(self, rank: int, cmp: str, items: List[str]):
         self.total_entries += 1
         if cmp:
