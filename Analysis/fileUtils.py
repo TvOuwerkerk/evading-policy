@@ -48,6 +48,13 @@ def get_data_files(directory_path: str):
             or x.startswith(os.path.join(directory_path, 'metadata')))]
 
 
+def get_links_files(directory_path: str):
+    """
+    Get a list of links. files containing scraped links, in the data-folder pointed to by directory_path
+    """
+    return glob.glob(os.path.join(directory_path, 'links.*.json'))
+
+
 def get_log_files(directory_path):
     """
     Get a list of log files in the folder pointed to by directory_path
