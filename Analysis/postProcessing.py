@@ -1,14 +1,20 @@
 import csv
 import json
 import os.path
-import urllib.parse as parse
+
 import hashlib
 import base64
-import tld
+
+import urllib.parse as parse
+from tld import get_fld
+import validators
+
+import re
+from collections import defaultdict
 from tqdm import tqdm
+
 from sanityCheck import SanityCheck
 import fileUtils
-import validators
 
 DATA_PATH = fileUtils.get_data_path()
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
@@ -22,8 +28,8 @@ def is_request_url_third_party(page_url: str, alternate_page_url: str, request_u
     if request_url.startswith('blob:'):
         request_url = request_url[5:]
     try:
-        request_fld = tld.get_fld(request_url, fix_protocol=True)
-        if request_fld in [tld.get_fld(page_url, fix_protocol=True), tld.get_fld(alternate_page_url, fix_protocol=True)]:
+        request_fld = get_fld(request_url, fix_protocol=True)
+        if request_fld in [get_fld(page_url, fix_protocol=True), get_fld(alternate_page_url, fix_protocol=True)]:
             return False
         return True
     except Exception:
@@ -155,6 +161,14 @@ def find_cmp_occurrences_in_logs():
     return cmp_occurrences
 
 
+def process_policy_string(policy_string):
+    split_string = re.split(r'[,\n ]', policy_string)
+    for s in split_string:
+        if not s:
+            split_string.remove(s)
+    return split_string
+
+
 def get_request_info(request_data: dict, file_results: dict, request_source: str, alt_request_source: str):
     """
     Takes a request as dictionary and adds inferred data to the file_results dictionary.
@@ -202,11 +216,10 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
     if unsafe_result is not None:
         file_results['unsafe-outbound'].append(unsafe_result)
 
-    policy_used = response_ref_policy if response_ref_policy else request_ref_policy
-    try:
-        file_results['policies-used'][policy_used] += 1
-    except KeyError:
-        file_results['policies-used'][policy_used] = 1
+    policies_used = process_policy_string(response_ref_policy) if response_ref_policy \
+        else process_policy_string(request_ref_policy)
+    for p in policies_used:
+        file_results['policies-used'][p] += 1
 
     return file_results
 
@@ -277,7 +290,7 @@ for directory in tqdm(data_directories):
                 continue
 
             # If this file contains data on a domain outside the intended domain, ignore the file.
-            if tld.get_fld(crawled_url) != tld.get_fld(final_url):
+            if get_fld(crawled_url) != get_fld(final_url):
                 sanity_check.incr_nr_redirects()
                 continue
 
@@ -287,7 +300,7 @@ for directory in tqdm(data_directories):
                            'redirected-url': '',
                            'referrer-policy': '',
                            'referrer-policy-set': False,
-                           'policies-used': {},
+                           'policies-used': defaultdict(int),
                            'request-leakage': [],
                            'unsafe-outbound': [],
                            'downgrade-policy': []}
@@ -305,8 +318,14 @@ for directory in tqdm(data_directories):
                     continue
                 file_output = get_request_info(request, file_output, crawled_url, final_url)
 
-            for k in file_output['policies-used'].keys(): policies_on_domain.add(k)
-            for i in file_output['request-leakage']: leakage_to_domains.add(tld.get_fld(i['request-url']))
+            for k in file_output['policies-used'].keys():
+                policies_on_domain.add(k)
+            for i in file_output['request-leakage']:
+                stripped_leakage = parse.urlunsplit(
+                    parse.urlsplit(i['request-url'])._replace(scheme='', fragment='', query=''))
+                if stripped_leakage.startswith('//'):
+                    stripped_leakage = stripped_leakage[2:]
+                leakage_to_domains.add(stripped_leakage)
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
