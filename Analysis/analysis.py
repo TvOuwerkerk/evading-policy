@@ -1,9 +1,12 @@
 import csv
-from collections import defaultdict
+import sys
 from typing import List
+
+import tld
+
 import fileUtils
+from analysisCounter import AnalysisCounter
 from ast import literal_eval
-from pprint import pprint
 
 # CONSTANTS
 DATA_PATH = fileUtils.get_data_path()
@@ -12,14 +15,22 @@ SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
                  'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
 
 # INIT
-RESULTS_CSV = fileUtils.get_csv_results_file()
-POLICIES_COUNTER = {'total': defaultdict(int),
-                    'rank': {'bucket1': defaultdict(int), 'bucket2': defaultdict(int)},
-                    'consent': {'cmp': defaultdict(int), 'no-cmp': defaultdict(int)}}
+maxInt = sys.maxsize
+# Loop found on https://stackoverflow.com/questions/15063936/csv-error-field-larger-than-field-limit-131072
+while True:
+    # decrease the maxInt value by factor 10
+    # as long as the OverflowError occurs.
+    try:
+        csv.field_size_limit(maxInt)
+        break
+    except OverflowError:
+        maxInt = int(maxInt/10)
 
-LEAKAGE_COUNTER = {'total': defaultdict(int),
-                   'rank': {'bucket1': defaultdict(int), 'bucket2': defaultdict(int)},
-                   'consent': {'cmp': defaultdict(int), 'no-cmp': defaultdict(int)}}
+RESULTS_CSV = fileUtils.get_csv_results_file()
+policy_counter = AnalysisCounter()
+page_leakage_counter = AnalysisCounter()
+domain_leakage_counter = AnalysisCounter()
+facebook_leakage_counter = AnalysisCounter()
 
 
 def sort_dict(dictionary: dict):
@@ -35,29 +46,26 @@ with open(RESULTS_CSV, 'r', newline='') as results_csv:
         rank = int(row[1])
         cmp = row[2]
         policies: List[str] = literal_eval(row[3])
-        leakage_domains: List[str] = literal_eval(row[4])
+        leakage_pages: List[str] = literal_eval(row[4])
+        leakage_pages = list(map(lambda u: u[4:] if u.startswith('www') else u, leakage_pages))
+        leakage_domains: List[str] = list(set(map(lambda u: tld.get_fld(f'https://{u}'), leakage_pages)))
         # TODO: Note, using just this file currently only shows leakages and policies aggregated on a whole domain
         #       It does not allow us to claim anything about circumvention.
 
-        for policy in policies:
-            POLICIES_COUNTER['total'][policy] += 1
-            if cmp:
-                POLICIES_COUNTER['consent']['cmp'][policy] += 1
-            else:
-                POLICIES_COUNTER['consent']['no-cmp'][policy] += 1
+        if 'strict-origin-when-cross-origin' in policies:
+            policies.remove('strict-origin-when-cross-origin')
+        policy_counter.incr_counters(rank, cmp, policies)
+        page_leakage_counter.incr_counters(rank, cmp, leakage_pages)
+        domain_leakage_counter.incr_counters(rank, cmp, leakage_domains)
+        facebook_leakage_counter.incr_counters(rank, cmp, [u for u in leakage_pages if tld.get_fld(f'https://{u}') == 'facebook.com'])
 
-        for domain in leakage_domains:
-            LEAKAGE_COUNTER['total'][domain] += 1
-            if cmp:
-                LEAKAGE_COUNTER['consent']['cmp'][domain] += 1
-            else:
-                LEAKAGE_COUNTER['consent']['no-cmp'][domain] += 1
 print("===Policy===")
-print(dict(list(sort_dict(POLICIES_COUNTER['consent']['cmp']).items())[:10]))
-print(dict(list(sort_dict(POLICIES_COUNTER['consent']['no-cmp']).items())[:10]))
+print(policy_counter)
 
-print("===Leakage===")
-print(dict(list(sort_dict(LEAKAGE_COUNTER['consent']['cmp']).items())[-10:]))
-print(dict(list(sort_dict(LEAKAGE_COUNTER['consent']['no-cmp']).items())[-10:]))
+print("===Leakage to Pages===")
+print(page_leakage_counter)
 
-pprint(sort_dict(POLICIES_COUNTER['total']), sort_dicts=False)
+print("===Leakage to Domains===")
+print(domain_leakage_counter)
+
+print(facebook_leakage_counter)
