@@ -6,36 +6,23 @@ import base64
 import re
 
 
-def strip_fragment(url: str):
+def __strip_fragment(url: str):
+    """Given a url as string, return that url without the fragment."""
     return parse.urlunsplit(parse.urlsplit(url)._replace(fragment=''))
 
 
-def strip_scheme(url: str):
+def __strip_scheme(url: str):
+    """Given a url as string, return that url without the scheme."""
     return parse.urlunsplit(parse.urlsplit(url)._replace(scheme=''))
 
 
-def strip_scheme_and_fragment(url: str):
-    return strip_scheme(strip_fragment(url))
+def __strip_scheme_and_fragment(url: str):
+    """Given a url as string, return that url without the scheme and fragment."""
+    return __strip_scheme(__strip_fragment(url))
 
 
-def get_leakage_domains(leakage_list):
-    return_set = set()
-    for i in leakage_list:
-        stripped_leakage = parse.urlunsplit(
-            parse.urlsplit(i['request-url'])._replace(scheme='', fragment='', query=''))
-        if stripped_leakage.startswith('//'):
-            stripped_leakage = stripped_leakage[2:]
-        return_set.add(stripped_leakage)
-    return return_set
-
-
-def set_file_output_redirected_url(output_object, crawled, final):
-    if crawled != final:
-        output_object['redirected-url'] = final
-    return output_object
-
-
-def process_policy_string(policy_string):
+def __process_policy_string(policy_string):
+    """Take a string containing 1 or more referrer-policies and split these up, returning as a list."""
     split_string = re.split(r'[\n]', policy_string)
     for s in split_string:
         if not s:
@@ -43,14 +30,16 @@ def process_policy_string(policy_string):
     return split_string
 
 
-def unpack_request_response_policy(request_data: dict):
+def __unpack_request_response_policy(request_data: dict):
+    """From a request-data dict (see Tracker-Radar-Collector output), extract the referrer-policy response header."""
     try:
         return request_data['responseHeaders']['referrer-policy']
     except KeyError:
         return ''
 
 
-def is_request_url_third_party(page_url: str, alternate_page_url: str, request_url: str):
+def __is_request_url_third_party(page_url: str, alternate_page_url: str, request_url: str):
+    """Given a request url, check whether it requests a resource of a third party relative to (alternate_)page_url"""
     if request_url.startswith('blob:'):
         request_url = request_url[5:]
     try:
@@ -62,7 +51,7 @@ def is_request_url_third_party(page_url: str, alternate_page_url: str, request_u
         return False
 
 
-def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
+def __encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
     """
     Encodes values and changes keys accordingly for a given dict
     :param to_search: dict containing keyed strings that need to be searched for
@@ -75,7 +64,7 @@ def encode_search_dict(to_search: dict[str, str], encoding, encoding_name: str):
     return dict(zip(keys, values))
 
 
-def check_url_in_url(source: str, alternate_source: str, target: str):
+def __check_url_in_url(source: str, alternate_source: str, target: str):
     """
     Searches a target URL for occurrences of (parts of) the source URL in several encodings.
     :param source: URL that needs to be searched for
@@ -90,8 +79,8 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
         path_present[x] = False
         if path[x] == '/':
             path_present[x] = False
-        schemeless[x] = strip_scheme(x)
-        fragmentless[x] = strip_scheme_and_fragment(x)
+        schemeless[x] = __strip_scheme(x)
+        fragmentless[x] = __strip_scheme_and_fragment(x)
 
     encodings = []
     search_dict = {}
@@ -105,11 +94,11 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
                       'redirected_fragmentless': fragmentless['alternate']}
     search_dict.update(to_search_dict)
     encodings.append(to_search_dict)
-    encodings.append(encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
-    encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
-    encodings.append(encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
+    encodings.append(__encode_search_dict(to_search_dict, lambda a: parse.quote(a, safe=''), 'percent'))
+    encodings.append(__encode_search_dict(to_search_dict, lambda a: hashlib.md5(a.encode('utf-8')), 'md5'))
+    encodings.append(__encode_search_dict(to_search_dict, lambda a: hashlib.sha1(a.encode('utf-8')), 'sha1'))
     encodings.append(
-        encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
+        __encode_search_dict(to_search_dict, lambda a: base64.urlsafe_b64encode(bytes(a, 'utf-8')), 'base64'))
 
     for dictionary in encodings:
         search_dict.update(dictionary)
@@ -124,7 +113,7 @@ def check_url_in_url(source: str, alternate_source: str, target: str):
     return ''
 
 
-def check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: str):
+def __check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: str):
     """
     Check whether (part of) a given URL is leaked in the target URL
     :param leaked_url: URL which is potentially (partially) leaked
@@ -136,11 +125,11 @@ def check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: st
     redirected_domain = parse.urlsplit(alternate_leaked_url).netloc
 
     # If the current request is to a 1st party domain, skip it
-    if not is_request_url_third_party(crawled_domain, redirected_domain, target_url):
+    if not __is_request_url_third_party(crawled_domain, redirected_domain, target_url):
         return None
 
     # Check if (parts of) the crawled url appear in the request url
-    check = check_url_in_url(leaked_url, alternate_leaked_url, target_url)
+    check = __check_url_in_url(leaked_url, alternate_leaked_url, target_url)
     if check != '':
         try:
             encoding = check.split('-')[1]
@@ -153,9 +142,9 @@ def check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: st
     return None
 
 
-def check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: dict):
+def __check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: dict):
     # If the current request is to a 1st party domain, skip it
-    if not is_request_url_third_party(page_url, alternate_page_url, request_data['url']):
+    if not __is_request_url_third_party(page_url, alternate_page_url, request_data['url']):
         return None
     request_result = {'request-url': request_data['url'],
                       'request-referrer-policy': ''}
@@ -173,9 +162,32 @@ def check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: di
     return None
 
 
+def get_leakage_domains(leakage_list):
+    """
+    Given a list of leakages that have occurred, return a set of the domains that has been leaked to
+    :param leakage_list: list of leakages inferred from gathered data.
+    :return: set containing the domains being leaked to, stripped of scheme, fragment, and query, but including path
+    """
+    return_set = set()
+    for i in leakage_list:
+        stripped_leakage = parse.urlunsplit(
+            parse.urlsplit(i['request-url'])._replace(scheme='', fragment='', query=''))
+        if stripped_leakage.startswith('//'):
+            stripped_leakage = stripped_leakage[2:]
+        return_set.add(stripped_leakage)
+    return return_set
+
+
+def set_file_output_redirected_url(file_output, crawled_url, final_url):
+    """Given the requested url and the actually visited url, set the file_output record's 'redirected' value"""
+    if crawled_url != final_url:
+        file_output['redirected-url'] = final_url
+    return file_output
+
+
 def get_request_info(request_data: dict, file_results: dict, request_source: str, alt_request_source: str):
     """
-    Takes a request as dictionary and adds inferred data to the file_results dictionary.
+    Takes a captured HTTP request as dictionary and adds inferred data to the file_results dictionary.
     Sets 'referrer-policy' and 'referrer-policy-set' fields if this request is made to (alt_)request_source
     Adds request to 'request-leakage' list if this request leaked info on the (alt_)request_source
     Adds request to 'unsafe-outbound' list of request was made to third party using an unsafe referrer-policy
@@ -190,28 +202,28 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
     alt_request_source = alt_request_source.strip('/')
 
     request_ref_policy = request_data['referrerPolicy']
-    response_ref_policy = unpack_request_response_policy(request_data)
+    response_ref_policy = __unpack_request_response_policy(request_data)
 
     # Get the referrer policy and whether this was set through http on this page
-    if request_url in [request_source, strip_fragment(request_source), alt_request_source,
-                       strip_fragment(alt_request_source)]:
+    if request_url in [request_source, __strip_fragment(request_source), alt_request_source,
+                       __strip_fragment(alt_request_source)]:
         if response_ref_policy:
             file_results['referrer-policy'] = response_ref_policy
             file_results['referrer-policy-set'] = True
         else:
             file_results['referrer-policy'] = request_ref_policy
 
-    leakage_result = check_url_leakage(request_source, alt_request_source, request_data['url'])
+    leakage_result = __check_url_leakage(request_source, alt_request_source, request_data['url'])
     if 'referer' in request_data:
         if leakage_result is not None and request_data['referer'] not in [request_source, alt_request_source]:
             file_results['request-leakage'].append(leakage_result)
 
-    unsafe_result = check_unsafe_policy(request_source, alt_request_source, request_data)
+    unsafe_result = __check_unsafe_policy(request_source, alt_request_source, request_data)
     if unsafe_result is not None:
         file_results['unsafe-outbound'].append(unsafe_result)
 
-    policies_used = process_policy_string(response_ref_policy) if response_ref_policy \
-        else process_policy_string(request_ref_policy)
+    policies_used = __process_policy_string(response_ref_policy) if response_ref_policy \
+        else __process_policy_string(request_ref_policy)
     for p in policies_used:
         file_results['policies-used'][p] += 1
 
