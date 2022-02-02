@@ -59,7 +59,7 @@ def verify_data(sanity_counter: SanityCheck, data_object: dict):
         sanity_counter.incr_requestless()
         return False, sanity_counter
 
-    return True
+    return True, sanity_counter
 
 
 def get_domain_rank(domain: str):
