@@ -7,6 +7,7 @@ import csv
 DATA_PATH = os.path.join('Corpus-crawl')
 CSV_RESULTS_FILE = os.path.join('results.csv')
 TRANCO_LIST_FILE = os.path.join('Tranco-P99J-202107.csv')
+DOMAIN_MAP_FILE = os.path.join('TR_domain_map.json')
 
 
 def get_data_path():
@@ -29,6 +30,11 @@ def get_corpus():
     corpus_path = glob.glob('Corpus')[0]
     with open(corpus_path, 'r') as corpus:
         return corpus.readlines()
+
+
+def get_domain_map_file():
+    with open(DOMAIN_MAP_FILE, encoding='utf-8') as domains:
+        return json.load(domains)
 
 
 def get_data_dirs(data_path):
