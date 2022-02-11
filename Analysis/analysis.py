@@ -1,8 +1,8 @@
 import csv
 import sys
-from typing import List
+from typing import List, Dict
 
-import tld
+from tld import get_fld
 
 import fileUtils
 from analysisCounter import AnalysisCounter
@@ -27,10 +27,16 @@ while True:
         maxInt = int(maxInt/10)
 
 RESULTS_CSV = fileUtils.get_csv_results_file()
-policy_counter = AnalysisCounter()
-page_leakage_counter = AnalysisCounter()
-domain_leakage_counter = AnalysisCounter()
-facebook_leakage_counter = AnalysisCounter()
+TOTAL_COUNTER = AnalysisCounter()
+
+POLICY_COUNTER = AnalysisCounter()
+CMP_COUNTER = AnalysisCounter()
+
+PAGE_LEAKAGE_COUNTER = AnalysisCounter()
+DOMAIN_LEAKAGE_COUNTER = AnalysisCounter()
+ORGANISATION_COUNTER = AnalysisCounter()
+FACEBOOK_LEAKAGE_COUNTER = AnalysisCounter()
+RANK_LIST = []
 
 
 def sort_dict(dictionary: dict):
@@ -38,9 +44,28 @@ def sort_dict(dictionary: dict):
     return dict(sorted_dict)
 
 
+def get_rank_list():
+    return RANK_LIST
+
+
+def get_domain_map():
+    domain_map_full = fileUtils.get_domain_map_file()
+    return {k: v['entityName'] for (k, v) in domain_map_full.items()}
+
+
+def get_counters():
+    return {'domain': DOMAIN_LEAKAGE_COUNTER,
+            'page': PAGE_LEAKAGE_COUNTER,
+            'total': TOTAL_COUNTER,
+            'organisation': ORGANISATION_COUNTER,
+            'cmp': CMP_COUNTER}
+
+
 # TODO: reporting global policies vs request-specific policies (add to results data in postProcessing)
 with open(RESULTS_CSV, 'r', newline='') as results_csv:
     csv_reader = csv.reader(results_csv)
+    domain_mapping: Dict[str, str] = get_domain_map()
+    mapped_domains = {}
     for row in csv_reader:
         domain = row[0]
         rank = int(row[1])
@@ -48,24 +73,40 @@ with open(RESULTS_CSV, 'r', newline='') as results_csv:
         policies: List[str] = literal_eval(row[3])
         leakage_pages: List[str] = literal_eval(row[4])
         leakage_pages = list(map(lambda u: u[4:] if u.startswith('www') else u, leakage_pages))
-        leakage_domains: List[str] = list(set(map(lambda u: tld.get_fld(f'https://{u}'), leakage_pages)))
-        # TODO: Note, using just this file currently only shows leakages and policies aggregated on a whole domain
-        #       It does not allow us to claim anything about circumvention.
+        leakage_domains: List[str] = list(set(map(lambda u: get_fld(f'https://{u}'), leakage_pages)))
+        leakage_amounts: List[str] = []
+        amount = 1
+        for leakage in literal_eval(row[4]):
+            leakage_amounts.append(f'≥ {amount}')
+            amount += 1
 
-        if 'strict-origin-when-cross-origin' in policies:
-            policies.remove('strict-origin-when-cross-origin')
-        policy_counter.incr_counters(rank, cmp, policies)
-        page_leakage_counter.incr_counters(rank, cmp, leakage_pages)
-        domain_leakage_counter.incr_counters(rank, cmp, leakage_domains)
-        facebook_leakage_counter.incr_counters(rank, cmp, [u for u in leakage_pages if tld.get_fld(f'https://{u}') == 'facebook.com'])
+        leakage_organisations = set()
+        for leakage in leakage_domains:
+            try:
+                leakage_organisations.add(domain_mapping[get_fld(f'https://{leakage}')])
+            except KeyError:
+                continue
 
-print("===Policy===")
-print(policy_counter)
+        RANK_LIST.append(rank)
+        TOTAL_COUNTER.incr_counters(rank, cmp, leakage_amounts)
+        POLICY_COUNTER.incr_counters(rank, cmp, policies)
+        if cmp:
+            CMP_COUNTER.incr_counters(rank, cmp, [cmp])
 
-print("===Leakage to Pages===")
-print(page_leakage_counter)
+        PAGE_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_pages)
+        DOMAIN_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_domains)
+        ORGANISATION_COUNTER.incr_counters(rank, cmp, list(leakage_organisations))
+        FACEBOOK_LEAKAGE_COUNTER.incr_counters(rank, cmp, [u for u in leakage_pages if get_fld(f'https://{u}') == 'facebook.com'])
 
-print("===Leakage to Domains===")
-print(domain_leakage_counter)
+#print("===Policy===")
+#print(POLICY_COUNTER)
 
-print(facebook_leakage_counter)
+#print("===Leakage to Pages===")
+#print(PAGE_LEAKAGE_COUNTER)
+
+#print("===Leakage to Domains===")
+#print(DOMAIN_LEAKAGE_COUNTER)
+
+#print(FACEBOOK_LEAKAGE_COUNTER)
+
+#print(ORGANISATION_COUNTER)
