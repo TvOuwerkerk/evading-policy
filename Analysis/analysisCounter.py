@@ -12,18 +12,26 @@ def get_top_10_from_dict(dictionary: dict):
 
 
 class AnalysisCounter:
-    total_entries = 0
-    cmp_entries = 0
-    no_cmp_entries = 0
+    rank_buckets = {'1-12000': lambda x: 0 <= x < 12000,
+                    '12001-24000': lambda x: 12000 <= x < 24000,
+                    '24001-36000': lambda x: 24000 <= x < 36000,
+                    '36001-48000': lambda x: 36000 <= x < 48000,
+                    '48001-60000': lambda x: 48000 <= x < 60000,
+                    '>60000': lambda x: x >= 60000}
 
     def __init__(self, total: defaultdict = None, rank: Dict[str, defaultdict] = None,
                  consent: Dict[str, defaultdict] = None):
         if total is None:
             self.total = defaultdict(int)
         if rank is None:
-            self.rank = {'bucket1': defaultdict(int), 'bucket2': defaultdict(int)}
+            self.rank = {key: defaultdict(int) for key in self.rank_buckets.keys()}
         if consent is None:
             self.consent = {'cmp': defaultdict(int), 'no-cmp': defaultdict(int)}
+
+        self.total_entries = 0
+        self.cmp_entries = 0
+        self.no_cmp_entries = 0
+        self.rank_entries = {key: 0 for key in self.rank_buckets.keys()}
 
     def __str__(self):
         print_total = get_top_10_from_dict(self.total)
@@ -47,16 +55,22 @@ class AnalysisCounter:
         for bucket_item in print_rank_list:
             output_string += f'-{bucket_item[0]}-\n'
             for x in bucket_item[1].items():
-                output_string += f'\t{x[0]}: {x[1]} ({round(x[1]/sum(bucket_item[1].values())*100, 1)}%),\n'
+                output_string += f'\t{x[0]}: {x[1]} ({round(x[1]/self.rank_entries[bucket_item[0]]*100, 1)}%),\n'
 
         return output_string
 
     def incr_counters(self, rank: int, cmp: str, items: List[str]):
+        if not items:
+            return
+
         self.total_entries += 1
         if cmp:
             self.cmp_entries += 1
         else:
             self.no_cmp_entries += 1
+        for key in self.rank_buckets.keys():
+            if self.rank_buckets[key](rank):
+                self.rank_entries[key] += 1
 
         for item in items:
             self.total[item] += 1
@@ -64,7 +78,6 @@ class AnalysisCounter:
                 self.consent['cmp'][item] += 1
             else:
                 self.consent['no-cmp'][item] += 1
-            if rank < 1000:
-                self.rank['bucket1'][item] += 1
-            else:
-                self.rank['bucket2'][item] += 1
+            for key in self.rank_buckets.keys():
+                if self.rank_buckets[key](rank):
+                    self.rank[key][item] += 1
