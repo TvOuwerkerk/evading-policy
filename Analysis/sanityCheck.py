@@ -1,21 +1,4 @@
-class PageCounts:
-    def __init__(self, equals_zero=0, less_than_21=0, equals_21=0, greater_than_21=0):
-        self.equals_zero = equals_zero
-        self.less_than_21 = less_than_21
-        self.equals_21 = equals_21
-        self.greater_than_21 = greater_than_21
-
-    def incr_equals_0(self):
-        self.equals_zero += 1
-
-    def incr_less_than_21(self):
-        self.less_than_21 += 1
-
-    def incr_equals_21(self):
-        self.equals_21 += 1
-
-    def incr_greater_than_21(self):
-        self.greater_than_21 += 1
+from collections import defaultdict
 
 
 class ResultsRatio:
@@ -31,12 +14,15 @@ class ResultsRatio:
 
 
 class SanityCheck(object):
-    def __init__(self, nr_dirs=0, nr_pages=0, nr_redirects=0, page_counts=PageCounts(), requestless_data=0,
+    def __init__(self, nr_dirs=0, nr_pages=0, nr_redirects=0, page_counts: defaultdict = None, requestless_data=0,
                  nr_invalid_urls=0, results_visited_ratio=ResultsRatio()):
         self.nr_dirs = nr_dirs
         self.nr_pages = nr_pages
         self.nr_redirects = nr_redirects
-        self.page_counts = page_counts
+        if page_counts is None:
+            self.page_counts = defaultdict(int)
+        else:
+            self.page_counts = page_counts
         self.requestless_data = requestless_data
         self.nr_invalid_urls = nr_invalid_urls
         self.results_visited_ratio = results_visited_ratio
@@ -48,10 +34,7 @@ class SanityCheck(object):
                f'Number of data-files without requests: {self.requestless_data} \n' \
                f'Number of pages ending up at invalid URL: {self.nr_invalid_urls} \n' \
                f'Summary of #pages visited:\n' \
-               f'\t=0/1: {self.page_counts.equals_zero}\n' \
-               f'\t<21 : {self.page_counts.less_than_21}\n' \
-               f'\t=21 : {self.page_counts.equals_21}\n' \
-               f'\t>21 : {self.page_counts.greater_than_21}\n' \
+               f'\t= {self.page_counts}\n' \
                f'Summary of visited/results ratio: \n' \
                f'\t #results < #visited: {self.results_visited_ratio.fewer_results}\n' \
                f'\t #results > #visited: {self.results_visited_ratio.more_results}\n'
@@ -71,14 +54,8 @@ class SanityCheck(object):
     def add_to_page_counts(self, page_count: int):
         if page_count < 0:
             raise ValueError('page count cannot be negative')
-        if page_count in [0, 1]:
-            self.page_counts.incr_equals_0()
-        elif page_count < 21:
-            self.page_counts.incr_less_than_21()
-        elif page_count == 21:
-            self.page_counts.incr_equals_21()
-        elif page_count > 21:
-            self.page_counts.incr_greater_than_21()
+        else:
+            self.page_counts[page_count] += 1
 
     def incr_requestless(self):
         self.requestless_data += 1

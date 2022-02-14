@@ -74,7 +74,7 @@ data_directories = fileUtils.get_data_dirs(DATA_PATH)
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
 for directory in tqdm(data_directories):
-    dir_name = os.path.split(directory)[1][5:]
+    dir_name = os.path.basename(directory)[5:]
     csv_results_row = [dir_name, get_domain_rank(dir_name), None]
     policies_on_domain = set()
     leakage_to_domains = set()
@@ -92,7 +92,7 @@ for directory in tqdm(data_directories):
     for file in files:
         sanity_check.incr_nr_pages()
         # If the filename does not include the domain in the data folder name, it was redirected and should be ignored
-        if dir_name not in os.path.split(file)[1]:
+        if dir_name not in os.path.basename(file):
             sanity_check.incr_nr_redirects()
             continue
         with open(file, 'r', encoding='utf-8') as data_file:
