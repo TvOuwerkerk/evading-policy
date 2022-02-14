@@ -3,7 +3,6 @@ import os
 import json
 import csv
 
-
 DATA_PATH = os.path.join('Corpus-crawl')
 CSV_RESULTS_FILE = os.path.join('results.csv')
 TRANCO_LIST_FILE = os.path.join('Tranco-P99J-202107.csv')
@@ -44,14 +43,21 @@ def get_data_dirs(data_path):
     return [x for x in os.listdir(data_path) if x.startswith('data.')]
 
 
-def get_data_files(directory_path: str):
+def get_data_files(directory_path: str, first_party=True):
     """
     Get a list of files containing crawled data in the data-folder pointed to by directory_path
     """
-    return [x for x in glob.glob(os.path.join(directory_path, '*.json')) if
-            not (x.startswith(os.path.join(directory_path, 'links'))
-            or x.startswith(os.path.join(directory_path, 'admin'))
-            or x.startswith(os.path.join(directory_path, 'metadata')))]
+    data_files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if
+                  not (x.startswith(os.path.join(directory_path, 'links'))
+                       or x.startswith(os.path.join(directory_path, 'admin'))
+                       or x.startswith(os.path.join(directory_path, 'metadata')))]
+    if first_party:
+        admin_file = os.path.basename(get_admin_file(directory_path))
+        crawled_domain = admin_file[6:-5]
+        for file in data_files:
+            if crawled_domain not in os.path.basename(file):
+                data_files.remove(file)
+    return data_files
 
 
 def get_links_files(directory_path: str):
