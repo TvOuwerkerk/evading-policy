@@ -82,7 +82,13 @@ for directory in tqdm(data_directories):
 
     # Find all .json files that contain crawled data
     directory_path = os.path.join(DATA_PATH, directory)
-    files = fileUtils.get_data_files(directory_path)
+    results_files = fileUtils.get_data_files(directory_path)
+    sanity_check.incr_nr_outside_requests(amt=(len(results_files['total'])-len(results_files['valid'])))
+    files = results_files['valid']
+    if len(files) < 2:
+        sanity_check.incr_nr_invalid_dirs()
+        continue
+
     sanity_check.add_to_page_counts(len(files))
 
     with open(fileUtils.get_admin_file(directory_path), 'r', encoding='utf-8') as admin_file:
@@ -90,11 +96,8 @@ for directory in tqdm(data_directories):
         sanity_check.add_to_results_ratio(len(files), nr_visited)
 
     for file in files:
-        sanity_check.incr_nr_pages()
+        sanity_check.incr_nr_files()
         # If the filename does not include the domain in the data folder name, it was redirected and should be ignored
-        if dir_name not in os.path.basename(file):
-            sanity_check.incr_nr_redirects()
-            continue
         with open(file, 'r', encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
             data: dict = json.load(data_file)

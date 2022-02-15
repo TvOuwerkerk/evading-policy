@@ -14,11 +14,13 @@ class ResultsRatio:
 
 
 class SanityCheck(object):
-    def __init__(self, nr_dirs=0, nr_pages=0, nr_redirects=0, page_counts: defaultdict = None, requestless_data=0,
+    def __init__(self, nr_dirs=0, nr_invalid_dirs=0, nr_files=0, nr_redirects=0, nr_outside_requests=0, page_counts: defaultdict = None, requestless_data=0,
                  nr_invalid_urls=0, results_visited_ratio=ResultsRatio()):
         self.nr_dirs = nr_dirs
-        self.nr_pages = nr_pages
+        self.nr_invalid_dirs = nr_invalid_dirs
+        self.nr_files = nr_files
         self.nr_redirects = nr_redirects
+        self.nr_outside_requests = nr_outside_requests
         if page_counts is None:
             self.page_counts = defaultdict(int)
         else:
@@ -29,11 +31,13 @@ class SanityCheck(object):
 
     def __str__(self):
         return f'Number of data directories: {self.nr_dirs}\n' \
-               f'Number of pages: {self.nr_pages}\n' \
-               f'Number of pages redirected to outside domain: {self.nr_redirects}\n' \
-               f'Number of data-files without requests: {self.requestless_data} \n' \
-               f'Number of pages ending up at invalid URL: {self.nr_invalid_urls} \n' \
-               f'Summary of #pages visited:\n' \
+               f'Number of disregarded data directories: {self.nr_invalid_dirs}\n' \
+               f'Total number of valid data files: {self.nr_files}\n' \
+               f'\t number of which redirected to outside domain: {self.nr_redirects}\n' \
+               f'\t number of which were created for outside domain: {self.nr_outside_requests}\n' \
+               f'\t number of which without requests: {self.requestless_data} \n' \
+               f'\t number of which ending up at an invalid URL: {self.nr_invalid_urls} \n' \
+               f'Summary of #data files per domain:\n' \
                f'\t= {self.page_counts}\n' \
                f'Summary of visited/results ratio: \n' \
                f'\t #results < #visited: {self.results_visited_ratio.fewer_results}\n' \
@@ -42,11 +46,17 @@ class SanityCheck(object):
     def incr_nr_dirs(self):
         self.nr_dirs += 1
 
-    def incr_nr_pages(self):
-        self.nr_pages += 1
+    def incr_nr_invalid_dirs(self):
+        self.nr_invalid_dirs += 1
+
+    def incr_nr_files(self):
+        self.nr_files += 1
 
     def incr_nr_redirects(self):
         self.nr_redirects += 1
+
+    def incr_nr_outside_requests(self, amt=1):
+        self.nr_outside_requests += amt
 
     def incr_nr_invalid_urls(self):
         self.nr_invalid_urls += 1

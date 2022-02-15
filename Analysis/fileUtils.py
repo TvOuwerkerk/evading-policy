@@ -45,19 +45,26 @@ def get_data_dirs(data_path):
 
 def get_data_files(directory_path: str, first_party=True):
     """
-    Get a list of files containing crawled data in the data-folder pointed to by directory_path
+    Get a dict with total list and valid list of files containing crawled data in the data-folder pointed to by
+    directory_path
+    :param directory_path: path in which the data folders should be found
+    :param first_party: if True, data files with a differing domain in the filename from the folder, get filtered out.
+    :return: dict with 2 entries: 'total' being a list of all data files, 'valid' containing the same list if
+    first_party is False, or a filtered version of 'total' if first_party is True.
     """
-    data_files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if
-                  not (x.startswith(os.path.join(directory_path, 'links'))
-                       or x.startswith(os.path.join(directory_path, 'admin'))
-                       or x.startswith(os.path.join(directory_path, 'metadata')))]
+    total_data_files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if
+                        not (x.startswith(os.path.join(directory_path, 'links'))
+                        or x.startswith(os.path.join(directory_path, 'admin'))
+                        or x.startswith(os.path.join(directory_path, 'metadata')))]
+
+    valid_data_files = total_data_files
     if first_party:
         admin_file = os.path.basename(get_admin_file(directory_path))
         crawled_domain = admin_file[6:-5]
-        for file in data_files:
+        for file in valid_data_files:
             if crawled_domain not in os.path.basename(file):
-                data_files.remove(file)
-    return data_files
+                valid_data_files.remove(file)
+    return {'total': total_data_files, 'valid': valid_data_files}
 
 
 def get_links_files(directory_path: str):
