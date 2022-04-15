@@ -16,8 +16,7 @@ class AnalysisCounter:
                     '12001-24000': lambda x: 12000 <= x < 24000,
                     '24001-36000': lambda x: 24000 <= x < 36000,
                     '36001-48000': lambda x: 36000 <= x < 48000,
-                    '48001-60000': lambda x: 48000 <= x < 60000,
-                    '>60000': lambda x: x >= 60000}
+                    '48001-60000': lambda x: 48000 <= x < 60000}
 
     def __init__(self, total: defaultdict = None, rank: Dict[str, defaultdict] = None,
                  consent: Dict[str, defaultdict] = None):
@@ -59,8 +58,8 @@ class AnalysisCounter:
 
         return output_string
 
-    def incr_counters(self, rank: int, cmp: str, items: List[str]):
-        if not items:
+    def incr_counters(self, rank: int, cmp: str, items: List[str], total_counter=False):
+        if not total_counter and not items:
             return
 
         self.total_entries += 1
