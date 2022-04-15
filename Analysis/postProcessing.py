@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 from sanityCheck import SanityCheck
 import fileUtils
-from dataFileHandling import set_file_output_redirected_url, get_request_info, get_leakage_domains
+from dataFileHandling import set_file_output_redirected_url, get_request_info, get_leakage_pages
 
 DATA_PATH = fileUtils.get_data_path()
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
@@ -78,6 +78,7 @@ for directory in tqdm(data_directories):
     csv_results_row = [dir_name, get_domain_rank(dir_name), None]
     policies_on_domain = set()
     leakage_to_domains = set()
+    third_parties_on_domain = set()
     sanity_check.incr_nr_dirs()
 
     # Find all .json files that contain crawled data
@@ -118,7 +119,8 @@ for directory in tqdm(data_directories):
                            'referrer-policy-set': False,
                            'policies-used': defaultdict(int),
                            'request-leakage': [],
-                           'unsafe-outbound': []}
+                           'unsafe-outbound': [],
+                           'third-parties': []}
 
             file_output = set_file_output_redirected_url(file_output, crawled_url, final_url)
 
@@ -135,7 +137,8 @@ for directory in tqdm(data_directories):
                 file_output = get_request_info(request, file_output, crawled_url, final_url)
 
             policies_on_domain.update(file_output['policies-used'].keys())
-            leakage_to_domains.update(get_leakage_domains(file_output['request-leakage']))
+            leakage_to_domains.update(get_leakage_pages(file_output['request-leakage']))
+            third_parties_on_domain.update(file_output['third-parties'])
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
@@ -143,6 +146,7 @@ for directory in tqdm(data_directories):
 
     csv_results_row.append(list(policies_on_domain))  # Add list of used policies on this domain to result
     csv_results_row.append(list(leakage_to_domains))  # Add list of domains being leaked to on this domain to result
+    csv_results_row.append(list(third_parties_on_domain))  # Add list of third parties this domain makes requests to
     with open(RESULTS_CSV, 'a', newline='') as results_csv:
         results_writer = csv.writer(results_csv)
         results_writer.writerow(csv_results_row)  # When done with this data folder, add its results to results file
