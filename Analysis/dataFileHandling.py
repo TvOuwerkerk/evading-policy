@@ -1,4 +1,6 @@
 import urllib.parse as parse
+
+import tld
 from tld import get_fld
 
 import hashlib
@@ -104,9 +106,9 @@ def __check_url_in_url(source: str, alternate_source: str, target: str):
         search_dict.update(dictionary)
 
     for x in search_dict.keys():
-        if x.startswith('source-path') and not path_present['source']:
+        if x.startswith('source_path') and not path_present['source']:
             continue
-        if x.startswith('redirected-path') and not path_present['alternate']:
+        if x.startswith('redirected_path') and not path_present['alternate']:
             continue
         if str(search_dict[x]) in target:
             return x
@@ -162,9 +164,9 @@ def __check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: 
     return None
 
 
-def get_leakage_domains(leakage_list):
+def get_leakage_pages(leakage_list):
     """
-    Given a list of leakages that have occurred, return a set of the domains that has been leaked to
+    Given a list of leakages that have occurred, return a set of the pages that has been leaked to
     :param leakage_list: list of leakages inferred from gathered data.
     :return: set containing the domains being leaked to, stripped of scheme, fragment, and query, but including path
     """
@@ -212,6 +214,19 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
             file_results['referrer-policy-set'] = True
         else:
             file_results['referrer-policy'] = request_ref_policy
+
+    if __is_request_url_third_party(request_source, alt_request_source, request_url):
+        if request_url.startswith('blob:'):
+            request_url = request_url[5:]
+        try:
+            third_party_page = parse.urlunsplit(
+                parse.urlsplit(request_url)._replace(scheme='', fragment='', query=''))
+            if third_party_page.startswith('//'):
+                third_party_page = third_party_page[2:]
+        except Exception:
+            third_party_page = None
+        if third_party_page and third_party_page not in file_results['third-parties']:
+            file_results['third-parties'].append(third_party_page)
 
     leakage_result = __check_url_leakage(request_source, alt_request_source, request_data['url'])
     if 'referer' in request_data:
