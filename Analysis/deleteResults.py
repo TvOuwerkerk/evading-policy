@@ -6,10 +6,9 @@ import fileUtils
 DATA_PATH = fileUtils.get_data_path()
 RESULTS_CSV = fileUtils.get_csv_results_file()
 
-data_directories = fileUtils.get_data_dirs(DATA_PATH)
+data_directories = fileUtils.get_data_dirs()
 for directory in tqdm(data_directories):
-    admin_directory = os.path.join(DATA_PATH, directory)
-    admin_file_path = fileUtils.get_admin_file(admin_directory)
+    admin_file_path = fileUtils.get_admin_file(directory)
     with open(admin_file_path, 'r+', encoding='utf-8') as admin:
         admin_data = json.load(admin)
         try:

@@ -13,7 +13,6 @@ from sanityCheck import SanityCheck
 import fileUtils
 from dataFileHandling import set_file_output_redirected_url, get_request_info, get_leakage_pages
 
-DATA_PATH = fileUtils.get_data_path()
 UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
 SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
                  'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
@@ -26,7 +25,7 @@ def find_cmp_occurrences_in_logs():
     Scans the log files for CMPs detected when websites were visited.
     :return: dictionary with keys=websites and values=CMPs found on each website
     """
-    log_files = fileUtils.get_log_files(DATA_PATH)
+    log_files = fileUtils.get_log_files()
     cmp_occurrences = {}
     for log_file in log_files:
         with open(log_file, 'r', encoding='utf-8') as log_inp:
@@ -78,7 +77,7 @@ def get_domain_rank(domain: str):
 
 
 # Find all directories which have data saved to them
-data_directories = fileUtils.get_data_dirs(DATA_PATH)
+data_directories = fileUtils.get_data_dirs()
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
 for directory in tqdm(data_directories):
@@ -91,8 +90,7 @@ for directory in tqdm(data_directories):
     sanity_check.incr_nr_dirs()
 
     # Find all .json files that contain crawled data
-    directory_path = os.path.join(DATA_PATH, directory)
-    results_files = fileUtils.get_data_files(directory_path)  # TODO: move all path interaction to fileUtils
+    results_files = fileUtils.get_data_files(directory)
     sanity_check.incr_nr_outside_requests(amt=(len(results_files['total'])-len(results_files['valid'])))
     files = results_files['valid']
     if len(files) < 2:
@@ -102,7 +100,7 @@ for directory in tqdm(data_directories):
     sanity_check.add_to_page_counts(len(files))
 
     # Add number of visited websites in admin file to sanity check.
-    with open(fileUtils.get_admin_file(directory_path), 'r', encoding='utf-8') as admin_file:
+    with open(fileUtils.get_admin_file(directory), 'r', encoding='utf-8') as admin_file:
         nr_visited = len(list(json.load(admin_file)['visited']))
         sanity_check.add_to_results_ratio(len(files), nr_visited)
 
@@ -154,7 +152,7 @@ for directory in tqdm(data_directories):
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
-            fileUtils.save_data_to_admin(file_output, directory_path)
+            fileUtils.save_data_to_admin(file_output, directory)
 
     csv_results_row.append(list(policies_on_domain))  # Add list of used policies on this domain to result
     csv_results_row.append(list(leakage_to_domains))  # Add list of domains being leaked to on this domain to result

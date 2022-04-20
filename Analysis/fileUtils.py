@@ -36,22 +36,24 @@ def get_domain_map_file():
         return json.load(domains)
 
 
-def get_data_dirs(data_path):
+def get_data_dirs():
     """
     Get a list of 'data.*' folders located in the folder pointed to by data_path
     """
-    return [x for x in os.listdir(data_path) if x.startswith('data.')]
+    return [x for x in os.listdir(DATA_PATH) if x.startswith('data.')]
 
 
-def get_data_files(directory_path: str, first_party=True):
+def get_data_files(directory_name: str, first_party=True):
     """
     Get a dict with total list and valid list of files containing crawled data in the data-folder pointed to by
     directory_path
-    :param directory_path: path in which the data folders should be found
+    :param directory_name: name of the folder in which the data files should be found
     :param first_party: if True, data files with a differing domain in the filename from the folder, get filtered out.
     :return: dict with 2 entries: 'total' being a list of all data files, 'valid' containing the same list if
     first_party is False, or a filtered version of 'total' if first_party is True.
     """
+    directory_path = os.path.join(DATA_PATH, directory_name)
+
     total_data_files = [x for x in glob.glob(os.path.join(directory_path, '*.json')) if
                         not (x.startswith(os.path.join(directory_path, 'links'))
                         or x.startswith(os.path.join(directory_path, 'admin'))
@@ -67,31 +69,33 @@ def get_data_files(directory_path: str, first_party=True):
     return {'total': total_data_files, 'valid': valid_data_files}
 
 
-def get_links_files(directory_path: str):
+def get_links_files(directory_name: str):
     """
-    Get a list of links. files containing scraped links, in the data-folder pointed to by directory_path
+    Get a list of links. files containing scraped links, in the data-folder with name directory_name
     """
+    directory_path = os.path.join(DATA_PATH, directory_name)
     return glob.glob(os.path.join(directory_path, 'links.*.json'))
 
 
-def get_log_files(directory_path):
+def get_log_files():
     """
-    Get a list of log files in the folder pointed to by directory_path
+    Get a list of log files in the main crawl-data folder
     """
-    return glob.glob(os.path.join(directory_path, '*.log'))
+    return glob.glob(os.path.join(DATA_PATH, '*.log'))
 
 
-def get_admin_file(directory_path):
+def get_admin_file(directory_name: str):
     """
-    Get the 'admin.*' file located in the folder pointed to by directory_path
+    Get the 'admin.*' file located in the data-folder with name directory_name
     """
+    directory_path = os.path.join(DATA_PATH, directory_name)
     return glob.glob(os.path.join(directory_path, 'admin.*.json'))[0]
 
 
 def save_data_to_admin(file_data, admin_directory):
     """
     Saves given data to the admin-file found in the given directory
-    :param admin_directory: directory in which admin-file is located
+    :param admin_directory: name of the directory in which admin-file is located
     :param file_data: data that needs to be added to results object in admin-file
     :return: None
     """

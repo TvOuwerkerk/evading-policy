@@ -192,7 +192,7 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
     Takes a captured HTTP request as dictionary and adds inferred data to the file_results dictionary.
     Sets 'referrer-policy' and 'referrer-policy-set' fields if this request is made to (alt_)request_source
     Adds request to 'request-leakage' list if this request leaked info on the (alt_)request_source
-    Adds request to 'unsafe-outbound' list of request was made to third party using an unsafe referrer-policy
+    Adds request to 'unsafe-outbound' list if request was made to third party using an unsafe referrer-policy
     :param request_data: dictionary containing the data of the request
     :param file_results: dictionary to which data about the request must be saved
     :param request_source: url from which the request was made
