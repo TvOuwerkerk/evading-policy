@@ -45,10 +45,9 @@ def get_data_dirs():
 
 def get_data_files(directory_name: str, first_party=True):
     """
-    Get a dict with total list and valid list of files containing crawled data in the data-folder pointed to by
-    directory_path
+    Get a dict with total list and valid list of files containing crawled data in the data-folder named directory_name
     :param directory_name: name of the folder in which the data files should be found
-    :param first_party: if True, data files with a differing domain in the filename from the folder, get filtered out.
+    :param first_party: if True, data files with a differing domain in the filename from the folder get filtered out.
     :return: dict with 2 entries: 'total' being a list of all data files, 'valid' containing the same list if
     first_party is False, or a filtered version of 'total' if first_party is True.
     """
