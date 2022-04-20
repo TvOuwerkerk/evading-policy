@@ -1,6 +1,5 @@
 import urllib.parse as parse
 
-import tld
 from tld import get_fld
 
 import hashlib
