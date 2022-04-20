@@ -22,6 +22,10 @@ TRANCO_RANKING = fileUtils.get_tranco_ranking()
 
 
 def find_cmp_occurrences_in_logs():
+    """
+    Scans the log files for CMPs detected when websites were visited.
+    :return: dictionary with keys=websites and values=CMPs found on each website
+    """
     log_files = fileUtils.get_log_files(DATA_PATH)
     cmp_occurrences = {}
     for log_file in log_files:
@@ -37,6 +41,10 @@ def find_cmp_occurrences_in_logs():
 
 
 def verify_data(sanity_counter: SanityCheck, data_object: dict):
+    """
+    Perform a number of checks on collected data and update the SanityCheck counter object accordingly.
+    :return: Boolean containing whether the given data_object was valid and the updated counter object.
+    """
     crawled = parse.urlunparse(parse.urlparse(data_object['initialUrl']))
     final = data_object['finalUrl']
 
@@ -74,6 +82,7 @@ data_directories = fileUtils.get_data_dirs(DATA_PATH)
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
 for directory in tqdm(data_directories):
+    # Get the crawled website and init variables.
     dir_name = os.path.basename(directory)[5:]
     csv_results_row = [dir_name, get_domain_rank(dir_name), None]
     policies_on_domain = set()
@@ -83,7 +92,7 @@ for directory in tqdm(data_directories):
 
     # Find all .json files that contain crawled data
     directory_path = os.path.join(DATA_PATH, directory)
-    results_files = fileUtils.get_data_files(directory_path)
+    results_files = fileUtils.get_data_files(directory_path)  # TODO: move all path interaction to fileUtils
     sanity_check.incr_nr_outside_requests(amt=(len(results_files['total'])-len(results_files['valid'])))
     files = results_files['valid']
     if len(files) < 2:
@@ -92,13 +101,13 @@ for directory in tqdm(data_directories):
 
     sanity_check.add_to_page_counts(len(files))
 
+    # Add number of visited websites in admin file to sanity check.
     with open(fileUtils.get_admin_file(directory_path), 'r', encoding='utf-8') as admin_file:
         nr_visited = len(list(json.load(admin_file)['visited']))
         sanity_check.add_to_results_ratio(len(files), nr_visited)
 
     for file in files:
         sanity_check.incr_nr_files()
-        # If the filename does not include the domain in the data folder name, it was redirected and should be ignored
         with open(file, 'r', encoding='utf-8') as data_file:
             # Load the data gathered from a page visit
             data: dict = json.load(data_file)
@@ -107,6 +116,7 @@ for directory in tqdm(data_directories):
             crawled_url = parse.urlunparse(parse.urlparse(data['initialUrl']))
             final_url = data['finalUrl']
 
+            # Verify if gathered data is valid
             verified, sanity_check = verify_data(sanity_check, data)
             if not verified:
                 continue
@@ -122,8 +132,10 @@ for directory in tqdm(data_directories):
                            'unsafe-outbound': [],
                            'third-parties': []}
 
+            # Set 'redirected-url' value
             file_output = set_file_output_redirected_url(file_output, crawled_url, final_url)
 
+            # Add CMP to csv output
             if final_url in cmp_lookup_dict:
                 file_output['CMP-encountered'] = cmp_lookup_dict[final_url]
                 # If a CMP was not already set for this domain, set it now
