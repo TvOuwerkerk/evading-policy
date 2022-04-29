@@ -77,7 +77,7 @@ def __check_url_in_url(source: str, alternate_source: str, target: str):
     path, path_present, schemeless, fragmentless = ({},) * 4
     for x in ['source', 'alternate']:
         path[x] = parse.urlsplit(inp[x]).path
-        path_present[x] = False
+        path_present[x] = True
         if path[x] == '/':
             path_present[x] = False
         schemeless[x] = __strip_scheme(x)
