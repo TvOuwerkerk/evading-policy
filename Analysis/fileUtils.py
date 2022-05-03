@@ -60,7 +60,7 @@ def get_data_files(directory_name: str, first_party=True):
 
     valid_data_files = total_data_files
     if first_party:
-        admin_file = os.path.basename(get_admin_file(directory_path))
+        admin_file = os.path.basename(get_admin_file(os.path.basename(directory_path)))
         crawled_domain = admin_file[6:-5]
         for file in valid_data_files:
             if crawled_domain not in os.path.basename(file):
