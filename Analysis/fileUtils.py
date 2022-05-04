@@ -5,6 +5,7 @@ import csv
 
 DATA_PATH = os.path.join('Corpus-crawl')
 CSV_RESULTS_FILE = os.path.join('results.csv')
+JSON_POLICY_RESULTS_FILE = os.path.join('policy_results.json')
 TRANCO_LIST_FILE = os.path.join('Tranco-P99J-202107.csv')
 DOMAIN_MAP_FILE = os.path.join('TR_domain_map.json')
 
@@ -15,6 +16,10 @@ def get_data_path():
 
 def get_csv_results_file():
     return CSV_RESULTS_FILE
+
+
+def get_policy_results_file():
+    return JSON_POLICY_RESULTS_FILE
 
 
 def get_tranco_ranking():

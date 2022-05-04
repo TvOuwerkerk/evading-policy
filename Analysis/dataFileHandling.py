@@ -142,7 +142,6 @@ def __check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: 
         return request_result
     return None
 
-
 def __check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: dict):
     # If the current request is to a 1st party domain, skip it
     if not __is_request_url_third_party(page_url, alternate_page_url, request_data['url']):
@@ -189,9 +188,8 @@ def set_file_output_redirected_url(file_output, crawled_url, final_url):
 def get_request_info(request_data: dict, file_results: dict, request_source: str, alt_request_source: str):
     """
     Takes a captured HTTP request as dictionary and adds inferred data to the file_results dictionary.
-    Sets 'referrer-policy' and 'referrer-policy-set' fields if this request is made to (alt_)request_source
+    Sets 'referrer-policy' field if this request is made to (alt_)request_source and has a response-header policy
     Adds request to 'request-leakage' list if this request leaked info on the (alt_)request_source
-    Adds request to 'unsafe-outbound' list if request was made to third party using an unsafe referrer-policy
     :param request_data: dictionary containing the data of the request
     :param file_results: dictionary to which data about the request must be saved
     :param request_source: url from which the request was made
@@ -205,15 +203,13 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
     request_ref_policy = request_data['referrerPolicy']
     response_ref_policy = __unpack_request_response_policy(request_data)
 
-    # Get the referrer policy and whether this was set through http on this page
+    # Check whether a referrer policy was set on this page through http, if so, save result.
     if request_url in [request_source, __strip_fragment(request_source), alt_request_source,
                        __strip_fragment(alt_request_source)]:
         if response_ref_policy:
             file_results['referrer-policy'] = response_ref_policy
-            file_results['referrer-policy-set'] = True
-        else:
-            file_results['referrer-policy'] = request_ref_policy
 
+    # If the current request is to a third party, save to results.
     if __is_request_url_third_party(request_source, alt_request_source, request_url):
         if request_url.startswith('blob:'):
             request_url = request_url[5:]
@@ -227,18 +223,24 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
         if third_party_page and third_party_page not in file_results['third-parties']:
             file_results['third-parties'].append(third_party_page)
 
+        # Save request policy to list of request policies used by this third party
+        file_results['req_pol_3rdparty'][get_fld(request_url)].update(request_ref_policy)
+        if response_ref_policy:
+            # If we have any, save response policy to list of response policies used by this third party
+            file_results['resp_pol_3rdparty'][get_fld(request_url)].update(response_ref_policy)
+    else:
+        # Save request policy to list of request policies used by this first party
+        file_results['req_pol_1stparty'].update(request_ref_policy)
+
+    # Check if (part of) the page URL is present in the request URL
     leakage_result = __check_url_leakage(request_source, alt_request_source, request_data['url'])
+    # If we also have a referrer that does not contain the full URL (i.e., it is trimmed), save result as a leakage
     if 'referer' in request_data:
-        if leakage_result is not None and request_data['referer'] not in [request_source, alt_request_source]:
+        if leakage_result and request_data['referer'] not in [request_source, alt_request_source]:
             file_results['request-leakage'].append(leakage_result)
 
     unsafe_result = __check_unsafe_policy(request_source, alt_request_source, request_data)
     if unsafe_result is not None:
         file_results['unsafe-outbound'].append(unsafe_result)
-
-    policies_used = __process_policy_string(response_ref_policy) if response_ref_policy \
-        else __process_policy_string(request_ref_policy)
-    for p in policies_used:
-        file_results['policies-used'][p] += 1
 
     return file_results
