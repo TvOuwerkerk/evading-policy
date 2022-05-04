@@ -10,9 +10,6 @@ from ast import literal_eval
 
 # CONSTANTS
 DATA_PATH = fileUtils.get_data_path()
-UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
-SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
-                 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
 
 # INIT
 maxInt = sys.maxsize

@@ -13,9 +13,6 @@ from sanityCheck import SanityCheck
 import fileUtils
 from dataFileHandling import set_file_output_redirected_url, get_request_info, get_leakage_pages
 
-UNSAFE_POLICIES = ['unsafe-url', 'no-referrer-when-downgrade']
-SAFE_POLICIES = ['no-referrer', 'origin', 'origin-when-cross-origin',
-                 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin']
 RESULTS_CSV = fileUtils.get_csv_results_file()
 POLICY_RESULTS_JSON = fileUtils.get_policy_results_file()
 TRANCO_RANKING = fileUtils.get_tranco_ranking()
@@ -137,7 +134,6 @@ for directory in tqdm(data_directories):
                            'req_pol_3rdparty': {},
                            'resp_pol_3rdparty': {},
                            'request-leakage': [],
-                           'unsafe-outbound': [],
                            'third-parties': []}
 
             # Set 'redirected-url' value
@@ -153,7 +149,7 @@ for directory in tqdm(data_directories):
             for request in list(data['data']['requests']):
                 if request['type'] == 'WebSocket':
                     continue
-                # Add to referrer-policy, policy sets/dictionaries , policies-used, request-leakage and unsafe-outbound entries
+                # Add to referrer-policy, policy sets/dictionaries , policies-used, and request-leakage entries
                 file_output = get_request_info(request, file_output, crawled_url, final_url)
 
             if not set_policy:

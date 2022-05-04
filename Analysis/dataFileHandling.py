@@ -142,25 +142,6 @@ def __check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: 
         return request_result
     return None
 
-def __check_unsafe_policy(page_url: str, alternate_page_url: str, request_data: dict):
-    # If the current request is to a 1st party domain, skip it
-    if not __is_request_url_third_party(page_url, alternate_page_url, request_data['url']):
-        return None
-    request_result = {'request-url': request_data['url'],
-                      'request-referrer-policy': ''}
-    request_policy = request_data['referrerPolicy']
-    if (request_policy == 'no-referrer-when-downgrade' and parse.urlparse(request_data['url']).scheme == 'http') \
-            or request_policy == 'unsafe-url':
-        request_result['referrer-policy'] = request_policy
-        if 'responseHeaders' in request_data and 'referrer-policy' in request_data['responseHeaders']:
-            response_policy = request_data['responseHeaders']['referrer-policy']
-            if response_policy == request_policy:
-                request_result['equal-to-response'] = True
-            else:
-                request_result['equal-to-response'] = False
-        return request_result
-    return None
-
 
 def get_leakage_pages(leakage_list):
     """
@@ -238,9 +219,5 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
     if 'referer' in request_data:
         if leakage_result and request_data['referer'] not in [request_source, alt_request_source]:
             file_results['request-leakage'].append(leakage_result)
-
-    unsafe_result = __check_unsafe_policy(request_source, alt_request_source, request_data)
-    if unsafe_result is not None:
-        file_results['unsafe-outbound'].append(unsafe_result)
 
     return file_results
