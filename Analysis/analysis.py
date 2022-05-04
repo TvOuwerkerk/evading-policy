@@ -71,24 +71,23 @@ def get_counters():
 
 
 organisation_domains = set()
-with open(RESULTS_CSV, 'r', newline='') as results_csv:
-    csv_reader = csv.reader(results_csv)
+with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
+    csv_reader = csv.reader(leakage_results_csv)
     domain_mapping: Dict[str, str] = get_domain_map()
     mapped_domains = {}
     for row in csv_reader:
         domain = row[0]
         rank = int(row[1])
         cmp = row[2]
-        policies: List[str] = literal_eval(row[3])
-        leakage_pages: List[str] = literal_eval(row[4])
+        leakage_pages: List[str] = literal_eval(row[3])
         leakage_pages = list(map(lambda u: u[4:] if u.startswith('www') else u, leakage_pages))
         leakage_domains: List[str] = list(set(map(lambda u: get_fld(u, fix_protocol=True), leakage_pages)))
         leakage_amounts: List[str] = []
         amount = 1
-        for leakage in literal_eval(row[4]):
+        for leakage in literal_eval(row[3]):
             leakage_amounts.append(f'≥ {amount}')
             amount += 1
-        third_party_pages_used = literal_eval(row[5])
+        third_party_pages_used = literal_eval(row[4])
 
 
         def page_used_filter(page: str):
@@ -108,7 +107,6 @@ with open(RESULTS_CSV, 'r', newline='') as results_csv:
         RANK_LIST.append(rank)
         TOTAL_COUNTER.incr_counters(rank, cmp, leakage_amounts, total_counter=True)
         USAGE_COUNTER.incr_counters(rank, cmp, list(set(third_party_domains_used)), total_counter=True)
-        POLICY_COUNTER.incr_counters(rank, cmp, policies)
         if cmp:
             if cmp == 'onetrust1':
                 cmp = 'onetrust-OLD'

@@ -78,6 +78,7 @@ def get_domain_rank(domain: str):
 data_directories = fileUtils.get_data_dirs()
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
+policy_output_list = []
 for directory in tqdm(data_directories):
     # Get the crawled website and init variables.
     dir_name = os.path.basename(directory)[5:]
@@ -131,8 +132,8 @@ for directory in tqdm(data_directories):
                            'redirected-url': '',
                            'referrer-policy': '',
                            'req_pol_1stparty': set(),
-                           'req_pol_3rdparty': {},
-                           'resp_pol_3rdparty': {},
+                           'req_pol_3rdparty': defaultdict(set),
+                           'resp_pol_3rdparty': defaultdict(set),
                            'request-leakage': [],
                            'third-parties': []}
 
@@ -149,13 +150,13 @@ for directory in tqdm(data_directories):
             for request in list(data['data']['requests']):
                 if request['type'] == 'WebSocket':
                     continue
-                # Add to referrer-policy, policy sets/dictionaries , policies-used, and request-leakage entries
+                # Add to referrer-policy, policy sets/dictionaries, third-parties, request-leakage entries
                 file_output = get_request_info(request, file_output, crawled_url, final_url)
 
             if not set_policy:
                 set_policy = file_output['referrer-policy']
-            elif file_output['referrer-policy'] and set_policy != file_output['referrer-policy']:
-                print(f"Different response policies in {dir_name}: {set_policy} and {file_output['referrer-policy']}")
+            elif file_output['referrer-policy'] and file_output['referrer-policy'] not in set_policy.split(';'):
+                set_policy = f'{set_policy};{file_output["referrer-policy"]}'
 
             # Add encountered referrer policies to set and dicts keeping track of them
             req_pol_1stparty.update(file_output['req_pol_1stparty'])
@@ -169,6 +170,9 @@ for directory in tqdm(data_directories):
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
+            # Remove dictionaries with policy data. These are saved elsewhere, so they don't clog admin files.
+            file_output = {k: v for k, v in file_output.items() if
+                           k not in ['req_pol_1stparty', 'req_pol_3rdparty', 'resp_pol_3rdparty']}
             fileUtils.save_data_to_admin(file_output, directory)
 
     csv_results_row.append(list(leakage_to_domains))  # Add list of domains being leaked to on this domain to result
@@ -176,12 +180,17 @@ for directory in tqdm(data_directories):
     with open(RESULTS_CSV, 'a', newline='') as leakage_results_csv:
         results_writer = csv.writer(leakage_results_csv)
         results_writer.writerow(csv_results_row)  # When done with this data folder, add its results to results file
-    with open(POLICY_RESULTS_JSON, 'a') as policy_results_json:
-        out_object = {dir_name: {
-            'set_policy': set_policy,
-            '1st_party_req': req_pol_1stparty,
-            '3rd_party_req': req_pol_3rdparty,
-            '3rd_party_resp': resp_pol_3rdparty
-        }}
-        json.dump(out_object, policy_results_json, indent=4)
+
+    # Gather policy results into single dict, save in output list
+    out_object = {dir_name: {
+        'set_policy': set_policy,
+        '1st_party_req': list(req_pol_1stparty),
+        '3rd_party_req': {k: list(v) for k, v in req_pol_3rdparty.items()},
+        '3rd_party_resp': {k: list(v) for k, v in resp_pol_3rdparty.items()}
+    }}
+    policy_output_list.append(out_object)
+
+# Save policy results to output file
+with open(POLICY_RESULTS_JSON, 'w') as policy_results_json:
+    json.dump(policy_output_list, policy_results_json, indent=4)
 print(sanity_check)

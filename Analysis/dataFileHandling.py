@@ -205,13 +205,13 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
             file_results['third-parties'].append(third_party_page)
 
         # Save request policy to list of request policies used by this third party
-        file_results['req_pol_3rdparty'][get_fld(request_url)].update(request_ref_policy)
+        file_results['req_pol_3rdparty'][get_fld(request_url, fix_protocol=True)].add(request_ref_policy)
         if response_ref_policy:
             # If we have any, save response policy to list of response policies used by this third party
-            file_results['resp_pol_3rdparty'][get_fld(request_url)].update(response_ref_policy)
+            file_results['resp_pol_3rdparty'][get_fld(request_url, fix_protocol=True)].add(response_ref_policy)
     else:
         # Save request policy to list of request policies used by this first party
-        file_results['req_pol_1stparty'].update(request_ref_policy)
+        file_results['req_pol_1stparty'].add(request_ref_policy)
 
     # Check if (part of) the page URL is present in the request URL
     leakage_result = __check_url_leakage(request_source, alt_request_source, request_data['url'])
