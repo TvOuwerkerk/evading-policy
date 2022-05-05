@@ -1,4 +1,5 @@
 import csv
+import json
 import sys
 from typing import List, Dict
 
@@ -24,6 +25,7 @@ while True:
         maxInt = int(maxInt / 10)
 
 RESULTS_CSV = fileUtils.get_csv_results_file()
+POLICY_RESULTS_JSON = fileUtils.get_policy_results_file()
 TOTAL_COUNTER = AnalysisCounter()
 
 POLICY_COUNTER = AnalysisCounter()
@@ -33,6 +35,8 @@ PAGE_LEAKAGE_COUNTER = AnalysisCounter()
 DOMAIN_LEAKAGE_COUNTER = AnalysisCounter()
 USAGE_COUNTER = AnalysisCounter()
 ORGANISATION_COUNTER = AnalysisCounter()
+DOMAIN_BLOCK_COUNTER = AnalysisCounter()
+ORGANISATION_BLOCK_COUNTER = AnalysisCounter()
 
 ENDPOINTS = ['google-analytics.com', 'facebook.com', 'doubleclick.net', 'google.com', 'google.nl', 'pinterest.com',
              'nr-data.net', 'twitter.com', 'googlesyndication.com', 'googleadservices.com', 'trustpilot.com', 't.co',
@@ -59,6 +63,16 @@ def get_domain_map():
     return {k: v['entityName'] for (k, v) in domain_map_full.items()}
 
 
+def __domains_to_organisations(domains: List[str]):
+    organisations = set()
+    for d in domains:
+        try:
+            organisations.add(domain_mapping[get_fld(d, fix_protocol=True)])
+        except KeyError:
+            continue
+    return organisations
+
+
 def get_counters():
     return {'domain': DOMAIN_LEAKAGE_COUNTER,
             'usage': USAGE_COUNTER,
@@ -67,19 +81,24 @@ def get_counters():
             'organisation': ORGANISATION_COUNTER,
             'cmp': CMP_COUNTER,
             'policy': POLICY_COUNTER,
-            'endpoints': ENDPOINT_LEAKAGE_COUNTERS}
+            'endpoints': ENDPOINT_LEAKAGE_COUNTERS,
+            'block': DOMAIN_BLOCK_COUNTER}
 
 
-organisation_domains = set()
 with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
     csv_reader = csv.reader(leakage_results_csv)
     domain_mapping: Dict[str, str] = get_domain_map()
     mapped_domains = {}
+    domain_rank_cmp = {}
     for row in csv_reader:
+        # Get values from csv
         domain = row[0]
         rank = int(row[1])
         cmp = row[2]
         leakage_pages: List[str] = literal_eval(row[3])
+        third_party_pages_used = literal_eval(row[4])
+        third_party_referrer_leaks = literal_eval(row[5])
+
         leakage_pages = list(map(lambda u: u[4:] if u.startswith('www') else u, leakage_pages))
         leakage_domains: List[str] = list(set(map(lambda u: get_fld(u, fix_protocol=True), leakage_pages)))
         leakage_amounts: List[str] = []
@@ -87,22 +106,16 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
         for leakage in literal_eval(row[3]):
             leakage_amounts.append(f'≥ {amount}')
             amount += 1
-        third_party_pages_used = literal_eval(row[4])
 
+        domain_rank_cmp[domain] = [rank, cmp]
 
         def page_used_filter(page: str):
             return '' if 'yass/' in page else get_fld(page, fix_protocol=True)
 
-
         third_party_domains_used: List[str] = list(map(page_used_filter, third_party_pages_used))
+        third_party_domain_blocks = set(third_party_domains_used) - set(leakage_domains) - set(third_party_referrer_leaks)
 
-        leakage_organisations = set()
-        for leakage in leakage_domains:
-            try:
-                leakage_organisations.add(domain_mapping[get_fld(f'https://{leakage}')])
-                organisation_domains.add(get_fld(leakage, fix_protocol=True))
-            except KeyError:
-                continue
+        leakage_organisations = __domains_to_organisations(leakage_domains)
 
         RANK_LIST.append(rank)
         TOTAL_COUNTER.incr_counters(rank, cmp, leakage_amounts, total_counter=True)
@@ -117,7 +130,10 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
         PAGE_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_pages)
         DOMAIN_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_domains)
         ORGANISATION_COUNTER.incr_counters(rank, cmp, list(leakage_organisations))
+        DOMAIN_BLOCK_COUNTER.incr_counters(rank, cmp, list(third_party_domain_blocks))
+
         for key in ENDPOINT_LEAKAGE_COUNTERS:
+            # Some endpoint leakages have different, but similar paths, so these are trimmed.
             if key == 'gstatic.com':
                 trimmed_pages_gstatic = list(set(['/'.join(p.split('/')[:4]) if p.startswith('fonts.gstatic.com/s/')
                                                   else p for p in leakage_pages]))
@@ -132,3 +148,10 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
             else:
                 ENDPOINT_LEAKAGE_COUNTERS[key].incr_counters(
                     rank, cmp, [u for u in leakage_pages if get_fld(f'https://{u}') == key])
+
+    with open(POLICY_RESULTS_JSON, 'r') as policy_results_json:
+        results_dict = json.load(policy_results_json)
+        for data_domain in results_dict:
+            domain_rank, domain_cmp = domain_rank_cmp[data_domain]
+            if results_dict[data_domain]['set_policy']:
+                POLICY_COUNTER.incr_counters(domain_rank, domain_cmp, [results_dict[data_domain]['set_policy']])
