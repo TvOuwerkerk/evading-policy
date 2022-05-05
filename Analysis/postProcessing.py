@@ -78,7 +78,7 @@ def get_domain_rank(domain: str):
 data_directories = fileUtils.get_data_dirs()
 cmp_lookup_dict = find_cmp_occurrences_in_logs()
 sanity_check = SanityCheck()
-policy_output_list = []
+policy_output_dict = {}
 for directory in tqdm(data_directories):
     # Get the crawled website and init variables.
     dir_name = os.path.basename(directory)[5:]
@@ -92,6 +92,7 @@ for directory in tqdm(data_directories):
 
     # Variables to save leakage-related data to
     leakage_to_domains = set()
+    referrer_leakage_to_domains = set()
     third_parties_on_domain = set()
 
     sanity_check.incr_nr_dirs()
@@ -135,6 +136,7 @@ for directory in tqdm(data_directories):
                            'req_pol_3rdparty': defaultdict(set),
                            'resp_pol_3rdparty': defaultdict(set),
                            'request-leakage': [],
+                           'referrer_leakage': [],
                            'third-parties': []}
 
             # Set 'redirected-url' value
@@ -167,6 +169,7 @@ for directory in tqdm(data_directories):
 
             leakage_to_domains.update(get_leakage_pages(file_output['request-leakage']))
             third_parties_on_domain.update(file_output['third-parties'])
+            referrer_leakage_to_domains.update(file_output['referrer_leakage'])
 
             # Remove items for which values have not been set
             file_output = {k: v for k, v in file_output.items() if v}
@@ -177,20 +180,20 @@ for directory in tqdm(data_directories):
 
     csv_results_row.append(list(leakage_to_domains))  # Add list of domains being leaked to on this domain to result
     csv_results_row.append(list(third_parties_on_domain))  # Add list of third parties this domain makes requests to
+    csv_results_row.append(list(referrer_leakage_to_domains))  # Add list of domains being leaked to through referrers
     with open(RESULTS_CSV, 'a', newline='') as leakage_results_csv:
         results_writer = csv.writer(leakage_results_csv)
         results_writer.writerow(csv_results_row)  # When done with this data folder, add its results to results file
 
     # Gather policy results into single dict, save in output list
-    out_object = {dir_name: {
+    policy_output_dict[dir_name] = {
         'set_policy': set_policy,
         '1st_party_req': list(req_pol_1stparty),
         '3rd_party_req': {k: list(v) for k, v in req_pol_3rdparty.items()},
         '3rd_party_resp': {k: list(v) for k, v in resp_pol_3rdparty.items()}
-    }}
-    policy_output_list.append(out_object)
+    }
 
 # Save policy results to output file
 with open(POLICY_RESULTS_JSON, 'w') as policy_results_json:
-    json.dump(policy_output_list, policy_results_json, indent=4)
+    json.dump(policy_output_dict, policy_results_json, indent=4)
 print(sanity_check)

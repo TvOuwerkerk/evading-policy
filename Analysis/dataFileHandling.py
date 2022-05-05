@@ -143,6 +143,29 @@ def __check_url_leakage(leaked_url: str, alternate_leaked_url: str, target_url: 
     return None
 
 
+def __referrer_leakage_occurs(leaked_url: str, alternate_leaked_url: str, referrer: str):
+    """
+    Determine whether one of two given URLs is leaked in a given referrer. That is, determine whether more than just
+    the domain names of the leaked URLs is present in the referrer.
+    :param leaked_url: URL which is potentially (partially) leaked
+    :param alternate_leaked_url: Alternate URL which is potentially (partially) leaked
+    :param referrer: referrer string in which (part of) a leaked url could be found
+    :return: Boolean stating whether a referrer leakage has occurred.
+    """
+    leaked_has_path = not parse.urlsplit(leaked_url).path in ['', '/']
+    alternate_has_path = not parse.urlsplit(alternate_leaked_url) in ['', '/']
+    trimmed_leaked = parse.urlunsplit(parse.urlsplit(leaked_url)._replace(scheme='', fragment='', query=''))
+    trimmed_alt = parse.urlunsplit(parse.urlsplit(alternate_leaked_url)._replace(scheme='', fragment='', query=''))
+
+    if leaked_has_path:
+        if leaked_url in referrer or trimmed_leaked in referrer:
+            return True
+    if alternate_has_path:
+        if alternate_leaked_url in referrer or trimmed_alt in referrer:
+            return True
+    return False
+
+
 def get_leakage_pages(leakage_list):
     """
     Given a list of leakages that have occurred, return a set of the pages that has been leaked to
@@ -199,10 +222,18 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
                 parse.urlsplit(request_url)._replace(scheme='', fragment='', query=''))
             if third_party_page.startswith('//'):
                 third_party_page = third_party_page[2:]
+            if third_party_page.startswith('yass/'):
+                third_party_page = None
         except Exception:
             third_party_page = None
-        if third_party_page and third_party_page not in file_results['third-parties']:
-            file_results['third-parties'].append(third_party_page)
+        if third_party_page:
+            if third_party_page not in file_results['third-parties']:
+                file_results['third-parties'].append(third_party_page)
+            third_party_domain = get_fld(third_party_page, fix_protocol=True)
+            if 'referer' in request_data:
+                if third_party_domain not in file_results['referrer_leakage'] and \
+                        __referrer_leakage_occurs(request_source, alt_request_source, request_data['referer']):
+                    file_results['referrer_leakage'].append(third_party_domain)
 
         # Save request policy to list of request policies used by this third party
         file_results['req_pol_3rdparty'][get_fld(request_url, fix_protocol=True)].add(request_ref_policy)
@@ -213,11 +244,11 @@ def get_request_info(request_data: dict, file_results: dict, request_source: str
         # Save request policy to list of request policies used by this first party
         file_results['req_pol_1stparty'].add(request_ref_policy)
 
-    # Check if (part of) the page URL is present in the request URL
+    # Check if (part of) the page URL is present in the request URL (and request URL is to a third party)
     leakage_result = __check_url_leakage(request_source, alt_request_source, request_data['url'])
     # If we also have a referrer that does not contain the full URL (i.e., it is trimmed), save result as a leakage
     if 'referer' in request_data:
-        if leakage_result and request_data['referer'] not in [request_source, alt_request_source]:
+        if leakage_result and not __referrer_leakage_occurs(request_source, alt_request_source, request_data['referer']):
             file_results['request-leakage'].append(leakage_result)
 
     return file_results
