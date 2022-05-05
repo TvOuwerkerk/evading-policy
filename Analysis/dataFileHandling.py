@@ -166,9 +166,9 @@ def __referrer_leakage_occurs(leaked_url: str, alternate_leaked_url: str, referr
     return False
 
 
-def get_leakage_pages(leakage_list):
+def get_leakage_endpoints(leakage_list):
     """
-    Given a list of leakages that have occurred, return a set of the pages that has been leaked to
+    Given a list of leakages that have occurred, return a set of the endpoints that has been leaked to
     :param leakage_list: list of leakages inferred from gathered data.
     :return: set containing the domains being leaked to, stripped of scheme, fragment, and query, but including path
     """

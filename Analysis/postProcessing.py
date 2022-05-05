@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 from sanityCheck import SanityCheck
 import fileUtils
-from dataFileHandling import set_file_output_redirected_url, get_request_info, get_leakage_pages
+from dataFileHandling import set_file_output_redirected_url, get_request_info, get_leakage_endpoints
 
 RESULTS_CSV = fileUtils.get_csv_results_file()
 POLICY_RESULTS_JSON = fileUtils.get_policy_results_file()
@@ -91,7 +91,7 @@ for directory in tqdm(data_directories):
     resp_pol_3rdparty = defaultdict(set)
 
     # Variables to save leakage-related data to
-    leakage_to_domains = set()
+    leakage_to_endpoints = set()
     referrer_leakage_to_domains = set()
     third_parties_on_domain = set()
 
@@ -167,7 +167,7 @@ for directory in tqdm(data_directories):
             for key in file_output['resp_pol_3rdparty']:
                 resp_pol_3rdparty[key].update(file_output['resp_pol_3rdparty'][key])
 
-            leakage_to_domains.update(get_leakage_pages(file_output['request-leakage']))
+            leakage_to_endpoints.update(get_leakage_endpoints(file_output['request-leakage']))
             third_parties_on_domain.update(file_output['third-parties'])
             referrer_leakage_to_domains.update(file_output['referrer_leakage'])
 
@@ -178,7 +178,7 @@ for directory in tqdm(data_directories):
                            k not in ['req_pol_1stparty', 'req_pol_3rdparty', 'resp_pol_3rdparty']}
             fileUtils.save_data_to_admin(file_output, directory)
 
-    csv_results_row.append(list(leakage_to_domains))  # Add list of domains being leaked to on this domain to result
+    csv_results_row.append(list(leakage_to_endpoints))  # Add list of endpoints being leaked to on this domain to result
     csv_results_row.append(list(third_parties_on_domain))  # Add list of third parties this domain makes requests to
     csv_results_row.append(list(referrer_leakage_to_domains))  # Add list of domains being leaked to through referrers
     with open(RESULTS_CSV, 'a', newline='') as leakage_results_csv:
