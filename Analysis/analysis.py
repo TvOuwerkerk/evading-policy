@@ -138,16 +138,16 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
                 trimmed_pages_gstatic = list(set(['/'.join(p.split('/')[:4]) if p.startswith('fonts.gstatic.com/s/')
                                                   else p for p in leakage_pages]))
                 ENDPOINT_LEAKAGE_COUNTERS[key].incr_counters(
-                    rank, cmp, [u for u in trimmed_pages_gstatic if get_fld(f'https://{u}') == key])
+                    rank, cmp, [u for u in trimmed_pages_gstatic if get_fld(u, fix_protocol=True) == key])
             elif key == 'google.nl':
                 trimmed_pages_googlenl = ['/'.join(p.split('/')[:3]) if 'google.nl/pagead/1p-user-list' in p
                                           or 'google.nl/pagead/1p-conversion' in p
                                           else p for p in leakage_pages]
                 ENDPOINT_LEAKAGE_COUNTERS[key].incr_counters(
-                    rank, cmp, [u for u in trimmed_pages_googlenl if get_fld(f'https://{u}') == key])
+                    rank, cmp, [u for u in trimmed_pages_googlenl if get_fld(u, fix_protocol=True) == key])
             else:
                 ENDPOINT_LEAKAGE_COUNTERS[key].incr_counters(
-                    rank, cmp, [u for u in leakage_pages if get_fld(f'https://{u}') == key])
+                    rank, cmp, [u for u in leakage_pages if get_fld(u, fix_protocol=True) == key])
 
     with open(POLICY_RESULTS_JSON, 'r') as policy_results_json:
         results_dict = json.load(policy_results_json)
