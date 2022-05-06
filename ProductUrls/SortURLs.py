@@ -8,7 +8,7 @@ import os
 import warnings
 warnings.filterwarnings('ignore', '.*SGDClassifier.*')
 
-DATA_FOLDER = os.path.join('Prototype-crawl')
+DATA_FOLDER = os.path.join('sampledata')
 MODEL_PATH = os.path.join('models', 'log-reg-mod.pkl')
 
 ACCEPTABLE_PROBABILITY = 0.5
