@@ -82,7 +82,8 @@ def get_counters():
             'cmp': CMP_COUNTER,
             'policy': POLICY_COUNTER,
             'endpoints': ENDPOINT_LEAKAGE_COUNTERS,
-            'block': DOMAIN_BLOCK_COUNTER}
+            'block': DOMAIN_BLOCK_COUNTER,
+            'orgblock': ORGANISATION_BLOCK_COUNTER,}
 
 
 with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
@@ -115,7 +116,10 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
         third_party_domains_used: List[str] = list(map(page_used_filter, third_party_pages_used))
         third_party_domain_blocks = set(third_party_domains_used) - set(leakage_domains) - set(third_party_referrer_leaks)
 
-        leakage_organisations = __domains_to_organisations(leakage_domains)
+        organisations_used = __domains_to_organisations(third_party_domains_used)
+        organisation_referrer_leaks = __domains_to_organisations(third_party_referrer_leaks)
+        organisation_bypasses = __domains_to_organisations(leakage_domains)
+        organisation_blocks = organisations_used - organisation_bypasses - organisation_referrer_leaks
 
         RANK_LIST.append(rank)
         TOTAL_COUNTER.incr_counters(rank, cmp, leakage_amounts, total_counter=True)
@@ -129,8 +133,9 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
 
         PAGE_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_endpoints)
         DOMAIN_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_domains)
-        ORGANISATION_COUNTER.incr_counters(rank, cmp, list(leakage_organisations))
+        ORGANISATION_COUNTER.incr_counters(rank, cmp, list(organisation_bypasses))
         DOMAIN_BLOCK_COUNTER.incr_counters(rank, cmp, list(third_party_domain_blocks))
+        ORGANISATION_BLOCK_COUNTER.incr_counters(rank, cmp, list(organisation_blocks))
 
         for key in ENDPOINT_LEAKAGE_COUNTERS:
             # Some endpoint leakages have different, but similar paths, so these are trimmed.
@@ -141,7 +146,7 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
                     rank, cmp, [u for u in trimmed_pages_gstatic if get_fld(u, fix_protocol=True) == key])
             elif key == 'google.nl':
                 trimmed_pages_googlenl = ['/'.join(p.split('/')[:3]) if 'google.nl/pagead/1p-user-list' in p
-                                          or 'google.nl/pagead/1p-conversion' in p
+                                                                        or 'google.nl/pagead/1p-conversion' in p
                                           else p for p in leakage_endpoints]
                 ENDPOINT_LEAKAGE_COUNTERS[key].incr_counters(
                     rank, cmp, [u for u in trimmed_pages_googlenl if get_fld(u, fix_protocol=True) == key])
