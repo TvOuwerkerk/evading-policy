@@ -31,10 +31,10 @@ TOTAL_COUNTER = AnalysisCounter()
 POLICY_COUNTER = AnalysisCounter()
 CMP_COUNTER = AnalysisCounter()
 
+USAGE_COUNTER = AnalysisCounter()
 PAGE_LEAKAGE_COUNTER = AnalysisCounter()
 DOMAIN_LEAKAGE_COUNTER = AnalysisCounter()
-USAGE_COUNTER = AnalysisCounter()
-ORGANISATION_COUNTER = AnalysisCounter()
+ORGANISATION_LEAKAGE_COUNTER = AnalysisCounter()
 DOMAIN_BLOCK_COUNTER = AnalysisCounter()
 ORGANISATION_BLOCK_COUNTER = AnalysisCounter()
 
@@ -78,12 +78,12 @@ def get_counters():
             'usage': USAGE_COUNTER,
             'page': PAGE_LEAKAGE_COUNTER,
             'total': TOTAL_COUNTER,
-            'organisation': ORGANISATION_COUNTER,
+            'organisation': ORGANISATION_LEAKAGE_COUNTER,
             'cmp': CMP_COUNTER,
             'policy': POLICY_COUNTER,
             'endpoints': ENDPOINT_LEAKAGE_COUNTERS,
             'block': DOMAIN_BLOCK_COUNTER,
-            'orgblock': ORGANISATION_BLOCK_COUNTER,}
+            'orgblock': ORGANISATION_BLOCK_COUNTER}
 
 
 with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
@@ -133,7 +133,7 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
 
         PAGE_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_endpoints)
         DOMAIN_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_domains)
-        ORGANISATION_COUNTER.incr_counters(rank, cmp, list(organisation_bypasses))
+        ORGANISATION_LEAKAGE_COUNTER.incr_counters(rank, cmp, list(organisation_bypasses))
         DOMAIN_BLOCK_COUNTER.incr_counters(rank, cmp, list(third_party_domain_blocks))
         ORGANISATION_BLOCK_COUNTER.incr_counters(rank, cmp, list(organisation_blocks))
 
