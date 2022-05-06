@@ -153,7 +153,7 @@ def __referrer_leakage_occurs(leaked_url: str, alternate_leaked_url: str, referr
     :return: Boolean stating whether a referrer leakage has occurred.
     """
     leaked_has_path = not parse.urlsplit(leaked_url).path in ['', '/']
-    alternate_has_path = not parse.urlsplit(alternate_leaked_url) in ['', '/']
+    alternate_has_path = not parse.urlsplit(alternate_leaked_url).path in ['', '/']
     trimmed_leaked = parse.urlunsplit(parse.urlsplit(leaked_url)._replace(scheme='', fragment='', query=''))
     trimmed_alt = parse.urlunsplit(parse.urlsplit(alternate_leaked_url)._replace(scheme='', fragment='', query=''))
 
