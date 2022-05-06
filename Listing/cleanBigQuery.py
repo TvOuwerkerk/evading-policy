@@ -9,8 +9,8 @@ with open('BigQuery-Top170k-NL.csv', 'r') as inp:
             sliced_subdomain = ''
             fl_domain = tld.get_fld(line)
             if len(line.split('//')) < 2:
-                print('found url without "//" part, shit\'s gonna break')
-            http = line.split('//')[0] + '//'
+                print('found url without "//", things will break')
+            scheme = line.split('//')[0] + '//'
             prefix = ''
             if 'www' in line.split('//')[1].split('.'):
                 prefix = 'www.'
@@ -21,6 +21,6 @@ with open('BigQuery-Top170k-NL.csv', 'r') as inp:
             if fl_domain not in seen:
                 seen.add(fl_domain)
                 seen.add(sliced_subdomain + fl_domain)
-                out.write(http + prefix + sliced_subdomain + fl_domain + '\n')
+                out.write(scheme + prefix + sliced_subdomain + fl_domain + '\n')
 
     # checkDupes()
