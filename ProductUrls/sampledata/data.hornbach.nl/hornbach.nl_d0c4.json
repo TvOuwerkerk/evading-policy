@@ -1,0 +1,1991 @@
+{
+  "initialUrl": "https://hornbach.nl/",
+  "finalUrl": "https://www.hornbach.nl/",
+  "timeout": false,
+  "testStarted": 1640015040797,
+  "testFinished": 1640015056825,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.hornbach.nl/links.hornbach.nl_d0c4.json",
+    "requests": [
+      {
+        "url": "https://hornbach.nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "91.240.77.142",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.hornbach.nl/",
+        "initiators": [],
+        "time": 0.05555800000001909
+      },
+      {
+        "url": "https://www.hornbach.nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 67250,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, max-age=0,private, no-cache, no-store, max-age=0",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax\nhbMarketCookie=723; Max-Age=31536000; Path=/; Secure; HttpOnly\ndtCookie=v_4_srv_2_sn_9A89F769DCC2D6919130FDA04EEFEA25_perc_100000_ol_0_mul_1_app-3A64987b1f3a66a156_0; Path=/; Domain=.www.hornbach.nl; SameSite=None; secure"
+        },
+        "responseBodyHash": "d08356b3e509477cf18c40aa4286c31b857a770c311283a8090d89f01e8e772f",
+        "redirectedFrom": "https://hornbach.nl/",
+        "initiators": [],
+        "time": 0.07776799999919604
+      },
+      {
+        "url": "https://www.hornbach.nl/globals/assets/fonts/badhousehornbach-bold-webfont.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 46811,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"1638432473:dtagent102292112011020178ZDW\"",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f4a2cb38165806f59a0457610413d1d683f5d2d14bc791eb52427ea42c5a8830",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.05539100000169128
+      },
+      {
+        "url": "https://www.hornbach.nl/globals/assets/fonts/tradegothichornbach-boldcondensed-webfont.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 22202,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "etag": "\"1638432473:dtagent102292112011020178ZDW\"",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a13bf0b41e46ea03323f954dae5ff35323f267d44c0acb7080cd9b4f784f74de",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09333500000138883
+      },
+      {
+        "url": "https://www.hornbach.nl/globals/assets/fonts.v2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 513,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "private",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "dbac12e0f1ed00ecd82208370add821ddcc9faa86e21418f5ea65c0b4686e70e",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.051154000000678934
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 12990,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600, no-transform",
+          "etag": "\"1e2c455da03fb5e3df307bd101999a1c\"",
+          "expires": "Mon, 20 Dec 2021 15:48:27 GMT"
+        },
+        "responseBodyHash": "bfeb6719d7676b852cdde8555719c6b7f5cfcf4e5dbfa948b2b0a9fe9baa6e5e",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.13106400000106078
+      },
+      {
+        "url": "https://www.hornbach.nl/globals/assets/globals.5f7d7127898775d2b4f9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 75456,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "bd0866d0ef8c3dd9f0d73ae1908b6f0bebd2586be468039b96ca052a18564cc6",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.16260399999737274
+      },
+      {
+        "url": "https://www.hornbach.nl/header/css/header.f6836f9408288937632b.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 5362,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "43ed6c3abeca0c091c6916ec634daa14466bcca3677bebcdb265ae2596ff4262",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.04053399999975227
+      },
+      {
+        "url": "https://www.hornbach.nl/header/js/header.f1097d74da51eca2cff1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 9538,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "27a98438d400ac62214ddd58e0eab7248eb00499b13460b127d0af8efea11f8b",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.1431910000028438
+      },
+      {
+        "url": "https://www.hornbach.nl/autocomplete/assets/autocomplete.0260669a69f8354879f4.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 23520,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public,public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "67d7b9c782f4d573c7f8ef6f60ddf3fcbb2948aa81aee7bdaed7ce329700f96d",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.14840900000126567
+      },
+      {
+        "url": "https://www.hornbach.nl/globals/assets/tracking.f1f5a19f367aae7d8ca8.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 957,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "68c267a41f4869420973549efff1c237f337ca75baf522905567e055dc05475a",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.053682000001572305
+      },
+      {
+        "url": "https://www.hornbach.nl/ruxitagentjs_A2Vfghjqru_10229211201102017.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 75521,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Tue, 20 Dec 2022 15:44:01 GMT"
+        },
+        "responseBodyHash": "53e418ff79e3595087deb209147fed6c68481252e3f00862f7d9043727d3d2bd",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.15768100000059349
+      },
+      {
+        "url": "https://www.hornbach.nl/ir/nl/prod.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 9479,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "etag": "\"751e-5d32f8a03d198-gzip\"",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "c7fcd2296989bdf6420d0a0a5487b390058099805ade08f37296b1899e45854d",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08386099999916041
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/javascript/store-globals/test.eb833257e667e6db74619edbbd60e236.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 674,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "e715e09b6a0f7eb8abc11d33d5dbd5467a85e9bb7b820d7ea96b44f391eb37fe",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.05307299999913084
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-83/4f685a66ff63370bba1190382dbb5b/heroteaser-kw48-v3-hero-teaser-1600x1067.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 139562,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be47f6-21cec\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "9201c733755b9e5a065a687acea33072c0e3cf291cffe9b05f765213abd7c7fb",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.1955420000012964
+      },
+      {
+        "url": "https://www.hornbach.nl/header/img/hornbach_logo_nl.ebadcef9aefc326dc9d8e1ee425911b9.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 5364,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "6f726670bf18175389546fe1783fc3df08a3602aa1ffdc6a285f1fed9a0e9ace",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.13440999999875203
+      },
+      {
+        "url": "https://www.hornbach.nl/header/js/myMarketModal.89e0ef24e44149d51f0d.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 29027,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "e96eeaee104a5d9865c8c2cf6a88441aacf057f8639b014ce7f5df2a284ef537",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.1381939999992028
+      },
+      {
+        "url": "https://www.hornbach.nl/reco-ui/assets/reco.4e747990f580386cddae.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 14455,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000,public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0038132cfae32a4485962637c3a8d93cbd6bcd4d861f646391123ce312edcbd6",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.1395699999993667
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/global-footer/hb-global-footer.a9623b03cc40343d3561a9d6b0960526.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1958,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "6a5ba7afa9fe74abd0df3675b238392d57496464041df975a41b1e6e72d8acee",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.019693999998708023
+      },
+      {
+        "url": "https://responder.wt-safetag.com/resp/api/get/304755729711990?url=https%3A%2F%2Fwww.hornbach.nl%2F&v=5",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 41975,
+        "remoteIPAddress": "185.54.150.22",
+        "responseHeaders": {
+          "cache-control": "max-age: 0, must-revalidate",
+          "set-cookie": "wt_nbg_Q3=!OPqIjGgu7m5xvKD0ZnQSUZKHCWVLyt0GtCOTd0vU+PAAf+KUXS+0Q6IrQt9yuht/FTAGBc+9mI4awZw=; path=/; Httponly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "c53dd106790bb93faddf89f47c0f33600e0cd54d00299ecfe77ae87e13cfedc2",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.19978099999934784
+      },
+      {
+        "url": "https://t2.hornbach.de/_t/nl.js?u=1640015041136001&s=1640015041136001&url=https%3A%2F%2Fwww.hornbach.nl%2F&c=0:164001504113677&v=1.3.3&p=0&t=949570215545:1585896262387:2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 332,
+        "remoteIPAddress": "185.244.80.135",
+        "responseHeaders": {
+          "cache-control": "max-age=120",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.hornbach.nl/ir/nl/prod.js"
+        ],
+        "time": 0.06936300000234041
+      },
+      {
+        "url": "https://www.hornbach.nl/header/img/bg-img--header.dbe5696b44727aa125601db989c247ca.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/header/css/header.f6836f9408288937632b.css",
+        "status": 200,
+        "size": 18659,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=31536000, public",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "8243597d1bfc8fc4f0111147dd3acdb193f1f620dfd3c9001e45e1c19a51359e",
+        "initiators": [
+          "https://www.hornbach.nl/header/css/header.f6836f9408288937632b.css"
+        ],
+        "time": 0.0602839999992284
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/images/kratzrand-scalable-svg.5f8036b68c7bd24eab771a43c1c965cb.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 4639,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "15a938554ff5c2593047a16d8a8c4dba0ec1a85b1c73a0984752fe7fd454d57d",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.018841999997675885
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/images/teaser-kratzrand-lightgrey.ab0eec229d332472495bae7c2ca3691c.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 5266,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "7a78b8ca327e19e5db7de0ab17aa3b82a4890152576cee2f6cf1457d87e275da",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.01753900000039721
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/495/049/07/DV_8_1953248_12_4c_DE_20210831121654.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 36849,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"612e9f3e-8eb1\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "5cb4db67c41311f9e729e23f75ad145964a528885be5d5e6fe52bcfe517db30f",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.0516650000026857
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/873/402/DV_8_5962240_06_4c_DE_20210908121654.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 48016,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"61392170-ba1e\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "0ce34e2081b5ddab7f893b90368b9867ac130c0c140db8bb6462c89715d416f5",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06674800000109826
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/769/799/DV_8_10224729_02_4c_NL_20200327131755.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 29381,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5e7edee9-71b1\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "a5db4f35ff6ee22547ea9932c2b5fd8f87ea60aa67d14ad6199560f5ecdeac28",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06305599999905098
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/703/121/623/DV_8_7195709_01_4c_NL_20160928092046.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 23436,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"57ec3c33-5ab3\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "30f67e43dd4829a70a62cc69a3b6d5328c531ea9593d94a67cc3844b3d9a4e9c",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06821799999670475
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/230/208/DV_8_8585166_03_4c_NL_20170912192355.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 38836,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"59b89e3c-9675\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "0e0ee4249daa30e6c6bafb0d5fd09e0e12088a22bf1d6ffbfe52bfecf932e01f",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.07882900000186055
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-36/ccad72c853ab68d3af9c107abe7957/icon-120.000-artikelen-120x80.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 3872,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61c04442-ec4\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "8ef23851d0acb52a632bca048a5a3d90045def520ad716bd57d4f45c34452ac6",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.07074300000022049
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-11/1a72130436470733e280a676e56563/icon-15-vestigingen-120x80.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1724,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be3e92-66c\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "780fec33eb6fee645a049684ad97b97d2056f8b80fccb4def502b63fbbd748aa",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06749199999831035
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-b8/913f4dffe5a8ef88835e209ce0fd7f/icon-app-120x80.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1749,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be50d1-686\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "2d66e877cbdbb5b9c58addfe446d797212474fd9c10b2a10108dff22ecfeba11",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06278999999994994
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-7f/4ea7e3d039fe18b6438df1a72a6a03/icons-home-beste-webshop-2021-2020-usp-120x80.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 3735,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be46f3-e3e\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "12a3f85fd8c7843777590bd2e1fb3e6ad895a38447d703cdeb96b675cfe3626b",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06504499999937252
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-34/f21ff60bcc37a13ebaf1961d28b464/icon-laagsteprijs-120x80.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 4429,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be4c7c-10ea\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "d972b8235074a89bdcc9edfde35a776ad9b61d9227bffe69cd165af4e6dea154",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06777900000088266
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-1e/6213f318e5febe6fd9074fec9437bc/icon-projecten-120x80.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 2841,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be40b9-ac0\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "28052fb19d96ae65d18a43ddeca94c90fedbabad04811ce93884f581512ad9f9",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.06619700000010198
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-71/ecc4ba6969f5a5ec474c8289b6c9be/coronamaatregelen-tot-19-januari.-hornbach-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 16776,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61c043d8-40dc\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "3eaf64970e9858126c259252555cde51c29a52ae0ca9304ba973dace70b34403",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08090999999694759
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-2d/4ec1cab5e29d795fd80ca302d7bab5/hb-online-projecadvies-1200x800-3-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 26785,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be4158-67b6\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "389c7789ab40d174d366de04794bdfdb1b6dcb10723dcca198d0983e9250331a",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08190699999977369
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-7a/32a4a07a00317ed823d9ea22f8bad3/kmp-van-jou-2021-nl-1200x800-11-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 6714,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61bf967c-19ce\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "62dc6f1760633efcc2b2e85f1b456b0f2704bfc606b6ed0230269aae39e0a7e8",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.07937099999981001
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-94/611b35634742e0bbd660b7665e9796/kmp-dashemd-2021-nl-nb-1200x800-2-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 10854,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61bcf895-29de\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "85228cd500244572b70cead6f55058149a67c50d41bc16d46c3847c70aea4308",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09301600000253529
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/de/chke2-e5/2a88124331a04ec2392a51914a2996/weihnachten-fuer-macher-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 17639,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be59ca-4432\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "0981f178468e8a74c0dc7ecd22585bbb526a9bfc85cf15dd76858ef63046e5ce",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08242600000085076
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-07/8702e2cedfe1a57965faf7d8198b84/hoofdbeeld-infraroodpaneel-kiezen-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 10706,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61be41b9-294a\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "405d42922551f35ddd2d34c40244cae9a1e572b272666490cffbc8c6585ae943",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08260399999926449
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/377/540/DV_8_6771880_01_4c_NL_20190124144756.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 9015,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5c4a5fe1-22b9\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "56059cb9b5223d94becfb6c853e77e7c304b281e06be11ecad05e88a0b6ebb70",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08037400000102934
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/496/786/98/DV_8_8584519_03_4c_NL_20180725091753.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 81018,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5b590123-13a26\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "e23345e3c5c32700297d043fc465604865a4ec035d2058a0f4c9b955d8058da7",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09057300000131363
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/747/436/DV_8_5901385_05_4c_AT_20200225161651.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 56088,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5e55c694-d970\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "a3fff1d511357e0d725297e606518362e1a102a616ea16d2a3f1db44a1554e76",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.0892889999995532
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/705/210/312/DV_8_7718486_01_4c_DE_20170703163315.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 38615,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"595adfc3-959b\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "3efd986e22760b86ce8b0df62f4fad2091ef7eeb692cb5c309cc8df8aec376f8",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09569999999803258
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/700/384/60/DV_8_5001551_20210505154654.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 31120,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"60b365cb-7887\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "4295fb2353cbb4adc4e54c05da62f910ca45160514f2124f852e674dfeb0e3e5",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09856999999828986
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/213/304/DV_8_8247112_03_4c_DE_20190425171758.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 13608,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5cc27d0f-348e\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "e240cefa672ecad47014d1bb8e5ef542b5c497b8c56bb7a849386857d1e58b85",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08597000000008848
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/498/657/27/DV_8_5995842_01_4c_NL_20160418113515.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 48653,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"571577e4-bc92\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "7d7697d79a4aeb119e35b8a7d86962b5bebe6de0a75eb9198e462fc1046a1cdf",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09540500000002794
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/535/254/DV_8_6836628_10_4c_DE_20190424114752.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 3301,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5cc101a9-c8c\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "8453d472ca0347d90157752a706a33d1a2df6c7278522d9ce1539086318ea182",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08396999999968102
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/605/100/DV_8_10074290_02_4c_NL_20190622211655.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 46393,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5d0fefef-b3d0\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "5cdabdf73ae2a5ef7c935a7ef163380b609930c6393cdcb0e41629e60dd145af",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09615800000028685
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/516/472/DV_8_4186691_02_4c_NL_20190409074434.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 28211,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5cad4749-6d3f\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "e44d3c9ef4da94daaa2338971e92b69c78a65cef7465feaf7f0671ecb14de108",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.08597999999983585
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-a8/06ba9b6c9c4213832903ce1ff2df31/reserveren-afhalen-1200x800-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 8097,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61bf9847-1f2c\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "b578fdd02e9333ef8fc9ed201af32fcadf9c39607828a4beb7791e7f371743d9",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09139599999980419
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-64/6bcc034f71c80c4c2fbd45eea8376d/klarna-1200-x-800-480x320-2.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 8762,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61bf9806-21b0\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "41e0e2abfee935fddedfaf9712c061ac57c0c5581c2107839a78a47ca87badb0",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09710400000039954
+      },
+      {
+        "url": "https://cdn.hornbach.nl/cmsm/nl/chke2-5a/774319002f31c7dd7ac2349e3524d0/hb-320-banner-1200x8003-480x320.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 20969,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "etag": "\"61bf97d8-5122\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "41e690e1a2cf43c36e1e4b674aed05821bed85b7110a0102289d93229bf75a16",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.09322299999985262
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/javascript/home/store-modul/store-module-min-js.162b2cc51e6935cb093ce434554ae5a1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1278,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "bc1fca11c9fb8772f37c5b23c52fc3f7014a74f0e34333f3b6b30a1bf391576b",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.021537000000535045
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/javascript/libraries/splide/splide.min.34f49f50ddbf68763980c77817f3f60e.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 10759,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "2c57ac6e79a4ad7f00339e833fe1130e16b0329880eaf6301dde7fe85d9905c9",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.02151600000070175
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/javascript/home/category-slider/category-slider-min-js.16517d1c6cd7ae6fcfe040245b2d618f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 827,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "35b7f62f2cc6913c1a80df60738198e5b79021a528b2ba7d2e22371818d3452a",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.043225000001257285
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/media/technik/javascript/home/seo-text/home-text-collapsible-min-js.7cf00cb995c7f2b873fbe58e29f18dbe.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 753,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000,public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "34ce1e17e832c1d214c033e186ff43a6f3186ec41456872b5b1c6f9e140178e1",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.03936299999986659
+      },
+      {
+        "url": "https://www.hornbach.nl/mvc/cart/load/cart/size.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 425,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:01 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax\n_hybris.tenantID_=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/\nJSESSIONID=F72904E957CD62078F6BCD6D81F3C8B2.ajp13_live_NL_5; Path=/; Secure; HttpOnly;SameSite=lax\nJSESSIONID=F72904E957CD62078F6BCD6D81F3C8B2.ajp13_live_NL_5; Version=1; Path=/; Secure; HttpOnly;SameSite=lax\ns=t; Version=1; Path=/; Secure; HttpOnly\nnl_hornbach=ffffffffaf1dbed345525d5f4f58455e445a4a42290f;expires=Mon, 20-Dec-2021 16:04:01 GMT;path=/;secure;httponly"
+        },
+        "responseBodyHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "initiators": [
+          "https://www.hornbach.nl/header/js/header.f1097d74da51eca2cff1.js"
+        ],
+        "time": 0.028827000001911074
+      },
+      {
+        "url": "https://www.hornbach.nl/mvc/wishlist/size",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 423,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:01 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax\n_hybris.tenantID_=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/\nJSESSIONID=7CE33A0706332601847CDE880818B736.ajp13_live_NL_8; Path=/; Secure; HttpOnly;SameSite=lax\nJSESSIONID=7CE33A0706332601847CDE880818B736.ajp13_live_NL_8; Version=1; Path=/; Secure; HttpOnly;SameSite=lax\ns=t; Version=1; Path=/; Secure; HttpOnly\nnl_hornbach=ffffffffaf1dbe3145525d5f4f58455e445a4a42290f;expires=Mon, 20-Dec-2021 16:04:02 GMT;path=/;secure;httponly"
+        },
+        "responseBodyHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "initiators": [
+          "https://www.hornbach.nl/header/js/header.f1097d74da51eca2cff1.js"
+        ],
+        "time": 0.5079609999993409
+      },
+      {
+        "url": "https://www.hornbach.nl/mvc/comparison/size",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 825,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:01 GMT",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax\n_hybris.tenantID_=\"\"; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/\nJSESSIONID=4C3C644048DD51852427E65ECD161BD7.ajp13_live_NL_10; Path=/; Secure; HttpOnly;SameSite=lax\nJSESSIONID=4C3C644048DD51852427E65ECD161BD7.ajp13_live_NL_10; Version=1; Path=/; Secure; HttpOnly;SameSite=lax\ns=t; Version=1; Path=/; Secure; HttpOnly\nnl_hornbach=ffffffffaf1dbebb45525d5f4f58455e445a4a42290f;expires=Mon, 20-Dec-2021 16:04:01 GMT;path=/;secure;httponly"
+        },
+        "responseBodyHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "initiators": [
+          "https://www.hornbach.nl/header/js/header.f1097d74da51eca2cff1.js"
+        ],
+        "time": 0.023307999999815365
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 76339,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"3f05f05bdb914822016d553739c818b8\"",
+          "expires": "Fri, 16 Dec 2022 15:22:37 GMT"
+        },
+        "responseBodyHash": "a3a46dcd52bafad5335f0ab4525b435e42fe17ffa109e387a742c6ef7e4837eb",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/latest/loader.js"
+        ],
+        "time": 0.008563999999751104
+      },
+      {
+        "url": "https://www.hornbach.nl/article-detail-service/query?fitlocale=nl-NL",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 12492,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600, public",
+          "etag": "W/\"2fb5-rpZof9Vu5skDUZzVhyofsN+EACk:dtagent102292112011020178ZDW\"",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c61d3d8e2b3a540ea4c1ad7c9c01598479773dbed42439039dc210a34edd8d76",
+        "initiators": [
+          "https://www.hornbach.nl/reco-ui/assets/reco.4e747990f580386cddae.js",
+          "https://www.hornbach.nl/header/js/header.f1097d74da51eca2cff1.js",
+          "https://www.hornbach.nl/globals/assets/globals.5f7d7127898775d2b4f9.js"
+        ],
+        "time": 0.058976000000257045
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/703/130/458/DV_8_5185385_01_4c_NL_20161103105414.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 18428,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"581bbfaf-4747\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "fa82dbaba03d293eb01969a5fd447487d87aebe4ad21a8612430df343b360a8d",
+        "initiators": [
+          "https://www.hornbach.nl/globals/assets/globals.5f7d7127898775d2b4f9.js",
+          "https://www.hornbach.nl/reco-ui/assets/reco.4e747990f580386cddae.js",
+          "https://www.hornbach.nl/header/js/header.f1097d74da51eca2cff1.js"
+        ],
+        "time": 0.013047000000369735
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/909/668/DV_8_10329445_02_4c_NL_20201110221652.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 30668,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"60b43ea0-76c6\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "4d6307f4316d573efa4871623d58c66dd4247dfdb662e048362f3dbe826cfc58",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.025584000002709217
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/492/112/557/DV_8_10476554_06_4c_DE_20211115094751.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 26141,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"6192d4a0-6532\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "81f7679c2b9aea76e39c51af0b5a7d280efe7b88b708d3e9722d091e5ddcc4f8",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.02352700000119512
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/926/948/DV_8_6244873_03_4c_DE_20201128224654.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 42301,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5fc42745-a3ef\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "cb3515b2bccdd2395255daf17300fde887d98cd6287cc83621e11ce01eb8db2e",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.0333360000004177
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/186/784/DV_8_3881991_05_4c_DE_20170630113933.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 32519,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"59572213-7def\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "b82157c933045345633a47b9c3b0e0456ff919504b88c7e11d28c949ec883ad6",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.024959999998827698
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/497/21/DV_8_8415059_02_4c_NL_20151217092054.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 11127,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"56736bec-2aef\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "1f07e2a4642975dd0229eb2549e2b14c26dc7deeb46c4670f25177bda98fc516",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.025090999999520136
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/619/068/DV_8_10074842_01_4c_NL_20190712051655.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 38878,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5d2952e4-96a2\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "7326eca80f6cfc02afc05c3617647c1eadc09562b899d67f9e589415db9574df",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.03341599999839673
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/492/097/33/DV_8_8566599_01_4c_NL_20190409114757.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 94069,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"5cad46c7-16cd9\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "015395287ad5c2066fed978449f54ffe4cb020631ea6b9df343e2dcf6feec3b7",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.03699200000119163
+      },
+      {
+        "url": "https://cdn.hornbach.nl/data/shop/D04/001/780/491/939/39/DV_8_8593652_01_4c_NL_20150223151358.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 49679,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "\"54ec3f01-c08b\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "15034ab75834baa640acf0a2b5ead61d555aeae195e6d06f9c839b86d8c0709b",
+        "initiators": [
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.035598999998910585
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/languages.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:02 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/languages.json"
+        ],
+        "time": 0.023090000002412125
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/languages.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 611,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=10, no-transform",
+          "etag": "\"86c2b963c02389006f2eb40e7f49fdba\"",
+          "expires": "Mon, 20 Dec 2021 15:44:10 GMT"
+        },
+        "responseBodyHash": "3e45de09e280efe98601381da049bbb4f8a91082450d9e4495066efce5cfebe5",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.03955100000166567
+      },
+      {
+        "url": "https://www.hornbach.nl/hornbach/cms/nl/nl/technik/alle-markte/alle-maerkte.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 2426,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, max-age=0",
+          "etag": "W/\"251f2aee0bc7de12aba1cca7de01b96b:dtagent102292112011020178ZDW\"",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "hbMarketSession=723; Max-Age=1800; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "ffa7dd0d84e1d3bc3a3bc3a4d8ece774acb57af427d903eb7f22ff72e131cc8c",
+        "initiators": [
+          "https://www.hornbach.nl/hornbach/media/technik/javascript/home/store-modul/store-module-min-js.162b2cc51e6935cb093ce434554ae5a1.js",
+          "https://www.hornbach.nl/hornbach/media/technik/javascript/home/category-slider/category-slider-min-js.16517d1c6cd7ae6fcfe040245b2d618f.js"
+        ],
+        "time": 0.022030000000086147
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/dps-nl.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1020,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=10, no-transform",
+          "etag": "\"fa4182d5c1b06f51895f4b78370b81e1\"",
+          "expires": "Mon, 20 Dec 2021 15:44:10 GMT"
+        },
+        "responseBodyHash": "ee08cc4729cfe618d8f874bf69ab4f60dccaf9fe2f3686f29d266ac51a768ac9",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.022091000002546934
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/dps-nl.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:02 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/dps-nl.json"
+        ],
+        "time": 0.015674000002036337
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/core.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 657,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=10, no-transform",
+          "etag": "\"559def2d0ae8bd0b90282abf5b98a3e9\"",
+          "expires": "Mon, 20 Dec 2021 15:44:04 GMT"
+        },
+        "responseBodyHash": "034e606613c7f8912e4af914b92ef3869ed98ea5a7f63d1abffafb394779ea0e",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.02007199999934528
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/core.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:02 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/core.json"
+        ],
+        "time": 0.014181999998982064
+      },
+      {
+        "url": "https://app.usercentrics.eu/session/1px.png?settingsId=zwSm4t-yn",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 838,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800,no-transform",
+          "etag": "\"3702ada73b8951017b8451cbd6a96523\"",
+          "expires": "Mon, 20 Dec 2021 16:07:04 GMT"
+        },
+        "responseBodyHash": "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c",
+        "initiators": [],
+        "time": 0.0032650000030116644
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/nl.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 8324,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, s-maxage=10, no-transform",
+          "etag": "\"2aac6d22c8ae97b46ce2e8609a74ae99\"",
+          "expires": "Mon, 20 Dec 2021 15:44:06 GMT"
+        },
+        "responseBodyHash": "5ebd406d473bbb5d1fe17298b326b8e9b7a38798c59683a2eac127beced5cd43",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.01662899999791989
+      },
+      {
+        "url": "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/nl.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "35.241.3.184",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:44:02 GMT"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.usercentrics.eu/settings/zwSm4t-yn/latest/nl.json"
+        ],
+        "time": 0.009416000000783242
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultData-f744a3fe-4952d7fe.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1145,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"fbeeda0c9bac011e8b7cdd95bfd32474\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "36bc42696bc8331b89f76a6fbea2152099ca50455596382b6d7fbb1e0c95b9f6",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.0031850000013946556
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 987,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"75687adf7789e252987e152a66031242\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "28bed384784ab21cfdd953b7fbd8df53cd7c4e1700da0db65ff141ee32e257d3",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.0032739999987825286
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/FirstLayerCustomization-765e577d-f0d1ddbb.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js",
+        "status": 200,
+        "size": 1181,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"9af607e7fc243254a07c6e79746248a0\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "ac281d3331586b1c9cf3bfa3ba36004ac08778a12364e0dd7bd478ee7637e25b",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js"
+        ],
+        "time": 0.002723000001424225
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/ButtonsCustomization-b3b6c535-d634ee50.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js",
+        "status": 200,
+        "size": 463,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"d975c6195c86a7cb1d22f61644206893\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "a07ad12425a7dd4048362d74da191cb7ca8277e86f264812ed04b3ea5fb3d7b5",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js"
+        ],
+        "time": 0.0030780000015511177
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/SecondLayerUI-e5a57c3b-6074985e.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js",
+        "status": 200,
+        "size": 521,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"e32fdf21280cc89040b92b4fbd7df131\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "72347f5868639379de2e8ca099d4d714329324497244725630b758ee8c4db8d3",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultUI-396b04a5-4b7846ef.js"
+        ],
+        "time": 0.00588199999765493
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/Taglogger-4b89f394-9aa1950f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 845,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"b183bd88f027c0f81b35d1507577d9a2\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "5efe17b35476562634e29f5a452ff97973b674a84300fd7b99206c7f1faa1d4c",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.002855000002455199
+      },
+      {
+        "url": "https://graphql.usercentrics.eu/graphql",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.120.238.166",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://graphql.usercentrics.eu/graphql"
+        ],
+        "time": 0.019872000000759726
+      },
+      {
+        "url": "https://graphql.usercentrics.eu/graphql",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 781,
+        "remoteIPAddress": "34.120.238.166",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "W/\"4e4-9Tb6LZuAeo6YNJflF55PCE/BjWQ\""
+        },
+        "responseBodyHash": "174755e03f47f219c759959bbfff54ff0935ca9343e9aedcdef450a80306c662",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.036530999997921754
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-VQH9",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 44943,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:44:02 GMT"
+        },
+        "responseBodyHash": "f53c5a3d8fb1b89b99c88ee6934f0f267df9de1758219295d0c0ccb709f50b72",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.021471000000019558
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/index-8e4b38c0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 1211,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"6537027031b2d8876cdb16bd31f6a74e\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "0c248b9e500ef5890e1ed94c86476183694c3249741fe4adb54f343f505fb326",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.0036360000012791716
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 2301,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"60de15fef21a5a15f67ee89a62b416cc\"",
+          "expires": "Fri, 16 Dec 2022 15:22:32 GMT"
+        },
+        "responseBodyHash": "2eb8323173445c39271e4c2ecdcf0050bd71c631000ec2163ed127ec33081eb5",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index-8e4b38c0.js",
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js"
+        ],
+        "time": 0.006147000000055414
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/SaveButton-c5d60512.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js",
+        "status": 200,
+        "size": 631,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"2b16383a45b5ad0f3090c43df7dc2f5e\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "303d173a4738216d5bb9ab41bdd5d40b03b0d4e82644869119056be8e291c4e6",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js"
+        ],
+        "time": 0.004018999999971129
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/VirtualServiceItem-835efcc2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js",
+        "status": 200,
+        "size": 42209,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"8420c85cfc4826169425bc6bf4a203b5\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "6c98241cc9108b4309cc4eb7b15ca883d5d5cd96187827f2d97441a14ead0720",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js"
+        ],
+        "time": 0.014236999999411637
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/DefaultTabs-9be6cfa7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js",
+        "status": 200,
+        "size": 1638,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"73d9c56e1da91ec863e1ec9bf4f5dd45\"",
+          "expires": "Fri, 16 Dec 2022 15:22:32 GMT"
+        },
+        "responseBodyHash": "99136453ac4827702994e931ab0867a67482b80ed03be6b68d346f969abeeaba",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js"
+        ],
+        "time": 0.0053299999999580905
+      },
+      {
+        "url": "https://app.usercentrics.eu/browser-ui/2.17.2/helpers-65e79f36.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js",
+        "status": 200,
+        "size": 734,
+        "remoteIPAddress": "35.190.14.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, no-transform",
+          "etag": "\"a1603fffd9996f1a7445f3b397a39ffd\"",
+          "expires": "Fri, 16 Dec 2022 15:22:38 GMT"
+        },
+        "responseBodyHash": "6d4d42cdd2907c047320818c885a87f9445a668ce2d47dd5510b9da248f00fbf",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js"
+        ],
+        "time": 0.006560000001627486
+      },
+      {
+        "url": "https://cdn.hornbach.nl/webshop-commons/hornbach_logo.nl-NL.v1.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 6291,
+        "remoteIPAddress": "91.240.77.161",
+        "responseHeaders": {
+          "cache-control": "max-age=315360000",
+          "etag": "W/\"60ed7cff-4948\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        "responseBodyHash": "6f726670bf18175389546fe1783fc3df08a3602aa1ffdc6a285f1fed9a0e9ace",
+        "initiators": [
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index.module.js",
+          "https://app.usercentrics.eu/browser-ui/2.17.2/index-146196b8.js"
+        ],
+        "time": 0.014093000001594191
+      },
+      {
+        "url": "https://www.hornbach.nl/rb_ec5a6494-a408-48d5-9d0e-3432b67a7bf8?type=js3&sn=v_4_srv_2_sn_9A89F769DCC2D6919130FDA04EEFEA25_perc_100000_ol_0_mul_1_app-3A64987b1f3a66a156_0&svrid=2&flavor=post&vi=RGKCSPFLCGKRMHICLBQUNQSRBQFCJPHU-0&modifiedSince=1639985168524&rf=https%3A%2F%2Fwww.hornbach.nl%2F&bp=3&app=64987b1f3a66a156&crc=3702806010&en=bbgigwq0&end=1",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.hornbach.nl/",
+        "status": 200,
+        "size": 246,
+        "remoteIPAddress": "128.65.211.182",
+        "responseHeaders": {
+          "cache-control": "private"
+        },
+        "responseBodyHash": "620e211bca1ede63275a6d9dfd825bf07a2e9a2b6a69fd7f1797bb6c79032c9d",
+        "initiators": [
+          "https://www.hornbach.nl/ruxitagentjs_A2Vfghjqru_10229211201102017.js",
+          "https://www.hornbach.nl/"
+        ],
+        "time": 0.015323999999964144
+      }
+    ]
+  }
+}

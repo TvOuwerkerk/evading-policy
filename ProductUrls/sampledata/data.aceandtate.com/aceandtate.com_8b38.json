@@ -1,0 +1,1133 @@
+{
+  "initialUrl": "https://aceandtate.com/",
+  "finalUrl": "https://www.aceandtate.com/nl",
+  "timeout": false,
+  "testStarted": 1640013712009,
+  "testFinished": 1640013725802,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.aceandtate.com/links.aceandtate.com_8b38.json",
+    "requests": [
+      {
+        "url": "https://aceandtate.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "expires": "Mon, 20 Dec 2021 16:21:52 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.aceandtate.com/",
+        "initiators": [],
+        "time": 0.04581300000063493
+      },
+      {
+        "url": "https://www.aceandtate.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.aceandtate.com/nl",
+        "redirectedFrom": "https://aceandtate.com/",
+        "initiators": [],
+        "time": 0.058726999999635154
+      },
+      {
+        "url": "https://www.aceandtate.com/nl",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 60770,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "cache-control": "public, max-age=14400",
+          "expires": "Mon, 20 Dec 2021 19:21:52 GMT"
+        },
+        "responseBodyHash": "f754c264a7d60231df71455463bf7ca08c771f51afe0a5f734361de5ab819f70",
+        "redirectedFrom": "https://www.aceandtate.com/",
+        "initiators": [],
+        "time": 0.053578000002744375
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 812,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"bc3429a9af602c4c76bb06b5b75c1e82aa1e0b824cda2d6d52130e8904387577\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "aa6e086b601f6495ce35df57465d9c3541cdfe574d5405a92de045171452b627",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.03402999999889289
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/langswitch/2a47c0e9-f8a5-4937-a03b-18752189ab85.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1644,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9B3266F01B82C"
+        },
+        "responseBodyHash": "f739a0204856a1f4ae7fb1098514fefa854491e64d420330fcd56ab2e436c781",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.08933899999829009
+      },
+      {
+        "url": "https://instant.page/5.1.0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1317,
+        "remoteIPAddress": "104.17.10.26",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=2592000"
+        },
+        "responseBodyHash": "fa5c34371df3acd378bd2490d82a32ad6f3b80155e5eee8ad1b937a188993e0f",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.041898999999830266
+      },
+      {
+        "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 7834,
+        "remoteIPAddress": "52.222.139.2",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"158ca99a1f63568e56a39abb980c9aa7\""
+        },
+        "responseBodyHash": "a9ddd05afc7b255840510e1d40fda6304d6dc5695fa2ef4c40424d1507d2cfe3",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.06240899999829708
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/webpack-062bbd3560a3b41a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 2744,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"24bb7d2cbb6fcb39da940573bdf42aae1bc556aaf98cfc235ac5b7a2751a7d7d\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "24bb7d2cbb6fcb39da940573bdf42aae1bc556aaf98cfc235ac5b7a2751a7d7d",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.09621300000071642
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 9083,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"b7852c3013c1fff74fe2a146763184ba4df1b81fe5c23bf7f804e60b930bc42c\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "b7852c3013c1fff74fe2a146763184ba4df1b81fe5c23bf7f804e60b930bc42c",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.12126999999964028
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/main-62f5330c6bffdd31.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 31837,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"885c66af0cfa793c9d3579175f1ce4671a9b65ef6cab22661f34cdbc5bd34cfb\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "885c66af0cfa793c9d3579175f1ce4671a9b65ef6cab22661f34cdbc5bd34cfb",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.17620200000237674
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 451039,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"f74db737bfc2fa9e55af163672fb6f07a3a3b7287d56be9925efffb0b0294e9d\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "f74db737bfc2fa9e55af163672fb6f07a3a3b7287d56be9925efffb0b0294e9d",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.502664999999979
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/8211-e8a05704d17f4a97.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 4376,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"806e38e9794d3d60b544896eaa2a1db716b1c88cec9a19b11d1a8134b08ac994\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "806e38e9794d3d60b544896eaa2a1db716b1c88cec9a19b11d1a8134b08ac994",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.17340500000136672
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/482-eea0433d8e24b264.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 19770,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"0b3dab02fef8377a6bd38b2f121b379ba4e8939ac384dde2e835c7ff545297f9\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "0b3dab02fef8377a6bd38b2f121b379ba4e8939ac384dde2e835c7ff545297f9",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.17179100000066683
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/7429-d08cad1543d1c74a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 10207,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"c9896afe81def7aff69834ddd4e94a03ca20756e2bca1f3a550160052677c632\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "c9896afe81def7aff69834ddd4e94a03ca20756e2bca1f3a550160052677c632",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.16602200000124867
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/chunks/pages/%5Blocale%5D-ad1c5156ce60f61a.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 3303,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"915c2b4b2db91b547ebd0b4f88062705af54835db1b998b889276792dd642ff7\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "915c2b4b2db91b547ebd0b4f88062705af54835db1b998b889276792dd642ff7",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.1574659999969299
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/UdinsIa3JEZ-uulW2m3f3/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 1917,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"b8fafe86cb4b534fefec078f542f384120bdb3f036e54fce8a785bf9c90425ac\""
+        },
+        "responseBodyHash": "b8fafe86cb4b534fefec078f542f384120bdb3f036e54fce8a785bf9c90425ac",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.15970999999990454
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/UdinsIa3JEZ-uulW2m3f3/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 816,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"50e8b8d0f7477d8b878dacaab63599db1e1c8a8a32d983ecc602f9c6e2754924\""
+        },
+        "responseBodyHash": "50e8b8d0f7477d8b878dacaab63599db1e1c8a8a32d983ecc602f9c6e2754924",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.16590500000165775
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/UdinsIa3JEZ-uulW2m3f3/_middlewareManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 555,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"de5341313a4dc5d982ca50ae4a491e84bc5e80b0f439d87f05fc3973c1b7e59a\""
+        },
+        "responseBodyHash": "de5341313a4dc5d982ca50ae4a491e84bc5e80b0f439d87f05fc3973c1b7e59a",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.17384400000082678
+      },
+      {
+        "url": "https://images.aceandtate.com/image/upload/c_scale,w_500/v1557493560/homepage/services-stores.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 25179,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "etag": "\"f5f359c179578c3700b655d161fe49d0\"",
+          "expires": "Tue, 20 Dec 2022 21:21:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5814257e0805651b806c86f16aa30f261970caa1746387c7079ed80f396b39f1",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.1477729999969597
+      },
+      {
+        "url": "https://www.aceandtate.com/_next/static/images/bcorp-e2dd1607b4f739d2e1b9bfbcf44e4c0b.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/nl",
+        "status": 200,
+        "size": 6323,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "W/\"51795cd15fa3baa202610a03a0c612486e71b0d395195dd641ac35fcb472bfeb\"",
+          "expires": "Mon, 20 Dec 2021 19:21:52 GMT"
+        },
+        "responseBodyHash": "51795cd15fa3baa202610a03a0c612486e71b0d395195dd641ac35fcb472bfeb",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.14834300000075018
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/consent/44450fad-d9ee-47c3-a569-6012938cca43.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 19850,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "etag": "0x8D9B326702109E0"
+        },
+        "responseBodyHash": "32bf296d8e7c3a314fbbae83d68656c9e9cba70dbeb62fc6d216c787c75499d9",
+        "initiators": [
+          "https://optanon.blob.core.windows.net/langswitch/2a47c0e9-f8a5-4937-a03b-18752189ab85.js"
+        ],
+        "time": 0.06962900000144145
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KJGM8XH",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 92751,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:21:52 GMT"
+        },
+        "responseBodyHash": "837c884285a27c32eb0c1dfee9dbd97164ec796ae056d63ea7dc8de07bcfe303",
+        "initiators": [
+          "https://www.aceandtate.com/nl"
+        ],
+        "time": 0.08967800000027637
+      },
+      {
+        "url": "https://www.aceandtate.com/static/fonts/AmperSans/AmperSans-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css",
+        "status": 200,
+        "size": 32306,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"3e134e86b848d38928ae74361b1d8ea2469dd52597379d8b14a30c2c7a293e05\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "e514939fffb29a7fd02b07ef0345cdf6df3d67546ef8c113e7588d88b8d65f4c",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css"
+        ],
+        "time": 0.23028100000010454
+      },
+      {
+        "url": "https://www.aceandtate.com/static/fonts/AmperSans/AmperSans-Light.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css",
+        "status": 200,
+        "size": 32376,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"44cd35acbf6a273183002f2f0b4baf319c6eaecf369e895fdba325e94a56cd7c\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "5de616e6f30c63a1ae33d651c4befbd8c916d703f1bd44089191f1771aca646d",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css"
+        ],
+        "time": 0.23016199999983655
+      },
+      {
+        "url": "https://www.aceandtate.com/static/fonts/AmperSans/AmperSans-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css",
+        "status": 200,
+        "size": 32386,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"2a0f5dc4b611b37dd11ef5649464649215d62a8f261df3b1ed639ef73a9eac63\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "eda3856e1b62f31b0804d95e75983f280ab95b82904a7fa1de73adf3b36846e7",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css"
+        ],
+        "time": 0.22333299999809242
+      },
+      {
+        "url": "https://www.aceandtate.com/static/fonts/AmperSans/AmperSans-ExtraBold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css",
+        "status": 200,
+        "size": 32495,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"ea3f12ee2c97473e999e7b26c204086ea817c70111ab236523c1dd2167ce973d\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "bbc1ceb20228fe3972e8499e31efc97a907789ac6f7826521bb30a2fd06e7ceb",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css"
+        ],
+        "time": 0.2317689999981667
+      },
+      {
+        "url": "https://www.aceandtate.com/static/fonts/Reckless/Reckless-Light.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css",
+        "status": 200,
+        "size": 36329,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "W/\"aacdef206153ab304af98308f4b8214f63b68c1d0dc35b8118872a4be9e2fa64\"",
+          "expires": "Tue, 20 Dec 2022 15:21:52 GMT"
+        },
+        "responseBodyHash": "4f925e81a6f11912389e517761901655d7100650b957ec8b59df970e2bb34e7f",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/css/fd903bf97483c91b.css"
+        ],
+        "time": 0.2329619999982242
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 4246,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D9A4C5B478C5AD"
+        },
+        "responseBodyHash": "bc14b8a5bdb868d718c59e30703d928b218050d4c2a891d8d85ece159e523b23",
+        "initiators": [
+          "https://optanon.blob.core.windows.net/consent/44450fad-d9ee-47c3-a569-6012938cca43.js"
+        ],
+        "time": 0.02427700000043842
+      },
+      {
+        "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 30532,
+        "remoteIPAddress": "69.16.175.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000\npublic",
+          "etag": "W/\"611feac9-1538f\""
+        },
+        "responseBodyHash": "160a426ff2894252cd7cebbdd6d6b7da8fcd319c65b70468f10b6690c45d02ef",
+        "initiators": [
+          "https://optanon.blob.core.windows.net/consent/44450fad-d9ee-47c3-a569-6012938cca43.js"
+        ],
+        "time": 0.06267499999739812
+      },
+      {
+        "url": "https://api.aceandtate.com/api/adyen/checkout/payment_methods?language=nl&store_id=3",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "AWSALB=trrBnWKo4Yb4FlV8d3wbn5Tcb6Kjh/4NfORnboN8xwHzDv8+F8aSU77/nBpIeHzFsZjTpj0skkgKEnMJz4RpqwwmaCb+U6piRMuX8dyRwkaDUDKzXqLNrpF1a3qh; Expires=Mon, 27 Dec 2021 15:21:53 GMT; Path=/\nAWSALBCORS=trrBnWKo4Yb4FlV8d3wbn5Tcb6Kjh/4NfORnboN8xwHzDv8+F8aSU77/nBpIeHzFsZjTpj0skkgKEnMJz4RpqwwmaCb+U6piRMuX8dyRwkaDUDKzXqLNrpF1a3qh; Expires=Mon, 27 Dec 2021 15:21:53 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.aceandtate.com/api/adyen/checkout/payment_methods?language=nl&store_id=3"
+        ],
+        "time": 0.09255499999926542
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&businessunitId=586cc8200000ff00059a2d9f",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 2261,
+        "remoteIPAddress": "52.222.139.2",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"cd69f4d5ed17d150e89a02d3bc8839ce\""
+        },
+        "responseBodyHash": "8b17b12a46bcc8cfb1b0873fddf84dd8360ec0424ea090d0d7df5ba11f0e358a",
+        "initiators": [
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.009378999999171356
+      },
+      {
+        "url": "https://o80240.ingest.sentry.io/api/2411098/envelope/?sentry_key=209ecfd9eaac437887b9a453aa0beca5&sentry_version=7",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 247,
+        "remoteIPAddress": "34.120.195.249",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.aceandtate.com"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+          "https://www.aceandtate.com/_next/static/chunks/webpack-062bbd3560a3b41a.js",
+          "https://www.aceandtate.com/_next/static/chunks/main-62f5330c6bffdd31.js"
+        ],
+        "time": 0.027776000002631918
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/search-insights@1.3.1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 3279,
+        "remoteIPAddress": "151.101.37.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+          "etag": "W/\"2817-FGLI0cv/s1qAA3nM5zLdFEpck2Q\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "47c45e88cf077d9f81fbf85bc409e22eaea1604e12b33ecd1ee3a1af47bd45a1",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KJGM8XH",
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/main-62f5330c6bffdd31.js",
+          "https://www.aceandtate.com/_next/static/chunks/webpack-062bbd3560a3b41a.js"
+        ],
+        "time": 0.012236000002303626
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 2350,
+        "remoteIPAddress": "104.110.240.211",
+        "responseHeaders": {
+          "cache-control": "max-age=77914"
+        },
+        "responseBodyHash": "fed785a6a8ca96fb67230fec5d85f9c508db49f4075aa0ef284af56cd89813e3",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KJGM8XH",
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/main-62f5330c6bffdd31.js",
+          "https://www.aceandtate.com/_next/static/chunks/webpack-062bbd3560a3b41a.js"
+        ],
+        "time": 0.015607000001182314
+      },
+      {
+        "url": "https://api.aceandtate.com/api/adyen/checkout/payment_methods?language=nl&store_id=3",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1466,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"64ed25a048d50473294bd0b9d7261f57\"",
+          "set-cookie": "AWSALB=Ya26rq0hnE5Hl9TIxNOcX4M3CJNuSvrl/ErTPrvXx+K4WxHIBf/RrgLiIEaahLRRVitqZvKUxMA/SRIr4b4yt/x4aXO+4ccXDViqGkJSczdhKlIjRZ0drh1cc3jp; Expires=Mon, 27 Dec 2021 15:21:54 GMT; Path=/\nAWSALBCORS=Ya26rq0hnE5Hl9TIxNOcX4M3CJNuSvrl/ErTPrvXx+K4WxHIBf/RrgLiIEaahLRRVitqZvKUxMA/SRIr4b4yt/x4aXO+4ccXDViqGkJSczdhKlIjRZ0drh1cc3jp; Expires=Mon, 27 Dec 2021 15:21:54 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "4a59d34fc6925be11cdc1acb74d18824dd391a4d0a1a12a45edc3945d1cd511b",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+          "https://www.aceandtate.com/_next/static/chunks/main-62f5330c6bffdd31.js",
+          "https://www.aceandtate.com/_next/static/chunks/482-eea0433d8e24b264.js",
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/webpack-062bbd3560a3b41a.js"
+        ],
+        "time": 0.23122800000055577
+      },
+      {
+        "url": "https://api.aceandtate.com/api/cart?language=nl_NL&store_id=3",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "AWSALB=P/aOTl/ylb+L+tKKRqxiGkOK/ZXQ0x4e9+xdxgfDdyAIQmPYPR+SmlHVrmgCj3VroIFS6elA3nFNlDQGqoW4sclJxTPPQL3A4WcJZhJPz8eSb+9XKw5/sfTi4qU+; Expires=Mon, 27 Dec 2021 15:21:54 GMT; Path=/\nAWSALBCORS=P/aOTl/ylb+L+tKKRqxiGkOK/ZXQ0x4e9+xdxgfDdyAIQmPYPR+SmlHVrmgCj3VroIFS6elA3nFNlDQGqoW4sclJxTPPQL3A4WcJZhJPz8eSb+9XKw5/sfTi4qU+; Expires=Mon, 27 Dec 2021 15:21:54 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.aceandtate.com/api/cart?language=nl_NL&store_id=3"
+        ],
+        "time": 0.053259000000252854
+      },
+      {
+        "url": "https://api.aceandtate.com/api/cart?language=nl_NL&store_id=3",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1240,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, private, must-revalidate",
+          "etag": "W/\"9b725573ac401fd46eddb04660cf89fe\"",
+          "set-cookie": "AWSALB=Kn/frJxnCQd0G0JxCKml2AkiPZE/6N2lhY2dgNcbBDH8+WzA+9ZOMrpI0DhI9eH6xZb2XG9WgA/Uw1BDL/qZG/aP6mSqupIRWdb1mKzmjI0oYtjqtDbCV7FXns8U; Expires=Mon, 27 Dec 2021 15:21:54 GMT; Path=/\nAWSALBCORS=Kn/frJxnCQd0G0JxCKml2AkiPZE/6N2lhY2dgNcbBDH8+WzA+9ZOMrpI0DhI9eH6xZb2XG9WgA/Uw1BDL/qZG/aP6mSqupIRWdb1mKzmjI0oYtjqtDbCV7FXns8U; Expires=Mon, 27 Dec 2021 15:21:54 GMT; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": "6d826b4b00bbd7208d2d495bdd5e6fd93b60f5f679d0f471b6949f145a0cdb3d",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+          "https://www.aceandtate.com/_next/static/chunks/main-62f5330c6bffdd31.js",
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/webpack-062bbd3560a3b41a.js"
+        ],
+        "time": 0.1694969999989553
+      },
+      {
+        "url": "https://ctfassets.aceandtate.com/cdn-cgi/image/fit=cover,height=672,quality=75,width=1920/utaji99zkvj6/1ydw2kxu7PQo8qFiOXXg48/2c5b3a7e57c1f647fe2c0c3525893d0e/Frame_1153__1_.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 61988,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cfUIc6TYh3nwYehuhnG07lbQ:3ea15dac91ef6d96b998b532a0dd0cb6\""
+        },
+        "responseBodyHash": "30146075bc344efbca3095429154131260f97a4ac4af480c5bd5ac1d36e6f7ab",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.08531099999891012
+      },
+      {
+        "url": "https://ctfassets.aceandtate.com/cdn-cgi/image/quality=75,width=384/utaji99zkvj6/5vI4kIi3WmTaTBee2poUWs/223085ed218d8a5245b5e07c406a2a43/PIERCE-TIGER-WOOD-FRONT.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 6536,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cfpPQpVmGdfQNX-M27WFim5g:7a2348209852d940a76701b2f873cd6e\""
+        },
+        "responseBodyHash": "b38543d9a6ae687dc07af70c01a90eab7c5b21da847839ff63def55b2fc68197",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.09479500000088592
+      },
+      {
+        "url": "https://ctfassets.aceandtate.com/cdn-cgi/image/quality=75,width=384/utaji99zkvj6/OGvsdi2azbuskNlDXu85m/eb253b63d4508af5eec387a8137be742/Bestseller_2.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 5501,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cfqT8mJcKl03l1i3-FSuy6sw:f5c563e221a4052da0f54e99131ac112\""
+        },
+        "responseBodyHash": "d648ab681ee613662655988fd143665e0d46add1e565a47c4a16c06f3a0576c1",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.07531400000152644
+      },
+      {
+        "url": "https://ctfassets.aceandtate.com/cdn-cgi/image/quality=75,width=384/utaji99zkvj6/5kH8mJxDFMYwBzDx9MwnfV/d3ab1f95d19825463105d329b6889ba6/Bestseller_3.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 4900,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cffH7WQHdndnx8Sn0SrvrkfQ:71f69fa159ade7350956bb7c6ff1bd46\""
+        },
+        "responseBodyHash": "c40dda6df12621b9d4e9a1d44b033b3ea0e37700601b2627c40201c12cc95d96",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.0557249999983469
+      },
+      {
+        "url": "https://ctfassets.aceandtate.com/cdn-cgi/image/quality=75,width=384/utaji99zkvj6/24wx5QtSnNK688m0zus5nW/58a22bb928cd08bfb2c0453a9bcffb3d/Bestseller_4.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 5899,
+        "remoteIPAddress": "104.16.254.102",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "etag": "\"cfE7hVMUYi3cdA-oMUXig8GA:8a5508885e55bfb85dd064a1936fd6e3\""
+        },
+        "responseBodyHash": "bea067bad8f706489a89334beecd56021834cfc1315494cc63f424149cb52c7e",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/framework-74106c3a526ff377.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.06555099999968661
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/main.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&businessunitId=586cc8200000ff00059a2d9f",
+        "status": 200,
+        "size": 16824,
+        "remoteIPAddress": "52.222.139.2",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"a41c886474da0af09bfc1b2ab07ffebf\""
+        },
+        "responseBodyHash": "48b9b06e376b28b57873cbc0c714fe3fb953b4a0a8c1e824b8e009d8c2960332",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&businessunitId=586cc8200000ff00059a2d9f"
+        ],
+        "time": 0.004207999998470768
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3788961&time=1640013714246&url=https%3A%2F%2Fwww.aceandtate.com%2Fnl",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 302,
+        "remoteIPAddress": "13.107.43.14",
+        "responseHeaders": {
+          "set-cookie": "UserMatchHistory=AQLAk_XTZDLXfQAAAX3Yb1PNgR5NYtxbDpWcor2WcVOFlFg2miVSZ2Ytzjafnq7KfdN3N81GDGBvYA; Max-Age=2592000; Expires=Wed, 19 Jan 2022 15:21:54 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nAnalyticsSyncHistory=AQIgGKLDRuWPwgAAAX3Yb1PN4Ngg2igJjgxcHplqda0ye_SFW5WNvkgXd1O4jtySkHn4JRhB4c1zGP2FNAySbw; Max-Age=2592000; Expires=Wed, 19 Jan 2022 15:21:54 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nlang=v=2&lang=en-us; SameSite=None; Path=/; Domain=ads.linkedin.com; Secure\nbcookie=\"v=2&29b6d80a-4daf-4b5f-8c7b-be3b3653df90\"; domain=.linkedin.com; Path=/; Secure; Expires=Thu, 21-Dec-2023 02:59:26 GMT; SameSite=None\nlidc=\"b=VGST03:s=V:r=V:a=V:p=V:g=2482:u=1:x=1:i=1640013714:t=1640100114:v=2:sig=AQHIsjqUbp8NhG4r6JE8FPj8ZgBimb2B\"; Expires=Tue, 21 Dec 2021 15:21:54 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3788961%26time%3D1640013714246%26url%3Dhttps%253A%252F%252Fwww.aceandtate.com%252Fnl%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.1964769999976852
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustbox-data/5419b6a8b0d04a076446a9ad?businessUnitId=586cc8200000ff00059a2d9f&locale=nl",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&businessunitId=586cc8200000ff00059a2d9f",
+        "status": 200,
+        "size": 927,
+        "remoteIPAddress": "52.222.139.2",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800",
+          "etag": "\"0d7336c0b15abe612f1f43b00770d70c\""
+        },
+        "responseBodyHash": "c7092731f7097faf4876143f7889176b21d250767b7408daa67179026f1f8c14",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.00590100000044913
+      },
+      {
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=nl&styleHeight=28px&styleWidth=100%25&theme=light&stars=1%2C2%2C3%2C4%2C5&noReviews=hide&scrollToList=true&csCapture=&url=https%3A%2F%2Fwww.aceandtate.com%2Fnl&referrer=&userAgent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=586cc8200000ff00059a2d9f&widgetId=5419b6a8b0d04a076446a9ad",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&businessunitId=586cc8200000ff00059a2d9f",
+        "status": 204,
+        "size": 310,
+        "remoteIPAddress": "52.222.139.2",
+        "responseHeaders": {
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js"
+        ],
+        "time": 0.045403000000078464
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3788961%26time%3D1640013714246%26url%3Dhttps%253A%252F%252Fwww.aceandtate.com%252Fnl%26liSync%3Dtrue",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 302,
+        "remoteIPAddress": "13.107.43.14",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "lang=v=2&lang=en-us; Domain=linkedin.com; Path=/; Secure; SameSite=None\nbscookie=\"v=1&2021122015215481d9c72c-7f9e-414e-8ce4-13140be6e6d2AQG1B0f7PMTTAkGMKgDDbQqRleeynKiY\"; Domain=.www.linkedin.com; Expires=Thu, 21-Dec-2023 02:59:26 GMT; Path=/; HttpOnly; Secure; SameSite=None\nli_gc=MTswOzE2NDAwMTM3MTQ7MjswMjFDHSAgbdySk2JSHNoP3a//3ERsfsfl7HilUoPAweTeMg==; Domain=.linkedin.com; Expires=Mon, 18 Dec 2023 06:39:09 GMT; Path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3788961&time=1640013714246&url=https%3A%2F%2Fwww.aceandtate.com%2Fnl&liSync=true",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3788961&time=1640013714246&url=https%3A%2F%2Fwww.aceandtate.com%2Fnl",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.13901400000031572
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3788961&time=1640013714246&url=https%3A%2F%2Fwww.aceandtate.com%2Fnl&liSync=true",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 136,
+        "remoteIPAddress": "13.107.43.14",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3788961%26time%3D1640013714246%26url%3Dhttps%253A%252F%252Fwww.aceandtate.com%252Fnl%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.13202799999999115
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/images/cookie-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css",
+        "status": 200,
+        "size": 959,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D9A4C5C9685779"
+        },
+        "responseBodyHash": "0f5ab24bd621741d754625b3546dc8ad14645828ca4f64fdc3ebc40703642392",
+        "initiators": [
+          "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css"
+        ],
+        "time": 0.025751999997737585
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/images/optanon-pop-up-close.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1648,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D9A4C5C950663D"
+        },
+        "responseBodyHash": "5b952d0f5a1e5d8a0731da75c3e5d3ef9f34ff1b9923d5df2215e95e0225f563",
+        "initiators": [],
+        "time": 0.03629499999806285
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/logos/238/238:www.aceandtate.com/Ace%20&%20Tate%20Logo%20Black.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 4351,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D87B522705E515"
+        },
+        "responseBodyHash": "c1dbd51628b689c60db813e2eabd54585ff92c6e5eea1c69fe83d2e9a705bef9",
+        "initiators": [],
+        "time": 0.055373000002873596
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/images/cookie-collective-top-bottom.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1493,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D9A4C5CA5C7E01"
+        },
+        "responseBodyHash": "f68404adb2e49d32a36f1437b6f3728f5cc8dd9f7614879a4408359c6a55ac3c",
+        "initiators": [],
+        "time": 0.07373000000006869
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/images/cookie-collective-black-overlay.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css",
+        "status": 200,
+        "size": 701,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D9A4C5CAB2F583"
+        },
+        "responseBodyHash": "dfb61e002f71db7550305f49e8b6d054c5598c558501458db1dcc3809bf0a054",
+        "initiators": [
+          "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css"
+        ],
+        "time": 0.06613600000127917
+      },
+      {
+        "url": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/images/optanon-custom-inputs.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css",
+        "status": 200,
+        "size": 2558,
+        "remoteIPAddress": "52.239.137.4",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "0x8D9A4C5CA448CCC"
+        },
+        "responseBodyHash": "3ca989ce061aad459ed45184372bb328e5c868798baf0d71f31ffdcaa79a9fd4",
+        "initiators": [
+          "https://optanon.blob.core.windows.net/skins/6.26.0/default_responsive_alert_bottom_two_button_white/v2/css/optanon.css"
+        ],
+        "time": 0.03800999999657506
+      },
+      {
+        "url": "https://privacyportal-eu.onetrust.com/request/v1/consentreceipts",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://privacyportal-eu.onetrust.com/request/v1/consentreceipts"
+        ],
+        "time": 0.0417989999987185
+      },
+      {
+        "url": "https://privacyportal-eu.onetrust.com/request/v1/consentreceipts",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.aceandtate.com/",
+        "status": 200,
+        "size": 1459,
+        "remoteIPAddress": "104.20.185.68",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "6ce3a7960659763ac4794e8dd9236712b548ecfaa84e7a8a621ba40c4b985f63",
+        "initiators": [
+          "https://www.aceandtate.com/_next/static/chunks/pages/_app-3e8e4100b62de7c4.js",
+          "https://optanon.blob.core.windows.net/consent/44450fad-d9ee-47c3-a569-6012938cca43.js",
+          "https://code.jquery.com/jquery-3.3.1.min.js",
+          "__puppeteer_evaluation_script__"
+        ],
+        "time": 0.10831300000063493
+      }
+    ]
+  }
+}

@@ -1,0 +1,4024 @@
+{
+  "initialUrl": "https://www.indigo.ca/",
+  "finalUrl": "https://www.chapters.indigo.ca/en-ca/",
+  "timeout": false,
+  "testStarted": 1640012862270,
+  "testFinished": 1640012883401,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.indigo.ca/links.www.indigo.ca_d6bb.json",
+    "requests": [
+      {
+        "url": "https://www.indigo.ca/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:07:42 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:42 GMT; path=/\nakaas_canary-deployment=2147483647~rv=42~id=110dc85b1522b333ce5d32cf14ade220; path=/; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.chapters.indigo.ca/",
+        "initiators": [],
+        "time": 0.14663600000130828
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:42 GMT; path=/\nakaas_canary-deployment=2147483647~rv=72~id=50dd156401d1744a5b5b8b8af2b50d8c; path=/; Secure; SameSite=None\n_abck=C35372CD5959C08603C9B766078B5EEA~-1~YAAQZ8MTAgxlLcR9AQAAIFVi2Ae95wgpyaHZRnrcdqPa2//U7cgEtjJYHWvKAU6vRdW5D6rN4+f+46wlb4+I84uG/7K8Tmnwaym/U7N3KBVQDUz19DLVHZ1zh4h+SVoK8R5+ctjFKgiR+Gv41Pa6JzeCF9qoaWeqA+7DlYTajsqYeitMgsTJfamBM7MlbCVOrRxlbVowUNqpC1UfCqgarEKbMiImW1s+yHKrmGr4la+bgE6qqA7gMh7dts8vnlKEWpQ1ZipksUjefulTpWeyiJRfwMSjvQHJKgnJVD99JfFqJTiG48z44fewKhQ/5bE4WBzPTTne17u+Ch87Zu4mwZ8OSySxwcaKdqD4MU78e6HTl1Yasei2l85Bxw==~-1~-1~-1; Domain=.indigo.ca; Path=/; Expires=Tue, 20 Dec 2022 15:07:42 GMT; Max-Age=31536000; Secure\nbm_sz=C48EC1E80155550BB8C95DA25865B85E~YAAQZ8MTAg1lLcR9AQAAIFVi2A4SRz64qvp8q6cj4upimKAgPWkPufgz6Ekmtra+M8vobXCB4/9sU2+TpnjPoiJMzbSCcrv28ylnXzAiF0Ug5P4zN0F6f1+q20c+1A6IG3gm4LnHMv0iOGam2XpbLiJeGDaXfnUpxm8fZD9ebvjU0Fd8doL1yCXczgtb2L4ipZkXPtOtbmn+B2OV9VN2QBOMiNLRaiy9qBr1S2zmJj5B3mcHQaH1vMkZYhWx8iybns4+5QTPLHdplHlDwZNToR+uKEfLEdYgk2mYjEwUSSTZ0g==~3228998~3486274; Domain=.indigo.ca; Path=/; Expires=Mon, 20 Dec 2021 19:07:42 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.chapters.indigo.ca/en-ca/",
+        "redirectedFrom": "https://www.indigo.ca/",
+        "initiators": [],
+        "time": 0.2243750000016007
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/en-ca/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 85595,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2338",
+          "expires": "Mon, 20 Dec 2021 15:46:40 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:42 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca\nbm_mi=E49C21C07660F61A665594BCC7325A5A~vImGvxot1o2rceoLgUOpJr3V9S3Xl0GSceRt1l1ZtZ8zWbiSBT1Pm+H78LoFJZIpTcMjUg0ZHnq04tF69vnjpx4dgRGSuEzFTaNf/3RFs9pWkhBGRgcXAKq2bo7WN2WulaNI/PgOxATx11p93uw5EwG7vMdrlqBxBeXmeYlgndZQ/LAC27JTCHgXJOciCkIgoRLqf/yVR4BbJLfAG/9mA6nIDNmHcTRY+Ehoriu5OLvuQho0OxhpNaPCvON4+5Il; Domain=.chapters.indigo.ca; Path=/; Max-Age=0; HttpOnly\nak_bmsc=ACC06F827EC6BC5FEE98717AF892C43D~000000000000000000000000000000~YAAQZ8MTAiNlLcR9AQAAV1Vi2A65tqnFmJbOc9Uk9zlB4le88HWGBYZsYxscZoI/ROmmUSHqUWHUHMqQ2cR5nV6D9aZJ1fuapu3BDWOhurgNFQwEjqcZoEStBrcwaeu+dfjGdA6wo3G/q8BqdiqKQ2AaGFR3aZ6Ah5DL2BLH/It6STdo9dqZvyMoYVPV8lfXMgSPDIW652/+6ll7HJ8ZDJq8RN4oPIPQtW+i8qPH8/8fAkMEezAIEUejKNHL9kY/SlIU8URVI5G7BZT0xOJxbuV9THrDTDuF4g2DsUcKt2MBERGE/bJoz4utQJfcFxlQNSI0QuyMuCWUtt2CRkRw+0ADkWKq7HNbvTSfpPAwP8LzESrjPizL10QdM8aHeh832sO0P7H+/uuoV/iaVokyVwH/4A==; Domain=.chapters.indigo.ca; Path=/; Expires=Mon, 20 Dec 2021 17:07:42 GMT; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "41a6a1c9f610f66255f8d37f1a0faec9238b7337e981049a1e4fba2a5f9c5879",
+        "redirectedFrom": "https://www.chapters.indigo.ca/",
+        "initiators": [],
+        "time": 0.19072699999742326
+      },
+      {
+        "url": "https://static.indigoimages.ca/shared-ui/gibson-semi-bold-v1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 24562,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:42 GMT"
+        },
+        "responseBodyHash": "7c9fc626905df9d9e0f4a8a6122dc89f6f4f693fb7ac81a937aec0bfa19dacbe",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.15253699999811943
+      },
+      {
+        "url": "https://static.indigoimages.ca/shared-ui/gibson-light-v1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 22602,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "457629e4476fe3497defcf1909c27a48013e9421a1cb0da6842bcad9bed8b7ce",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.19108799999958137
+      },
+      {
+        "url": "https://static.indigoimages.ca/shared-ui/gibson-regular-v1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 24345,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "18b00e29a5b86b6ee4a8b44d52fc540e7ee6a0880448fd7fe7233898425f1c40",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.21886999999696855
+      },
+      {
+        "url": "https://static.indigoimages.ca/webfonts/futura-med.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 21694,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "8e64463350f9ff17153aadb2d7e0ee52767a2dc99d1b0b3a1932539f710c880f",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.23995000000286382
+      },
+      {
+        "url": "https://static.indigoimages.ca/webfonts/futurabook.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 21382,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "e00109b657ea4d3ae02de427c2cb80c7199105cfbd753734eb1f8b00723705fb",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.259674000000814
+      },
+      {
+        "url": "https://static.indigoimages.ca/webfonts/futura-demi.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 21643,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "26770cd4fb41f07f03b388920414883e46df85da2c2700f44fe4c82b9e7e9099",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.2770559999989928
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 31513,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0b76d3d2856d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:42 GMT; path=/"
+        },
+        "responseBodyHash": "c4dccdd9ae25b64078e0c73f273de94f8894d5c99e4741645ece29aeefc9c5a4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.17323299999770825
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/global-store-manager-7a42b36cf7.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4955,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"018ce79bff8d61:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "75cf44be77c1d8b9228d88f4606fb0a4ce1a29a34df820c6fee001650e2a6367",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.2116760000026261
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/css/common-1379b9bd33.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 50943,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"07398c1a6d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "1c067f0db60a838e0b5a15cbfc24aa65a6ec8479398e73cf96e5057bb0fdc4ee",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.23025000000052387
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/css/cms-page-81555d0132.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 6347,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0db50d1eea3d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "2fa0ed0de42ef9c49efb304481f21ab95fc1cf1896247c5aaece2c14ff56f124",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.2580369999996037
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7917,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31197947",
+          "expires": "Fri, 16 Dec 2022 17:13:30 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "dbd80cf2f9430e8b051f0955157757d512e3a80ee9e9865f9ebbea7240f54f1d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.3063010000005306
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/ExternalLibs/knockout-629633c37c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 26667,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0bb2552a62fd71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "40ec5675f49e9aed05aa8c18938652c68e4efcdcc9e927567846e2080013ed20",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.33564600000318023
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 33067,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0bb2552a62fd71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "babfd8947314f7a3311c4b32ddf1c6b336476acecdcc7e114250f8b4356f161c",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.3698399999993853
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4169,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "3c5889beac97a41cf14b72df549c254242afc679d134599a0bf8140433f175db",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4002139999975043
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 229704,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "024ff0d0cbc552779c0d209750a41c3771b2012b146eddbdec7922b01015d0b4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5480680000000575
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/critical-rendering.43a5d5d15b216352f325.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 87057,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "ef56030ce6ddde91c098e37d5964cbb7fa05c2b0b698603550516dbda940918b",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.43228000000090105
+      },
+      {
+        "url": "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 35892,
+        "remoteIPAddress": "92.122.254.10",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "max-age=3600",
+          "etag": "\"b45b57cc11d0ff55383b25fc668503e9:1636543033.018731\"",
+          "expires": "Mon, 20 Dec 2021 16:07:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "538e92037cfb92a18973891e77a1ad68358b9c28f2e2429a4eb4d02697d06d88",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.359387999997125
+      },
+      {
+        "url": "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 13360,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "9b0229b03ff14cea748cc53c3db3ec52ca7dd1a37c6b815e01ec89fcfaf66e2e",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5611839999983204
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/common-flow.c93e0ae324823a102174.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 26580,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "4dd1f0e2904640f3b109204ca2948129d8b6a2959e47ff4d5a1cee03b91205fb",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4416629999977886
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 46114,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "c458bc63cdd1b01e6506fd1ceba8f88c293adf91504acee738934fc81d53bd5d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4660139999978128
+      },
+      {
+        "url": "https://static.indigoimages.ca/shared-ui/at-adobe-test-and-target-v2.3.0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 28199,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "8d23c7ddc9f18518ca8d37bdd24a2b739e0c40ec732615ae6ee490fdc9390deb",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.47024099999907776
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/akam/11/6060c265",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 11511,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"a12599cd23fea62744f75ea2d69ffae4c0c8fde05bcb5dc38dd8e4446c4e75f8\"",
+          "expires": "Mon, 20 Dec 2021 15:07:43 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/\nak_bmsc=ACC06F827EC6BC5FEE98717AF892C43D~000000000000000000000000000000~YAAQZ8MTArFlLcR9AQAAfFdi2A6En8NqA9o2HizmjksfnUim2Mb5eeeZWSl42TlWQopOyjNn+AFMwEUjeo6+gnPHi6OtPlO2o2e0T0Uc5fjXtp3XP3m1aqcPJ+UOQbq+bH6xNKzlbLWzS2dmnZJMZsHj15wWozNtq+tVkerTa+w/eYn5tZ9C7FITVTydIzF1+WHEnyS3+jXIzKMtRTVKY4yE1zgyj7yzNI2ICJd/Z9F//KwOuw/eC/5iW4YbUN/ySepbOnhMqpADUqOEJvA/2UUL41A/0NcuWoPXIaNon0fNRpF6wo5TggSEpRHybb1ZSyHOUoz24pRYHTqMRHaa1jj4Lpe2JLtUks3KD0zxMrE61KHg+MwMt/vGGEvgcw/6JXCg5dvb86xMqhfcV7MYgFCA8WRXE38tBC1ph7kYeZ0REIJmwOCHKvd1X4hG1FK2b4R+AS07o2lpZBD/z3nuH23ZA3ILCQJ+CT6ddVY5pr2tumnU9vFpEA==; Domain=.chapters.indigo.ca; Path=/; Expires=Mon, 20 Dec 2021 17:07:42 GMT; Max-Age=7199; HttpOnly"
+        },
+        "responseBodyHash": "c2d4ba2cc8c23e95cca08fb7b361a5618f8dccd020afa7ee040616d11e222518",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4907080000011774
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/js/1258479,1355381,1300673,1366619,1326639,1362102",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4498,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31105574",
+          "expires": "Thu, 15 Dec 2022 15:33:57 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "c64e85b2faaa6b2ab46b427ced17a0314e28134b291fe2cfe461b57217947696",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.49596999999994296
+      },
+      {
+        "url": "https://static.indigoimages.ca/2021/128759-hp-hero1-wk35c-holidaygiftshop-en__d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 130841,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=73339",
+          "expires": "Tue, 21 Dec 2021 11:30:02 GMT"
+        },
+        "responseBodyHash": "611d40091dc5bddb1ef195cf1e427b15b1577e33d94de1f109f6b6b5a04c7180",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4905749999998079
+      },
+      {
+        "url": "https://static.indigoimages.ca/2021/128958-hp-sidea-wk36-bestbooks-en__d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 39141,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=15681",
+          "expires": "Mon, 20 Dec 2021 19:29:04 GMT"
+        },
+        "responseBodyHash": "15be2d7d66407c86667a9d632976e292e8f67e7c9f885169e2a9ca12c0d5da0f",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4948660000009113
+      },
+      {
+        "url": "https://static.indigoimages.ca/2021/128567-hp-sidea-wk29-kidsholidayshop__d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 69067,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "6328bfc93143af9f17fc9816759e37a23d386e4290d33dd58a65a12390ca6c5a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5025740000019141
+      },
+      {
+        "url": "https://static.indigoimages.ca/2021/128759-hp-sided-wk33-stockingstuffers__d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 59726,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=1233",
+          "expires": "Mon, 20 Dec 2021 15:28:16 GMT"
+        },
+        "responseBodyHash": "8d823736352c7095746fed6cf3e2a8f3770a896066cb75e8719badce42f43e58",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5115089999999327
+      },
+      {
+        "url": "https://static.indigoimages.ca/instagram/1215-2-en.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 11036,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "625db73c6509fef9205b597f0fe5bc82da794d9b7d7b381951df4bc5c5c9be7b",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5094829999979993
+      },
+      {
+        "url": "https://static.indigoimages.ca/instagram/1215-en.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 16716,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "982969ca454f18a31ef8c23668b0c8ab185969a9f9b312c452630e6f3dd05e21",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5099100000006729
+      },
+      {
+        "url": "https://static.indigoimages.ca/instagram/1214-2-en.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 13897,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "5cd6a7c7b5149de1bd3000bae5f2dd4c08db4eecc4d55726b0ba84614f6ac335",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5132550000016636
+      },
+      {
+        "url": "https://static.indigoimages.ca/instagram/1214-en.jpeg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 6698,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "fe39f67f144c35b0ea96169af5fd669c775c9b81fd89adad5681a8f1512ce5c2",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5172770000026503
+      },
+      {
+        "url": "https://static.indigoimages.ca/2017/Contact.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2365,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "f9101f3169545f424c9c4e8bfb01896ce152ee36bf93cae84ed6a0fbf36bd17f",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5176089999986289
+      },
+      {
+        "url": "https://static.indigoimages.ca/2017/Ship.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1357,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "08a4339741626ffb143623f04bf728bd2a869f89dd9100e6a89b2a585b09a801",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5203939999992144
+      },
+      {
+        "url": "https://static.indigoimages.ca/2017/Careers.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 929,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "a9bcf6b234d83c5938f3d3e0413ac28119cb2549a299f09ec1124f37a7805967",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.5227169999998296
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 20637,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=21600",
+          "etag": "\"d1dbb955755ca44a0b872a64f97c471a45b14e941f69d082c19f792576ae34fb\"",
+          "expires": "Thu, 30 Dec 2021 00:24:02 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/\n_abck=C35372CD5959C08603C9B766078B5EEA~-1~YAAQZ8MTApFlLcR9AQAA01Zi2AcTYKzFMYPW+WZ5OpIRKGFFMJTx0K/+UOlRY7+dkfGMbHmdrUo4x7cIZrsp7Iy91pM4VaxEt1xVEudypM8kWu5XkxVqpIn7ST6uWTwSQORdMVz3HA5+tUuKjRb9d/Z2X7Yw1mTku2XEcNkLiwQHjbss1whFK2LqOUGHbgetzC9VM7hNPeLZp62kJFKJ4draZ8Aa1M554J+AL7lgfC3PdjzfD/0bADbmASFjVLJdrx2APlY5t9FMg0I2iy5uuPFmIAlH27t4Ydd+RPIYN1XnnZu384nG8U86Uj586K00CEawVOJ96o2+elFcQvXON5U4tRG2gEPqFSBY4OEtK8dhvTKdlzo4ovgzSbsGCk6WqEpgMThgVPY+~-1~-1~-1; Domain=.indigo.ca; Path=/; Expires=Tue, 20 Dec 2022 15:07:43 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "7923c5df4689d8e2b03d4b24349057eb7415f9d70b6cd91975fd19814b402821",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.2603290000006382
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/webpack-assets-eb2d7cbca9.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3195,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/\nbm_sv=9CE0AAD4B2703FC2EEC1A2CF4D8ADB8A~KG0+XUDl+e3J0kliKOy2OcIz6556HcHj51BxmoRb+JxpIjEBYKhCr3kUFvW6UjZtN9KOJGldg+xn8XknqjxHE5GHVXIKrXRJmDMlK1pqk1X/YG7badz740ofM5JQLSwPxs/U7ILeY3jTZ/0jN3yy5YMNNTPyRrvyHCM2g3xSWW8=; Domain=.chapters.indigo.ca; Path=/; Max-Age=7200; HttpOnly"
+        },
+        "responseBodyHash": "7f17e46d5bb83b6dd2d8f66bc1bc12b766ddc440edcf04910e0bc29266f2c9ad",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.10493599999972503
+      },
+      {
+        "url": "https://static.indigoimages.ca/2020/shop/fy21-global-headband-chevron.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102",
+        "status": 200,
+        "size": 541,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "8a5f325ffb20d49162b18575701169611500c954fb443e3cfcc4b10588a2fc9d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102"
+        ],
+        "time": 0.22072499999922002
+      },
+      {
+        "url": "https://static.indigoimages.ca/2018/reusable-triangle-cta.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102",
+        "status": 200,
+        "size": 594,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "cb6a0d2703b8bb8e712c67a40e9dd36228a3c938eb3dc480325a4525419f6abd",
+        "initiators": [
+          "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102"
+        ],
+        "time": 0.2203540000009525
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/proxydirectory/cj/tags/11006/tag.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 8976,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:22:43 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/"
+        },
+        "responseBodyHash": "268cb37fdca2b2f3fd649191442694ba3dd32cb6ce5d3e07e77ab114a9b130b9",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.08461299999908078
+      },
+      {
+        "url": "https://s.yimg.com/wi/ytc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 6269,
+        "remoteIPAddress": "87.248.116.12",
+        "responseHeaders": {
+          "cache-control": "public,max-age=3600",
+          "etag": "\"146f99405588b7446958a732612c901d-df\"",
+          "referrer-policy": "no-referrer-when-downgrade"
+        },
+        "responseBodyHash": "759d6f0c1292d86d24d7abe7ad9a2cd1d86df0041260f98186ccfa26c7daab62",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.027254000000539236
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.11691499999869848
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 27032,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.03559500000119442
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-1107851-1&l=dataLayer",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 36695,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "da4aa244debfee203b40cef1183a4039b8b67b52164e82539f95b4fda4af40c0",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.06944600000133505
+      },
+      {
+        "url": "https://www.redditstatic.com/ads/pixel.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7834,
+        "remoteIPAddress": "199.232.149.140",
+        "responseHeaders": {
+          "cache-control": "public, max-age=60",
+          "etag": "\"3fbf36d562f1d2a543a89683060265ed\""
+        },
+        "responseBodyHash": "04686da390f8eec3ccd75869fa71e22cad452cfcff6ffa31c979f599d64831d8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.03421399999933783
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4TPMGH6H18A0MH1Q0E0&lib=ttq",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 36257,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:07:43 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7834930d02299cc017b7ba4ee8e823d43c86515b46a6ce4c967b982c3f8cba14",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://assets.adobedtm.com/223aaac792ec/77e4150919fe/launch-ea6a4fa93d79.min.js"
+        ],
+        "time": 0.13437799999883282
+      },
+      {
+        "url": "https://static.indigoimages.ca/2017/triangle-cta.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102",
+        "status": 200,
+        "size": 578,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:43 GMT"
+        },
+        "responseBodyHash": "27073e233f228ea553a62966e09a062af428706a1c136ae8226394aa65268371",
+        "initiators": [
+          "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/css/1355381,1300673,1367366,1366619,1326639,1362102"
+        ],
+        "time": 0.015806999999767868
+      },
+      {
+        "url": "https://indigobooksandmusic.tt.omtrdc.net/rest/v1/delivery?client=indigobooksandmusic&sessionId=db24ae8cc5aa4581bbe649d8d08e4435&version=2.3.0",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 929,
+        "remoteIPAddress": "63.33.35.188",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca"
+        },
+        "responseBodyHash": "4b78d25a75318308c2ec38a79f8f51c4835e2e5565014e11a8ebd7e268a892bc",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://static.indigoimages.ca/shared-ui/at-adobe-test-and-target-v2.3.0.js"
+        ],
+        "time": 0.08688199999960489
+      },
+      {
+        "url": "https://www.sjwoe.com/policy",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 416,
+        "remoteIPAddress": "13.227.219.36",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600"
+        },
+        "responseBodyHash": "4bfe3fd63b2ce813a2e3e1252146acf89e82d30222ca39161cf68086449cd64b",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/proxydirectory/cj/tags/11006/tag.js"
+        ],
+        "time": 0.031139000002440298
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 19101,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.09706599999844912
+      },
+      {
+        "url": "https://s.yimg.com/wi/config/10159604.json",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 682,
+        "remoteIPAddress": "87.248.116.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"7fae1cd8ab74c89ba391dcf34616289c\"",
+          "referrer-policy": "no-referrer-when-downgrade"
+        },
+        "responseBodyHash": "cfadb4773454af4d7f9f16ea2db5e3c6e183ef189ef760bad166e065c775ca47",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://s.yimg.com/wi/ytc.js"
+        ],
+        "time": 0.013343999999051448
+      },
+      {
+        "url": "https://alb.reddit.com/rp.gif?ts=1640012863673&id=t2_8i6xvato&event=PageVisit&m.itemCount=&m.value=&m.currency=&m.transactionId=&m.customEventName=&uuid=c5502c80-90ea-4465-9638-8b112e3a80d6&aaid=&em=&external_id=&idfa=&integration=reddit&opt_out=0&sh=800&sw=600&v=rdt_5b7866e3",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 125,
+        "remoteIPAddress": "199.232.149.140",
+        "responseHeaders": {},
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.redditstatic.com/ads/pixel.js"
+        ],
+        "time": 0.1170270000002347
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1460805304141060?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 88615,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "10338e2084b9b02c2e4f3f7a0cd7ae95279c7bc9c9735a125a68b13ab9ee1385",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.19506800000090152
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.googletagmanager.com/gtag/js?id=UA-1107851-1&l=dataLayer"
+        ],
+        "time": 0.013852000000042608
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/identify.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 31693,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:07:43 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b2864c65b32cd25bf64a7eb4fddf486dff821f1924172a0083db962615bd6ce0",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4TPMGH6H18A0MH1Q0E0&lib=ttq"
+        ],
+        "time": 0.09813700000086101
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=C4TPMGH6H18A0MH1Q0E0&hostname=www.chapters.indigo.ca",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1086,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:07:43 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "4a57a0343c8426138dc47b5171f6ccb64b6b95c281cdd5ad7ad58b29448d65c7",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4TPMGH6H18A0MH1Q0E0&lib=ttq"
+        ],
+        "time": 0.08750399999917136
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/proxydirectory/cj/11006/pageInfo",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1394,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:22:43 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:43 GMT; path=/\n_abck=602A2C93637D4CD1116062AADF3E5981~-1~YAAQZ8MTAnFmLcR9AQAA/lli2Ad9w6MZmL0b0upqc2wmDTwBSeVF1vhE9tJ5Qxw4RiSiFKaM6RK/maWqLjOTJauZJOXPY7JxbxKZN/OGH2y18rhSTSvaENzwauSi4do4cVs2XFpKJfFV0WRrFbBBD6w+xRLHBESxNG52oIKOe+MSoUSnR2tK0apy7FRjNAWX7GdpSe+aX/qELi141znsG1hRXokbeqdQJO23ze9reX9Cr0tpB2f+T2cpdG6zdvyyVd1AGv5bspuMMDqZFVbzGzeunvFY46sLyFhUMlPCLHO7x60CK7BcZ8Rivje7DxAnlw6h15XIWxwSB25ZTGljPJgPeJNFtaWkAa/+tN6pzHMeoD44yhOWTFtP3w==~-1~-1~-1; Domain=.indigo.ca; Path=/; Expires=Tue, 20 Dec 2022 15:07:43 GMT; Max-Age=31536000; Secure\nbm_sz=73FE3D467E18E97F1FBA54FF15566D2A~YAAQZ8MTAnJmLcR9AQAA/lli2A6OEs5tfGjoKbHlKNOnIqbRJqqW4sVfNHRkyZJV3ot1Ed8blSxnxowmGqdqn0b3R8x22lF0B8zZ4UaKqYjAm1QTSoZd6Mgd0F+qVQXQXDe08egIdc9ZFRY7ihDB/iujGvrX9Qe0NjaCGFsQ+B+cO3FZWHHOsFtXVKeEuLdg0lDRAlrSCvgAmFgN3TeQX8dpEPKzrVQKY0p69g5FWODAjhTpEm3Dph5/P40iOUTOqIQlRWl9AqN4NYZo62N6iheveqgsI+NIXaevDTIcvpX+WA==~3684400~3420213; Domain=.indigo.ca; Path=/; Expires=Mon, 20 Dec 2021 19:07:43 GMT; Max-Age=14400"
+        },
+        "responseBodyHash": "968b17baf99ffc8097fdbe0d8552113c2f6e7da2a63e3967f24811e2e2e0a312",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/proxydirectory/cj/tags/11006/tag.js"
+        ],
+        "time": 0.10397199999715667
+      },
+      {
+        "url": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Mon%2C%2020%20Dec%202021%2015%3A07%3A43%20GMT&n=0&b=Canada%27s%20Biggest%20Bookstore%3A%20Buy%20Books%2C%20Toys%2C%20Electronics%2C%20Paper%20Stationery%2C%20Home%20Decor%20%26%20More%20%7C%20chapters.indigo.ca&.yp=10159604&f=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2F&enc=UTF-8&yv=1.10.2&tagmgr=gtm%2Cadobe",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 716,
+        "remoteIPAddress": "212.82.100.181",
+        "responseHeaders": {
+          "cache-control": "no-cache, private, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:07:44 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "A3=d=AQABBECcwGECED14jFjuvUepZErMUjJT2zAFEgEBAQHtwWHKYQAAAAAA_eMAAA&S=AQAAAorD4DbPfOITW2FCl6zO8JQ; Expires=Tue, 20 Dec 2022 21:07:44 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly\nB=31mqj69gs1720&b=3&s=5k; Expires=Tue, 20 Dec 2022 21:07:44 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/"
+        },
+        "responseBodyHash": "f3882f998713d264095c3b132fade64a677f2a51ffc7a1e6703bb76aa210616f",
+        "initiators": [
+          "https://s.yimg.com/wi/ytc.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.07374399999753223
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2613921094841&cb=1640012864016",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 860,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "bf6ab7885cc175f2d6614a7c19f77d6300a452a10e356e5d5a27e104183a69d9",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.02891799999997602
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613921094841&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1640012864037",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 334,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.026288000000931788
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=967955913&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2F&ul=en-us&de=UTF-8&dt=Canada%27s%20Biggest%20Bookstore%3A%20Buy%20Books%2C%20Toys%2C%20Electronics%2C%20Paper%20Stationery%2C%20Home%20Decor%20%26%20More%20%7C%20chapters.indigo.ca&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEBAAUABAAAAAC~&jid=1440208327&gjid=2018542887&cid=1546460642.1640012864&tid=UA-1107851-1&_gid=19166430.1640012864&_r=1&gtm=2ouc10&z=1292067324",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.015782999998918967
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 204,
+        "size": 274,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.040022000001044944
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 712,
+        "remoteIPAddress": "104.110.240.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:07:44 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C4TPMGH6H18A0MH1Q0E0&lib=ttq",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.14554800000041723
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1460805304141060&ev=PageView&dl=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2F&rl=&if=false&ts=1640012864214&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&it=1640012863697&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:07:44 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/1460805304141060?v=2.9.48&r=stable"
+        ],
+        "time": 0.011087999999290332
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 1021,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:45 GMT; path=/\n_abck=C35372CD5959C08603C9B766078B5EEA~0~YAAQZ8MTApVnLcR9AQAALl5i2AcC3+eLlAKMJ364Ak7CzMnsoROjbe3jHcXlQJXgI6b6eYW8vdBYtBG75G0vzSwrYCMNgyNOwbrOGWucBXvz+PJ/mqQyO7kxhVwwUi8SLHbqpeAjm3byEwa1NFdZHpJ7yFNIvMXkKrP6u66eUxhKMevba3H4JShl8xZ7f1HGZMleFH0Aj4i9InpH40+u2pFDTOxDoqSZnjimW6HMKq+fIYuupbF8YIngkmFBnEqgBEupm9lnU7HXaPt+9ab9dqLyLGvQzljrXrDvVOU0Y1xaewCzAnTxt1FFrfuwxXK/9Q3jovBeWnW50urCclnqJ5wMEV1E4tFNTzKUjM3v4jxloKMmWYmy21Q4CcPaNw4+Xo+8haU0KLhvBWQkM4vXaJxRvvP/mfs=~-1~||1-rxaIvNSNzv-1-10-1000-2||~-1; Domain=.indigo.ca; Path=/; Expires=Tue, 20 Dec 2022 15:07:45 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB"
+        ],
+        "time": 0.7721310000015364
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=3.1.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=B5ED1C8B53309E7C0A490D4D%40AdobeOrg&d_nsid=0&ts=1640012864377",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 302,
+        "remoteIPAddress": "46.137.57.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=83593237190185640584256301044666365412; Max-Age=15552000; Expires=Sat, 18 Jun 2022 15:07:44 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/id/rd?d_visid_ver=3.1.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=B5ED1C8B53309E7C0A490D4D%40AdobeOrg&d_nsid=0&ts=1640012864377",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js"
+        ],
+        "time": 0.7253479999999399
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/en-ca/api/v1/merchandising/menus/4105/53522-28296-50782-28302-51786-59752-28308-28310-28312-28316-46932-28318?callback=headerNavMenusCallback",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2796,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1346",
+          "expires": "Mon, 20 Dec 2021 15:30:10 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca"
+        },
+        "responseBodyHash": "e264ae953d080992df65035438f12773bc6697ff4e542599ad0de526434080da",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/critical-rendering.43a5d5d15b216352f325.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/common-flow.c93e0ae324823a102174.js"
+        ],
+        "time": 0.017467000001488486
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/69.2aed8075b359ad9cfdc8.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3639,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "e5f191239da8b4be8d40ce99eb3329bb0f83b7853c62fd4b9c38a48b0651669f",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js"
+        ],
+        "time": 0.043302999998559244
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/86.533befec7ce93313d30f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 46305,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "b8d6178d800fb9ca1417ff2e8c532287d04fb7c09e59635ed68600e4ff9ade44",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js"
+        ],
+        "time": 0.045879000001150416
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/92.6e454449c548cd9a83a3.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 13396,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "afc9d5f8ace0e7af501b6b3d0ba43f3769bf452e4702ca863edc13d93c839f99",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js"
+        ],
+        "time": 0.040445000002364395
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/81.5c60bf92e3dbaad6fda5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7766,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "45d8be971ce7199c7e4cc15dd7f4fca0b20ba480c89d6fe80e03fd8559993878",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js"
+        ],
+        "time": 0.06707900000037625
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/21.c0c30cf273e309452de4.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 985,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0a621ed5c1d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "859a81272b59f3a791f8ece954c082affb75dd95a97a947bd815bf55dd403239",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js"
+        ],
+        "time": 0.08367899999939254
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/22.5446d6d713e1fd925627.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1322,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0a621ed5c1d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "191e9efb4e272015ca37c8e8002bde3fe1163475a8b29e6b5aaae7a891fa4c3a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js"
+        ],
+        "time": 0.09492400000090129
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/browse-knockout-templates-b77d2e1c46.js?callback=helloKnockout&z=1&__lang=en-CA",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2711,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d12c9a8b3d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca"
+        },
+        "responseBodyHash": "e7cfe3ec7865723c9f762584eeeea7d3ef09445fb3ffb4859c6f4b45abd5fa33",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.11567199999990407
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/29.afb1428868937b6355e9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 21543,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "689a88061757eded9aaebbbaef6abee83cc70e262bfffa281568a71ba414bcda",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js"
+        ],
+        "time": 0.2302849999978207
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/33.325f72986d8ef1508c0c.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1210,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "bd3c62d01c5c6766bb1f57efbddc26c07a3fe8b2690c12d63e5ab7f5992c86e4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js"
+        ],
+        "time": 0.24715699999796925
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/41.7c28303c4d2ca49220ae.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 13163,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "cec9e02c087b26bf103598e33f7b00d3fda8e59b88722595e38c5265f2dccea5",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js"
+        ],
+        "time": 0.24634599999990314
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/98.a626213dda667dc05ba1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 35929,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:44 GMT; path=/"
+        },
+        "responseBodyHash": "3ec4dd32d3ade178aac0ddbe706fa54a17cefa0f5ae3d8e8e5bd4c358dc615d1",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js"
+        ],
+        "time": 0.28196399999796995
+      },
+      {
+        "url": "https://www.offlinx.com/alpha/tracking/pixel.gif?merchant_id=73ADB1C6572DE809&random_num=659816029618&referer=&href=https%3A//www.chapters.indigo.ca/en-ca/",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 446,
+        "remoteIPAddress": "34.201.199.121",
+        "responseHeaders": {
+          "set-cookie": "moneris-payid-uuid=5d6ca135-b462-4dad-be34-5929182984bc; path=/; expires=Wed, 20 Dec 2023 15:07:45 GMT; samesite=none; secure\nversion=1.0; path=/; expires=Wed, 20 Dec 2023 15:07:45 GMT; samesite=none; secure"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/js/1258479,1355381,1300673,1366619,1326639,1362102"
+        ],
+        "time": 0.37469400000190944
+      },
+      {
+        "url": "https://e34a806cbdfc.cdn4.forter.com/sn/e34a806cbdfc/script.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 59949,
+        "remoteIPAddress": "65.9.83.21",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300",
+          "expires": "Tue, 19 Oct 2021 11:19:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "370a050c6b8c14e57b4e88b0ebd2c84218c06489801945f66bab1faa0523b5b9",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.08772700000190525
+      },
+      {
+        "url": "https://recs.richrelevance.com/rrserver/p13n_generated.js?a=ind_ca_eng&ts=1640012864677&v=1.2.6.20180926&ssl=t&pt=home_page&pte=t&s=d6dd8c57-8e5e-4889-89cf-680068fa9e7d&cts=https%3A%2F%2Fwww.chapters.indigo.ca&l=1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1652,
+        "remoteIPAddress": "204.93.252.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "p3p": "policyref=\"http://recs.richrelevance.com/w3c/p3p.xml\", CP=\"NOI DSP COR NID CUR OUR NOR\"",
+          "set-cookie": "m=1; Max-Age=-1; Path=/; SameSite=None; Secure\nn=1; Max-Age=31536000; Path=/; SameSite=None; Secure\nmvtid=164-1640012864911-12--1; Max-Age=31536000; Path=/; SameSite=None; Secure; Domain=richrelevance.com\ns=b27333547.27333547; Max-Age=1800; Path=/; SameSite=None; Secure\nuc=e1ad4557-1337-4087-0224-ec5f76179db9; Max-Age=31536000; Path=/; SameSite=None; Secure\ns=b27333547.27333547; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0\nm=1; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0\nuc=e1ad4557-1337-4087-0224-ec5f76179db9; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0\nn=1; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0"
+        },
+        "responseBodyHash": "956f3398f145f1e0b36d537f964991a3967b1b13274441d27f4597785651b2a7",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.04678000000058091
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 1016,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:45 GMT; path=/\n_abck=C35372CD5959C08603C9B766078B5EEA~0~YAAQZ8MTAuBnLcR9AQAA/V5i2AewK3GqfPmi34iv/Q244Lx/lEjhyEwPJ3pat2fFjITMOgrv1nSdUv/MfBQBsQ1y4YpxQlt2hP3sphgcX+uGDk/d+idpArrMPlFxWYMstynb+rRSYkG8PxjQV7uCvXnyDOqSzRuO9m/oHcbVoiYZTkm326TOseRJ4XnVPgzSUpEAhwhgFYC89Km1om2zbhcA/KO2RKWCMrZzpLGMVPQl+LM2NOKZFhHBiWKPsUxr7mBXG+Yl7qFfRfddQ+hzQhmox4RyWfqAbFNtKcEVv7yWCEJQhu8XSlSPNsAfctmrfpaEdljEBQpbcDhfxDaUII712gWYkitY37I8pYwWd2ig9U3wHK/jpMWH/7udlKR9pBcmS3qmz8cZIMRzVfKciYath2Z3V7o=~-1~||1-rxaIvNSNzv-1-10-1000-2||~-1; Domain=.indigo.ca; Path=/; Expires=Tue, 20 Dec 2022 15:07:45 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB"
+        ],
+        "time": 0.3150549999991199
+      },
+      {
+        "url": "https://shop.chapters.indigo.ca/checkout/CrossDomainStorage3.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 977,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT",
+          "set-cookie": "akaas_canary-deployment=2147483647~rv=63~id=08c94e199233c7fd81f7c2fe8708078f; path=/; Secure; SameSite=None\nbm_sv=9CE0AAD4B2703FC2EEC1A2CF4D8ADB8A~KG0+XUDl+e3J0kliKOy2OcIz6556HcHj51BxmoRb+JxpIjEBYKhCr3kUFvW6UjZtN9KOJGldg+xn8XknqjxHE5GHVXIKrXRJmDMlK1pqk1X/YG7badz740ofM5JQLSwP/LJm03W3e8qHQ/8O5Wj177rOd2U60ozZ9jlpey4Wygk=; Domain=.chapters.indigo.ca; Path=/; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "dfd0a6e2598b466b044bff9a8232a4b5bbb9144842eae14a45871571ad6572b8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.12638999999762746
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-1107851-1&cid=1546460642.1640012864&jid=1440208327&gjid=2018542887&_gid=19166430.1640012864&_u=YEBAAUAAAAAAAC~&z=1538390252",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 447,
+        "remoteIPAddress": "108.177.119.154",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.030111000000033528
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 18,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.008872999998857267
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/3.38ed55d39304e10be0b5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 9539,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:45 GMT; path=/"
+        },
+        "responseBodyHash": "fa7774912cc95642587dfd5f82c6e186186b609171d24e1ffe340d4cfb4dcae8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-flow.c93e0ae324823a102174.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js"
+        ],
+        "time": 0.024153000002115732
+      },
+      {
+        "url": "https://dpm.demdex.net/id/rd?d_visid_ver=3.1.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=B5ED1C8B53309E7C0A490D4D%40AdobeOrg&d_nsid=0&ts=1640012864377",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1127,
+        "remoteIPAddress": "46.137.57.74",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "demdex=83593237190185640584256301044666365412; Max-Age=15552000; Expires=Sat, 18 Jun 2022 15:07:45 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "f410f34421731481bb8040fc41c61eeaa1292cc4cca5f18815db4b38ee7eb23e",
+        "redirectedFrom": "https://dpm.demdex.net/id?d_visid_ver=3.1.2&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=B5ED1C8B53309E7C0A490D4D%40AdobeOrg&d_nsid=0&ts=1640012864377",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js"
+        ],
+        "time": 0.02388000000064494
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1107851-1&cid=1546460642.1640012864&jid=1440208327&_u=YEBAAUAAAAAAAC~&z=405198455",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.250.179.196",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.03681000000142376
+      },
+      {
+        "url": "https://indigo.report-uri.com/r/d/csp/enforce",
+        "method": "POST",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 429,
+        "size": 707,
+        "remoteIPAddress": "104.17.185.88",
+        "responseHeaders": {
+          "set-cookie": "__cf_bm=TIpmFC3.jeHGhT.R28l6QmciC0sXEYD7yKS0JpMvUM8-1640012865-0-AV1TupitOZWtHVaBLOlInok5Bves0/HSabygN/gZcoBjfWuI+9CUP81SoS9PJNnHpWQiagW7TacWBOCJQ4al0Ls=; path=/; expires=Mon, 20-Dec-21 15:37:45 GMT; domain=.report-uri.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "7e0d16bf5e01d2ff730972fa1fe313ada0ee57d21f79add57d2d70d7fe47a2aa",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.09375900000304682
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-1107851-1&cid=1546460642.1640012864&jid=1440208327&_u=YEBAAUAAAAAAAC~&z=405198455",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "responseBodyHash": null,
+        "failureReason": "unknown error",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.00011099999755970202
+      },
+      {
+        "url": "https://shop.chapters.indigo.ca/checkout/profile?callback=jQuery35005798501623127965_1640012863046&_=1640012863047",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 843,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "set-cookie": "profileID=9b7c489877a048f1bac47a88ac4f6c5c; domain=.indigo.ca; expires=Sat, 21-Sep-2080 04:00:00 GMT; path=/; secure\nbm_sv=9CE0AAD4B2703FC2EEC1A2CF4D8ADB8A~KG0+XUDl+e3J0kliKOy2OcIz6556HcHj51BxmoRb+JxpIjEBYKhCr3kUFvW6UjZtN9KOJGldg+xn8XknqjxHE5GHVXIKrXRJmDMlK1pqk1X/YG7badz740ofM5JQLSwP87HOjQOQuMavUAbmFHRfGcBgjnBnML9ZA0Bz6V1eGKM=; Domain=.chapters.indigo.ca; Path=/; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "a96f798e809feb26a44d8cec68f1ccfd9fb839c6ddf83f4e137d0b4bdfd88d30",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js"
+        ],
+        "time": 0.4410119999993185
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/Images/oo_icon-8a75ed35c7.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1797,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"0ffeac1a8b3d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:45 GMT; path=/"
+        },
+        "responseBodyHash": "acecd5fd474b75d924156e47e50fdf3d605f88da0cfcf3c86c9d1a570cdd1ca6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/41.7c28303c4d2ca49220ae.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.03044399999998859
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/en-ca/email-signup-pop-up-blackfriday/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 70178,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public, max-age=82044",
+          "expires": "Tue, 21 Dec 2021 13:55:09 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:45 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca\nbm_mi=9025F8C75593DF1FD662808D02C05665~vImGvxot1o2rceoLgUOpJhEUs2HgQVnvudU9X7maWwIY1EEJkMaLcjzi9bZJGQ9tjKTQwUIi3zp2/T6ZaU8x61jupWXhA28STUE4EfNkInZePxtzZzrY7zABfUuOjjaWDXKxRZTJw21t4VKIV/6q/p5WIgBZkZ4aoKYzxOfOW+nbXePoITO5qUJBd/uBBJyuLD+LuXt1+w/6rk6vTN8ao1T3cqYLsoeZlJmC2g98Eax2/bBKRZJyYphi+bsVsR/6j0ulIx+wH25f3A/yiekocVxy+NhbKD7xOnj6aUBQYOo=; Domain=.chapters.indigo.ca; Path=/; Max-Age=7197; HttpOnly\nbm_sv=9CE0AAD4B2703FC2EEC1A2CF4D8ADB8A~KG0+XUDl+e3J0kliKOy2OcIz6556HcHj51BxmoRb+JxpIjEBYKhCr3kUFvW6UjZtN9KOJGldg+xn8XknqjxHE5GHVXIKrXRJmDMlK1pqk1X/YG7badz740ofM5JQLSwPrRVptkE6O2zW4jyRA69pEQ0vNQlTMkpbkGCZrwEkbJU=; Domain=.chapters.indigo.ca; Path=/; Max-Age=7198; HttpOnly"
+        },
+        "responseBodyHash": "4b76572b58eafdb10c7c852566ac71f4606b977f2d43d839377decef1b54a58f",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/js/1258479,1355381,1300673,1366619,1326639,1362102",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.18991800000003423
+      },
+      {
+        "url": "https://indigo.demdex.net/dest5.html?d_nsid=0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3476,
+        "remoteIPAddress": "34.253.69.203",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7bea17a80a61ed0f54248b4ffc4c718f7c8ff2619742577a73591d62ce074da8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js"
+        ],
+        "time": 0.1105329999991227
+      },
+      {
+        "url": "https://metrics.chapters.indigo.ca/id?d_visid_ver=3.1.2&d_fieldgroup=A&mcorgid=B5ED1C8B53309E7C0A490D4D%40AdobeOrg&mid=83615274092585516664258504730678093132&ts=1640012865259",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 512,
+        "remoteIPAddress": "15.188.95.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "set-cookie": "s_ecid=MCMID%7C83615274092585516664258504730678093132; Path=/; Domain=indigo.ca; Max-Age=63072000; Expires=Wed, 20 Dec 2023 15:07:07 GMT; SameSite=Lax;"
+        },
+        "responseBodyHash": "b05403265b8ae9169321a75f0caafb5e54c71623bc88c5c99ce977cb3b6da8a4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js"
+        ],
+        "time": 0.23681299999952898
+      },
+      {
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=83593237190185640584256301044666365412",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 302,
+        "remoteIPAddress": "34.248.191.66",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "p3p": "CP=\"NOI NID DEVa PSAa PSDa OUR IND PUR COM NAV INT DEM\"",
+          "set-cookie": "everest_g_v2=g_surferid~YcCcQQAAAIfT-AQD;path=/;Max-Age=31536000;domain=.everesttech.net;Secure;SameSite=None\neverest_session_v2=YcCcQQAAAIfT-QQD;path=/;Max-Age=-1;domain=.everesttech.net;Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=YcCcQQAAAIfT-AQD",
+        "initiators": [
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.4948420000000624
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/books/1770464999.jpg?width=200&quality=85&maxheight=200&sale=33&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 11740,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "67f02a69b9faee6c14ad2f215d579b5d2d4310f614e5bf4d966ed3f0853923ab",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.1701569999968342
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323326186.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4823,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "4365085e08d7bc1b86230f975c8e46dc0395555b03d4ec78edbbca8138ddf7b4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.1674429999984568
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709642602.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 6095,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "38acb722689c5c560ca92a4152eab676b6dd57f234d0f03a7d20103fcd046f0e",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.18201999999655527
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/books/0399592555.jpg?width=200&quality=85&maxheight=200&sale=39&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 9406,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "00b3266d4076ce972d95c89efa92b297343aaaa8bda1c94cc38bb4b7022249aa",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.2093220000024303
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709739258.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2364,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "82dfeb198ec99d3fa9b5a4de881e87e0240378b6968e13889482a5d448a43d7b",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.19554300000163494
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/734689472581.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 5401,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "be64f6ffe19a152de55d95d376cdf5f71f1b33b4d7db314284b026d2e9061c53",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.23122700000021723
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/books/198218759x.jpg?width=200&quality=85&maxheight=200&sale=30&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 13068,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "dd24b8b2ce0fad1e9494ce5776f84053950051c27ade47b2d78d283bf600fbc7",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.24565300000176649
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/093573796685.jpg?width=200&quality=85&maxheight=200&sale=50&saletype=d&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3693,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "d24ac4dab2f98f9ffcd6125ac86989fadb7e599ce974b57970689d7c260dc83d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.25943800000095507
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/841333116095.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 8678,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "b7dfdc14c1ab7a87856eb44fbc05c07fa5644741159d75b9b8b128d5bab27b7c",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.27115000000048894
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709636472.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 14850,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "f5c752f555af4d398298b4296e9a71d8f2ce9c4e1706ed3bd09eab4c2585f29d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.29891899999711313
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/books/1984877925.jpg?width=200&quality=85&maxheight=200&sale=28&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 15811,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:45 GMT"
+        },
+        "responseBodyHash": "4d5e2b3133705f323bb17aa02dc443bdb635db7f1f98d8aa98bb23236c736fef",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.3418259999998554
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709646754.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7578,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "fbc8117d468a284565e563fa3e53bfb3d3621062ad9092574e9959b331e706a3",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.36092899999857764
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/5709262948628.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1494,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "fbc09df96f96c8d7e51602d36bfc17e805a1838b8afb3d640bd717850461c1d6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.37606699999741977
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/673419344869.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 16300,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "5f4f233bb0d613cfc05ae5105452caad9bb2815ac5001d428adf256c5b70bb4c",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.3898059999992256
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/017342750128.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4833,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "728665ec2e6ee6c2fba2ee95557b6a8d3354a9fd18439c8f90eaa6244f6a90d8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.4006360000021232
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709598428.jpg?width=200&quality=85&maxheight=200&sale=34&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 8356,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "13979b871e866285d54ad034b9e36d601aabef188f27506c5a1f423f2984cda6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.41208199999891804
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/books/1443465690.jpg?width=200&quality=85&maxheight=200&sale=40&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 13380,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "6f8eec18af235a394fa4ef5e4e13351bfccbfc5873615ffe61ff8fc99ffba0f2",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.4281680000021879
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709738053.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4243,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "890f66d31ee5a3ba6281d9fb95c9ead92027441184ebdf2414f39bbca74e4f70",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.4436009999990347
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/books/1368081320.jpg?width=200&quality=85&maxheight=200&sale=31&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7252,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "fa571dbb03eb58a479f89e3833e8770bdb5a5555e9f47d1f9398eb7334271627",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.5141519999997399
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/672468000856.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7760,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "ed11c9e66c9cea584dacabb5c9f56ac14787f018ac556135094e04129a96b6ce",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.5531589999991411
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/643131998145.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4119,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "ac519c4452a2a78332ebf370613f048ac46afd6449a5adb61f73bd8ae728c36e",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.5752880000000005
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/628110639295.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2498,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=74820",
+          "expires": "Tue, 21 Dec 2021 11:54:46 GMT"
+        },
+        "responseBodyHash": "2db1e7bfd7a0157eb06ebcdae2fc2991f02da60faa2f3317617fade533af06ea",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.5970390000002226
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/856844008258.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2881,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "b90ba93e78dc0f296d1f0f91904de08c38684f7fb614295b969245b30ded5cc1",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.611124999999447
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/810046630990.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7434,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "1ba37cb8b18c932508916e4c7abec19d3b67e464a09aa578f7ef5fe2e16e948e",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.6386970000021392
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323326162.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3349,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "a702f574cf928460aee830cdd7d04ba6bfb957b1c186054fbfe9b8b25ab5b87a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.7428089999993972
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328777.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4231,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "703765a5f72de7054144ada56ce08984edf9ffa657303e0e18c73bdcf08cfb82",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.7863780000006955
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709879992.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2688,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "48a06ec99b2d58a5d1af45a21f40ef0b49e0fa54e6f3a38c06f37ddc199003d4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.8348790000018198
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328784.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4510,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=65370",
+          "expires": "Tue, 21 Dec 2021 09:17:16 GMT"
+        },
+        "responseBodyHash": "24da4f8f88238ff9a5c61c71dc7bc47f81685e7b776ceae46fa23cad9a6eff95",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.8867340000033437
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709434832.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3593,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "9203a46340c1b276ed155788ad80d717e1e08c5e4af33badabc026f4480cd6a5",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.9418949999999313
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/628250201055.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1774,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "f6a9d5098de3ca47cc57ea54241bc15c69e24730ff8f835c6750fd870044892a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.9701010000026145
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328333.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 5245,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "dec66386fdf607b0dfc66bf5d4668ad2f72434a3e6c04ff5d3ba676dac35611f",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.0420129999984056
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328340.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 5441,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "000212abdea05159a618ea5690ebc5605c2bf94e47872a91357a0484fab6f2db",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.0764930000004824
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328470.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3293,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "98fd7605f72ef12938f03342e43bc9bc563ede7a391ba6acb71bf38d3403cb3e",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.0785150000010617
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/810046630983.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 9824,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "4d36acfa90cf8159cf072b8a5d31aacb8aae018b15100d943b36b179a26bc957",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.1091799999994691
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/810046631355.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 6247,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "b6e90d1ca4279cd262b33c014aa78c7f78af0faef587d66eeeb5f6f2ffcca7c2",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.145684999999503
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709434856.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3427,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "2b31d19b99f0244402f4a43054fa2c84895dabf256298acabafcc0a0db7edae6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.161815999999817
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/882709434870.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3380,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "37b179b4de6d2b1fb38aa79021cb88a2d370086ce03119adf8aa296d287afcdb",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.1777020000008633
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328463.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3909,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "f93f3ddd12bb4dcc57d56b63b2fd91b86b2e8c6eac49659d17066c25219e1dd1",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.2123869999995804
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328845.jpg?width=200&quality=85&maxheight=200&sale=30&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 8254,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "aaea4b512be08cf103714c05b89a1e6f1ba590f8aa8a8b15362ee698011f8f3c",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.2379719999989902
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328449.jpg?width=200&quality=85&maxheight=200&sale=32&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4215,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "6f5baad959b35191eacf704ed8934d4d418238a3a2fba5b7e5726256f9f574f0",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.2427040000002307
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328425.jpg?width=200&quality=85&maxheight=200&sale=30&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3557,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "c1128f2d6e8310dcdf14a9464fa86bdac71f572e9c9dc8825b3c06320e42856b",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.3150620000014897
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328739.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2959,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "089970ef247baf8b3ff7aa3f04167ea41fb1fc40f0f5947d97cb23cc9a8e1790",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.3345339999978023
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328722.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3457,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "31a50327c79acc808336da7b11b37843af260e068260872e07f5ef3683a9222a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.351490000000922
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328715.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3261,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "342dd5b07d9321777260ae213e19bae3b2556294080890e08de7126560172914",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.367842000003293
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328760.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3511,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "c4a8dd1ed0cbcbbd21c5c549b38fe709886bc2a5c981ddb79d52ddb2005ae3f8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.3725320000012289
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328432.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2472,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "2fe06c9dee40306535f69d95efd800ecacb697a9240ff6d1d2efb2cd70148892",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.4264079999993555
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328456.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 8684,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "738f87cbea9023f692f2b03c607f6d2fd60e5403780bfdadef6eec8d73f1dbff",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.4269280000007711
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328814.jpg?width=200&quality=85&maxheight=200&sale=31&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 3553,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "f3346905d4cc231372a523fcae4b8da684355340bb29e92babe0b4ba5464df84",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.4432989999986603
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/064323328746.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4491,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "21d73aec2a03433b8cbf38f6b466feae00f0a1fa1c5871bc0075874d6e63ed92",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.4488550000023679
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/856844008289.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4671,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "1fc19a6169ded0f0fc64d8d930b69a586d9d34be33a041176c7d74e1c38efc85",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.4803360000005341
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/9351748000670.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 2790,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "1f170d2a826f346d0596d52672fbe6a5ea5fd23ef022ce57c5a292e683d6442a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.4943310000016936
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/856844008098.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 5431,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "a4a96e8c4c4b5374b70cec408ded4f8c6711304d5091296d60bdccc62826157e",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.5153229999996256
+      },
+      {
+        "url": "https://dynamic.indigoimages.ca/gifts/850008143168.jpg?width=200&quality=85&maxheight=200&sale=0&lang=en",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 9144,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:47 GMT"
+        },
+        "responseBodyHash": "9118989836f2327b1b23baa42d3913810bdb9301c30cc16cc483e831dd8bdff4",
+        "initiators": [
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/lodash-0215374495.min.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 1.5406909999983327
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=YcCcQQAAAIfT-AQD",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 945,
+        "remoteIPAddress": "46.137.57.74",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "pragma": "no-cache",
+          "set-cookie": "dpm=83593237190185640584256301044666365412; Max-Age=15552000; Expires=Sat, 18 Jun 2022 15:07:45 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None\ndemdex=83593237190185640584256301044666365412; Max-Age=15552000; Expires=Sat, 18 Jun 2022 15:07:45 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://cm.everesttech.net/cm/dd?d_uuid=83593237190185640584256301044666365412",
+        "initiators": [
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.022940999999264022
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/akam/11/pixel_6060c265",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 1000,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:07:45 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:45 GMT; path=/\nak_bmsc=ACC06F827EC6BC5FEE98717AF892C43D~000000000000000000000000000000~YAAQZ8MTAsFoLcR9AQAAuGFi2A4hrwUJHNakMcUkslxUewkjVxw4nMlIQ5peIGYSe5pJuu2jCg83sqHHsdDra1er295yMpsmNMKhUL0ynsuNHKvKG08k8TsceniLJ0XoljR09eXst93t/rnXvzI2D9qFkOkjQpse208tf9RHH9pGKXim3P59d95eHpmP1AHbmv2Ru0H6ErEXHReSDT50wv3AgWamxDZUXey4qqxsoyP0e4k3i8+mYpaAPSAQbw+sTX5oUDeRnQxzI3u0p4L6w/W/SeKIt4ZOJV7f3Tc7glgEgoMsrqi/fE65Nt1AQL0LWpolAcyfIKVmjrzRhY5pV80f7JiZknH+6uNvPGoFe/gNmivDYa17NTYAmW7gzByu7zcd18Q2vUptLfgTWM3rxIoYxj//VaTF74qyMQCT5fW7cSxRB+7TGnQZBgLjF4F/G1cBsrbwDAjkqqSAwb9owoHER6NzmjhaJ0ceLb4RehXxzetwfcXr3eTlDNGD5oVHubco6GoWBYsKci2HsSjvePclzoy4TVKyzGG+94BWoTR28K84z3Xo; Domain=.chapters.indigo.ca; Path=/; Expires=Mon, 20 Dec 2021 17:07:42 GMT; Max-Age=7197; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/akam/11/6060c265"
+        ],
+        "time": 0.11072400000193738
+      },
+      {
+        "url": "https://metrics.chapters.indigo.ca/b/ss/onlineindigoca/1/JS-2.8.2/s35957023845066",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 471,
+        "remoteIPAddress": "15.188.95.229",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "etag": "3521900813660225536-4619424633766517270",
+          "expires": "Sun, 19 Dec 2021 15:07:46 GMT",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://static.indigoimages.ca/shared-ui/adobe-visitor-api-v3.1.2.js"
+        ],
+        "time": 0.05631600000197068
+      },
+      {
+        "url": "blob:https://www.chapters.indigo.ca/36d410d5-ac0d-4683-8973-a2830fab0578",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "82da641ccc3c386850722bfeedaabfc768f2a9ac73e0c9ea78d8482facaf91f3",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.2242149999983667
+      },
+      {
+        "url": "https://static.indigoimages.ca/2017/x-out-2018.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.chapters.indigo.ca/",
+        "status": 200,
+        "size": 413,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, no-transform, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 15:07:46 GMT"
+        },
+        "responseBodyHash": "fc4c2d4fb477d4851828840cd91f10e7b6766a8641b03738ddff91ba4ee0fae3",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.17537200000151643
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/akam/11/pixel_6060c265?a=dD0yNTlmOTBjNTc3ZmZiNzRhNmE4MTQ2MjFkODg3NTgxODQ5NmVhMmFlJmpzPW9mZg==",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 994,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:07:46 GMT",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:46 GMT; path=/\nak_bmsc=ACC06F827EC6BC5FEE98717AF892C43D~000000000000000000000000000000~YAAQZ8MTAippLcR9AQAAFGNi2A4A7lWSADwdNy3RtF3DvbeNn6jFl6FM5ArPmE6G9qYWFNIPSVaSBwFCBwdld++2MSYpFMwCfijoDv/npYvP7UGV4GlCsZo7CRPIAFVpk3F5qb06frNrz9str+ujehhRudb3dfq/SNVTOM86A8q0k2houtV4FNdJe2j4oX0QWyGcC+m6DC4NveiSBHZbop3GcSDNFTHUuacFEfwC0UvQEblI8R474pEL1pGV/8AfIw7gDh3bIIMaBrGRFfhntG6m4jqrc5M3HZqX52fvxJdyGtOxBb5br8M/HD1DbCtJv1sl7W5uGzFbEIAmCXjvYu3r3zXnxkJZmeVLjDCeO5nxpvtTFPsL74bZJffOgjw0IDszkfqmEUJw387OF69w5FcZdAJqE4m7vwecpvfMxvI/C44HBnfz8QKW7suxKpKEvq0oh5gLZ+0G/pOQKDEl5uvlAEoT/m1IGkshuTr/O617WWPxtdgMtq2kpuyKjg9jmfWD2g28T8KLcnMla82HHjCmZQ7ao5aPQN0oUJamMyw+6pphhfwsA5VMVioc1kjIX6TU5v0=; Domain=.chapters.indigo.ca; Path=/; Expires=Mon, 20 Dec 2021 17:07:42 GMT; Max-Age=7196; HttpOnly"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-flow.c93e0ae324823a102174.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/api/v1_1/merchandising/htmlbundles/js/1258479,1355381,1300673,1366619,1326639,1362102",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.17747099999905913
+      },
+      {
+        "url": "https://cdn9.forter.com/vchk2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 301,
+        "remoteIPAddress": "52.222.139.70",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, s-maxage=0, proxy-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cdn9.forter.com/vchk2/v1/2dbb5c99391f242e3d22e41b18a905edf9e79a592a8e446deee3655bbfc4901dac7f4bca631756e5d1f64fd1a577",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "(program):2"
+        ],
+        "time": 0.19003199999860954
+      },
+      {
+        "url": "blob:https://www.chapters.indigo.ca/22669fc1-4e02-473a-935d-d44daea1c40c",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "7d942864bfba1d533bd2652c8447f76a8f78e5ccbc51df3925f44d865f25b41a",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.05363800000122865
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/checkout-api/cart?__lang=en-CA",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 3628,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"d36926712809ab8bb83993c8d024b704:1635449174.756767\"",
+          "expires": "Mon, 20 Dec 2021 15:07:46 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:46 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca"
+        },
+        "responseBodyHash": "cd3653a276cc4be5d8464c8ff81390fb9cf52f7ebee81e540d9e1e533df5b32d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://shop.chapters.indigo.ca/checkout/CrossDomainStorage3.html"
+        ],
+        "time": 0.3427540000011504
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/checkout-api/cart?__lang=en-CA",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 3627,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"d36926712809ab8bb83993c8d024b704:1635449174.756767\"",
+          "expires": "Mon, 20 Dec 2021 15:07:46 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:46 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca"
+        },
+        "responseBodyHash": "cd3653a276cc4be5d8464c8ff81390fb9cf52f7ebee81e540d9e1e533df5b32d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://shop.chapters.indigo.ca/checkout/CrossDomainStorage3.html"
+        ],
+        "time": 0.5033570000014151
+      },
+      {
+        "url": "https://www.bluecore.com/triggermail.js/indigo_books.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 24570,
+        "remoteIPAddress": "142.250.179.147",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "\"uIa3GQ\"",
+          "expires": "Mon, 20 Dec 2021 16:00:04 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "44b683cb523aece2e66a8d134d7c342226b968dfbf676af92c0bf209ba7598e8",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/21.c0c30cf273e309452de4.js",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://shop.chapters.indigo.ca/checkout/CrossDomainStorage3.html"
+        ],
+        "time": 0.03330900000219117
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/checkout-api/cart?__lang=en-CA",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 3627,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"d36926712809ab8bb83993c8d024b704:1635449174.756767\"",
+          "expires": "Mon, 20 Dec 2021 15:07:47 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:47 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca"
+        },
+        "responseBodyHash": "cd3653a276cc4be5d8464c8ff81390fb9cf52f7ebee81e540d9e1e533df5b32d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://shop.chapters.indigo.ca/checkout/CrossDomainStorage3.html"
+        ],
+        "time": 0.701108999997814
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/checkout-api/cart?__lang=en-CA",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 3627,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "etag": "\"d36926712809ab8bb83993c8d024b704:1635449174.756767\"",
+          "expires": "Mon, 20 Dec 2021 15:07:47 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:47 GMT; path=/\nAKAMAI_LANGUAGEID=4105; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.indigo.ca"
+        },
+        "responseBodyHash": "cd3653a276cc4be5d8464c8ff81390fb9cf52f7ebee81e540d9e1e533df5b32d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/ExternalLibs/jquery-1210800790.min.js",
+          "https://www.chapters.indigo.ca/ui/js/common-critical-rendering.b440ee6d72004cf4ea2e.js",
+          "https://shop.chapters.indigo.ca/checkout/CrossDomainStorage3.html"
+        ],
+        "time": 0.852828999999474
+      },
+      {
+        "url": "https://storage.googleapis.com/bluecore_addons/indigo_books.ju.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 574,
+        "remoteIPAddress": "142.250.179.208",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+          "expires": "Mon, 20 Dec 2021 16:07:46 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.bluecore.com/triggermail.js/indigo_books.js"
+        ],
+        "time": 0.1275999999998021
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 201,
+        "size": 996,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:47 GMT; path=/\n_abck=C35372CD5959C08603C9B766078B5EEA~0~YAAQZ8MTAv5pLcR9AQAA+WVi2AcWV81NLwkjZLx1bNHSooe3qUvh5/T4rISTDGoiy757skN9gtQI669/DGylMSdW+zlwKuaCdMB4IP7Sn1X7mWPAzsfv3zlTppdqzQKNobLbD8p1cKnwkKsUjSdFxPv0Qv2yvotPFurAW0uMPevCriPnas6Y/12bw6J/NGxcXjv1fUcCYzBN3qrq3fNFElpi0olO5up+tnegnwmuIYouSml+7MfIfxryWevYvOsNrVhaSJ+Ixt2N07mN4/7w/Hw/SzeDflwKaoQbz4L90mleTKoH7Y41OsRlnH1zScJenm2LTrRb5Fm5Ii88Jyn47YRohue/mqAkZuK90tPx269K7YQZC5ks/9Je8S/DmF/8OxWRLYdvDaXXy1BCUkInILjbgKPoSsE=~-1~||-1||~-1; Domain=.indigo.ca; Path=/; Expires=Tue, 20 Dec 2022 15:07:47 GMT; Max-Age=31536000; Secure"
+        },
+        "responseBodyHash": "bef9393fcdfc7a7299c058ba2a69253c32e0964dd3e97834e17a8cdb5dce7cf6",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/4lNS5BBjBkb7e/5Jw65QLbK96C/K8/1p9zSkw45ELO/WHU-X10B/e0he/MA8dQzQB"
+        ],
+        "time": 0.4774409999990894
+      },
+      {
+        "url": "https://cdn9.forter.com/vchk2/v1/2dbb5c99391f242e3d22e41b18a905edf9e79a592a8e446deee3655bbfc4901dac7f4bca631756e5d1f64fd1a577",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 323,
+        "remoteIPAddress": "52.222.139.70",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, s-maxage=0, proxy-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://cdn9.forter.com/vchk2",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "(program):2"
+        ],
+        "time": 0.1041960000002291
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 4368,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=bfbbba3a0b9b616ce33494f225b3b3e0; path=/; expires=Tue, 20 Dec 2022 15:07:46 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZidTBINUpTSHYyNDNwRVBVUlBXaEhDOGlWRzNpMHF1Y1F6azBIOU5iU0tNU2l0eDNTSlN3R3BwbHlYemZkMjkvZlhtaHNhb3RuS1F5MGZ4TkdESHFyblhCb2xFTUQvc2U0cGMxWWNpZnR5ektVSlo2T1lhb1MzM1BxREZudW45eiZ5bmVOWkQ4ZjRyQUNqYUZSREFCVlhNZUNiRkE9; path=/; expires=Thu, 15 Dec 2022 15:07:46 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Thu, 15 Dec 2022 15:07:46 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://www.chapters.indigo.ca/en-ca/; path=/; expires=Mon, 20 Dec 2021 15:12:46 GMT; domain=.pinterest.com; secure\n_routing_id=\"4f0b13f1-60d2-4159-b5b7-21c5c4142819\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "60c9675186934fb8f7576fc10bdf9e093e27849efb12fdc22f7b899a8f98a369",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.2389789999979257
+      },
+      {
+        "url": "https://js-agent.newrelic.com/nr-spa-1212.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 17094,
+        "remoteIPAddress": "151.101.38.137",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200, stale-if-error=604800",
+          "etag": "\"8bd93bf0ecb2f4e971a2055a41402bb6\""
+        },
+        "responseBodyHash": "ebfe453394ff1be6ef75d380ab7c5535aea0b51832d045f0d5d0ef7e6535969c",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.026633000001311302
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/js/SearchApp.544d0b853afdaab03407.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 77988,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d42460a7d5d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:47 GMT; path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.043697000000975095
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/css/product-search-7e6584ff27.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 7319,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "\"01fac7388d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:47 GMT; path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.06879400000252645
+      },
+      {
+        "url": "https://www.chapters.indigo.ca/ui/css/item-search-3066920fb3.css",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 788,
+        "remoteIPAddress": "23.222.44.149",
+        "responseHeaders": {
+          "cache-control": "public,max-age=31536000,immutable",
+          "etag": "W/\"0d4ddaa7388d71:0\"",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "set-cookie": "aka-foreign-user=1; expires=Mon, 20-Dec-2021 15:09:47 GMT; path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://www.chapters.indigo.ca/ui/js/flow.e088abd974b3487d6958.js",
+          "https://www.chapters.indigo.ca/ui/js/runtime.e7154f70591801630f38.js"
+        ],
+        "time": 0.07076299999971525
+      },
+      {
+        "url": "https://c4625e8e06f1473b9d4b4628f54400b9-e34a806cbdfc.cdn.forter.com/prop.json",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 630,
+        "remoteIPAddress": "54.81.184.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "\"2-5d392b054bdac\"",
+          "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "(program):2",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.2644339999969816
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/1/338c3edf7e?a=6200888,708208579&v=1212.e95d35c&to=NFFTN0AFCBJVAkNdDQ0bcDBiSwUMR05DUQ8TWFAXVxdJE1ESR1sMEF1HBh0GCgBaCkNRDxNYUBdXSgcSRBk%3D&rst=4906&ck=1&ref=https://www.chapters.indigo.ca/en-ca/&ap=716&be=470&fe=4861&dc=2445&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1640012862384,%22n%22:0,%22f%22:372,%22dn%22:372,%22dne%22:372,%22c%22:372,%22ce%22:372,%22rq%22:374,%22rp%22:426,%22rpe%22:563,%22dl%22:438,%22di%22:1927,%22ds%22:2444,%22de%22:2446,%22dc%22:4861,%22l%22:4861,%22le%22:4885%7D,%22navigation%22:%7B%7D%7D&fp=1623&fcp=1623&jsonp=NREUM.setToken",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "162.247.243.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "JSESSIONID=216e4c2256ebf02b; Path=/; Domain=.nr-data.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": "dac715f087720dd7ff7067f5d2ec1988851fa93140ae8a9cbfaa15659dd7fd82",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js"
+        ],
+        "time": 0.2436840000009397
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/ins/1/338c3edf7e?a=6200888,708208579&v=1212.e95d35c&to=NFFTN0AFCBJVAkNdDQ0bcDBiSwUMR05DUQ8TWFAXVxdJE1ESR1sMEF1HBh0GCgBaCkNRDxNYUBdXSgcSRBk%3D&rst=5169&ck=1&ref=https://www.chapters.indigo.ca/en-ca/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 204,
+        "size": 449,
+        "remoteIPAddress": "162.247.243.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js",
+          "https://bam-cell.nr-data.net/1/338c3edf7e?a=6200888,708208579&v=1212.e95d35c&to=NFFTN0AFCBJVAkNdDQ0bcDBiSwUMR05DUQ8TWFAXVxdJE1ESR1sMEF1HBh0GCgBaCkNRDxNYUBdXSgcSRBk%3D&rst=4906&ck=1&ref=https://www.chapters.indigo.ca/en-ca/&ap=716&be=470&fe=4861&dc=2445&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1640012862384,%22n%22:0,%22f%22:372,%22dn%22:372,%22dne%22:372,%22c%22:372,%22ce%22:372,%22rq%22:374,%22rp%22:426,%22rpe%22:563,%22dl%22:438,%22di%22:1927,%22ds%22:2444,%22de%22:2446,%22dc%22:4861,%22l%22:4861,%22le%22:4885%7D,%22navigation%22:%7B%7D%7D&fp=1623&fcp=1623&jsonp=NREUM.setToken"
+        ],
+        "time": 0.4981279999992694
+      },
+      {
+        "url": "https://cdn0.forter.com/e34a806cbdfc/c4625e8e06f1473b9d4b4628f54400b9/prop.json?_=1640012868269",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "54.204.202.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "(program):2"
+        ],
+        "time": 0.3341169999985141
+      },
+      {
+        "url": "https://cdn0.forter.com/e34a806cbdfc/c4625e8e06f1473b9d4b4628f54400b9/prop.json?_=1640012868608",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "54.204.202.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "(program):2"
+        ],
+        "time": 0.16391699999803677
+      },
+      {
+        "url": "https://cdn0.forter.com/e34a806cbdfc/c4625e8e06f1473b9d4b4628f54400b9/prop.json?_=1640012868776",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 366,
+        "remoteIPAddress": "54.204.202.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "(program):2"
+        ],
+        "time": 0.21031700000094133
+      },
+      {
+        "url": "https://cdn0.forter.com/e34a806cbdfc/c4625e8e06f1473b9d4b4628f54400b9/wpt.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "54.204.202.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn0.forter.com/e34a806cbdfc/c4625e8e06f1473b9d4b4628f54400b9/wpt.json"
+        ],
+        "time": 0.0817929999975604
+      },
+      {
+        "url": "https://cdn0.forter.com/e34a806cbdfc/c4625e8e06f1473b9d4b4628f54400b9/wpt.json",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 423,
+        "remoteIPAddress": "54.204.202.163",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "private, no-cache, no-store",
+          "etag": "W/\"14-Y53wuE/mmbSikKcT/WualL1N65U\"",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "(program):2"
+        ],
+        "time": 0.16731999999683467
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/338c3edf7e?a=6200888,708208579&v=1212.e95d35c&to=NFFTN0AFCBJVAkNdDQ0bcDBiSwUMR05DUQ8TWFAXVxdJE1ESR1sMEF1HBh0GCgBaCkNRDxNYUBdXSgcSRBk%3D&rst=8614&ck=1&ref=https://www.chapters.indigo.ca/en-ca/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 510,
+        "remoteIPAddress": "162.247.243.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js",
+          "(program):2"
+        ],
+        "time": 0.21634500000072876
+      },
+      {
+        "url": "https://cdn3.forter.com/events",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 246,
+        "remoteIPAddress": "34.194.80.62",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca",
+          "cache-control": "private, no-cache, no-store",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "(program):2",
+          "https://www.chapters.indigo.ca/en-ca/"
+        ],
+        "time": 0.35229599999729544
+      },
+      {
+        "url": "https://bam-cell.nr-data.net/events/1/338c3edf7e?a=6200888,708208579&v=1212.e95d35c&to=NFFTN0AFCBJVAkNdDQ0bcDBiSwUMR05DUQ8TWFAXVxdJE1ESR1sMEF1HBh0GCgBaCkNRDxNYUBdXSgcSRBk%3D&rst=14905&ck=1&ref=https://www.chapters.indigo.ca/en-ca/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.chapters.indigo.ca/en-ca/",
+        "status": 200,
+        "size": 510,
+        "remoteIPAddress": "162.247.243.146",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.chapters.indigo.ca"
+        },
+        "responseBodyHash": "0c9cf152a0ad00d4f102c93c613c104914be5517ac8f8e0831727f8bfbe8b300",
+        "initiators": [
+          "https://www.chapters.indigo.ca/en-ca/",
+          "https://js-agent.newrelic.com/nr-spa-1212.min.js"
+        ],
+        "time": 0.13091200000053504
+      }
+    ]
+  }
+}

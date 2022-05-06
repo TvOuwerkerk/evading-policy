@@ -1,0 +1,68 @@
+{
+  "initialUrl": "https://www.ticketmaster.co.uk/",
+  "finalUrl": "https://www.ticketmaster.co.uk/",
+  "timeout": false,
+  "testStarted": 1640012980079,
+  "testFinished": 1640012994786,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.ticketmaster.co.uk/links.www.ticketmaster.co.uk_7136.json",
+    "requests": [
+      {
+        "url": "https://www.ticketmaster.co.uk/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 403,
+        "size": 2720,
+        "remoteIPAddress": "151.101.37.204",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "set-cookie": "sticky=CAAB; Domain=.ticketmaster.co.uk; Path=/"
+        },
+        "responseBodyHash": "ca98bc1433e28beb4bdd117be4b3c14aa96c68dddb245e1ccd1fe05468280c56",
+        "initiators": [],
+        "time": 0.03796399999919231
+      },
+      {
+        "url": "https://www.ticketmaster.co.uk/tmol-dstlxhr.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ticketmaster.co.uk/",
+        "status": 200,
+        "size": 43396,
+        "remoteIPAddress": "151.101.37.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=60",
+          "set-cookie": "sticky=CAAB; Domain=.ticketmaster.co.uk; Path=/"
+        },
+        "responseBodyHash": "afe0bc7a3ecd2be18fee965799ee87c6a2e815396ac573a37530cdf552567e09",
+        "initiators": [
+          "https://www.ticketmaster.co.uk/"
+        ],
+        "time": 0.015632999999070307
+      },
+      {
+        "url": "https://www.ticketmaster.co.uk/tmol-dstlxhr.js?d=www.ticketmaster.co.uk",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.ticketmaster.co.uk/",
+        "status": 200,
+        "size": 1182,
+        "remoteIPAddress": "151.101.37.204",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store",
+          "set-cookie": "sticky=CAAB; Domain=.ticketmaster.co.uk; Path=/"
+        },
+        "responseBodyHash": "a1b77b984835d67fa94ddc35370c32a27dd3cd77468ee6ec3e6cd23c651a21a2",
+        "initiators": [
+          "https://www.ticketmaster.co.uk/tmol-dstlxhr.js"
+        ],
+        "time": 0.05951700000150595
+      }
+    ]
+  }
+}

@@ -1,0 +1,1679 @@
+{
+  "initialUrl": "https://www.thomann.de/",
+  "finalUrl": "https://www.thomann.de/nl/index.html",
+  "timeout": false,
+  "testStarted": 1640013479699,
+  "testFinished": 1640013497069,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.thomann.de/links.www.thomann.de_091d.json",
+    "requests": [
+      {
+        "url": "https://www.thomann.de/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "sid=52411e9f72b65d97ad126b91786772ce; path=/; secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.thomann.de/nl/index.html",
+        "initiators": [],
+        "time": 0.1548659999971278
+      },
+      {
+        "url": "https://www.thomann.de/nl/index.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 43955,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7aed8d5f3f15485d041e3d9fbd6b94d10af2670135be1b7e2823fb24b064cabf",
+        "redirectedFrom": "https://www.thomann.de/",
+        "initiators": [],
+        "time": 0.19452799999999115
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 1524,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:18:00 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c955d7110b4768bee391e9ad49787e45abdee35e2c279ff87b7f3a157afc524a",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.02119900000252528
+      },
+      {
+        "url": "https://www.thomann.de/static/tr/css/vendor-fx__rev823.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 99609,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"9093a-5d39496ca1580-gzip\"",
+          "expires": "Tue, 21 Dec 2021 15:18:00 GMT"
+        },
+        "responseBodyHash": "049ab45168b1aa6d6a83c9160bad52087c424cb368f4737ef5b233cbefc08a73",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.06098299999939627
+      },
+      {
+        "url": "https://www.thomann.de/static/tr/css/style-fx__rev823.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 128542,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"108daa-5d394975369c0-gzip\"",
+          "expires": "Tue, 21 Dec 2021 15:18:00 GMT"
+        },
+        "responseBodyHash": "61bb1bb2c4c0c2dcedee0642a65f1e8c0ce4ea829933b79c945320a6a57e7f59",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.10877800000162097
+      },
+      {
+        "url": "https://www.thomann.de/static/script/vendor__rev2135.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 121638,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"6ef5e-5d3948f19b340-gzip\"",
+          "expires": "Tue, 21 Dec 2021 15:18:00 GMT"
+        },
+        "responseBodyHash": "892502f51ec39da3ea41b7bca8f0200732bf416cf29b61c80f15767cb048fe66",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.07170200000109617
+      },
+      {
+        "url": "https://www.thomann.de/static/script/thoapp__rev3154.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 981207,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"484ad4-5d3949ccf38c0-gzip\"",
+          "expires": "Tue, 21 Dec 2021 15:18:00 GMT"
+        },
+        "responseBodyHash": "9cec28d1cbb46ec30aa1a426d8964f2bc235056eec8643a5ed4ac1fdb439e419",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.2486429999989923
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/cookie/oma_with_thomann_cookies.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 40458,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9c3d-5a85bc64d5380\"",
+          "expires": "Thu, 02 Dec 2021 17:50:03 GMT"
+        },
+        "responseBodyHash": "37c5f0d0aba7e75a4058db811c88c0856a5610ecf6150d545f6c776b7e436be8",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.1417559999972582
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/logos/thomann-xmas-kugel-logo-v3.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3267,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"27f1-5d28e1b31f0c0\"",
+          "expires": "Tue, 14 Dec 2021 14:18:58 GMT"
+        },
+        "responseBodyHash": "8e482f1696be06efcd160656be703357cda84c12c442ca8c0715e12583843eec",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.16624799999772222
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/nl.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 648,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"175-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:07 GMT"
+        },
+        "responseBodyHash": "d2880b47ed7c3ec72ce04b36e14d03ef795da094511dd1b991bb32ddc066f741",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.31612399999721674
+      },
+      {
+        "url": "https://im.static-thomann.de/pics/n.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 436,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"2b-4128cda0f4d80\"",
+          "expires": "Thu, 02 Dec 2021 17:50:24 GMT"
+        },
+        "responseBodyHash": "4318aae91d67a3d497f0e1c8600158f620394bdbf2a87929de32884f20d575d7",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.338210000001709
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/badges/money_back.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 1482,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"bec-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:47 GMT"
+        },
+        "responseBodyHash": "cd40eebffaf78b83c047899e8fecdbd47c14279a00e8d194ce71c3b346f42a16",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.41011799999978393
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/badges/warranty.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 1508,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"c7e-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:47 GMT"
+        },
+        "responseBodyHash": "f26046f5ea5ba0a40b664276989337338a330d6c3cb6944a9c431102371934c6",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4194439999992028
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/badges/shipping.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 1166,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"8b5-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:47 GMT"
+        },
+        "responseBodyHash": "86f83ca1964d9f7784b3c0a8a0a54e24ea933d024b67b37f311e02be7d6345d6",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.42679599999974016
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/badges/service_repair.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 1044,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"8b1-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:47 GMT"
+        },
+        "responseBodyHash": "90e4b67bd9b6863ef983ef8e341b407b6c3f8373eff8ba6861a8fedad3bb2e43",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4268420000007609
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/badges/biggest_warehouse.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 1387,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"e3b-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:47 GMT"
+        },
+        "responseBodyHash": "27b66ed142f237d02fb739eda67b11a414e3f107fc5950b46e9bb8c1be622d8d",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.42692000000170083
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/gi.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3457,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a572c-bc6\"",
+          "expires": "Thu, 30 Dec 2021 20:29:50 GMT"
+        },
+        "responseBodyHash": "dd85a67225de49e590184939975379660451f43f8ef375f7ed5bb53bd2ab1394",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4776910000000498
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/dr.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 5986,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a55a4-15a6\"",
+          "expires": "Thu, 16 Dec 2021 20:29:41 GMT"
+        },
+        "responseBodyHash": "cd7bf93db96a5818a816c65e53c3405515ef31c490e001447c8ccadb4dca7629",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.47329399999944144
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/ta.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3284,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a572c-b1a\"",
+          "expires": "Thu, 30 Dec 2021 20:29:50 GMT"
+        },
+        "responseBodyHash": "2d6a66c70c8e6079ce55f6b1e41d0d414a93bf8a85901576a55e6634371d6eca",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.47352999999930034
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/st.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 4787,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5625-10f8\"",
+          "expires": "Thu, 30 Dec 2021 20:29:50 GMT"
+        },
+        "responseBodyHash": "1f63cc031a0db29e320c80bfef719b2d64d461c1c8baacb5114af2aa3c445884",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4736850000008417
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/sw.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3833,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a55a4-d3e\"",
+          "expires": "Thu, 30 Dec 2021 20:29:50 GMT"
+        },
+        "responseBodyHash": "21371d5a8bafa4f28bc990ab14d6d30fbdb8cc806ccf2604cfdd4a543ead4dc4",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4737070000010135
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/pa.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3658,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5712-c90\"",
+          "expires": "Thu, 30 Dec 2021 20:29:51 GMT"
+        },
+        "responseBodyHash": "d8bf0cae9f32fffca09dd29ce7424ce30e5e3da5f757eb61882ea870af946fd3",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.47411300000021583
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/li.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2770,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5626-918\"",
+          "expires": "Thu, 02 Dec 2021 20:29:23 GMT"
+        },
+        "responseBodyHash": "a395ac47af54ae48a2d66080e8b4ad2912a6cbf1e5e1df5c7dcbb5a9254aa862",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.48509399999966263
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/dj.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 4776,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5716-10ee\"",
+          "expires": "Thu, 30 Dec 2021 20:29:52 GMT"
+        },
+        "responseBodyHash": "bd457238e3ffdfffc440c952c25fd1c0211157995c71af0b62f60b811a7d1b99",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4852549999995972
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/vi.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2519,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5712-81e\"",
+          "expires": "Thu, 02 Dec 2021 20:29:23 GMT"
+        },
+        "responseBodyHash": "cf27f7eff3edcd48da6c1bf0997ef81159832579f97fa091c184162102227322",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4854750000013155
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/mi.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2310,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a55a4-74c\"",
+          "expires": "Thu, 30 Dec 2021 20:29:53 GMT"
+        },
+        "responseBodyHash": "392ab83318646b108fa02c138fd56a436a6a67adebf88f3599d63751b7317ab6",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.48565099999905215
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/sp.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2648,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a55a5-89e\"",
+          "expires": "Thu, 02 Dec 2021 20:29:23 GMT"
+        },
+        "responseBodyHash": "a58a6b1cd92fdae24466b382398e0558e6e2528eff2e55e97ed6b7738a3feec8",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.48586400000203867
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/bl.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2524,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5626-822\"",
+          "expires": "Thu, 30 Dec 2021 20:29:54 GMT"
+        },
+        "responseBodyHash": "26660d76629356a558740a1591ca3e995259c15ff6b2ce8ce5d7aab40a378e3e",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4860999999982596
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/tr.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3603,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5716-c58\"",
+          "expires": "Thu, 30 Dec 2021 20:29:54 GMT"
+        },
+        "responseBodyHash": "24ef0390e0653ca9a6837d52662034ec59465c5384000d0168fd05a8e4f36fa1",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4862619999985327
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/no.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2940,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a55a5-9c2\"",
+          "expires": "Thu, 30 Dec 2021 20:29:54 GMT"
+        },
+        "responseBodyHash": "fe0b233f14bb0c807d834c075492a289537ef80e4a94d52d2e911eb0de72325c",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.486494999997376
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/ca.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3018,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5625-a10\"",
+          "expires": "Thu, 30 Dec 2021 20:29:54 GMT"
+        },
+        "responseBodyHash": "9a62a28ef3442decb25881a75d9bdcf2f47739a517c948f848287bfe23003673",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.486668000001373
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/ka.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 4865,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a55a4-1146\"",
+          "expires": "Thu, 30 Dec 2021 20:30:02 GMT"
+        },
+        "responseBodyHash": "886a1c870ee6260fc2d4f3c49b506b73277bc2d50f4d50616ec050386adb7a26",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4869399999988673
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/category/icons/main/zu.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3662,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"608a5712-c94\"",
+          "expires": "Thu, 16 Dec 2021 20:29:41 GMT"
+        },
+        "responseBodyHash": "66da7426da3b8d5e1c69520cc3ac70deb21d20e657d4fde7d5195d9e8025b455",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.4872089999989839
+      },
+      {
+        "url": "https://im.static-thomann.de/pics/images/misc/placeholder.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2186,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"10ff-5a3ce2f8e5200\"",
+          "expires": "Tue, 15 Dec 2020 13:04:57 GMT"
+        },
+        "responseBodyHash": "2471f74d4bb815bfc833cdece3c805a7267c6bca866a6934c8d418bf9c2f1882",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.42009300000063377
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T3LLKX",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 78549,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:18:00 GMT"
+        },
+        "responseBodyHash": "4185f26dd66e35a47bea735850a348f16403c47e5aaa4ad22caf58a29c735871",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.04684099999940372
+      },
+      {
+        "url": "https://www.thomann.de/static/icons/twficons.svg",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 21310,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "etag": "\"52e0-5d3949603b840\""
+        },
+        "responseBodyHash": "e4df153c1dbb9cb5effcc269aae2820e12e0b61647d8d00b2efbe1c5465c2c36",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03787500000180444
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 40209,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:12:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ca24f09b21595b31c499523d7ee078eedf51d34e94ba7de325f469c8e21f6b0a",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        ],
+        "time": 0.2798509999993257
+      },
+      {
+        "url": "https://www.thomann.de/static/icons/fxicons.svg?v=75",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 43396,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "etag": "\"a925-5d3948f19b340\""
+        },
+        "responseBodyHash": "71b1c3729f5a37ba5d10b555b58913f58bd45f4b65117be7657e9e824a403421",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.020504000000073574
+      },
+      {
+        "url": "https://www.thomann.de/static/icons/fxicons.svg",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 43401,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "etag": "\"a925-5d3948f19b340\""
+        },
+        "responseBodyHash": "71b1c3729f5a37ba5d10b555b58913f58bd45f4b65117be7657e9e824a403421",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.020759999999427237
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v27/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 42676,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:09:20 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2705d79aab6c0f9e689fe48e30011c7e23400f08d167ba2a30920353272f7658",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        ],
+        "time": 0.09086399999796413
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/de.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 562,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"dc-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "8d0d0a51ddf42e560ac09dd5556dff7bacce74c17f6ff9484bcf550a59482df4",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.0034019999984593596
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/gb.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 880,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"3bc-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "d85f0f149b4390bed6624bc30ca2cbfa37d394f14474fcf81d63363ad363e284",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.003877999999531312
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/fi.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 578,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"fd-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "eeac2e1379b1af3b794f9abaa4643b67d60dc36aef363ab965911162b4ae5daf",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.004293000001780456
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/at.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 592,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"fb-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "be6010f47ceb1e1d95c436829392862710c13940bf865d885261fa65a5b05221",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03710299999875133
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/se.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 799,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"2fd-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "73964261d5ec45c856c9f7b57f1be90f60c5e748596e494aafa5facd817c7118",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03697500000271248
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/ie.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"141-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "33e127edeb1405b46aba3a8cbe73c5e3b78bbb75c85adc5327fec29ea0eae157",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.036556999999447726
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/it.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 611,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"13d-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "adcd8604d60b39dd95372b5c51ba03f7a1cd6e0d1100fde9c487f2b6fab1887a",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.0364079999999376
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/fr.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 608,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"12d-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "5b6655c0f9c946f1e248a40762ec9594cd899be8888314cf6e820001148fff17",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.036088000000745524
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/pt.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 947,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"509-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "58feed91337b6f0c54cf6def89e70257b2e6919a9c931b01bd56ee24adb964be",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03600200000073528
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/es.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 2327,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"1363-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "19ab8adadfc8627c44af5322bddfb8176799b9a7a1abd649627b76f05d2ecdb8",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03554000000076485
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/dk.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 578,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"f9-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "fdd09296ac803a8cf4066ff5488821458a9788985e3cc09356d4c4ef81959ecf",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.035286999998788815
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/gr.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 707,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"333-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "e2aa8c913feebbed26a8fa0de5ac4aeb51545a4c0dee9bfda4ec5d9673f96386",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03503499999715132
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/be.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 615,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"13e-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "2b7e73068f4f120ed0ccc3a9fbb8566c9574b206afd8373ed9050e2a971c4f99",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.034844000001612585
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/lu.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 562,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"e7-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "75e0b689aab27055be13a3d649370eee066d9ea5e6c16128576c187464a47841",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.034578000002511544
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/pl.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 573,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"e1-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "685731756e82c5905f3a99b6674611dd0af9a9522b371a08f9511fe85dddaeb0",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03425799999968149
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/cz.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 707,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"1e9-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "913ce2a1baa91611e8a4829a7b8a696197aa5590bfd85e90a5b8c1113b505b3f",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.03395500000260654
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/ro.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"140-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "63c55736a245e5fa5e0484b4693d43e171941143fcbdb34d3aa8d4cfd6160c9d",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.04431599999952596
+      },
+      {
+        "url": "https://im.static-thomann.de/pics//images/common/flags/hu.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 604,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"13c-5a3ce2ec7f4c0\"",
+          "expires": "Thu, 25 Nov 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "9de1c66f05202004cee7f0027090d2b83f35c17aad9194b4e3167b130276ac57",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.04046999999991385
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 26685,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sun, 18 Dec 2022 10:15:44 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a9d0ce0ee315990db0bbef91349da5c21c35f543e0dd9c4decc82d9fe3235525",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        ],
+        "time": 0.09717000000091502
+      },
+      {
+        "url": "https://www.thomann.de/static/icons/icons.svg?v=75",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 182023,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "etag": "\"2c61f-5d3948f19b340\""
+        },
+        "responseBodyHash": "2a601f5e064ac82fe13f9eeaeb3af9210e5d4dd825d1af5d9d0453d9180fe83d",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.04670800000167219
+      },
+      {
+        "url": "https://i.ytimg.com/vi/KMyrZOFUZPc/hqdefault.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 29359,
+        "remoteIPAddress": "216.58.208.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1639655399\"",
+          "expires": "Mon, 20 Dec 2021 17:14:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d49930e8334cbdca4f050700a5fe5aaae1630b363b874176464639c8f2e5bcd7",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.027614000002358807
+      },
+      {
+        "url": "https://www.thomann.de/blog/wp-content/uploads/2021/11/rock_music_header_770x425-472x260.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 289423,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "expires": "Wed, 19 Jan 2022 15:18:01 GMT"
+        },
+        "responseBodyHash": "0ca64f85c8ee69f675cdf6ded924a2c919f1c51ac18e9d728234f2a4240d8d37",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.05472399999780464
+      },
+      {
+        "url": "https://i.ytimg.com/vi/hhItMkxn8pU/hqdefault.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 28578,
+        "remoteIPAddress": "216.58.208.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1639492065\"",
+          "expires": "Mon, 20 Dec 2021 17:13:30 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "28a5d908d535e216ac699f5f50847b050b06c720e83b6d2f18d32494f8424063",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.022116000000096392
+      },
+      {
+        "url": "https://www.thomann.de/blog/wp-content/uploads/2021/12/guitarkids_header_770x425-472x260.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 191665,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "expires": "Wed, 19 Jan 2022 15:18:01 GMT"
+        },
+        "responseBodyHash": "d256cf502d597c7cbaf8e93eb315d6db066c231959ea397ff480d45008abbfd0",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.0548979999985022
+      },
+      {
+        "url": "https://i.ytimg.com/vi/URULcenfhU8/hqdefault.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 27140,
+        "remoteIPAddress": "216.58.208.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1638961768\"",
+          "expires": "Mon, 20 Dec 2021 17:14:10 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8d491577e32909f5d5540bd2b599575cd18dabdb76d792868193e400957852a7",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.025528999998641666
+      },
+      {
+        "url": "https://www.thomann.de/blog/wp-content/uploads/2021/12/HelloNewGear_header_770x425_dec2021-5-472x260.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 200,
+        "size": 62787,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "expires": "Wed, 19 Jan 2022 15:18:01 GMT"
+        },
+        "responseBodyHash": "0b825f369cfbbc5a2eb1d22187f12255893310c7a16bfb8b8ce9d21071090d7d",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.054971999998087995
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb640x//pics/cms/image/teasertool/nl/translate_die_top_50_liste/tour_de_thomann_top_50.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 29134,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"6141d8db-6fd0\"",
+          "expires": "Tue, 07 Dec 2021 17:22:44 GMT"
+        },
+        "responseBodyHash": "3291c5dcdd39c8b5d65ddc4ed657223d1954532872c893072f67d3139b30d678",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.00611899999785237
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb640x//pics/cms/image/teasertool/nl/translate_paypal/tour_paypal.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 26160,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"6142faa9-643f\"",
+          "expires": "Sat, 04 Dec 2021 17:53:49 GMT"
+        },
+        "responseBodyHash": "04fc9f87bbb4626e6987fb5c2d9527a348886c1f381349ce22b40769984b4a4f",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.008742999998503365
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb640x//pics/cms/image/teasertool/nl/translate_der_cableguy_findet_ihr_wunschkabel/tour_cableguy.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 44280,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"6139dc98-aae0\"",
+          "expires": "Mon, 06 Dec 2021 12:14:41 GMT"
+        },
+        "responseBodyHash": "7def73d30b3dacfe11ee7ae63390ddf38619a404b90c281dbbf72ce26a612dc0",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.010494999998627463
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//convert/pics/images/footer/download-app-store.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 4250,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "W/\"61b01ed0-26d1\"",
+          "expires": "Thu, 30 Dec 2021 20:14:07 GMT"
+        },
+        "responseBodyHash": "3317c670c8c4bf090ddbccddad0fbf0899ad9bf01fa08bde8afa4f18e93b10f5",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.006343000000924803
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//convert/pics/images/footer/download-google-play.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 3359,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "W/\"61b039c9-1e53\"",
+          "expires": "Thu, 30 Dec 2021 20:14:07 GMT"
+        },
+        "responseBodyHash": "ef06a8ea08f8ad606b1550140c2d8295fde027116351ccdb95426e8447f8ae6f",
+        "initiators": [
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.013611000002129003
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//txteaser1000--95dbfeff3bf9f2e447b3bf1bc957a543/pics/cms/image/teasertool/de/7772/universal_audio_interfaces.webp?d=ZW1uZzUybENVcU4rUkdBRjdEa2pHQnNMOGpZUzg2UEQ2QmJyQUphc3RsNDBUWXNzazhtczM2aUJpdHVqMGYvMXBqZnBFem9ncGVNNUovcjJVeDYwcCs1Z1h4a2hZOGdtQURhZnEyQ3Fsai9iMmMrY01zM0VJSEJOV200WTBJYzRNSTVkSzBsTm5Fc1ExNERocDkzRUhScEJDazJqcEYrUE1nMk1QelgrT2lvUFRNbUYveXdZNmt4VGY2WFJDdWNRZW9yVTJlQlBEbWxWdll2c1ZGOHpvUjZ2dE44Vk1iNzJyN0NzbjNNazNPczJ2OTNsUXVGZ1QxRlY4L3VsV25ET2N5Zk5lL1pXUlpSNWs0VXVzNGZVZUpTVnQvRjUrK3diZjdUS0lkWlR0cWFqVHl1ZFRTOFhrLy9zYzlUeVVydmo%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 56146,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"61bc6f9e-d7cc\"",
+          "expires": "Mon, 03 Jan 2022 08:29:15 GMT"
+        },
+        "responseBodyHash": "7764a817569667d0bf11e25108aad967280feb7c6c93ee1110f0d8001ea59b93",
+        "initiators": [
+          "https://www.thomann.de/static/script/vendor__rev2135.js"
+        ],
+        "time": 0.003483000000414904
+      },
+      {
+        "url": "https://www.thomann.de/static/images/xmas/wave-button-light.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/static/tr/css/style-fx__rev823.css",
+        "status": 200,
+        "size": 2278,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "etag": "\"8ad-5d3948f19b340\""
+        },
+        "responseBodyHash": "59a126f46a88e7b1c733d5cf9c42027c28b7008812cc00d84fd58cb8b3223f0a",
+        "initiators": [
+          "https://www.thomann.de/static/tr/css/style-fx__rev823.css"
+        ],
+        "time": 0.019167999998899177
+      },
+      {
+        "url": "https://im.static-thomann.de/pics/images/misc/loader-black.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 6951,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"198b-5a3ce2f8e5200\"",
+          "expires": "Thu, 02 Dec 2021 17:50:10 GMT"
+        },
+        "responseBodyHash": "87d82fc0b419933fd5bcf72df50255eeb9b29305873a1ea4c1264f2698262e82",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.003174999998009298
+      },
+      {
+        "url": "https://im.static-thomann.de/pics/images/misc/bugs.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 48535,
+        "remoteIPAddress": "185.59.222.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"bbd2-5a3ce2f8e5200\"",
+          "expires": "Thu, 02 Dec 2021 17:50:08 GMT"
+        },
+        "responseBodyHash": "d71accdd219a1467d3c4d7899451b5654534351ddc1789404a5a7fee50fa08f5",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/nl/index.html"
+        ],
+        "time": 0.004453000001376495
+      },
+      {
+        "url": "https://www.thomann.de/static/images/xmas/footer-waves.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/static/tr/css/style-fx__rev823.css",
+        "status": 200,
+        "size": 2026,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "etag": "\"79a-5d3948f19b340\""
+        },
+        "responseBodyHash": "eb9bf546b8749264c29622d6948ef48d4608ef708e3661ef6ae0b78bf9ccff3e",
+        "initiators": [
+          "https://www.thomann.de/static/tr/css/style-fx__rev823.css"
+        ],
+        "time": 0.01899300000150106
+      },
+      {
+        "url": "https://www.thomann.de/nl/cla.html",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/nl/index.html",
+        "status": 204,
+        "size": 103,
+        "remoteIPAddress": "212.204.75.161",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.thomann.de",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.thomann.de/static/script/thoapp__rev3154.js",
+          "https://www.thomann.de/static/script/vendor__rev2135.js"
+        ],
+        "time": 0.05475799999840092
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//txteaser1000--b94fde6687aadb77b97b9818986c1410/pics/cms/image/teasertool/de/7772/customshop_guitars.webp?d=ZW1uZzUybENVcVBnVlYrWklOWmdTRmk1K2YreXpibUg2cWRETFI3V3plUGNxdE5hZlVMMXh1bmxNSFUzcktBUklsRWpuVjNLUFVwbDVVRzlzZXJvbzBOdzFQTktKWTFIOWRzMm5leUtXZTFBM0FwYTFteEpjM0hZcWlvODhhcWVaOTZwaXFNRFZ0T3MyVUFzZDg3aGpucWVxSWtRN1l6Q0Vxb0l6bzRpWmdYSWJNWG04MjRQTXBDTHZUY1BqNmVYVWVwbmc0REJJbjVUemUvenVrd1VuUU9Nd01LcTVsNElzQ2hXQkZ3b2VVbWtCcVNNREJRU0ZHbkp5TTh0dThXUmxvRjl2ME9jQU0yVEFpZWJCQU55WnJBemJvZWdDdkR0UVZOZjVrd0E4R2pLTWhxZVo0VFpTRjFGOFljMnlKeStBR2pPZ0JoY0VrZz0%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 37624,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"61bc6241-8f78\"",
+          "expires": "Fri, 31 Dec 2021 10:28:33 GMT"
+        },
+        "responseBodyHash": "9388abb176c005d21bb66c10c6f6473d1a6305d0a66200b6e34319f049f1760f",
+        "initiators": [
+          "https://www.thomann.de/static/script/vendor__rev2135.js"
+        ],
+        "time": 0.005134999999427237
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//txteaser1000--c714d79f2b3dc2f1158af15c7f855a05/pics/cms/image/teasertool/de/7772/458008_krk_monitor.webp?d=ZW1uZzUybENVcU4zTnBZcGhLNVZPUytJc3psWU9ZaVQ2QmJyQUphc3RsNDBUWXNzazhtczM2aUJpdHVqMGYvMXBqZnBFem9ncGVNNUovcjJVeDYwcCs1Z1h4a2hZOGdtQURhZnEyQ3Fsajl0NEtwdFM2ODJLWEJOV200WTBJYzRNSTVkSzBsTm5Fc1ExNERocDkzRUhScEJDazJqcEYrUE1nMk1QelgrT2lvUFRNbUYveXdZNmt4VGY2WFJDdWNRZW9yVTJlQlBEbWxWdll2c1ZGOHpvVFpieUtCV3BqQUhyN0NzbjNNazNPczJ2OTNsUXVGZ1QxRlY4L3VsV25ET2N5Zk5lL1pXUlpSNWs0VXVzNGZVZUpTVnQvRjUrK3diZjdUS0lkWlR0cWFqVHl1ZFRTOFhrLy9zYzlUeVVydmo%3D",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 26032,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"61bc6197-624a\"",
+          "expires": "Fri, 31 Dec 2021 10:19:02 GMT"
+        },
+        "responseBodyHash": "2c29617da65b8121fd4b147d2367b04e0c7be9977f5d4dd355d87843708028eb",
+        "initiators": [
+          "https://www.thomann.de/static/script/vendor__rev2135.js"
+        ],
+        "time": 0.006402999999409076
+      },
+      {
+        "url": "https://th.static-thomann.de/thumb//thumb250x250/pics/images/teasertool/stompenberg-fx.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.thomann.de/",
+        "status": 200,
+        "size": 9320,
+        "remoteIPAddress": "185.59.222.24",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"60ec26ac-22a4\"",
+          "expires": "Thu, 16 Dec 2021 20:50:28 GMT"
+        },
+        "responseBodyHash": "698ccd7807b8bd857443f1806e2bc96676c3e634fb5b4a74f58d7ae9d94479f6",
+        "initiators": [
+          "https://www.thomann.de/static/script/vendor__rev2135.js"
+        ],
+        "time": 0.007950999999593478
+      }
+    ]
+  }
+}

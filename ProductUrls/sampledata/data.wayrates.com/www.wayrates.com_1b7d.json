@@ -1,0 +1,3626 @@
+{
+  "initialUrl": "https://www.wayrates.com/",
+  "finalUrl": "https://www.wayrates.com/",
+  "timeout": false,
+  "testStarted": 1640014109033,
+  "testFinished": 1640014131526,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.wayrates.com/links.www.wayrates.com_1b7d.json",
+    "requests": [
+      {
+        "url": "https://www.wayrates.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 82335,
+        "remoteIPAddress": "104.17.228.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "locale=en; Path=/\nccy=USD; Path=/\n_opu=op_e8cab29b7f09273f_17dd8755a79_fee3; Expires=Tue, 20-Dec-2022 15:28:29 GMT; Path=/\n_opud=op_2dbb35cca489a63e_17dd8755a79_7828; Expires=Tue, 21-Dec-2021 15:28:29 GMT; Path=/\n_odevice=-66540301; Expires=Tue, 20-Dec-2022 15:28:29 GMT; Path=/"
+        },
+        "responseBodyHash": "c1b0ef1e0190f64c39f7f07778c1b95c81e15d27017fd3411efd443b2dc32c57",
+        "initiators": [],
+        "time": 0.41759599999932107
+      },
+      {
+        "url": "https://assets.pinterest.com/js/pinit.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 431,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=256",
+          "etag": "\"62d32c28f14783b94192cd8d35bc010d\""
+        },
+        "responseBodyHash": "3faadebc89cdb21d11634a032816f152462d1cb8903eb21d0642501fcad065de",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.02681499999744119
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/pc/css/vendor-e28b23bdbf.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 72691,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "1a1fb9b7a8dedbaa62dc7930e1c623a1138c16c1f32e2fc6a1784239adf5e5e3",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.09279900000183261
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 56449,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "31c21cedc5c07becc71c1b09a7196e7609b6510067e56f91cfe7a19ae6f7be8c",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.06780499999877065
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/script/vendor-2b105e4b60.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 196799,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "75ce02bb33401af20b5d6df514a3430e89799bddc8b210d44793aa62518d7638",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.09257199999774457
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-162506451-1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 37237,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:28:29 GMT"
+        },
+        "responseBodyHash": "e0243ac38dcab17fe1c89939b335b27315a3ce4bb97bc6df5d0ef45770b2f094",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.30037499999889405
+      },
+      {
+        "url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 3234,
+        "remoteIPAddress": "104.18.226.52",
+        "responseHeaders": {
+          "cache-control": "public, max-age=259200",
+          "etag": "W/\"f138f96bdde8c4ff4dce4300db918980\"",
+          "expires": "Thu, 23 Dec 2021 15:28:29 GMT"
+        },
+        "responseBodyHash": "88522cca257c7b55886862e9549236b005c2fcbb1246bcd986621476739c2127",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.2884089999970456
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/script/index-e75a303560.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 29899,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "f0fbefadf97e74f6dc9a4f3f3488d5bdb571284dbbdc4d9c247fabd1d3f6fde9",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.05087600000115344
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/common/i7eo-e584e8f58f.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 5046,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "e6fbf23fa288cf24f0b14f3660ccb665453d3727387c07fd97633a3877cce7cb",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.05525100000159
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/common/i7eo-cdb7a0aad4.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 13139,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "eb9dc9458faefdd3e10c17022f70d98cf041c358f4a7121e611aac7ec2bce6a7",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.25272899999981746
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/script/cart-progress-5656835bf0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1977,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "64e619add1be01b1a87c41a9dd0b3f755219436c701e41b4d979e50e7cfb5417",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.0522320000018226
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18338/491ub44e94fe0457408f8ab922a09f84545b.png?150",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 7334,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"A8160663E247CC44C0E6BB7BA2534985\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "f71a576bd87208b38427eb7f9c26deb6c008cbe7d0975a309a89ce622f427921",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.3151030000008177
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18972/251ud40baa277493417da15164ad8414e6ed.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 11505,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"829DE74CF41E5CC3F89C2BBC09DCEB54\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "d0b0aa359fdb1e89ca5d52c2f315060b80f8c61ff3c7e0bc70d1d65ac28d29f7",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.27686200000243844
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18981/251u9d46483cbf0446419201bc49f5be39df.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 750718,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"64A2A7D43A0499A475E9CABBF0666C95\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "add292a74cee149c8b65629fdb0f4b81966d35c5d8891affe5ef475612a16777",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.7588460000006307
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251uc18c9fd81cf54b20a818f350df17d5dc.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 853367,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"E12D1C6A25EB673732486267680D0ACB\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "bc569908462b1d60691bee84b07b5990da430df9ec4fdf3cf1e846a0c7bf831d",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 1.0863589999971737
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18977/251u1eee55dbca7e4609bdd40ff1fc4e6b04.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 27290,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F13D4F1A41D9CB2E5BB717C815D0B213\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "c7ee492118ffe00c120a4a6a2b5bec7e7fb7407a16595304ac4204b00db4001f",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.27740999999878113
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u6f650db25daf4365bbc0856379a0fcd1.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 732415,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"CED0E9B9AC11AC6C393659ED952E68AF\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "47f2fb006128e4639cf74ba6f81edbc5e1e0a9a149c7c82b8783d5f222c7f6b3",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.7728970000025583
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u6c9d35dd50594899bb7882bc3ccd51a8.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 292741,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"D88D57D7A15730083E0F83A816809A5F\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "bae14878e52b68299e3b3a4ca21b50a8cbec477383dc82aad9baf8ce5cc4cffb",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.4035799999983283
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u1e83b97ec1bf443e93869829f585554b.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 747708,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"A7265E35432DD345BD82DBE4E4B7CE67\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "0b5ffbdc0e6d94a9ecde5ce01a1a4bcd3c18f8d8bdbafec011dfbf0a4c7bf745",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.7676359999968554
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251ud439a06549ab4f7797198fb6711c1657.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 111600,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"76FCFDE7E9550C7F08E013C515B6C171\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "2b431cc6b5bb900b96f3eee91dedf2ff90727abc450d51acc32de53f885aaa4e",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.4271919999991951
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u1a6806ef469f48d18b9fe8916559440b.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 735745,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"450B1297D41237033C9BF2292ECC1EEE\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "461d3a2e24cc9d908863b48c9b67e37fe5fbd89bbd3607b42c8915b910482535",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 1.0576579999979003
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18972/251ud104f4b0f5344d12b9eec029f372d632.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 44987,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"139C6DB1BC3ED2E52B59B24A39895D47\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "1318442b3e2a75145bd16b610b62894c054a40eab7c7df1421cf524ddef0bee7",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.4600730000020121
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18919/251u9479e1ab5a5042eda08f0909caa5f562.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 239439,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"DA046AFA1A32CCC363561EF44B0E89B7\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "5787436619a8791211b913ed52f232357d2ee71998d7ac5be97f2caed91f7664",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.4712279999985185
+      },
+      {
+        "url": "https://apis.google.com/js/platform.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 21166,
+        "remoteIPAddress": "142.251.36.46",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=1800, stale-while-revalidate=1800",
+          "etag": "\"cbe05d0ffec5ecb141a76eb91aaeeb84\"",
+          "expires": "Mon, 20 Dec 2021 15:28:29 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+          "set-cookie": "NID=511=XFfK9C6UAkvzOUQLDVfg3n0eojSxgx5M7mQij6Y_T2Vy5D9XYluV9IaUc3tZswrkSdbyPsE8LoqWpy1iDmMXBMzlCwCs8yWhXJsUOwP6dqblWjBMUpM-w0EF2GfsIIZ7UiHnAhtPTKabOjxayv-w3IHbIwc-h1fDj0bQi78fv7Y; expires=Tue, 21-Jun-2022 15:28:29 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "51dc201352664df8a472d290e8da5387964769924e98c6989726b8c391b3b8b0",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.11862900000051013
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/pc/css/login-1d6366dfd2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 621,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "70abafda4a7bace20d7c2db6a982132be3d4e65228794eb74f4e8f4ff76dba9a",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.1393129999996745
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/images/social-google-3368ff4f4e.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1570,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"3368FF4F4E95E3CAA2E786C0D3980597\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "3ef68f2753a61e5a80d72a45c2a6ecac0f6f7324be57afd3ac59cf8b88faa3cf",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.23612199999843142
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18814/251u6e574dbd1b7d4b22be064114434f34fe.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 41403,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"EC26B757211C89B22C82921A03EB5311\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "a6828ab8a4bcb80febd7d7f2837069290fedd227e94fc7356c49ebdaa8de4264",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.46184899999934714
+      },
+      {
+        "url": "https://static.criteo.net/js/ld/ld.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 13417,
+        "remoteIPAddress": "178.250.2.130",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400\npublic",
+          "etag": "W/\"61b8936e-9faf\"",
+          "expires": "Tue, 21 Dec 2021 15:28:29 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4758ffc00e2d3413aece1a57fc3e89b9709202312386d57eb74b5c198cf6800e",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.23766600000089966
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/default/script-pc/op-analytics-25708a0e17.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 2355,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "0ef2150078defa9b16757f58e4ddda518653ff66e538ac022d4a7ed5bc79e1b4",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.23545200000080513
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/common/forter-2713a96ac9.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 2270,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "b724e6c29a5d0d062176b65247c78e688453b5c3205e036c1049388e36374f2e",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.20029799999974784
+      },
+      {
+        "url": "https://assets.pinterest.com/js/pinit_main.js?0.3497617221168092",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 18946,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=212",
+          "etag": "\"3725764cf05d1a0938de73d398772331\""
+        },
+        "responseBodyHash": "20f0315c97ff7007f2e7a94d659e094a7efc01b8306da53987538c1101489e0e",
+        "initiators": [
+          "https://assets.pinterest.com/js/pinit.js"
+        ],
+        "time": 0.15824699999939185
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 33728,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:28:29 GMT"
+        },
+        "responseBodyHash": "92d7d3cefe6b6af7735c6d61766da799c839e2cb1f1032a0c745047b5773842a",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.10164099999747123
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 26816,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "b23807a4c5d90afca0dc47d688c0a05302779429dab75f5e6182562dcc2970f6",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.1435650000021269
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C57UK5KK7EFNSJQ02KQ0&lib=ttq",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 36116,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7834930d02299cc017b7ba4ee8e823d43c86515b46a6ce4c967b982c3f8cba14",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.2551480000001902
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C61L0OH1L7BJP4PAP410&lib=ttq",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 36311,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:29 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7834930d02299cc017b7ba4ee8e823d43c86515b46a6ce4c967b982c3f8cba14",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.24252200000046287
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u1fe8a096c18e4af2bcae050d2f285912.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 117791,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"9972401CCDDB7D3A8226B63542EEE433\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "be18f6f9c0a32f5a3600c8e05f40d3106674bef9ca2e38eefe1cb81a670184c8",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.14074999999866122
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/images/currencyLang-68da41cb40.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css",
+        "status": 200,
+        "size": 34234,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"68DA41CB40B6E1645E02C77946ADEE50\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "9ae06c27046845d8afcaa482ba8857abe091d2a4a70286f204441a49378378cf",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css"
+        ],
+        "time": 0.055503999999928055
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/pc/fonts/AGENCYR-70777e6bd2.ttf",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css",
+        "status": 200,
+        "size": 37460,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2678400",
+          "etag": "W/\"70777E6BD210190350F7C92395C1860F\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "dd64897b6b98ef1346df63bd4d5adc6d6b34584b8a49f479b9cffe2c54c6066a",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css"
+        ],
+        "time": 0.09350899999844842
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/images/icon-search-e6e3f31fd1.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css",
+        "status": 200,
+        "size": 936,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "W/\"E6E3F31FD1A4281CEDE057AA68CD013F\"",
+          "expires": "Thu, 20 Jan 2022 15:28:29 GMT"
+        },
+        "responseBodyHash": "4ddff9611a19127864bb3f767bcc5b94a7f7cc454e674bf4f4ef2ac0d6778f67",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css"
+        ],
+        "time": 0.03830799999923329
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/pc/fonts/AGENCYB-596e78c7d8.ttf",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css",
+        "status": 200,
+        "size": 38312,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2678400",
+          "etag": "W/\"596E78C7D8F0D85090A9AF4E8E19076C\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "0fdbc51821d50a0b034181526ec1b5dc52c6e8d4bb46454906a7c5ba215220a0",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/opShop/pc/css/index-fa8c7032d8.css"
+        ],
+        "time": 0.1430739999996149
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u597b3c66efb24a7e952c0d9f46b241e5.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129444,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.03197999999974854
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251ufb4378e8a7a94105a12d0d4346b322a9.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1745,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"DB10E12A06A9CB3DAB18FD6124C51EEA\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "8c0a5d6cb6e53600496c7522215a56b50c71d1b458dd19bf324c3fed67f78a6e",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.019884000001184177
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251ua3c4f77ed4604b94bea0f8b41348e0ab.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129445,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.03166400000191061
+      },
+      {
+        "url": "https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151512",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 70084,
+        "remoteIPAddress": "104.18.226.52",
+        "responseHeaders": {
+          "cache-control": "public, max-age=259200",
+          "etag": "W/\"bade15bfdcba7ee19d22e61741b04b27\"",
+          "expires": "Thu, 23 Dec 2021 15:28:30 GMT"
+        },
+        "responseBodyHash": "9e000e7805a03b275608d64f0ee40fc1140ea80bcb3daa6bc9a5406dd107f9d0",
+        "initiators": [
+          "https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+        ],
+        "time": 0.06611600000178441
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-WTGS025YK8&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 61892,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT"
+        },
+        "responseBodyHash": "603de8d7da13003c2c1e7887372d84198d664bf9ce88942520305eccae3ee875",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV"
+        ],
+        "time": 0.04225600000063423
+      },
+      {
+        "url": "https://www.artfut.com/static/tagtag.min.js?campaign_code=1d81d40fc4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1969,
+        "remoteIPAddress": "104.26.0.109",
+        "responseHeaders": {
+          "cache-control": "max-age=1200\npublic",
+          "etag": "W/\"5f689306-cb0\"",
+          "expires": "Mon, 20 Dec 2021 15:37:48 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "edfc75726cf71265dd903eeb0f37bd74534194e42a0e6db6894beb6987023454",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV"
+        ],
+        "time": 0.04681200000050012
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-4G6ZJ54477&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 61898,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT"
+        },
+        "responseBodyHash": "a2c3eca88d7ecab167318fa0326051e56840572ecb23608fc77a3b3691016574",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+          "https://www.googletagmanager.com/gtag/js?id=UA-162506451-1"
+        ],
+        "time": 0.04239600000073551
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-619380552&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 51076,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT"
+        },
+        "responseBodyHash": "367de3072ff1a8ac5b290752011f6543af9cb1a47187d20c39d2b00a6a19b74b",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+          "https://www.googletagmanager.com/gtag/js?id=UA-162506451-1"
+        ],
+        "time": 0.036199000001943205
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-611935291&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 39635,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT"
+        },
+        "responseBodyHash": "486ccf77240cdbbf4936131e1808f432236da62d59b38362c3e0719a83e98ddc",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+          "https://www.googletagmanager.com/gtag/js?id=UA-162506451-1"
+        ],
+        "time": 0.032632999998895684
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/681652692551347?v=2.9.48&r=stable",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 89043,
+        "remoteIPAddress": "157.240.201.15",
+        "responseHeaders": {
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "bcd1e46260dddeeccb1cb29e62b2ee7dc68ab3142a7194272b8cb7b3f82b5471",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.2083939999974973
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251ud7a6a2c2e7624888ba5c9949bc11cdfb.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129444,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.04503199999817298
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/identify.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 31630,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "b2864c65b32cd25bf64a7eb4fddf486dff821f1924172a0083db962615bd6ce0",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C61L0OH1L7BJP4PAP410&lib=ttq"
+        ],
+        "time": 0.09375100000033854
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u07d1312c91734a9a951a05ff0069158b.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129445,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.032553000000916654
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=C57UK5KK7EFNSJQ02KQ0&hostname=www.wayrates.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 20721,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "5e340d421c9d49d41c8eab2384077f6dfef92b165766b89f31b51413834dd58c",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C61L0OH1L7BJP4PAP410&lib=ttq"
+        ],
+        "time": 0.0974659999992582
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/config.js?sdkid=C61L0OH1L7BJP4PAP410&hostname=www.wayrates.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 20667,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "193ddaebbf5e7d576aa12be5ae12ae115b24ba1154d982a3feeec6a921eb44f4",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C61L0OH1L7BJP4PAP410&lib=ttq"
+        ],
+        "time": 0.0933100000002014
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251ud8201b0894c2429989bd80f0dc13a650.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129445,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.040841999998519896
+      },
+      {
+        "url": "https://onesignal.com/api/v1/sync/c29f1f63-8fa4-4c58-a6f8-68c07d9bc398/web?callback=__jp0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 2229,
+        "remoteIPAddress": "104.18.226.52",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"bea1077cbe8b27b5e2df1c2cfff46098\"",
+          "expires": "Mon, 20 Dec 2021 16:28:30 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin"
+        },
+        "responseBodyHash": "b5f8d7d9e5d12bc4b08d1ebad9ce05255b1dd98922f03eb691e20dfadb17b67e",
+        "initiators": [
+          "https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151512",
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.018563000001449836
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251ub88880ed732749fd8824e4a9549cdd89.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129443,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.023689999998168787
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=681652692551347&ev=PageView&dl=https%3A%2F%2Fwww.wayrates.com%2F&rl=&if=false&ts=1640014110864&sw=800&sh=600&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1640014110861.1115019205&it=1640014110252&coo=false&exp=p0&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 295,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:28:30 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/681652692551347?v=2.9.48&r=stable"
+        ],
+        "time": 0.009690999999293126
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251uf20143c6d69b46c89c47a21772d2f768.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 129446,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"F33A5BE7A1910EE90B5BEE4EB24193C5\"",
+          "expires": "Thu, 20 Jan 2022 15:28:30 GMT"
+        },
+        "responseBodyHash": "036f89c53501661245d02a4ac8ebba6113b0ec08077a3f787d0c344a7f77b752",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.03261299999940093
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WTGS025YK8&gtm=2oec10&_p=1048811170&sr=800x600&ul=en-us&cid=1658674159.1640014111&_s=1&dl=https%3A%2F%2Fwww.wayrates.com%2F&dt=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&uid=&sid=1640014110&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 339,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-WTGS025YK8&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV"
+        ],
+        "time": 0.02031600000191247
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4G6ZJ54477&gtm=2oec10&_p=1048811170&sr=800x600&ul=en-us&cid=1658674159.1640014111&_s=1&dl=https%3A%2F%2Fwww.wayrates.com%2F&dt=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&sid=1640014110&sct=1&seg=0&en=page_view&_fv=1&_ss=1",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 45,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-4G6ZJ54477&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+          "https://www.googletagmanager.com/gtag/js?id=G-WTGS025YK8&l=dataLayer&cx=c"
+        ],
+        "time": 0.010479000000486849
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 20030,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-162506451-1",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+          "https://www.googletagmanager.com/gtag/js?id=G-WTGS025YK8&l=dataLayer&cx=c"
+        ],
+        "time": 0.008647999999084277
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Mon, 20 Dec 2021 15:28:31 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-619380552&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV"
+        ],
+        "time": 0.03838299999915762
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 713,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:31 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C61L0OH1L7BJP4PAP410&lib=ttq"
+        ],
+        "time": 0.10417799999777344
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 713,
+        "remoteIPAddress": "104.110.240.120",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:31 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C61L0OH1L7BJP4PAP410&lib=ttq"
+        ],
+        "time": 0.18239399999947636
+      },
+      {
+        "url": "https://log.pinterest.com/?type=pidget&guid=0wMJCaNpqrmF&tv=2021110201&event=init&sub=www&button_count=0&follow_count=0&pin_count=0&profile_count=0&board_count=0&section_count=0&lang=en&nvl=en-US&via=https%3A%2F%2Fwww.wayrates.com%2F&viaSrc=canonical",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.pinterest.com/js/pinit_main.js?0.3497617221168092"
+        ],
+        "time": 0.11567199999990407
+      },
+      {
+        "url": "https://sources.aopcdn.com/cloud/opShop/pc/iconfonts/fontawesome-webfont2-64092e6408.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://sources.aopcdn.com/cloud/opShop/pc/css/vendor-e28b23bdbf.css",
+        "status": 200,
+        "size": 2643,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"64092E6408B2DECFBDA9A8F4F5F98289\"",
+          "expires": "Thu, 20 Jan 2022 15:28:31 GMT"
+        },
+        "responseBodyHash": "c797628a14359031215dbfdd2be17a7110d6b997393c49f5f305d710ebaf2f90",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/opShop/pc/css/vendor-e28b23bdbf.css"
+        ],
+        "time": 0.14582299999892712
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=681652692551347&ev=Microdata&dl=https%3A%2F%2Fwww.wayrates.com%2F&rl=&if=false&ts=1640014111501&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com%20%22%2C%22meta%3Adescription%22%3A%22Wayrates%20sets%20the%20standard%20for%20men%E2%80%99s%20tactical%20clothing%2C%20outdoor%20clothing%20and%20accessories%20worldwide%2C%20which%20are%20great%20for%20outdoor%20activities%20and%20casual%20daily%20wear%2C%20including%20men%E2%80%99s%20shirts%2C%20men%E2%80%99s%20cargo%20pants%2C%20etc.%20Shop%20now%20enjoy%2010%25%20off%20for%20your%20first%20order!%20%22%2C%22meta%3Akeywords%22%3A%22Tactical%20Clothing%2C%20Men%27s%20Clothing%2C%20Mens%20Clothing%20Online%2C%20Cheap%20Mens%20Clothing%2C%20Mens%20Vintage%20Clothing%20%22%7D&cd[OpenGraph]=%7B%22og%3Asite_name%22%3A%22wayrates%22%2C%22og%3Atitle%22%3A%22Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com%22%2C%22og%3Adescription%22%3A%22Wayrates%20sets%20the%20standard%20for%20men%E2%80%99s%20tactical%20clothing%2C%20outdoor%20clothing%20and%20accessories%20worldwide%2C%20which%20are%20great%20for%20outdoor%20activities%20and%20casual%20daily%20wear%2C%20including%20men%E2%80%99s%20shirts%2C%20men%E2%80%99s%20cargo%20pants%2C%20etc.%20Shop%20now%20enjoy%2010%25%20off%20for%20your%20first%20order!%22%2C%22og%3Aurl%22%3A%22%2F%2Fwww.wayrates.com%2F%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=800&sh=600&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1640014110861.1115019205&it=1640014110252&coo=false&es=automatic&tm=3&exp=p0&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 91,
+        "remoteIPAddress": "157.240.201.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:28:31 GMT",
+          "set-cookie": ""
+        },
+        "responseBodyHash": "8627bf4b694a3ed41438e77be4c8a0bb0307445611382a154d2e62acff260834",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/681652692551347?v=2.9.48&r=stable"
+        ],
+        "time": 0.009342000001197448
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1048811170&t=pageview&_s=1&dl=https%3A%2F%2Fwww.wayrates.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YADAAUABAAAAAC~&jid=1742872579&gjid=1902267719&cid=1658674159.1640014111&tid=UA-162506451-1&_gid=1013847952.1640014112&_r=1&gtm=2ouc10&z=1153140950",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.007754999998724088
+      },
+      {
+        "url": "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 302,
+        "remoteIPAddress": "185.184.10.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "p3p": "CP=\"NON DSP COR CURa PSA PSD OUR BUS NAV STA\"",
+          "set-cookie": "u=yAZrCFAA17CPYSP47Hlm;Path=/;Domain=.creativecdn.com;Expires=Tue, 20-Dec-2022 15:28:31 GMT;Max-Age=31536000;Secure;SameSite=None\nts=1640014111;Path=/;Domain=.creativecdn.com;Expires=Tue, 20-Dec-2022 15:28:31 GMT;Max-Age=31536000;Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home&tc=1",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.2853289999984554
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=7200",
+          "etag": "\"95580b4fad0d5513b92f05a5be0d5a38\""
+        },
+        "responseBodyHash": "909c959034304ea400b41eea4326c355e0e7c4c8cf76369f8430756362d11bef",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.10586700000203564
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 10962,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private,max-age=1800",
+          "etag": "\"0cb09ee8e7d71:0\"",
+          "set-cookie": "MUID=3D6F45D3916F6409260454C090A865AD; domain=.bing.com; expires=Sat, 14-Jan-2023 15:28:31 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": "dfed159907574337d5a3198b898e17e6f0d6c5c325d8ee2fd2343b7cddb34994",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.041195000001607696
+      },
+      {
+        "url": "https://static.tongdun.net/sg/fm.behavior.js?t=2733357",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 47483,
+        "remoteIPAddress": "185.232.59.134",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=691200",
+          "etag": "W/\"12dbfde05479ec01bbde85ce0b2acb51\"",
+          "expires": "Sat, 25 Dec 2021 11:11:12 GMT"
+        },
+        "responseBodyHash": "2a98fb5ce00a85d3db4150e4b29b16c400f87a1d38b039b3e33d7c5677dc91c0",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.08692399999927147
+      },
+      {
+        "url": "https://usfp.tongdun.net/fp/clear.png?partnerCode=TDAPProject&appName=TDAPProject_web&tokenId=TDAPProject-1640014111595-8cd89793469c2",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 267,
+        "remoteIPAddress": "52.205.170.131",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.28862200000003213
+      },
+      {
+        "url": "https://www.wayrates.com/static/opShop/pc/iconfonts/register-dialog.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1012,
+        "remoteIPAddress": "104.17.228.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "public, max-age=14400",
+          "expires": "Mon, 20 Dec 2021 19:28:32 GMT"
+        },
+        "responseBodyHash": "e45adaffb50ad71c559b52c2c08ff2d3bd536dd9b50b0c617bb503758c82fe63",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.46436499999981606
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-162506451-1&cid=1658674159.1640014111&jid=1742872579&gjid=1902267719&_gid=1013847952.1640014112&_u=YADAAUAAAAAAAC~&z=247071024",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 443,
+        "remoteIPAddress": "108.177.119.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "122fac0ffbb44fb8bba0388baa11afc67faec3b223a06871a40dbcab4c6cc787",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.02382500000021537
+      },
+      {
+        "url": "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home&tc=1",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 552,
+        "remoteIPAddress": "185.184.10.30",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "528aa2c830469080b1fbf689fb1d301e48838ce14573d8539829ca4fd0e45d0f",
+        "redirectedFrom": "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.09776800000327057
+      },
+      {
+        "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.qv6viowpwpE.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOaUfPxgj7Tq1y4CPKAnKfHQ9ZJNQ/cb=gapi.loaded_0",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 35206,
+        "remoteIPAddress": "142.251.36.46",
+        "responseHeaders": {
+          "cache-control": "public, immutable, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 21:38:27 GMT"
+        },
+        "responseBodyHash": "9ab1130782aad63534f65572bf8cd13e458e90f75976ef1d910f6c7669a7e93e",
+        "initiators": [
+          "https://apis.google.com/js/platform.js",
+          "https://www.wayrates.com/",
+          "https://sources.aopcdn.com/cloud/opShop/script/vendor-2b105e4b60.js"
+        ],
+        "time": 0.015638000000762986
+      },
+      {
+        "url": "https://ups.aopcdn.com/s24748/common/18976/251u4b1f60394b69479a97c8af1427c97f0d.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 77816,
+        "remoteIPAddress": "104.18.210.30",
+        "responseHeaders": {
+          "cache-control": "public, max-age=2678400",
+          "etag": "\"E6E9D7419AF14E0CEABFAC59ECCFD227\"",
+          "expires": "Thu, 20 Jan 2022 15:28:31 GMT"
+        },
+        "responseBodyHash": "cb65947397aeeb4f6705be979617863b1e624ba938389028185ae399a0df3d9d",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.02223999999841908
+      },
+      {
+        "url": "https://www.wayrates.com/cart/quantity.json?_=1640014111988",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 344,
+        "remoteIPAddress": "104.17.228.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "set-cookie": "locale=en; Path=/\n_opu=op_e8cab29b7f09273f_17dd8755a79_fee3; Expires=Tue, 20-Dec-2022 15:28:32 GMT; Path=/\n_opud=op_2dbb35cca489a63e_17dd8755a79_7828; Expires=Tue, 21-Dec-2021 15:28:32 GMT; Path=/\n_odevice=-66540301; Expires=Tue, 20-Dec-2022 15:28:32 GMT; Path=/"
+        },
+        "responseBodyHash": "df7eb497ebea720f0ad85ef07a7bb56bc00cd77c5c3668514728b3d7b4733a67",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/opShop/script/vendor-2b105e4b60.js",
+          "https://sources.aopcdn.com/cloud/opShop/script/index-e75a303560.js"
+        ],
+        "time": 0.26328600000124425
+      },
+      {
+        "url": "https://www.artfut.com/static/tracking.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 7377,
+        "remoteIPAddress": "104.26.0.109",
+        "responseHeaders": {
+          "cache-control": "max-age=1200\npublic",
+          "etag": "W/\"5f689307-686e\"",
+          "expires": "Mon, 20 Dec 2021 15:33:26 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "9d4e3bd1621e63bb4bfbae3c3275134b26016bb76175fefe9c5998f8ade1009c",
+        "initiators": [
+          "https://www.artfut.com/static/tagtag.min.js?campaign_code=1d81d40fc4"
+        ],
+        "time": 0.016627999997581355
+      },
+      {
+        "url": "https://www.artfut.com/static/crossdevice.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 7826,
+        "remoteIPAddress": "104.26.0.109",
+        "responseHeaders": {
+          "cache-control": "max-age=1200\npublic",
+          "etag": "W/\"5f689306-655c\"",
+          "expires": "Mon, 20 Dec 2021 15:33:21 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "7cd07e6c64768b866c81e2e1cc61f88f631f377a3afc426d7b0c9de3875e65ae",
+        "initiators": [
+          "https://www.artfut.com/static/tagtag.min.js?campaign_code=1d81d40fc4"
+        ],
+        "time": 0.015060999998240732
+      },
+      {
+        "url": "https://2e3b618057a1.cdn4.forter.com/sn/2e3b618057a1/script.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 60000,
+        "remoteIPAddress": "52.222.139.58",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=300",
+          "expires": "Sun, 24 Oct 2021 03:25:05 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4a99708192472ab68195b7ab50339d757dfc75ad695d3a3de6b0183488cb1c9a",
+        "initiators": [
+          "https://sources.aopcdn.com/cloud/common/forter-2713a96ac9.js",
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.053186000001005596
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/619380552/?random=1640014112027&cv=9&fst=1640014112027&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1700,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:43:32 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e549aa72180abdfcc6175cadaf85b2cefe184d237d8dd67951ee26f6b25ad2c3",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-619380552&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV"
+        ],
+        "time": 0.02917900000102236
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/611935291/?random=1640014112036&cv=9&fst=1640014112036&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1237,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:43:32 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "cba4fee0a9fc49529a058fadc01f696062276cbdf2dc0117282325b11621fc2e",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion_async.js",
+          "https://www.googletagmanager.com/gtag/js?id=AW-611935291&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV"
+        ],
+        "time": 0.02741799999785144
+      },
+      {
+        "url": "https://gum.criteo.com/syncframe?topUrl=www.wayrates.com&origin=onetag",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 4583,
+        "remoteIPAddress": "178.250.2.146",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "set-cookie": "uid=34e749e3-30a4-4a5d-a219-873ed05a2390; expires=Sat, 14 Jan 2023 15:28:31 GMT; domain=.criteo.com; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": "a06b2069a29e8ec11194fafb2d80577880568e27d910e6eaa67e712a90fbb9bc",
+        "initiators": [
+          "https://static.criteo.net/js/ld/ld.js"
+        ],
+        "time": 0.02962899999693036
+      },
+      {
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-162506451-1&cid=1658674159.1640014111&jid=1742872579&_u=YADAAUAAAAAAAC~&z=738720935",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.04018500000165659
+      },
+      {
+        "url": "https://www.google.nl/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j96&tid=UA-162506451-1&cid=1658674159.1640014111&jid=1742872579&_u=YADAAUAAAAAAAC~&z=738720935",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 501,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03751099999863072
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 19101,
+        "remoteIPAddress": "104.84.232.196",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1209600",
+          "etag": "\"9850391ff02e4a98b00efa3acfbbbb10\""
+        },
+        "responseBodyHash": "06def5f53a1116e6a7f4ecab814748f1b7d9a7fde199d96f80c233877f2c46a4",
+        "initiators": [
+          "https://s.pinimg.com/ct/core.js"
+        ],
+        "time": 0.11306500000137021
+      },
+      {
+        "url": "https://bat.bing.com/p/action/25136567.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 735,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "422f66cb50da5f22d2ddb951e8839919e78e7efb0edb723c3f1d886e8ba6d1cc",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.1681510000016715
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=25136567&Ver=2&mid=09e62dfa-192f-47d8-9f19-e8543b0a6fec&sid=7d6512e061a911ecb7c755de402bec88&vid=7d655a4061a911ecb351597c3ad16bf0&vids=1&pi=842281895&lg=en-US&sw=800&sh=600&sc=24&tl=Men%E2%80%99s%20Tactical,%20Outdoor,%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&kw=Tactical%20Clothing,%20Men%27s%20Clothing,%20Mens%20Clothing%20Online,%20Cheap%20Mens%20Clothing,%20Mens%20Vintage%20Clothing%20&p=https%3A%2F%2Fwww.wayrates.com%2F&r=&lt=2831&evt=pageLoad&msclkid=N&sv=1&rn=120377",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 152,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://bat.bing.com/bat.js",
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.02427999999781605
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/619380552/?random=1640014112027&cv=9&fst=1640012400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&async=1&fmt=3&is_vtc=1&random=3919507483&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/619380552/?random=1640014112027&cv=9&fst=1640014112027&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.07745400000203517
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/619380552/?random=1640014112027&cv=9&fst=1640012400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&async=1&fmt=3&is_vtc=1&random=3919507483&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/619380552/?random=1640014112027&cv=9&fst=1640014112027&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.028576000000612112
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/611935291/?random=1640014112036&cv=9&fst=1640012400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&async=1&fmt=3&is_vtc=1&random=3112919784&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.36",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/611935291/?random=1640014112036&cv=9&fst=1640014112036&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.05007599999953527
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/611935291/?random=1640014112036&cv=9&fst=1640012400000&num=1&bg=ffffff&guid=ON&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&async=1&fmt=3&is_vtc=1&random=3112919784&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/611935291/?random=1640014112036&cv=9&fst=1640014112036&num=1&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&gtm=2oac10&sendb=1&ig=1&data=event%3Dpage_view&frm=0&url=https%3A%2F%2Fwww.wayrates.com%2F&tiba=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4"
+        ],
+        "time": 0.026668000002246117
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&google_hm=eUFackNGQUExN0NQWVNQNDdIbG0%3D&pi=adx&tdc=ash&chain=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://us.creativecdn.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "IDE=AHWqTUkjPhGjVN9zLgKTjKffb0oc3c7iXXtCllBmLwsM46iku6PaxPQu-mWZZJcdjPk; expires=Sat, 14-Jan-2023 15:28:32 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none\ntest_cookie=; expires=Fri, 01-Aug-2008 22:45:55 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.creativecdn.com/adx/cm?v=2&pi=adx&tdc=ash&chain=&google_gid=CAESEMmA31pY7JhK41UektldlgI&google_cver=1&google_ula=5153224,0",
+        "initiators": [
+          "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home&tc=1"
+        ],
+        "time": 0.3863820000005944
+      },
+      {
+        "url": "https://accounts.google.com/o/oauth2/iframe",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 902,
+        "remoteIPAddress": "142.250.179.205",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f15c9093f7164190ad8d52a13c4640d7f8113e5ebf12d7cbae8fc79e54a5a0d8",
+        "initiators": [
+          "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.qv6viowpwpE.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOaUfPxgj7Tq1y4CPKAnKfHQ9ZJNQ/cb=gapi.loaded_0",
+          "https://www.wayrates.com/",
+          "https://apis.google.com/js/platform.js"
+        ],
+        "time": 0.03361399999994319
+      },
+      {
+        "url": "blob:https://www.wayrates.com/88458e26-f9d4-4483-a249-f04a0a493153",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "82da641ccc3c386850722bfeedaabfc768f2a9ac73e0c9ea78d8482facaf91f3",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.09394199999951525
+      },
+      {
+        "url": "https://gum.criteo.com/sid/json?origin=onetag&domain=wayrates.com&sn=ChromeSyncframe&so=0&topUrl=www.wayrates.com&cw=1&lsw=1",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://gum.criteo.com/syncframe?topUrl=www.wayrates.com&origin=onetag",
+        "status": 200,
+        "size": 572,
+        "remoteIPAddress": "178.250.2.146",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "f99a9c673bc33eb65d734109f27a112b4bb23c12fb222685a8f2b0f6839282bf",
+        "initiators": [
+          "https://gum.criteo.com/syncframe?topUrl=www.wayrates.com&origin=onetag"
+        ],
+        "time": 0.01078800000323099
+      },
+      {
+        "url": "https://cm.creativecdn.com/adx/cm?v=2&pi=adx&tdc=ash&chain=&google_gid=CAESEMmA31pY7JhK41UektldlgI&google_cver=1&google_ula=5153224,0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://us.creativecdn.com/",
+        "status": 302,
+        "remoteIPAddress": "185.184.8.65",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://ash.creativecdn.com/adx/cm?v=2&pi=adx&tdc=ash&chain=&google_gid=CAESEMmA31pY7JhK41UektldlgI&google_cver=1&google_ula=5153224,0",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&google_hm=eUFackNGQUExN0NQWVNQNDdIbG0%3D&pi=adx&tdc=ash&chain=",
+        "initiators": [
+          "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home&tc=1"
+        ],
+        "time": 0.10799599999882048
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2613836963681&pd=%7B%7D&cb=1640014113101",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 663,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "6bc3b2201883b4b0b86e5e5a63976ef67054523acaaefb476a3667be37df54d8",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.024131000001943903
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2613836963681&pd=%7B%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.wayrates.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1640014113105",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 94,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.025042999997822335
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=pagevisit&tid=2613836963681&pd=%7B%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.wayrates.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%226ae4a9fc%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1640014113106",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 331,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin",
+          "set-cookie": "_pinterest_ct_ua=\"TWc9PSY5YlpVNDBwM3ZxWEF4VlUwZ2Vma3Q2QzRFRk0xQi95bkswVVhhNExiVU1Gc01qQ00wNnU0Wlh6WFpLeUFEVHJqWWdIZzRKVUd5NWFKOHBSZ1FXMyt1THlCQmJBS29nYnBHSnVJZjkrNHQ2TT0mK0dVMGhYUDdzY0lzWDRHOTUyZ0MzWnRpWGRNPQ==\"; Expires=Tue, 20 Dec 2022 15:28:33 GMT; Path=/; Domain=ct.pinterest.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "81652748b524d25356b352a8487426a9bd3a89a03789bf7b5c22d979349a6106",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.026015999999799533
+      },
+      {
+        "url": "https://ash.creativecdn.com/adx/cm?v=2&pi=adx&tdc=ash&chain=&google_gid=CAESEMmA31pY7JhK41UektldlgI&google_cver=1&google_ula=5153224,0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://us.creativecdn.com/",
+        "status": 200,
+        "size": 243,
+        "remoteIPAddress": "185.184.10.30",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://cm.creativecdn.com/adx/cm?v=2&pi=adx&tdc=ash&chain=&google_gid=CAESEMmA31pY7JhK41UektldlgI&google_cver=1&google_ula=5153224,0",
+        "initiators": [
+          "https://us.creativecdn.com/tags?id=pr_UxSOxlFz4EM9ExMsNVqW_home&tc=1"
+        ],
+        "time": 0.11351600000125472
+      },
+      {
+        "url": "https://cdn9.forter.com/vchk2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 301,
+        "remoteIPAddress": "65.9.83.93",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, s-maxage=0, proxy-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cdn9.forter.com/vchk2/v1/78bc5aca3d4b2d2f6825b74f18a752edf8b6c85a2e8d4361ece4660eedc3c113ac7f4bca631756e3d8f14ad7a376",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.14249700000073062
+      },
+      {
+        "url": "https://ct.pinterest.com/md/",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 198,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "origin"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.032591999999567633
+      },
+      {
+        "url": "blob:https://www.wayrates.com/d0b764c2-2c83-4d93-ac1c-d90355e92ad3",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {},
+        "responseBodyHash": "7d942864bfba1d533bd2652c8447f76a8f78e5ccbc51df3925f44d865f25b41a",
+        "initiators": [
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.01327599999785889
+      },
+      {
+        "url": "https://d.clarity.ms/s/0.6.31/clarity.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 23179,
+        "remoteIPAddress": "40.76.174.66",
+        "responseHeaders": {
+          "cache-control": "public,max-age=86400",
+          "etag": "\"1d7f3ace6a16300\""
+        },
+        "responseBodyHash": "b2d2f11eb78159e31bce4355ffd5e696717de4270a77ba1d2038e066462008ad",
+        "initiators": [
+          "https://bat.bing.com/p/action/25136567.js"
+        ],
+        "time": 0.3355699999992794
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 302,
+        "remoteIPAddress": "52.142.114.2",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=T; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=2CD8E655F5856F253F8CF746F18561CF; domain=.clarity.ms; expires=Sat, 14-Jan-2023 15:28:33 GMT; path=/; SameSite=None; Secure; Priority=High;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.bing.com/c.gif?CtsSyncId=3559A2E212E7458D9CF5BF893B9EF865&RedC=c.clarity.ms&MXFR=2CD8E655F5856F253F8CF746F18561CF",
+        "initiators": [
+          "https://bat.bing.com/p/action/25136567.js"
+        ],
+        "time": 0.08831899999859161
+      },
+      {
+        "url": "https://ssl.gstatic.com/accounts/o/2013763852-idpiframe.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://accounts.google.com/",
+        "status": 200,
+        "size": 40455,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 14:56:27 GMT"
+        },
+        "responseBodyHash": "ad66982d5e6c73df542a09d6f939bd3c8649b818f4935aa5a4f6f8e0ebb00d30",
+        "initiators": [
+          "https://accounts.google.com/o/oauth2/iframe"
+        ],
+        "time": 0.018109000000549713
+      },
+      {
+        "url": "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 14074,
+        "remoteIPAddress": "178.250.0.163",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "0",
+          "p3p": "NON DSP COR CURa PSA PSD OUR BUS NAV STA",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1e21881fa7730dbff73ce48c07fac2880b868239dc5f687e74137cf31aee1864",
+        "initiators": [
+          "https://static.criteo.net/js/ld/ld.js",
+          "https://gum.criteo.com/syncframe?topUrl=www.wayrates.com&origin=onetag"
+        ],
+        "time": 0.09125499999936437
+      },
+      {
+        "url": "https://usfp.tongdun.net/fp3/profile.json?partner=TDAPProject&app_name=TDAPProject_web&token_id=TDAPProject-1640014111595-8cd89793469c2&a=0iKhzRqdQpC4lb93IMxMYdKFlNwTbGhHBFQomOr%2FoMIIbiprbWvYTowseghRMi21T1Gq9cuKEdK28G2lr5H%2FvWxdBwOo0le85LUhtkSXRKDz4VBsNv%2BzgVnbBpBBO2VdAOP%2F83cjuZA%3D&b=WCSk0FTg2SlniYaTpiWmygtkYbfuj6ZkOKa5UPrFgc%2BhgqLPssxQ9HFnDPj%2BRa72ieQv1WLdgCLsdTjFReF81LQNlbQAq0SeNNyKuI6ZiPJUCqoEF58p7L5h8cPQUENaDjitZTXPs8lGo8KQPEU%2F1n660bjVE%2BALDpKqnQTXyTyga%2Bi0hMZwuiqIlj5W%2BDKYYCywoXaEnVk%2Fsxz%2F8YL%2FvBUehVelPDrq&c=mxYABHIkLUYOuG1wgaIMkU4J9QzzpJqiE%2BG6paq6SuipbehSaCl2PBt5bwlxG1mdL8hhsJOCRrkrKUpZvVzGZKMY%2FNbRIGx38d2g1JmoZUmK7CtU9oxuyyZB3JzT%2BAyd&d=jg34w1btgj8C%2F8ogX4ilZVya5cgoc4Ut50XyEoaS8y7sm6qxOj7DjJv06HeyCTmuizB4VFf52%2FRndyuSx89IsiGWx9%2FgsLFw3l4hllVf8DsltSMwHcLqqw3oUE3pvMH6AWD4A80qPqMwKugV8pqLa90auw4Y0ibKEvwP2L8sMDzM4FCKhzkOsKw%2Fh4juqhOAnUpLnffHePOPkKVjGYPZxiUSyIiH0H22JOiv87Q1uoTx%2FxwhbQ%2Fx7lD%2Br%2FgJAfQda3%2FBpD25VcmXIPJ58z9wreaT6YvwT017ucMq7WBnjPB7hfaHVS1csI%2FHFEWLKKGTKgHYtLSgzwwuYkwHpBUSWeRDlVP8vn9nfZLUhNTnKr7DLyE6pboeyKlrWISbFBe4p1un7L9VCZGlXh8%2F3SZf1g%3D%3D&g=pezVXX94PicslxwVums6g7ap4KXgUuPgJVRmmrHkcsVpSn%2Bim0PP%2BBJSSvNSM9MkuZkpcjwSKPVamdUdi0sSP1rSe%2FglXqMRbYw5%2BGF%2FKIuvxqRETKdEPW0d1Lel4HtvT2OplNK5n%2BPEB4dQ%2FyhsuM%2FglRG1wg3hxho2LynItPNRy%2BIEUpXnCrloGwp%2B71t0PoEB2t0dlJN2TDYIWVicPUuZjUbKbgrlECEoyDwL8IUdE4hBYxTexjrcdQo9sdeQ%2BdZJMX0M8nEhfeBS8msz1fNto3ENEvbG8N7ZnWmA5M6AyS4USg9iOG0Bvlk01qDQufzI8ovRfg8wGIj%2B%2Fq%2BHl%2FqkkPy%2Bg8WwrE8pugrjDSuCK7rLwW5jO3J%2FuJfd0gJlVHJcwnI4%2FklTunekh%2BDho2REGdWHqBJivFSAjF%2FRo9Y%3D&f=RU%2BdUZCp4KlONhu6vcfliU%2FwhSplcEbF&e=sPBtfY8%5COUtQMoTKLUWXBqy7TvMmwCyXudqidHTorHDgY1a30GSMXFZB1ztp29kRaa4Yfs5wn9cAKihdmFCpgNZLShvsG55bqqGB0cn2qkXTgH6zr3IM47pbi4y7efdZ&q=ALlosh1SiF6v4HUY2v0HqXCoUNsgz%2BG%2FhyerXLkXreR9lSGknOmvT55X4Esc5Zyxv2MMzztpT7%2BPJts6%2B%2FV4R3hZgywM0odLyr0%2BhxJZ2lU%2BpkO9q%2B7kMhdP%2BjT30mq%2B&v=G2JPJKBvVJVUM5%2FSogr2Bg%3D%3D&idf=1640014112694-19861855051&w=QGi%2BVOhds8Asd17CzfOgho7EArOdqQYgg%2FqFT%2BUYxmo%3D&ct=pn5HmoE96Uc%3D&_callback=_1640014113219_2981&p=1ypABVvF%2Fmz0LUJwZ2C19Q%3D%3D&h=b3cb1158f015dbca04841cc3aaf851e1",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 1167,
+        "remoteIPAddress": "52.205.170.131",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "0",
+          "p3p": "CP=IVAa PSAa\nCP=IVAa PSAa\nCP=IVAa PSAa",
+          "pragma": "no-cache",
+          "set-cookie": "_fmdata=VWE5bjlR1MToFo3tjtVOh7aeLWPAyZnqZm1lhwg2Ja0EoHdYqrMhOReBLlc/C1whf56DhR4tocCXd+jKvgatP9k7nQ28xsqLRd4iNwYEtck=;Path=/;Max-Age=31536000;  SameSite=None;Secure\nc=MjCU1rQu-1640014112949-bc0c1070821761821520880;Path=/;Max-Age=31536000;  SameSite=None;Secure\n_xid=xKltsrAxKUjgZiqunJFQ0Kgon2UuMdlq9Q3w74RmJdxfu0Pum8llaJUZvXXf06BsbbJNhrbLBACoiwgGqcWbtQ==;Path=/;Max-Age=31536000;  SameSite=None;Secure"
+        },
+        "responseBodyHash": "fb1887a87b302a9b11f4d5e5d62d64f88ae6e3f9abc5cd3cfe3b3469d2af63b7",
+        "initiators": [
+          "https://static.tongdun.net/sg/fm.behavior.js?t=2733357"
+        ],
+        "time": 0.09889999999722932
+      },
+      {
+        "url": "https://c.bing.com/c.gif?CtsSyncId=3559A2E212E7458D9CF5BF893B9EF865&RedC=c.clarity.ms&MXFR=2CD8E655F5856F253F8CF746F18561CF",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 302,
+        "remoteIPAddress": "13.107.21.200",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SRM_B=3D6F45D3916F6409260454C090A865AD; domain=c.bing.com; expires=Sat, 14-Jan-2023 15:28:33 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://c.clarity.ms/c.gif?CtsSyncId=3559A2E212E7458D9CF5BF893B9EF865&MUID=3D6F45D3916F6409260454C090A865AD",
+        "redirectedFrom": "https://c.clarity.ms/c.gif",
+        "initiators": [
+          "https://bat.bing.com/p/action/25136567.js"
+        ],
+        "time": 0.04432199999791919
+      },
+      {
+        "url": "https://cdn9.forter.com/vchk2/v1/78bc5aca3d4b2d2f6825b74f18a752edf8b6c85a2e8d4361ece4660eedc3c113ac7f4bca631756e3d8f14ad7a376",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 322,
+        "remoteIPAddress": "65.9.83.93",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, s-maxage=0, proxy-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://cdn9.forter.com/vchk2",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.105504999999539
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?CtsSyncId=3559A2E212E7458D9CF5BF893B9EF865&MUID=3D6F45D3916F6409260454C090A865AD",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 368,
+        "remoteIPAddress": "52.142.114.2",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, proxy-revalidate, no-store",
+          "etag": "\"f95a3e4769d2d71:0\"",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "SM=C; domain=c.clarity.ms; path=/; SameSite=None; Secure;\nMUID=3D6F45D3916F6409260454C090A865AD; domain=.clarity.ms; expires=Sat, 14-Jan-2023 15:28:33 GMT; path=/; SameSite=None; Secure; Priority=High;\nANONCHK=0; domain=c.clarity.ms; expires=Mon, 20-Dec-2021 15:38:33 GMT; path=/; SameSite=None; Secure;"
+        },
+        "responseBodyHash": "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e",
+        "redirectedFrom": "https://c.bing.com/c.gif?CtsSyncId=3559A2E212E7458D9CF5BF893B9EF865&RedC=c.clarity.ms&MXFR=2CD8E655F5856F253F8CF746F18561CF",
+        "initiators": [
+          "https://bat.bing.com/p/action/25136567.js"
+        ],
+        "time": 0.022826000000350177
+      },
+      {
+        "url": "https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fwww.wayrates.com&client_id=272948335027-b9cg5rv201nqfimc2kk6lvvb5cm7k1bc.apps.googleusercontent.com",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://accounts.google.com/o/oauth2/iframe",
+        "status": 200,
+        "size": 58,
+        "remoteIPAddress": "142.250.179.205",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "expires": "Mon, 20 Dec 2021 15:29:54 GMT"
+        },
+        "responseBodyHash": "8daf09a6fc31937457dd77e9c25ce4b21349d605b561a8c5d557841bf964c9a0",
+        "initiators": [
+          "https://ssl.gstatic.com/accounts/o/2013763852-idpiframe.js",
+          "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.qv6viowpwpE.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCOaUfPxgj7Tq1y4CPKAnKfHQ9ZJNQ/cb=gapi.loaded_0",
+          "https://accounts.google.com/o/oauth2/iframe"
+        ],
+        "time": 0.022335000001476146
+      },
+      {
+        "url": "https://www.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 4254,
+        "remoteIPAddress": "199.232.148.84",
+        "responseHeaders": {
+          "p3p": "CP=\"This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info.\"",
+          "referrer-policy": "origin",
+          "set-cookie": "csrftoken=bf7bdb95798765f8ced405fd5b2635fb; path=/; expires=Tue, 20 Dec 2022 15:28:33 GMT; samesite=lax; secure\n_pinterest_sess=TWc9PSZ0cURXc1MzYW5XdkZMYjF2Q1pDOC9QZzgvdkd0SnY3N0RwMlQ2RWVRb25BZDRqSDdpaGlYSnYvV1pMSEUwaUh5TlE0NXFKM1hSL0NleFNRR21vcTh1TVRtZzFNTytKZmhyN2djT1R4VGdob1VGQTFoNzBaOEQzckRybHAzSHBtZiZ2UFpKSE14Y2QyR09TQUk4bCszajlIUGdMbDQ9; path=/; expires=Thu, 15 Dec 2022 15:28:33 GMT; domain=.pinterest.com; samesite=none; secure; httponly\n_auth=0; path=/; expires=Thu, 15 Dec 2022 15:28:33 GMT; domain=.pinterest.com; secure; httponly\n_pinterest_referrer=https://www.wayrates.com/; path=/; expires=Mon, 20 Dec 2021 15:33:33 GMT; domain=.pinterest.com; secure\n_routing_id=\"0a0e17c6-75ee-4d01-aff4-240567582771\"; Max-Age=86400; Path=/; HttpOnly"
+        },
+        "responseBodyHash": "35447e9ceb4db426a6396441b43cf565b4d1a713430a1fef24e30f904b860dfd",
+        "initiators": [
+          "https://s.pinimg.com/ct/lib/main.6ae4a9fc.js"
+        ],
+        "time": 0.20557799999733106
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=cjp&google_sc&google_ula=913071&google_hm=ay13QjJBbXgyTTN4ZEVJOW8wQWEtWU9hcFdUT243cTBqdVBtR2o0QQ",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dis.criteo.com/dis/rtb/google/cookiematch.aspx?id=&google_ula=913071,0",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.06401800000094227
+      },
+      {
+        "url": "https://partner.mediawallahscript.com/?account_id=1043&partner_id=1048&uid=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A&custom=&tag_format=img&tag_action=sync&custom=&cb=1d293ddb-c15b-4632-a35f-0a5a44df66be",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "34.255.54.140",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, must-revalidate, no-store, max-age=0",
+          "expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+          "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+          "set-cookie": "mCookie=-1; Domain=.mediawallahscript.com; Path=/; Expires=Wed, 20 Dec 2023 15:28:33 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://partner.mediawallahscript.com/?account_id=1043&partner_id=1048&uid=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A&custom%5B0%5D=&custom%5B1%5D=&tag_format=img&tag_action=sync&cb=1d293ddb-c15b-4632-a35f-0a5a44df66be&final=true&reqid=7e41c6d0-61a9-11ec-b6c2-7bf1c3e5d801&timestamp=2021-12-20T15%3A28%3A33.725Z",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.11548000000038883
+      },
+      {
+        "url": "https://cm.mgid.com/m?cdsp=617660&c=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 307,
+        "remoteIPAddress": "104.19.134.78",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "p3p": "CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+          "pragma": "no-cache",
+          "set-cookie": "muidn=lbkx2FGW2zs7;Domain=.mgid.com;Secure;SameSite=None;Path=/;Expires=Tue, 19-Jan-2038 03:14:08 GMT;\n__cf_bm=2y7XIZ814l85jAhQHXSmpGbwFj3qJ1B_FpnFr17XyIA-1640014113-0-AYByCcW6C+3eQzGvnl4ZnUysoWVnm2Y95L5t1/GzGhjPVHfAeVhEx3pXgz6UMWdv+Am2zgav8mR0wuJPlxgpCbQ=; path=/; expires=Mon, 20-Dec-21 15:58:33 GMT; domain=.mgid.com; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.mgid.com/m?c=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A&cdsp=617660&sct=1",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.15388399999937974
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=2926&partner_device_id=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "35.227.248.159",
+        "responseHeaders": {
+          "p3p": "policyref=\"http://tapad-taptags.s3.amazonaws.com/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "TapAd_TS=1640014113675;Expires=Fri, 18 Feb 2022 15:28:33 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_DID=55b1a364-d96f-47f7-afd7-6a884b2e2f4c;Expires=Fri, 18 Feb 2022 15:28:33 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=2926&partner_device_id=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.05695700000069337
+      },
+      {
+        "url": "https://ads.yahoo.com/cms/v1?esig=1~7315a025058f3128185459bfaf16e164414683fc&nwid=10000545908&sigv=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 446,
+        "remoteIPAddress": "87.248.116.11",
+        "responseHeaders": {
+          "cache-control": "no-store",
+          "set-cookie": "A3=d=AQABBCGhwGECEBBZzhQSTi4LHwClYfDVy8EFEgEBAQHywWHKYQAAAAAA_eMAAA&S=AQAAAkkhY4tiL7hqjXo_Sol0RX8; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly\nB=c3iulu1gs1891&b=3&s=a6; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.03638199999841163
+      },
+      {
+        "url": "https://sp.analytics.yahoo.com/spp.pl?a=10001287818027&.yp=10028862&js=no",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "212.82.100.181",
+        "responseHeaders": {
+          "cache-control": "no-cache, private, must-revalidate",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "pragma": "no-cache",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "set-cookie": "A3=d=AQABBCGhwGECEPGr1DpiVY151A-bXhShuikFEgEBAQHywWHKYQAAAAAA_eMAAA&S=AQAAAlBWdSqBXdUQOVhGMNjN-Bs; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly\nB=2jel12hgs1891&b=3&s=au; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/"
+        },
+        "responseBodyHash": "f3882f998713d264095c3b132fade64a677f2a51ffc7a1e6703bb76aa210616f",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.09459599999900092
+      },
+      {
+        "url": "https://ups.analytics.yahoo.com/ups/58301/sync?_origin=1&uid=k-U9p79R2M3xdEI9o0Aa-YOapWTOlErPNKj-QqSw",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "3.126.56.137",
+        "responseHeaders": {
+          "p3p": "CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV",
+          "set-cookie": "A3=d=AQABBCGhwGECEKoPaAosXPWfx9ml9Ry2iQEFEgEBAQHywWHKYQAAAAAA_eMAAA&S=AQAAAr3aP6Y29_5GkRGep_ogQ00; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly\nB=032dm3hgs1891&b=3&s=7b; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ups.analytics.yahoo.com/ups/58301/sync?_origin=1&uid=k-U9p79R2M3xdEI9o0Aa-YOapWTOlErPNKj-QqSw&verify=true",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.10412899999937508
+      },
+      {
+        "url": "https://sync.outbrain.com/cookie-sync?p=criteo&uid=k-Y7sLzh2M3xdEI9o0Aa-YOapWTOlITQpe75ML2Q",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "50.31.142.127",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "set-cookie": "obuid=b6b20baf-57e1-4ce4-b5f8-93da36428d4a; Max-Age=7776000; Expires=Sun, 20 Mar 2022 15:28:33 GMT; Path=/; Domain=.outbrain.com;SameSite=None;Secure\ncriteo=k-Y7sLzh2M3xdEI9o0Aa-YOapWTOlITQpe75ML2Q; Max-Age=2592000; Expires=Wed, 19 Jan 2022 15:28:33 GMT; Path=/; Domain=.outbrain.com;SameSite=None;Secure"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.4081819999992149
+      },
+      {
+        "url": "https://gum.criteo.com/sync?c=6&r=1&a=1&u=https%3A%2F%2Fidsync.rlcdn.com%2F397596.gif%3Fpartner_uid%3D%40USERID%40",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "178.250.2.146",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0, no-cache, no-store, must-revalidate"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idsync.rlcdn.com/397596.gif?partner_uid=22-enClvFdrQ_0GEl3I4UBMuUCDnSJcL",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.04889299999922514
+      },
+      {
+        "url": "https://cw.addthis.com/t.gif?pid=113&pdid=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 425,
+        "remoteIPAddress": "104.84.232.122",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ouid=61c0a12100014dac5b819e2dc4fc8933ae1397f8d6a651892642;Expires=Sat, 14-Jan-2023 15:28:33 GMT;Max-Age=33696000;Domain=.addthis.com;Path=/;SameSite=None;Secure\nuid=61c0a121807ecdd9;Expires=Sat, 14-Jan-2023 15:28:33 GMT;Max-Age=33696000;Domain=.addthis.com;Path=/;SameSite=None;Secure\nna_id=2021122015283377200422826500;Expires=Sat, 14-Jan-2023 15:28:33 GMT;Max-Age=33696000;Domain=.addthis.com;Path=/;SameSite=None;Secure"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.1903679999995802
+      },
+      {
+        "url": "https://pixel.rubiconproject.com/tap.php?v=6434&nid=2149&put=k-PD2ZSh2M3xdEI9o0Aa-YOapWTOk81FAQrKpR2w&expires=30",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 239,
+        "remoteIPAddress": "213.19.162.80",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store,must-revalidate",
+          "expires": "0",
+          "p3p": "CP=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.05828599999949802
+      },
+      {
+        "url": "https://secure.adnxs.com/setuid?entity=52&code=k-LcNvDx2M3xdEI9o0Aa-YOapWTOkbDl-omycCww&seg=95287",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 307,
+        "remoteIPAddress": "185.33.220.244",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "uuid2=8997428244572671558; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://secure.adnxs.com/bounce?%2Fsetuid%3Fentity%3D52%26code%3Dk-LcNvDx2M3xdEI9o0Aa-YOapWTOkbDl-omycCww%26seg%3D95287",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.08026099999915459
+      },
+      {
+        "url": "https://ad.tpmn.co.kr/pixelCt.tpmn?tpmn_nid=26a681017b4fdc02f3aef3aa921ede3e&tpmn_buid=k-o7IHCB2M3xdEI9o0Aa-YOapWTOlEBYYZrJ2_-Q",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 600,
+        "remoteIPAddress": "34.102.166.132",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+          "pragma": "no-cache",
+          "set-cookie": "uuid=083f4b29b27549f697c42ca26513bd74; Domain=tpmn.co.kr; Path=/; Max-Age=31536000; SameSite=None; Secure\ncriteo=k-o7IHCB2M3xdEI9o0Aa-YOapWTOlEBYYZrJ2_-Q; Domain=tpmn.co.kr; Path=/; Max-Age=2592000; SameSite=None; Secure"
+        },
+        "responseBodyHash": "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.32080299999870476
+      },
+      {
+        "url": "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTE5MjgmdGw9NDMyMDA=&piggybackCookie=uid:k-YW7iNR2M3xdEI9o0Aa-YOapWTOmTIzjV0tt3Ng",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 673,
+        "remoteIPAddress": "185.64.189.110",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, private",
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "set-cookie": "KRTBCOOKIE_97=3385-uid:k-YW7iNR2M3xdEI9o0Aa-YOapWTOmTIzjV0tt3Ng&KRTB&23286-uid:k-YW7iNR2M3xdEI9o0Aa-YOapWTOmTIzjV0tt3Ng&KRTB&23287-uid:k-YW7iNR2M3xdEI9o0Aa-YOapWTOmTIzjV0tt3Ng&KRTB&23288-uid:k-YW7iNR2M3xdEI9o0Aa-YOapWTOmTIzjV0tt3Ng; domain=pubmatic.com; SameSite=None; secure; expires=Wed, 19-Jan-2022 15:28:32 GMT; path=/\nPugT=1640014112; domain=pubmatic.com; SameSite=None; secure; expires=Wed, 19-Jan-2022 15:28:32 GMT; path=/\nPUBMDCID=3; domain=pubmatic.com; SameSite=None; secure; expires=Sun, 20-Mar-2022 15:28:32 GMT; path=/"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.09690500000215252
+      },
+      {
+        "url": "https://crb.kargo.com/api/v1/dsync/Criteo?exid=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 360,
+        "remoteIPAddress": "3.127.192.192",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate, private, max-age=0",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.13839199999711127
+      },
+      {
+        "url": "https://eb2.3lift.com/xuid?mid=2711&xuid=k-Qsfn8B2M3xdEI9o0Aa-YOapWTOl6VaZ3EUF50w&dongle=013b",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "76.223.111.18",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "p3p": "policyref=\"http://cdn.3lift.com/w3c/p3p.xml\", CP=\"NON DSP COR NID OUR DEL SAM OTR UNR COM NAV INT DEM CNT STA PRE LOC OTC\"",
+          "set-cookie": "tluid=15566025459217980866; Max-Age=7776000; Expires=Sun, 20 Mar 2022 15:28:33 GMT; Path=/; Domain=.3lift.com; SameSite=None; Secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://eb2.3lift.com/xuid?ld=1&mid=2711&xuid=k-Qsfn8B2M3xdEI9o0Aa-YOapWTOl6VaZ3EUF50w&dongle=013b&gdpr=1&cmp_cs=&us_privacy=",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.14560599999822443
+      },
+      {
+        "url": "https://an.yandex.ru/mapuid/criteois/k-i2Yzsh2M3xdEI9o0Aa-YOapWTOn_2UaTmw-0hA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "213.180.193.90",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "p3p": "CP=\"NOI DEVa TAIa OUR BUS UNI STA\"",
+          "pragma": "no-cache",
+          "set-cookie": "yuidss=7247904891640014113; domain=.yandex.ru; path=/; expires=Thu, 18-Dec-2031 15:28:33 GMT; SameSite=None; Secure\nyandexuid=7247904891640014113; domain=.yandex.ru; path=/; expires=Thu, 18-Dec-2031 15:28:33 GMT; SameSite=None; Secure",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://an.yandex.ru/mapuid/criteois/k-i2Yzsh2M3xdEI9o0Aa-YOapWTOn_2UaTmw-0hA?redir-setuniq=1",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.3616780000011204
+      },
+      {
+        "url": "https://contextual.media.net/cksync.php?cs=3&type=crt&ovsid=k-oAxo6h2M3xdEI9o0Aa-YOapWTOnQiHCsRL5gLA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 782,
+        "remoteIPAddress": "92.122.253.103",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "p3p": "CP=\"NON DSP COR NID CUR ADMa DEVo TAI PSA PSDo HIS OUR BUS COM NAV INT STA\"\nCP: NON DSP COR NID CUR ADMa DEVo TAI PSA PSDo HIS OUR BUS COM NAV INT STA\nCP: NON DSP COR NID CUR ADMa DEVo TAI PSA PSDo HIS OUR BUS COM NAV INT STA\nCP: NON DSP COR NID CUR ADMa DEVo TAI PSA PSDo HIS OUR BUS COM NAV INT STA",
+          "pragma": "no-cache",
+          "set-cookie": "visitor-id=2830157139604669000V10; Expires=Tue, 20 Dec 2022 15:28:33 GMT; domain=.media.net; Path=/; sameSite=none; secure=true\ndata-c-ts=1640014113;Expires=Wed, 19 Jan 2022 15:28:33 GMT;path=/;domain=.media.net; sameSite=none; secure=true\ndata-c=k-oAxo6h2M3xdEI9o0Aa-YOapWTOnQiHCsRL5gLA~~3;Expires=Wed, 19 Jan 2022 15:28:33 GMT;path=/;domain=.media.net; sameSite=none; secure=true"
+        },
+        "responseBodyHash": "7bc2b8c2e6348bdcf5306c9e6fbe1e454365debfe9749f1141b4033649e62a2f",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.15879499999937252
+      },
+      {
+        "url": "https://r.casalemedia.com/rum?cm_dsp_id=20&external_user_id=k-z3LFkB2M3xdEI9o0Aa-YOapWTOl8lsGBwI001g",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "92.122.254.129",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR DEVa TAIa OUR BUS UNI\"",
+          "pragma": "no-cache",
+          "set-cookie": "CMID=YcChIZEcIQmgMKO5GEBQcwAA;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Tue, 20 Dec 2022 15:28:33 GMT\nCMPS=3226;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Sun, 20 Mar 2022 15:28:33 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://r.casalemedia.com/rum?cm_dsp_id=20&external_user_id=k-z3LFkB2M3xdEI9o0Aa-YOapWTOl8lsGBwI001g&C=1",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.19016299999930197
+      },
+      {
+        "url": "https://s.ad.smaato.net/c/?dspInit=1001851&dspCookie=k-OXwXBB2M3xdEI9o0Aa-YOapWTOmB056iyANdnQ",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 238,
+        "remoteIPAddress": "65.9.83.5",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.1650709999994433
+      },
+      {
+        "url": "https://x.bidswitch.net/sync?dsp_id=46&user_id=k-KR_q9R2M3xdEI9o0Aa-YOapWTOkPhjxDc6UvsA&expires=30&user_group=5",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "18.158.151.180",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "tuuid=4746029c-a3ed-4fbe-bb8b-444b74e5b6ba; path=/; expires=Tue, 20-Dec-2022 15:28:33 GMT; domain=.bidswitch.net; samesite=none; secure\nc=1640014113; path=/; expires=Tue, 20-Dec-2022 15:28:33 GMT; domain=.bidswitch.net; samesite=none; secure\ntuuid_lu=1640014113; path=/; expires=Tue, 20-Dec-2022 15:28:33 GMT; domain=.bidswitch.net; samesite=none; secure\nc=1640014113; path=/; expires=Tue, 20-Dec-2022 15:28:33 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://x.bidswitch.net/ul_cb/sync?dsp_id=46&user_id=k-KR_q9R2M3xdEI9o0Aa-YOapWTOkPhjxDc6UvsA&expires=30&user_group=5",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.20758800000112387
+      },
+      {
+        "url": "https://ad.as.amanad.adtdp.com/v1/sync?dsp_id=4,5&uid=k-NRvdbh2M3xdEI9o0Aa-YOapWTOlkl026LBKp5g",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 884,
+        "remoteIPAddress": "13.227.219.114",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 01 Jan 1970 09:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "uid=efa67ba4-4477-457c-b404-c8dda98cf62c; Path=/; Domain=adtdp.com; Expires=Wed, 20 Dec 2023 15:28:33 GMT; HttpOnly; Secure; SameSite=None\npr=aja; Path=/; Domain=adtdp.com; Expires=Wed, 20 Dec 2023 15:28:33 GMT; HttpOnly; Secure; SameSite=None\nuid_legacy=efa67ba4-4477-457c-b404-c8dda98cf62c; Path=/; Domain=adtdp.com; Expires=Wed, 20 Dec 2023 15:28:33 GMT; HttpOnly\npr_legacy=aja; Path=/; Domain=adtdp.com; Expires=Wed, 20 Dec 2023 15:28:33 GMT; HttpOnly"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.39317400000072666
+      },
+      {
+        "url": "https://trends.revcontent.com/cm/pixel_sync?bidder=151&bidder_uid=k-2xwj1h2M3xdEI9o0Aa-YOapWTOm2EmqQ9vbgwQ",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 337,
+        "remoteIPAddress": "99.80.164.0",
+        "responseHeaders": {
+          "set-cookie": "__ID=cf86347a4b0f498e84573d8389bef27c; Max-Age=1576800000; Domain=revcontent.com; Path=/; Expires=Tue, 08 Dec 2071 15:28:37 GMT; Secure; SameSite=None\nv1_151=1; Max-Age=2592000; Domain=revcontent.com; Path=/; Expires=Wed, 19 Jan 2022 15:28:37 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 3.546848999998474
+      },
+      {
+        "url": "https://criteo-sync.teads.tv/um?eid=80&uid=k-rm4ZXR2M3xdEI9o0Aa-YOapWTOmuVzhMkJ3tBw",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 172,
+        "remoteIPAddress": "23.38.40.137",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "328e90a318268aea96180cc31666ae6d6f79d90d078c123bc3d98ee08a192fb7",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.2240010000023176
+      },
+      {
+        "url": "https://sync-t1.taboola.com/sg/criteortb-network/1/rtb-h/?taboola_hm=k-JcuVoh2M3xdEI9o0Aa-YOapWTOk9q7FuEjINmw",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 230,
+        "remoteIPAddress": "141.226.228.48",
+        "responseHeaders": {
+          "set-cookie": "t_gid=3be4e062-49a4-41e8-9669-6d26c58a5842-tuct8ba26a1;Version=1;Path=/;Domain=.taboola.com;Expires=Tue, 20-Dec-2022 15:28:33 GMT;Max-Age=31536000;Secure;SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.2190840000002936
+      },
+      {
+        "url": "https://rtb-csync.smartadserver.com/redir/?partnerid=79&partneruserid=k-KaJjpR2M3xdEI9o0Aa-YOapWTOn02YEao-YmgA",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 688,
+        "remoteIPAddress": "185.86.137.132",
+        "responseHeaders": {
+          "cache-control": "no-cache,no-store",
+          "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+          "pragma": "no-cache",
+          "set-cookie": "pid=7851919559950860484; expires=Thu, 19 Jan 2023 15:28:33 GMT; domain=smartadserver.com; path=/; SameSite=None; secure\nTestIfCookieP=ok; expires=Thu, 19 Jan 2023 15:28:33 GMT; domain=smartadserver.com; path=/; SameSite=None; secure\ncsync=79:k-KaJjpR2M3xdEI9o0Aa-YOapWTOn02YEao-YmgA; expires=Thu, 19 Jan 2023 15:28:33 GMT; domain=smartadserver.com; path=/; SameSite=None; secure"
+        },
+        "responseBodyHash": "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.2754029999996419
+      },
+      {
+        "url": "https://d.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 94,
+        "remoteIPAddress": "40.76.174.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://d.clarity.ms/s/0.6.31/clarity.js"
+        ],
+        "time": 0.09843199999886565
+      },
+      {
+        "url": "https://630a111de15e49db85fa0554d27ab737-2e3b618057a1.cdn.forter.com/prop.json",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 624,
+        "remoteIPAddress": "100.26.87.64",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
+          "etag": "\"2-5d392b05e2790\"",
+          "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.46089500000016415
+      },
+      {
+        "url": "https://idsync.rlcdn.com/397596.gif?partner_uid=22-enClvFdrQ_0GEl3I4UBMuUCDnSJcL",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 416,
+        "remoteIPAddress": "35.244.174.68",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=AF1STvcLi1w2MLeqPGBGwLKhDEqddCart+rtdDgLOGc=; Path=/; Domain=rlcdn.com; Expires=Tue, 20 Dec 2022 15:28:33 GMT; Secure; SameSite=None\npxrc=CAA=; Path=/; Domain=rlcdn.com; Expires=Fri, 18 Feb 2022 15:28:33 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://gum.criteo.com/sync?c=6&r=1&a=1&u=https%3A%2F%2Fidsync.rlcdn.com%2F397596.gif%3Fpartner_uid%3D%40USERID%40",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.03812400000242633
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=2926&partner_device_id=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 426,
+        "remoteIPAddress": "35.227.248.159",
+        "responseHeaders": {
+          "p3p": "policyref=\"http://tapad-taptags.s3.amazonaws.com/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "TapAd_TS=1640014113675;Expires=Fri, 18 Feb 2022 15:28:33 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_DID=55b1a364-d96f-47f7-afd7-6a884b2e2f4c;Expires=Fri, 18 Feb 2022 15:28:33 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_3WAY_SYNCS=;Expires=Fri, 18 Feb 2022 15:28:33 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None"
+        },
+        "responseBodyHash": "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57",
+        "redirectedFrom": "https://pixel.tapad.com/idsync/ex/receive?partner_id=2926&partner_device_id=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.020796999997401144
+      },
+      {
+        "url": "https://dis.criteo.com/dis/rtb/google/cookiematch.aspx?id=&google_ula=913071,0",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 341,
+        "remoteIPAddress": "178.250.2.151",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "p3p": "CP='NON DSP COR CURa PSA PSD OUR BUS NAV STA'",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=cjp&google_sc&google_ula=913071&google_hm=ay13QjJBbXgyTTN4ZEVJOW8wQWEtWU9hcFdUT243cTBqdVBtR2o0QQ",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.029121999999915715
+      },
+      {
+        "url": "https://secure.adnxs.com/bounce?%2Fsetuid%3Fentity%3D52%26code%3Dk-LcNvDx2M3xdEI9o0Aa-YOapWTOkbDl-omycCww%26seg%3D95287",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 1093,
+        "remoteIPAddress": "185.33.220.244",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "anj=dTM7k!M4/rCxrEQF']wIg2E>zZ3-=2!1yIE`TLrfSBBmHfSc$Yu.*6e3d1-*<=.A3gZxO:j?f+w20qiZhZER(iIY#B=Un%E*Ogua[O3h-.g4dkXstGt!@Aeb+0r7F; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly\nuuid2=8997428244572671558; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly"
+        },
+        "responseBodyHash": "726bd300e2a189de671455eb50152d11182b89667b4b6903bb4fe6abc7c70b58",
+        "redirectedFrom": "https://secure.adnxs.com/setuid?entity=52&code=k-LcNvDx2M3xdEI9o0Aa-YOapWTOkbDl-omycCww&seg=95287",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.0207250000021304
+      },
+      {
+        "url": "https://ups.analytics.yahoo.com/ups/58301/sync?_origin=1&uid=k-U9p79R2M3xdEI9o0Aa-YOapWTOlErPNKj-QqSw&verify=true",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 122,
+        "remoteIPAddress": "3.126.56.137",
+        "responseHeaders": {
+          "p3p": "CP=NOI DSP COR LAW CURa DEVa TAIa PSAa PSDa OUR BUS UNI COM NAV",
+          "set-cookie": "IDSYNC=18zh~2273;Version=1;Domain=.analytics.yahoo.com;Path=/;Max-Age=31622400;Expires=Wed, 21-Dec-2022 15:28:33 GMT;Secure;SameSite=None\nA3=d=AQABBCGhwGECEKoPaAosXPWfx9ml9Ry2iQEFEgEBAQHywWHKYQAAAAAA_eMAAA&S=AQAAAr3aP6Y29_5GkRGep_ogQ00; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/; SameSite=None; Secure; HttpOnly\nB=032dm3hgs1891&b=3&s=7b; Expires=Tue, 20 Dec 2022 21:28:33 GMT; Max-Age=31557600; Domain=.yahoo.com; Path=/"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://ups.analytics.yahoo.com/ups/58301/sync?_origin=1&uid=k-U9p79R2M3xdEI9o0Aa-YOapWTOlErPNKj-QqSw",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.01823599999988801
+      },
+      {
+        "url": "https://partner.mediawallahscript.com/?account_id=1043&partner_id=1048&uid=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A&custom%5B0%5D=&custom%5B1%5D=&tag_format=img&tag_action=sync&cb=1d293ddb-c15b-4632-a35f-0a5a44df66be&final=true&reqid=7e41c6d0-61a9-11ec-b6c2-7bf1c3e5d801&timestamp=2021-12-20T15%3A28%3A33.725Z",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 638,
+        "remoteIPAddress": "34.255.54.140",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, must-revalidate, no-store, max-age=0",
+          "expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+          "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+          "set-cookie": "mCookie=7e46a8d0-61a9-11ec-8a50-d5187a8aca9a; Domain=.mediawallahscript.com; Path=/; Expires=Wed, 20 Dec 2023 15:28:33 GMT; Secure; SameSite=None\nmUserCookie=%7B%22undefined%22%3A%5B%22%22%2C%22%22%2C%22%22%5D%7D; Domain=.mediawallahscript.com; Path=/; Expires=Wed, 20 Dec 2023 15:28:33 GMT; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://partner.mediawallahscript.com/?account_id=1043&partner_id=1048&uid=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A&custom=&tag_format=img&tag_action=sync&custom=&cb=1d293ddb-c15b-4632-a35f-0a5a44df66be",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.029317999997147126
+      },
+      {
+        "url": "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMwMjMmdGw9MTI5NjAw&piggybackCookie=uid:k-YW7iNR2M3xdEI9o0Aa-YOapWTOmTIzjV0tt3Ng",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 187,
+        "remoteIPAddress": "185.64.189.110",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, private",
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "set-cookie": "PUBMDCID=3; domain=pubmatic.com; SameSite=None; secure; expires=Sun, 20-Mar-2022 15:28:33 GMT; path=/"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.0062450000004901085
+      },
+      {
+        "url": "https://secure.adnxs.com/seg?add=95287&redir=https%3A%2F%2Fsecure.adnxs.com%2Fgetuid%3Fhttps%3A%2F%2Fdis.criteo.com%2Fdis%2Frtb%2Fappnexus%2Fcookiematch.aspx%3Fappnxsid%3D%24UID",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "185.33.220.244",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "anj=dTM7k!M4/rCxrEQF']wIg2E>zZ3-=2!1yIE`TLrfSBBmHfSc$Yu.*6e3d1-*<=.A3gZxO:j?f+w20qiZhZER(iIY#B=Un%E*Ogua[O3h-.g4dkXstGt!@Aeb+0r7F; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly\nuuid2=8997428244572671558; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://secure.adnxs.com/getuid?https://dis.criteo.com/dis/rtb/appnexus/cookiematch.aspx?appnxsid=$UID",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.13035300000046846
+      },
+      {
+        "url": "https://cm.mgid.com/m?c=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A&cdsp=617660&sct=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 500,
+        "remoteIPAddress": "104.19.134.78",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate\nmax-age=0",
+          "p3p": "CP=\"NOI DSP COR LAW NID CURa ADMa DEVa PSAa PSDa OUR BUS IND UNI COM NAV INT DEM\"",
+          "pragma": "no-cache",
+          "set-cookie": "mg_sync={\"617660\":1640014113}; expires=Wed, 19 Jan 2022 15:28:33 GMT; secure; SameSite=None"
+        },
+        "responseBodyHash": "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74",
+        "redirectedFrom": "https://cm.mgid.com/m?cdsp=617660&c=k-wB2Amx2M3xdEI9o0Aa-YOapWTOn7q0juPmGj4A",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.11724999999933061
+      },
+      {
+        "url": "https://eb2.3lift.com/xuid?ld=1&mid=2711&xuid=k-Qsfn8B2M3xdEI9o0Aa-YOapWTOl6VaZ3EUF50w&dongle=013b&gdpr=1&cmp_cs=&us_privacy=",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 353,
+        "remoteIPAddress": "76.223.111.18",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "p3p": "policyref=\"http://cdn.3lift.com/w3c/p3p.xml\", CP=\"NON DSP COR NID OUR DEL SAM OTR UNR COM NAV INT DEM CNT STA PRE LOC OTC\"",
+          "set-cookie": "tluid=15566025459217980866; Max-Age=7776000; Expires=Sun, 20 Mar 2022 15:28:33 GMT; Path=/; Domain=.3lift.com; SameSite=None; Secure"
+        },
+        "responseBodyHash": "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+        "redirectedFrom": "https://eb2.3lift.com/xuid?mid=2711&xuid=k-Qsfn8B2M3xdEI9o0Aa-YOapWTOl6VaZ3EUF50w&dongle=013b",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.05195800000001327
+      },
+      {
+        "url": "https://r.casalemedia.com/rum?cm_dsp_id=20&external_user_id=k-z3LFkB2M3xdEI9o0Aa-YOapWTOl8lsGBwI001g&C=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 1027,
+        "remoteIPAddress": "92.122.254.129",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR DEVa TAIa OUR BUS UNI\"",
+          "pragma": "no-cache",
+          "set-cookie": "CMID=YcChIZEcIQmgMKO5GEBQcwAA;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Tue, 20 Dec 2022 15:28:33 GMT\nCMPS=3226;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Sun, 20 Mar 2022 15:28:33 GMT\nCMPRO=1195;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Sun, 20 Mar 2022 15:28:33 GMT\nCMST=YcChIWHAoSEA;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Tue, 21 Dec 2021 15:28:33 GMT\nCMRUM3=1461c0a1212760k-z3LFkB2M3xdEI9o0Aa-YOapWTOl8lsGBwI001g;domain=casalemedia.com;path=/;sameSite=None;Secure;expires=Tue, 20 Dec 2022 15:28:33 GMT"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://r.casalemedia.com/rum?cm_dsp_id=20&external_user_id=k-z3LFkB2M3xdEI9o0Aa-YOapWTOl8lsGBwI001g",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.02400100000159
+      },
+      {
+        "url": "https://cw.addthis.com/t.gif?pid=113&pdid=k-PD2ZSh2M3xdEI9o0Aa-YOapWTOk81FAQrKpR2w",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 204,
+        "size": 425,
+        "remoteIPAddress": "104.84.232.122",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:28:33 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "ouid=61c0a12100014dac5b819e2dc4fc8933ae1397f8d6a651892642;Expires=Sat, 14-Jan-2023 15:28:33 GMT;Max-Age=33696000;Domain=.addthis.com;Path=/;SameSite=None;Secure\nuid=61c0a121807ecdd9;Expires=Sat, 14-Jan-2023 15:28:33 GMT;Max-Age=33696000;Domain=.addthis.com;Path=/;SameSite=None;Secure\nna_id=2021122015283377200422826500;Expires=Sat, 14-Jan-2023 15:28:33 GMT;Max-Age=33696000;Domain=.addthis.com;Path=/;SameSite=None;Secure"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.13899700000183657
+      },
+      {
+        "url": "https://x.bidswitch.net/ul_cb/sync?dsp_id=46&user_id=k-KR_q9R2M3xdEI9o0Aa-YOapWTOkPhjxDc6UvsA&expires=30&user_group=5",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 495,
+        "remoteIPAddress": "18.158.151.180",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "set-cookie": "tuuid=4746029c-a3ed-4fbe-bb8b-444b74e5b6ba; path=/; expires=Tue, 20-Dec-2022 15:28:33 GMT; domain=.bidswitch.net; samesite=none; secure\ntuuid_lu=1640014113; path=/; expires=Tue, 20-Dec-2022 15:28:33 GMT; domain=.bidswitch.net; samesite=none; secure"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "redirectedFrom": "https://x.bidswitch.net/sync?dsp_id=46&user_id=k-KR_q9R2M3xdEI9o0Aa-YOapWTOkPhjxDc6UvsA&expires=30&user_group=5",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.024977000000944827
+      },
+      {
+        "url": "https://secure.adnxs.com/getuid?https://dis.criteo.com/dis/rtb/appnexus/cookiematch.aspx?appnxsid=$UID",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "185.33.220.244",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "uuid2=8997428244572671558; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dis.criteo.com/dis/rtb/appnexus/cookiematch.aspx?appnxsid=8997428244572671558",
+        "redirectedFrom": "https://secure.adnxs.com/seg?add=95287&redir=https%3A%2F%2Fsecure.adnxs.com%2Fgetuid%3Fhttps%3A%2F%2Fdis.criteo.com%2Fdis%2Frtb%2Fappnexus%2Fcookiematch.aspx%3Fappnxsid%3D%24UID",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.03364700000020093
+      },
+      {
+        "url": "https://dis.criteo.com/dis/rtb/appnexus/cookiematch.aspx?appnxsid=8997428244572671558",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 342,
+        "remoteIPAddress": "178.250.2.151",
+        "responseHeaders": {
+          "cache-control": "no-cache",
+          "expires": "Mon, 26 Jul 1997 05:00:00 GMT",
+          "p3p": "CP='NON DSP COR CURa PSA PSD OUR BUS NAV STA'",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda",
+        "redirectedFrom": "https://secure.adnxs.com/getuid?https://dis.criteo.com/dis/rtb/appnexus/cookiematch.aspx?appnxsid=$UID",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.00962000000072294
+      },
+      {
+        "url": "https://secure.adnxs.com/setuid?entity=52&code=k-LcNvDx2M3xdEI9o0Aa-YOapWTOkbDl-omycCww&seg=130915",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 1021,
+        "remoteIPAddress": "185.33.220.244",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, private",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "pragma": "no-cache",
+          "set-cookie": "anj=dTM7k!M4/rCxrEQF']wIg2E>zZ3-=2!1yIE`TLrfSBBmHfSc$Yu.*6e3d1-*<=.A3gZxO:j?f+w20qiZhZER(iIY#B=Un%E*Ogua[O3h-.g4dkXstGt!@Aeb+0r7F; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly\nuuid2=8997428244572671558; SameSite=None; Path=/; Max-Age=7776000; Expires=Sun, 20-Mar-2022 15:28:33 GMT; Domain=.adnxs.com; Secure; HttpOnly"
+        },
+        "responseBodyHash": "726bd300e2a189de671455eb50152d11182b89667b4b6903bb4fe6abc7c70b58",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.005138000000442844
+      },
+      {
+        "url": "https://an.yandex.ru/mapuid/criteois/k-i2Yzsh2M3xdEI9o0Aa-YOapWTOn_2UaTmw-0hA?redir-setuniq=1",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "",
+        "status": 200,
+        "size": 180,
+        "remoteIPAddress": "213.180.193.90",
+        "responseHeaders": {
+          "cache-control": "private, no-cache, no-store, must-revalidate, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:28:34 GMT",
+          "p3p": "CP=\"NOI DEVa TAIa OUR BUS UNI STA\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+        "redirectedFrom": "https://an.yandex.ru/mapuid/criteois/k-i2Yzsh2M3xdEI9o0Aa-YOapWTOn_2UaTmw-0hA",
+        "initiators": [
+          "https://sslwidget.criteo.com/event?a=%5B74618%2C84912%5D&v=5.8.1&p0=e%3Dexd%26site_type%3Dd&p1=e%3Dce%26m%3D%255B%255D&p2=e%3Dvh&p3=e%3Ddis&adce=1&bundle=KXjep19KOE5ZMXQ0dFhxNzFHM3pGNGJUYmp1SktjSmZEaWo5c0huNGI0UjB4NjNjb0tUS0lyZlR6OEhFS2FUdlJQYWRZQ2hISyUyQkdCdzljR1YxdGYxRGlQVklxZHRRWmNnZWYyQlgyN3prOWpNWGFDSkNmbGhBNHBGc29MYzJMbXpuZiUyQmg4S1h3anBZSWRsczBsUGJhOUVVa1ltWSUyRkREV25SWHJxSEdQakVtbWloZ1UxZnp4d0RIWXklMkIlMkZEYXdRVDlHQkJN&tld=wayrates.com&dtycbr=2541"
+        ],
+        "time": 0.07685599999967963
+      },
+      {
+        "url": "https://cdn0.forter.com/2e3b618057a1/630a111de15e49db85fa0554d27ab737/prop.json?_=1640014114624",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 360,
+        "remoteIPAddress": "34.192.191.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.3533470000002126
+      },
+      {
+        "url": "https://d.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 48,
+        "remoteIPAddress": "40.76.174.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://d.clarity.ms/s/0.6.31/clarity.js"
+        ],
+        "time": 0.3601870000020426
+      },
+      {
+        "url": "https://behavior.tongdun.net/behavior/upload/v2?partner_code=TDAPProject",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 288,
+        "remoteIPAddress": "34.198.223.13",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "0514a3ed748eb26ee0117b70ca5bb68082f8688a150d5faacf68d4275415c213",
+        "initiators": [
+          "https://static.tongdun.net/sg/fm.behavior.js?t=2733357"
+        ],
+        "time": 0.2925070000019332
+      },
+      {
+        "url": "https://cdn0.forter.com/2e3b618057a1/630a111de15e49db85fa0554d27ab737/prop.json?_=1640014114982",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 360,
+        "remoteIPAddress": "34.192.191.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.1739910000032978
+      },
+      {
+        "url": "https://cdn0.forter.com/2e3b618057a1/630a111de15e49db85fa0554d27ab737/prop.json?_=1640014115167",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 360,
+        "remoteIPAddress": "34.192.191.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.21665699999721255
+      },
+      {
+        "url": "https://cdn0.forter.com/2e3b618057a1/630a111de15e49db85fa0554d27ab737/wpt.json",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 417,
+        "remoteIPAddress": "34.192.191.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "private, no-cache, no-store",
+          "etag": "W/\"14-Y53wuE/mmbSikKcT/WualL1N65U\"",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.17721800000072108
+      },
+      {
+        "url": "https://cdn0.forter.com/2e3b618057a1/630a111de15e49db85fa0554d27ab737/wpt.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.192.191.43",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cdn0.forter.com/2e3b618057a1/630a111de15e49db85fa0554d27ab737/wpt.json"
+        ],
+        "time": 0.0863260000005539
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4G6ZJ54477&gtm=2oec10&_p=1048811170&sr=800x600&ul=en-us&cid=1658674159.1640014111&_s=2&dl=https%3A%2F%2Fwww.wayrates.com%2F&dt=Men%E2%80%99s%20Tactical%2C%20Outdoor%2C%20Casual%20Clothing%20and%20Accessories%20%7C%20Wayrates.com&sid=1640014110&sct=1&seg=1&en=page_view&_et=15&ep.page_path=%2F",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 17,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-4G6ZJ54477&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WWXHHBV",
+          "https://www.googletagmanager.com/gtag/js?id=G-WTGS025YK8&l=dataLayer&cx=c"
+        ],
+        "time": 0.008300999998027692
+      },
+      {
+        "url": "https://d.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 48,
+        "remoteIPAddress": "40.76.174.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://d.clarity.ms/s/0.6.31/clarity.js",
+          "https://sources.aopcdn.com/cloud/opShop/script/vendor-2b105e4b60.js",
+          "https://www.wayrates.com/"
+        ],
+        "time": 0.0845400000034715
+      },
+      {
+        "url": "https://d.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 48,
+        "remoteIPAddress": "40.76.174.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://d.clarity.ms/s/0.6.31/clarity.js",
+          "https://sources.aopcdn.com/cloud/opShop/script/vendor-2b105e4b60.js"
+        ],
+        "time": 0.08974999999918509
+      },
+      {
+        "url": "https://cdn3.forter.com/events",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 200,
+        "size": 242,
+        "remoteIPAddress": "54.205.86.248",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com",
+          "cache-control": "private, no-cache, no-store",
+          "expires": "-1",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "(program):2"
+        ],
+        "time": 0.3335210000004736
+      },
+      {
+        "url": "https://d.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "referer": "https://www.wayrates.com/",
+        "status": 204,
+        "size": 48,
+        "remoteIPAddress": "40.76.174.66",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.wayrates.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://d.clarity.ms/s/0.6.31/clarity.js",
+          "https://sources.aopcdn.com/cloud/opShop/script/vendor-2b105e4b60.js"
+        ],
+        "time": 0.08407299999817042
+      }
+    ]
+  }
+}

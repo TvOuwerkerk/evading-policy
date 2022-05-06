@@ -1,0 +1,3333 @@
+{
+  "initialUrl": "https://www.beat-it.nl/",
+  "finalUrl": "https://www.beat-it.nl/",
+  "timeout": false,
+  "testStarted": 1640014479252,
+  "testFinished": 1640014498622,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.beat-it.nl/links.www.beat-it.nl_13e1.json",
+    "requests": [
+      {
+        "url": "https://www.beat-it.nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 26083,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate\nprivate, no-cache, no-store, proxy-revalidate, no-transform",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache\nno-cache",
+          "set-cookie": "frontend=d3m37tsp7rklo98t6rb7nnggr2; expires=Tue, 20-Dec-2022 15:34:39 GMT; Max-Age=31536000; path=/; domain=beat-it.nl; HttpOnly\nfrontend_cid=fqAQkvBrTFbG1Q1b; expires=Tue, 20-Dec-2022 15:34:39 GMT; Max-Age=31536000; path=/; domain=beat-it.nl; secure; HttpOnly"
+        },
+        "responseBodyHash": "9f4edfefbcd807415849bec44e48a371e7fab6cd4edaf635ce7faf0fcffebb6b",
+        "initiators": [],
+        "time": 0.2870900000016263
+      },
+      {
+        "url": "https://js.mollie.com/v1/mollie.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 214300,
+        "remoteIPAddress": "109.68.93.1",
+        "responseHeaders": {
+          "cache-control": "must-revalidate",
+          "referrer-policy": "strict-origin"
+        },
+        "responseBodyHash": "e23ea01d6604100cca7ef01ff45a2e153d10a1ccc4dff732b6ae402b68e660bd",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.23055400000157533
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=PT+Sans",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 955,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:34:39 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a0f4831384e5f952f5be620c856801cbe0f152c7d7e73dedb1716f68ca2a49ac",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.024707000000489643
+      },
+      {
+        "url": "https://script.leadboxer.com/?dataset=80facc2ff3504c4be45993eeed55d1ba",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 7678,
+        "remoteIPAddress": "172.104.236.48",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "86269f538cfd80bc9549728c1dc9404fa960f51aa1a818f16d10d86446182c08",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08215399999971851
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 26304,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"40176a-23042-59c14f0e402b8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "70ef657f2b06256b74a98b81b7e9f3507da85576a77accc4e4f585730dbb27a7",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.05583000000115135
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/responsive.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 739,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"40340a-221-51b5c28436580-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "41a6a3100ca0ad478f58632e5b2280c8883a97303b8ca5f1f1d659614a6a47b2",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.04762799999662093
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/widgets.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1703,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403410-1105-51b5c2852a7c0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "4365ef096c012132dd33fcad062d7ac14a139062d54d3c4984322e2f54ea2abc",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.04637499999807915
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/aw_autorelated/css/category.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 832,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"4033f6-314-51b5c28342340-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "74afce47b8ed1b425f4bd9e6491ec9cc4dc8a5f9dbe349daf06120954133c931",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.04557299999942188
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/onsale/css/product_onsale_label.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 789,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"42192f-322-51d7fc3a55e00-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "3270f8ddaecd0facabdd7b9e550ee0eef3742bbc7784c0a7e7f3ccd02860fa42",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.07139100000131293
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/onsale/css/category_onsale_label.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 767,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"42192e-2fb-51b5c2946cbc0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "d3bcb626f80a39c8fc0dbe2c87c7fefd14e70569bbd176b5a138ac1c5a2463ed",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.06472700000085752
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/pmatch/css/style.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1259,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"421946-80d-51d95e614aac0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "db301d23b34fbdce46e1f4b549657d673d1c1143360da0664cea698749ae34f4",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.06482999999934691
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/productupdates.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1282,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403407-80a-51b5c28436580-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "094b1fe42835f7d7a159a1e8827b1ccbdedac16e08e05d7afccf81e1c3985e1c",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.06682799999907729
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/base/default/aw_storecredit/css/styles.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 731,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3215e0-1ee-57803a044c9f8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "92d22cb610768f9ec25bada6d8c2d31886e9d8b68a8ff790fe65c4bfa366163a",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.06466100000034203
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/base/default/css/amasty/amfpc/styles.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1156,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"32106c-76e-57908a3e11de0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "d0abfb6b030030e9ebe874eca1a6821ecbaabc0d141f0d509f2a9a047b6212a1",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.0667040000007546
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/amasty/amlist/amlist.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 744,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403413-18a-51f29d3acf140-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "5b606f9639a4271ab9857197f90286e5ca591c38ce5e7240262364718d52ad02",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08453000000008615
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/amasty/amsocial/popup.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1416,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403415-b1d-51f36a8214140-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "11c18a9e035837dea0c725d357703ff61ae21a12b6cc7150b4b0181b39a08505",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08564599999954225
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/base/default/css/et_advancedcompare/noreload.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 599,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"321c03-51-51b4e68035080-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "12a6270f96553033490864ce9ec12a381eff0069446c7c44c3660be63da0b463",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.0861380000023928
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/magestore/rewardpoints.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1775,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403425-e1a-51b5c2852a7c0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "9913c31931a84a6aabf11b1fcb45a687e7bcc5812ec2aaa5c9aedb33f2b0ec75",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08715699999811477
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/ekomimeetsmage/css/style.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1679,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403444-f78-51b5c28712c40-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "43b98cb8386465740d3acc4b396f741c8ec576bb91e275724a43f3efe58ca0ce",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08604300000297371
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/qquoteadv.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1828,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403408-c82-5293329bee300-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "1de1eba174cf10223c229b081f0bc2295798e9820e4fe9733dddf5230a368066",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08628399999724934
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/valdecode/cookielaw/css/cookielaw.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1585,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3e4c04-dad-58b07b49e9930-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "761b8087639c5392a56d216d812744f72f5ed4faaf5ea56667e5f1e10175088d",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.11746499999935622
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/algoliasearch/algoliasearch.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 6343,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"4818c5-6ae9-57b40f0c067d0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "e7b01a881e6f6fedb7bc3fbc9c63553660a0216c9ba5f688f2ac7139c2fa7181",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.12522700000045006
+      },
+      {
+        "url": "https://www.beat-it.nl/js/jquery/jquery.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 33667,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3050b4-16eab-4fbb8d6d9e100-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "3739b485ac39b157caa066b883e4d9d3f74c50beff0b86cd8a24ce407b179a23",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.17654800000309478
+      },
+      {
+        "url": "https://www.beat-it.nl/js/prototype/prototype.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 37940,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382a94-27df1-5b6a66db8b080-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "dedea3aa22a087b3745c9635e7a3d65e772d57ce590b541a6a32069a0b1d60b9",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.19131900000138558
+      },
+      {
+        "url": "https://www.beat-it.nl/js/lib/ccard.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 968,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3015b0-2eb-5b6a66da451a8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "71efc700b9091f1449e2c952536cf7281aded3a30a96e44be5d06e606e2904bd",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.1495169999980135
+      },
+      {
+        "url": "https://www.beat-it.nl/js/prototype/validation.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 10122,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3802b2-acee-5b6a66dbd1968-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "4aa58699835300a9571e2488d656e0e89406173e8519fb40592eaa6b5b5c3775",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.17391000000134227
+      },
+      {
+        "url": "https://www.beat-it.nl/js/scriptaculous/builder.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2375,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382104-1288-5b6a66dca9688-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "8a2e4f92cba8509d0d26255bb950e4a53345fad6c1b38da13448b9c7a561832a",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.15473999999812804
+      },
+      {
+        "url": "https://www.beat-it.nl/js/scriptaculous/effects.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 9315,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382108-9759-5b6a66dcda7b0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "328cab78ebb3e3c4e94e23b87630a56ae7ad2db686ecd1d69f93176318b6f82d",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.1796299999987241
+      },
+      {
+        "url": "https://www.beat-it.nl/js/scriptaculous/dragdrop.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 8097,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382107-795a-5b6a66dccb580-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "1b88542d1458cd86dacd3de3cb9635ded83c01edcae01be5f49451611985cff8",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.18700900000112597
+      },
+      {
+        "url": "https://www.beat-it.nl/js/scriptaculous/controls.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 9582,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382105-87ed-5b6a66dcb9470-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "394ee4643d5c3fc7d0a671052576e3e7250e6cbccc407772679a359ce59f2794",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2077769999996235
+      },
+      {
+        "url": "https://www.beat-it.nl/js/scriptaculous/slider.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3240,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"38210a-285b-5b6a66dcf4d90-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "727ee107a8036e193fef85e1faf9e1eb145d25d03a4aa73d6db7c5ad71118797",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2200719999964349
+      },
+      {
+        "url": "https://www.beat-it.nl/js/varien/js.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 7422,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382126-6129-5b6a66de5ac20-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "0ae4813582d2a40d7506c439ea6f277c2d020375716107172ba5bc3a1ca7c64e",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.22418999999717926
+      },
+      {
+        "url": "https://www.beat-it.nl/js/varien/form.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3922,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382124-3ade-5b6a66de3ac68-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "91451da2288e4b43dd76d5a530d3988dcd2b38ebcd714e540eac1134bffda3a7",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2199819999987085
+      },
+      {
+        "url": "https://www.beat-it.nl/js/varien/script.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 984,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"38212a-4c2-4fbb8dbadd740-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "10c1fd98838b524035bb2fcec0871ac9d75ddf26affd102bf7f45de22ba69520",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.22041399999943678
+      },
+      {
+        "url": "https://www.beat-it.nl/js/varien/menu.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1985,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382127-1138-5b6a66de663b8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "350caca7170ca7889a564e6ae6352930421eac601dee8f10142e69a8e041104c",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2210960000011255
+      },
+      {
+        "url": "https://www.beat-it.nl/js/mage/translate.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1273,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"322993-62c-5b6a66daeb1e8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "7ae979c7a9d1592837e22142265f7d45fd500ee0eaed9fe6f1bbd38f5b439638",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.23318899999867426
+      },
+      {
+        "url": "https://www.beat-it.nl/js/mage/cookies.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1589,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"322991-a25-5b6a66dacdd28-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "6cda74fcc0abceb862ca5e01be9c32190cc317c53943042d03de7cc8f71aa00f",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.23306199999933597
+      },
+      {
+        "url": "https://www.beat-it.nl/js/jquery/func.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 744,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3050b2-1bc-4fbb8d6ca9ec0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "4b0d74fb074f9cb7fe66db69e3e759739621c860bfdd130a4121c1608500d410",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.23333899999852292
+      },
+      {
+        "url": "https://www.beat-it.nl/js/aw_onsale/onsale.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1338,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"220bd0-bf1-4fbb8d5b7f640-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "0f84ccc941cabd44be44bd96dda0630b7a53379056fa78917c0812c272705300",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.23842700000022887
+      },
+      {
+        "url": "https://www.beat-it.nl/js/productupdates/productupdates.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2595,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"361f70-1ec2-52bf3f4d1f100-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "3642ec74efb6042584cfebaa6152168a091831600dd6a6c6d0f136d876ca3739",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.24179300000105286
+      },
+      {
+        "url": "https://www.beat-it.nl/js/productupdates/configurable.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2894,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"361f6f-2bb9-52bf3f4d1f100-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "df989f0e86173fee11f580e69100d559a1531d9b539b37a2adcb7e068e908b8e",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2421680000006745
+      },
+      {
+        "url": "https://www.beat-it.nl/js/amasty/amsocial/social.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1718,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"381f17-1285-51ea9bedcc900-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "af6eed8718050c9bab324b635a60f872226fbbba739f5d7d129f02951c9bcfa2",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2538840000015625
+      },
+      {
+        "url": "https://www.beat-it.nl/js/ebizmarts/magemonkey/campaignCatcher.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 979,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"381836-3bc-54312a6a7ea80-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "4c9710bf1ae96963b3f525a600d3f470f5213748214d864909160ba14dfadc6f",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2536980000004405
+      },
+      {
+        "url": "https://www.beat-it.nl/js/iwd/all/iwd-jquery-2.1.3.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 30088,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3050ab-14990-51d7f89d45780-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "1b8b914519599e6933a801d84f0cb4de3e6dd8a54787e7a38ba3c39c958d72e8",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2590650000020105
+      },
+      {
+        "url": "https://www.beat-it.nl/js/iwd/all/modal.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3103,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3050ae-262a-51d7f89d45780-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "f17b2b0bc2b9630d51355d60016a3e8aaff2ef0fc97e74db482ba663bd03ba45",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.25280299999940326
+      },
+      {
+        "url": "https://www.beat-it.nl/js/magestore/rewardpoints.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3402,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"322996-2f84-4fbb8d7262c40-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "16b26c34d3ec376d587305ebe6be18cbdb8e9468338088dea1681da5c32567ad",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2525470000000496
+      },
+      {
+        "url": "https://www.beat-it.nl/js/easing/jquery.easing.1.3.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1359,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"240cec-d6c-4fbb8d5d67ac0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "0eafb86acbeeb215be57085c7a657f00a5d3d678c38721759afcd79c7fe7e30a",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.25225200000204495
+      },
+      {
+        "url": "https://www.beat-it.nl/js/slideshow/efects.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 882,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"38210d-5b2-4fbb8d9794400-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "3d9d7dcf1d5dd53fa943fc7d15ef93a509a4f8a87d3a9aac4950f3b5034ddca3",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2611139999971783
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/internals/frontend/Function.prototype.bind.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1053,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"2205c1-3ed-5b6a635683f20-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "4d8ce2040cce2a04b2f3fe80fac6f7a6511be9a27f99566bf16d20be9ffc7abe",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.26101099999868893
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/internals/frontend/algoliaBundle.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 171081,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"2205b8-936b8-5a9e9c93df038-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "f4a024c7116fd75eb3f0109cfea4cfeb5c22058c612313521fd8c9b273fa8157",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.49560399999973015
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/internals/frontend/common.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 6547,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"2205c0-5100-5a9e9c94d6d10-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "65004a5ca3448546bcb63d94c773a38efb79d427785cdf92f3b0118b3dbb5e6f",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2623440000024857
+      },
+      {
+        "url": "https://www.beat-it.nl/js/customalgolia/hooks.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2034,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"2066ea-fc1-5a5e817113668-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "9c950b5340360bd7bdd649d3fa51c7a07142a490849fcfe9215792f942e78868",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.259754000002431
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/instantsearch.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 5626,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"220585-50f5-5a9e9c9263dd0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "5f831eb3d666ff2a2b0a8e1dcbfa7fee46c04c945025daa3493415ef49298a2a",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2637730000024021
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/autocomplete.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2336,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"22056f-14aa-5a9e9c9246528-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "a8b9a37fa869fde89480f56064cba63b95d28bf40085d52ca69caba2c4cecd68",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2715920000009646
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/internals/frontend/search-insights.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3407,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"2220d4-282a-5a9e9c94f2678-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "55ca0f1b5f1fcc6ee105ca62da5087f671d21a935e7bdd73798bab3322b88fff",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.27174700000250596
+      },
+      {
+        "url": "https://www.beat-it.nl/js/algoliasearch/click_conversion_analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1649,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"2220d3-c43-5a9e9c9253c00-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "90b760babacee7b9e02dc1494cd793b2196c299e872a3fcdd263f8aa2d5fc868",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.27188400000159163
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/base/default/js/et_advancedcompare/noreload.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2676,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382547-2301-51b4e68035080-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "3c9c9b9f3e9a52ed256be2835d62c197fdb1c91da4898bc99f60c126b32a451a",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2718730000015057
+      },
+      {
+        "url": "https://load.fomo.com/api/v1/y-8Cg1jKwbIBHWGjqFI-xQ/load.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 23989,
+        "remoteIPAddress": "104.21.36.48",
+        "responseHeaders": {
+          "cache-control": "max-age=5, public, s-maxage=18000",
+          "etag": "W/\"42e159f4f8a352a8d035e5257fdb3b8f\""
+        },
+        "responseBodyHash": "42e159f4f8a352a8d035e5257fdb3b8f987bf7cb4e955b622dd053161c37b775",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.9550320000016654
+      },
+      {
+        "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 7833,
+        "remoteIPAddress": "52.222.139.21",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"158ca99a1f63568e56a39abb980c9aa7\""
+        },
+        "responseBodyHash": "a9ddd05afc7b255840510e1d40fda6304d6dc5695fa2ef4c40424d1507d2cfe3",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.909297999998671
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/menu1.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1426,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403403-ac0-51e231379eec0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "40002add9ac3de662684f42d07d59aced4c8e057e15bdf66d0bdbb9ac2955cb5",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.10017900000093505
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/rs-plugin/revolution-css/fullwidth.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1068,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"421973-612-56359c9a170a8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "e7b75878937b88be6e83984fd106926e4702aa22fdfc386231f51088d003e693",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.10104199999841512
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/rs-plugin/css/settings.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 4435,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"42196c-59c2-51b5c29931700-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "07ecb258f4f8bd399f3d7517efb8fe536758a2e139a48b7719f0e26904815fd4",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.10314600000128848
+      },
+      {
+        "url": "https://www.beat-it.nl/js/revolution/jquery.themepunch.plugins.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 6552,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382101-42bd-4fbb8d95abf80-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "b3f2d03e0b500c6309c3d407ed923d2fefe2efa529fa0b4c8eb7362dbaf8652f",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2778069999985746
+      },
+      {
+        "url": "https://www.beat-it.nl/js/revolution/jquery.themepunch.revolution.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 18917,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"382102-1b68c-574f38b37fef8-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "36f0f29feca985d109d22b0a9aea8614e41af3b6667d3cd2bdd2b6f55d3d0913",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.282165000000532
+      },
+      {
+        "url": "https://www.beat-it.nl/js/slideshow/jquery.slider.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 9218,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"38210e-bf30-4fbb8d9794400-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "7a6f58e67aa13e4db28bb11b4f7e4d538c1d85398ed24582ab010d4bfa050cb6",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.2788989999971818
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/slider.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1523,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"40340c-edb-521590c6f9b00-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "1fb7b563b4b8732404041c830b9b82327c08586edadbe98a6702b273bb796bc6",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.0971270000009099
+      },
+      {
+        "url": "https://www.beat-it.nl/js/jquery/jquery.selectbox.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2311,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"3050b5-15c8-51f26dc3173c0-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "89394869fd7896fa387065402cba248aa7343223479e1b3388df61edbaf5e6c4",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.27484699999695295
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/selectbox.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1097,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"40340b-64d-51b5c28436580-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:39 GMT"
+        },
+        "responseBodyHash": "c2c45b679d7658a3b0ee6e364aea25e879ec492d911cfbeb244183db81d65b14",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.11965600000257837
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2956,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"402147-9bc-555d664c3b8c0\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "9bd321c0fedb33f74b89907cd9b8d457d6a5481231f03d921592ee5e1d58d6ea",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.8806990000011865
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/customer_service.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 13075,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"40349c-3141-555d6634100c0\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "cdd83b08c5ac7dbe6f27cefb8bbfdc71d7fea35e454cbb616ce01159269d99be",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.8863100000016857
+      },
+      {
+        "url": "https://www.beat-it.nl/media/wysiwyg/perfectum/revolution-images/slides/slide4/background.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 13288,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"29b046a-3214-55186b59d3680\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "a87b4f630e2875114961d9d3c56bd70486bc750ed12ba7d5761053ff54036587",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.8832450000008976
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/adyen.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 11261,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"400eba-2a2b-56d7c1d88c460\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "3f2fc54243b49a4492166aeff91b726a4e1f267f85bc8de6ffcecb8ce7749c37",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.8721040000018547
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/trustedshops.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 6925,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"4001f4-193c-589f5f6f772b0\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "1af995870520838e48483025d92904ebc72e67b77949343922c87a62dbba40f9",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.8750020000006771
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/opc-ajax-loader.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 734,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"4034d2-10f-555d665dc29b8\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "2438bda60e7ee546385db38ef914118d62ecbf7aa70dd866a6781f6b0f4ae8a7",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.869022999999288
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 18129,
+        "remoteIPAddress": "142.251.36.34",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "5620577396173936331",
+          "expires": "Mon, 20 Dec 2021 15:34:40 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a794323056095d4ae3d4bccb01fdb689b186c5343f70248d41e61e951cf72fb",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.8534299999992072
+      },
+      {
+        "url": "https://rum-static.pingdom.net/pa-5363976eabe53df218a1be82.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3029,
+        "remoteIPAddress": "172.67.5.216",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"609a8e40-1852\"",
+          "expires": "Mon, 20 Dec 2021 15:39:40 GMT"
+        },
+        "responseBodyHash": "e6bb9309a1f30c14f933a06a01f7dc18340d3afb3b33474ebd4971f9be7f737d",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 1.0006350000003295
+      },
+      {
+        "url": "https://cdn.livechatinc.com/tracking.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 24916,
+        "remoteIPAddress": "23.62.99.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=28800",
+          "etag": "W/\"4c2378f3295ef05819348611928d5cc6\"",
+          "expires": "Mon, 20 Dec 2021 23:34:40 GMT"
+        },
+        "responseBodyHash": "b14adadd97d94aa65355a6400c3b9c608bc2430087587d45af15de8dfa21bc47",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.5826479999996081
+      },
+      {
+        "url": "https://kibana.leadboxer.com/api/datasets/formTracking?datasetId=80facc2ff3504c4be45993eeed55d1ba",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 247,
+        "remoteIPAddress": "138.201.126.83",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl"
+        },
+        "responseBodyHash": "7dc4ccfa645f2a6aea7ddfb0371c18c38e9d445680cde6b63ab59348adffaf81",
+        "initiators": [
+          "https://script.leadboxer.com/?dataset=80facc2ff3504c4be45993eeed55d1ba"
+        ],
+        "time": 0.0692510000008042
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/print.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1255,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"403406-620-51b5c28436580-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "96df5213cf9b9bdfd7094b2c83411efd00401ff4daa514aee0aadb53ddc2dcbe",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.5607569999992847
+      },
+      {
+        "url": "https://log.leadboxer.com/?si=80facc2ff3504c4be45993eeed55d1ba&p=1&mid=1640014479831%3A1640014479831&fv=true&ti=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&sh=600&sw=800&sc=24&lc=https%3A%2F%2Fwww.beat-it.nl%2F&ref=&t0=1640014479831&cld=Mon%20Dec%2020%202021%2015%3A34%3A40%20GMT%2B0000%20(Coordinated%20Universal%20Time)&ots=1.1640014479831.1640014479831.1640014479831&otui=1643348416.1640014479831.1640014479831.1640014479831.1.1.0&otr=false&otor=false&otpe=false&pix&rnd=80393",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 216,
+        "remoteIPAddress": "172.104.141.96",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "756b8e02f86bc8e739229a1dec26bb1260d104efc531ab55d96cfc75f8349e71",
+        "initiators": [
+          "https://script.leadboxer.com/?dataset=80facc2ff3504c4be45993eeed55d1ba"
+        ],
+        "time": 0.3768290000007255
+      },
+      {
+        "url": "https://ssl.google-analytics.com/ga.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 17565,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 16:48:31 GMT"
+        },
+        "responseBodyHash": "1259ea99bd76596239bfd3102c679eb0a5052578dc526b0452f4d42f8bcdd45f",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.10832500000105938
+      },
+      {
+        "url": "https://static.woopra.com/js/w.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 12456,
+        "remoteIPAddress": "93.184.220.20",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, proxy-revalidate",
+          "etag": "\"21dbc-8ac9-5d07954b4a6b8\""
+        },
+        "responseBodyHash": "4c68f2c4b498e57550d3942520ac37122f13fc8fe96896cef3eefd0fab69cacb",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.11220599999796832
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KQQD3SJ",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 39836,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "f8f229273280d72dae654b2989a7f5e066db9432ae8d914219cb0612e3c2eb90",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.1373569999996107
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79D0KExcOPIDU.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 12015,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 13 Dec 2022 16:45:56 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6f7fed3805974598e81b5d1c7d9a56697729284013ad4787db518f8357bdd4b8",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=PT+Sans"
+        ],
+        "time": 0.3042380000006233
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/button-search.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/algoliasearch/algoliasearch.css",
+        "status": 200,
+        "size": 756,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401031-125-55186914b48f8\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "867cfe81176de7b01c9b954771fe20c787a53295ff00c378bf2fb241049c2e44",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/algoliasearch/algoliasearch.css"
+        ],
+        "time": 0.050512999998318264
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/cartmini.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 783,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401e3b-140-551869371caa8\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "afa576e96844e7a3e50b3a29c79d42d969ff430b6b21eafc6d0f59a28c6a0ffa",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.05557799999951385
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/home-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 748,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401e3c-11d-5518694e0c3f8\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "ee5787dbafa652175e11e2ba598b9980138a1dbee96fb5da70067ddedb3c1172",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.05926499999986845
+      },
+      {
+        "url": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 25673,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=nl for more info.\"",
+          "pragma": "no-cache",
+          "set-cookie": "YSC=Bj7WRqECbI0; Domain=.youtube.com; Path=/; Secure; HttpOnly; SameSite=none\nVISITOR_INFO1_LIVE=QOlKEjiI-J4; Domain=.youtube.com; Expires=Sat, 18-Jun-2022 15:34:40 GMT; Path=/; Secure; HttpOnly; SameSite=none\nCONSENT=PENDING+739; expires=Wed, 20-Dec-2023 15:34:40 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "b6f510b41faf70783814eeb8fa0102957d06a91c880b0edab07937febeaeba98",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.08419299999877694
+      },
+      {
+        "url": "https://cdn.inspectlet.com/inspectlet.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 63974,
+        "remoteIPAddress": "104.22.56.245",
+        "responseHeaders": {
+          "cache-control": "s-maxage=60, max-age=14400"
+        },
+        "responseBodyHash": "5d554121551df68e414c85920b6541d2e92251a189ff19a4b1f8dffe97ce1cb5",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.03898099999787519
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/news-date-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 626,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"4022a4-a4-5518699288b80\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "3cb05b4d0b2280d4a95b166b49fd764bcf1a5e255541bcd7860aba7496ab31b2",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.008517000002029818
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/news-more-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 911,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"4023a7-1c0-55186997e5858\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "0bf43c141fc5b709143c369c856c68226078b5ab1086b95db83d4f4cf8e12c7c",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.009065000002010493
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/car-prev.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/slider.css",
+        "status": 200,
+        "size": 818,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401dc5-163-5518692fab260\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "8b548e31c2368cfc6de5376c90464497ee172379e7decbb2b0344ae890001a6e",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/slider.css"
+        ],
+        "time": 0.007303999998839572
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/car-next.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/slider.css",
+        "status": 200,
+        "size": 795,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401db9-14c-551869297b688\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "1a132925d2b93ec1d60d3bb476acfb9ad5377db05d529cde91b184bd1612e58d",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/slider.css"
+        ],
+        "time": 0.006119000001490349
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/background/check_s.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 865,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"4034f4-192-51b5c28eb3e40\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "1f738f27a07e3736b54873b7fe4e9e5f14e3fe19369ad06cbe1e251889eda241",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.006112999999459134
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/icon-phone.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 759,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401e78-128-55186975cd400\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "3b6b714cf585bb57c300fe03ea465294ad3663113f3dfaa47d54c9f98a3c830e",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.0059049999981652945
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/icon-email.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 753,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401e59-122-5518695e97d80\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "0246a74232611f6ce13287b931deda377532807cf5a72c04e01dd40eb889f3ef",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.009612999998353189
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/icon-info.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 591,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"401e6f-81-5518696caaa08\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "2ffcc9ac20148178bca9642148acb4ace3013ef1359a6a4ac2bfafff90559171",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.00890599999911501
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/social/twitter.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 750,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"4023ef-11f-551869a6126d8\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "ccacf04dc5d2fff37d6fceae295836ae1d4cfecbbcc183dba7ed0e81616e3eed",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.01332899999761139
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/social/facebook.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 621,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"402416-9f-551869b081d08\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "646f5f374b8bf0a790c0ddf1b9501cb1d23dfdca8210852d3aca41815e3ff737",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.01351500000237138
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/social/google.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 813,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"402429-15e-551869b7ec020\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "d187d4dae53263dad86e9c42296a0fe3979628ff6d39c0a1b8e5242ec72c1d2f",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.013385000002017478
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/images/background/twitter-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css",
+        "status": 200,
+        "size": 952,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"400c45-1e9-55535e2f55d80\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "e16addd52980b927930315a8b4d3fcd0ee95bab679a978b87ab3ab57128dd308",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/css/styles.css"
+        ],
+        "time": 0.011032000002160203
+      },
+      {
+        "url": "https://widgets.trustedshops.com/js/X5823CA779891CA066EBCDEDE9F208251.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 5702,
+        "remoteIPAddress": "52.222.139.84",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"0790a3f7e7c1188abed8f23ebe161247\""
+        },
+        "responseBodyHash": "a5d423592a09dd5b4d64543192bd73f3e8ad3ad25741182181c4ee41681f63e3",
+        "initiators": [
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.01529800000207615
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071913523/?random=1640014481154&cv=9&fst=1640014481154&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beat-it.nl%2F&tiba=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&hn=www.googleadservices.com&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1658,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "cache-control": "no-cache, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Mon, 20-Dec-2021 15:49:41 GMT; path=/; domain=.doubleclick.net; Secure; SameSite=none",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6e47d0b9f10eaddff72748e34023f7cc84e22d1dd71dee9ce67d995959c0c871",
+        "initiators": [
+          "https://www.googleadservices.com/pagead/conversion.js"
+        ],
+        "time": 0.021701000001485227
+      },
+      {
+        "url": "https://www.youtube.com/player_api",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 800,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "private, max-age=0",
+          "expires": "Mon, 20 Dec 2021 15:34:41 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+          "set-cookie": "CONSENT=PENDING+771; expires=Wed, 20-Dec-2023 15:34:41 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "8002dace9aa6d2f5a60968e10897ec4b45e698b2851a22320a6cb5f7df42c67c",
+        "initiators": [
+          "https://www.beat-it.nl/js/revolution/jquery.themepunch.revolution.js",
+          "https://www.beat-it.nl/js/jquery/jquery.js",
+          "https://www.beat-it.nl/"
+        ],
+        "time": 0.022658999998384388
+      },
+      {
+        "url": "https://www.beat-it.nl/skin/frontend/default/perfectum/rs-plugin/assets/loader.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/skin/frontend/default/perfectum/rs-plugin/css/settings.css",
+        "status": 200,
+        "size": 2254,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, public",
+          "etag": "\"42195d-6fe-555d669b03458\"",
+          "expires": "Mon, 27 Dec 2021 15:34:40 GMT"
+        },
+        "responseBodyHash": "7e8e2fd8f77aabebffdf67e1c0866214d825ebf7c56476bc5ff91db56ede2da7",
+        "initiators": [
+          "https://www.beat-it.nl/skin/frontend/default/perfectum/rs-plugin/css/settings.css"
+        ],
+        "time": 0.010884999999689171
+      },
+      {
+        "url": "https://e.fomo.com/api/v1/js-obj/y-8Cg1jKwbIBHWGjqFI-xQ/events/events.js?lng=en",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 878,
+        "remoteIPAddress": "104.21.36.48",
+        "responseHeaders": {
+          "cache-control": "max-age=20, public, s-maxage=1200",
+          "etag": "W/\"ec45f34ac3ec3aa73b44c11fd5f43aaa\""
+        },
+        "responseBodyHash": "ec45f34ac3ec3aa73b44c11fd5f43aaafae9658fd936af54c9ec6a23ac10ab8c",
+        "initiators": [
+          "https://load.fomo.com/api/v1/y-8Cg1jKwbIBHWGjqFI-xQ/load.js"
+        ],
+        "time": 0.027658999999403022
+      },
+      {
+        "url": "https://api.livechatinc.com/v3.3/customer/action/get_dynamic_configuration?license_id=2046681&url=https%3A%2F%2Fwww.beat-it.nl%2F&group_id=0&channel_type=code&jsonp=__r3urjtx5479",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 442,
+        "remoteIPAddress": "23.5.164.91",
+        "responseHeaders": {},
+        "responseBodyHash": "569c2854a9cfd41f83b20797cfa929c5026554c2e4757abee802f118a7eae6ea",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.15168999999877997
+      },
+      {
+        "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=447052073&utmhn=www.beat-it.nl&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&utmhid=945302558&utmr=-&utmp=%2F&utmht=1640014481402&utmac=UA-3697547-1&utmcc=__utma%3D17165994.1916326042.1640014481.1640014481.1640014481.1%3B%2B__utmz%3D17165994.1640014481.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=908869350&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-3697547-1&cid=1916326042.1640014481&jid=908869350&_v=5.7.2&z=447052073",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.06304099999761092
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-3697547-1&cid=1916326042.1640014481&jid=908869350&_v=5.7.2&z=447052073",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 430,
+        "remoteIPAddress": "108.177.119.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "redirectedFrom": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=447052073&utmhn=www.beat-it.nl&utmcs=UTF-8&utmsr=800x600&utmvp=1440x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&utmhid=945302558&utmr=-&utmp=%2F&utmht=1640014481402&utmac=UA-3697547-1&utmcc=__utma%3D17165994.1916326042.1640014481.1640014481.1640014481.1%3B%2B__utmz%3D17165994.1640014481.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=908869350&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+        "initiators": [
+          "https://ssl.google-analytics.com/ga.js"
+        ],
+        "time": 0.021846999999979744
+      },
+      {
+        "url": "https://www.woopra.com/track/ce/?project=beat-it.nl&instance=woopra&meta=&screen=800x600&language=en-US&app=magento&referer=&cookie=gugGPrWBGahe&event=pv&timeout=1800000&idptnc=BhdmYQrFm7mL&cv_customer_group=NOT%20LOGGED%20IN&cv_customer_cart_items=0&cv_customer_cart_total=0&cv_customer_wishlist_items=0&cv_customer_wishlist_total=0&ce_url=%2F&ce_title=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&ce_domain=www.beat-it.nl&ce_uri=https%3A%2F%2Fwww.beat-it.nl%2F&ce_scroll%20depth=0.6666666666666666&ce_returning=false",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 3991,
+        "remoteIPAddress": "162.55.95.220",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "06989780c6b2d0ddc6379ced4da563e7624224e4b9844e3e958f83ecc8f90611",
+        "initiators": [
+          "https://static.woopra.com/js/w.js"
+        ],
+        "time": 0.1706899999990128
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 20210,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KQQD3SJ"
+        ],
+        "time": 0.005102999999508029
+      },
+      {
+        "url": "https://cdn.leadinfo.net/ping.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 45681,
+        "remoteIPAddress": "13.227.219.45",
+        "responseHeaders": {
+          "cache-control": "private, max-age=900",
+          "etag": "W/\"ac7f7260bf508fb32bcca8705c936d10\""
+        },
+        "responseBodyHash": "a18e5ccfff91d0b3947fa43f86975be35d2068cf28a92dbe6a8b398a18f81499",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KQQD3SJ"
+        ],
+        "time": 0.057575000002543675
+      },
+      {
+        "url": "https://cdn.subscribers.com/assets/subscribers.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 12106,
+        "remoteIPAddress": "172.67.43.33",
+        "responseHeaders": {
+          "etag": "W/\"4c0fb56528b3431ab9d5b94628943b0e\""
+        },
+        "responseBodyHash": "12cccdce067b7625c767113ab5c91b8bd731d78d6cc578e04a9d8ec2cb761906",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KQQD3SJ"
+        ],
+        "time": 0.059719000000768574
+      },
+      {
+        "url": "https://my.hellobar.com/f20a3dd9868b44c59bb139d5e8b19e9d160e8011.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 5133,
+        "remoteIPAddress": "104.22.15.23",
+        "responseHeaders": {
+          "cache-control": "max-age=86400, must-revalidate, proxy-revalidate, s-maxage=10",
+          "etag": "W/\"7e5a75b03ba15ceb0febacf3ba280ef1\""
+        },
+        "responseBodyHash": "d75f4da24a7f835e5792393d1e46e4535fa115d4c657f743c80c42d7a8e0a4e8",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-KQQD3SJ"
+        ],
+        "time": 0.2785039999980654
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/www-player-webp.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 47399,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:20:44 GMT"
+        },
+        "responseBodyHash": "93a8cc54b517a35c22648e5a2b1694dac62247ad174386f1791d1c4d0c6edd8c",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.04517399999895133
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 74854,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:21:44 GMT"
+        },
+        "responseBodyHash": "b0496ff7b5e02ba5dcf004405c2b4eba9e66d7a89002346aa17ea3c1b4311806",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.045267000001331326
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 540628,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:20:44 GMT"
+        },
+        "responseBodyHash": "0e17b80ec3de9a00b45b8cfae183748d9471cff370da0bd629096c95ecc1047d",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.17560099999900558
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/fetch-polyfill.vflset/fetch-polyfill.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 2855,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:21:44 GMT"
+        },
+        "responseBodyHash": "de6c4ffa2bd9fd283610e28d0db2ec48607aab39d213a51aef248673a0a7e980",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.039479999999457505
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 10775,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "526007135db0306094b7b2cc2924c76c5914b3b3aaeb52131a3ddf23ebffac2a",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.11302200000136509
+      },
+      {
+        "url": "https://api.livechatinc.com/v3.3/customer/action/get_configuration?license_id=2046681&version=3503.13.16.1691.168.43.17.18.18.15.11.13&group_id=0&jsonp=__lc_static_config",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1904,
+        "remoteIPAddress": "23.5.164.91",
+        "responseHeaders": {
+          "cache-control": "public, max-age=600",
+          "expires": "Mon, 20 Dec 2021 15:44:42 GMT"
+        },
+        "responseBodyHash": "593c5cadfcf5af5c2bfc06ed0911686f18c0d43300c03e91f10290ae131596d9",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.5698599999996077
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/1071913523/?random=1640014481154&cv=9&fst=1640012400000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beat-it.nl%2F&tiba=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&fmt=3&is_vtc=1&random=2144378283&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071913523/?random=1640014481154&cv=9&fst=1640014481154&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beat-it.nl%2F&tiba=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.0563880000008794
+      },
+      {
+        "url": "https://www.google.nl/pagead/1p-user-list/1071913523/?random=1640014481154&cv=9&fst=1640012400000&num=1&guid=ON&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beat-it.nl%2F&tiba=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&fmt=3&is_vtc=1&random=2144378283&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071913523/?random=1640014481154&cv=9&fst=1640014481154&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603261&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=0&u_java=false&u_nplug=1&u_nmime=0&sendb=1&ig=1&data=ecomm_pagetype%3Dhome&frm=0&url=https%3A%2F%2Fwww.beat-it.nl%2F&tiba=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&hn=www.googleadservices.com&rfmt=3&fmt=4"
+        ],
+        "time": 0.06186299999899347
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 49439,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Tue, 20 Dec 2022 11:36:13 GMT"
+        },
+        "responseBodyHash": "5071f1b82cf34198f13d9c727f4705d7a4daa61723adacfcd7123abcb4b3c4c7",
+        "initiators": [
+          "https://www.youtube.com/player_api"
+        ],
+        "time": 0.04234799999903771
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=945302558&t=pageview&_s=1&dl=https%3A%2F%2Fwww.beat-it.nl%2F&ul=en-us&de=UTF-8&dt=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&sd=24-bit&sr=800x600&vp=1440x812&je=0&_utma=17165994.1916326042.1640014481.1640014481.1640014481.1&_utmz=17165994.1640014481.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)&_utmht=1640014481682&_u=YQBCAEABAAAAAC~&jid=1263901606&gjid=1198769794&cid=1916326042.1640014481&tid=UA-3697547-1&_gid=1090842057.1640014482&_r=1&gtm=2wgc10KQQD3SJ&z=169568595",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "de3246094525b21a870fc7d2a67490d0132535c6fa5993755c549f1a9d1bd8af",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.00905599999896367
+      },
+      {
+        "url": "https://collector.leadinfo.net/com.snowplowanalytics.snowplow/tp2",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "34.248.175.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://collector.leadinfo.net/com.snowplowanalytics.snowplow/tp2"
+        ],
+        "time": 0.6010860000023968
+      },
+      {
+        "url": "https://api.leadinfo.com/v1/identify/LI-5AD06CC064D2D",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 278,
+        "remoteIPAddress": "54.217.141.8",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://cdn.leadinfo.net/ping.js"
+        ],
+        "time": 0.1194889999969746
+      },
+      {
+        "url": "https://collector.leadinfo.net/com.snowplowanalytics.snowplow/tp2",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 229,
+        "remoteIPAddress": "34.248.175.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\""
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://cdn.leadinfo.net/ping.js"
+        ],
+        "time": 0.662201000002824
+      },
+      {
+        "url": "https://collector.leadinfo.net/config/LI-5AD06CC064D2D/",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 131,
+        "remoteIPAddress": "34.248.175.104",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl"
+        },
+        "responseBodyHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "initiators": [
+          "https://cdn.leadinfo.net/ping.js"
+        ],
+        "time": 0.6238830000002054
+      },
+      {
+        "url": "https://cdn.subscribers.com/config/31fb701b-6942-4835-bfb3-15e59e8cea8f.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 1194,
+        "remoteIPAddress": "172.67.43.33",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "etag": "\"d631771673af6f6e600ed99986c8bdad\""
+        },
+        "responseBodyHash": "b71ef3dbbae54d749b98b176489f7c68f1ac8d9e4a667d1298d0c109a66cd8c5",
+        "initiators": [
+          "https://cdn.subscribers.com/assets/subscribers.js"
+        ],
+        "time": 0.21598500000254717
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-3697547-1&cid=1916326042.1640014481&jid=1263901606&gjid=1198769794&_gid=1090842057.1640014482&_u=YQBCAEAAAAAAAC~&z=846185852",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 22,
+        "remoteIPAddress": "108.177.119.157",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.013797999999951571
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 302,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.youtube.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b08f0278c05f3d0798cd79c540528720cbfb3295f42138299eb1a0c1dd06a99f",
+        "redirectedTo": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.15323399999761023
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 587,
+        "remoteIPAddress": "172.217.168.198",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:47:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.012632999998459127
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 146,
+        "remoteIPAddress": "142.251.39.98",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.youtube.com",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "b08f0278c05f3d0798cd79c540528720cbfb3295f42138299eb1a0c1dd06a99f",
+        "redirectedFrom": "https://googleads.g.doubleclick.net/pagead/id",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.008825000000797445
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/remote.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 29797,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:20:44 GMT"
+        },
+        "responseBodyHash": "86dd1e4149946676b870e866853dad314c38521107425f5d3eba739324282a9f",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.011635999999271007
+      },
+      {
+        "url": "https://www.google.com/js/th/Cl7PG6JefISdvQ5f5DHlM2PydHOtKzDBOwJ_tmyY6lw.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 13421,
+        "remoteIPAddress": "142.250.179.164",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 12:56:43 GMT"
+        },
+        "responseBodyHash": "0a5ecf1ba25e7c849dbd0e5fe431e53363f27473ad2b30c13b027fb66c98ea5c",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.013989999999466818
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/embed.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 7633,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 23:27:18 GMT"
+        },
+        "responseBodyHash": "e0323655507edaac165470e31c9affac1b3053c26ff2585b10cfae99b19e9ac6",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.0041049999999813735
+      },
+      {
+        "url": "https://yt3.ggpht.com/ytc/AKedOLTIAtUqw8pEj2OOyF_-Gg7AXANKeVyuRZunSzal=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 1632,
+        "remoteIPAddress": "142.250.179.193",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400, no-transform",
+          "etag": "\"v24\"",
+          "expires": "Mon, 15 Nov 2021 06:49:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "2947b9a57f6ea52c7d2e44cf4195d20470cfecae990c595dab9a8caf47f15b87",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.014534999998431886
+      },
+      {
+        "url": "https://i.ytimg.com/vi_webp/1XcIblUMP7I/sddefault.webp",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 17035,
+        "remoteIPAddress": "142.251.39.118",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "etag": "\"1515242332\"",
+          "expires": "Mon, 20 Dec 2021 17:34:42 GMT"
+        },
+        "responseBodyHash": "03ba8e0508300916daa607690a7cf4aec464ff3dee6e2283f7fb105cccfa183c",
+        "initiators": [
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.025228999998944346
+      },
+      {
+        "url": "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 2163,
+        "remoteIPAddress": "23.5.164.91",
+        "responseHeaders": {
+          "cache-control": "max-age=0, no-cache, no-store",
+          "expires": "Mon, 20 Dec 2021 15:34:43 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "49cd71278d6a01103afb1be9186d57f4d481567aa2723574d11be340da8e1f60",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.4271530000005441
+      },
+      {
+        "url": "https://api.livechatinc.com/v3.3/customer/action/get_localization?license_id=2046681&version=1345e4e20a6ab51a0afeb4d216afe354_58a158cf44fe882e13b58a1eecf402a1&language=nl&group_id=0&jsonp=__lc_localization",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 4487,
+        "remoteIPAddress": "23.5.164.91",
+        "responseHeaders": {
+          "cache-control": "public, max-age=600",
+          "expires": "Mon, 20 Dec 2021 15:44:42 GMT"
+        },
+        "responseBodyHash": "dfdfd9f567e6b35650bee24074166c206ea76b2d0e6377406f05bc1e1ea093f2",
+        "initiators": [
+          "https://cdn.livechatinc.com/tracking.js"
+        ],
+        "time": 0.1458550000024843
+      },
+      {
+        "url": "https://pro.ip-api.com/json?key=pAcPOWCUJWo5Gcp",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 460,
+        "remoteIPAddress": "208.95.112.2",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "acc5ae0329858f0f130617a0af37436b9cdbd2376e7dcfd32ce9f880b054ab2e",
+        "initiators": [
+          "https://cdn.subscribers.com/assets/subscribers.js"
+        ],
+        "time": 0.1747219999997469
+      },
+      {
+        "url": "https://my.hellobar.com/modules.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 74312,
+        "remoteIPAddress": "104.22.15.23",
+        "responseHeaders": {
+          "cache-control": "max-age=14400",
+          "etag": "W/\"e0e90c1108359921511b444d357da48e\""
+        },
+        "responseBodyHash": "e4d6c63726c5ee46e7f9e5f597ffe976771dbbb377bae7bf7525acc83bc0c498",
+        "initiators": [
+          "https://my.hellobar.com/f20a3dd9868b44c59bb139d5e8b19e9d160e8011.js"
+        ],
+        "time": 0.03626399999848218
+      },
+      {
+        "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 2627,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3000",
+          "expires": "Mon, 20 Dec 2021 15:34:42 GMT"
+        },
+        "responseBodyHash": "ee147e859ad0f09aa50367974e38ab53e7c7054c4a51d400a7f45b0eb251454f",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/remote.js"
+        ],
+        "time": 0.02210399999967194
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?7veneg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 204,
+        "size": 9,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {},
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js",
+          "https://www.youtube.com/embed/1XcIblUMP7I"
+        ],
+        "time": 0.006535999997140607
+      },
+      {
+        "url": "https://www.beat-it.nl/firebase-messaging-sw.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "185.87.249.211",
+        "responseHeaders": {
+          "cache-control": "public, no-transform, proxy-revalidate",
+          "etag": "\"21072e-5e-5c440eb10dc18-gzip\"",
+          "expires": "Mon, 27 Dec 2021 15:34:42 GMT"
+        },
+        "responseBodyHash": "2e657ce8758ee4243d7f62b0d7428735535b01f83c5f0aadb88e39d41092a39a",
+        "initiators": [],
+        "time": 0.008697000001120614
+      },
+      {
+        "url": "https://cdn.subscribers.com/assets/subscribers-sw.js",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "172.67.43.33",
+        "responseHeaders": {
+          "etag": "W/\"436095bf6ab0bbec9cd26c81edca9c7d\""
+        },
+        "responseBodyHash": "540e0e4fdec918ce75b9b45be3198c5617bd57800f222f6b30469c5f6f6ec815",
+        "initiators": [
+          "https://www.beat-it.nl/firebase-messaging-sw.js"
+        ],
+        "time": 0.021285000002535526
+      },
+      {
+        "url": "https://www.gstatic.com/eureka/clank/93/cast_sender.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/",
+        "status": 200,
+        "size": 15372,
+        "remoteIPAddress": "142.251.36.35",
+        "responseHeaders": {
+          "cache-control": "public, max-age=86400",
+          "expires": "Tue, 21 Dec 2021 03:57:59 GMT"
+        },
+        "responseBodyHash": "66b3a50b1f61027459efda3192f4265a316f43a8d770a7135c956bea688fe4d8",
+        "initiators": [
+          "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+        ],
+        "time": 0.008988000001409091
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 632,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:34:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6a86d5014d9c5211326e36df6b20e4a5e6c8f8d747869b2a8a8481cfc41d7a3b",
+        "initiators": [
+          "https://my.hellobar.com/modules.js"
+        ],
+        "time": 0.020294000001740642
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 710,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:34:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "30d00ad2b712b3ef4183332402f947d47e230ce1f155b689dc8442e8c4f12cd3",
+        "initiators": [
+          "https://my.hellobar.com/modules.js"
+        ],
+        "time": 0.01896399999895948
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 719,
+        "remoteIPAddress": "216.58.208.106",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:34:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "030f0f994a6147596ceec7f5c6964c4ce869919ee0e552794a16cfb7d272559f",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.020337000001745764
+      },
+      {
+        "url": "https://cdn.livechatinc.com/widget/static/js/0.6431dc2b.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 66439,
+        "remoteIPAddress": "23.62.99.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"15e27f46556d67b900141aab1f626143\"",
+          "expires": "Tue, 20 Dec 2022 15:34:43 GMT"
+        },
+        "responseBodyHash": "cd75d3da8083459ce2a2d32b5115a120479cc2fa95d4eeeb49b4eb1376c445d9",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.023195000001578592
+      },
+      {
+        "url": "https://cdn.livechatinc.com/widget/static/js/2.4331273e.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 63259,
+        "remoteIPAddress": "23.62.99.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"b69577055274511eb2f6ba3756d0d5ee\"",
+          "expires": "Tue, 20 Dec 2022 15:34:43 GMT"
+        },
+        "responseBodyHash": "2b05565e547ec6483577c71b13850828643b666e82530a7bea9debb24ed49f90",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.022676000000501517
+      },
+      {
+        "url": "https://cdn.livechatinc.com/widget/static/js/iframe.556bb54a.chunk.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 110335,
+        "remoteIPAddress": "23.62.99.145",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31536000",
+          "etag": "W/\"9b82e1da42ea8cb16f38fb9fd9fd84c0\"",
+          "expires": "Tue, 20 Dec 2022 15:34:43 GMT"
+        },
+        "responseBodyHash": "c7ef8888d9b3814c07b7f2f8f3cc77583d90813c2d01b503aa24cbbf22a0c242",
+        "initiators": [
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.028035999999701744
+      },
+      {
+        "url": "https://hn.inspectlet.com/ginit/290546635",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 447,
+        "remoteIPAddress": "104.22.56.245",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.beat-it.nl",
+          "cache-control": "no-cache",
+          "etag": "W/\"c2-Opu4C3LS+EtGZ6Nmm4NVug\""
+        },
+        "responseBodyHash": "1b8a02547e2772ac9e9f5185eb95fa54c0638f9805b0bf5283153aab6ce7573e",
+        "initiators": [
+          "https://cdn.inspectlet.com/inspectlet.js"
+        ],
+        "time": 0.20785699999760254
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosans/v21/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 10319,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:47:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f74e1b926fa6e226daa2130b10da4e6ae18dcbc0afddf157d06f0eb76e0f4583",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext&display=swap"
+        ],
+        "time": 0.022588999996514758
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosans/v21/o-0NIpQlx3QUlC5A4PNjXhFVZNyBx2pqPA.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 10143,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:57:52 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6fdccc1f660818886f24a7cfd42eb0cd0b6f0bd280960a058f1735cddeb0362e",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=latin-ext&display=swap"
+        ],
+        "time": 0.022549000001163222
+      },
+      {
+        "url": "https://widgets.trustedshops.com/assets/trustbadge.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 72124,
+        "remoteIPAddress": "52.222.139.84",
+        "responseHeaders": {
+          "cache-control": "max-age=3600",
+          "etag": "W/\"544b1fed04a3d1079173757f0d6f3783\""
+        },
+        "responseBodyHash": "3027c1bdb2c92c763fb4fb260614d87b8f45f046a05c3198cfc3caf833197863",
+        "initiators": [
+          "https://widgets.trustedshops.com/js/X5823CA779891CA066EBCDEDE9F208251.js"
+        ],
+        "time": 0.005929999999352731
+      },
+      {
+        "url": "wss://api.livechatinc.com/v3.3/customer/rtm/ws?license_id=2046681",
+        "type": "WebSocket",
+        "initiators": [
+          "https://cdn.livechatinc.com/widget/static/js/iframe.556bb54a.chunk.js",
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ]
+      },
+      {
+        "url": "https://accounts.livechatinc.com/customer/token",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://secure.livechatinc.com/",
+        "status": 200,
+        "size": 1267,
+        "remoteIPAddress": "23.5.164.91",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://secure.livechatinc.com",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "__lc_cid=dcde174c-d566-4379-7f19-9e0acfe302d3; Path=/v2/customer/token; Domain=accounts.livechatinc.com; Expires=Wed, 20 Dec 2023 15:34:43 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__lc_cst=f985042fb1e863aa317dce3c652449db3bc28d56c52c8ca10f0fd7b5a123eccaa7c369263f5cfea6259f6954a9811c5cb7c2a1339bd4d09e804cce927c56; Path=/v2/customer/token; Domain=accounts.livechatinc.com; Expires=Wed, 20 Dec 2023 15:34:43 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__lc_cid=dcde174c-d566-4379-7f19-9e0acfe302d3; Path=/customer/token; Domain=accounts.livechatinc.com; Expires=Wed, 20 Dec 2023 15:34:43 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__lc_cst=f985042fb1e863aa317dce3c652449db3bc28d56c52c8ca10f0fd7b5a123eccaa7c369263f5cfea6259f6954a9811c5cb7c2a1339bd4d09e804cce927c56; Path=/customer/token; Domain=accounts.livechatinc.com; Expires=Wed, 20 Dec 2023 15:34:43 GMT; Max-Age=63072000; HttpOnly; Secure; SameSite=None\n__oauth_redirect_detector=counter=1&t=1640014513&tag=cc5b2cb0359e848a24b4df1b8637b78e9fa417e9; Path=/; Expires=Mon, 20 Dec 2021 15:35:13 GMT; HttpOnly"
+        },
+        "responseBodyHash": "a4c5ff69ac1043d5c379a38729dafe696221305ac5f5ef5d036be3d74614a09d",
+        "initiators": [
+          "https://cdn.livechatinc.com/widget/static/js/0.6431dc2b.chunk.js",
+          "https://cdn.livechatinc.com/widget/static/js/iframe.556bb54a.chunk.js",
+          "https://secure.livechatinc.com/customer/action/open_chat?license_id=2046681&group=0&embedded=1&widget_version=3&unique_groups=0"
+        ],
+        "time": 0.3291239999998652
+      },
+      {
+        "url": "https://rum-collector-2.pingdom.net/img/beacon.gif?id=5363976eabe53df218a1be82&sAW=800&sAH=600&bIW=1440&bIH=812&pD=24&dPR=1&or=portrait-primary&nT=0&rC=0&nS=0&cS=13&cE=52&dLE=13&dLS=4&fS=1&hS=15&rE=-1&rS=-1&reS=52&resS=285&resE=288&uEE=-1&uES=-1&dL=292&dI=1746&dCLES=1746&dCLEE=1874&dC=4080&lES=4080&lEE=4088&s=nt&title=Beat-it.nl%20-%20online%20hardware%20en%20software%20kopen&path=https%3A%2F%2Fwww.beat-it.nl%2F&ref=&sId=i6pwq7b7&sST=1640014483&sIS=1&rV=0&v=1.4.1",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 213,
+        "remoteIPAddress": "3.248.239.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.inspectlet.com/inspectlet.js",
+          "https://rum-static.pingdom.net/pa-5363976eabe53df218a1be82.js"
+        ],
+        "time": 0.08440399999744841
+      },
+      {
+        "url": "wss://ws.inspectlet.com/",
+        "type": "WebSocket",
+        "initiators": [
+          "https://cdn.inspectlet.com/inspectlet.js"
+        ]
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.youtube.com/embed/1XcIblUMP7I",
+        "status": 200,
+        "size": 54,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "private",
+          "expires": "Mon, 20 Dec 2021 15:34:45 GMT",
+          "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+          "set-cookie": "CONSENT=PENDING+875; expires=Wed, 20-Dec-2023 15:34:45 GMT; path=/; domain=.youtube.com; Secure"
+        },
+        "responseBodyHash": "d7d5e54ad1e33d7ab49c664323ced79cb9723ff15e9764cd0edc3e15208e8336",
+        "initiators": [
+          "https://www.youtube.com/s/player/8da38e9a/player_ias.vflset/nl_NL/base.js",
+          "https://www.youtube.com/s/player/8da38e9a/www-embed-player.vflset/www-embed-player.js"
+        ],
+        "time": 0.015299000002414687
+      },
+      {
+        "url": "https://stats.fomo.com/stats/save",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 397,
+        "remoteIPAddress": "3.232.242.170",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://cdn.inspectlet.com/inspectlet.js",
+          "https://load.fomo.com/api/v1/y-8Cg1jKwbIBHWGjqFI-xQ/load.js",
+          "https://www.beat-it.nl/js/algoliasearch/internals/frontend/Function.prototype.bind.js",
+          "https://e.fomo.com/api/v1/js-obj/y-8Cg1jKwbIBHWGjqFI-xQ/events/events.js?lng=en"
+        ],
+        "time": 0.29164699999819277
+      },
+      {
+        "url": "https://maps.fomo.com/Baarn-Netherlands.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 10030,
+        "remoteIPAddress": "104.21.36.48",
+        "responseHeaders": {
+          "etag": "\"cd85c6c4aab6363097c37314e64cf085\""
+        },
+        "responseBodyHash": "fa0075f7096929be61a2b85e0a5dcba02c5f20e8042125e0277045cf1265d67c",
+        "initiators": [
+          "https://load.fomo.com/api/v1/y-8Cg1jKwbIBHWGjqFI-xQ/load.js",
+          "https://www.beat-it.nl/js/algoliasearch/internals/frontend/Function.prototype.bind.js",
+          "https://e.fomo.com/api/v1/js-obj/y-8Cg1jKwbIBHWGjqFI-xQ/events/events.js?lng=en"
+        ],
+        "time": 0.060420000001613516
+      },
+      {
+        "url": "https://hi.hellobar.com/v/EV6TGMuecEaBcsnLvuH8666-odkFiBy1GKjpj/fwRRrkmSX6vLf0HzRn9LOTU1UAUmRWcZFm-KIAdyp6RbCBguDxO4RwmKCDJbp70MFJmSE8K8FS?t=1640014488&v=e5526514-c756-4ec7-df57-d6acb7330ee3&f=i&s=77c86eba77ed89c7d36820d90734cabc827e2538d862f54f46d2c03a1d25e9fd73b00b686d1d1e9d4d36f9fee468d9b5d1edf4d790bb476b559ab64ac6979db8",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 358,
+        "remoteIPAddress": "65.9.83.72",
+        "responseHeaders": {
+          "etag": "\"c2196de8ba412c60c22ab491af7b1409\""
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://my.hellobar.com/modules.js"
+        ],
+        "time": 0.5607820000004722
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 39588,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:12:14 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ca24f09b21595b31c499523d7ee078eedf51d34e94ba7de325f469c8e21f6b0a",
+        "initiators": [
+          "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700"
+        ],
+        "time": 0.05626900000061141
+      },
+      {
+        "url": "https://hn.inspectlet.com/pdata?d=mr,741,undefined,undefined,undefined,undefined)s,741,0,0)cinmi,2413,366,)cinmi,2413,1386,Vm9lciB1dyBlLW1haWxhZHJlcyBpbg==)&w=290546635&r=3397316876&sid=1819837366&pad=1&dn=dn&fadd=true&oid=99823574&lpt=0&rrtn=1640014489717",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.beat-it.nl/",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "172.67.10.172",
+        "responseHeaders": {
+          "cache-control": "no-cache"
+        },
+        "responseBodyHash": "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+        "initiators": [
+          "https://cdn.inspectlet.com/inspectlet.js"
+        ],
+        "time": 0.22243199999866192
+      }
+    ]
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "initialUrl": "https://www.varuvo.nl/",
+  "finalUrl": "https://www.varuvo.nl/nl/",
+  "timeout": false,
+  "testStarted": 1640015018911,
+  "testFinished": 1640015034585,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.varuvo.nl/links.www.varuvo.nl_5047.json",
+    "requests": [
+      {
+        "url": "https://www.varuvo.nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.varuvo.nl/nl/",
+        "initiators": [],
+        "time": 0.02789600000323844
+      },
+      {
+        "url": "https://www.varuvo.nl/nl/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 6061,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"6227a359fa5d62a81a2b226b8f0c88f1\"",
+          "referrer-policy": "same-origin",
+          "set-cookie": "PHPSESSID=10651utp9omkk5250urod02she; path=/; secure; HttpOnly; SameSite=Strict"
+        },
+        "responseBodyHash": "202d70549dd7bf5774257f77df1f360a874223fc530be028f7ed37d5e1a45eb6",
+        "redirectedFrom": "https://www.varuvo.nl/",
+        "initiators": [],
+        "time": 0.013075999999273336
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/style-with-skeleton.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 2906,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"2a4d-5c79fe7f82892-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "19899b4fe1224eab509be3e9abc629b259dddc236346d68aa7e187ca558511ea",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.00967799999853014
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 34287,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"17b8b-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04293900000266149
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery-migrate-1.2.1.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 3593,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1c20-4f0273ede7600-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "c4d24f6b27cc7ceea56fbec786bb1f486fdad9a1f998f760f76d1f44671e105c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.02857399999993504
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.watermark.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 2332,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"135d-5771af1eb51f3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "37a67731e5d452edb691d4a8cafe39f353bd8bb42dc8b2eb1a2ea9f8e84c9ae7",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.02969699999812292
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/CookieJar.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1819,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"cb4-5c7b52606bd87-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "abfcb4064d03f21c55a859b5f51009e31a2ded58d8ade82f2975f0910aaef2d1",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.03010100000028615
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/I18N.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1178,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"620-5771af1eb51f3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "0d5fd522b768c31376f00ce7adef74a30241d64c64e84103ba7a275b79c3f3d9",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.03059199999916018
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/i18n/nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 708,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"112-5c7b52606cd27-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "4191d29698665d6be2a9a1b2679ebea61ee7ab74a579c0c88e6361fa0a110a1c",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04101799999989453
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/site.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 2560,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"12fc-5c7b52606ec67-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e4e127315323a1f9ee2ba98bdb1374c63d537c5efad87161284b41943fac933b",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04206100000010338
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/flexslider/flexslider.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 2075,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1ac3-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "8deee0b540605ab94da9ca751b82d156916cac666e2f277f3d447bb10b5df1ff",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.01444199999968987
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/flexslider/jquery.flexslider-min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 6947,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"573e-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "8b2c3d7393c0c588c830ba08b65816fd313fc7e0095948423aaa45205196f6bf",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04706599999917671
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/index.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1187,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"9d1-55bbee0eae993-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "3a52a983422a7a53b77affc017edfb4331436f5702d68457f0ac066f6b57e6e0",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.014293999996880302
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/jquery.cookie.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1204,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"505-5771ad7521d6e-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "cec15a7b8154ec3ca9e3969429cbac4d5c829502f1ac2f748304fe781f66611d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04467899999872316
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/cookiecuttr/cookiecuttr-custom.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1130,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"8e6-5597eb722e6f2-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "47f6d1f55ff87ef2c167e5a66934338e60b5805e9a24c26eb50c9640418bcfc6",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.023425999999744818
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/cookiecuttr/jquery.cookiecuttr.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 2151,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1793-5771ad7520dcf-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "013f5b4be588408c415c32abb1a666dd85d38ddf669b4ae488ada060555894aa",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04478999999992084
+      },
+      {
+        "url": "https://www.varuvo.nl/include/img/flags/nl_checked.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1594,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"470-5771ad7520dcf\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "e36308b8948b9518c32c47bdc1833cf8047a6913380e0aec9d5ab8f6d5eea311",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.09576000000015483
+      },
+      {
+        "url": "https://www.varuvo.nl/include/img/flags/fr.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 1486,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"404-5771ad7520dcf\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "71b23055bb2ce2096229ca420f20374d41e4de44785799a196faf48edd13515e",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.0964879999992263
+      },
+      {
+        "url": "https://www.varuvo.nl/include/skin/img/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 5048,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"11ed-55903feb3d879\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "1a7a31e3f3b7a5beb6b4039ee8f7cd2b59936aaab49ab86635c0e5abaf0341ea",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.10740300000179559
+      },
+      {
+        "url": "https://www.varuvo.nl/media/Slider/HP-Fijne_feestdagen-XLbanner-EJH-08122021.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 212651,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"33cdd-5d390fe95bec8\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "43c171d76e30d76011be0594311324b884eba87f05134228731f18719deb174b",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.11390799999935552
+      },
+      {
+        "url": "https://www.varuvo.nl/media/HomePromo/Solaray-CranActin-promobanner-EJH-20122021.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 133034,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"205dc-5d39102b9f268\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "99cb3ee25230105e3e201598cb2d1bd78161462e160a5b2fa7823ea35bb260c4",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.11018100000001141
+      },
+      {
+        "url": "https://www.varuvo.nl/media/HomeTriplet/lavera-sleeping-giftset-nieuwsblokje-EJH-06122021.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 53456,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"cf04-5d27a4b855bca\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "ea5ac02ef1645712bb60740d204b88c18dc4bfdd50f284008cbf4a87e90256b7",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.10430099999939557
+      },
+      {
+        "url": "https://www.varuvo.nl/media/HomeTriplet/LouPrunel-chocolade-nieuwsblokje-EJH-20122021.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 84057,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"1468c-5d391869c5598\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "cf9bd45012c29f2f29c6715187c47e9a13eb74e6d2fc9a6d73c07336a7b79b9d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.10870000000068103
+      },
+      {
+        "url": "https://www.varuvo.nl/media/HomeTriplet/Idyl-VochtigToiletpapier-nieuwsblokje-EJH-20122021.png",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 48382,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"bb32-5d39194900f74\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "d018718b0742a83af394c52a49b0789185ef22f9e1a4ada49f0aaf5224f51f7e",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.10817099999985658
+      },
+      {
+        "url": "https://www.varuvo.nl/media/Content/19/pandfoto_varuvo.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 41051,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"9e8e-4dfb310cf3e40\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "9aa52c24e2bc3417769e65cb3d99060a8e258f176dfe550de6f0487629276210",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.11853400000109104
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/print.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 622,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"7f-5597eb70f6ec2-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "7ef81d320d50611374d5108c079a18b503672bd9deddee33cf308bd8602fc30f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.11710500000117463
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/0800-0967.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 803,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"218-5b5e891ea1f53-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "25f08ff81ca61d51b5f110700e55ba3bc99edd94ac56cab8024d39bdc8094b95",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.03815300000132993
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/0968-1023.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 762,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"19e-5b5e8921e6df3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "374990f622b99592c93e4a5f09a80a0ae5599c16d944f8395837defd09e9a03d",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.03816799999913201
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/adaptive/1024-1279.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/nl/",
+        "status": 200,
+        "size": 757,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"18e-5b5e859e491d3-gzip\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "6fbd36d6a359efa7ba584a2035ba52f207ff6a3e0f5ad6606c59e716d4acee9f",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.037447000002430286
+      },
+      {
+        "url": "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Mon, 20 Dec 2021 16:18:02 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://static.zdassets.com/ekr/asset_composer.js",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.1592610000006971
+      },
+      {
+        "url": "https://www.varuvo.nl/r46/include/jquery/flexslider/fonts/flexslider-icon.woff",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "same-origin",
+        "referer": "https://www.varuvo.nl/r46/include/jquery/flexslider/flexslider.css",
+        "status": 200,
+        "size": 1726,
+        "remoteIPAddress": "13.80.112.113",
+        "responseHeaders": {
+          "etag": "\"4f4-5771ad7521d6e\"",
+          "referrer-policy": "same-origin"
+        },
+        "responseBodyHash": "6fa8188fe1051f976de9090408e8749daac1e388df4b2b52c5a929951f4c575d",
+        "initiators": [
+          "https://www.varuvo.nl/r46/include/jquery/flexslider/flexslider.css"
+        ],
+        "time": 0.04449200000090059
+      },
+      {
+        "url": "https://static.zdassets.com/ekr/asset_composer.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 6339,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "cache-control": "public, max-age=3600, s-maxage=60",
+          "etag": "W/\"cc904f41324148b571599b3b02fdec0b\""
+        },
+        "responseBodyHash": "16cc547456ffa0052c3679e6c5ece2e14ad57c92b93562deb7bcb5829b7afcb7",
+        "redirectedFrom": "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "initiators": [
+          "https://www.varuvo.nl/nl/"
+        ],
+        "time": 0.04187399999864283
+      },
+      {
+        "url": "https://ekr.zdassets.com/compose/zopim_chat/2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 904,
+        "remoteIPAddress": "104.18.72.113",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=600, public, s-maxage=60, stale-while-revalidate=600, stale-if-error=3600",
+          "etag": "W/\"e9d01a7ad99186f1a9a6a82323156dd4\""
+        },
+        "responseBodyHash": "e9d01a7ad99186f1a9a6a82323156dd4337e7182d50754b5f64d71af7cbd0e4e",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.24193300000115414
+      },
+      {
+        "url": "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 302,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "max-age=14400\nmax-age=14400, public, must-revalidate, proxy-revalidate",
+          "etag": "\"5ee9874c-0\"",
+          "expires": "Mon, 20 Dec 2021 19:43:39 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://v2.zopim.com/bin/v/widget_v2.329.js",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.0211459999991348
+      },
+      {
+        "url": "https://v2.zopim.com/bin/v/widget_v2.329.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 249623,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "W/\"5ee087b5-102db5\"",
+          "expires": "Thu, 18 Dec 2031 15:43:39 GMT"
+        },
+        "responseBodyHash": "16b857516acd23561758c98ebe75b2a49731a0052fbaffa8918dfe22e8ba3fff",
+        "redirectedFrom": "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2",
+        "initiators": [
+          "https://v2.zopim.com/?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.047290000002249144
+      },
+      {
+        "url": "wss://widget-mediator.zopim.com/s/W/ws/qfDyqWCB2LeAkaad/c/1640015019828",
+        "type": "WebSocket",
+        "initiators": [
+          "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ]
+      },
+      {
+        "url": "https://v2.zopim.com/lib/20200610.071112/__$$__stringtable_lang_nl.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "same-origin",
+        "referer": "",
+        "status": 200,
+        "size": 2200,
+        "remoteIPAddress": "104.16.107.139",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000",
+          "etag": "W/\"5ee087b3-1786\"",
+          "expires": "Thu, 18 Dec 2031 15:43:39 GMT"
+        },
+        "responseBodyHash": "520bb68f4006f6aac151578b09e41e429ded957daed4541960bdef94e4690b2c",
+        "initiators": [
+          "https://v2.zopim.com/w?2hKbpApz6erFju4gNFfSfyMgBusAfIn2"
+        ],
+        "time": 0.013586000000941567
+      }
+    ]
+  }
+}

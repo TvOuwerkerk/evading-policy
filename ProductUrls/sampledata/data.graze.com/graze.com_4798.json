@@ -1,0 +1,1792 @@
+{
+  "initialUrl": "https://graze.com/",
+  "finalUrl": "https://nl.graze.com/",
+  "timeout": false,
+  "testStarted": 1640012588679,
+  "testFinished": 1640012605792,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.graze.com/links.graze.com_4798.json",
+    "requests": [
+      {
+        "url": "https://graze.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "52.222.139.91",
+        "responseHeaders": {},
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.graze.com/",
+        "initiators": [],
+        "time": 0.054782999999588355
+      },
+      {
+        "url": "https://www.graze.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 302,
+        "remoteIPAddress": "13.227.219.113",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "GRZWEBSESSID=g4f83bub393ar7ksd88snsebfa; path=/; secure; SameSite=None\nGRZWEBSESSID=58ns9m9flsmmas92km2thbmiq0; path=/; secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://nl.graze.com/",
+        "redirectedFrom": "https://graze.com/",
+        "initiators": [],
+        "time": 0.316277000001719
+      },
+      {
+        "url": "https://nl.graze.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 19781,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Tue, 20 Dec 2022 15:03:09 GMT; secure; HttpOnly\n_tracking_consent=%7B%22lim%22%3A%5B%22GDPR_BLOCK_ALL%22%5D%2C%22reg%22%3A%22GDPR%22%2C%22v%22%3A%222.0%22%2C%22con%22%3A%7B%22GDPR%22%3A%22%22%7D%7D; Expires=Tue, 20-Dec-22 15:03:09 GMT; Domain=graze.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "cded8c17e63ca6d4d6831063d992e0320ec4484638921792a0461e23e22c0a98",
+        "redirectedFrom": "https://www.graze.com/",
+        "initiators": [],
+        "time": 0.17567699999926845
+      },
+      {
+        "url": "https://use.fontawesome.com/releases/v5.1.1/css/all.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 10780,
+        "remoteIPAddress": "172.67.214.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "W/\"597b70b2ce6b1483f72526c906918fe9\""
+        },
+        "responseBodyHash": "d98121a51ed3f911f519cf42be28225dc26b4c9d61cfab0a580118e5c3447463",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.06038300000000163
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/layout.theme.css?v=4419401416846463512",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 216266,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:04:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "eef8ac8b4eb8a864586adb263bc305fc07d73266555dba846482478e5d678adf",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.0504609999989043
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/layout.theme.styleLiquid.scss.css?v=7578950870606330527",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 451,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:04:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "339cf8a88b8becbc99df39b62d5c7d3d7dc62732393f422c6e70d69b450ce65a",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.017262000001210254
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/rivets-cart.min-0.4.1.js?v=2042788592209029039",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 10289,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:04:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ef3d5665835513e9c4f20acdc3101baba319ccafb9798be5588707fec99e902c",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.020173000000795582
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/lazysizes.min.js?v=17126771171448792324",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 3507,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:04:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "57630d6601089cdd640f668d1d112dfd022bb298aa480e1c0f0e52bbaf8e2856",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.01863000000230386
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 3534,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.014290999999502674
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 3561,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.08626799999910872
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 12603,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.12098100000002887
+      },
+      {
+        "url": "https://ro.boldapps.net/v2_ui/js/ro.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 117042,
+        "remoteIPAddress": "104.16.109.18",
+        "responseHeaders": {
+          "cache-control": "public, max-age=43200",
+          "etag": "\"677bd-5d31de8a20d80-gzip\"",
+          "expires": "Tue, 21 Dec 2021 03:03:09 GMT",
+          "set-cookie": "__cf_bm=xjgLrS.7RsSYy9aIMcOI8FMYymumEDC5HftlFPBgj9I-1640012589-0-AfoY4M2CgS+WQxaZ6Vq6j7ntDVGWQoOGnkzmfktgCG+y2F8G2jb8CBK0fch07PkJw4Czi2wvcSieBC4c7J34o4w=; path=/; expires=Mon, 20-Dec-21 15:33:09 GMT; domain=.boldapps.net; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": "f277f41a24abc1cc7b652efc0cf383b827cbf2287f88d698f6aee4bbf364ca85",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.09098900000026333
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/netherlands.svg?v=1584632808",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 537,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 24 Nov 2022 06:12:34 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "8c96f8989f233f19c166ae32aaee325ecb806517b8217e4911ecd72640c848e3",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.14073600000119768
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/ireland.svg?v=1584632809",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 867,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sun, 06 Nov 2022 13:58:46 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "40ae35564a2ccf80237ab42a0836f039f4ca0c211d7e502804104e6f37d3b76c",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.14171900000292226
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/united-kingdom.svg?v=1584632808",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 886,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:59:26 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "4e84a74845bdf84a988f2de889cc7b6230ea8b48a85bdb395600e0f704ea0034",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.2868909999997413
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0558/6118/2631/files/germany.svg?v=1630071157",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 946,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 04:54:30 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "7e50b4820e3426809d856f726ec098620d550cad82ad2b3683988bcb2dbfff1c",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.2965120000008028
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/4punnet-topdown-openbox-Variety_Square_75-x75-v2_767x.jpg?v=1576767213",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 91778,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Wed, 07 Dec 2022 11:54:38 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "229ff66b227d6f7edcf2282202ddf4c532e6914bf631a7b4de34d1857028645f",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.33456999999907566
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/ChocolateVanilla_ProteinBites_Carton_750x750_b8222eff-026e-4372-ba4a-486f968ce326_767x.jpg?v=1609946970",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 106338,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 24 Nov 2022 06:12:35 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0ca8b52e1fe443d12c1c83af9b62fafb80feddfd5e92d68f12619d80566c4dd6",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3237619999999879
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/Salt_Pepper_VPP_SharingBag_960x960_d78db7b7-be7a-4f70-9aa2-c1728a4ea05c_767x.jpg?v=1610639391",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 106034,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 11 Nov 2022 05:59:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a1351a096cd643d621d2eacc88db95695cd050dcfeddcd46f51dbde5a3859c8e",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.32599999999729334
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MWR4WZZ",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 56493,
+        "remoteIPAddress": "142.250.179.168",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:03:09 GMT"
+        },
+        "responseBodyHash": "0bda2df710b182596d770aba81b8c9fda4a338f292d8dc0204db985d2dc1f779",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.34554800000114483
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/Gifting_WebsiteHeader_NL_1-05_767x.jpg?v=1604508021",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 56406,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 19:14:15 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c16935520e72da39cd7c020bc439eb8154d961d69f0d26732bbfd46cb89d4339",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3215719999971043
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/4punnet-topdown-openbox-Variety_Square_75-x75.jpg?v=1566992647",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 94898,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 21:38:27 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a8c494beaf9bbe89ec06ff5c9ef446a12ec7a333e6a1b981ab954fc4d0565d51",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3809430000001157
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/4punnet-topdown-openbox-Sweet_backup_LBFJ_960x960_9ca67c0c-d779-41f8-8d7b-4118ac778b2e.jpg?v=1601309258",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 121121,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 02 Dec 2022 17:39:45 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "d213412df40909f3cb2a9797090b44ebe981449fe39880b14c47ec9c21646214",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3228549999985262
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0099/9037/3472/files/4punnet-topdown-openbox-Savoury_backup_750x750_de540331-c9d1-4505-a3cb-bbdcc77b5feb.jpg?4473",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 91128,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 08:19:33 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "acfa74884f214ef7f3506a7d7252bfd4b17d3b98de7fb5a49f4e57196dce63b2",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3245549999992363
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/vendors@layout.theme.js?v=12078321145138167519",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 149880,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:04:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "5ff0d559bd5dccb044fd6e9bd81563b1277880d07d0bece600cf6862b439de6d",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3276130000012927
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/layout.theme.js?v=5453289070514552679",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 15810,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:04:32 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "12e27955bb72f50c423b0ef9b6667792980c86ea36bbe8dfce7d29e7654da305",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.3091519999979937
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/B-Corp-Logo-Black.png?8630",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 4960,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Tue, 13 Dec 2022 15:06:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "42404921fc8a28646b186140b92dab2973d886a294471d225fda7440abf3d096",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.28487500000119326
+      },
+      {
+        "url": "https://ro.boldapps.net/api_public/translations?_=1&shop_url=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 404,
+        "remoteIPAddress": "104.16.109.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=43200",
+          "expires": "Tue, 21 Dec 2021 03:03:09 GMT",
+          "p3p": "CP=\"NON DSP LAW CUR ADM DEV TAI PSA PSD HIS OUR DEL IND UNI PUR COM NAV INT DEM CNT STA POL HEA PRE LOC IVD SAM IVA OTC\"",
+          "pragma": "no-cache",
+          "set-cookie": "__cf_bm=k8QdF0VPmDdXnoh3d3AfXzTysUju.KFmf9XktxoHUDc-1640012589-0-Ae1pb2ya6swAPbGHlTeeUTGdK2de3lyzI/zJ+YGllId8ibTmOUlyyiS/5faGFng9Kw4NlfNLdYP8K6hxFywZVOo=; path=/; expires=Mon, 20-Dec-21 15:33:09 GMT; domain=.boldapps.net; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://ro.boldapps.net/v2_ui/js/ro.js"
+        ],
+        "time": 0.3238549999987299
+      },
+      {
+        "url": "https://ro.boldapps.net/api_public/recurring_cart_settings?_=1&shop_url=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 404,
+        "remoteIPAddress": "104.16.109.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=43200",
+          "expires": "Tue, 21 Dec 2021 03:03:09 GMT",
+          "p3p": "CP=\"NON DSP LAW CUR ADM DEV TAI PSA PSD HIS OUR DEL IND UNI PUR COM NAV INT DEM CNT STA POL HEA PRE LOC IVD SAM IVA OTC\"",
+          "pragma": "no-cache",
+          "set-cookie": "__cf_bm=_25xUMMNvnBC1cvl6NLX8n5MzthT7B.CEqs9BqJefEs-1640012589-0-AYlWWacSKtsYlNqFYOCVBIJeJk/K2k2F28aQxGJ2259s6TvE8X38Whe13XdBJB8wU9ZsIA28ZVtIgSi+cm7BXpg=; path=/; expires=Mon, 20-Dec-21 15:33:09 GMT; domain=.boldapps.net; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://ro.boldapps.net/v2_ui/js/ro.js"
+        ],
+        "time": 0.38100199999826145
+      },
+      {
+        "url": "https://nl.graze.com/cart.json",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 493,
+        "remoteIPAddress": "23.227.38.74",
+        "responseHeaders": {
+          "set-cookie": "secure_customer_sig=; path=/; expires=Tue, 20 Dec 2022 15:03:09 GMT; secure; HttpOnly\n_tracking_consent=%7B%22reg%22%3A%22GDPR%22%2C%22v%22%3A%222.0%22%2C%22con%22%3A%7B%22GDPR%22%3A%22%22%7D%2C%22lim%22%3A%5B%22GDPR_BLOCK_ALL%22%5D%7D; Expires=Tue, 20-Dec-22 15:03:09 GMT; Domain=graze.com; Path=/; SameSite=Lax"
+        },
+        "responseBodyHash": "3acf78ce3806c77d6412ff88a8a5918e25153f053833ffaf0b03c9f00c014ae7",
+        "initiators": [
+          "https://ro.boldapps.net/v2_ui/js/ro.js"
+        ],
+        "time": 0.14901599999939208
+      },
+      {
+        "url": "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 16485,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Thu, 15 Dec 2022 16:30:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "f8bab8aa4042ca7b45b599e7d4e496146ebf1b45aabb8ff96ad79393ebd10840",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.04354500000044936
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 2769,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31556952, immutable",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.03294299999834038
+      },
+      {
+        "url": "https://use.fontawesome.com/releases/v5.1.1/webfonts/fa-solid-900.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://use.fontawesome.com/releases/v5.1.1/css/all.css",
+        "status": 200,
+        "size": 60444,
+        "remoteIPAddress": "172.67.214.69",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=31556926",
+          "etag": "\"e8a92a29978352517c450b9a800b06cb\""
+        },
+        "responseBodyHash": "3e7fde92aeac9065e4762b4976af475fb064111a492811222af6ff71c715b4f9",
+        "initiators": [
+          "https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        ],
+        "time": 0.17309499999828404
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/sofiapro-regular-webfont.woff2?8630",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 26306,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Tue, 13 Dec 2022 15:06:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "98e609e0ae5517b304edf9ac0303a567eb8a06d40ca92d7ad750316cfcf167c2",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.12439200000153505
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/sofiapro-bold-webfont.woff2?8630",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 26672,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Tue, 13 Dec 2022 15:06:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "c20204a22da980c619389058322b7cf82765b520d7d37cced999aeb1b3ffeba3",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.12223499999890919
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/home_page_banner_desktop_1408x.jpg?v=1564995245",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 68761,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 18 Nov 2022 08:45:51 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3ab9a41d02d092bda8a22ceb69ab4aacdaa2ccc34fcf62fdbf493b4850fd1069",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.008977000001323177
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/ChocolateVanilla_ProteinBites_Carton_750x750_b8222eff-026e-4372-ba4a-486f968ce326_1408x.jpg?v=1609946970",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 106025,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Sat, 10 Dec 2022 08:16:01 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "0ca8b52e1fe443d12c1c83af9b62fafb80feddfd5e92d68f12619d80566c4dd6",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.012141999999585096
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/Salt_Pepper_VPP_SharingBag_960x960_d78db7b7-be7a-4f70-9aa2-c1728a4ea05c_1408x.jpg?v=1610639391",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 106029,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Fri, 04 Nov 2022 06:05:59 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a1351a096cd643d621d2eacc88db95695cd050dcfeddcd46f51dbde5a3859c8e",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.014259999999922002
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/files/Gifting_WebsiteHeader_NL_1-02_1408x.jpg?v=1604508103",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 65075,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 09:10:09 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3343884fdd339df9a544cef266c8f0d811e40a6552ed04bb9764b1f7ca446a14",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.012071000001014909
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/template.cart.js?v=13341728587034043491",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 6263,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:12:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.02267099999880884
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/template.gift_card.js?v=4821513949726694709",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1228,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:12:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.034648000000743195
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/template.product.js?v=18425036037485441212",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 2333,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:12:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.03467100000125356
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/template.addresses.js?v=18271190672174053646",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1798,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:12:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.03474199999982375
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/template.login.js?v=2120436057761683419",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1138,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:12:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.034720999999990454
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/template.register.js?v=14195539945337795033",
+        "method": "GET",
+        "type": "Other",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 804,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Thu, 08 Dec 2022 13:12:12 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.03664700000081211
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0062/9089/9015/t/79/assets/sofiapro-light-webfont.woff2?8630",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 26261,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31557600",
+          "expires": "Tue, 13 Dec 2022 15:06:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "6d95ad9038475071054ee01fc061388b9e4be6fd67af1d3c7a6c60b723d6d9a3",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.0994440000031318
+      },
+      {
+        "url": "https://ro.boldapps.net/api_public/css?_=1&shop_url=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 404,
+        "remoteIPAddress": "104.16.109.18",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=43200",
+          "expires": "Tue, 21 Dec 2021 03:03:10 GMT",
+          "p3p": "CP=\"NON DSP LAW CUR ADM DEV TAI PSA PSD HIS OUR DEL IND UNI PUR COM NAV INT DEM CNT STA POL HEA PRE LOC IVD SAM IVA OTC\"",
+          "pragma": "no-cache",
+          "set-cookie": "__cf_bm=e8lak3SISNv_tpURZe2D7M1beEh5kOQ9uWH.7_Sa31I-1640012590-0-ARFoa2qQGL071dn5SX3MLkxHZefdXGX15rtzwQzvQrMHYvP0R7CUnqDwgu7njz8QNyBsH4U1rE4Z9xRfR5k1Alg=; path=/; expires=Mon, 20-Dec-21 15:33:10 GMT; domain=.boldapps.net; HttpOnly; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://ro.boldapps.net/v2_ui/js/ro.js"
+        ],
+        "time": 0.16554499999983818
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js"
+        ],
+        "time": 0.32789799999954994
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1832,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=1800, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "895a9abb219fd2af30ad07d7ed904c321249fa5d6a7cf966e69586443ff2ebca",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js",
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js"
+        ],
+        "time": 0.0036869999967166223
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/landing?gcs=G100&gcd=G100&rnd=1624445385.1640012590&url=https%3A%2F%2Fnl.graze.com%2F&gtm=2wgc10MWR4WZZ",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.194",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MWR4WZZ"
+        ],
+        "time": 0.03812400000242633
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 15:13:47 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MWR4WZZ"
+        ],
+        "time": 0.012051999998220708
+      },
+      {
+        "url": "https://www.google-analytics.com/gtm/js?id=GTM-MTHRCW2&t=gtm5&cid=700360044.1640012590",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 39279,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:03:10 GMT"
+        },
+        "responseBodyHash": "2b77a98fbfa7e127ebab6b3ec768040894c9ab6f2b11158674c171de603b9d97",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.03301800000190269
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 472,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.18876599999930477
+      },
+      {
+        "url": "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 17768,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=31536000, max-age=3600, must-revalidate",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "886430890562cc216ae31a8047f07542f8df8c11f9465f9b08a8dd2da529ac9a",
+        "initiators": [
+          "https://nl.graze.com/",
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.005417999997007428
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://nl.graze.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.11066900000150781
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://nl.graze.com/",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1579760000022361
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.1579280000005383
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=452633395&t=pageview&_s=1&dl=https%3A%2F%2Fnl.graze.com%2F&ul=en-us&de=UTF-8&dt=graze%20Netherlands&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=aGgAAAADQ~&cid=700360044.1640012590&tid=UA-3508908-18&_gid=150986010.1640012591&gtm=2wgc10MWR4WZZ&gcs=G100&did=BwiEti&z=1817698678",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "216.58.214.14",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-MWR4WZZ",
+          "https://www.google-analytics.com/gtm/js?id=GTM-MTHRCW2&t=gtm5&cid=700360044.1640012590",
+          "https://nl.graze.com/",
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.013118999999278458
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/unstable/produce_batch",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 473,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/s/trekkie.storefront.6967fb130a629a5a38a7939e6f3366da4c6e3e41.min.js",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-7e72fb4d14f06d60c57306b80dc146f0ecdbe4e4c0941f4f3537bee4d54314af.js"
+        ],
+        "time": 0.15219100000103936
+      },
+      {
+        "url": "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 3526,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "24e18e9ce5bd2380dd58a8c0e50a49b621393daa696515fe18c4643ce2150755",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.006723999998939689
+      },
+      {
+        "url": "https://s3.amazonaws.com/pixelpop/usercontent/scripts/731f2aa7-8a6d-4d19-8074-fa5056abd893/pixelpop.js?shop=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 28513,
+        "remoteIPAddress": "3.5.8.165",
+        "responseHeaders": {
+          "cache-control": "max-age=5",
+          "etag": "\"5b556a4f98779ea91c454afb4853f6c9\""
+        },
+        "responseBodyHash": "9060b2054758e83e3ba349995aa4171ac3352de69f057b132c37e3e1962b6a12",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.46257300000070245
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1393,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=1, stale-while-revalidate=10800",
+          "etag": "W/\"193f801ef3947dea249564edc067dade\""
+        },
+        "responseBodyHash": "05ce9ac8297e77fbe5b1dad333195bc1ec31272f1bea23dc913509f121aaf8ef",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.02511699999740813
+      },
+      {
+        "url": "https://instafeed.nfcube.com/cdn/9a1d3d0b57b3e778894c11a9fa55556d.js?shop=graze-nl-live.myshopify.com",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 6338,
+        "remoteIPAddress": "172.67.166.61",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "W/\"61488859-404b\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "ac3484d0a479b466cf66bade085eef0d694f05d448e812bd93c4008b94d57c5e",
+        "initiators": [
+          "https://nl.graze.com/"
+        ],
+        "time": 0.04077999999935855
+      },
+      {
+        "url": "https://productreviews.shopifycdn.com/assets/v4/spr-36ddd039ebeda1037e29d170fb1f249ad3ca8fef35f0fcfbe34accc286592f7d.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 8435,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=315360000, public",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "36ddd039ebeda1037e29d170fb1f249ad3ca8fef35f0fcfbe34accc286592f7d",
+        "initiators": [
+          "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.02958099999887054
+      },
+      {
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 33686,
+        "remoteIPAddress": "142.251.36.42",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000, stale-while-revalidate=2592000",
+          "expires": "Tue, 20 Dec 2022 12:30:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "89a15e9c40bc6b14809f236ee8cd3ed1ea42393c1f6ca55c7855cd779b3f922e",
+        "initiators": [
+          "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.04966000000058557
+      },
+      {
+        "url": "https://instafeed.nfcube.com/cdn/instafeed-4.6.1.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 3524,
+        "remoteIPAddress": "172.67.166.61",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "W/\"612fbf32-2adb\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "e23d226f52c51d127c91febe3f7dd86d6c0f583d0a99490463cfe1386d34880f",
+        "initiators": [
+          "https://instafeed.nfcube.com/cdn/9a1d3d0b57b3e778894c11a9fa55556d.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.14306800000122166
+      },
+      {
+        "url": "https://instafeed.nfcube.com/feed/v4?charge=0&fu=0&limit=6&account=graze-nl-live.myshopify.com&fid=0&hash=52d4351bce0f7e5d7790e948f0e07998&callback=cache.parse",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 3862,
+        "remoteIPAddress": "172.67.166.61",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com",
+          "cache-control": "max-age=432000, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "33e0ed4c04052d6e3daba827ff7674f53c104ea63971dd1f2868a8e5be8a71a7",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://instafeed.nfcube.com/cdn/9a1d3d0b57b3e778894c11a9fa55556d.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.05597900000066147
+      },
+      {
+        "url": "https://instafeed.nfcube.com/assets/img/loader.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1417,
+        "remoteIPAddress": "172.67.166.61",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "\"5c6c85ba-2d3\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "de7a91a4d5006aa2de04bc54e006a74133b9939caabf4e71c673a6c9d2771e8c",
+        "initiators": [
+          "https://instafeed.nfcube.com/cdn/9a1d3d0b57b3e778894c11a9fa55556d.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.08451400000194553
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.009430bd0388ae665660.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 8001,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"c11381afe9fcca1c695323eead4535bb\""
+        },
+        "responseBodyHash": "819fb4bdfb582198a44322be6e6196440c865cd7d5591580cd823ea56b62eee0",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.04758800000126939
+      },
+      {
+        "url": "https://static-tracking.klaviyo.com/onsite/js/static.3d1ceb4ad27266b4a02f.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 5755,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"bac95b82bc8ff48e1991af0fab6ccaad\""
+        },
+        "responseBodyHash": "cbccd303816dffa7582f05c4bb5da00228c6bc2865feb8822b506a628ec6bb69",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.04814599999735947
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 9731,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"19a7fdd374429418b6912c2497585cae\""
+        },
+        "responseBodyHash": "3eac6b6ca0df419caa2b1951fef60f59bd036969221bc6d3d9784c5ba5d9a062",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.03260700000100769
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/sentry.3770b81f534eb4a7afe1.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 14101,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"ed55aff052cb09a4e554b42b64e82183\""
+        },
+        "responseBodyHash": "a5053567e6cb48aeb3cde3c48c745ef891dd0ea20ee643561facd301d24c9085",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.03405199999906472
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 26940,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"2b542062cf797a3dc8d39a70c908c1f3\""
+        },
+        "responseBodyHash": "734da59b103f4a149a31ee867326053d1452ba189ce9cf275b65da04a3dec622",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.03814799999963725
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 32561,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"e02ab9ba2ac26cda67dfc57e4905e7bd\""
+        },
+        "responseBodyHash": "f3646a6642927b6c41fe63fe146a7ce7e27075ff6b7ad6a056a7f4b7c65975c4",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=MqqHWA&shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.03953900000124122
+      },
+      {
+        "url": "https://instafeed.nfcube.com/assets/img/pixel.gif",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 703,
+        "remoteIPAddress": "172.67.166.61",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "\"5c23c58e-2f\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "263a7dd176cd23f3bec7c8e713f0de76edad8359efcc0210c0945cdbd741cf92",
+        "initiators": [
+          "https://instafeed.nfcube.com/cdn/9a1d3d0b57b3e778894c11a9fa55556d.js?shop=graze-nl-live.myshopify.com",
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js"
+        ],
+        "time": 0.09014200000092387
+      },
+      {
+        "url": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=MqqHWA",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 369,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=10"
+        },
+        "responseBodyHash": "53a85651866852f33fcaf1ee1eff6e5002e8dfe32e4dd49187007b3a7c1367ea",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js"
+        ],
+        "time": 0.021630999999615597
+      },
+      {
+        "url": "https://static-forms.klaviyo.com/forms/api/v5/MqqHWA/full-forms",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 2101,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=5",
+          "etag": "\"b660d428bde7bde112a12861904ad294\""
+        },
+        "responseBodyHash": "10aecfca56a67100ebf0cbfee49487420db3052c2c4c315337038debea536520",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js"
+        ],
+        "time": 0.019861000000673812
+      },
+      {
+        "url": "https://instafeed.nfcube.com/assets/img/instagram-icon.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://instafeed.nfcube.com/cdn/instafeed-4.6.1.css",
+        "status": 200,
+        "size": 1221,
+        "remoteIPAddress": "172.67.166.61",
+        "responseHeaders": {
+          "cache-control": "public, max-age=315360000, must-revalidate, proxy-revalidate",
+          "etag": "W/\"5c7a4115-470\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "1293ec561da95517c4e8efd53cbe9f4614582f92285abf69323622fc80eb9a87",
+        "initiators": [
+          "https://instafeed.nfcube.com/cdn/instafeed-4.6.1.css"
+        ],
+        "time": 0.01975999999922351
+      },
+      {
+        "url": "https://productreviews.shopifycdn.com/proxy/v4/reviews/badges?callback=badgesCallback6608529162378660435986036265741218121066613797372042&shop=graze-nl-live.myshopify.com&product_ids%5B%5D=6608529162378&product_ids%5B%5D=6604359860362&product_ids%5B%5D=6574121812106&product_ids%5B%5D=6613797372042",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 1043,
+        "remoteIPAddress": "151.101.65.12",
+        "responseHeaders": {
+          "cache-control": "max-age=30, public",
+          "etag": "W/\"24d3445369307852a75c200a5e0cd041\"",
+          "p3p": "CP=\"Shopify does not support P3P.\"",
+          "referrer-policy": "origin-when-cross-origin"
+        },
+        "responseBodyHash": "a8dd8f44246b7382d6f533e65dff40614d16021cbc693f094193f8af3c5b2187",
+        "initiators": [
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+          "https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.0896599999978207
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/10.a5540beb560761e98c07.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 6230,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"d81c579d9d0d515f6b4f9cac22f6df66\""
+        },
+        "responseBodyHash": "060aa039254100972be6df136759368ffcd55ae444e3814d20f3a227a7635e2b",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.004206000001431676
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/styles.491ee6ad1b38c37fd1c3.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 442,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"b552682f08c5bf0d01b38a3ea2acf969\""
+        },
+        "responseBodyHash": "18f6835457e4c0628e659f410b3f3762b0b0b8a4eda929e991bfdcf5a293ae4d",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.004460000000108266
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/vendors~Render.f4a2f7cb46558f56344b.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 13328,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"d0d8268e3612519e63d07e7b7ec8e848\""
+        },
+        "responseBodyHash": "73a31a8d1c7bd2fce6e894994762b33618d32dac6c35597a3ce7c4544b81d837",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.005476999998791143
+      },
+      {
+        "url": "https://static.klaviyo.com/onsite/js/Render.d0a731749328d9815d57.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 19250,
+        "remoteIPAddress": "151.101.38.133",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, stale-while-revalidate=10800",
+          "etag": "\"2b7cda6cfd3c0f2e81976483b0babb42\""
+        },
+        "responseBodyHash": "05f3b22ceaf611bcefeb126cb467df29be3a620e1d04b046a0b693f84d75abf9",
+        "initiators": [
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js"
+        ],
+        "time": 0.004985999999917112
+      },
+      {
+        "url": "https://app.pixelpop.co/api/client/instances",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "52.20.78.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://app.pixelpop.co/api/client/instances"
+        ],
+        "time": 0.26250399999844376
+      },
+      {
+        "url": "https://app.pixelpop.co/api/client/instances",
+        "method": "POST",
+        "type": "Fetch",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 602,
+        "remoteIPAddress": "52.20.78.240",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, must-revalidate",
+          "etag": "\"85522a49126200fd9484eccb1366e5d53dc81de8\""
+        },
+        "responseBodyHash": "bf47ab8be2536f44aeaa539267bd8dec04ac25bd465439fea6c5dcbd73dde046",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://s3.amazonaws.com/pixelpop/usercontent/scripts/731f2aa7-8a6d-4d19-8074-fa5056abd893/pixelpop.js?shop=graze-nl-live.myshopify.com"
+        ],
+        "time": 0.37680600000021514
+      },
+      {
+        "url": "https://telemetrics.klaviyo.com/v1/metric",
+        "method": "POST",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 204,
+        "size": 330,
+        "remoteIPAddress": "65.9.83.97",
+        "responseHeaders": {
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-53e1c676e346080489adfcb36af1739b2d334a9e308c6ff2d84d3de1bc4e6ce0.js",
+          "https://static.klaviyo.com/onsite/js/vendors~signup_forms.5ba263480cd26f50a1eb.js",
+          "https://static.klaviyo.com/onsite/js/sharedUtils.22225e8be8c773a192b5.js",
+          "https://static.klaviyo.com/onsite/js/signup_forms.33073015d3aa891c550b.js"
+        ],
+        "time": 0.19331900000179303
+      },
+      {
+        "url": "https://monorail-edge.shopifysvc.com/v1/produce",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://nl.graze.com/",
+        "status": 200,
+        "size": 474,
+        "remoteIPAddress": "104.198.248.251",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://nl.graze.com"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js",
+          "https://nl.graze.com/"
+        ],
+        "time": 0.10964199999943958
+      }
+    ]
+  }
+}

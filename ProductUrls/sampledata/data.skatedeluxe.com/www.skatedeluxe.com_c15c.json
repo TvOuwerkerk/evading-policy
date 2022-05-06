@@ -1,0 +1,683 @@
+{
+  "initialUrl": "https://www.skatedeluxe.com/",
+  "finalUrl": "https://www.skatedeluxe.com/nl",
+  "timeout": false,
+  "testStarted": 1640015361148,
+  "testFinished": 1640015376833,
+  "data": {
+    "links": "Internal links were collected and saved to data/Corpus-Head-crawl/data.skatedeluxe.com/links.www.skatedeluxe.com_c15c.json",
+    "requests": [
+      {
+        "url": "https://www.skatedeluxe.com/",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 301,
+        "remoteIPAddress": "46.163.82.238",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "sk8dlx_session_id=pnud612ojek47c7p8u0dbpfgl9; path=/; domain=.skatedeluxe.com; secure\nsk8dlx_last_session=pnud612ojek47c7p8u0dbpfgl9; expires=Fri, 18-Feb-2022 15:49:21 GMT; Max-Age=5184000; path=/; domain=.skatedeluxe.com; secure"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.skatedeluxe.com/nl",
+        "initiators": [],
+        "time": 0.09296600000016042
+      },
+      {
+        "url": "https://www.skatedeluxe.com/nl",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "status": 200,
+        "size": 443924,
+        "remoteIPAddress": "46.163.82.238",
+        "responseHeaders": {
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "pragma": "no-cache",
+          "set-cookie": "sk8dlx_session_id=pnud612ojek47c7p8u0dbpfgl9; path=/; domain=.skatedeluxe.com; secure\nsk8dlx_last_session=pnud612ojek47c7p8u0dbpfgl9; expires=Fri, 18-Feb-2022 15:49:21 GMT; Max-Age=5184000; path=/; domain=.skatedeluxe.com; secure"
+        },
+        "responseBodyHash": "207db02bd169e3047abe01b2c870b05fea874c168cc0e7eb188b156d43d90644",
+        "redirectedFrom": "https://www.skatedeluxe.com/",
+        "initiators": [],
+        "time": 0.5223630000000412
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-5905373-2",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 36719,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:49:21 GMT"
+        },
+        "responseBodyHash": "e549117574db393f383f27c281cf5501d179368a7f7f0e3a481f1982aeeb0f8a",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.023632000000361586
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=auto",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 1034,
+        "remoteIPAddress": "142.250.179.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:49:21 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "66c4fa3ab1b1c05bf3f7013670f0b65676102a0423e39373f68637a22ec27dc7",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.020552999998471932
+      },
+      {
+        "url": "https://www.skatedeluxe.com/static/images/icons/phone-white.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/nl",
+        "status": 200,
+        "size": 663,
+        "remoteIPAddress": "46.163.82.238",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"1cb-5d39302e8c71c\"",
+          "expires": "Mon, 20 Dec 2021 15:49:21 GMT"
+        },
+        "responseBodyHash": "6684098df15c416fc7ddd00423a8fa908492853b602512646798dec7b692a4a6",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.017789000001357635
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 20403,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "cache-control": "public, max-age=7200",
+          "expires": "Mon, 20 Dec 2021 17:39:45 GMT"
+        },
+        "responseBodyHash": "a1925038db769477ab74b4df34350c35688a795bb718727b0f4292a4a78a6210",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-5905373-2"
+        ],
+        "time": 0.016319999998813728
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-1012264636&l=dataLayer&cx=c",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 39671,
+        "remoteIPAddress": "172.217.168.200",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=900",
+          "expires": "Mon, 20 Dec 2021 15:49:21 GMT"
+        },
+        "responseBodyHash": "5b98bec3d0de3c6cecbd7596e296ef26a4f8d2f575de7e05b0771f41c8f406f2",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=UA-5905373-2"
+        ],
+        "time": 0.018283000001247274
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 14839,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "private, max-age=3600",
+          "etag": "12503521247758841375",
+          "expires": "Mon, 20 Dec 2021 15:49:21 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "9f4922667f15ec47709504b75c4433e7145f96078261bc9a11e386ca52fa18bb",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1012264636&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-5905373-2"
+        ],
+        "time": 0.03074199999900884
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/landing?gcs=G100&gcd=G100&rnd=1589453676.1640015362&url=https%3A%2F%2Fwww.skatedeluxe.com%2Fnl&gtm=2oac10",
+        "method": "POST",
+        "type": "Ping",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 548,
+        "remoteIPAddress": "142.250.179.130",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+          "pragma": "no-cache",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=AW-1012264636&l=dataLayer&cx=c",
+          "https://www.googletagmanager.com/gtag/js?id=UA-5905373-2"
+        ],
+        "time": 0.018275999998877523
+      },
+      {
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j96&a=1996983962&t=pageview&_s=1&dl=https%3A%2F%2Fwww.skatedeluxe.com%2Fnl&ul=en-us&de=UTF-8&dt=SKATEDELUXE%20Skateshop%20%7C%20Decks%2C%20Schoenen%2C%20Kleding%20%26%20meer&sd=24-bit&sr=800x600&vp=1440x812&je=0&_u=YEAAAQAB~&cid=1350861177.1640015362&tid=UA-5905373-2&_gid=1794131558.1640015362&gtm=2ouc10&gcs=G100&z=1845009606",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 55,
+        "remoteIPAddress": "142.250.179.174",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.01042799999777344
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9WlhyyTh89Y.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 8021,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:35:48 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "e33ffeb297810a3285c6885c10b7679aa5f253e2ee339a578ba671551fb7ba61",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=auto"
+        ],
+        "time": 0.06441400000039721
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14679,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Wed, 14 Dec 2022 00:15:06 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "3a8348f300caf3357692ebe284c2ac37964b7b973a357fba3e62e6c68f3ffcda",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=auto"
+        ],
+        "time": 0.05766899999798625
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 13850,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 11:33:17 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "06d796a2db62362aafdcf641ba6f0d749f9b9969a9a638ae795c69bacc22ee10",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=auto"
+        ],
+        "time": 0.06260400000246591
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14294,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 17:59:43 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "a7052e96569aff016ca5ec454bb37f16e620b300956e68f2b2db1bdb9b8e230b",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=auto"
+        ],
+        "time": 0.05872299999828101
+      },
+      {
+        "url": "https://cdn.skatedeluxe.com/images/content/campaigns/2112-xmas/guides/xmas-guide-background-desktop-large.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 69328,
+        "remoteIPAddress": "83.169.58.201",
+        "responseHeaders": {
+          "cache-control": "max-age=259200\npublic",
+          "etag": "\"619e1e68-10d76\"",
+          "expires": "Thu, 23 Dec 2021 15:49:22 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "3ca01636a762d3855c105699b3db42ee239d71e90311b8c587e5d7aa0d6deb1c",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.08243299999958253
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/lato/v20/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2",
+        "method": "GET",
+        "type": "Font",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://fonts.googleapis.com/",
+        "status": 200,
+        "size": 14891,
+        "remoteIPAddress": "142.250.179.131",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Sat, 17 Dec 2022 22:33:02 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "47a71824fa293dde9b5a99bab903b29cd84d214e49a19266eadba9d8aa8459f1",
+        "initiators": [
+          "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=auto"
+        ],
+        "time": 0.11126599999988684
+      },
+      {
+        "url": "https://cdn.skatedeluxe.com/images/content/campaigns/2112-xmas/xmas-bg-cl-textured.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 22193,
+        "remoteIPAddress": "83.169.58.201",
+        "responseHeaders": {
+          "cache-control": "max-age=259200\npublic",
+          "etag": "\"6194f23d-5558\"",
+          "expires": "Thu, 23 Dec 2021 15:49:22 GMT",
+          "pragma": "public"
+        },
+        "responseBodyHash": "c751a4cacd445a77c221662e1061d9624f394960fd5043c52b4abbf67b001cd8",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.01329500000065309
+      },
+      {
+        "url": "https://www.skatedeluxe.com/static/images/icons/sb-arrow.svg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/nl",
+        "status": 200,
+        "size": 483,
+        "remoteIPAddress": "46.163.82.238",
+        "responseHeaders": {
+          "cache-control": "max-age=0",
+          "etag": "\"117-5d39302e8c71c\"",
+          "expires": "Mon, 20 Dec 2021 15:49:22 GMT"
+        },
+        "responseBodyHash": "c2b5b25636b8d301a11ffd27bf17841cbbec6cbb39b7191428d4407ace04735d",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.015502999998716405
+      },
+      {
+        "url": "https://cdn.skatedeluxe.com/thumb/2hEv-GHFPMxp2wD49oVyVGFFSSs=/1080x681/content/startslides/polar/polar_211209.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 62383,
+        "remoteIPAddress": "83.169.58.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "etag": "\"4cf3afe5cba2e94942eff26b41990f13fbc5e064\"",
+          "expires": "Tue, 21 Dec 2021 15:49:22 GMT"
+        },
+        "responseBodyHash": "bebf96c82f34b25756d57148bdb445a42b8a17d1f5a030d8d9bec3f291b8e4f1",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.0530159999980242
+      },
+      {
+        "url": "https://cdn.skatedeluxe.com/thumb/zrUbv0ow23a4CCwPOH6s7VaTNRQ=/300x300/content/startslots/spitfire/spitfire_211209.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 15449,
+        "remoteIPAddress": "83.169.58.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "etag": "\"7521b7222aaa72f3c879fe2fc8e926e439263104\"",
+          "expires": "Tue, 21 Dec 2021 15:49:22 GMT"
+        },
+        "responseBodyHash": "471d154724de6ece79787729788caab6e3cf59afc36ca7718568c9318606b265",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.06738599999880535
+      },
+      {
+        "url": "https://cdn.skatedeluxe.com/thumb/Jw1cfX7-MpKC-kJS4Hs2KV0J5K8=/300x300/content/startslots/sk8dlx/gift-cards_211209.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 27545,
+        "remoteIPAddress": "83.169.58.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "etag": "\"b7b339ae29a4ac69dfbfbcd200290849fa0b786c\"",
+          "expires": "Tue, 21 Dec 2021 15:49:22 GMT"
+        },
+        "responseBodyHash": "5a5f7f7cb9d356645904416239cd29838c9083973f8b61b2bb46320232664737",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.08412500000122236
+      },
+      {
+        "url": "https://cdn.skatedeluxe.com/thumb/obrb2JGa1zYt9pijJhbmKvIZLK0=/1440x654/content/startslides/general/20190507.jpg",
+        "method": "GET",
+        "type": "Image",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 68161,
+        "remoteIPAddress": "83.169.58.201",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400,public",
+          "etag": "\"391d057ba613dcc64b2818e6aa34d442f073272b\"",
+          "expires": "Tue, 21 Dec 2021 15:49:22 GMT"
+        },
+        "responseBodyHash": "53192886d1f0d7b745929d5af59a725b7405fdd651f4bccaed18ec90ee455e00",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.08517399999982445
+      },
+      {
+        "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 1200,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"a8b627afb958156461c3c99288acacf5\""
+        },
+        "responseBodyHash": "2ae052d5fd6e01daee9b546c30e182308a083261ee6a1920c30625a2d81c5a49",
+        "initiators": [
+          "https://www.skatedeluxe.com/nl"
+        ],
+        "time": 0.01524500000232365
+      },
+      {
+        "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 7834,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"158ca99a1f63568e56a39abb980c9aa7\""
+        },
+        "responseBodyHash": "a9ddd05afc7b255840510e1d40fda6304d6dc5695fa2ef4c40424d1507d2cfe3",
+        "initiators": [
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.sync.bootstrap.min.js"
+        ],
+        "time": 0.003995999999460764
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=50664c0300006400051c421d",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 3100,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"5c4d16cf6c4476b9433878c31ba70b3f\""
+        },
+        "responseBodyHash": "9954976480ba2c51272fb1279dce290f1abea3c68f26881f7a4ff34a81aef620",
+        "initiators": [
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.0051050000001851
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50664c0300006400051c421d",
+        "method": "GET",
+        "type": "Document",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://www.skatedeluxe.com/",
+        "status": 200,
+        "size": 2403,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"245e5aadfdef53fea5fd3f574730c1d1\""
+        },
+        "responseBodyHash": "b1ce327d4b8e0f9e3c0d7a717bd98cf8ca6fb59c22d3bf5ce3a1131f8a43ca67",
+        "initiators": [
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.004189999999653082
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/main.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=50664c0300006400051c421d",
+        "status": 200,
+        "size": 25764,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"6b76f8af1d2fc8a8f3776586d71a0082\""
+        },
+        "responseBodyHash": "e7f92cd383880eb87b807ae32155b9107bb317f72bd700003b74fe01513e6ffd",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=50664c0300006400051c421d"
+        ],
+        "time": 0.005630999999993946
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/main.js",
+        "method": "GET",
+        "type": "Script",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50664c0300006400051c421d",
+        "status": 200,
+        "size": 16304,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "max-age=86400",
+          "etag": "\"c38e2cf0e9c87cc59fd72b959baa2fba\""
+        },
+        "responseBodyHash": "e33846443dda84eefef665f9a6a4cef60b75a30dddcd775bb45aee2202cda1b4",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50664c0300006400051c421d"
+        ],
+        "time": 0.007337999999435851
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustbox-data/5406e65db0d04a09e042d5fc?businessUnitId=50664c0300006400051c421d&locale=nl-NL",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50664c0300006400051c421d",
+        "status": 200,
+        "size": 905,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800",
+          "etag": "\"1c82a749ee6c6caf7a4bddbd8d96ff2c\""
+        },
+        "responseBodyHash": "99a8b79407a6821090ba497be82696b41e6ca28690748219bead3b7a9b7c4227",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.0063379999992321245
+      },
+      {
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=nl-NL&styleHeight=28px&styleWidth=100%25&theme=light&url=https%3A%2F%2Fwww.skatedeluxe.com%2Fnl&referrer=&userAgent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=50664c0300006400051c421d&widgetId=5406e65db0d04a09e042d5fc",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/index.html?templateId=5406e65db0d04a09e042d5fc&businessunitId=50664c0300006400051c421d",
+        "status": 204,
+        "size": 308,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/5406e65db0d04a09e042d5fc/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.042796999998245155
+      },
+      {
+        "url": "https://widget.trustpilot.com/trustbox-data/53aa8912dec7e10d38f59f36?businessUnitId=50664c0300006400051c421d&locale=nl-NL&reviewLanguages=nl&reviewStars=1%2C2%2C3%2C4%2C5&includeReviews=true&reviewsPerPage=15",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=50664c0300006400051c421d",
+        "status": 200,
+        "size": 2528,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "public,max-age=1800",
+          "etag": "\"03de25077d3e61c17b4165a036e9f671\""
+        },
+        "responseBodyHash": "65352da24d6691cce399e468a2068d4494dc3990cdf87a3420e406b2783bf1df",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.017631999999139225
+      },
+      {
+        "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=nl-NL&styleHeight=153px&styleWidth=100%25&theme=light&stars=1%2C2%2C3%2C4%2C5&reviewLanguages=nl&fontFamily=Lato&textColor=%231b272c&url=https%3A%2F%2Fwww.skatedeluxe.com%2Fnl&referrer=&userAgent=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=50664c0300006400051c421d&widgetId=53aa8912dec7e10d38f59f36",
+        "method": "GET",
+        "type": "XHR",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=50664c0300006400051c421d",
+        "status": 204,
+        "size": 310,
+        "remoteIPAddress": "52.222.139.113",
+        "responseHeaders": {
+          "cache-control": "no-store,no-cache",
+          "pragma": "no-cache"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.04188900000008289
+      },
+      {
+        "url": "https://fonts.googleapis.com/css?family=Lato:wght@400,500,700",
+        "method": "GET",
+        "type": "Stylesheet",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "referer": "https://widget.trustpilot.com/",
+        "status": 200,
+        "size": 403,
+        "remoteIPAddress": "142.250.179.202",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "expires": "Mon, 20 Dec 2021 15:49:22 GMT",
+          "timing-allow-origin": "*"
+        },
+        "responseBodyHash": "ede7740c48e80acc03b136a752e2581c6392845df27d352d6754a90af2235f3f",
+        "initiators": [
+          "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/main.js",
+          "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "time": 0.012257999998837477
+      }
+    ]
+  }
+}
