@@ -63,13 +63,12 @@ def get_data_files(directory_name: str, first_party=True):
                         or x.startswith(os.path.join(directory_path, 'admin'))
                         or x.startswith(os.path.join(directory_path, 'metadata')))]
 
-    valid_data_files = total_data_files
+    admin_file = os.path.basename(get_admin_file(os.path.basename(directory_path)))
+    crawled_domain = admin_file[6:-5]
     if first_party:
-        admin_file = os.path.basename(get_admin_file(os.path.basename(directory_path)))
-        crawled_domain = admin_file[6:-5]
-        for file in valid_data_files:
-            if crawled_domain not in os.path.basename(file):
-                valid_data_files.remove(file)
+        valid_data_files = [f for f in total_data_files if crawled_domain in os.path.basename(f)]
+    else:
+        valid_data_files = total_data_files
     return {'total': total_data_files, 'valid': valid_data_files}
 
 
