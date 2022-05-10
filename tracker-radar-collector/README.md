@@ -21,7 +21,7 @@ Additions:
 The `-j` option, assumes a particular scheme of saving data. This consists of a directory `./example-crawl/`, where `data.exampledomain.com/` directories are found. 
 Each of these data directories contains an `admin.exampledomain.com.json` file, where URLs are stored and kept, and all files gathered when crawling `exampledomain.com`.
 
-Using the `-j` command line option gives the crawler a file `example` with a list of domains. It will search for `./example-crawl/data.X.com/admin.X.com/json` files to gather URLs to crawl.
+Using the `-j` command line option gives the crawler a file `example` with a list of domains. It will search for `./example-crawl/data.*.com/admin.*.com.json` files to gather URLs to crawl.
 
 ## How do I use it?
 
