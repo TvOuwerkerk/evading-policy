@@ -38,6 +38,9 @@ ORGANISATION_LEAKAGE_COUNTER = AnalysisCounter()
 DOMAIN_BLOCK_COUNTER = AnalysisCounter()
 ORGANISATION_BLOCK_COUNTER = AnalysisCounter()
 
+LEAK_BLOCK_DOMAIN_LOOKUP = {}
+LEAK_BLOCK_ORG_LOOKUP = {}
+
 ENDPOINTS = ['google-analytics.com', 'facebook.com', 'doubleclick.net', 'google.com', 'google.nl', 'pinterest.com',
              'nr-data.net', 'twitter.com', 'googlesyndication.com', 'googleadservices.com', 'trustpilot.com', 't.co',
              'linkedin.com', 'gstatic.com', 'paypal.com', 'cookiebot.com', 'yotpo.com', 'bazaarvoice.com',
@@ -86,6 +89,14 @@ def get_counters():
             'orgblock': ORGANISATION_BLOCK_COUNTER}
 
 
+def get_leak_block_domain_lookup():
+    return LEAK_BLOCK_DOMAIN_LOOKUP
+
+
+def get_leak_block_org_lookup():
+    return LEAK_BLOCK_ORG_LOOKUP
+
+
 with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
     csv_reader = csv.reader(leakage_results_csv)
     domain_mapping: Dict[str, str] = get_domain_map()
@@ -114,7 +125,7 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
             return '' if 'yass/' in page else get_fld(page, fix_protocol=True)
 
         third_party_domains_used: List[str] = list(map(page_used_filter, third_party_pages_used))
-        third_party_domain_blocks = set(third_party_domains_used) - set(leakage_domains) - set(third_party_referrer_leaks)
+        domain_blocks = set(third_party_domains_used) - set(leakage_domains) - set(third_party_referrer_leaks)
 
         organisations_used = __domains_to_organisations(third_party_domains_used)
         organisation_referrer_leaks = __domains_to_organisations(third_party_referrer_leaks)
@@ -134,8 +145,11 @@ with open(RESULTS_CSV, 'r', newline='') as leakage_results_csv:
         PAGE_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_endpoints)
         DOMAIN_LEAKAGE_COUNTER.incr_counters(rank, cmp, leakage_domains)
         ORGANISATION_LEAKAGE_COUNTER.incr_counters(rank, cmp, list(organisation_bypasses))
-        DOMAIN_BLOCK_COUNTER.incr_counters(rank, cmp, list(third_party_domain_blocks))
+        DOMAIN_BLOCK_COUNTER.incr_counters(rank, cmp, list(domain_blocks))
         ORGANISATION_BLOCK_COUNTER.incr_counters(rank, cmp, list(organisation_blocks))
+
+        LEAK_BLOCK_DOMAIN_LOOKUP[domain] = {'leak': leakage_domains, 'block': domain_blocks}
+        LEAK_BLOCK_ORG_LOOKUP[domain] = {'leak': list(organisation_bypasses), 'block': organisation_blocks}
 
         for key in ENDPOINT_LEAKAGE_COUNTERS:
             # Some endpoint leakages have different, but similar paths, so these are trimmed.
