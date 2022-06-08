@@ -1,6 +1,6 @@
 ﻿# Evading the Policy
 
-This is a release of the data and code of Thomas van Ouwerkerk's Master's Thesis titled "*Evading the Policy: a measurement on referrer policy circumvention in 3k e-commerce websites.*"
+This is a release of the data and code of Thomas van Ouwerkerk's Master's Thesis titled "[*Evading the Policy: a measurement on referrer policy circumvention in 3k e-commerce websites.*](https://www.ru.nl/publish/pages/769526/tvouwerkerk-thesis-final.pdf)"
 
 ### Overview
 
